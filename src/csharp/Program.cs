@@ -1,1 +1,1 @@
-﻿FindJudge.Run();
+﻿FindAnagrams.Run();
