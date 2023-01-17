@@ -1,5 +1,7 @@
 # LeetCode
 
+### [1. Two Sum](https://leetcode.com/problems/two-sum/)
+
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ### [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
@@ -28,9 +30,13 @@
 
 ### [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
+### [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+
+### [394. Decode String](https://leetcode.com/problems/decode-string/)
 
 ### [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
@@ -46,6 +52,8 @@
 
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
+### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
+
 ### [704. Binary Search](https://leetcode.com/problems/binary-search/)
 
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
@@ -54,11 +62,15 @@
 
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
+### [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
+
 ### [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ### [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
 ### [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
+
+### [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
@@ -71,3 +83,5 @@
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
 ### [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
+
+

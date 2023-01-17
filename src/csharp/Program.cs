@@ -1,1 +1,1 @@
-﻿CharacterReplacement.Run();
+CharacterReplacement.Run();
