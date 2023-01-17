@@ -1,1 +1,1 @@
-﻿FindAnagrams.Run();
+﻿CharacterReplacement.Run();
