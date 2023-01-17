@@ -36,6 +36,8 @@
 
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
+### [394. Decode String](https://leetcode.com/problems/decode-string/)
+
 ### [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 ### [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
