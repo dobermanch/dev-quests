@@ -1,1 +1,1 @@
-﻿FindAnagrams.Run();
+﻿TwoSum.Run();

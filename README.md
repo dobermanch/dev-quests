@@ -1,5 +1,7 @@
 # LeetCode
 
+### [1. Two Sum](https://leetcode.com/problems/two-sum/)
+
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ### [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
