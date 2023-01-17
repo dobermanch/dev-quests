@@ -1,1 +1,1 @@
-﻿TwoSum.Run();
+﻿GetHint.Run();

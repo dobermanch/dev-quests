@@ -30,6 +30,8 @@
 
 ### [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
+### [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
