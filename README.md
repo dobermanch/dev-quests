@@ -56,6 +56,8 @@
 
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
+### [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
+
 ### [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ### [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)

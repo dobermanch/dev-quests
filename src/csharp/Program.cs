@@ -1,1 +1,1 @@
-﻿GetHint.Run();
+﻿BackspaceCompare.Run();
