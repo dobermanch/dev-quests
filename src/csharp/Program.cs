@@ -1,1 +1,1 @@
-﻿DecodeString.Run();
+﻿LastStoneWeight.Run();

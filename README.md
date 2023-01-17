@@ -66,6 +66,8 @@
 
 ### [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 
+### [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
+
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 ### [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
