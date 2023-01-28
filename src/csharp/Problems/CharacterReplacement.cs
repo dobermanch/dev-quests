@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/longest-repeating-character-replacement/
 public class CharacterReplacement {
 
     public static void Run(){
@@ -5,40 +6,35 @@ public class CharacterReplacement {
         //var d = Run("AAAA", 2); //4
         //var d = Run("ABAA", 0); //2
         //var d = Run("ABBB", 2); //2
+        //var d = Run("BAAAB", 2); //2
+        //var d = Run("ABAB", 2); //4
+        //var d = Run("AAAB", 0); //3
+        //var d = Run("EOEMQLLQTRQDDCOERARHGAAARRBKCCMFTDAQOLOKARBIJBISTGNKBQGKKTALSQNFSABASNOPBMMGDIOETPTDICRBOMBAAHINTFLH", 7); //11
+        //var d = Run("KRSCDCSONAJNHLBMDQGIFCPEKPOHQIHLTDIQGEKLRLCQNBOHNDQGHJPNDQPERNFSSSRDEQLFPCCCARFMDLHADJADAGNNSBNCJQOF", 4); //7
+        //QLHOSLDHOOBHFLPBSLHMSHMSRDOIFGGRTTSMKKRIENQNEECPLTJKCDMLRNNEPQAJDQFPEOGLKRBHSOMHONN TKLFHKNCHQLDBACMO
+        //var d = Run("QLHOSLDHOOBHFLPBSLHMSHMSRDOIFGGRTTSMKKRIENQNEECPLTJKCDMLRNNEPQAJDQFPEOGLKRBHSOMHONNTKLFHKNCHQLDBACMO", 7); //10
     }
 
     private static int Run(string s, int k) {
         var map = new int[26];
 
         var sum = 0;
-        var marker = s[0];
-        for (int i = 0; i < s.Length; i++)
-        {
-            map[s[i] - 'A']++;
+        var left = 0;
 
-            if (marker != s[i])
+        for (int right = 0; right < s.Length; right++)
+        {
+            map[s[right] - 'A']++;
+
+            sum = Math.Max(sum, map[s[right] - 'A']);
+
+            if (sum + k <= right - left)
             {
-                
+                map[s[left] - 'A']--;
+                left++;
             }
         }
 
-        return sum;
-    }
-
-    private static char Next(int[] map, int current)
-    {
-        var ch = 0;
-        var sum = 0;
-        for (int i = 0; i < map.Length - 1; i++)
-        {
-            if (map[i] < current && map[i] > sum)
-            {
-                sum = map[i];
-                ch = i;
-            }
-        }
-
-        return (char)(ch + 'A');
+        return s.Length - left;
     }
 }
 
