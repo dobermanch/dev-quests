@@ -1,1 +1,1 @@
-Multiply.Run();
+RemoveNthFromEnd.Run();
