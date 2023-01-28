@@ -2,6 +2,8 @@
 
 ### [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
+### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
