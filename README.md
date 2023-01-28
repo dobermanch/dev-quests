@@ -4,6 +4,8 @@
 
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
+### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
+
 ### [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 ### [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
