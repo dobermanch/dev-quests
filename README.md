@@ -84,6 +84,8 @@
 
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
+### [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)
+
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
 ### [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
