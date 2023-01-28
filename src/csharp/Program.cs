@@ -1,1 +1,1 @@
-CharacterReplacement.Run();
+IsHappy.Run();

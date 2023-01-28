@@ -22,6 +22,8 @@
 
 ### [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
+### [202. Happy Number](https://leetcode.com/problems/happy-number/)
+
 ### [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 ### [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
