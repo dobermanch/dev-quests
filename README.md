@@ -6,6 +6,8 @@
 
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
+### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
+
 ### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
 
 ### [62. Unique Paths](https://leetcode.com/problems/unique-paths/)

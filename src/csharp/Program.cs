@@ -1,1 +1,1 @@
-LongestCommonPrefix.Run();
+Multiply.Run();
