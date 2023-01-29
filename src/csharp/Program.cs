@@ -1,1 +1,1 @@
-RemoveNthFromEnd.Run();
+IsPalindrome.Run();
