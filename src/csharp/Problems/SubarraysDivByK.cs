@@ -12,30 +12,23 @@ public sealed class SubarraysDivByK : ProblemBase
 
     private static int Run(int[] nums, int k)
     {
-        var result = 0;
-        var sums = new int[nums.Length];
-        sums[0] = nums[0];
-        for (int i = 1; i < nums.Length; i++)
-        {
-            sums[i] = sums[i - 1] + nums[i];
-        }
+        var map = new int[k];
+        map[0] = 1;
 
+        int count = 0;
+        int sum = 0;
         for (int i = 0; i < nums.Length; i++)
         {
-            if (sums[i] % k == 0)
+            sum += nums[i];
+            int mod = sum % k;
+            if (mod < 0)
             {
-                result++;
+                mod += k;
             }
 
-            for (int j = i + 1; j < nums.Length; j++)
-            {
-                if ((sums[j] - sums[i]) % k == 0)
-                {
-                    result++;
-                }
-            }
+            count += ++map[mod] - 1;
         }
 
-        return result;
+        return count;
     }
 }

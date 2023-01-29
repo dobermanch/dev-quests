@@ -1,3 +1,3 @@
 using LeetCode.Problems;
 
-IsPalindrome.Run();
+SubarraysDivByK.Run();

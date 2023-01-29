@@ -1,6 +1,6 @@
 # Overview
 
-My solutions for [LeetCode](https://leetcode.com/) problems.
+My solutions to [LeetCode](https://leetcode.com/) problems.
 
 ## Problems
 
@@ -235,6 +235,12 @@ Code: [C#](/src/csharp/Problems/MiddleNode.cs)
 
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)  
+
+
+### [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
+
+Tags: Array, Hash Table, Prefix Sum  
+Code: [C#](/src/csharp/Problems/SubarraysDivByK.cs)  
 
 
 ### [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
