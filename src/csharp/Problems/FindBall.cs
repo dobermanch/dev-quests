@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/where-will-the-ball-fall/
+
 namespace LeetCode.Problems;
 
 public sealed class FindBall : ProblemBase

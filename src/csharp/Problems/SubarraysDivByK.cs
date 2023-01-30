@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/subarray-sums-divisible-by-k/
+
 namespace LeetCode.Problems;
 
 public sealed class SubarraysDivByK : ProblemBase

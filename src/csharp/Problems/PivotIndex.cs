@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/find-pivot-index/
+
 namespace LeetCode.Problems;
 
 public sealed class PivotIndex : ProblemBase

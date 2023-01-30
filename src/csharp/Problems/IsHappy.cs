@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/happy-number/
+
 namespace LeetCode.Problems;
 
 public sealed class IsHappy : ProblemBase

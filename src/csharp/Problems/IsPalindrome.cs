@@ -1,7 +1,5 @@
 //https://leetcode.com/problems/palindrome-linked-list/
 
-using LeetCode.Models;
-
 namespace LeetCode.Problems;
 
 public sealed class IsPalindrome : ProblemBase

@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/backspace-string-compare/
+
 namespace LeetCode.Problems;
 
 public sealed class BackspaceCompare : ProblemBase

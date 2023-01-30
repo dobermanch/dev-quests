@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/longest-repeating-character-replacement/
+
 namespace LeetCode.Problems;
 
 public sealed class CharacterReplacement : ProblemBase

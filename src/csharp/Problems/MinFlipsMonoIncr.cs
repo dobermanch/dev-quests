@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/flip-string-to-monotone-increasing/description/
+
 namespace LeetCode.Problems;
 
 public sealed class MinFlipsMonoIncr : ProblemBase

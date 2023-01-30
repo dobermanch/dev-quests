@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/bulls-and-cows/description
+
 namespace LeetCode.Problems;
 
 public sealed class GetHint : ProblemBase

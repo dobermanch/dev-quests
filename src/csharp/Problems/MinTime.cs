@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/
+
 namespace LeetCode.Problems;
 
 public sealed class MinTime : ProblemBase

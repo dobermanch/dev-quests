@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 namespace LeetCode.Problems;
 
 public sealed class MaxProfit : ProblemBase

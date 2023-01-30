@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/longest-common-prefix
+
 namespace LeetCode.Problems;
 
 public sealed class LongestCommonPrefix : ProblemBase

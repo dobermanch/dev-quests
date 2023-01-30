@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/fizz-buzz/
+
 namespace LeetCode.Problems;
 
 public sealed class FizzBuzz : ProblemBase

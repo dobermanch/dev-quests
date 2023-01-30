@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/first-bad-version/
+
 namespace LeetCode.Problems;
 
 public sealed class FirstBadVersion : ProblemBase

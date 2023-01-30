@@ -1,7 +1,5 @@
 //https://leetcode.com/problems/multiply-strings/
 
-using System.Text;
-
 namespace LeetCode.Problems;
 
 public sealed class Multiply : ProblemBase

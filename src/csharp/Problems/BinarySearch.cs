@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/binary-search/
+
 namespace LeetCode.Problems;
 
 public sealed class BinarySearch : ProblemBase
