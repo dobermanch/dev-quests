@@ -1,11 +1,15 @@
-public class SubarraysDivByK {
+namespace LeetCode.Problems;
 
-    public static void Run(){
-        var d = Run(new int[]{4,5,0,-2,-3,1}, 5);
+public sealed class SubarraysDivByK : ProblemBase
+{
+    public static void Run()
+    {
+        var d = Run(new int[] { 4, 5, 0, -2, -3, 1 }, 5);
         //var d = Run(new int[]{5}, 9);
     }
 
-    private static int Run(int[] nums, int k) {
+    private static int Run(int[] nums, int k)
+    {
         var result = 0;
         var sums = new int[nums.Length];
         sums[0] = nums[0];

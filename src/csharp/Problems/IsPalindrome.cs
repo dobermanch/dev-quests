@@ -1,7 +1,13 @@
 //https://leetcode.com/problems/palindrome-linked-list/
-public class IsPalindrome {
 
-    public static void Run(){
+using LeetCode.Models;
+
+namespace LeetCode.Problems;
+
+public sealed class IsPalindrome : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(2, new ListNode(1)))))));
         //var d = Run(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1)))));
         var d = Run(new ListNode(1, new ListNode(2)));
@@ -11,7 +17,7 @@ public class IsPalindrome {
         //var d = Run(new ListNode(1));
 
         //var d = Run(new ListNode(1, new ListNode(2, new ListNode(2))));
-       // var d = Run(new ListNode(1, new ListNode(2, new ListNode(1))));
+        // var d = Run(new ListNode(1, new ListNode(2, new ListNode(1))));
     }
 
     private static bool Run(ListNode head)
@@ -20,7 +26,7 @@ public class IsPalindrome {
         var slow = head;
         ListNode reverse = null;
 
-        while(fast?.next != null)
+        while (fast?.next != null)
         {
             fast = fast.next.next;
 
@@ -35,7 +41,7 @@ public class IsPalindrome {
             slow = slow.next;
         }
 
-        while(slow != null)
+        while (slow != null)
         {
             if (slow.val != reverse.val)
             {

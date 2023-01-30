@@ -1,14 +1,19 @@
 //https://leetcode.com/problems/restore-ip-addresses/description/
+
 using System.Text;
 
-public class RestoreIpAddresses {
-    public static void Run(){
+namespace LeetCode.Problems;
+
+public sealed class RestoreIpAddresses : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run("25525511135");
         var d = Run("101023");
         //var d = Run("0000");
     }
 
-    private static IList<string> Run(string s) 
+    private static IList<string> Run(string s)
     {
         var result = new List<string>();
         Find(s.AsSpan(), 0, new List<string>(), result);
@@ -55,7 +60,7 @@ public class RestoreIpAddresses {
             if (temp.Count >= 3 && temp[2] < index)
             {
                 string buffer = null;
-                for(var i = 0; i < raw.Length; i++)
+                for (var i = 0; i < raw.Length; i++)
                 {
                     if (temp.Contains(i))
                     {
@@ -68,7 +73,8 @@ public class RestoreIpAddresses {
 
             return;
         }
-        else if (temp.Count > 3) {
+        else if (temp.Count > 3)
+        {
             return;
         }
 
@@ -100,7 +106,7 @@ public class RestoreIpAddresses {
             if (temp.Count == 4)
             {
                 var buffer = new StringBuilder(raw.ToString());
-                for(var i = 2; i >= 0; i--)
+                for (var i = 2; i >= 0; i--)
                 {
                     buffer.Insert(temp[i], ".");
                 }
@@ -131,4 +137,3 @@ public class RestoreIpAddresses {
         }
     }
 }
-

@@ -1,21 +1,26 @@
 //https://leetcode.com/problems/decode-string/
-using System.Text;
-public class DecodeString {
 
-    public static void Run(){
+using System.Text;
+
+namespace LeetCode.Problems;
+
+public sealed class DecodeString : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run("3[a]2[bc]"); // aaabcbc
         //var d = Run("3[a2[c]]3[f]"); // accaccacc
         var d = Run("3[a10[bc]]"); // abcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbc
         //var d = Run("3[z]2[2[y]pq4[2[jk]e1[f]]]ef"); //zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef
     }
 
-    private static string Run(string s) 
+    private static string Run(string s)
     {
         var numberStack = new Stack<int>();
         var textStack = new Stack<string>();
         int number = 0;
         var text = new StringBuilder();
-        foreach(var c in s)
+        foreach (var c in s)
         {
             if (char.IsDigit(c))
             {
@@ -40,7 +45,7 @@ public class DecodeString {
             {
                 var repeat = numberStack.Pop();
                 var temp = text;
-                for(var i = 1; i < repeat; i++)
+                for (var i = 1; i < repeat; i++)
                 {
                     text.Append(temp);
                 }
@@ -55,13 +60,13 @@ public class DecodeString {
         return text.ToString();
     }
 
-//Option 1
-    private static string Run1(string s) 
+    //Option 1
+    private static string Run1(string s)
     {
         var stack = new Stack<string>();
         string number = null;
         string text = null;
-        foreach(var c in s)
+        foreach (var c in s)
         {
             if (char.IsDigit(c))
             {
@@ -85,7 +90,7 @@ public class DecodeString {
             {
                 var repeat = int.Parse(stack.Pop());
                 var temp = text;
-                for(var i = 1; i < repeat; i++)
+                for (var i = 1; i < repeat; i++)
                 {
                     text += temp;
                 }
@@ -100,4 +105,3 @@ public class DecodeString {
         return text;
     }
 }
-

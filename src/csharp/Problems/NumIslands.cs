@@ -1,42 +1,47 @@
 //https://leetcode.com/problems/number-of-islands/description
-public class NumIslands {
 
-    public static void Run(){
-        var d = Run(new char[][] { 
-                new [] {'1','1','0','0','0'},
-                new [] {'1','1','0','0','0'},
-                new [] {'0','0','1','0','0'},
-                new [] {'0','0','0','1','1'}
-            });
+namespace LeetCode.Problems;
+
+public sealed class NumIslands : ProblemBase
+{
+    public static void Run()
+    {
+        var d = Run(new char[][] {
+            new [] {'1','1','0','0','0'},
+            new [] {'1','1','0','0','0'},
+            new [] {'0','0','1','0','0'},
+            new [] {'0','0','0','1','1'}
+        });
     }
-//OPTION 1
-    private static int Run(char[][] grid) 
+
+    //OPTION 1
+    private static int Run(char[][] grid)
     {
         var result = 0;
         var height = grid.Length;
         var width = grid[0].Length;
         var visited = new bool[height, width];
 
-        for(var y = 0; y < grid.Length; y++)
+        for (var y = 0; y < grid.Length; y++)
         {
-            for(var x = 0; x < grid[y].Length; x++)
+            for (var x = 0; x < grid[y].Length; x++)
             {
-                if (visited[y,x] || grid[y][x] == '0')
+                if (visited[y, x] || grid[y][x] == '0')
                 {
-                    visited[y,x] = true;
+                    visited[y, x] = true;
                     continue;
                 }
 
                 var stack = new Stack<(int x, int y)>();
-                stack.Push((x,y));
+                stack.Push((x, y));
                 (int x, int y) current;
-                while(stack.Any()) 
+                while (stack.Any())
                 {
                     current = stack.Pop();
 
                     if (current.y < 0 || current.y >= height
-                        || current.x < 0 || current.x >= width
-                        || visited[current.y, current.x])
+                                      || current.x < 0 || current.x >= width
+                                      || visited[current.y, current.x])
                     {
                         continue;
                     }
@@ -61,7 +66,7 @@ public class NumIslands {
         return result;
     }
 
-//OPTION 1
+    //OPTION 1
     // private static int Run(char[][] grid)
     // {
     //     var result = 0;

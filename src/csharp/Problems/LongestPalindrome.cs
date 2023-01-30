@@ -1,20 +1,24 @@
-public class LongestPalindrome {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class LongestPalindrome : ProblemBase
+{
+    public static void Run()
+    {
         var d = Run("zbccccdd");
     }
 
-    private static int Run(string s) {
+    private static int Run(string s)
+    {
         var map = new int[58];
 
-        for (var i = 0; i < s.Length; i++) 
+        for (var i = 0; i < s.Length; i++)
         {
             map[s[i] - 'A']++;
         }
 
         var sum = 0;
         var addOne = false;
-        for (var i = 0; i < map.Length; i++) 
+        for (var i = 0; i < map.Length; i++)
         {
             if (map[i] % 2 == 0)
             {
@@ -58,4 +62,3 @@ public class LongestPalindrome {
         // return addOne ? ++sum : sum;
     }
 }
-

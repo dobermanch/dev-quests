@@ -1,5 +1,7 @@
-public class IsSubsequence {
+namespace LeetCode.Problems;
 
+public sealed class IsSubsequence : ProblemBase
+{
     public static void Run(){
         var d = Run("abc", "ahbgdc");
     }

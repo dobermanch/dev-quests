@@ -1,13 +1,17 @@
 //https://leetcode.com/problems/unique-paths/description
-class UniquePaths {
 
-    public static void Run(){
+namespace LeetCode.Problems;
+
+public sealed class UniquePaths : ProblemBase
+{
+    public static void Run()
+    {
         //var result = Run(3,2);
         //var result = Run(3,7);
-        var result = Run4(3,3);
+        var result = Run4(3, 3);
     }
 
-//Option 4
+    //Option 4
     private static int Run4(int m, int n)
     {
         var path = new int[m, n];
@@ -33,7 +37,7 @@ class UniquePaths {
     }
 
 
-//Option 3
+    //Option 3
     private static int Run3(int m, int n)
     {
         var path = new int[m, n];
@@ -49,7 +53,7 @@ class UniquePaths {
         return path[m - 1, n - 1] + 1;
     }
 
-//Option 2
+    //Option 2
     private static int Run2(int m, int n)
     {
         var path = new int[m, n];
@@ -73,10 +77,10 @@ class UniquePaths {
             }
         }
 
-        return path[m - 1,n - 1];
+        return path[m - 1, n - 1];
     }
 
-//Option 1
+    //Option 1
     private static int Run1(int m, int n)
     {
         return Path(0, 0, m - 1, n - 1);

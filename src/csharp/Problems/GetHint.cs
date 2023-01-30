@@ -1,7 +1,10 @@
 //https://leetcode.com/problems/bulls-and-cows/description
-public class GetHint {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class GetHint : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run("1807", "7810"); // 1A3B
         //var d = Run("1123", "0111"); // 1A1B
         //var d = Run("1122", "2211"); // 1A1B
@@ -15,7 +18,7 @@ public class GetHint {
 
         var bulls = 0;
         var cows = 0;
-        for(var i = 0; i < guess.Length; i++)
+        for (var i = 0; i < guess.Length; i++)
         {
             if (guess[i] == secret[i])
             {
@@ -28,7 +31,7 @@ public class GetHint {
             }
         }
 
-        for(var i = 0; i < map.GetLength(0); i++)
+        for (var i = 0; i < map.GetLength(0); i++)
         {
             cows += Math.Min(map[i, 0], map[i, 1]);
         }

@@ -1,8 +1,13 @@
 //https://leetcode.com/problems/multiply-strings/
-using System.Text;
-public class Multiply {
 
-    public static void Run(){
+using System.Text;
+
+namespace LeetCode.Problems;
+
+public sealed class Multiply : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run("0", "12"); // 0
         //var d = Run("3", "4"); // 12
         //var d = Run("10", "12"); // 120
@@ -17,14 +22,14 @@ public class Multiply {
         //var d = Run("498828660196", "840477629533"); // 419254329864656431168468
     }
 
-//Option 2
-    private static string Run(string num1, string num2) 
+    //Option 2
+    private static string Run(string num1, string num2)
     {
         var buffer = new int[num1.Length + num2.Length];
-        for(var i = num2.Length - 1; i >= 0; i--)
+        for (var i = num2.Length - 1; i >= 0; i--)
         {
             var ch = num2[i] - '0';
-            for(var j = num1.Length - 1; j >= 0; j--)
+            for (var j = num1.Length - 1; j >= 0; j--)
             {
                 var accum = ch * (num1[j] - '0') + buffer[i + j + 1];
                 buffer[i + j + 1] = accum % 10;
@@ -33,7 +38,7 @@ public class Multiply {
         }
 
         var result = new StringBuilder();
-        foreach(var ch in buffer)
+        foreach (var ch in buffer)
         {
             if (result.Length != 0 || ch != 0)
             {
@@ -44,8 +49,8 @@ public class Multiply {
         return result.Length == 0 ? "0" : result.ToString();
     }
 
-//Option 1 (https://www.youtube.com/watch?v=LgJ5bNHBbD4&t=478s)
-    private static string Run1(string num1, string num2) 
+    //Option 1 (https://www.youtube.com/watch?v=LgJ5bNHBbD4&t=478s)
+    private static string Run1(string num1, string num2)
     {
         if (num1 == "0" || num2 == "0")
         {
@@ -82,7 +87,7 @@ public class Multiply {
 
                 var startT = start;
                 var endT = end;
-                while(startT <= endT)
+                while (startT <= endT)
                 {
                     startT++;
                     endT--;

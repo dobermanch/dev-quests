@@ -1,7 +1,10 @@
 //https://leetcode.com/problems/longest-repeating-character-replacement/
-public class CharacterReplacement {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class CharacterReplacement : ProblemBase
+{
+    public static void Run()
+    {
         var d = Run("AABABBA", 1); //4
         //var d = Run("AAAA", 2); //4
         //var d = Run("ABAA", 0); //2
@@ -15,7 +18,8 @@ public class CharacterReplacement {
         //var d = Run("QLHOSLDHOOBHFLPBSLHMSHMSRDOIFGGRTTSMKKRIENQNEECPLTJKCDMLRNNEPQAJDQFPEOGLKRBHSOMHONNTKLFHKNCHQLDBACMO", 7); //10
     }
 
-    private static int Run(string s, int k) {
+    private static int Run(string s, int k)
+    {
         var map = new int[26];
 
         var sum = 0;
@@ -37,4 +41,3 @@ public class CharacterReplacement {
         return s.Length - left;
     }
 }
-

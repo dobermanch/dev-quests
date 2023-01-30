@@ -1,6 +1,11 @@
-public class RemoveNthFromEnd {
+using LeetCode.Models;
 
-    public static void Run(){
+namespace LeetCode.Problems;
+
+public sealed class RemoveNthFromEnd : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))), 2);
         //var d = Run(new ListNode(1), 1);
         //var d = Run(new ListNode(1, new ListNode(2)), 1);
@@ -8,14 +13,14 @@ public class RemoveNthFromEnd {
         //var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5,new ListNode(6,new ListNode(7,new ListNode(8,new ListNode(9,new ListNode(10)))))))))), 3);
     }
 
-// Option 1
+    // Option 1
     private static ListNode Run(ListNode head, int n)
     {
         ListNode fast = head;
         ListNode slow = head;
 
         var index = 0;
-        while(fast.next != null)
+        while (fast.next != null)
         {
             fast = fast.next;
             if (++index > n)
@@ -34,13 +39,13 @@ public class RemoveNthFromEnd {
         return head;
     }
 
-// Option 1
+    // Option 1
     private static ListNode Run1(ListNode head, int n)
     {
         var temp = new List<ListNode>();
 
         var current = head;
-        while(current != null)
+        while (current != null)
         {
             temp.Add(current);
             current = current.next;

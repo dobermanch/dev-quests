@@ -1,6 +1,11 @@
-public class IsValidBST {
+using LeetCode.Models;
 
-    public static void Run() {
+namespace LeetCode.Problems;
+
+public sealed class IsValidBST : ProblemBase
+{
+    public static void Run()
+    {
         //var node = new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)));
         //var node = new TreeNode(10, new TreeNode(5), new TreeNode(15, new TreeNode(6), new TreeNode(20)));
         //var node = new TreeNode(3, new TreeNode(1, new TreeNode(0), new TreeNode(2, null, new TreeNode(3))), new TreeNode(5, new TreeNode(4), new TreeNode(6)));
@@ -9,17 +14,17 @@ public class IsValidBST {
         var d = Run(node);
     }
 
-    private static bool Run(TreeNode root) 
+    private static bool Run(TreeNode root)
     {
         var stack = new Stack<(int? left, int? right, TreeNode node)>();
         stack.Push((null, null, root));
-        while(stack.Count > 0)
+        while (stack.Count > 0)
         {
             var current = stack.Pop();
 
-            if (current.node.right != null) 
+            if (current.node.right != null)
             {
-                if (current.node.right.val <= current.node.val || (current.left != null && current.node.right.val >= current.left))
+                if (current.node.right.val <= current.node.val || current.left != null && current.node.right.val >= current.left)
                 {
                     return false;
                 }
@@ -29,7 +34,7 @@ public class IsValidBST {
 
             if (current.node.left != null)
             {
-                if (current.node.left.val >= current.node.val || (current.right != null && current.node.left.val <= current.right))
+                if (current.node.left.val >= current.node.val || current.right != null && current.node.left.val <= current.right)
                 {
                     return false;
                 }
@@ -41,4 +46,3 @@ public class IsValidBST {
         return true;
     }
 }
-

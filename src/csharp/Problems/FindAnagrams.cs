@@ -1,11 +1,15 @@
-public class FindAnagrams {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class FindAnagrams : ProblemBase
+{
+    public static void Run()
+    {
         var d = Run("cbaebabacd", "abc");
     }
 
-//Option2
-    private static IList<int> Run(string s, string p) {
+    //Option2
+    private static IList<int> Run(string s, string p)
+    {
         if (p.Length > s.Length)
         {
             return Array.Empty<int>();
@@ -38,8 +42,9 @@ public class FindAnagrams {
         return result;
     }
 
-//Option1
-    private static IList<int> Run1(string s, string p) {
+    //Option1
+    private static IList<int> Run1(string s, string p)
+    {
         if (p.Length > s.Length)
         {
             return Array.Empty<int>();
@@ -80,4 +85,3 @@ public class FindAnagrams {
         return result;
     }
 }
-

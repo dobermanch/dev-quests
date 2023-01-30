@@ -1,6 +1,11 @@
-public class DetectCycle {
+using LeetCode.Models;
 
-    public static void Run(){
+namespace LeetCode.Problems;
+
+public sealed class DetectCycle : ProblemBase
+{
+    public static void Run()
+    {
         var tail = new ListNode(5);
         var head = new ListNode(2, new ListNode(3, new ListNode(4, tail)));
         var list = new ListNode(1, head);
@@ -9,15 +14,19 @@ public class DetectCycle {
         var d = Run(list);
     }
 
-    private static ListNode Run(ListNode head) {
+    private static ListNode Run(ListNode head)
+    {
         var slow = head;
         var fast = head;
 
-        while (fast != null && fast.next != null) {
+        while (fast != null && fast.next != null)
+        {
             slow = slow.next;
             fast = fast.next.next;
-            if (slow == fast) {
-                while (head != slow) {
+            if (slow == fast)
+            {
+                while (head != slow)
+                {
                     head = head.next;
                     slow = slow.next;
                 }
@@ -42,4 +51,3 @@ public class DetectCycle {
         // return null;
     }
 }
-

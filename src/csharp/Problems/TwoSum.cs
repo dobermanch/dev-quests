@@ -1,12 +1,15 @@
-public class TwoSum {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class TwoSum : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run(new [] {2,7,11,15}, 9);
         //var d = Run(new [] {3,2,4}, 6);
-        var d = Run(new [] {1,1,1,1,1,4,1,1,1,1,1,7,1,1,1,1,1}, 11);
+        var d = Run(new[] { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 }, 11);
     }
 
-//Option 2
+    //Option 2
     private static int[] Run(int[] nums, int target)
     {
         var map = new Dictionary<int, int>();
@@ -14,7 +17,7 @@ public class TwoSum {
         {
             if (map.TryGetValue(target - nums[i], out var index))
             {
-                return new [] { index, i };
+                return new[] { index, i };
             }
             else
             {
@@ -25,7 +28,7 @@ public class TwoSum {
         return Array.Empty<int>();
     }
 
-//Option 1
+    //Option 1
     private static int[] Run1(int[] nums, int target)
     {
         for (var i = 0; i < nums.Length; i++)
@@ -34,7 +37,7 @@ public class TwoSum {
             {
                 if (nums[i] + nums[j] == target)
                 {
-                    return new [] { i , j };
+                    return new[] { i, j };
                 }
             }
         }

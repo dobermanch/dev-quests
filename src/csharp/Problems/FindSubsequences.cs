@@ -1,13 +1,16 @@
 //https://leetcode.com/problems/non-decreasing-subsequences/description/
-using System.Collections;
-public class FindSubsequences {
 
-    public static void Run(){
-        var d = Run(new int[] {4,6,7,7});
+namespace LeetCode.Problems;
+
+public sealed class FindSubsequences : ProblemBase
+{
+    public static void Run()
+    {
+        var d = Run(new int[] { 4, 6, 7, 7 });
         //var d = Run(new int[] {4,4,3,2,1});
     }
 
-    private static IList<IList<int>> Run(int[] nums) 
+    private static IList<IList<int>> Run(int[] nums)
     {
         var result = new List<IList<int>>();
 
@@ -29,7 +32,7 @@ public class FindSubsequences {
         }
 
         var visited = new HashSet<int>();
-        for (var next = index; next < nums.Length; next++) 
+        for (var next = index; next < nums.Length; next++)
         {
             if (visited.Contains(nums[next]) || res.Any() && res.Last() > nums[next])
             {

@@ -1,11 +1,15 @@
-public class BinarySearch {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class BinarySearch : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run(new int[]{-1,0,3,5,9,12}, 9);
-        var d = Run(new int[]{-1,0,3,5,9,12}, 2);
+        var d = Run(new int[] { -1, 0, 3, 5, 9, 12 }, 2);
     }
 
-    private static int Run(int[] nums, int target) {
+    private static int Run(int[] nums, int target)
+    {
         var start = 0;
         var end = nums.Length - 1;
         do
@@ -15,7 +19,7 @@ public class BinarySearch {
             {
                 return mid;
             }
-            else if (nums[mid] > target) 
+            else if (nums[mid] > target)
             {
                 end = mid - 1;
             }

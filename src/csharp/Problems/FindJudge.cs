@@ -1,10 +1,13 @@
 //https://leetcode.com/problems/find-the-town-judge/description/
-public class FindJudge {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class FindJudge : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run(3, new int[][] { new [] { 1, 3 }, new [] { 2, 3 }});
         //var d = Run(2, new int[][] { new [] { 1, 2 }});
-        var d = Run(3, new int[][] { new [] { 1, 3 }, new [] { 2, 3 }, new [] { 3, 1 }});
+        var d = Run(3, new int[][] { new[] { 1, 3 }, new[] { 2, 3 }, new[] { 3, 1 } });
     }
 
     private static int Run(int n, int[][] trust)

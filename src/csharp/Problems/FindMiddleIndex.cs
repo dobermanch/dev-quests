@@ -1,7 +1,10 @@
-public class FindMiddleIndex {
+namespace LeetCode.Problems;
 
-    public static void Run(){
-        var nums = new []{1,7,3,6,5,6};
+public sealed class FindMiddleIndex : ProblemBase
+{
+    public static void Run()
+    {
+        var nums = new[] { 1, 7, 3, 6, 5, 6 };
         //var nums = new []{1,2,3};
         //var nums = new []{2,1,-1};
         //var nums = new []{-1,-1,-1,0,1,1};
@@ -9,16 +12,19 @@ public class FindMiddleIndex {
         var d = Run(nums);
     }
 
-    private static int Run(int[] nums) {
+    private static int Run(int[] nums)
+    {
         var leftSum = 0;
         var rightSum = 0;
         var index = 0;
 
-        for (var i = 1; i < nums.Length; i++) {
+        for (var i = 1; i < nums.Length; i++)
+        {
             rightSum += nums[i];
         }
 
-        while (leftSum != rightSum && index < nums.Length - 1) {
+        while (leftSum != rightSum && index < nums.Length - 1)
+        {
             leftSum += nums[index];
             rightSum -= nums[index + 1];
             index++;

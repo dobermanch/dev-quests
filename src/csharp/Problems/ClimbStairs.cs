@@ -1,7 +1,11 @@
 //https://leetcode.com/problems/climbing-stairs/description
-class ClimbStairs {
 
-    public static int Run(){
+namespace LeetCode.Problems;
+
+public sealed class ClimbStairs : ProblemBase
+{
+    public static int Run()
+    {
         var result = Fib(10);
 
         return result;
@@ -16,7 +20,7 @@ class ClimbStairs {
 
         var t0 = 0;
         var t1 = 1;
-        while(n > 0)
+        while (n > 0)
         {
             var temp = t1;
             t1 = t1 + t0;
@@ -26,4 +30,3 @@ class ClimbStairs {
         return t1;
     }
 }
-

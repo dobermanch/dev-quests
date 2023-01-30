@@ -1,10 +1,16 @@
 //https://leetcode.com/problems/palindrome-partitioning/description/
-public class Partition {
-    public static void Run(){
+
+namespace LeetCode.Problems;
+
+public sealed class Partition : ProblemBase
+{
+    public static void Run()
+    {
         var d = Run("aab");
     }
 
-    private static IList<IList<string>> Run(string s) {
+    private static IList<IList<string>> Run(string s)
+    {
         var result = new List<IList<string>>();
         Find(s, 0, new List<string>(), result);
         return result;
@@ -12,13 +18,13 @@ public class Partition {
 
     private static void Find(ReadOnlySpan<char> data, int index, IList<string> temp, IList<IList<string>> result)
     {
-        if (index == data.Length) 
+        if (index == data.Length)
         {
             result.Add(temp.ToArray());
             return;
         }
 
-        for(int i = index; i < data.Length; i++)
+        for (int i = index; i < data.Length; i++)
         {
             var pol = data[index..(i + 1)];
             if (IsPalindrome(pol))
@@ -36,9 +42,8 @@ public class Partition {
     {
         int i = -1;
         int length = str.Length / 2;
-        while (++i < length && str[i] == str[^(i + 1)]);
+        while (++i < length && str[i] == str[^(i + 1)]) ;
 
         return i == length;
     }
 }
-

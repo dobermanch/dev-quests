@@ -1,20 +1,25 @@
- public class TreeNode {
-     public int val;
-     public TreeNode left;
-     public TreeNode right;
-     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
-         this.val = val;
-         this.left = left;
-         this.right = right;
-     }
+namespace LeetCode.Models;
 
-    //  public static TreeNode? Create(params int?[] data)
-    //  {
-    //     return Create(data);
-    //  }
+/// <summary>
+/// LeetCode version. DO NOT rename properties
+/// </summary>
+public class TreeNode
+{
+    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+    {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
 
-     public static TreeNode? Create(params int?[] data)
-     {
+    public int val { get; set; }
+
+    public TreeNode left { get; set; }
+
+    public TreeNode right { get; set; }
+
+    public static TreeNode? Create(params int?[] data)
+    {
         if (data == null || !data.Any())
         {
             return null;
@@ -41,5 +46,5 @@
         }
 
         return root;
-     }
- }
+    }
+}

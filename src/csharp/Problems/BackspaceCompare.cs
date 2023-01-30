@@ -1,7 +1,10 @@
 //https://leetcode.com/problems/backspace-string-compare/
-public class BackspaceCompare {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class BackspaceCompare : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run("ab#c", "ad#c"); // true
         //var d = Run("ab##", "c#d#"); // true
         //var d = Run("a#c", "b"); // false
@@ -9,12 +12,13 @@ public class BackspaceCompare {
         var d = Run("y#f#o##f", "y#f#o##f"); // true
     }
 
-    private static bool Run(string s, string t) {
-        
+    private static bool Run(string s, string t)
+    {
+
         Stack<char> GetStack(string str)
         {
             var stack = new Stack<char>();
-            foreach(var s in str)
+            foreach (var s in str)
             {
                 if (s != '#')
                 {
@@ -34,4 +38,3 @@ public class BackspaceCompare {
         return stackS.SequenceEqual(stackT);
     }
 }
-

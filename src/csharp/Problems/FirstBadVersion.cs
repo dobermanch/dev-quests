@@ -1,11 +1,15 @@
-public class FirstBadVersion {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class FirstBadVersion : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run(new int[]{-1,0,3,5,9,12}, 9);
         var d = Run(30);
     }
 
-    private static int Run(int n) {
+    private static int Run(int n)
+    {
         var start = 0;
         var end = n;
         var result = 1;
@@ -22,13 +26,14 @@ public class FirstBadVersion {
                 start = version + 1;
             }
         }
-        while(start <= end);
+        while (start <= end);
 
         return result;
     }
 
 
-    static bool IsBadVersion(int version) {
+    static bool IsBadVersion(int version)
+    {
         return version > 10;
     }
 }

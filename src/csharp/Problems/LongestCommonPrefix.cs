@@ -1,18 +1,21 @@
 //https://leetcode.com/problems/longest-common-prefix
-public class LongestCommonPrefix {
+namespace LeetCode.Problems;
 
-    public static void Run(){
-        var d = Run(new []{"flower","flow","flight"});
+public sealed class LongestCommonPrefix : ProblemBase
+{
+    public static void Run()
+    {
+        var d = Run(new[] { "flower", "flow", "flight" });
         //var d = Run(new []{"dog","racecar","car"});
         //var d = Run(new []{"cir","car"});
     }
 
-    private static string Run(string[] strs) 
+    private static string Run(string[] strs)
     {
         var map = new Dictionary<string, int>();
 
         var minLength = strs[0].Length;
-        for(var i = 0; i < strs.Length; i++)
+        for (var i = 0; i < strs.Length; i++)
         {
             minLength = Math.Min(minLength, strs[i].Length);
             if (minLength == 0)
@@ -21,7 +24,7 @@ public class LongestCommonPrefix {
             }
 
             string prefix = null;
-            for(var j = 0; j < minLength; j++)
+            for (var j = 0; j < minLength; j++)
             {
                 prefix += strs[i][j];
                 if (!map.ContainsKey(prefix))
@@ -37,4 +40,3 @@ public class LongestCommonPrefix {
         return keys.Length == 0 ? string.Empty : keys.MaxBy(it => it.Length);
     }
 }
-

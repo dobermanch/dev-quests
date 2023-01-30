@@ -1,11 +1,16 @@
-public class LevelOrder {
+using LeetCode.Models;
 
-    public static void Run() {
+namespace LeetCode.Problems;
+
+public sealed class LevelOrder : ProblemBase
+{
+    public static void Run()
+    {
         var node = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
         var d = Run(node);
     }
 
-    private static IList<IList<int>> Run(TreeNode root) 
+    private static IList<IList<int>> Run(TreeNode root)
     {
         if (root == null)
         {
@@ -16,7 +21,7 @@ public class LevelOrder {
         var levels = new List<IList<int>>();
 
         queue.Enqueue((0, root));
-        while(queue.Count > 0)
+        while (queue.Count > 0)
         {
             var current = queue.Dequeue();
 
@@ -41,4 +46,3 @@ public class LevelOrder {
         return levels;
     }
 }
-

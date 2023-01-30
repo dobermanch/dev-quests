@@ -1,13 +1,17 @@
 //https://leetcode.com/problems/flip-string-to-monotone-increasing/description/
-public class MinFlipsMonoIncr {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class MinFlipsMonoIncr : ProblemBase
+{
+    public static void Run()
+    {
         //var d = Run("100100111110000010010111011");
         var d = Run("0000001111100100010010111011");
         //var d = Run("10011111110010111011");
     }
 
-    private static int Run(string s) {
+    private static int Run(string s)
+    {
         var flips = 0;
 
         var zeros = 0;
@@ -31,4 +35,3 @@ public class MinFlipsMonoIncr {
         return flips;
     }
 }
-

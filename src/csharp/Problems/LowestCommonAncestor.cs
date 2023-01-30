@@ -1,23 +1,28 @@
-public class LowestCommonAncestor {
+using LeetCode.Models;
 
-    public static void Run() {
+namespace LeetCode.Problems;
+
+public sealed class LowestCommonAncestor : ProblemBase
+{
+    public static void Run()
+    {
         //var node = new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)));
         //var node = new TreeNode(10, new TreeNode(5), new TreeNode(15, new TreeNode(6), new TreeNode(20)));
         //var node = new TreeNode(3, new TreeNode(1, new TreeNode(0), new TreeNode(2, null, new TreeNode(3))), new TreeNode(5, new TreeNode(4), new TreeNode(6)));
         //var node = new TreeNode(-48, null, new TreeNode(94, new TreeNode(-3, null, new TreeNode(90)), null));
         //var node = new TreeNode(2, new TreeNode(1), new TreeNode(3));
 
-        var node = TreeNode.Create(6,2,8,0,4,7,9,null,null,3,5);
+        var node = TreeNode.Create(6, 2, 8, 0, 4, 7, 9, null, null, 3, 5);
         //var node = TreeNode.Create(2,1);
         var d = Run(node, new TreeNode(2), new TreeNode(4));
         //var d = Run(node, new TreeNode(2), new TreeNode(1));
     }
 
-/// OPTION 3
-    private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q) 
+    /// OPTION 3
+    private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q)
     {
         TreeNode current = root;
-        while(current != null)
+        while (current != null)
         {
             if (current.val > p.val && current.val > q.val)
             {
@@ -36,7 +41,7 @@ public class LowestCommonAncestor {
         return current;
     }
 
-/// OPTION 2
+    /// OPTION 2
     // private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q)
     // {
     //     if (root == null) 
@@ -56,7 +61,7 @@ public class LowestCommonAncestor {
     //     return root;
     // }
 
-/// OPTION 1
+    /// OPTION 1
     // private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q)
     // {
     //     var pPath = new List<TreeNode> {root};
@@ -85,4 +90,3 @@ public class LowestCommonAncestor {
     //     }
     // }
 }
-

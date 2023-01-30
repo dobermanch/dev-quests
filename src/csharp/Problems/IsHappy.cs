@@ -1,16 +1,19 @@
 //https://leetcode.com/problems/happy-number/
-public class IsHappy {
+namespace LeetCode.Problems;
 
-    public static void Run(){
+public sealed class IsHappy : ProblemBase
+{
+    public static void Run()
+    {
         var d = Run(19); //true
         //var d = Run(2); //false
     }
 
-    private static bool Run(int n) 
+    private static bool Run(int n)
     {
         var map = new HashSet<int>();
-        var value  = n;
-        while(value != 1)
+        var value = n;
+        while (value != 1)
         {
             var sum = 0;
             while (value > 0)
@@ -32,12 +35,12 @@ public class IsHappy {
         return true;
     }
 
-//Option1
-    private static bool Run1(int n) 
+    //Option1
+    private static bool Run1(int n)
     {
         var map = new HashSet<int>();
         var sum = n;
-        while(sum != 1)
+        while (sum != 1)
         {
             sum = sum.ToString().Select(i => (int)Math.Pow(i - '0', 2)).Sum();
             if (map.Contains(sum))

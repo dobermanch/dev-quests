@@ -1,14 +1,19 @@
 //https://leetcode.com/problems/fibonacci-number/description
-public class Fibonacci {
 
-    public static int Run(){
+namespace LeetCode.Problems;
+
+public sealed class Fibonacci : ProblemBase
+{
+    public static int Run()
+    {
         var result = Fib(15);
 
         return result;
     }
 
-// OPTION 2
-    private static int Fib(int n){
+    // OPTION 2
+    private static int Fib(int n)
+    {
         if (n == 1 || n == 0)
         {
             return n;
@@ -16,7 +21,7 @@ public class Fibonacci {
 
         var t0 = 0;
         var t1 = 1;
-        while(--n > 0)
+        while (--n > 0)
         {
             var temp = t1;
             t1 = t1 + t0;
@@ -26,7 +31,7 @@ public class Fibonacci {
         return t1;
     }
 
-// OPTION 1
+    // OPTION 1
     // private static  int Fib(int n) {
     //     if (n == 1 || n == 0){
     //         return n;
@@ -35,4 +40,3 @@ public class Fibonacci {
     //     return Fib(n - 1) + Fib(n - 2);
     // }
 }
-
