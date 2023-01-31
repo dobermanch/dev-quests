@@ -129,6 +129,12 @@ Tags: Hash Table, String, Counting
 Code: [C#](/src/csharp/Problems/GetHint.cs)  
 
 
+### [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+
+Tags: Linked List  
+Code: [C#](/src/csharp/Problems/OddEvenList.cs)  
+
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 Tags: Hash Table, String, Counting  
