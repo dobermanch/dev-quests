@@ -4,13 +4,15 @@ namespace LeetCode.Problems;
 
 public sealed class AddTwoIntegers : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(15, 11);
-    }
+    [Theory]
+    [ClassData(typeof(AddTwoIntegers))]
+    public override void Test(object[] data) => base.Test(data);
 
-    //Option 2
-    private static int Run(int num1, int num2) 
+    public override void AddTestCases()
+        => Add(it => it.Param(10).Param(12).Result(22))
+          .Add(it => it.Param(15).Param(12).Result(27));
+
+    private int Solution(int num1, int num2)
     {
         if (num1 < -100 || num2 > 100)
         {
