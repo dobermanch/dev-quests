@@ -63,7 +63,7 @@ public sealed class LongestPalindromeByConcat2Letter : ProblemBase
         var map = new Dictionary<string, int>();
         var sum = 0;
         var accum = 0;
-        var polSum = 0;
+        var palSum = 0;
         for (var i = 0; i < words.Length; i++)
         {
             if (!map.ContainsKey(words[i]))
@@ -81,7 +81,7 @@ public sealed class LongestPalindromeByConcat2Letter : ProblemBase
                 }
                 else
                 {
-                    polSum += 2;
+                    palSum += 2;
                     accum--;
                 }
             }
@@ -95,12 +95,12 @@ public sealed class LongestPalindromeByConcat2Letter : ProblemBase
             }
         }
 
-        if (polSum % 2 == 0)
+        if (palSum % 2 == 0)
         {
-            polSum += accum > 0 ? 1 : 0;
+            palSum += accum > 0 ? 1 : 0;
         }
 
-        sum += polSum * 2;
+        sum += palSum * 2;
 
         return sum;
     }
