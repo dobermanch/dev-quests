@@ -2,6 +2,12 @@ namespace LeetCode.Models;
 
 public static class TestCaseExtensions
 {
+    public static TestCase ParamArray<T>(this TestCase testCase, params T[]? data) 
+        => testCase.Param(data?.ToArray());
+
+    public static TestCase ParamList<T>(this TestCase testCase, params T[]? data) 
+        => testCase.Param(data?.ToList());
+
     public static TestCase Param<T>(this TestCase testCase, params int?[] data)
     {
         if (typeof(T) == typeof(ListNode))

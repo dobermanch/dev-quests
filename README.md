@@ -254,6 +254,11 @@ Code: [C#](/src/csharp/Problems/FindBall.cs)
 Tags: Array, Prefix Sum  
 Code: [C#](/src/csharp/Problems/FindMiddleIndex.cs)  
 
+### [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
+
+Tags: Array, Hash Table, String, Greedy, Counting  
+Code: [C#](/src/csharp/Problems/LongestPalindromeByConcat2Letter.cs)  
+
 ### [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
 
 Tags: Math  
