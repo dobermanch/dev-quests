@@ -94,6 +94,11 @@ Code: [C#](/src/csharp/Problems/IsIsomorphic.cs)
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/ReverseList.cs)  
 
+### [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/InvertTree.cs)  
+
 ### [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 Tags: Linked List, Two Pointers, Stack, Recursion  
