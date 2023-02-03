@@ -174,6 +174,11 @@ Code: [C#](/src/csharp/Problems/FindSubsequences.cs)
 Tags: Math, Dynamic Programming, Recursion, Memoization  
 Code: [C#](/src/csharp/Problems/Fibonacci.cs)  
 
+### [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/DiameterOfBinaryTree.cs)  
+
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
