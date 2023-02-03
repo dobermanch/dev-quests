@@ -169,6 +169,11 @@ Code: [C#](/src/csharp/Problems/Fibonacci.cs)
 Tags: Stack, Tree, Depth-First Search  
 Code: [C#](/src/csharp/Problems/Preorder.cs)  
 
+### [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+
+Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting  
+Code: [C#](/src/csharp/Problems/LeastInterval.cs)  
+
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
