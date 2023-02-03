@@ -54,6 +54,11 @@ Code: [C#](/src/csharp/Problems/IsValidBST.cs)
 Tags: Tree, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/LevelOrder.cs)  
 
+### [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/IsBalanced.cs)  
+
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: Array, Dynamic Programming  
