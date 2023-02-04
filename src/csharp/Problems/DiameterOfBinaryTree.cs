@@ -13,7 +13,7 @@ public sealed class DiameterOfBinaryTree : ProblemBase
           .Add(it => it.Param<TreeNode>(4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2).Result(8))
           .Add(it => it.Param<TreeNode>(1, 2).Result(1));
 
-    private int Solution(TreeNode? root)
+    private int Solution(TreeNode root)
     {
         (int maxPath, int depth) Diameter(TreeNode? node)
         {

@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/FizzBuzz.cs)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/CharacterReplacement.cs)  
 
+### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/PathSum.cs)  
+
 ### [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 Tags: Hash Table, String, Sliding Window  
