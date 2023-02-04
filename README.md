@@ -39,6 +39,11 @@ Code: [C#](/src/csharp/Problems/SpiralOrder.cs)
 Tags: Math, Dynamic Programming, Memoization  
 Code: [C#](/src/csharp/Problems/ClimbStairs.cs)  
 
+### [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+
+Tags: Array, Binary Search, Matrix  
+Code: [C#](/src/csharp/Problems/SearchMatrix.cs)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: String, Backtracking  
