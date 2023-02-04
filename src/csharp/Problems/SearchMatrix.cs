@@ -9,9 +9,9 @@ public sealed class SearchMatrix : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => //Add(it => it.ParamArray(new[]{1,3,5,7}, new[]{10,11,16,20}, new[]{23,30,34,60}).Param(3).Result(true))
-          //.Add(it => it.ParamArray(new[]{1,3,5,7}, new[]{10,11,16,20}, new[]{23,30,34,60}).Param(13).Result(false))
-          Add(it => it.ParamArray(new[]{1,3,5,7}, new[]{10,11,16,20}, new[]{23,30,34,60}, new[]{71,73,74,80}).Param(30).Result(false))
+        => Add(it => it.ParamArray(new[]{1,3,5,7}, new[]{10,11,16,20}, new[]{23,30,34,60}).Param(3).Result(true))
+          .Add(it => it.ParamArray(new[]{1,3,5,7}, new[]{10,11,16,20}, new[]{23,30,34,60}).Param(13).Result(false))
+          .Add(it => it.ParamArray(new[]{1,3,5,7}, new[]{10,11,16,20}, new[]{23,30,34,60}, new[]{71,73,74,80}).Param(30).Result(true))
           .Add(it => it.ParamArray<int[]>(new []{ 1 }).Param(1).Result(true));
 
     private bool Solution(int[][] matrix, int target)
@@ -39,7 +39,7 @@ public sealed class SearchMatrix : ProblemBase
         return false;
     }
 
-    private static bool RowSearch(int target, int[] row)
+    private bool RowSearch(int target, int[] row)
     {
         var start = 0;
         var end = row.Length - 1;
