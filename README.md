@@ -24,6 +24,11 @@ Code: [C#](/src/csharp/Problems/RemoveNthFromEnd.cs)
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/MergeTwoLists.cs)  
 
+### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+Tags: Array, Binary Search  
+Code: [C#](/src/csharp/Problems/Search.cs)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  
