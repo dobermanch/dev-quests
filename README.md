@@ -119,6 +119,11 @@ Code: [C#](/src/csharp/Problems/ReverseList.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/InvertTree.cs)  
 
+### [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+
+Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/KthSmallest.cs)  
+
 ### [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 Tags: Linked List, Two Pointers, Stack, Recursion  
