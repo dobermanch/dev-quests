@@ -25,7 +25,15 @@ public abstract class ProblemBase: TestCaseCollection
         foreach (var solution in solutions!)
         {
             var result = solution.Invoke(this, data.Skip(1).ToArray());
-            Assert.Equal(data[0], result);
+            if (result is IEnumerable<object> received 
+                && data[0] is IEnumerable<object> expected)
+            {
+                Assert.True(expected.SequenceEqual(received));
+            }
+            else
+            {
+                Assert.Equal(data[0], result);
+            }
         }
     }
 

@@ -94,6 +94,11 @@ Code: [C#](/src/csharp/Problems/DetectCycle.cs)
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
 Code: [C#](/src/csharp/Problems/SortList.cs)  
 
+### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+
+Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
+Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
+
 ### [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix  

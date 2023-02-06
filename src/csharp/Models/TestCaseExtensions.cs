@@ -43,4 +43,7 @@ public static class TestCaseExtensions
 
         return testCase;
     }
+
+    public static TestCase ResultArray<T>(this TestCase testCase, params T[]? data)
+        => testCase.Result(data?.ToArray());
 }
