@@ -259,6 +259,11 @@ Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)
 Tags: Array, Hash Table, Prefix Sum  
 Code: [C#](/src/csharp/Problems/SubarraysDivByK.cs)  
 
+### [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+
+Tags: Array, Breadth-First Search, Matrix  
+Code: [C#](/src/csharp/Problems/OrangesRotting.cs)  
+
 ### [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 
 Tags: Array, Hash Table, Graph  

@@ -2,6 +2,16 @@ namespace LeetCode.Models;
 
 public static class TestCaseExtensions
 {
+    public static TestCase ParamMatrix(this TestCase testCase, Action<Matrix> build)
+    {
+        var matrix = new Matrix();
+        build(matrix);
+        return testCase.Param(matrix);
+    }
+    
+    public static TestCase ParamMatrix(this TestCase testCase, string matrix) 
+        => testCase.Param(Matrix.Parse(matrix));
+
     public static TestCase ParamArray<T>(this TestCase testCase, params T[]? data) 
         => testCase.Param(data?.ToArray());
 
