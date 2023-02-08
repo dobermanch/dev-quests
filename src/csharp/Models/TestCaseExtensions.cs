@@ -56,4 +56,7 @@ public static class TestCaseExtensions
 
     public static TestCase ResultArray<T>(this TestCase testCase, params T[]? data)
         => testCase.Result(data?.ToArray());
+
+    public static TestCase ResultMatrix(this TestCase testCase, string matrix)
+        => testCase.Result((int[][])Matrix.Parse(matrix));
 }
