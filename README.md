@@ -99,6 +99,11 @@ Code: [C#](/src/csharp/Problems/SortList.cs)
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
 
+### [198. House Robber](https://leetcode.com/problems/house-robber/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/Rob.cs)  
+
 ### [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix  
