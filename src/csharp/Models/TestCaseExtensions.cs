@@ -12,6 +12,15 @@ public static class TestCaseExtensions
     public static TestCase ParamMatrix(this TestCase testCase, string matrix) 
         => testCase.Param(Matrix.Parse(matrix));
 
+    public static TestCase ParamArray(this TestCase testCase, string data)
+    {
+        var arr = Matrix.Parse(data);
+        return testCase.Param(arr.Length == 0 ? Array.Empty<int>() : arr[0]);
+    }
+
+    public static TestCase Param2dArray(this TestCase testCase, string data) 
+        => testCase.Param((int[][])Matrix.Parse(data));
+
     public static TestCase ParamArray<T>(this TestCase testCase, params T[]? data) 
         => testCase.Param(data?.ToArray());
 
@@ -59,4 +68,13 @@ public static class TestCaseExtensions
 
     public static TestCase ResultMatrix(this TestCase testCase, string matrix)
         => testCase.Result((int[][])Matrix.Parse(matrix));
+
+    public static TestCase Result2dArray(this TestCase testCase, string matrix)
+        => testCase.Result((int[][])Matrix.Parse(matrix));
+
+    public static TestCase ResultArray(this TestCase testCase, string matrix)
+    {
+        var arr = Matrix.Parse(matrix);
+        return testCase.Result(arr.Length == 0 ? Array.Empty<int>(): arr[0]);
+    }
 }

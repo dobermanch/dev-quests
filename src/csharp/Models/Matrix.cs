@@ -11,7 +11,7 @@ public class Matrix : Matrix<int>
         var matrix = new Matrix();
 
         List<int>? row = null;
-        var number = 0;
+        int? number = null;
         foreach (var ch in data)
         {
             if (ch == ' ')
@@ -25,18 +25,26 @@ public class Matrix : Matrix<int>
             }
             else if (char.IsDigit(ch))
             {
+                number ??= 0;
                 number *= 10;
                 number += ch - '0';
             }
             else if (ch is ',' && row != null)
             {
-                row.Add(number);
-                number = 0;
+                if (number != null)
+                {
+                    row.Add(number.Value);
+                    number = null;
+                }
             }
             else if (ch is ']' or '}' && row != null)
             {
-                row.Add(number);
-                number = 0;
+                if (number != null)
+                {
+                    row.Add(number.Value);
+                    number = null;
+                }
+
                 if (row.Any())
                 {
                     matrix.Row(row.ToArray());
