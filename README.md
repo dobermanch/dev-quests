@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 Tags: Hash Table, String, Counting  
 Code: [C#](/src/csharp/Problems/GetHint.cs)  
 
+### [322. Coin Change](https://leetcode.com/problems/coin-change/)
+
+Tags: Array, Dynamic Programming, Breadth-First Search  
+Code: [C#](/src/csharp/Problems/CoinChange.cs)  
+
 ### [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
 Tags: Linked List  
