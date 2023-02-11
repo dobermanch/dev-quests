@@ -9,6 +9,11 @@ My solutions to [LeetCode](https://leetcode.com/) problems.
 Tags: Array, Hash Table  
 Code: [C#](/src/csharp/Problems/TwoSum.cs)  
 
+### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+Tags: Hash Table, String, Sliding Window  
+Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs)  
+
 ### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 Tags: String, Trie  
