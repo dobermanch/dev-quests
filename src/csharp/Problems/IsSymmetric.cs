@@ -18,20 +18,20 @@ public sealed class IsSymmetric : ProblemBase
         return Compare(root.left, root.right);
     }
 
-    bool Compare(TreeNode? left1, TreeNode? right1)
+    bool Compare(TreeNode? left, TreeNode? right)
     {
-        if (left1 == null && right1 == null)
+        if (left == null && right == null)
         {
             return true;
         }
 
-        if (left1 == null || right1 == null)
+        if (left == null || right == null)
         {
             return false;
         }
 
-        return left1.val == right1.val
-               && Compare(left1.left, right1.right)
-               && Compare(left1.right, right1.left);
+        return left.val == right.val
+               && Compare(left.left, right.right)
+               && Compare(left.right, right.left);
     }
 }
