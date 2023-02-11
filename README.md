@@ -114,6 +114,11 @@ Code: [C#](/src/csharp/Problems/BSTIterator.cs)
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/Rob.cs)  
 
+### [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/RightSideView.cs)  
+
 ### [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix  

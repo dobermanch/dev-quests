@@ -37,6 +37,7 @@ internal static class ListExtensions
             {
                 row.Add(number);
                 number = null;
+                literal = null;
             }
         }
 
