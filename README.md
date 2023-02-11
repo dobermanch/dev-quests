@@ -59,6 +59,11 @@ Code: [C#](/src/csharp/Problems/RestoreIpAddresses.cs)
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/IsValidBST.cs)  
 
+### [100. Same Tree](https://leetcode.com/problems/same-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/IsSameTree.cs)  
+
 ### [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 Tags: Tree, Breadth-First Search, Binary Tree  

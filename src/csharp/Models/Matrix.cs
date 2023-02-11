@@ -5,8 +5,13 @@ public class Matrix : Matrix<int>
     public Matrix() { }
     public Matrix(int[][] matrix) : base(matrix) { }
 
-    public static Matrix Parse(string input)
+    public static Matrix Parse(string? input)
     {
+        if (input == null)
+        {
+            return new Matrix();
+        }
+
         var data = input.Trim();
         var matrix = new Matrix();
 
