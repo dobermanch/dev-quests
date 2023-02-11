@@ -64,6 +64,11 @@ Code: [C#](/src/csharp/Problems/IsValidBST.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/IsSameTree.cs)  
 
+### [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/IsSymmetric.cs)  
+
 ### [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 Tags: Tree, Breadth-First Search, Binary Tree  
