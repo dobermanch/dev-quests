@@ -9,8 +9,9 @@ public sealed class CoinChange : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.ParamArray("[10,6,5]").Param(27).Result(4))
-            .Add(it => it.ParamArray("[411,412,413,414,415,416,417,418,419,420,421,422]").Param(9864).Result(24))
+        => AddSolutions(nameof(Solution1))
+            .Add(it => it.ParamArray("[10,6,5]").Param(27).Result(4))
+            //.Add(it => it.ParamArray("[411,412,413,414,415,416,417,418,419,420,421,422]").Param(9864).Result(24))
             .Add(it => it.ParamArray("[186,419,83,408]").Param(6249).Result(20))
             .Add(it => it.ParamArray("[1,2,5]").Param(11).Result(3))
             .Add(it => it.ParamArray("[10,6,5]").Param(11).Result(2))
@@ -57,41 +58,41 @@ public sealed class CoinChange : ProblemBase
         return Find(coins, amount, new int[amount]);
     }
 
-    //private int Solution1(int[] coins, int amount)
-    //{
-    //    var count = -1;
+    private int Solution1(int[] coins, int amount)
+    {
+        var count = -1;
 
-    //    var stack = new Stack<(int index, int count, int left, int prevCount)>();
-    //    stack.Push((0, amount / coins[0] + 1, amount - coins[0] * (amount / coins[0] + 1), 0));
+        var stack = new Stack<(int index, int count, int left, int prevCount)>();
+        stack.Push((0, amount / coins[0] + 1, amount - coins[0] * (amount / coins[0] + 1), 0));
 
-    //    while (stack.Any())
-    //    {
-    //        var coin = stack.Pop();
+        while (stack.Any())
+        {
+            var coin = stack.Pop();
 
-    //        coin.count--;
-    //        coin.left += coins[coin.index];
+            coin.count--;
+            coin.left += coins[coin.index];
 
-    //        if (coin.count >= 1 && coin.index != coins.Length - 1)
-    //        {
-    //            stack.Push(coin);
-    //        }
+            if (coin.count >= 1 && coin.index != coins.Length - 1)
+            {
+                stack.Push(coin);
+            }
 
-    //        for (var j = coin.index + 1; j < coins.Length; j++)
-    //        {
-    //            if (coin.left >= coins[j])
-    //            {
-    //                coin = (j, coin.left / coins[j], coin.left, coin.count + coin.prevCount);
-    //                coin.left -= coin.count * coins[j];
-    //                stack.Push(coin);
-    //            }
-    //        }
+            for (var j = coin.index + 1; j < coins.Length; j++)
+            {
+                if (coin.left >= coins[j])
+                {
+                    coin = (j, coin.left / coins[j], coin.left, coin.count + coin.prevCount);
+                    coin.left -= coin.count * coins[j];
+                    stack.Push(coin);
+                }
+            }
 
-    //        if (coin.left == 0)
-    //        {
-    //            count = count <= 0 ? coin.count + coin.prevCount : Math.Min(count, coin.count + coin.prevCount);
-    //        }
-    //    }
+            if (coin.left == 0)
+            {
+                count = count <= 0 ? coin.count + coin.prevCount : Math.Min(count, coin.count + coin.prevCount);
+            }
+        }
 
-    //    return count;
-    //}
+        return count;
+    }
 }

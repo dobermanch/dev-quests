@@ -5,14 +5,34 @@ namespace LeetCode.Core;
 public class TestCaseCollection : IEnumerable<object[]>
 {
     private readonly IList<TestCase> _data = new List<TestCase>();
+    private readonly IList<string> _methods = new List<string> { "Solution" };
 
     protected TestCaseCollection() { }
 
     public TestCaseCollection Add(Action<TestCase> configure)
     {
-        var testCase = TestCase.Create();
+        var testCase = TestCase.Create(_methods[0]);
         configure(testCase);
         _data.Add(testCase);
+
+        foreach (var method in _methods.Skip(1))
+        {
+            _data.Add(testCase.Clone(method));
+        }
+
+        return this;
+    }
+
+    public TestCaseCollection AddSolutions(params string[] solutionMethodNames)
+    {
+        foreach (var methodName in solutionMethodNames)
+        {
+            if (!_methods.Contains(methodName))
+            {
+                _methods.Add(methodName);
+            }
+        }
+
         return this;
     }
 

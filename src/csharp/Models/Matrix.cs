@@ -17,6 +17,7 @@ public class Matrix : Matrix<int>
 
         List<int>? row = null;
         int? number = null;
+        bool negative = false;
         foreach (var ch in data)
         {
             if (ch == ' ')
@@ -34,20 +35,26 @@ public class Matrix : Matrix<int>
                 number *= 10;
                 number += ch - '0';
             }
+            else if (ch == '-')
+            {
+                negative = true;
+            }
             else if (ch is ',' && row != null)
             {
                 if (number != null)
                 {
-                    row.Add(number.Value);
+                    row.Add(negative ? -number.Value : number.Value);
                     number = null;
+                    negative = false;
                 }
             }
             else if (ch is ']' or '}' && row != null)
             {
                 if (number != null)
                 {
-                    row.Add(number.Value);
+                    row.Add(negative ? -number.Value : number.Value);
                     number = null;
+                    negative = false;
                 }
 
                 if (row.Any())

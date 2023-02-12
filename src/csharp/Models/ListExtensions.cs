@@ -16,6 +16,7 @@ internal static class ListExtensions
 
         var row = new List<int?>();
         int? number = null;
+        bool negative = false;
         string? literal = null;
         foreach (var ch in data.Where(ch => ch != ' '))
         {
@@ -29,15 +30,20 @@ internal static class ListExtensions
                 number *= 10;
                 number += ch - '0';
             }
+            else if (ch == '-')
+            {
+                negative = true;
+            }
             else if (char.IsLetter(ch))
             {
                 literal += ch;
             }
             else if (ch is ',' or ']' or '}' && (number != null || "null".Equals(literal, StringComparison.InvariantCultureIgnoreCase)))
             {
-                row.Add(number);
+                row.Add(negative ? -number : number);
                 number = null;
                 literal = null;
+                negative = false;
             }
         }
 

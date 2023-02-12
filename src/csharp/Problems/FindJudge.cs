@@ -4,14 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class FindJudge : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run(3, new int[][] { new [] { 1, 3 }, new [] { 2, 3 }});
-        //var d = Run(2, new int[][] { new [] { 1, 2 }});
-        var d = Run(3, new int[][] { new[] { 1, 3 }, new[] { 2, 3 }, new[] { 3, 1 } });
-    }
+    [Theory]
+    [ClassData(typeof(FindJudge))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(int n, int[][] trust)
+    public override void AddTestCases()
+        => Add(it => it.Param(2).Param2dArray("[[1,2]]").Result(2))
+            .Add(it => it.Param(3).Param2dArray("[[1,3],[2,3]]").Result(3))
+            .Add(it => it.Param(3).Param2dArray("[[1,3],[2,3],[3,1]]").Result(-1));
+
+    private int Solution(int n, int[][] trust)
     {
         var map = new int[n, 2];
 
