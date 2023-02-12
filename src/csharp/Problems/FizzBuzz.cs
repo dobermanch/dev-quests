@@ -4,14 +4,23 @@ namespace LeetCode.Problems;
 
 public sealed class FizzBuzz : ProblemBase
 {
-    public static void Run()
+    //[Theory]
+    //[ClassData(typeof(FizzBuzz))]
+    //public override void Test(object[] data) => base.Test(data);
+
+    //public override void AddTestCases()
+    //    => Add(it => it.Param(3).ResultArray("""["1","2","Fizz"]"""))
+    //        .Add(it => it.Param(5).ResultArray("""["1","2","Fizz","4","Buzz"]"""))
+    //        .Add(it => it.Param(15).ResultArray("""["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]"""));
+
+    public void Run()
     {
-        var d = Run(3); // ["1","2","Fizz"]
+        var d = Solution(3); // ["1","2","Fizz"]
         //var d = Run(5); // ["1","2","Fizz","4","Buzz"]
         //var d = Run(15); // ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
     }
 
-    private static IList<string> Run(int n)
+    private IList<string> Solution(int n)
     {
         var result = new List<string>(n);
         for (var i = 1; i < n + 1; i++) 

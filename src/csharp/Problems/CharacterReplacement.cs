@@ -4,22 +4,23 @@ namespace LeetCode.Problems;
 
 public sealed class CharacterReplacement : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run("AABABBA", 1); //4
-        //var d = Run("AAAA", 2); //4
-        //var d = Run("ABAA", 0); //2
-        //var d = Run("ABBB", 2); //2
-        //var d = Run("BAAAB", 2); //2
-        //var d = Run("ABAB", 2); //4
-        //var d = Run("AAAB", 0); //3
-        //var d = Run("EOEMQLLQTRQDDCOERARHGAAARRBKCCMFTDAQOLOKARBIJBISTGNKBQGKKTALSQNFSABASNOPBMMGDIOETPTDICRBOMBAAHINTFLH", 7); //11
-        //var d = Run("KRSCDCSONAJNHLBMDQGIFCPEKPOHQIHLTDIQGEKLRLCQNBOHNDQGHJPNDQPERNFSSSRDEQLFPCCCARFMDLHADJADAGNNSBNCJQOF", 4); //7
-        //QLHOSLDHOOBHFLPBSLHMSHMSRDOIFGGRTTSMKKRIENQNEECPLTJKCDMLRNNEPQAJDQFPEOGLKRBHSOMHONN TKLFHKNCHQLDBACMO
-        //var d = Run("QLHOSLDHOOBHFLPBSLHMSHMSRDOIFGGRTTSMKKRIENQNEECPLTJKCDMLRNNEPQAJDQFPEOGLKRBHSOMHONNTKLFHKNCHQLDBACMO", 7); //10
-    }
+    [Theory]
+    [ClassData(typeof(CharacterReplacement))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(string s, int k)
+    public override void AddTestCases()
+        => Add(it => it.Param("AABABBA").Param(1).Result(4))
+            .Add(it => it.Param("AAAA").Param(2).Result(4))
+            .Add(it => it.Param("ABAA").Param(0).Result(2))
+            .Add(it => it.Param("ABBB").Param(2).Result(4))
+            .Add(it => it.Param("BAAAB").Param(2).Result(5))
+            .Add(it => it.Param("ABAB").Param(2).Result(4))
+            .Add(it => it.Param("AAAB").Param(0).Result(3))
+            .Add(it => it.Param("EOEMQLLQTRQDDCOERARHGAAARRBKCCMFTDAQOLOKARBIJBISTGNKBQGKKTALSQNFSABASNOPBMMGDIOETPTDICRBOMBAAHINTFLH").Param(7).Result(11))
+            .Add(it => it.Param("KRSCDCSONAJNHLBMDQGIFCPEKPOHQIHLTDIQGEKLRLCQNBOHNDQGHJPNDQPERNFSSSRDEQLFPCCCARFMDLHADJADAGNNSBNCJQOF").Param(4).Result(7))
+            .Add(it => it.Param("QLHOSLDHOOBHFLPBSLHMSHMSRDOIFGGRTTSMKKRIENQNEECPLTJKCDMLRNNEPQAJDQFPEOGLKRBHSOMHONNTKLFHKNCHQLDBACMO").Param(7).Result(10));
+
+    private int Solution(string s, int k)
     {
         var map = new int[26];
 

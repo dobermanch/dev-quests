@@ -4,13 +4,15 @@ namespace LeetCode.Problems;
 
 public sealed class FloodFill : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run(new int[][] { new int[] {1,1,1}, new int[] {1,1,0}, new int[] {1,0,1} }, 1, 1, 2);
-        var d = Run(new int[][] { new int[] { 0, 0, 0 }, new int[] { 1, 0, 0 } }, 1, 0, 2);
-    }
+    [Theory]
+    [ClassData(typeof(FloodFill))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int[][] Run(int[][] image, int sr, int sc, int color)
+    public override void AddTestCases()
+        => Add(it => it.Param2dArray("[[1,1,1],[1,1,0],[1,0,1]]").Param(1).Param(1).Param(2).Result2dArray("[[2,2,2],[2,2,0],[2,0,1]]"))
+            .Add(it => it.Param2dArray("[[0,0,0],[0,0,0]]").Param(0).Param(0).Param(0).Result2dArray("[[0,0,0],[0,0,0]]"));
+
+    private int[][] Solution(int[][] image, int sr, int sc, int color)
     {
         if (image[sr][sc] != color)
         {

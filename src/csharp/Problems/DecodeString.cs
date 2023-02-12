@@ -4,15 +4,18 @@ namespace LeetCode.Problems;
 
 public sealed class DecodeString : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run("3[a]2[bc]"); // aaabcbc
-        //var d = Run("3[a2[c]]3[f]"); // accaccacc
-        var d = Run("3[a10[bc]]"); // abcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbc
-        //var d = Run("3[z]2[2[y]pq4[2[jk]e1[f]]]ef"); //zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef
-    }
+    [Theory]
+    [ClassData(typeof(DecodeString))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static string Run(string s)
+    public override void AddTestCases()
+        => AddSolutions(nameof(Solution1))
+            .Add(it => it.Param("3[a]2[bc]").Result("aaabcbc"))
+            .Add(it => it.Param("3[a2[c]]3[f]").Result("accaccaccfff"))
+            .Add(it => it.Param("3[a10[bc]]").Result("abcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbc"))
+            .Add(it => it.Param("3[z]2[2[y]pq4[2[jk]e1[f]]]ef").Result("zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef"));
+
+    private string Solution(string s)
     {
         var numberStack = new Stack<int>();
         var textStack = new Stack<string>();
@@ -42,7 +45,7 @@ public sealed class DecodeString : ProblemBase
             else if (c == ']')
             {
                 var repeat = numberStack.Pop();
-                var temp = text;
+                var temp = text.ToString();
                 for (var i = 1; i < repeat; i++)
                 {
                     text.Append(temp);
@@ -59,7 +62,7 @@ public sealed class DecodeString : ProblemBase
     }
 
     //Option 1
-    private static string Run1(string s)
+    private string Solution1(string s)
     {
         var stack = new Stack<string>();
         string number = null;

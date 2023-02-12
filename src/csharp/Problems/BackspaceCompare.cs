@@ -4,18 +4,19 @@ namespace LeetCode.Problems;
 
 public sealed class BackspaceCompare : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run("ab#c", "ad#c"); // true
-        //var d = Run("ab##", "c#d#"); // true
-        //var d = Run("a#c", "b"); // false
-        //var d = Run("a##c", "#a#c"); // true
-        var d = Run("y#f#o##f", "y#f#o##f"); // true
-    }
+    [Theory]
+    [ClassData(typeof(BackspaceCompare))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static bool Run(string s, string t)
-    {
+    public override void AddTestCases()
+        => Add(it => it.Param("ab#c").Param("ad#c").Result(true))
+            .Add(it => it.Param("ab##").Param("c#d#").Result(true))
+            .Add(it => it.Param("a#c").Param("b").Result(false))
+            .Add(it => it.Param("a##c").Param("#a#c").Result(true))
+            .Add(it => it.Param("y#f#o##f").Param("y#f#o##f").Result(true));
 
+    private bool Solution(string s, string t)
+    {
         Stack<char> GetStack(string str)
         {
             var stack = new Stack<char>();
