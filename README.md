@@ -49,6 +49,11 @@ Code: [C#](/src/csharp/Problems/Multiply.cs)
 Tags: Array, Matrix, Simulation  
 Code: [C#](/src/csharp/Problems/SpiralOrder.cs)  
 
+### [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+
+Tags: Array, Sorting  
+Code: [C#](/src/csharp/Problems/MergeInterval.cs)  
+
 ### [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 
 Tags: Array  
