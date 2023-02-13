@@ -9,10 +9,20 @@ My solutions to [LeetCode](https://leetcode.com/) problems.
 Tags: Array, Hash Table  
 Code: [C#](/src/csharp/Problems/TwoSum.cs)  
 
+### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+Tags: Hash Table, String, Sliding Window  
+Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs)  
+
 ### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 Tags: String, Trie  
 Code: [C#](/src/csharp/Problems/LongestCommonPrefix.cs)  
+
+### [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/ThreeSumClosest.cs)  
 
 ### [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
@@ -24,6 +34,11 @@ Code: [C#](/src/csharp/Problems/RemoveNthFromEnd.cs)
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/MergeTwoLists.cs)  
 
+### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+Tags: Array, Binary Search  
+Code: [C#](/src/csharp/Problems/Search.cs)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  
@@ -34,10 +49,25 @@ Code: [C#](/src/csharp/Problems/Multiply.cs)
 Tags: Array, Matrix, Simulation  
 Code: [C#](/src/csharp/Problems/SpiralOrder.cs)  
 
+### [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+
+Tags: Array, Sorting  
+Code: [C#](/src/csharp/Problems/MergeInterval.cs)  
+
+### [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
+
+Tags: Array  
+Code: [C#](/src/csharp/Problems/InsertInterval.cs)  
+
 ### [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 Tags: Math, Dynamic Programming, Memoization  
 Code: [C#](/src/csharp/Problems/ClimbStairs.cs)  
+
+### [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+
+Tags: Array, Binary Search, Matrix  
+Code: [C#](/src/csharp/Problems/SearchMatrix.cs)  
 
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
@@ -49,10 +79,30 @@ Code: [C#](/src/csharp/Problems/RestoreIpAddresses.cs)
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/IsValidBST.cs)  
 
+### [100. Same Tree](https://leetcode.com/problems/same-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/IsSameTree.cs)  
+
+### [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/IsSymmetric.cs)  
+
 ### [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 Tags: Tree, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/LevelOrder.cs)  
+
+### [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+Tags: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/SortedArrayToBST.cs)  
+
+### [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/IsBalanced.cs)  
 
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
@@ -74,6 +124,26 @@ Code: [C#](/src/csharp/Problems/DetectCycle.cs)
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
 Code: [C#](/src/csharp/Problems/SortList.cs)  
 
+### [155. Min Stack](https://leetcode.com/problems/min-stack/)
+
+Tags: Stack, Design  
+Code: [C#](/src/csharp/Problems/MinStack.cs)  
+
+### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+
+Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
+Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
+
+### [198. House Robber](https://leetcode.com/problems/house-robber/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/Rob.cs)  
+
+### [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/RightSideView.cs)  
+
 ### [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix  
@@ -94,6 +164,31 @@ Code: [C#](/src/csharp/Problems/IsIsomorphic.cs)
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/ReverseList.cs)  
 
+### [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+Tags: Hash Table, String, Design, Trie  
+Code: [C#](/src/csharp/Problems/Trie.cs)  
+
+### [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+
+Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort  
+Code: [C#](/src/csharp/Problems/FindOrder.cs)  
+
+### [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/InvertTree.cs)  
+
+### [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+
+Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/KthSmallest.cs)  
+
+### [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+Tags: Stack, Design, Queue  
+Code: [C#](/src/csharp/Problems/MyQueue.cs)  
+
 ### [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 Tags: Linked List, Two Pointers, Stack, Recursion  
@@ -113,6 +208,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 
 Tags: Hash Table, String, Counting  
 Code: [C#](/src/csharp/Problems/GetHint.cs)  
+
+### [322. Coin Change](https://leetcode.com/problems/coin-change/)
+
+Tags: Array, Dynamic Programming, Breadth-First Search  
+Code: [C#](/src/csharp/Problems/CoinChange.cs)  
 
 ### [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
@@ -149,6 +249,11 @@ Code: [C#](/src/csharp/Problems/FizzBuzz.cs)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/CharacterReplacement.cs)  
 
+### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/PathSum.cs)  
+
 ### [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 Tags: Hash Table, String, Sliding Window  
@@ -163,6 +268,11 @@ Code: [C#](/src/csharp/Problems/FindSubsequences.cs)
 
 Tags: Math, Dynamic Programming, Recursion, Memoization  
 Code: [C#](/src/csharp/Problems/Fibonacci.cs)  
+
+### [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/DiameterOfBinaryTree.cs)  
 
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
@@ -218,6 +328,11 @@ Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)
 
 Tags: Array, Hash Table, Prefix Sum  
 Code: [C#](/src/csharp/Problems/SubarraysDivByK.cs)  
+
+### [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+
+Tags: Array, Breadth-First Search, Matrix  
+Code: [C#](/src/csharp/Problems/OrangesRotting.cs)  
 
 ### [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 

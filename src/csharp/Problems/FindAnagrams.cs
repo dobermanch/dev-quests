@@ -4,13 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class FindAnagrams : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run("cbaebabacd", "abc");
-    }
+    [Theory]
+    [ClassData(typeof(FindAnagrams))]
+    public override void Test(object[] data) => base.Test(data);
 
-    //Option2
-    private static IList<int> Run(string s, string p)
+    public override void AddTestCases()
+        => AddSolutions(nameof(Solution1))
+            .Add(it => it.Param("cbaebabacd").Param("abc").ResultArray("[0,6]"))
+            .Add(it => it.Param("abab").Param("ab").ResultArray("[0,1,2]"));
+
+    private IList<int> Solution(string s, string p)
     {
         if (p.Length > s.Length)
         {
@@ -18,9 +21,9 @@ public sealed class FindAnagrams : ProblemBase
         }
 
         var anagram = new int[26];
-        for (var i = 0; i < p.Length; i++)
+        foreach (var t in p)
         {
-            anagram[p[i] - 'a']++;
+            anagram[t - 'a']++;
         }
 
         var result = new List<int>();
@@ -44,8 +47,7 @@ public sealed class FindAnagrams : ProblemBase
         return result;
     }
 
-    //Option1
-    private static IList<int> Run1(string s, string p)
+    private IList<int> Solution1(string s, string p)
     {
         if (p.Length > s.Length)
         {
@@ -54,9 +56,9 @@ public sealed class FindAnagrams : ProblemBase
 
         var result = new List<int>();
         var map = new int[26];
-        for (var i = 0; i < p.Length; i++)
+        foreach (var t in p)
         {
-            map[p[i] - 'a'] += 1;
+            map[t - 'a'] += 1;
         }
 
         var lenght1 = s.Length - p.Length;

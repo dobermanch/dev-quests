@@ -63,4 +63,6 @@ public class ListNode: IEquatable<ListNode>
 
         return root;
     }
+
+    public static ListNode? Parse(string? input) => Create(input.ToArray());
 }
