@@ -154,6 +154,11 @@ Code: [C#](/src/csharp/Problems/IsIsomorphic.cs)
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/ReverseList.cs)  
 
+### [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+Tags: Hash Table, String, Design, Trie  
+Code: [C#](/src/csharp/Problems/Trie.cs)  
+
 ### [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 
 Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort  

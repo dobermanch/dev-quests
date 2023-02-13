@@ -5,7 +5,7 @@ public class Matrix : Matrix<int>
     public Matrix() { }
     public Matrix(int[][] matrix) : base(matrix) { }
 
-    public static Matrix Parse(string? input) => input.To2dArray(false);
+    public static Matrix Parse(string? input) => input.To2dArray<int>(false);
 
     public static implicit operator int[][](Matrix matrix) => matrix._matrix.ToArray();
 

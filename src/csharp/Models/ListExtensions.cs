@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Models;
+﻿using System.Collections.Immutable;
+
+namespace LeetCode.Models;
 
 internal static class ListExtensions
 {
@@ -50,18 +52,19 @@ internal static class ListExtensions
         return row.ToArray();
     }
 
-    public static int[][] To2dArray(this string? input, bool allowEmpty = true)
+    public static T[][] To2dArray<T>(this string? input, bool allowEmpty = true)
     {
         if (input == null)
         {
-            return new Matrix();
+            return Array.Empty<T[]>();
         }
 
         var data = input.Trim();
-        var matrix = new Matrix();
+        var matrix = new List<object[]>();
 
-        List<int>? row = null;
+        List<object>? row = null;
         int? number = null;
+        string? literal = null;
         bool negative = false;
         foreach (var ch in data)
         {
@@ -72,13 +75,17 @@ internal static class ListExtensions
 
             if (ch is '[' or '{')
             {
-                row = new List<int>();
+                row = new List<object>();
             }
             else if (char.IsDigit(ch))
             {
                 number ??= 0;
                 number *= 10;
                 number += ch - '0';
+            }
+            else if (char.IsLetter(ch))
+            {
+                literal += ch;
             }
             else if (ch == '-')
             {
@@ -92,6 +99,9 @@ internal static class ListExtensions
                     number = null;
                     negative = false;
                 }
+
+                AddLiteral<T>(literal, row);
+                literal = null;
             }
             else if (ch is ']' or '}' && row != null)
             {
@@ -102,14 +112,37 @@ internal static class ListExtensions
                     negative = false;
                 }
 
+                AddLiteral<T>(literal, row);
+                literal = null;
+
                 if (allowEmpty || row.Any())
                 {
-                    matrix.Row(row.ToArray());
+                    matrix.Add(row.ToArray());
                     row = null;
                 }
             }
         }
 
-        return matrix;
+        return matrix.Select(it => it.Select(x => (T)x).ToArray()).ToArray();
+    }
+
+    private static void AddLiteral<T>(string? literal, List<object> row)
+    {
+        if ("null".Equals(literal, StringComparison.InvariantCultureIgnoreCase))
+        {
+            row.Add(null);
+        }
+        else if ("true".Equals(literal, StringComparison.InvariantCultureIgnoreCase))
+        {
+            row.Add(true);
+        }
+        else if ("false".Equals(literal, StringComparison.InvariantCultureIgnoreCase))
+        {
+            row.Add(true);
+        }
+        else if (literal != null)
+        {
+            row.Add(literal);
+        }
     }
 }
