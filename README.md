@@ -164,6 +164,11 @@ Code: [C#](/src/csharp/Problems/InvertTree.cs)
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/KthSmallest.cs)  
 
+### [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+Tags: Stack, Design, Queue  
+Code: [C#](/src/csharp/Problems/MyQueue.cs)  
+
 ### [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 Tags: Linked List, Two Pointers, Stack, Recursion  

@@ -49,4 +49,67 @@ internal static class ListExtensions
 
         return row.ToArray();
     }
+
+    public static int[][] To2dArray(this string? input, bool allowEmpty = true)
+    {
+        if (input == null)
+        {
+            return new Matrix();
+        }
+
+        var data = input.Trim();
+        var matrix = new Matrix();
+
+        List<int>? row = null;
+        int? number = null;
+        bool negative = false;
+        foreach (var ch in data)
+        {
+            if (ch == ' ')
+            {
+                continue;
+            }
+
+            if (ch is '[' or '{')
+            {
+                row = new List<int>();
+            }
+            else if (char.IsDigit(ch))
+            {
+                number ??= 0;
+                number *= 10;
+                number += ch - '0';
+            }
+            else if (ch == '-')
+            {
+                negative = true;
+            }
+            else if (ch is ',' && row != null)
+            {
+                if (number != null)
+                {
+                    row.Add(negative ? -number.Value : number.Value);
+                    number = null;
+                    negative = false;
+                }
+            }
+            else if (ch is ']' or '}' && row != null)
+            {
+                if (number != null)
+                {
+                    row.Add(negative ? -number.Value : number.Value);
+                    number = null;
+                    negative = false;
+                }
+
+                if (allowEmpty || row.Any())
+                {
+                    matrix.Row(row.ToArray());
+                    row = null;
+                }
+            }
+        }
+
+        return matrix;
+    }
 }
