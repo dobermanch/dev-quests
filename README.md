@@ -114,6 +114,11 @@ Code: [C#](/src/csharp/Problems/DetectCycle.cs)
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
 Code: [C#](/src/csharp/Problems/SortList.cs)  
 
+### [155. Min Stack](https://leetcode.com/problems/min-stack/)
+
+Tags: Stack, Design  
+Code: [C#](/src/csharp/Problems/MinStack.cs)  
+
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
