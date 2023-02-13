@@ -9,6 +9,8 @@ public class TestCaseCollection : IEnumerable<object[]>
 
     protected TestCaseCollection() { }
 
+    public TestCaseCollection Add(bool skip, Action<TestCase> configure) => skip ? this : Add(configure);
+
     public TestCaseCollection Add(Action<TestCase> configure)
     {
         var testCase = TestCase.Create(_methods[0]);
