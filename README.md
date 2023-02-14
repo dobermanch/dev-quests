@@ -299,6 +299,11 @@ Code: [C#](/src/csharp/Problems/PivotIndex.cs)
 Tags: Array, Depth-First Search, Breadth-First Search, Matrix  
 Code: [C#](/src/csharp/Problems/FloodFill.cs)  
 
+### [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
+
+Tags: Array, Stack  
+Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)  
+
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 Tags: Array, Dynamic Programming  
