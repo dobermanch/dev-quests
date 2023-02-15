@@ -179,6 +179,11 @@ Code: [C#](/src/csharp/Problems/FindOrder.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/InvertTree.cs)  
 
+### [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+
+Tags: Math, String, Stack  
+Code: [C#](/src/csharp/Problems/Calculate.cs)  
+
 ### [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
