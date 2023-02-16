@@ -329,6 +329,11 @@ Code: [C#](/src/csharp/Problems/MiddleNode.cs)
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)  
 
+### [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+
+Tags: Depth-First Search, Union Find, Graph  
+Code: [C#](/src/csharp/Problems/RemoveStones.cs)  
+
 ### [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
 Tags: Array, Hash Table, Prefix Sum  
