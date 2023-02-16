@@ -69,6 +69,11 @@ Code: [C#](/src/csharp/Problems/ClimbStairs.cs)
 Tags: Array, Binary Search, Matrix  
 Code: [C#](/src/csharp/Problems/SearchMatrix.cs)  
 
+### [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+
+Tags: Hash Table, String, Sliding Window  
+Code: [C#](/src/csharp/Problems/MinWindow.cs)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: String, Backtracking  
@@ -278,6 +283,11 @@ Code: [C#](/src/csharp/Problems/Fibonacci.cs)
 
 Tags: Tree, Depth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/DiameterOfBinaryTree.cs)  
+
+### [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+
+Tags: Depth-First Search, Breadth-First Search, Union Find, Graph  
+Code: [C#](/src/csharp/Problems/FindCircleNum.cs)  
 
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
