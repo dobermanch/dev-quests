@@ -39,6 +39,11 @@ Code: [C#](/src/csharp/Problems/MergeTwoLists.cs)
 Tags: Array, Binary Search  
 Code: [C#](/src/csharp/Problems/Search.cs)  
 
+### [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+
+Tags: Array, Binary Search  
+Code: [C#](/src/csharp/Problems/SearchInsert.cs)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  
