@@ -354,6 +354,11 @@ Code: [C#](/src/csharp/Problems/RemoveStones.cs)
 Tags: Array, Hash Table, Prefix Sum  
 Code: [C#](/src/csharp/Problems/SubarraysDivByK.cs)  
 
+### [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/SortedSquares.cs)  
+
 ### [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
 Tags: Array, Breadth-First Search, Matrix  
