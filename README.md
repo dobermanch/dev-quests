@@ -144,6 +144,11 @@ Code: [C#](/src/csharp/Problems/MinStack.cs)
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
 
+### [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+
+Tags: Array, Math, Two Pointers  
+Code: [C#](/src/csharp/Problems/Rotate.cs)  
+
 ### [198. House Robber](https://leetcode.com/problems/house-robber/)
 
 Tags: Array, Dynamic Programming  
