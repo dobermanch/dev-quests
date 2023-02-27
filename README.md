@@ -319,6 +319,11 @@ Code: [C#](/src/csharp/Problems/ReverseWords.cs)
 Tags: Stack, Tree, Depth-First Search  
 Code: [C#](/src/csharp/Problems/Preorder.cs)  
 
+### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/MergeTrees.cs)  
+
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
