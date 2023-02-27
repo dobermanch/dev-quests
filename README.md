@@ -139,6 +139,11 @@ Code: [C#](/src/csharp/Problems/SortList.cs)
 Tags: Stack, Design  
 Code: [C#](/src/csharp/Problems/MinStack.cs)  
 
+### [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+
+Tags: Array, Two Pointers, Binary Search  
+Code: [C#](/src/csharp/Problems/TwoSum2.cs)  
+
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
