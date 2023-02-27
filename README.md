@@ -224,6 +224,11 @@ Code: [C#](/src/csharp/Problems/LowestCommonAncestor.cs)
 Tags: Binary Search, Interactive  
 Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)  
 
+### [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+
+Tags: Array, Two Pointers  
+Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
+
 ### [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
 
 Tags: Hash Table, String, Counting  
