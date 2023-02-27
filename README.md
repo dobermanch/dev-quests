@@ -319,6 +319,11 @@ Code: [C#](/src/csharp/Problems/FindCircleNum.cs)
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/ReverseWords.cs)  
 
+### [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
+
+Tags: Hash Table, Two Pointers, String, Sliding Window  
+Code: [C#](/src/csharp/Problems/CheckInclusion.cs)  
+
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
