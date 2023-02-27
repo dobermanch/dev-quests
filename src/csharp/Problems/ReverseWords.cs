@@ -17,16 +17,16 @@ public sealed class ReverseWords : ProblemBase
         var result = new StringBuilder();
 
         var index = 0;
-        for (int i = 0; i < s.Length; i++)
+        foreach (var ch in s)
         {
-            if (s[i] == ' ')
+            if (ch == ' ')
             {
-                result.Append(s[i]);
+                result.Append(ch);
                 index = result.Length;
             }
             else
             {
-                result.Insert(index, s[i]);
+                result.Insert(index, ch);
             }
         }
 
