@@ -114,6 +114,11 @@ Code: [C#](/src/csharp/Problems/SortedArrayToBST.cs)
 Tags: Tree, Depth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/IsBalanced.cs)  
 
+### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+
+Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/Connect.cs)  
+
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: Array, Dynamic Programming  
