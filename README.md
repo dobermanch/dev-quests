@@ -339,6 +339,11 @@ Code: [C#](/src/csharp/Problems/MergeTrees.cs)
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
 Code: [C#](/src/csharp/Problems/TopKFrequent.cs)  
 
+### [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+
+Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix  
+Code: [C#](/src/csharp/Problems/MaxAreaOfIsland.cs)  
+
 ### [704. Binary Search](https://leetcode.com/problems/binary-search/)
 
 Tags: Array, Binary Search  
