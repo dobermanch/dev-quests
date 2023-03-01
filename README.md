@@ -79,6 +79,11 @@ Code: [C#](/src/csharp/Problems/SearchMatrix.cs)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/MinWindow.cs)  
 
+### [77. Combinations](https://leetcode.com/problems/combinations/)
+
+Tags: Backtracking  
+Code: [C#](/src/csharp/Problems/Combine.cs)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: String, Backtracking  
