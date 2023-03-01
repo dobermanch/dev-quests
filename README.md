@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/BSTIterator.cs)
 Tags: Array, Math, Two Pointers  
 Code: [C#](/src/csharp/Problems/Rotate.cs)  
 
+### [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+
+Tags: Divide and Conquer, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/HammingWeight.cs)  
+
 ### [198. House Robber](https://leetcode.com/problems/house-robber/)
 
 Tags: Array, Dynamic Programming  
