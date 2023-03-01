@@ -214,6 +214,11 @@ Code: [C#](/src/csharp/Problems/Calculate.cs)
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/KthSmallest.cs)  
 
+### [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+
+Tags: Math, Bit Manipulation, Recursion  
+Code: [C#](/src/csharp/Problems/IsPowerOfTwo.cs)  
+
 ### [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 Tags: Stack, Design, Queue  
