@@ -309,6 +309,11 @@ Code: [C#](/src/csharp/Problems/FindSubsequences.cs)
 Tags: Math, Dynamic Programming, Recursion, Memoization  
 Code: [C#](/src/csharp/Problems/Fibonacci.cs)  
 
+### [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
+
+Tags: Array, Dynamic Programming, Breadth-First Search, Matrix  
+Code: [C#](/src/csharp/Problems/UpdateMatrix.cs)  
+
 ### [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 Tags: Tree, Depth-First Search, Binary Tree  
