@@ -129,6 +129,11 @@ Code: [C#](/src/csharp/Problems/IsBalanced.cs)
 Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/Connect.cs)  
 
+### [120. Triangle](https://leetcode.com/problems/triangle/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/MinimumTotal.cs)  
+
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: Array, Dynamic Programming  
