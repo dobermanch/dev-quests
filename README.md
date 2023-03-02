@@ -49,6 +49,11 @@ Code: [C#](/src/csharp/Problems/SearchInsert.cs)
 Tags: Math, String, Simulation  
 Code: [C#](/src/csharp/Problems/Multiply.cs)  
 
+### [46. Permutations](https://leetcode.com/problems/permutations/)
+
+Tags: Array, Backtracking  
+Code: [C#](/src/csharp/Problems/Permute.cs)  
+
 ### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 
 Tags: Array, Matrix, Simulation  
