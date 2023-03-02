@@ -139,6 +139,11 @@ Code: [C#](/src/csharp/Problems/MaxProfit.cs)
 Tags: String, Dynamic Programming, Backtracking  
 Code: [C#](/src/csharp/Problems/Partition.cs)  
 
+### [136. Single Number](https://leetcode.com/problems/single-number/)
+
+Tags: Array, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/SingleNumber.cs)  
+
 ### [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 Tags: Hash Table, Linked List, Two Pointers  
