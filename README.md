@@ -169,6 +169,11 @@ Code: [C#](/src/csharp/Problems/BSTIterator.cs)
 Tags: Array, Math, Two Pointers  
 Code: [C#](/src/csharp/Problems/Rotate.cs)  
 
+### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+Tags: Divide and Conquer, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/ReverseBits.cs)  
+
 ### [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 Tags: Divide and Conquer, Bit Manipulation  
