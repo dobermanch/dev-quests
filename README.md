@@ -399,6 +399,11 @@ Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinCostClimbingStairs.cs)  
 
+### [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+
+Tags: String, Backtracking, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/LetterCasePermutation.cs)  
+
 ### [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 
 Tags: Two Pointers, String, Stack, Simulation  
