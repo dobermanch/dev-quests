@@ -144,6 +144,11 @@ Code: [C#](/src/csharp/Problems/MaxProfit.cs)
 Tags: String, Dynamic Programming, Backtracking  
 Code: [C#](/src/csharp/Problems/Partition.cs)  
 
+### [136. Single Number](https://leetcode.com/problems/single-number/)
+
+Tags: Array, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/SingleNumber.cs)  
+
 ### [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 Tags: Hash Table, Linked List, Two Pointers  
@@ -173,6 +178,11 @@ Code: [C#](/src/csharp/Problems/BSTIterator.cs)
 
 Tags: Array, Math, Two Pointers  
 Code: [C#](/src/csharp/Problems/Rotate.cs)  
+
+### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+Tags: Divide and Conquer, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/ReverseBits.cs)  
 
 ### [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
