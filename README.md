@@ -397,7 +397,7 @@ Code: [C#](/src/csharp/Problems/BinarySearch.cs)
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
 Tags: Array, Prefix Sum  
-Code: [C#](/src/csharp/Problems/PivotIndex.cs)  
+Code: [C#](/src/csharp/Problems/PivotIndex.cs) | [Go](/src/go/problems/PivotIndex.go)  
 
 ### [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 
@@ -477,7 +477,7 @@ Code: [C#](/src/csharp/Problems/MinTime.cs)
 ### [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 
 Tags: Array, Prefix Sum  
-Code: [C#](/src/csharp/Problems/RunningSum.cs)  
+Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/RunningSum.go)  
 
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
