@@ -269,6 +269,11 @@ Code: [C#](/src/csharp/Problems/IsPalindrome.cs)
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/LowestCommonAncestor.cs)  
 
+### [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+Tags: Hash Table, String, Sorting  
+Code: [C#](/src/csharp/Problems/IsAnagram.cs) | [Go](/src/go/problems/IsAnagram.go)  
+
 ### [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 Tags: Binary Search, Interactive  
