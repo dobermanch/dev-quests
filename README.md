@@ -502,4 +502,4 @@ Code: [C#](/src/csharp/Problems/LongestPalindromeByConcat2Letter.cs)
 ### [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
 
 Tags: Math  
-Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs)  
+Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs) | [Go](/src/go/problems/AddTwoIntegers.go)  
