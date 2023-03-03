@@ -229,6 +229,11 @@ Code: [C#](/src/csharp/Problems/Trie.cs)
 Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort  
 Code: [C#](/src/csharp/Problems/FindOrder.cs)  
 
+### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+
+Tags: Array, Hash Table, Sorting  
+Code: [C#](/src/csharp/Problems/ContainsDuplicate.cs) | [Go](/src/go/problems/ContainsDuplicate.go)  
+
 ### [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
