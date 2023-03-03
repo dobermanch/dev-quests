@@ -7,7 +7,7 @@ My solutions to [LeetCode](https://leetcode.com/) problems.
 ### [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 Tags: Array, Hash Table  
-Code: [C#](/src/csharp/Problems/TwoSum.cs)  
+Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)  
 
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
