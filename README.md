@@ -407,7 +407,7 @@ Code: [C#](/src/csharp/Problems/FloodFill.cs)
 ### [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
 Tags: Array, Stack  
-Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)  
+Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)| [Go](/src/go/problems/AsteroidCollision.go)  
 
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 

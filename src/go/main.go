@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/dobermanch/leetcode/problems/RunningSum"
+	"github.com/dobermanch/leetcode/problems"
 )
 
 func main() {
-	result := RunningSum.RunningSum([]int{1, 2, 3, 4})
+	result := problems.AsteroidCollision([]int{-2, 1, 1, -1})
 	fmt.Println(result)
 }
