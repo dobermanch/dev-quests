@@ -27,6 +27,7 @@ public abstract class ProblemBase: TestCaseCollection
             solutions.Add(method.Name, method);
         }
 
+        //TODO: Deep clone test input data, because it can be modified in the previous test
         var result = method.Invoke(this, data.Skip(2).ToArray());
         //if (result is IEnumerable<object> received 
         //    && data[0] is IEnumerable<object> expected)
