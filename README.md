@@ -327,7 +327,7 @@ Code: [C#](/src/csharp/Problems/RansomNote.cs)
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 Tags: Two Pointers, String, Dynamic Programming  
-Code: [C#](/src/csharp/Problems/IsSubsequence.cs)  
+Code: [C#](/src/csharp/Problems/IsSubsequence.cs) | [Go](/src/go/problems/IsSubsequence.go)  
 
 ### [394. Decode String](https://leetcode.com/problems/decode-string/)
 

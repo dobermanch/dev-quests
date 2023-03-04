@@ -4,17 +4,22 @@ namespace LeetCode.Problems;
 
 public sealed class IsSubsequence : ProblemBase
 {
-    public static void Run(){
-        var d = Run("abc", "ahbgdc");
-    }
+    [Theory]
+    [ClassData(typeof(IsSubsequence))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static bool Run(string s, string t) {
-        if (string.IsNullOrEmpty(s)) 
+    public override void AddTestCases()
+        => Add(it => it.Param("abc").Param("ahbgdc").Result(true))
+          .Add(it => it.Param("axc").Param("ahbgdc").Result(false));
+
+    private bool Solution(string s, string t)
+    {
+        if (string.IsNullOrEmpty(s))
         {
             return true;
         }
 
-        if (string.IsNullOrEmpty(t)) 
+        if (string.IsNullOrEmpty(t))
         {
             return false;
         }
@@ -22,10 +27,10 @@ public sealed class IsSubsequence : ProblemBase
         var j = 0;
         for (var i = 0; i < t.Length; i++)
         {
-            if (t[i] == s[j]) 
+            if (t[i] == s[j])
             {
                 j++;
-                if (j >= s.Length) 
+                if (j >= s.Length)
                 {
                     break;
                 }
