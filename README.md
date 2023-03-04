@@ -59,6 +59,11 @@ Code: [C#](/src/csharp/Problems/Permute.cs)
 Tags: Array, Hash Table, String, Sorting  
 Code: [C#](/src/csharp/Problems/GroupAnagrams.cs) | [Go](/src/go/problems/GroupAnagrams.go)  
 
+### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+
+Tags: Array, Divide and Conquer, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/MaxSubArray.cs) | [Go](/src/go/problems/MaxSubArray.go)  
+
 ### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 
 Tags: Array, Matrix, Simulation  
