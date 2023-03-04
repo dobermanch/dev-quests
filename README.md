@@ -94,6 +94,11 @@ Code: [C#](/src/csharp/Problems/MinWindow.cs)
 Tags: Backtracking  
 Code: [C#](/src/csharp/Problems/Combine.cs)  
 
+### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/Merge.cs) | [Go](/src/go/problems/Merge.go)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: String, Backtracking  
