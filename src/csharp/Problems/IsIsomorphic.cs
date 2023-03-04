@@ -4,38 +4,27 @@ namespace LeetCode.Problems;
 
 public sealed class IsIsomorphic : ProblemBase
 {
-    public static void Run()
-    {
-        // var a = Run("egg", "add");
-        // var b = Run("foo", "bar");
-        // var c = Run("paper", "title");
-        //var d = Run("badc", "baba");
-        var d = Run("abab", "baba");
-    }
+    [Theory]
+    [ClassData(typeof(IsIsomorphic))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static bool Run(string s, string t)
+    public override void AddTestCases()
+        => Add(it => it.Param("egg").Param("add").Result(true))
+            .Add(it => it.Param("foo").Param("bar").Result(false))
+            .Add(it => it.Param("paper").Param("title").Result(true));
+
+    private bool Solution(string s, string t)
     {
-        var map = new Dictionary<char, char>();
-        var map1 = new Dictionary<char, char>();
+        var map = new int[127, 2];
         for (var i = 0; i < s.Length; i++)
         {
-            if (!map.ContainsKey(s[i]))
-            {
-                map.Add(s[i], t[i]);
-            }
-            if (!map1.ContainsKey(t[i]))
-            {
-                map1.Add(t[i], s[i]);
-            }
-            else if (map1[t[i]] != s[i])
+            if (map[s[i], 0] != map[t[i], 1])
             {
                 return false;
             }
 
-            if (map[s[i]] != t[i])
-            {
-                return false;
-            }
+            map[s[i], 0] = i + 1;
+            map[t[i], 1] = i + 1;
         }
 
         return true;

@@ -227,7 +227,7 @@ Code: [C#](/src/csharp/Problems/IsHappy.cs)
 ### [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 Tags: Hash Table, String  
-Code: [C#](/src/csharp/Problems/IsIsomorphic.cs)  
+Code: [C#](/src/csharp/Problems/IsIsomorphic.cs) | [Go](/src/go/problems/IsIsomorphic.go)  
 
 ### [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
