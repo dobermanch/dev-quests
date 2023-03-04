@@ -54,6 +54,11 @@ Code: [C#](/src/csharp/Problems/Multiply.cs)
 Tags: Array, Backtracking  
 Code: [C#](/src/csharp/Problems/Permute.cs)  
 
+### [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+Tags: Array, Hash Table, String, Sorting  
+Code: [C#](/src/csharp/Problems/GroupAnagrams.cs) | [Go](/src/go/problems/GroupAnagrams.go)  
+
 ### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 
 Tags: Array, Matrix, Simulation  
