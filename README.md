@@ -319,6 +319,11 @@ Code: [C#](/src/csharp/Problems/OddEvenList.cs)
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/ReverseString.cs)  
 
+### [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+
+Tags: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect  
+Code: [C#](/src/csharp/Problems/TopKFrequentElement.cs) | [Go](/src/go/problems/TopKFrequentElement.go)  
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 Tags: Hash Table, String, Counting  
@@ -407,7 +412,7 @@ Code: [C#](/src/csharp/Problems/MergeTrees.cs)
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
-Code: [C#](/src/csharp/Problems/TopKFrequent.cs)  
+Code: [C#](/src/csharp/Problems/TopKFrequentWords.cs)  
 
 ### [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 
