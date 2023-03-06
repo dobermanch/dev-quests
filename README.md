@@ -172,7 +172,7 @@ Code: [C#](/src/csharp/Problems/SingleNumber.cs)
 ### [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 Tags: Hash Table, Linked List, Two Pointers  
-Code: [C#](/src/csharp/Problems/DetectCycle.cs)  
+Code: [C#](/src/csharp/Problems/DetectCycle.cs) | [Go](/src/go/problems/DetectCycle.go)  
 
 ### [148. Sort List](https://leetcode.com/problems/sort-list/)
 
