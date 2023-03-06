@@ -467,7 +467,7 @@ Code: [C#](/src/csharp/Problems/BackspaceCompare.cs)
 ### [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 Tags: Linked List, Two Pointers  
-Code: [C#](/src/csharp/Problems/MiddleNode.cs)  
+Code: [C#](/src/csharp/Problems/MiddleNode.cs) | [Go](/src/go/problems/MiddleNode.go)  
 
 ### [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
