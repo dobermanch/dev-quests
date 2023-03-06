@@ -32,7 +32,7 @@ Code: [C#](/src/csharp/Problems/RemoveNthFromEnd.cs)
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 Tags: Linked List, Recursion  
-Code: [C#](/src/csharp/Problems/MergeTwoLists.cs)  
+Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeTwoLists.go)  
 
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
