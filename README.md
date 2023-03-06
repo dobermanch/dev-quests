@@ -44,6 +44,11 @@ Code: [C#](/src/csharp/Problems/Search.cs)
 Tags: Array, Binary Search  
 Code: [C#](/src/csharp/Problems/SearchInsert.cs)  
 
+### [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+
+Tags: Array, Hash Table, Matrix  
+Code: [C#](/src/csharp/Problems/IsValidSudoku.cs) | [Go](/src/go/problems/IsValidSudoku.go)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  

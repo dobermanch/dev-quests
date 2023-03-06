@@ -1,6 +1,4 @@
-﻿using System.Collections.Immutable;
-
-namespace LeetCode.Models;
+﻿namespace LeetCode.Models;
 
 internal static class ListExtensions
 {
@@ -52,11 +50,11 @@ internal static class ListExtensions
         return row.ToArray();
     }
 
-    public static T[][] To2dArray<T>(this string? input, bool allowEmpty = true)
+    public static TOut[][] To2dArray<TOut>(this string? input, Converter<object, TOut>? converter = null, bool allowEmpty = true)
     {
         if (input == null)
         {
-            return Array.Empty<T[]>();
+            return Array.Empty<TOut[]>();
         }
 
         var data = input.Trim();
@@ -68,7 +66,7 @@ internal static class ListExtensions
         bool negative = false;
         foreach (var ch in data)
         {
-            if (ch == ' ')
+            if (ch is ' ' or '"' or '\'' or '\r' or '\n')
             {
                 continue;
             }
@@ -83,25 +81,24 @@ internal static class ListExtensions
                 number *= 10;
                 number += ch - '0';
             }
-            else if (char.IsLetter(ch))
-            {
-                literal += ch;
-            }
             else if (ch == '-')
             {
                 negative = true;
             }
-            else if (ch is ',' && row != null)
+            else if (ch is ',')
             {
-                if (number != null)
+                if (row != null)
                 {
-                    row.Add(negative ? -number.Value : number.Value);
-                    number = null;
-                    negative = false;
-                }
+                    if (number != null)
+                    {
+                        row.Add(negative ? -number.Value : number.Value);
+                        number = null;
+                        negative = false;
+                    }
 
-                AddLiteral<T>(literal, row);
-                literal = null;
+                    AddLiteral(literal, row);
+                    literal = null;
+                }
             }
             else if (ch is ']' or '}' && row != null)
             {
@@ -112,7 +109,7 @@ internal static class ListExtensions
                     negative = false;
                 }
 
-                AddLiteral<T>(literal, row);
+                AddLiteral(literal, row);
                 literal = null;
 
                 if (allowEmpty || row.Any())
@@ -121,12 +118,27 @@ internal static class ListExtensions
                     row = null;
                 }
             }
+            else
+            {
+                literal += ch;
+            }
         }
 
-        return matrix.Select(it => it.Select(x => (T)x).ToArray()).ToArray();
+        converter ??= GetConverter<TOut>();
+
+        return matrix.Select(it => it.Select(it =>
+        {
+            if (converter != null)
+            {
+                var d =  converter(it);
+                return d;
+            }
+
+            return (TOut) it;
+        }).ToArray()).ToArray();
     }
 
-    private static void AddLiteral<T>(string? literal, List<object> row)
+    private static void AddLiteral(string? literal, List<object> row)
     {
         if ("null".Equals(literal, StringComparison.InvariantCultureIgnoreCase))
         {
@@ -144,5 +156,17 @@ internal static class ListExtensions
         {
             row.Add(literal);
         }
+    }
+
+    private static Converter<object, T>? GetConverter<T>()
+    {
+        if (typeof(T) == typeof(char))
+        {
+            return it => it is int input
+                ? (T) Convert.ChangeType(input + '0', typeof(T))
+                : (T) Convert.ChangeType(it, typeof(T));
+        }
+
+        return null;
     }
 }
