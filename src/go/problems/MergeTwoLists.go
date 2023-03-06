@@ -2,11 +2,6 @@
 
 package problems
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func MergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	if list1 == nil {
 		return list2
