@@ -14,6 +14,11 @@ Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs)  
 
+### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+
+Tags: Array, Two Pointers, Greedy  
+Code: [C#](/src/csharp/Problems/MaxArea.cs) | [Go](/src/go/problems/MaxArea.go)  
+
 ### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 Tags: String, Trie  
