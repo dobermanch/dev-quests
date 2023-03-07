@@ -19,6 +19,11 @@ Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs)
 Tags: String, Trie  
 Code: [C#](/src/csharp/Problems/LongestCommonPrefix.cs)  
 
+### [15. 3Sum](https://leetcode.com/problems/3sum/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/ThreeSum.cs) | [Go](/src/go/problems/ThreeSum.go)  
+
 ### [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
 Tags: Array, Two Pointers, Sorting  
