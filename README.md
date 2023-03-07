@@ -197,7 +197,7 @@ Code: [C#](/src/csharp/Problems/MinStack.cs)
 ### [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 Tags: Array, Two Pointers, Binary Search  
-Code: [C#](/src/csharp/Problems/TwoSum2.cs)  
+Code: [C#](/src/csharp/Problems/TwoSum2.cs) | [Go](/src/go/problems/TwoSum2.go)  
 
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
