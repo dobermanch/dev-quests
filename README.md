@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/MinimumTotal.cs)
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MaxProfit.cs) | [Go](/src/go/Problems/MaxProfit.go)  
 
+### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/IsPalindrome.cs) | [Go](/src/go/Problems/IsPalindrome.go)  
+
 ### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 Tags: Array, Hash Table, Union Find  
@@ -287,7 +292,7 @@ Code: [C#](/src/csharp/Problems/MyQueue.cs)
 ### [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 Tags: Linked List, Two Pointers, Stack, Recursion  
-Code: [C#](/src/csharp/Problems/IsPalindrome.cs)  
+Code: [C#](/src/csharp/Problems/IsPalindromeLinkedList.cs)  
 
 ### [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
