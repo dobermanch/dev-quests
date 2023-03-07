@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/MinimumTotal.cs)
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MaxProfit.cs)  
 
+### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+
+Tags: Array, Hash Table, Union Find  
+Code: [C#](/src/csharp/Problems/LongestConsecutive.cs) | [Go](/src/go/problems/LongestConsecutive.go)  
+
 ### [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 Tags: String, Dynamic Programming, Backtracking  
