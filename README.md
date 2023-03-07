@@ -357,7 +357,7 @@ Code: [C#](/src/csharp/Problems/DecodeString.cs)
 ### [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 Tags: Hash Table, String, Greedy  
-Code: [C#](/src/csharp/Problems/LongestPalindrome.cs)  
+Code: [C#](/src/csharp/Problems/LongestPalindrome.cs) | [Go](/src/go/problems/LongestPalindrome.go)  
 
 ### [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 
