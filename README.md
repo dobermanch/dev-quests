@@ -157,7 +157,7 @@ Code: [C#](/src/csharp/Problems/MinimumTotal.cs)
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: Array, Dynamic Programming  
-Code: [C#](/src/csharp/Problems/MaxProfit.cs)  
+Code: [C#](/src/csharp/Problems/MaxProfit.cs) | [Go](/src/go/Problems/MaxProfit.go)  
 
 ### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
