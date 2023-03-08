@@ -59,6 +59,11 @@ Code: [C#](/src/csharp/Problems/SearchInsert.cs)
 Tags: Array, Hash Table, Matrix  
 Code: [C#](/src/csharp/Problems/IsValidSudoku.cs) | [Go](/src/go/problems/IsValidSudoku.go)  
 
+### [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+
+Tags: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack  
+Code: [C#](/src/csharp/Problems/Trap.cs) | [Go](/src/go/problems/Trap.go)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  
