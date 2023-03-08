@@ -12,7 +12,7 @@ Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 Tags: Hash Table, String, Sliding Window  
-Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs)  
+Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go)  
 
 ### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
