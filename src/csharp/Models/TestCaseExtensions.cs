@@ -15,6 +15,9 @@ public static class TestCaseExtensions
     public static TestCase ParamArray(this TestCase testCase, string? input) 
         => testCase.Param(input.ToArray());
 
+    public static TestCase ParamArray<T>(this TestCase testCase, string? input)
+        => testCase.Param(input.To2dArray<T>()[0]);
+
     public static TestCase Param2dArray(this TestCase testCase, string? data, bool includeEmpty = false) 
         => testCase.Param(data.To2dArray<int>(null, includeEmpty));
 

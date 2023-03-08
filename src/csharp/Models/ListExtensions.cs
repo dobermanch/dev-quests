@@ -167,6 +167,11 @@ internal static class ListExtensions
                 : (T) Convert.ChangeType(it, typeof(T));
         }
 
+        if (typeof(T) == typeof(string))
+        {
+            return it => (T) (object) it.ToString();
+        }
+
         return null;
     }
 }

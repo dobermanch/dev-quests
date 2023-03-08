@@ -209,6 +209,11 @@ Code: [C#](/src/csharp/Problems/DetectCycle.cs) | [Go](/src/go/problems/DetectCy
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
 Code: [C#](/src/csharp/Problems/SortList.cs)  
 
+### [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+
+Tags: Array, Math, Stack  
+Code: [C#](/src/csharp/Problems/EvalRPN.cs) | [Go](/src/go/problems/EvalRPN.go)  
+
 ### [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 Tags: Stack, Design  
