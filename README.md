@@ -39,6 +39,11 @@ Code: [C#](/src/csharp/Problems/ThreeSumClosest.cs)
 Tags: Linked List, Two Pointers  
 Code: [C#](/src/csharp/Problems/RemoveNthFromEnd.cs)  
 
+### [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+Tags: String, Stack  
+Code: [C#](/src/csharp/Problems/IsValidParentheses.cs) | [Go](/src/go/problems/IsValidParentheses.go)  
+
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 Tags: Linked List, Recursion  
