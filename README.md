@@ -447,7 +447,7 @@ Code: [C#](/src/csharp/Problems/CheckInclusion.cs)
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
-Code: [C#](/src/csharp/Problems/Preorder.cs)  
+Code: [C#](/src/csharp/Problems/Preorder.cs) | [Python](/src/python/Problems/Preorder.py)  
 
 ### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 

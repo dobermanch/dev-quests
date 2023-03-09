@@ -1,5 +1,3 @@
-
-
 class MinWindow:
     def Solution(self, s: str, t: str) -> str:
         mapT = {}
