@@ -117,7 +117,7 @@ Code: [C#](/src/csharp/Problems/SearchMatrix.cs)
 ### [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 Tags: Hash Table, String, Sliding Window  
-Code: [C#](/src/csharp/Problems/MinWindow.cs) | [Go](/src/go/problems/MinWindow.go)  
+Code: [C#](/src/csharp/Problems/MinWindow.cs) | [Go](/src/go/problems/MinWindow.go) | [Python](/src/python/problems/MinWindow.py)  
 
 ### [77. Combinations](https://leetcode.com/problems/combinations/)
 
