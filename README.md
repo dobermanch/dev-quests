@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/IsSymmetric.cs)
 Tags: Tree, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/LevelOrder.cs)  
 
+### [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/MaxDepth.cs) | [Go](/src/go/problems/MaxDepth.go) | [Python](/src/python/problems/MaxDepth.py)  
+
 ### [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 Tags: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree  
