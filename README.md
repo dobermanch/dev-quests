@@ -49,6 +49,11 @@ Code: [C#](/src/csharp/Problems/IsValidParentheses.cs) | [Go](/src/go/problems/I
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeTwoLists.go) | [Python](/src/python/problems/MergeTwoLists.py)  
 
+### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+Tags: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort  
+Code: [C#](/src/csharp/Problems/MergeKLists.cs) | [Go](/src/go/problems/MergeKLists.go) | [Python](/src/python/problems/MergeKLists.py)  
+
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 Tags: Array, Binary Search  

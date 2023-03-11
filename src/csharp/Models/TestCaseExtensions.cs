@@ -46,7 +46,12 @@ public static class TestCaseExtensions
         => testCase.Param(ListNode.Create(null, data?.Where(it => it != null).Select(it => it.Value).ToArray()));
 
     public static TestCase ParamListNode(this TestCase testCase, string? input, int? cycleAtPos = null)
-        => testCase.Param(ListNode.Parse(input, cycleAtPos));
+    {
+        var lists = input.To2dArray<int>();
+        return lists.Length <= 1 
+            ? testCase.Param(ListNode.Create(cycleAtPos, lists.FirstOrDefault()))
+            : testCase.Param(lists.Select(it => ListNode.Create(cycleAtPos, it)).ToArray());
+    }
 
     public static TestCase ParamNode(this TestCase testCase, params int?[] data)
         => testCase.Param<Node>(data);
