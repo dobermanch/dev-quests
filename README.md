@@ -277,7 +277,7 @@ Code: [C#](/src/csharp/Problems/IsIsomorphic.cs) | [Go](/src/go/problems/IsIsomo
 ### [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 Tags: Linked List, Recursion  
-Code: [C#](/src/csharp/Problems/ReverseList.cs) | [Go](/src/go/problems/ReverseList.go)  
+Code: [C#](/src/csharp/Problems/ReverseList.cs) | [Go](/src/go/problems/ReverseList.go) | [Python](/src/python/problems/ReverseList.py)  
 
 ### [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
