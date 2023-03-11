@@ -214,6 +214,11 @@ Code: [C#](/src/csharp/Problems/SortList.cs)
 Tags: Array, Math, Stack  
 Code: [C#](/src/csharp/Problems/EvalRPN.cs) | [Go](/src/go/problems/EvalRPN.go)  
 
+### [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+
+Tags: Array, Binary Search  
+Code: [C#](/src/csharp/Problems/FindMin.cs) | [Go](/src/go/problems/FindMin.go) | [Python](/src/python/problems/FindMin.py)  
+
 ### [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 Tags: Stack, Design  
