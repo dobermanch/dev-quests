@@ -199,6 +199,11 @@ Code: [C#](/src/csharp/Problems/Partition.cs)
 Tags: Array, Bit Manipulation  
 Code: [C#](/src/csharp/Problems/SingleNumber.cs)  
 
+### [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+
+Tags: Hash Table, Linked List, Two Pointers  
+Code: [C#](/src/csharp/Problems/HasCycle.cs) | [Go](/src/go/problems/HasCycle.go) | [Python](/src/python/problems/HasCycle.py)  
+
 ### [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 Tags: Hash Table, Linked List, Two Pointers  

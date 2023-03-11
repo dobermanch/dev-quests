@@ -42,8 +42,11 @@ public static class TestCaseExtensions
     public static TestCase ParamListNode(this TestCase testCase, params int?[] data)
         => testCase.Param<ListNode>(data);
 
-    public static TestCase ParamListNode(this TestCase testCase, string? input)
-        => testCase.Param(ListNode.Parse(input));
+    public static TestCase ParamListNode(this TestCase testCase, int cycleAtPos, params int?[] data)
+        => testCase.Param(ListNode.Create(null, data?.Where(it => it != null).Select(it => it.Value).ToArray()));
+
+    public static TestCase ParamListNode(this TestCase testCase, string? input, int? cycleAtPos = null)
+        => testCase.Param(ListNode.Parse(input, cycleAtPos));
 
     public static TestCase ParamNode(this TestCase testCase, params int?[] data)
         => testCase.Param<Node>(data);
@@ -55,7 +58,7 @@ public static class TestCaseExtensions
     {
         if (typeof(T) == typeof(ListNode))
         {
-            testCase.Param(ListNode.Create(data == null ? null : data.Where(it => it != null).Select(it => it.Value).ToArray()));
+            testCase.Param(ListNode.Create(null, data == null ? null : data.Where(it => it != null).Select(it => it.Value).ToArray()));
         }
         else if (typeof(T) == typeof(TreeNode))
         {
@@ -77,7 +80,7 @@ public static class TestCaseExtensions
     {
         if (typeof(T) == typeof(ListNode))
         {
-            testCase.Result(ListNode.Create(data.Where(it => it != null).Select(it => it.Value).ToArray()));
+            testCase.Result(ListNode.Create(null, data.Where(it => it != null).Select(it => it.Value).ToArray()));
         }
         else if (typeof(T) == typeof(TreeNode))
         {
@@ -109,8 +112,8 @@ public static class TestCaseExtensions
     public static TestCase ResultTree(this TestCase testCase, string? input)
         => testCase.Result(TreeNode.Parse(input));
 
-    public static TestCase ResultListNode(this TestCase testCase, string? input)
-        => testCase.Result(ListNode.Parse(input));
+    public static TestCase ResultListNode(this TestCase testCase, string? input, int? cyclePosAt = null)
+        => testCase.Result(ListNode.Parse(input, cyclePosAt));
 
     public static TestCase ResultNode(this TestCase testCase, string? input)
         => testCase.Result(Node.Parse(input));
