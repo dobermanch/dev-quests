@@ -47,7 +47,7 @@ Code: [C#](/src/csharp/Problems/IsValidParentheses.cs) | [Go](/src/go/problems/I
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 Tags: Linked List, Recursion  
-Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeTwoLists.go)  
+Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeTwoLists.go) | [Python](/src/python/problems/MergeTwoLists.py)  
 
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
