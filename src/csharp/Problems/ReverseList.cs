@@ -3,16 +3,20 @@ namespace LeetCode.Problems;
 
 public sealed class ReverseList : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))));
-    }
+    [Theory]
+    [ClassData(typeof(ReverseList))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static ListNode Run(ListNode head)
+    public override void AddTestCases()
+        => Add(it => it.ParamListNode("[1,2,3,4,5]").ResultListNode("[5,4,3,2,1]"))
+          .Add(it => it.ParamListNode("[1,2]").ResultListNode("[2,1]"))
+          .Add(it => it.ParamListNode("[]").ResultListNode("[]"));
+
+    private ListNode? Solution(ListNode? head)
     {
-        var result = head;
-        var current = result.next;
-        do
+        ListNode? result = null;
+        var current = head;
+        while (current != null)
         {
             var next = current.next;
 
@@ -20,7 +24,6 @@ public sealed class ReverseList : ProblemBase
             result = current;
             current = next;
         }
-        while (current != null);
 
         return result;
     }

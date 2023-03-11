@@ -204,6 +204,11 @@ Code: [C#](/src/csharp/Problems/SingleNumber.cs)
 Tags: Hash Table, Linked List, Two Pointers  
 Code: [C#](/src/csharp/Problems/DetectCycle.cs) | [Go](/src/go/problems/DetectCycle.go)  
 
+### [143. Reorder List](https://leetcode.com/problems/reorder-list/)
+
+Tags: Linked List, Two Pointers, Stack, Recursion  
+Code: [C#](/src/csharp/Problems/ReorderList.cs) | [Go](/src/go/problems/ReorderList.go) | [Python](/src/python/problems/ReorderList.py)  
+
 ### [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
