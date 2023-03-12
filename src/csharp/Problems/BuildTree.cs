@@ -9,12 +9,31 @@ public sealed class BuildTree : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.ParamArray("[3,9,20,15,7]").ParamArray("[9,3,15,20,7]").ResultTree("[3,9,20,null,null,15,7]"))
+        => AddSolutions(nameof(Solution1))
+          .Add(it => it.ParamArray("[3,9,20,15,7]").ParamArray("[9,3,15,20,7]").ResultTree("[3,9,20,null,null,15,7]"))
           .Add(it => it.ParamArray("[3,9,8,6,1,2,20,15,7]").ParamArray("[8,9,1,6,2,3,15,20,7]").ResultTree("[3,9,20,8,6,15,7,null,null,1,2]"))
-          .Add(it => it.ParamArray("[-1]").ParamArray("[-1]").ResultTree("[-1]"))
-        ;
+          .Add(it => it.ParamArray("[-1]").ParamArray("[-1]").ResultTree("[-1]"));
 
-    private TreeNode Solution(int[] preorder, int[] inorder)
+    private TreeNode? Solution(int[] preorder, int[] inorder)
+    {
+        TreeNode? Build(Span<int> preorder, Span<int> inorder)
+        {
+            if (preorder.IsEmpty || inorder.IsEmpty)
+            {
+                return null;
+            }
+            var pos = inorder.IndexOf(preorder[0]);
+            return new TreeNode(preorder[0])
+            {
+                left = Build(preorder[1..(pos+1)], inorder[..(pos+1)]),
+                right = Build(preorder[(pos+1)..], inorder[(pos+1)..])
+            };
+        }
+
+        return Build(preorder, inorder);
+    }
+
+    private TreeNode Solution1(int[] preorder, int[] inorder)
     {
         var set = inorder.Select((it, index) => (it, index)).ToDictionary(it => it.it, it => it.index);
 
