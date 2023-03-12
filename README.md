@@ -169,6 +169,11 @@ Code: [C#](/src/csharp/Problems/LevelOrder.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/MaxDepth.cs) | [Go](/src/go/problems/MaxDepth.go) | [Python](/src/python/problems/MaxDepth.py)  
 
+### [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+Tags: Array, Hash Table, Divide and Conquer, Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/BuildTree.cs) | [Go](/src/go/problems/BuildTree.go) | [Python](/src/python/problems/BuildTree.py)  
+
 ### [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 Tags: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree  
