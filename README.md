@@ -184,6 +184,11 @@ Code: [C#](/src/csharp/Problems/IsBalanced.cs)
 Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/Connect.cs)  
 
+### [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/PascalsTriangle.cs)  
+
 ### [120. Triangle](https://leetcode.com/problems/triangle/)
 
 Tags: Array, Dynamic Programming  
