@@ -409,6 +409,11 @@ Code: [C#](/src/csharp/Problems/ReverseString.cs)
 Tags: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect  
 Code: [C#](/src/csharp/Problems/TopKFrequentElement.cs) | [Go](/src/go/problems/TopKFrequentElement.go)  
 
+### [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+
+Tags: Array, Hash Table, Two Pointers, Binary Search, Sorting  
+Code: [C#](/src/csharp/Problems/Intersect.cs)
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 Tags: Hash Table, String, Counting  
