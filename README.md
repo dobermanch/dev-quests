@@ -139,6 +139,11 @@ Code: [C#](/src/csharp/Problems/Merge.cs) | [Go](/src/go/problems/Merge.go)
 Tags: String, Backtracking  
 Code: [C#](/src/csharp/Problems/RestoreIpAddresses.cs)  
 
+### [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
+Tags: Stack, Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/InorderTraversal.cs)  
+
 ### [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
