@@ -484,6 +484,11 @@ Code: [C#](/src/csharp/Problems/FindCircleNum.cs)
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/ReverseWords.cs)  
 
+### [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)
+
+Tags: Array, Matrix, Simulation  
+Code: [C#](/src/csharp/Problems/MatrixReshape.cs)  
+
 ### [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
 
 Tags: Hash Table, Two Pointers, String, Sliding Window  
