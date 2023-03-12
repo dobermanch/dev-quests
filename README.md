@@ -224,6 +224,11 @@ Code: [C#](/src/csharp/Problems/DetectCycle.cs) | [Go](/src/go/problems/DetectCy
 Tags: Linked List, Two Pointers, Stack, Recursion  
 Code: [C#](/src/csharp/Problems/ReorderList.cs) | [Go](/src/go/problems/ReorderList.go) | [Python](/src/python/problems/ReorderList.py)  
 
+### [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
+Tags: Stack, Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/PreorderTraversal.cs)
+
 ### [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
