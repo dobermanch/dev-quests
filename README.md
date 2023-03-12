@@ -469,6 +469,11 @@ Code: [C#](/src/csharp/Problems/ReverseWords.cs)
 Tags: Hash Table, Two Pointers, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/CheckInclusion.cs)  
 
+### [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+
+Tags: Tree, Depth-First Search, String Matching, Binary Tree, Hash Function  
+Code: [C#](/src/csharp/Problems/IsSubtree.cs) | [Go](/src/go/problems/IsSubtree.go) | [Python](/src/python/problems/IsSubtree.py)  
+
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
