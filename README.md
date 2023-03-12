@@ -424,6 +424,11 @@ Code: [C#](/src/csharp/Problems/Intersect.cs)
 Tags: Hash Table, String, Counting  
 Code: [C#](/src/csharp/Problems/RansomNote.cs)  
 
+### [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)
+
+Tags: Hash Table, String, Queue, Counting  
+Code: [C#](/src/csharp/Problems/FirstUniqChar.cs)  
+
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 Tags: Two Pointers, String, Dynamic Programming  
