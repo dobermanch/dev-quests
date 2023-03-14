@@ -202,12 +202,17 @@ Code: [C#](/src/csharp/Problems/MinimumTotal.cs)
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: Array, Dynamic Programming  
-Code: [C#](/src/csharp/Problems/MaxProfit.cs) | [Go](/src/go/Problems/MaxProfit.go)  
+Code: [C#](/src/csharp/Problems/MaxProfit.cs) | [Go](/src/go/problems/MaxProfit.go)  
+
+### [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
+Tags: Dynamic Programming, Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/MaxPathSum.cs) | [Go](/src/go/problems/MaxPathSum.go) | [Python](/src/go/problems/MaxPathSum.py)  
 
 ### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 Tags: Two Pointers, String  
-Code: [C#](/src/csharp/Problems/IsPalindrome.cs) | [Go](/src/go/Problems/IsPalindrome.go)  
+Code: [C#](/src/csharp/Problems/IsPalindrome.cs) | [Go](/src/go/problems/IsPalindrome.go)  
 
 ### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
