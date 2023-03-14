@@ -399,6 +399,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 Tags: Array, Two Pointers  
 Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
 
+### [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+
+Tags: String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree  
+Code: [C#](/src/csharp/Problems/Codec.cs)  
+
 ### [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
 
 Tags: Hash Table, String, Counting  
