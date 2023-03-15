@@ -134,6 +134,11 @@ Code: [C#](/src/csharp/Problems/MinWindow.cs) | [Go](/src/go/problems/MinWindow.
 Tags: Backtracking  
 Code: [C#](/src/csharp/Problems/Combine.cs)  
 
+### [79. Word Search](https://leetcode.com/problems/word-search/)
+
+Tags: Array, Backtracking, Matrix  
+Code: [C#](/src/csharp/Problems/WordSearch.cs)  
+
 ### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 Tags: Array, Two Pointers, Sorting  
