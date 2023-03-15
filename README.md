@@ -139,6 +139,11 @@ Code: [C#](/src/csharp/Problems/Combine.cs)
 Tags: Array, Backtracking, Matrix  
 Code: [C#](/src/csharp/Problems/WordSearch.cs)  
 
+### [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+
+Tags: Linked List  
+Code: [C#](/src/csharp/Problems/DeleteDuplicates.cs)  
+
 ### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 Tags: Array, Two Pointers, Sorting  
