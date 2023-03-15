@@ -199,6 +199,11 @@ Code: [C#](/src/csharp/Problems/SortedArrayToBST.cs)
 Tags: Tree, Depth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/IsBalanced.cs)  
 
+### [112. Path Sum](https://leetcode.com/problems/path-sum/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/HasPathSum.cs)  
+
 ### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
