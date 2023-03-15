@@ -574,6 +574,11 @@ Code: [C#](/src/csharp/Problems/MaxAreaOfIsland.cs)
 Tags: Tree, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/SearchBST.cs)  
 
+### [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+
+Tags: Tree, Binary Search Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/InsertIntoBST.cs)  
+
 ### [704. Binary Search](https://leetcode.com/problems/binary-search/)
 
 Tags: Array, Binary Search  
