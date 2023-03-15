@@ -329,6 +329,11 @@ Code: [C#](/src/csharp/Problems/NumIslands.cs)
 Tags: Hash Table, Math, Two Pointers  
 Code: [C#](/src/csharp/Problems/IsHappy.cs)  
 
+### [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+
+Tags: Linked List, Recursion  
+Code: [C#](/src/csharp/Problems/RemoveElements.cs) | [Go](/src/go/problems/RemoveElements.go) | [Python](/src/python/problems/RemoveElements.py)  
+
 ### [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 Tags: Hash Table, String  
