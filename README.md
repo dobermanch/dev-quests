@@ -364,6 +364,11 @@ Code: [C#](/src/csharp/Problems/Trie.cs)
 Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort  
 Code: [C#](/src/csharp/Problems/FindOrder.cs)  
 
+### [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+
+Tags: String, Depth-First Search, Design, Trie  
+Code: [C#](/src/csharp/Problems/WordDictionary.cs)  
+
 ### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 Tags: Array, Hash Table, Sorting  
