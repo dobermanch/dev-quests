@@ -102,6 +102,9 @@ public static class TestCaseExtensions
     public static TestCase ResultArray<T>(this TestCase testCase, params T[]? data)
         => testCase.Result(data?.ToArray());
 
+    public static TestCase ResultArray<T>(this TestCase testCase, string? input)
+        => testCase.Result(input.To2dArray<T>()[0]);
+
     public static TestCase ResultMatrix(this TestCase testCase, string? input)
         => testCase.Result((int[][])Matrix.Parse(input));
 

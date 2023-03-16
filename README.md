@@ -369,6 +369,11 @@ Code: [C#](/src/csharp/Problems/FindOrder.cs)
 Tags: String, Depth-First Search, Design, Trie  
 Code: [C#](/src/csharp/Problems/WordDictionary.cs)  
 
+### [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+
+Tags: Array, String, Backtracking, Trie, Matrix  
+Code: [C#](/src/csharp/Problems/WordSearch2.cs)  
+
 ### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 Tags: Array, Hash Table, Sorting  
