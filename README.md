@@ -304,6 +304,11 @@ Code: [C#](/src/csharp/Problems/MinStack.cs)
 Tags: Array, Two Pointers, Binary Search  
 Code: [C#](/src/csharp/Problems/TwoSum2.cs) | [Go](/src/go/problems/TwoSum2.go)  
 
+### [169. Majority Element](https://leetcode.com/problems/majority-element/)
+
+Tags: Array, Hash Table, Divide and Conquer, Sorting, Counting  
+Code: [C#](/src/csharp/Problems/MajorityElement.cs) | [Go](/src/go/problems/MajorityElement.go) | [Python](/src/python/problems/MajorityElement.py)  
+
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
