@@ -439,6 +439,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 Tags: Array, Two Pointers  
 Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
 
+### [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+Tags: Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream  
+Code: [C#](/src/csharp/Problems/MedianFinder.cs)  
+
 ### [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
 Tags: String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree  
