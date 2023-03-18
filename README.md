@@ -69,6 +69,11 @@ Code: [C#](/src/csharp/Problems/SearchInsert.cs)
 Tags: Array, Hash Table, Matrix  
 Code: [C#](/src/csharp/Problems/IsValidSudoku.cs) | [Go](/src/go/problems/IsValidSudoku.go)  
 
+### [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+
+Tags: Array, Backtracking  
+Code: [C#](/src/csharp/Problems/CombinationSum.cs)
+
 ### [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
 Tags: Array, Hash Table  
