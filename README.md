@@ -124,6 +124,11 @@ Code: [C#](/src/csharp/Problems/ClimbStairs.cs)
 Tags: Array, Binary Search, Matrix  
 Code: [C#](/src/csharp/Problems/SearchMatrix.cs)  
 
+### [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/SortColors.cs)  
+
 ### [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 Tags: Hash Table, String, Sliding Window  
