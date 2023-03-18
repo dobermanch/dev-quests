@@ -694,6 +694,11 @@ Code: [C#](/src/csharp/Problems/NumberOfSteps.cs)
 Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search  
 Code: [C#](/src/csharp/Problems/MinTime.cs)  
 
+### [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
+
+Tags: Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream  
+Code: [C#](/src/csharp/Problems/BrowserHistory.cs)  
+
 ### [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 
 Tags: Array, Prefix Sum  
