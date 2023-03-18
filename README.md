@@ -619,6 +619,11 @@ Code: [C#](/src/csharp/Problems/InsertIntoBST.cs)
 Tags: Array, Binary Search  
 Code: [C#](/src/csharp/Problems/BinarySearch.cs)  
 
+### [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
+
+Tags: Array, Hash Table, Linked List, Design, Hash Function  
+Code: [C#](/src/csharp/Problems/MyHashMap.cs)  
+
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
 Tags: Array, Prefix Sum  
