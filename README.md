@@ -94,6 +94,11 @@ Code: [C#](/src/csharp/Problems/Multiply.cs)
 Tags: Array, Backtracking  
 Code: [C#](/src/csharp/Problems/Permute.cs)  
 
+### [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+
+Tags: Array, Math, Matrix  
+Code: [C#](/src/csharp/Problems/RotateImage.cs) | [Python](/src/python/problems/RotateImage.py)  
+
 ### [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
 Tags: Array, Hash Table, String, Sorting  
