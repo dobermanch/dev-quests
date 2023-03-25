@@ -549,6 +549,11 @@ Code: [C#](/src/csharp/Problems/FizzBuzz.cs)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/CharacterReplacement.cs)  
 
+### [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+
+Tags: Array, Dynamic Programming, Greedy, Sorting  
+Code: [C#](/src/csharp/Problems/EraseOverlapIntervals.cs) | [Python](/src/python/problems/EraseOverlapIntervals.py)  
+
 ### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
 Tags: Tree, Depth-First Search, Binary Tree  
