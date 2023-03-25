@@ -229,6 +229,11 @@ Code: [C#](/src/csharp/Problems/Connect.cs)
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/PascalsTriangle.cs)  
 
+### [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/PascalsTriangle2.cs) | [Python](/src/python/problems/PascalsTriangle2.py)  
+
 ### [120. Triangle](https://leetcode.com/problems/triangle/)
 
 Tags: Array, Dynamic Programming  
