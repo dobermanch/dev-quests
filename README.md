@@ -544,6 +544,11 @@ Code: [C#](/src/csharp/Problems/LongestPalindrome.cs) | [Go](/src/go/problems/Lo
 Tags: Math, String, Simulation  
 Code: [C#](/src/csharp/Problems/FizzBuzz.cs)  
 
+### [415. Add Strings](https://leetcode.com/problems/add-strings/)
+
+Tags: Math, String, Simulation  
+Code: [C#](/src/csharp/Problems/AddStrings.cs) | [Python](/src/python/problems/AddStrings.py)  
+
 ### [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 Tags: Hash Table, String, Sliding Window  
