@@ -474,6 +474,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 Tags: Array, Two Pointers  
 Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
 
+### [290. Word Pattern](https://leetcode.com/problems/word-pattern)
+
+Tags: Hash Table, String  
+Code: [C#](/src/csharp/Problems/WordPattern.cs) | [Python](/src/python/problems/WordPattern.py)  
+
 ### [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
 Tags: Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream  
