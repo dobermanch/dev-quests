@@ -9,6 +9,11 @@ My solutions to [LeetCode](https://leetcode.com/) problems.
 Tags: Array, Hash Table  
 Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)  
 
+### [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+Tags: Linked List, Math, Recursion  
+Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Python](/src/python/problems/AddTwoNumbers.py)  
+
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 Tags: Hash Table, String, Sliding Window  
