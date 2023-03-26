@@ -499,6 +499,11 @@ Code: [C#](/src/csharp/Problems/CoinChange.cs)
 Tags: Linked List  
 Code: [C#](/src/csharp/Problems/OddEvenList.cs)  
 
+### [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
+
+Tags: Array, Greedy  
+Code: [C#](/src/csharp/Problems/IncreasingTriplet.cs) | [Python](/src/python/problems/IncreasingTriplet.py)  
+
 ### [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
 Tags: Two Pointers, String  
