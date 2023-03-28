@@ -164,6 +164,11 @@ Code: [C#](/src/csharp/Problems/Combine.cs)
 Tags: Array, Backtracking, Matrix  
 Code: [C#](/src/csharp/Problems/WordSearch.cs)  
 
+### [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
+
+Tags: Linked List, Two Pointers  
+Code: [C#](/src/csharp/Problems/DeleteDuplicates.cs) | [Python](/src/python/problems/DeleteDuplicates.py)  
+
 ### [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
 Tags: Linked List  
