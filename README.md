@@ -689,6 +689,11 @@ Code: [C#](/src/csharp/Problems/BinarySearch.cs)
 Tags: Array, Hash Table, Linked List, Design, Hash Function  
 Code: [C#](/src/csharp/Problems/MyHashMap.cs)  
 
+### [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
+
+Tags: Linked List, Design  
+Code: [C#](/src/csharp/Problems/MyLinkedList.cs)  
+
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
 Tags: Array, Prefix Sum  
