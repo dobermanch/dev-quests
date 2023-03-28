@@ -329,6 +329,11 @@ Code: [C#](/src/csharp/Problems/FindMin.cs) | [Go](/src/go/problems/FindMin.go) 
 Tags: Stack, Design  
 Code: [C#](/src/csharp/Problems/MinStack.cs)  
 
+### [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+Tags: Hash Table, Linked List, Two Pointers  
+Code: [C#](/src/csharp/Problems/GetIntersectionNode.cs) | [Python](/src/python/problems/GetIntersectionNode.py)  
+
 ### [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 Tags: Array, Two Pointers, Binary Search  
