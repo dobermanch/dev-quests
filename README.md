@@ -359,6 +359,11 @@ Code: [C#](/src/csharp/Problems/MajorityElement.cs) | [Go](/src/go/problems/Majo
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
 
+### [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
+
+Tags: Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function  
+Code: [C#](/src/csharp/Problems/FindRepeatedDnaSequences.cs)  
+
 ### [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 Tags: Array, Math, Two Pointers  
