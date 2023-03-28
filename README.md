@@ -609,6 +609,11 @@ Code: [C#](/src/csharp/Problems/FindCircleNum.cs)
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/ReverseWords.cs)  
 
+### [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+Tags: Array, Hash Table, Prefix Sum  
+Code: [C#](/src/csharp/Problems/SubarraySum.cs) | [Python](/src/python/problems/SubarraySum.py)  
+
 ### [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)
 
 Tags: Array, Matrix, Simulation  
