@@ -719,6 +719,11 @@ Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)| [Go](/src/go/problems/Ast
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinCostClimbingStairs.cs)  
 
+### [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
+
+Tags: Hash Table, Two Pointers, String, Greedy
+Code: [C#](/src/csharp/Problems/PartitionLabels.cs) | [Python](/src/python/problems/PartitionLabels.py)  
+
 ### [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
 
 Tags: String, Backtracking, Bit Manipulation  
