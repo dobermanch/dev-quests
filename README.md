@@ -69,6 +69,11 @@ Code: [C#](/src/csharp/Problems/MergeKLists.cs) | [Go](/src/go/problems/MergeKLi
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/SwapPairs.cs) | [Python](/src/python/problems/SwapPairs.py)  
 
+### [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+Tags: Linked List, Recursion  
+Code: [C#](/src/csharp/Problems/ReverseKGroup.cs) | [Python](/src/python/problems/ReverseKGroup.py)  
+
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 Tags: Array, Binary Search  
