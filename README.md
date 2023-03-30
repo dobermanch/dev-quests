@@ -779,10 +779,14 @@ Code: [C#](/src/csharp/Problems/FindJudge.cs)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)  
 
+### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+Tags: Array, Heap (Priority Queue)  
+Code: [C#](/src/csharp/Problems/MinRemoveToMakeValid.cs)  
+
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
-Tags: Math, Bit Manipulation  
-Code: [C#](/src/csharp/Problems/NumberOfSteps.cs)  
+Tags: String, Stack  
+Code: [C#](/src/csharp/Problems/NumberOfSteps.cs) | [Python](/src/python/problems/NumberOfSteps.py)  
 
 ### [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
