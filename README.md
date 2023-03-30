@@ -19,6 +19,11 @@ Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Python](/src/python/problem
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go)  
 
+### [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+
+Tags: String, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/LongestPalindromeSubstring.cs) | [Python](/src/python/problems/LongestPalindromeSubstring.py)  
+
 ### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 Tags: Array, Two Pointers, Greedy  
