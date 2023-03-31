@@ -4,17 +4,15 @@ namespace LeetCode.Problems;
 
 public sealed class MaxProfit : ProblemBase
 {
-    public static void Run()
-    {
-        //var prices = new int[] {7,1,5,3,6,4};
-        //var prices = new int[] {7,6,4,3,1};
-        //var prices = new int[] {7};
-        //var prices = new int[] {1,2};
-        var prices = new int[] { 2, 4, 1 };
-        var d = Run(prices);
-    }
+    [Theory]
+    [ClassData(typeof(MaxProfit))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(int[] prices)
+    public override void AddTestCases()
+        => Add(it => it.ParamArray("[7,1,5,3,6,4]").Result(5))
+            .Add(it => it.ParamArray("[7,6,4,3,1]").Result(0));
+
+    private int Solution(int[] prices)
     {
         var buyDay = 0;
         var profit = 0;
@@ -22,7 +20,6 @@ public sealed class MaxProfit : ProblemBase
         {
             if (prices[buyDay] > prices[i])
             {
-                buyDay = prices[i];
                 buyDay = i;
             }
             else

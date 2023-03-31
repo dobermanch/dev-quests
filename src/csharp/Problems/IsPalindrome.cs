@@ -1,53 +1,44 @@
-//https://leetcode.com/problems/palindrome-linked-list/
+//https://leetcode.com/problems/valid-palindrome/
 
 namespace LeetCode.Problems;
 
 public sealed class IsPalindrome : ProblemBase
 {
-    public static void Run()
+    [Theory]
+    [ClassData(typeof(IsPalindrome))]
+    public override void Test(object[] data) => base.Test(data);
+
+    public override void AddTestCases()
+        => Add(it => it.Param("A man, a plan, a canal: Panama").Result(true))
+          .Add(it => it.Param("A man1, a plan, a canal: Pa1nama").Result(true))
+          .Add(it => it.Param("race a car").Result(false))
+          .Add(it => it.Param("").Result(true));
+
+    private bool Solution(string s)
     {
-        //var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(2, new ListNode(1)))))));
-        //var d = Run(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1)))));
-        var d = Run(new ListNode(1, new ListNode(2)));
-
-        //var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(2, new ListNode(1))))));
-        //var d = Run(new ListNode(1, new ListNode(2, new ListNode(2))));
-        //var d = Run(new ListNode(1));
-
-        //var d = Run(new ListNode(1, new ListNode(2, new ListNode(2))));
-        // var d = Run(new ListNode(1, new ListNode(2, new ListNode(1))));
-    }
-
-    private static bool Run(ListNode head)
-    {
-        var fast = head;
-        var slow = head;
-        ListNode reverse = null;
-
-        while (fast?.next != null)
+        var left = 0;
+        var right = s.Length - 1;
+        while (left < right)
         {
-            fast = fast.next.next;
+            if (!char.IsLetterOrDigit(s[left]))
+            {
+                left++;
+                continue;
+            }
 
-            var next = slow.next;
-            slow.next = reverse;
-            reverse = slow;
-            slow = next;
-        }
+            if (!char.IsLetterOrDigit(s[right]))
+            {
+                right--;
+                continue;
+            }
 
-        if (fast != null)
-        {
-            slow = slow.next;
-        }
-
-        while (slow != null)
-        {
-            if (slow.val != reverse.val)
+            if (char.ToLower(s[left]) != char.ToLower(s[right]))
             {
                 return false;
             }
 
-            slow = slow.next;
-            reverse = reverse.next;
+            left++;
+            right--;
         }
 
         return true;

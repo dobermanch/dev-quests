@@ -4,13 +4,15 @@ namespace LeetCode.Problems;
 
 public sealed class FirstBadVersion : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run(new int[]{-1,0,3,5,9,12}, 9);
-        var d = Run(30);
-    }
+    [Theory]
+    [ClassData(typeof(FirstBadVersion))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(int n)
+    public override void AddTestCases()
+        => Add(it => it.Param(30).Result(11))
+            .Add(it => it.Param(1).Result(1));
+
+    private int Solution(int n)
     {
         var start = 0;
         var end = n;
@@ -32,7 +34,6 @@ public sealed class FirstBadVersion : ProblemBase
 
         return result;
     }
-
 
     static bool IsBadVersion(int version)
     {

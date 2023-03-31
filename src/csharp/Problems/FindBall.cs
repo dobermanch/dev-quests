@@ -4,12 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class FindBall : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(new int[][] { new[] { 1, 1, 1, -1, -1 }, new[] { 1, 1, 1, -1, -1 }, new[] { -1, -1, -1, 1, 1 }, new[] { 1, 1, 1, 1, -1 }, new[] { -1, -1, -1, -1, -1 } }); //[1,-1,-1,-1,-1]
-    }
+    [Theory]
+    [ClassData(typeof(FindBall))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int[] Run(int[][] grid)
+    public override void AddTestCases()
+        => Add(it => it.Param2dArray("[[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]").ResultArray("[1,-1,-1,-1,-1]"))
+             .Add(it => it.Param2dArray("[[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1]]").ResultArray("[0,1,2,3,4,-1]"))
+             .Add(it => it.Param2dArray("[[-1]]").ResultArray("[-1]"));
+
+    private int[] Solution(int[][] grid)
     {
         var width = grid[0].Length;
         var balls = Enumerable.Range(0, grid[0].Length).ToArray();

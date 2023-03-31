@@ -4,17 +4,24 @@ namespace LeetCode.Problems;
 
 public sealed class DetectCycle : ProblemBase
 {
-    public static void Run()
+    //[Theory]
+    //[ClassData(typeof(DetectCycle))]
+    //public override void Test(object[] data) => base.Test(data);
+
+    //public override void AddTestCases()
+    //    => AddSolutions(nameof(Solution1))
+    //    ;
+    public void Run()
     {
         var tail = new ListNode(5);
         var head = new ListNode(2, new ListNode(3, new ListNode(4, tail)));
         var list = new ListNode(1, head);
         //var list = new ListNode(1, tail);
         //tail.next = head;
-        var d = Run(list);
+        var d = Solution(list);
     }
 
-    private static ListNode Run(ListNode head)
+    private ListNode Solution(ListNode head)
     {
         var slow = head;
         var fast = head;
@@ -36,18 +43,23 @@ public sealed class DetectCycle : ProblemBase
         }
 
         return null;
-        // var map = new HashSet<ListNode>();
-        // var current = head;
-        // while (current != null) 
-        // {
-        //     if (map.Contains(current)){
-        //         return current;
-        //     }
+    }
 
-        //     map.Add(current);
-        //     current = current.next;
-        // }
+    private ListNode Solution1(ListNode head)
+    {
+        var map = new HashSet<ListNode>();
+        var current = head;
+        while (current != null)
+        {
+            if (map.Contains(current))
+            {
+                return current;
+            }
 
-        // return null;
+            map.Add(current);
+            current = current.next;
+        }
+
+        return null;
     }
 }

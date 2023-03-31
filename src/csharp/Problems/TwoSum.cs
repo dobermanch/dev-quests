@@ -4,15 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class TwoSum : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run(new [] {2,7,11,15}, 9);
-        //var d = Run(new [] {3,2,4}, 6);
-        var d = Run(new[] { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 }, 11);
-    }
+    [Theory]
+    [ClassData(typeof(TwoSum))]
+    public override void Test(object[] data) => base.Test(data);
 
-    //Option 2
-    private static int[] Run(int[] nums, int target)
+    public override void AddTestCases()
+        => AddSolutions(nameof(Solution1))
+          .Add(it => it.ParamArray("[2,7,11,15]").Param(9).ResultArray("[0,1]"))
+          .Add(it => it.ParamArray("[3,2,4]").Param(6).ResultArray("[1,2]"))
+          .Add(it => it.ParamArray("[3,3]").Param(6).ResultArray("[0,1]"));
+
+    private int[] Solution(int[] nums, int target)
     {
         var map = new Dictionary<int, int>();
         for (var i = 0; i < nums.Length; i++)
@@ -21,17 +23,14 @@ public sealed class TwoSum : ProblemBase
             {
                 return new[] { index, i };
             }
-            else
-            {
-                map.TryAdd(nums[i], i);
-            }
+
+            map.TryAdd(nums[i], i);
         }
 
         return Array.Empty<int>();
     }
 
-    //Option 1
-    private static int[] Run1(int[] nums, int target)
+    private int[] Solution1(int[] nums, int target)
     {
         for (var i = 0; i < nums.Length; i++)
         {

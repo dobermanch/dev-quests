@@ -4,26 +4,28 @@ namespace LeetCode.Problems;
 
 public sealed class ClimbStairs : ProblemBase
 {
-    public static int Run()
-    {
-        var result = Fib(10);
+    [Theory]
+    [ClassData(typeof(ClimbStairs))]
+    public override void Test(object[] data) => base.Test(data);
 
-        return result;
-    }
+    public override void AddTestCases()
+        => Add(it => it.Param(2).Result(2))
+            .Add(it => it.Param(3).Result(3))
+            .Add(it => it.Param(10).Result(89));
 
-    private static int Fib(int n)
+    private int Solution(int n)
     {
-        if (n == 1 || n == 0)
+        if (n is 1 or 0)
         {
             return n;
         }
 
         var t0 = 0;
         var t1 = 1;
-        while (n > 0)
+        while (n-- > 0)
         {
             var temp = t1;
-            t1 = t1 + t0;
+            t1 += t0;
             t0 = temp;
         }
 

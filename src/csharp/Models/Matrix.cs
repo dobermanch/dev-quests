@@ -5,48 +5,7 @@ public class Matrix : Matrix<int>
     public Matrix() { }
     public Matrix(int[][] matrix) : base(matrix) { }
 
-    public static Matrix Parse(string input)
-    {
-        var data = input.Trim();
-        var matrix = new Matrix();
-
-        List<int>? row = null;
-        var number = 0;
-        foreach (var ch in data)
-        {
-            if (ch == ' ')
-            {
-                continue;
-            }
-
-            if (ch is '[' or '{')
-            {
-                row = new List<int>();
-            }
-            else if (char.IsDigit(ch))
-            {
-                number *= 10;
-                number += ch - '0';
-            }
-            else if (ch is ',' && row != null)
-            {
-                row.Add(number);
-                number = 0;
-            }
-            else if (ch is ']' or '}' && row != null)
-            {
-                row.Add(number);
-                number = 0;
-                if (row.Any())
-                {
-                    matrix.Row(row.ToArray());
-                    row = null;
-                }
-            }
-        }
-
-        return matrix;
-    }
+    public static Matrix Parse(string? input) => input.To2dArray<int>(null, false);
 
     public static implicit operator int[][](Matrix matrix) => matrix._matrix.ToArray();
 

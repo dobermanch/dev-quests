@@ -4,17 +4,20 @@ namespace LeetCode.Problems;
 
 public sealed class Fibonacci : ProblemBase
 {
-    public static int Run()
-    {
-        var result = Fib(15);
+    [Theory]
+    [ClassData(typeof(Fibonacci))]
+    public override void Test(object[] data) => base.Test(data);
 
-        return result;
-    }
+    public override void AddTestCases()
+        => AddSolutions(nameof(Solution1))
+            .Add(it => it.Param(2).Result(1))
+            .Add(it => it.Param(3).Result(2))
+            .Add(it => it.Param(4).Result(3))
+            .Add(it => it.Param(15).Result(610));
 
-    // OPTION 2
-    private static int Fib(int n)
+    private int Solution(int n)
     {
-        if (n == 1 || n == 0)
+        if (n is 1 or 0)
         {
             return n;
         }
@@ -31,12 +34,18 @@ public sealed class Fibonacci : ProblemBase
         return t1;
     }
 
-    // OPTION 1
-    // private static  int Fib(int n) {
-    //     if (n == 1 || n == 0){
-    //         return n;
-    //     }
+    private int Solution1(int n)
+    {
+        int Fib(int n)
+        {
+            if (n is 1 or 0)
+            {
+                return n;
+            }
 
-    //     return Fib(n - 1) + Fib(n - 2);
-    // }
+            return Fib(n - 1) + Fib(n - 2);
+        }
+
+        return Fib(n);
+    }
 }
