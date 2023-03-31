@@ -1,32 +1,40 @@
 # https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+
+import collections
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
-class MaxPathSum:
-    def Solution(self, root: Optional[TreeNode]) -> int:
-        result = [root.val]
+class ZigzagLevelOrder:
+    def Solution(self, root: Optional[TreeNode]) -> List[List[int]]:
+        if not root:
+            return []
 
-        def Dfs(node) -> int:
-            if not node:
-                return 0
+        result = []
+        queue = collections.deque()
+        queue.append((root, 0))
 
-            left = Dfs(node.left)
-            right = Dfs(node.right)
+        while queue:
+            node, level = queue.popleft()
 
-            nodeMax = max(node.val + left, node.val + right)
-            nodeMax = max(nodeMax, node.val)
+            if len(result) == level:
+                result.append([])
+            
+            if level % 2 == 0:
+                result[level].append(node.val)
+            else:
+                result[level].insert(0, node.val)
 
-            result[0] = max(result[0], nodeMax)
-            result[0] = max(result[0], left + right + node.val)
+            if node.left:
+                queue.append((node.left, level + 1))
+            
+            if node.right:
+                queue.append((node.right, level + 1))
 
-            return nodeMax
-
-        Dfs(root)
-
-        return result[0]
+        return result
 
 
-MaxPathSum().Solution(TreeNode(1, TreeNode(2), TreeNode(3)))
+ZigzagLevelOrder().Solution(TreeNode(1, TreeNode(2), TreeNode(3)))
