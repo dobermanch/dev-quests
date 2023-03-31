@@ -823,6 +823,11 @@ Code: [C#](/src/csharp/Problems/MaximumWealth.cs)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
 
+### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=study-plan&id=data-structure-ii)
+
+Tags: Array, Math, Recursion, Queue, Simulation  
+Code: [C#](/src/csharp/Problems/FindTheWinner.cs) | [Python](/src/python/problems/FindTheWinner.py)  
+
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
 Tags: Array, Prefix Sum  
