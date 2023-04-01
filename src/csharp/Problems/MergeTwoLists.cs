@@ -4,30 +4,20 @@ namespace LeetCode.Problems;
 
 public sealed class MergeTwoLists : ProblemBase
 {
-    public static void Run()
+    [Theory]
+    [ClassData(typeof(MergeTwoLists))]
+    public override void Test(object[] data) => base.Test(data);
+
+    public override void AddTestCases()
+        => Add(it => it.ParamListNode("[1,2,4]").ParamListNode("[1,3,4]").ResultListNode("[1,1,2,3,4,4]"))
+          .Add(it => it.ParamListNode("[]").ParamListNode("[]").ResultListNode("[]"))
+          .Add(it => it.ParamListNode("[]").ParamListNode("[0]").ResultListNode("[0]"));
+
+    private ListNode? Solution(ListNode? list1, ListNode? list2)
     {
-        //var d = Run(new ListNode(1, new ListNode(2, new ListNode(4))), new ListNode(1, new ListNode(3, new ListNode(4))));
-        var d = Run(new ListNode(2, new ListNode(4)), new ListNode(1, new ListNode(3, new ListNode(4))));
-        //var d = Run(null, null);
-        //var d = Run(null, new ListNode(0));
-        //var d = Run(new ListNode(2), new ListNode(1));
-    }
-
-    private static ListNode Run(ListNode list1, ListNode list2)
-    {
-        if (list1 == null)
-        {
-            return list2;
-        }
-
-        if (list2 == null)
-        {
-            return list1;
-        }
-
         var result = new ListNode();
         var current = result;
-        do
+        while (list1 != null && list2 != null)
         {
             if (list1.val <= list2.val)
             {
@@ -42,9 +32,8 @@ public sealed class MergeTwoLists : ProblemBase
 
             current = current.next;
         }
-        while (list1 != null && list2 != null);
 
-        current.next = list1 == null ? list2 : list1;
+        current.next = list1 ?? list2;
 
         return result.next;
     }

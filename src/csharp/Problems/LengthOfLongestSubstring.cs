@@ -33,10 +33,8 @@ public sealed class LengthOfLongestSubstring : ProblemBase
             if (map[s[right] - ' '] == 1)
             {
                 max = Math.Max(max, right - left);
-                var repeat = true;
-                while (repeat)
+                while (map[s[right] - ' '] == 1)
                 {
-                    repeat = s[left] != s[right];
                     map[s[left] - ' ']--;
                     left++;
                 }

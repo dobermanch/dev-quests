@@ -16,25 +16,21 @@ public sealed class MergeInterval : ProblemBase
 
     private int[][] Solution(int[][] intervals)
     {
-        var result = new List<int[]>();
-
         Array.Sort(intervals, (x, y) => x[0] - y[0]);
 
-        var merge = intervals[0];
-        foreach (var interval in intervals)
+        var result = new List<int[]> { intervals[0] };
+
+        foreach (var merge in intervals)
         {
-            if (merge[1] >= interval[0])
+            if (result[^1][1] >= merge[0])
             {
-                merge[1] = Math.Max(merge[1], interval[1]);
+                result[^1][1] = Math.Max(result[^1][1], merge[1]);
             }
             else
             {
                 result.Add(merge);
-                merge = interval;
             }
         }
-
-        result.Add(merge);
 
         return result.ToArray();
     }
