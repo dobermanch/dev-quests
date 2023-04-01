@@ -259,6 +259,11 @@ Code: [C#](/src/csharp/Problems/IsBalanced.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/HasPathSum.cs)  
 
+### [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+
+Tags: Backtracking, Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/PathSum2.cs) | [Python](/src/python/problems/PathSum2.py)  
+
 ### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
