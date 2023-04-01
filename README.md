@@ -349,6 +349,11 @@ Code: [C#](/src/csharp/Problems/SortList.cs)
 Tags: Array, Math, Stack  
 Code: [C#](/src/csharp/Problems/EvalRPN.cs) | [Go](/src/go/problems/EvalRPN.go)  
 
+### [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/MaxProduct.cs) | [Python](/src/python/problems/MaxProduct.py)  
+
 ### [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 Tags: Array, Binary Search  
