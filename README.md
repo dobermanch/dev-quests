@@ -9,10 +9,20 @@ My solutions to [LeetCode](https://leetcode.com/) problems.
 Tags: Array, Hash Table  
 Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)  
 
+### [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+Tags: Linked List, Math, Recursion  
+Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Python](/src/python/problems/AddTwoNumbers.py)  
+
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go)  
+
+### [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+
+Tags: String, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/LongestPalindromeSubstring.cs) | [Python](/src/python/problems/LongestPalindromeSubstring.py)  
 
 ### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
@@ -54,6 +64,16 @@ Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeT
 Tags: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort  
 Code: [C#](/src/csharp/Problems/MergeKLists.cs) | [Go](/src/go/problems/MergeKLists.go) | [Python](/src/python/problems/MergeKLists.py)  
 
+### [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+Tags: Linked List, Recursion  
+Code: [C#](/src/csharp/Problems/SwapPairs.cs) | [Python](/src/python/problems/SwapPairs.py)  
+
+### [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+Tags: Linked List, Recursion  
+Code: [C#](/src/csharp/Problems/ReverseKGroup.cs) | [Python](/src/python/problems/ReverseKGroup.py)  
+
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 Tags: Array, Binary Search  
@@ -94,6 +114,11 @@ Code: [C#](/src/csharp/Problems/Multiply.cs)
 Tags: Array, Backtracking  
 Code: [C#](/src/csharp/Problems/Permute.cs)  
 
+### [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+
+Tags: Array, Math, Matrix  
+Code: [C#](/src/csharp/Problems/RotateImage.cs) | [Python](/src/python/problems/RotateImage.py)  
+
 ### [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
 Tags: Array, Hash Table, String, Sorting  
@@ -118,6 +143,11 @@ Code: [C#](/src/csharp/Problems/MergeInterval.cs)
 
 Tags: Array  
 Code: [C#](/src/csharp/Problems/InsertInterval.cs)  
+
+### [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
+
+Tags: Array, Matrix, Simulation  
+Code: [C#](/src/csharp/Problems/SpiralOrder2.cs) | [Python](/src/python/problems/SpiralOrder2.py)  
 
 ### [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
@@ -148,6 +178,11 @@ Code: [C#](/src/csharp/Problems/Combine.cs)
 
 Tags: Array, Backtracking, Matrix  
 Code: [C#](/src/csharp/Problems/WordSearch.cs)  
+
+### [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
+
+Tags: Linked List, Two Pointers  
+Code: [C#](/src/csharp/Problems/DeleteDuplicates.cs) | [Python](/src/python/problems/DeleteDuplicates.py)  
 
 ### [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
@@ -189,6 +224,11 @@ Code: [C#](/src/csharp/Problems/IsSymmetric.cs)
 Tags: Tree, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/LevelOrder.cs)  
 
+### [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
+Tags: Tree, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/ZigzagLevelOrder.cs) | [Python](/src/python/problems/ZigzagLevelOrder.py)  
+
 ### [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
@@ -219,6 +259,11 @@ Code: [C#](/src/csharp/Problems/IsBalanced.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/HasPathSum.cs)  
 
+### [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+
+Tags: Backtracking, Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/PathSum2.cs) | [Python](/src/python/problems/PathSum2.py)  
+
 ### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
@@ -228,6 +273,11 @@ Code: [C#](/src/csharp/Problems/Connect.cs)
 
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/PascalsTriangle.cs)  
+
+### [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/PascalsTriangle2.cs) | [Python](/src/python/problems/PascalsTriangle2.py)  
 
 ### [120. Triangle](https://leetcode.com/problems/triangle/)
 
@@ -299,6 +349,11 @@ Code: [C#](/src/csharp/Problems/SortList.cs)
 Tags: Array, Math, Stack  
 Code: [C#](/src/csharp/Problems/EvalRPN.cs) | [Go](/src/go/problems/EvalRPN.go)  
 
+### [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/MaxProduct.cs) | [Python](/src/python/problems/MaxProduct.py)  
+
 ### [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 Tags: Array, Binary Search  
@@ -308,6 +363,11 @@ Code: [C#](/src/csharp/Problems/FindMin.cs) | [Go](/src/go/problems/FindMin.go) 
 
 Tags: Stack, Design  
 Code: [C#](/src/csharp/Problems/MinStack.cs)  
+
+### [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+Tags: Hash Table, Linked List, Two Pointers  
+Code: [C#](/src/csharp/Problems/GetIntersectionNode.cs) | [Python](/src/python/problems/GetIntersectionNode.py)  
 
 ### [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
@@ -323,6 +383,11 @@ Code: [C#](/src/csharp/Problems/MajorityElement.cs) | [Go](/src/go/problems/Majo
 
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
+
+### [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
+
+Tags: Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function  
+Code: [C#](/src/csharp/Problems/FindRepeatedDnaSequences.cs)  
 
 ### [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
@@ -439,6 +504,11 @@ Code: [C#](/src/csharp/Problems/LowestCommonAncestor.cs)
 Tags: Array, Prefix Sum  
 Code: [C#](/src/csharp/Problems/ProductExceptSelf.cs) | [Go](/src/go/problems/ProductExceptSelf.go)  
 
+### [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
+Tags: Array ,Binary Search, Divide and Conquer, Matrix  
+Code: [C#](/src/csharp/Problems/SearchMatrix2.cs) | [Python](/src/python/problems/SearchMatrix2.py)  
+
 ### [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 Tags: Hash Table, String, Sorting  
@@ -453,6 +523,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 
 Tags: Array, Two Pointers  
 Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
+
+### [290. Word Pattern](https://leetcode.com/problems/word-pattern)
+
+Tags: Hash Table, String  
+Code: [C#](/src/csharp/Problems/WordPattern.cs) | [Python](/src/python/problems/WordPattern.py)  
 
 ### [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
@@ -524,10 +599,25 @@ Code: [C#](/src/csharp/Problems/LongestPalindrome.cs) | [Go](/src/go/problems/Lo
 Tags: Math, String, Simulation  
 Code: [C#](/src/csharp/Problems/FizzBuzz.cs)  
 
+### [415. Add Strings](https://leetcode.com/problems/add-strings/)
+
+Tags: Math, String, Simulation  
+Code: [C#](/src/csharp/Problems/AddStrings.cs) | [Python](/src/python/problems/AddStrings.py)  
+
+### [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+
+Tags: Array, Depth-First Search, Breadth-First Search, Matrix  
+Code: [C#](/src/csharp/Problems/PacificAtlantic.cs)  
+
 ### [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/CharacterReplacement.cs)  
+
+### [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+
+Tags: Array, Dynamic Programming, Greedy, Sorting  
+Code: [C#](/src/csharp/Problems/EraseOverlapIntervals.cs) | [Python](/src/python/problems/EraseOverlapIntervals.py)  
 
 ### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
@@ -538,6 +628,11 @@ Code: [C#](/src/csharp/Problems/PathSum.cs)
 
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/FindAnagrams.cs)  
+
+### [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+
+Tags: Tree, Binary Search Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/DeleteNode.cs) | [Python](/src/python/problems/DeleteNode.py)  
 
 ### [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
 
@@ -568,6 +663,11 @@ Code: [C#](/src/csharp/Problems/FindCircleNum.cs)
 
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/ReverseWords.cs)  
+
+### [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+Tags: Array, Hash Table, Prefix Sum  
+Code: [C#](/src/csharp/Problems/SubarraySum.cs) | [Python](/src/python/problems/SubarraySum.py)  
 
 ### [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)
 
@@ -629,6 +729,11 @@ Code: [C#](/src/csharp/Problems/BinarySearch.cs)
 Tags: Array, Hash Table, Linked List, Design, Hash Function  
 Code: [C#](/src/csharp/Problems/MyHashMap.cs)  
 
+### [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
+
+Tags: Linked List, Design  
+Code: [C#](/src/csharp/Problems/MyLinkedList.cs)  
+
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
 Tags: Array, Prefix Sum  
@@ -648,6 +753,11 @@ Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)| [Go](/src/go/problems/Ast
 
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinCostClimbingStairs.cs)  
+
+### [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
+
+Tags: Hash Table, Two Pointers, String, Greedy
+Code: [C#](/src/csharp/Problems/PartitionLabels.cs) | [Python](/src/python/problems/PartitionLabels.py)  
 
 ### [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
 
@@ -699,10 +809,14 @@ Code: [C#](/src/csharp/Problems/FindJudge.cs)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)  
 
+### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+Tags: Array, Heap (Priority Queue)  
+Code: [C#](/src/csharp/Problems/MinRemoveToMakeValid.cs)  
+
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
-Tags: Math, Bit Manipulation  
-Code: [C#](/src/csharp/Problems/NumberOfSteps.cs)  
+Tags: String, Stack  
+Code: [C#](/src/csharp/Problems/NumberOfSteps.cs) | [Python](/src/python/problems/NumberOfSteps.py)  
 
 ### [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
@@ -728,6 +842,11 @@ Code: [C#](/src/csharp/Problems/MaximumWealth.cs)
 
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
+
+### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=study-plan&id=data-structure-ii)
+
+Tags: Array, Math, Recursion, Queue, Simulation  
+Code: [C#](/src/csharp/Problems/FindTheWinner.cs) | [Python](/src/python/problems/FindTheWinner.py)  
 
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
