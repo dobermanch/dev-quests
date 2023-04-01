@@ -624,6 +624,11 @@ Code: [C#](/src/csharp/Problems/PathSum.cs)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/FindAnagrams.cs)  
 
+### [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+
+Tags: Tree, Binary Search Tree, Binary Tree  
+Code: [C#](/src/csharp/Problems/DeleteNode.cs) | [Python](/src/python/problems/DeleteNode.py)  
+
 ### [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
 
 Tags: Array, Hash Table, Backtracking, Bit Manipulation  
