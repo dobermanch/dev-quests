@@ -26,43 +26,27 @@ public sealed class LeastInterval : ProblemBase
 
         var map = tasks
                 .GroupBy(it => it)
-                .Select(it => (it.Key, Count: it.Count()))
+                .Select(it => (0, Count: it.Count()))
                 .OrderByDescending(it => it.Count);
 
-        var workQueue = new PriorityQueue<char, int>(map, Comparer<int>.Create((l, r) => r - l));
+        var workQueue = new PriorityQueue<int, int>(map, Comparer<int>.Create((l, r) => r - l));
+        var idleQueue = new Queue<(int count, int next)>();
 
-        var units = 0;
-        while(workQueue.Count > 0)
+        var time = 0;
+        while (workQueue.Count > 0 || idleQueue.Any())
         {
-            var idleQueue = new List<(char, int)>();
-            var idle = n + 1;
-            var tasksCount = workQueue.Count;
-
-            for (int i = 0; i < tasksCount; i++)
+            time++;
+            if (workQueue.TryDequeue(out _, out var count) && count > 1)
             {
-                if (workQueue.TryDequeue(out var task, out var count) && count > 0)
-                {
-                    units++;
-                    idle--;
-                    if (--count > 0)
-                    {
-                        idleQueue.Add((task, count));
-                    }
-                }
-
-                if (idle == 0)
-                {
-                    break;
-                }
+                idleQueue.Enqueue((--count, time + n));
             }
 
-            workQueue.EnqueueRange(idleQueue);
-            if (workQueue.Count > 0)
+            if (idleQueue.Any() && idleQueue.Peek().next == time)
             {
-                units += idle;
+                workQueue.Enqueue(0, idleQueue.Dequeue().count);
             }
         }
 
-        return units;
+        return time;
     }
 }
