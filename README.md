@@ -604,6 +604,11 @@ Code: [C#](/src/csharp/Problems/FizzBuzz.cs)
 Tags: Math, String, Simulation  
 Code: [C#](/src/csharp/Problems/AddStrings.cs) | [Python](/src/python/problems/AddStrings.py)  
 
+### [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/CanPartition.cs) | [Python](/src/python/problems/CanPartition.py)  
+
 ### [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
 Tags: Array, Depth-First Search, Breadth-First Search, Matrix  
