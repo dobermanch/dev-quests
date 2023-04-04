@@ -774,6 +774,11 @@ Code: [C#](/src/csharp/Problems/PartitionLabels.cs) | [Python](/src/python/probl
 Tags: String, Backtracking, Bit Manipulation  
 Code: [C#](/src/csharp/Problems/LetterCasePermutation.cs)  
 
+### [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
+
+Tags: Array, Hash Table, Breadth-First Search  
+Code: [C#](/src/csharp/Problems/LetterCasePermutation.cs) | [Python](/src/python/problems/LetterCasePermutation.py)  
+
 ### [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 
 Tags: Two Pointers, String, Stack, Simulation  
