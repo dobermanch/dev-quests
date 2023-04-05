@@ -459,6 +459,11 @@ Code: [C#](/src/csharp/Problems/WordDictionary.cs)
 Tags: Array, String, Backtracking, Trie, Matrix  
 Code: [C#](/src/csharp/Problems/WordSearch2.cs)  
 
+### [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
+Tags: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect  
+Code: [C#](/src/csharp/Problems/FindKthLargest.cs) | [Pyhton](/src/python/problems/FindKthLargest.py)  
+
 ### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 Tags: Array, Hash Table, Sorting  

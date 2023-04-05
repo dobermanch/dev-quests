@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/keys-and-rooms/
 class SubarraySum:
-    def CanVisitAllRooms(self, rooms: List[List[int]]) -> bool:
+    def Solution(self, rooms: List[List[int]]) -> bool:
         collectedKeys = set()
         collectedKeys.add(0)
 
