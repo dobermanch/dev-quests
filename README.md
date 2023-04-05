@@ -784,6 +784,11 @@ Code: [C#](/src/csharp/Problems/LetterCasePermutation.cs)
 Tags: Array, Hash Table, Breadth-First Search  
 Code: [C#](/src/csharp/Problems/LetterCasePermutation.cs) | [Python](/src/python/problems/LetterCasePermutation.py)  
 
+### [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
+
+Tags: Depth-First Search, Breadth-First Search, Graph  
+Code: [C#](/src/csharp/Problems/CanVisitAllRooms.cs) | [Python](/src/python/problems/CanVisitAllRooms.py)  
+
 ### [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 
 Tags: Two Pointers, String, Stack, Simulation  
