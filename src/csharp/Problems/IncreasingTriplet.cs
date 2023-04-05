@@ -9,8 +9,8 @@ public sealed class IncreasingTriplet : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(true, it => it.ParamArray("[20,100,10,12,5,13]").Result(true))
-          .Add(true, it => it.ParamArray("[1,2,1,3]").Result(true))
+        => Add(it => it.ParamArray("[20,100,10,12,5,13]").Result(true))
+          .Add(it => it.ParamArray("[1,2,1,3]").Result(true))
           .Add(it => it.ParamArray("[5,1,6]").Result(false))
           .Add(it => it.ParamArray("[0,4,2,1,0,-1,-3]").Result(false))
           .Add(it => it.ParamArray("[1,5,0,4,1,3]").Result(true))
@@ -24,30 +24,23 @@ public sealed class IncreasingTriplet : ProblemBase
 
     private bool Solution(int[] nums)
     {
-        var result = 1;
-        int? min = null;
-        for (var i = 1; i < nums.Length; i++)
+        var n1 = int.MaxValue;
+        var n2 = int.MaxValue;
+        foreach (var num in nums)
         {
-            //if (min < nums[i + 1])
-            //{
-            //    return true;
-            //}
-
-            if (min < nums[i])
+            if (num > n2)
             {
-                result++;
-                if (result == 3)
-                {
-                    return true;
-                }
-            }
-            else
-            {
-                //min = Math.Min(min ?? int.MaxValue, nums[i]);
-                result = 1;
+                return true;
             }
 
-            min = Math.Min(min ?? int.MaxValue, nums[i]);
+            if (num <= n1)
+            {
+                n1 = num;
+            }
+            else if (num < n2)
+            {
+                n2 = num;
+            }
         }
 
         return false;
