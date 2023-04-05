@@ -853,6 +853,11 @@ Code: [C#](/src/csharp/Problems/BrowserHistory.cs)
 Tags: Array, Prefix Sum  
 Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/RunningSum.go)  
 
+### [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
+
+Tags: Graph  
+Code: [C#](/src/csharp/Problems/FindSmallestSetOfVertices.cs) | [Python](/src/python/problems/FindSmallestSetOfVertices.py)  
+
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
 Tags: Array, Matrix  
@@ -863,7 +868,7 @@ Code: [C#](/src/csharp/Problems/MaximumWealth.cs)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
 
-### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=study-plan&id=data-structure-ii)
+### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
 Tags: Array, Math, Recursion, Queue, Simulation  
 Code: [C#](/src/csharp/Problems/FindTheWinner.cs) | [Python](/src/python/problems/FindTheWinner.py)  
