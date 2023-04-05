@@ -1,92 +1,35 @@
-//https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+//https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 namespace LeetCode.Problems;
 
 public sealed class LowestCommonAncestor : ProblemBase
 {
-    public static void Run()
-    {
-        //var node = new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)));
-        //var node = new TreeNode(10, new TreeNode(5), new TreeNode(15, new TreeNode(6), new TreeNode(20)));
-        //var node = new TreeNode(3, new TreeNode(1, new TreeNode(0), new TreeNode(2, null, new TreeNode(3))), new TreeNode(5, new TreeNode(4), new TreeNode(6)));
-        //var node = new TreeNode(-48, null, new TreeNode(94, new TreeNode(-3, null, new TreeNode(90)), null));
-        //var node = new TreeNode(2, new TreeNode(1), new TreeNode(3));
+    [Theory]
+    [ClassData(typeof(LowestCommonAncestor))]
+    public override void Test(object[] data) => base.Test(data);
 
-        var node = TreeNode.Create(6, 2, 8, 0, 4, 7, 9, null, null, 3, 5);
-        //var node = TreeNode.Create(2,1);
-        var d = Run(node, new TreeNode(2), new TreeNode(4));
-        //var d = Run(node, new TreeNode(2), new TreeNode(1));
-    }
+    public override void AddTestCases()
+        => Add(it => it.ParamTree("[3,5,1,6,2,0,8,null,null,7,4]").ParamTree("[5]").ParamTree("[1]").ResultTree("[3,5,1,6,2,0,8,null,null,7,4]"))
+          .Add(it => it.ParamTree("[3,5,1,6,2,0,8,null,null,7,4]").ParamTree("[5]").ParamTree("[4]").ResultTree("[5,6,2,null,null,7,4]"))
+          .Add(it => it.ParamTree("[3,5,1,6,2,0,8,null,null,7,4]").ParamTree("[6]").ParamTree("[7]").ResultTree("[5,6,2,null,null,7,4]"))
+          .Add(it => it.ParamTree("[1,11,2,3,4,5,6,7,8,9,10]").ParamTree("[7]").ParamTree("[9]").ResultTree("[11,3,4,7,8,9,10]"))
+        ;
 
-    /// OPTION 3
-    private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q)
+    private TreeNode? Solution(TreeNode root, TreeNode p, TreeNode q)
     {
-        TreeNode current = root;
-        while (current != null)
+        TreeNode? Dfs(TreeNode? node, TreeNode node1, TreeNode node2)
         {
-            if (current.val > p.val && current.val > q.val)
+            if (node == null || node.val == node1.val || node.val == node2.val)
             {
-                current = current.left;
+                return node;
             }
-            else if (current.val < p.val && current.val < q.val)
-            {
-                current = current.right;
-            }
-            else
-            {
-                break;
-            }
+
+            var left = Dfs(node.left, node1, node2);
+            var right = Dfs(node.right, node1, node2);
+
+            return left != null && right != null ? node : left ?? right;
         }
 
-        return current;
+        return Dfs(root, p, q);
     }
-
-    /// OPTION 2
-    // private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q)
-    // {
-    //     if (root == null) 
-    //     {
-    //         return null;
-    //     }
-
-    //     if (root.val > p.val && root.val > q.val)
-    //     {
-    //         return Run(root.left, p, q);
-    //     }
-    //     else if (root.val < p.val && root.val < q.val)
-    //     {
-    //         return Run(root.right, p, q);
-    //     }
-
-    //     return root;
-    // }
-
-    /// OPTION 1
-    // private static TreeNode Run(TreeNode root, TreeNode p, TreeNode q)
-    // {
-    //     var pPath = new List<TreeNode> {root};
-    //     var qPath = new List<TreeNode> {root};
-
-    //     Search(root, p, pPath);
-    //     Search(root, q, qPath);
-
-    //     var min = Math.Min(pPath.Count, qPath.Count);
-    //     for(var i = 0; i < min; i++) 
-    //     {
-    //         if (pPath[i] != qPath[i]) 
-    //         {
-    //             return pPath[i - 1];
-    //         }
-    //     }
-
-    //     return pPath[min - 1];
-    // }
-
-    // static void Search(TreeNode node, TreeNode target, IList<TreeNode> path) {
-    //     path.Add(node);
-
-    //     if (node.val != target.val) {
-    //         Search(node.val > target.val ? node.left : node.right, target, path);
-    //     }
-    // }
 }
