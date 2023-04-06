@@ -1,6 +1,6 @@
 # Overview
 
-My solutions to [LeetCode](https://leetcode.com/) problems.
+My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 
 ## Problems
 
@@ -653,6 +653,11 @@ Code: [C#](/src/csharp/Problems/FindAnagrams.cs)
 
 Tags: Tree, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/DeleteNode.cs) | [Python](/src/python/problems/DeleteNode.py)  
+
+### [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+
+Tags: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
+Code: [C#](/src/csharp/Problems/FrequencySort.cs) | [Python](/src/python/problems/FrequencySort.py)  
 
 ### [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
 
