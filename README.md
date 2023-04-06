@@ -824,6 +824,11 @@ Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)
 Tags: Depth-First Search, Union Find, Graph  
 Code: [C#](/src/csharp/Problems/RemoveStones.cs)  
 
+### [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+
+Tags: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect  
+Code: [C#](/src/csharp/Problems/KClosest.cs) | [Python](/src/python/problems/KClosest.py)  
+
 ### [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
 Tags: Array, Hash Table, Prefix Sum  
