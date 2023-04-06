@@ -309,6 +309,11 @@ Code: [C#](/src/csharp/Problems/LongestConsecutive.cs) | [Go](/src/go/problems/L
 Tags: String, Dynamic Programming, Backtracking  
 Code: [C#](/src/csharp/Problems/Partition.cs)  
 
+### [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+
+Tags: Hash Table, Depth-First Search, Breadth-First Search, Graph  
+Code: [C#](/src/csharp/Problems/CloneGraph.cs) | [Python](/src/python/problems/CloneGraph.py)  
+
 ### [136. Single Number](https://leetcode.com/problems/single-number/)
 
 Tags: Array, Bit Manipulation  

@@ -27,6 +27,12 @@ public class Node : IEquatable<Node>
         this.next = next;
     }
 
+    public Node(int val, List<Node> neighbors)
+    {
+        this.val = val;
+        this.neighbors = neighbors;
+    }
+
     public int val { get; set; }
 
     public Node? left { get; set; }
@@ -35,7 +41,9 @@ public class Node : IEquatable<Node>
 
     public Node? next { get; set; }
 
-    public IList<Node>? children { get; set; }
+    public IList<Node>? children { get; set; } = new List<Node>();
+
+    public IList<Node> neighbors { get; set; } = new List<Node>();
 
     public override string ToString()
     {
@@ -79,14 +87,61 @@ public class Node : IEquatable<Node>
     }
 
     public bool Equals(Node? other)
-        => !ReferenceEquals(null, other) 
-           && (ReferenceEquals(this, other) 
-               || val == other.val
-               && Equals(left, other.left)
-               && Equals(right, other.right)
-               && Equals(next, other.next)
-               && (Equals(children, other.children)
-                   || (children != null && other.children != null && children.SequenceEqual(other.children))));
+    {
+        var map = new Dictionary<Node, bool>();
+        bool CheckNeighbors(Node? node1, Node? node2)
+        {
+            //TODO: Implement check. It may contains circular dependency
+            if (node1 != null && map.ContainsKey(node1))
+            {
+                return map[node1];
+            }
+
+            var check = Check(node1, node2);
+            if (check && node1?.neighbors.Count != node2?.neighbors.Count)
+            {
+                check = false;
+            }
+
+            if (check)
+            {
+                for (var i = 0; i < node1.neighbors.Count; i++)
+                {
+                    if (check)
+                    {
+                        check &= CheckNeighbors(node1.neighbors[i], node2.neighbors[i]);
+                        map[node1.neighbors[i]] = check;
+                    }
+                }
+            }
+
+            map[node1] = check;
+
+            return check;
+        }
+
+        var check = Check(this, other);
+        if (check)
+        {
+            //check &= CheckNeighbors(this, other);
+        }
+
+        if (check)
+        {
+            check &= Equals(children, other.children) ||
+                     (children != null && other.children != null && children.SequenceEqual(other.children));
+        }
+
+        return check;
+    }
+
+    private bool Check(Node? node1, Node? node2) =>
+        !ReferenceEquals(null, node2)
+        && (ReferenceEquals(node1, node2) 
+            || node1!.val == node2.val
+            && Equals(node1.left, node2.left)
+            && Equals(node1.right, node2.right)
+            && Equals(node1.next, node2.next));
 
     public override bool Equals(object? obj)
         => !ReferenceEquals(null, obj) &&
@@ -95,7 +150,7 @@ public class Node : IEquatable<Node>
     public override int GetHashCode()
         => HashCode.Combine(val, left, right, next, children);
 
-    public static Node? Create(bool link = false, params int?[]? data)
+    public static Node? Create(bool link = false, bool neighbors = false, params int?[]? data)
     {
         if (data == null || !data.Any())
         {
@@ -131,5 +186,5 @@ public class Node : IEquatable<Node>
         return root;
     }
 
-    public static Node? Parse(string? input) => Create(input != null && input.Contains("#"), input.ToNullableArray());
+    public static Node? Parse(string? input, bool neighbors = false) => Create(input != null && input.Contains("#"), neighbors, input.ToNullableArray());
 }

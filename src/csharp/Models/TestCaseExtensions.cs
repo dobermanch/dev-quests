@@ -57,7 +57,10 @@ public static class TestCaseExtensions
         => testCase.Param<Node>(data);
 
     public static TestCase ParamNode(this TestCase testCase, string? input)
-        => testCase.Param(Node.Parse(input));
+        => testCase.Param(Node.Parse(input, neighbors: false));
+
+    public static TestCase ParamNode(this TestCase testCase, string? input, bool neighbors)
+        => testCase.Param(Node.Parse(input, neighbors));
 
     public static TestCase Param<T>(this TestCase testCase, params int?[] data)
     {
@@ -71,7 +74,7 @@ public static class TestCaseExtensions
         }
         else if (typeof(T) == typeof(Node))
         {
-            testCase.Param(Node.Create(false, data));
+            testCase.Param(Node.Create(false, neighbors: false, data));
         }
         else
         {
@@ -124,5 +127,8 @@ public static class TestCaseExtensions
         => testCase.Result(ListNode.Parse(input, cyclePosAt));
 
     public static TestCase ResultNode(this TestCase testCase, string? input)
-        => testCase.Result(Node.Parse(input));
+        => testCase.Result(Node.Parse(input, neighbors: false));
+
+    public static TestCase ResultNode(this TestCase testCase, string? input, bool neighbors)
+        => testCase.Result(Node.Parse(input, neighbors));
 }
