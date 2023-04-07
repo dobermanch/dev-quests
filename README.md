@@ -539,6 +539,11 @@ Code: [C#](/src/csharp/Problems/SearchMatrix2.cs) | [Python](/src/python/problem
 Tags: Hash Table, String, Sorting  
 Code: [C#](/src/csharp/Problems/IsAnagram.cs) | [Go](/src/go/problems/IsAnagram.go)  
 
+### [268. Missing Number](https://leetcode.com/problems/missing-number/)
+
+Tags: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting  
+Code: [C#](/src/csharp/Problems/MissingNumber.cs) | [Pyhton](/src/pyrhon/problems/MissingNumber.py)  
+
 ### [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 Tags: Binary Search, Interactive  
