@@ -444,6 +444,11 @@ Code: [C#](/src/csharp/Problems/IsIsomorphic.cs) | [Go](/src/go/problems/IsIsomo
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/ReverseList.cs) | [Go](/src/go/problems/ReverseList.go) | [Python](/src/python/problems/ReverseList.py)  
 
+### [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+
+Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort  
+Code: [C#](/src/csharp/Problems/CanFinish.cs) | [Python](/src/python/problems/CanFinish.py)  
+
 ### [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 Tags: Hash Table, String, Design, Trie  
