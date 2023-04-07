@@ -412,7 +412,7 @@ Code: [C#](/src/csharp/Problems/HammingWeight.cs)
 ### [198. House Robber](https://leetcode.com/problems/house-robber/)
 
 Tags: Array, Dynamic Programming  
-Code: [C#](/src/csharp/Problems/Rob.cs)  
+Code: [C#](/src/csharp/Problems/Rob.cs) | [Python](/src/python/problems/Rob.py)  
 
 ### [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
@@ -468,6 +468,11 @@ Code: [C#](/src/csharp/Problems/WordDictionary.cs)
 
 Tags: Array, String, Backtracking, Trie, Matrix  
 Code: [C#](/src/csharp/Problems/WordSearch2.cs)  
+
+### [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/Rob2.cs) | [Python](/src/python/problems/Rob2.py)  
 
 ### [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 

@@ -18,15 +18,15 @@ public sealed class Rob : ProblemBase
 
     private int Solution(int[] nums)
     {
-        var t0 = 0;
-        var t1 = 0;
-        for (int i = 0; i < nums.Length; i++)
+        var rob1 = 0;
+        var rob2 = 0;
+        foreach (var num in nums)
         {
-            var temp = t1;
-            t1 = Math.Max(t0 + nums[i], t1);
-            t0 = temp;
+            var temp = rob2;
+            rob2 = Math.Max(rob1 + num, rob2);
+            rob1 = temp;
         }
 
-        return t1;
+        return rob2;
     }
 }
