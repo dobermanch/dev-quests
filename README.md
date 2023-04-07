@@ -584,6 +584,11 @@ Code: [C#](/src/csharp/Problems/OddEvenList.cs)
 Tags: Array, Greedy  
 Code: [C#](/src/csharp/Problems/IncreasingTriplet.cs) | [Python](/src/python/problems/IncreasingTriplet.py)  
 
+### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
+
+Tags: Dynamic Programming, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/CountBits.cs) | [Python](/src/python/problems/CountBits.py)  
+
 ### [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
 Tags: Two Pointers, String  
