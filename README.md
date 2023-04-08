@@ -194,6 +194,11 @@ Code: [C#](/src/csharp/Problems/DeleteDuplicates.cs)
 Tags: Array, Two Pointers, Sorting  
 Code: [C#](/src/csharp/Problems/Merge.cs) | [Go](/src/go/problems/Merge.go)  
 
+### [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
+
+Tags: String, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/NumDecodings.cs) | [Python](/src/python/problems/NumDecodings.py)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: String, Backtracking  
