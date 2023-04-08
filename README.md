@@ -754,6 +754,11 @@ Code: [C#](/src/csharp/Problems/FindTarget.cs)
 Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting  
 Code: [C#](/src/csharp/Problems/LeastInterval.cs)  
 
+### [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+
+Tags: String, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/CountSubstrings.cs) | [Python](/src/python/problems/CountSubstrings.py)  
+
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
