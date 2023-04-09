@@ -584,6 +584,11 @@ Code: [C#](/src/csharp/Problems/Codec.cs)
 Tags: Hash Table, String, Counting  
 Code: [C#](/src/csharp/Problems/GetHint.cs)  
 
+### [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+Tags: Array, Binary Search, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/LengthOfLIS.cs) | [Python](/src/python/problems/LengthOfLIS.py)  
+
 ### [322. Coin Change](https://leetcode.com/problems/coin-change/)
 
 Tags: Array, Dynamic Programming, Breadth-First Search  
