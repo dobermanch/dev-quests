@@ -899,6 +899,11 @@ Code: [C#](/src/csharp/Problems/FindJudge.cs)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)  
 
+### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
+Tags: String, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/LongestCommonSubsequence.cs) | [Python](/src/python/problems/LongestCommonSubsequence.py)  
+
 ### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/MinRemoveToMakeValid.cs)  
