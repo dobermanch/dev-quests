@@ -324,6 +324,11 @@ Code: [C#](/src/csharp/Problems/CloneGraph.cs) | [Python](/src/python/problems/C
 Tags: Array, Bit Manipulation  
 Code: [C#](/src/csharp/Problems/SingleNumber.cs)  
 
+### [139. Word Break](https://leetcode.com/problems/word-break/)
+
+Tags: Array, Hash Table, String, Dynamic Programming, Trie, Memoization  
+Code: [C#](/src/csharp/Problems/WordBreak.cs) | [Python](/src/python/problems/WordBreak.py)  
+
 ### [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 
 Tags: Hash Table, Linked List, Two Pointers  
