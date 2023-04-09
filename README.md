@@ -134,6 +134,11 @@ Code: [C#](/src/csharp/Problems/MaxSubArray.cs) | [Go](/src/go/problems/MaxSubAr
 Tags: Array, Matrix, Simulation  
 Code: [C#](/src/csharp/Problems/SpiralOrder.cs)  
 
+### [55. Jump Game](https://leetcode.com/problems/jump-game/)
+
+Tags: Array, Dynamic Programming, Greedy  
+Code: [C#](/src/csharp/Problems/CanJump.cs) | [Python](/src/python/problems/CanJump.py)  
+
 ### [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
 Tags: Array, Sorting  
