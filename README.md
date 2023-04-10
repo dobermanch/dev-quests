@@ -632,7 +632,12 @@ Code: [C#](/src/csharp/Problems/TopKFrequentElement.cs) | [Go](/src/go/problems/
 ### [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
 Tags: Array, Hash Table, Two Pointers, Binary Search, Sorting  
-Code: [C#](/src/csharp/Problems/Intersect.cs)
+Code: [C#](/src/csharp/Problems/Intersect.cs)  
+
+### [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+
+Tags: Math, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/GetSum.cs)  
 
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
