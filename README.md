@@ -159,6 +159,11 @@ Code: [C#](/src/csharp/Problems/SpiralOrder2.cs) | [Python](/src/python/problems
 Tags: Math, Dynamic Programming, Memoization  
 Code: [C#](/src/csharp/Problems/ClimbStairs.cs)  
 
+### [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+
+Tags: Array, Hash Table, Matrix  
+Code: [C#](/src/csharp/Problems/SetZeroes.cs) | [Python](/src/python/problems/SetZeroes.py)  
+
 ### [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 Tags: Array, Binary Search, Matrix  
