@@ -59,6 +59,11 @@ Code: [C#](/src/csharp/Problems/IsValidParentheses.cs) | [Go](/src/go/problems/I
 Tags: Linked List, Recursion  
 Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeTwoLists.go) | [Python](/src/python/problems/MergeTwoLists.py)  
 
+### [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+
+Tags: String, Dynamic Programming, Backtracking  
+Code: [C#](/src/csharp/Problems/GenerateParenthesis.cs) | [Go](/src/go/problems/GenerateParenthesis.go) | [Python](/src/python/problems/GenerateParenthesis.py)  
+
 ### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 Tags: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort  
