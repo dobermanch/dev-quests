@@ -849,6 +849,11 @@ Code: [C#](/src/csharp/Problems/FloodFill.cs)
 Tags: Array, Stack  
 Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)| [Go](/src/go/problems/AsteroidCollision.go)  
 
+### [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+Tags: Array, Stack, Monotonic Stack  
+Code: [C#](/src/csharp/Problems/DailyTemperatures.cs)| [Python](/src/python/problems/DailyTemperatures.py)  
+
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 Tags: Array, Dynamic Programming  
