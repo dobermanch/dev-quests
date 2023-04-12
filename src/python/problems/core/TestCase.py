@@ -1,5 +1,6 @@
 import copy
 
+# TODO: Fix, new testcase overrides previous one
 class TestCase:
 
     def __init__(self, name: str, params: list = {}, result: any = None, disabled: bool = False):
