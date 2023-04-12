@@ -1,5 +1,8 @@
 #https://leetcode.com/problems/jump-game/
-class CanJump:
+
+from core.ProblemBase import *
+
+class CanJump(ProblemBase):
     def Solution(self, nums: list[int]) -> bool:
         jumpTo = len(nums) - 1
         for i in range(len(nums) - 1, -1, -1):
@@ -8,6 +11,8 @@ class CanJump:
 
         return jumpTo == 0
 
-
-
-CanJump().Solution([2,3,1,1,4])
+if __name__ == '__main__':
+    TestGen(CanJump) \
+        .Add(lambda tc: tc.Param("nums", [2,3,1,1,4]).Result(True)) \
+        .Add(lambda tc: tc.Param("nums", [3,2,1,0,4]).Result(False)) \
+        .Run()
