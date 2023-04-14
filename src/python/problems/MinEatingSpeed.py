@@ -10,8 +10,9 @@ class MinEatingSpeed(ProblemBase):
 
         while left < right:
             mid = (right + left) // 2
+            count = 0
             for pile in piles:
-                count = math.ceil(pile / mid)
+                count += math.ceil(pile / mid)
             
             if count > h:
                 left = mid + 1
