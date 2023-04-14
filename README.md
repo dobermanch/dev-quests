@@ -204,6 +204,11 @@ Code: [C#](/src/csharp/Problems/DeleteDuplicates.cs) | [Python](/src/python/prob
 Tags: Linked List  
 Code: [C#](/src/csharp/Problems/DeleteDuplicates.cs)  
 
+### [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+Tags: Array, Stack, Monotonic Stack  
+Code: [C#](/src/csharp/Problems/LargestRectangleArea.cs) | [Python](/src/python/problems/LargestRectangleArea.py)  
+
 ### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 Tags: Array, Two Pointers, Sorting  
