@@ -894,6 +894,11 @@ Code: [C#](/src/csharp/Problems/BackspaceCompare.cs)
 Tags: Array, Stack, Sorting, Monotonic Stack  
 Code: [C#](/src/csharp/Problems/CarFleet.cs) | [Python](/src/python/problems/CarFleet.py)  
 
+### [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+
+Tags: Array, Binary Search  
+Code: [C#](/src/csharp/Problems/MinEatingSpeed.cs) | [Python](/src/python/problems/MinEatingSpeed.py)  
+
 ### [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 Tags: Linked List, Two Pointers  
