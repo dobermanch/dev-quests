@@ -929,6 +929,11 @@ Code: [C#](/src/csharp/Problems/SubarraysDivByK.cs)
 Tags: Array, Two Pointers, Sorting  
 Code: [C#](/src/csharp/Problems/SortedSquares.cs)  
 
+### [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+
+Tags: Hash Table, String, Binary Search, Design  
+Code: [C#](/src/csharp/Problems/TimeMap.cs)  
+
 ### [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
 Tags: Array, Breadth-First Search, Matrix  

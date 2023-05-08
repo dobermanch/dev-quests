@@ -24,7 +24,7 @@ internal static class ListExtensions
             {
                 // leave it
             }
-            else if (char.IsDigit(ch))
+            else if (literal is null && char.IsDigit(ch))
             {
                 number ??= 0;
                 number *= 10;
@@ -36,6 +36,12 @@ internal static class ListExtensions
             }
             else if (char.IsLetter(ch))
             {
+                if (number is not null)
+                {
+                    literal += number;
+                    number = null;
+                }
+
                 literal += ch;
             }
             else if (ch is ',' or ']' or '}' && (number != null || "null".Equals(literal, StringComparison.InvariantCultureIgnoreCase)))
@@ -75,7 +81,7 @@ internal static class ListExtensions
             {
                 row = new List<object>();
             }
-            else if (char.IsDigit(ch))
+            else if (literal is null && char.IsDigit(ch))
             {
                 number ??= 0;
                 number *= 10;
@@ -120,6 +126,12 @@ internal static class ListExtensions
             }
             else
             {
+                if (number is not null)
+                {
+                    literal += number;
+                    number = null;
+                }
+
                 literal += ch;
             }
         }
