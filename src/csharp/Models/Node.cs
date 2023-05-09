@@ -19,12 +19,13 @@ public class Node : IEquatable<Node>
         this.children = children;
     }
 
-    public Node(int val, Node left, Node right, Node next)
+    public Node(int val, Node left, Node right, Node next, Node? random = null)
     {
         this.val = val;
         this.left = left;
         this.right = right;
         this.next = next;
+        this.random = random;
     }
 
     public Node(int val, List<Node> neighbors)
@@ -40,6 +41,8 @@ public class Node : IEquatable<Node>
     public Node? right { get; set; }
 
     public Node? next { get; set; }
+
+    public Node? random { get; set; }
 
     public IList<Node>? children { get; set; } = new List<Node>();
 

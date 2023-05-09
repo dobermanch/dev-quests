@@ -349,6 +349,11 @@ Code: [C#](/src/csharp/Problems/CloneGraph.cs) | [Python](/src/python/problems/C
 Tags: Array, Bit Manipulation  
 Code: [C#](/src/csharp/Problems/SingleNumber.cs)  
 
+### [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+
+Tags: Hash Table, Linked List  
+Code: [C#](/src/csharp/Problems/CopyRandomList.cs) | [Python](/src/pyhton/problems/CopyRandomList.py)  
+
 ### [139. Word Break](https://leetcode.com/problems/word-break/)
 
 Tags: Array, Hash Table, String, Dynamic Programming, Trie, Memoization  
