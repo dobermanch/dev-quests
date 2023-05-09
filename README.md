@@ -599,6 +599,11 @@ Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)
 Tags: Array, Two Pointers  
 Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
 
+### [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+
+Tags: Array, Two Pointers, Binary Search, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/FindDuplicate.cs) | [Python](/src/python/problems/FindDuplicate.py)  
+
 ### [290. Word Pattern](https://leetcode.com/problems/word-pattern)
 
 Tags: Hash Table, String  
