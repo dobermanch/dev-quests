@@ -19,6 +19,11 @@ Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Python](/src/python/problem
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go)  
 
+### [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+Tags: Array, Binary Search, Divide and Conquer  
+Code: [C#](/src/csharp/Problems/FindMedianSortedArrays.cs) | [Python](/src/python/problems/FindMedianSortedArrays.py)  
+
 ### [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 Tags: String, Dynamic Programming  
