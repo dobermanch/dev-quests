@@ -1,32 +1,48 @@
-# https://leetcode.com/problems/path-sum-ii/
+# https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+from core.ProblemBase import *
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
-class PathSum2:
-    def Solution(self, root: Optional[TreeNode], targetSum: int) -> list[list[int]]:
-        result = []
-        def Dfs(node, currentSum, target, temp) -> int:
+class GoodNodes:
+    def Solution(self, root: TreeNode) -> int:
+        stack = []
+        stack.append((root, float('-inf')))
+        count = 0
+        while stack:
+            node, parentMax = stack.pop()
+
+            count += 1 if node.val >= parentMax else 0
+            parentMax = max(parentMax, node.val)
+
+            if node.left:
+                stack.append((node.left, parentMax))
+            
+            if node.right:
+                stack.append((node.right, parentMax))
+
+        return count
+    
+    def Solution1(self, root: TreeNode) -> int:
+        def Dfs(node, parentMax) -> int:
             if not node:
-                return
+                return 0
 
-            temp.append(node.val)
-            currentSum += node.val
-            if not node.left and not node.right:
-                if currentSum == target:
-                    result.append(list(temp))
-                del temp[len(temp) - 1]
-                return
+            count = 1 if node.val >= parentMax else 0
+            parentMax = max(parentMax, node.val)
+            
+            count += Dfs(node.left, parentMax)
+            count += Dfs(node.right, parentMax)
+            return count
 
-            Dfs(node.left, currentSum, target, temp)
-            Dfs(node.right, currentSum, target, temp)
-            del temp[len(temp) - 1]
-
-        Dfs(root, 0, targetSum, [])
-
-        return result
+        return Dfs(root, float('-inf'))
 
 
-PathSum2().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), 3)
+if __name__ == '__main__':
+    TestGen(GoodNodes) \
+        .Add(lambda tc: tc.Param("nums", [1,3,4,2,2]).Result(2)) \
+        .Add(lambda tc: tc.Param("nums", [3,1,3,4,2]).Result(3)) \
+        .Run()
