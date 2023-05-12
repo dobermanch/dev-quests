@@ -384,6 +384,11 @@ Code: [C#](/src/csharp/Problems/PreorderTraversal.cs)
 Tags: Stack, Tree, Depth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/PostorderTraversal.cs)
 
+### [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+
+Tags: Hash Table, Linked List, Design, Doubly-Linked List  
+Code: [C#](/src/csharp/Problems/LRUCache.cs)
+
 ### [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
