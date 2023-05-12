@@ -1,4 +1,4 @@
-# Overview
+`# Overview
 
 My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 
@@ -987,6 +987,11 @@ Code: [C#](/src/csharp/Problems/NumberOfSteps.cs) | [Python](/src/python/problem
 
 Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search  
 Code: [C#](/src/csharp/Problems/MinTime.cs)  
+
+### [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/GoodNodes.cs) | [Python](/src/python/problems/GoodNodes.py)  
 
 ### [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
 
