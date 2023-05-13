@@ -844,6 +844,11 @@ Code: [C#](/src/csharp/Problems/SearchBST.cs)
 Tags: Tree, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/InsertIntoBST.cs)  
 
+### [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+
+Tags: Tree, Design, Binary Search Tree, Heap (Priority Queue), Binary Tree, Data Stream  
+Code: [C#](/src/csharp/Problems/KthLargest.cs)  
+
 ### [704. Binary Search](https://leetcode.com/problems/binary-search/)
 
 Tags: Array, Binary Search  
