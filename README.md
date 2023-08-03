@@ -17,7 +17,7 @@ Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Go](/src/go/problems/AddTwo
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 Tags: Hash Table, String, Sliding Window  
-Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go)  
+Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go) | [Python](/src/python/problems/LengthOfLongestSubstring.py)  
 
 ### [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
