@@ -7,7 +7,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 Tags: Array, Hash Table  
-Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)  
+Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go) | [Python](/src/python/problems/ThreeSum.go)  
 
 ### [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
@@ -668,6 +668,11 @@ Code: [C#](/src/csharp/Problems/TopKFrequentElement.cs) | [Go](/src/go/problems/
 
 Tags: Array, Hash Table, Two Pointers, Binary Search, Sorting  
 Code: [C#](/src/csharp/Problems/Intersect.cs)  
+
+### [355. Design Twitter](https://leetcode.com/problems/design-twitter/)
+
+Tags: Hash Table, Linked List, Designm, Heap (Priority Queue)  
+Code: [C#](/src/csharp/Problems/Twitter.cs)  
 
 ### [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 
