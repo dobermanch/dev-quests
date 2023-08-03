@@ -7,12 +7,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 Tags: Array, Hash Table  
-Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go) | [Python](/src/python/problems/ThreeSum.go)  
+Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go) | [Python](/src/python/problems/ThreeSum.py)  
 
 ### [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 Tags: Linked List, Math, Recursion  
-Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Python](/src/python/problems/AddTwoNumbers.py)  
+Code: [C#](/src/csharp/Problems/AddTwoNumbers.cs) | [Go](/src/go/problems/AddTwoNumbers.go) | [Python](/src/python/problems/AddTwoNumbers.py)  
 
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
