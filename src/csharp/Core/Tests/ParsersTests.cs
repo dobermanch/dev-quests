@@ -9,6 +9,7 @@ public class ParsersTests
     [InlineData("[ \"1 \",\" 52\" ,\"3456\",\"466\" ]", new[] { "1 ", " 52", "3456", "466" })]
     [InlineData("[ \"1, \",\" 52\" ,\"3456\",\"466\" ]", new[] { "1, ", " 52", "3456", "466" })]
     [InlineData("""[ "1  "," 52" ,"3456","466" ]""", new[] { "1  ", " 52", "3456", "466" })]
+    [InlineData("""[ "1  "," \" " ,"3456","466" ]""", new[] { "1  ", " \" ", "3456", "466" })]
     [InlineData("""[ "1,  "," 52" ,"3456","466" ]""", new[] { "1,  ", " 52", "3456", "466" })]
     [InlineData(""" [ "1,  "," 52" ,"3456","466" ] """, new[] { "1,  ", " 52", "3456", "466" })]
     [InlineData(""" [ "1,  ",," 52" ,"3456","466" ] """, new[] { "1,  ", " 52", "3456", "466" })]
@@ -57,5 +58,19 @@ public class ParsersTests
         var result = parser.Parse(input);
 
         Assert.True(expected.SequenceEqual(result));
+    }
+
+    [Theory]
+    [InlineData("""['1','\'',',']""", new object[] { '1', '\'', ',' })]
+    [InlineData("""[ '1', '\'' , ',' ]""", new object[] { '1', '\'', ',' })]
+    [InlineData(""" ['1', '\'',','] """, new object[] { '1', '\'', ',' })]
+    [InlineData(""" [] """, new object[0])]
+    public void Should_parse_char_array(string input, object[] expected)
+    {
+        var parser = new StringToArrayParser<char?>(new CharValueParser());
+
+        var result = parser.Parse(input);
+
+        Assert.True(expected.Cast<char?>().SequenceEqual(result));
     }
 }

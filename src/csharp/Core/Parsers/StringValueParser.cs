@@ -14,7 +14,18 @@ internal class StringValueParser : ValueParserBase<string>
         var temp = input.Trim(' ');
         if (input.Length != 0 && !temp.Equals("null", StringComparison.InvariantCultureIgnoreCase))
         {
-            result = temp.Trim('"').ToString();
+            if (temp.Length <= 0) 
+            { 
+                result = string.Empty;
+                return true;
+            }
+
+            if (temp[0] != '\"' && temp[^1] != '\"')
+            {
+                return false;
+            }
+
+            result = temp[1..^1].ToString().Replace("\\\"", "\"");
         }
 
         return true;

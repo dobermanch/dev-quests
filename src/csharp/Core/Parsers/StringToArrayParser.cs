@@ -51,9 +51,9 @@ internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
                     }
                     startIndex = index + 1;
                 }
-                else if (ch is '"')
+                else if (ch is '"' or '\'')
                 {
-                    if (input[index - 1] != '\\' && stack.Peek() is '"')
+                    if (input[index - 1] != '\\' && stack.Peek() == ch)
                     {
                         stack.Pop();
                     }
@@ -62,7 +62,7 @@ internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
                         stack.Push(ch);
                     }
                 }
-                else if (ch is ',' && stack.Peek() is not '"' or '\'')
+                else if (ch is ',' && stack.Peek() is not '"' and not '\'')
                 {
                     if (_valueParser.TryParse(data.Slice(startIndex, index - startIndex), out var value))
                     {
