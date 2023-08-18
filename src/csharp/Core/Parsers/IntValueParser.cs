@@ -2,12 +2,7 @@
 
 internal class IntValueParser : ValueParserBase<int>
 {
-    private readonly NullIntValueParser _parser;
-
-    public IntValueParser(bool failIfCannotParse = true)
-    {
-        _parser = new NullIntValueParser(failIfCannotParse);
-    }
+    private readonly NullIntValueParser _parser = new();
 
     public override bool TryParse(ReadOnlySpan<char> input, out int result)
     {

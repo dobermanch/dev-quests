@@ -6,14 +6,14 @@ internal static class ListExtensions
 {
     public static int[] ToArray(this string? input)
     {
-        var parser = new StringToArrayParser<int>(new IntValueParser(false));
+        var parser = new StringToArrayParser<int>(new IntValueParser());
 
         return parser.Parse(input).ToArray();
     }
 
     public static int?[] ToNullableArray(this string input)
     {
-        var parser = new StringToArrayParser<int?>(new NullIntValueParser(false));
+        var parser = new StringToArrayParser<int?>(new NullIntValueParser());
 
         return parser.Parse(input).ToArray();
     }

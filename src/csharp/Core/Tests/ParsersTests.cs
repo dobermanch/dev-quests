@@ -87,4 +87,18 @@ public class ParsersTests
 
         Assert.True(expected.Cast<bool?>().SequenceEqual(result));
     }
+
+    [Theory]
+    [InlineData("""[true,1,'2',"dd",null]""", new object[] { true, 1, '2', "dd", null})]
+    [InlineData("""[ true , 1, '2' ,"dd" ,null]""", new object[] { true, 1, '2', "dd", null })]
+    [InlineData(""" [ true , 1, '2' ,"dd" ,null] """, new object[] { true, 1, '2', "dd", null })]
+    [InlineData(""" [] """, new object[0])]
+    public void Should_parse_object_array(string input, object[] expected)
+    {
+        var parser = new StringToArrayParser<object?>(new ObjectValueParser());
+
+        var result = parser.Parse(input);
+
+        Assert.True(expected.SequenceEqual(result));
+    }
 }

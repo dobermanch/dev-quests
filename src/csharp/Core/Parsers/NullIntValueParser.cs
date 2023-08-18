@@ -2,13 +2,6 @@
 
 internal class NullIntValueParser : ValueParserBase<int?>
 {
-    private readonly bool _failIfCannotParse;
-
-    public NullIntValueParser(bool failIfCannotParse = true)
-    {
-        _failIfCannotParse = failIfCannotParse;
-    }
-
     public override bool TryParse(ReadOnlySpan<char> input, out int? result)
     {
         result = null;
@@ -28,11 +21,6 @@ internal class NullIntValueParser : ValueParserBase<int?>
         {
             result = result1;
             return true;
-        }
-
-        if (_failIfCannotParse)
-        {
-            throw new InvalidOperationException($"Cannot parse '{input}'");
         }
 
         return false;
