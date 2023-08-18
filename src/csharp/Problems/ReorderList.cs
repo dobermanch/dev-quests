@@ -54,33 +54,4 @@ public sealed class ReorderList : ProblemBase
 
         return head;
     }
-
-    private ListNode Solution1(ListNode head)
-    {
-        var stack = new Stack<ListNode>();
-
-        var current = head.next?.next;
-        while (current != null)
-        {
-            stack.Push(current);
-            current = current.next;
-        }
-
-        current = head;
-        while (stack.Any())
-        {
-            var pop = stack.Pop();
-            pop.next = null;
-            if (current.next?.next == null)
-            {
-                break;
-            }
-
-            pop.next = current.next;
-            current.next = pop;
-            current = pop.next;
-        }
-
-        return head;
-    }
 }

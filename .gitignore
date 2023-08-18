@@ -286,3 +286,6 @@ docs/reference
 **/*.cer
 **/*.crt
 **/*.pfx
+
+
+src/**/Assesments

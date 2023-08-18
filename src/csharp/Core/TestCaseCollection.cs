@@ -2,47 +2,31 @@ using System.Collections;
 
 namespace LeetCode.Core;
 
-public class TestCaseCollection : IEnumerable<object[]>
+public class TestCaseCollection : IEnumerable<TestCase>
 {
     private readonly IList<TestCase> _data = new List<TestCase>();
-    private readonly IList<string> _methods = new List<string> { "Solution" };
 
-    protected TestCaseCollection() { }
-
-    public TestCaseCollection Add(bool skip, Action<TestCase> configure) => skip ? this : Add(configure);
-
-    public TestCaseCollection Add(Action<TestCase> configure)
+    public TestCaseCollection Add(TestCase testCase)
     {
-        var testCase = TestCase.Create(_methods[0]);
-        configure(testCase);
         _data.Add(testCase);
-
-        foreach (var method in _methods.Skip(1))
-        {
-            _data.Add(testCase.Clone(method));
-        }
-
         return this;
     }
 
-    public TestCaseCollection AddSolutions(params string[] solutionMethodNames)
+    public TestCaseCollection Add(Action<TestCase> configure, bool skip = false)
     {
-        foreach (var methodName in solutionMethodNames)
+        if (!skip)
         {
-            if (!_methods.Contains(methodName))
-            {
-                _methods.Add(methodName);
-            }
+            var testCase = TestCase.Create("<Default>");
+            configure(testCase);
+            _data.Add(testCase);
         }
 
         return this;
     }
 
-    public virtual IEnumerator<object[]> GetEnumerator() 
-        => _data.Select(testCase => new object[] { testCase }).GetEnumerator();
+    public virtual IEnumerator<TestCase> GetEnumerator() 
+        => _data.GetEnumerator();
 
     IEnumerator IEnumerable.GetEnumerator()
-        => ((IEnumerable<object[]>)this).GetEnumerator();
-
-    public static TestCaseCollection Create() => new();
+        => ((IEnumerable<TestCase>)this).GetEnumerator();
 }
