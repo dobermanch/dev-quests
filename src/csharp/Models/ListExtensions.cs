@@ -1,59 +1,21 @@
-﻿namespace LeetCode.Models;
+﻿using LeetCode.Core.Parsers;
+
+namespace LeetCode.Models;
 
 internal static class ListExtensions
 {
-    public static int[] ToArray(this string? input) 
-        => input.ToNullableArray().Where(it => it != null).Select(it => (int)it!).ToArray();
-
-    public static int?[] ToNullableArray(this string? input)
+    public static int[] ToArray(this string? input)
     {
-        if (input == null)
-        {
-            return Array.Empty<int?>();
-        }
+        var parser = new StringToArrayParser<int>(new IntValueParser(false));
 
-        var data = input.Trim();
+        return parser.Parse(input).ToArray();
+    }
 
-        var row = new List<int?>();
-        int? number = null;
-        bool negative = false;
-        string? literal = null;
-        foreach (var ch in data.Where(ch => ch != ' '))
-        {
-            if (ch is '[' or '{')
-            {
-                // leave it
-            }
-            else if (literal is null && char.IsDigit(ch))
-            {
-                number ??= 0;
-                number *= 10;
-                number += ch - '0';
-            }
-            else if (ch == '-')
-            {
-                negative = true;
-            }
-            else if (char.IsLetter(ch))
-            {
-                if (number is not null)
-                {
-                    literal += number;
-                    number = null;
-                }
+    public static int?[] ToNullableArray(this string input)
+    {
+        var parser = new StringToArrayParser<int?>(new NullIntValueParser(false));
 
-                literal += ch;
-            }
-            else if (ch is ',' or ']' or '}' && (number != null || "null".Equals(literal, StringComparison.InvariantCultureIgnoreCase)))
-            {
-                row.Add(negative ? -number : number);
-                number = null;
-                literal = null;
-                negative = false;
-            }
-        }
-
-        return row.ToArray();
+        return parser.Parse(input).ToArray();
     }
 
     public static TOut[][] To2dArray<TOut>(this string? input, Converter<object, TOut>? converter = null, bool allowEmpty = true)
