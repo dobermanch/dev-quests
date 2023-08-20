@@ -91,5 +91,5 @@ public class TreeNode: IEquatable<TreeNode>
         return root;
     }
 
-    public static TreeNode? Parse(string? input) => Create(input.ToNullableArray());
+    public static TreeNode? Parse(string? input) => Create(input.ToArray<int?>());
 }

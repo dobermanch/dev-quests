@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class CharValueParser : ValueParserBase<char?>
+internal class CharValueParser : ValueParserBase
 {
-    public override bool TryParse(ReadOnlySpan<char> input, out char? result)
+    public override bool TryParse(ReadOnlySpan<char> input, out object result)
     {
         result = default;
 

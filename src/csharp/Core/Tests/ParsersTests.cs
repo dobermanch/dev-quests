@@ -18,7 +18,7 @@ public class ParsersTests
     [InlineData(""" [] """, new string[0])]
     public void Should_parse_string_array(string input, string[] expected)
     {
-        var parser = new StringToArrayParser<string>(new StringValueParser());
+        var parser = new StringToArrayParser<string>();
 
         var result = parser.Parse(input);
 
@@ -37,7 +37,7 @@ public class ParsersTests
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_null_int_array(string input, object[] expected)
     {
-        var parser = new StringToArrayParser<int?>(new NullIntValueParser());
+        var parser = new StringToArrayParser<int?>();
 
         var result = parser.Parse(input);
 
@@ -53,7 +53,7 @@ public class ParsersTests
     [InlineData(""" [] """, new int[0])]
     public void Should_parse_int_array(string input, int[] expected)
     {
-        var parser = new StringToArrayParser<int>(new IntValueParser());
+        var parser = new StringToArrayParser<int>();
 
         var result = parser.Parse(input);
 
@@ -67,7 +67,7 @@ public class ParsersTests
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_char_array(string input, object[] expected)
     {
-        var parser = new StringToArrayParser<char?>(new CharValueParser());
+        var parser = new StringToArrayParser<char?>();
 
         var result = parser.Parse(input);
 
@@ -81,7 +81,7 @@ public class ParsersTests
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_bool_array(string input, object[] expected)
     {
-        var parser = new StringToArrayParser<bool?>(new BoolValueParser());
+        var parser = new StringToArrayParser<bool?>();
 
         var result = parser.Parse(input);
 
@@ -95,7 +95,7 @@ public class ParsersTests
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_object_array(string input, object[] expected)
     {
-        var parser = new StringToArrayParser<object?>(new ObjectValueParser());
+        var parser = new StringToArrayParser<object?>();
 
         var result = parser.Parse(input);
 
@@ -109,7 +109,7 @@ public class ParsersTests
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_2d_array(string input, object expected)
     {
-        var parser = new StringTo2dArrayParser<int>(new IntValueParser());
+        var parser = new StringTo2dArrayParser<int>();
 
         var result = parser.Parse(input);
 
@@ -119,11 +119,11 @@ public class ParsersTests
     }
 
     [Theory]
-    //[InlineData("""[["esgriv.com"],[9],['7','8']]""", new object[] { new object[] { "esgriv.com" }, new object[] { 9 }, new object[] { '7', '8' } })]
+    [InlineData("""[["esgriv.com"],[9],['7','8']]""", new object[] { new object[] { "esgriv.com" }, new object[] { 9 }, new object[] { '7', '8' } })]
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_2d_object_array(string input, object expected)
     {
-        var parser = new StringTo2dArrayParser<object?>(new ObjectValueParser());
+        var parser = new StringTo2dArrayParser<object>();
 
         var result = parser.Parse(input);
 

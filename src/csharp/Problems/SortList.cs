@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/sort-list/
 
+using LeetCode.Models;
+
 namespace LeetCode.Problems;
 
 public sealed class SortList : ProblemBase
@@ -9,10 +11,10 @@ public sealed class SortList : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param<ListNode>(4,2,1,3).Result<ListNode>(1,2,3,4))
-          .Add(it => it.Param<ListNode>(-1, 5, 3, 4, 0).Result<ListNode>(-1, 0, 3, 4, 5))
-          .Add(it => it.Param<ListNode>(2).Result<ListNode>(2))
-          .Add(it => it.Param<ListNode>().Result<ListNode>());
+        => Add(it => it.ParamListNode("[4,2,1,3]").ResultListNode("[1,2,3,4]"))
+          .Add(it => it.ParamListNode("[-1, 5, 3, 4, 0]").ResultListNode("[-1, 0, 3, 4, 5]"))
+          .Add(it => it.ParamListNode("[2]").ResultListNode("[2]"))
+          .Add(it => it.ParamListNode("[]").ResultListNode("[]"));
 
     private ListNode? Solution(ListNode head)
     {

@@ -189,5 +189,5 @@ public class Node : IEquatable<Node>
         return root;
     }
 
-    public static Node? Parse(string? input, bool neighbors = false) => Create(input != null && input.Contains("#"), neighbors, input.ToNullableArray());
+    public static Node? Parse(string? input, bool neighbors = false) => Create(input != null && input.Contains("#"), neighbors, input.ToArray<int?>());
 }

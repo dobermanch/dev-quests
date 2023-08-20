@@ -9,9 +9,9 @@ public sealed class DiameterOfBinaryTree : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param<TreeNode>(1, 2, 3, 4, 5).Result(3))
-          .Add(it => it.Param<TreeNode>(4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2).Result(8))
-          .Add(it => it.Param<TreeNode>(1, 2).Result(1));
+        => Add(it => it.ParamTree("[1, 2, 3, 4, 5]").Result(3))
+          .Add(it => it.ParamTree("[4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2]").Result(8))
+          .Add(it => it.ParamTree("[1, 2]").Result(1));
 
     private int Solution(TreeNode root)
     {

@@ -9,11 +9,11 @@ public sealed class IsBalanced : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param<TreeNode>(3, 9, 20, null, null, 15, 7).Result(true))
-          .Add(it => it.Param<TreeNode>(1, 2, 2, 3, 3, null, null, 4, 4).Result(false))
-          .Add(it => it.Param<TreeNode>(1, 2, 2, 3, null, null, 3, 4, null, null, 4).Result(false))
-          .Add(it => it.Param<TreeNode>(1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, null, null, 5, 5).Result(true))
-          .Add(it => it.Param<TreeNode>(null).Result(true));
+        => Add(it => it.ParamTree("[3, 9, 20, null, null, 15, 7]").Result(true))
+          .Add(it => it.ParamTree("[1, 2, 2, 3, 3, null, null, 4, 4]").Result(false))
+          .Add(it => it.ParamTree("[1, 2, 2, 3, null, null, 3, 4, null, null, 4]").Result(false))
+          .Add(it => it.ParamTree("[1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, null, null, 5, 5]").Result(true))
+          .Add(it => it.ParamTree("[]").Result(true));
 
     private bool Solution(TreeNode? root)
     {

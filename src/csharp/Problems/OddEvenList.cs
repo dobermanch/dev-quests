@@ -9,12 +9,12 @@ public sealed class OddEvenList : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param<ListNode>(1,2,3,4,5).Result<ListNode>(1,3,5,2,4))
-          .Add(it => it.Param<ListNode>(2).Result<ListNode>(2))
-          .Add(it => it.Param<ListNode>().Result<ListNode>())
-          .Add(it => it.Param<ListNode>(2,1,3,5,6,4,7).Result<ListNode>(2,3,6,7,1,5,4))
-          .Add(it => it.Param<ListNode>(2,1,3,5,6,4).Result<ListNode>(2,3,6,1,5,4))
-          .Add(it => it.Param<ListNode>(1,2,3,4,5,8,9,6,4,5).Result<ListNode>(1,3,5,9,4,2,4,8,6,5));
+        => Add(it => it.ParamListNode("[1,2,3,4,5]").ResultListNode("[1,3,5,2,4]"))
+          .Add(it => it.ParamListNode("[2]").ResultListNode("[2]"))
+          .Add(it => it.ParamListNode("[]").ResultListNode("[]"))
+          .Add(it => it.ParamListNode("[2,1,3,5,6,4,7]").ResultListNode("[2,3,6,7,1,5,4]"))
+          .Add(it => it.ParamListNode("[2,1,3,5,6,4]").ResultListNode("[2,3,6,1,5,4]"))
+          .Add(it => it.ParamListNode("[1,2,3,4,5,8,9,6,4,5]").ResultListNode("[1,3,5,9,4,2,4,8,6,5]"));
 
     private ListNode Solution(ListNode head)
     {

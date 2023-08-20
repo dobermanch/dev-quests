@@ -1,12 +1,20 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
+internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
 {
-    private readonly ValueParserBase<TOut> _valueParser;
+    private readonly ValueParserBase _valueParser;
 
-    public StringToArrayParser(ValueParserBase<TOut> valueParser)
+    public StringToArrayParser()
     {
-        _valueParser = valueParser;
+        _valueParser = typeof(TOut) switch
+        {
+            Type type when type == typeof(int) || type == typeof(int?) => new IntValueParser(),
+            Type type when type == typeof(char) || type == typeof(char?) => new CharValueParser(),
+            Type type when type == typeof(bool) || type == typeof(bool?) => new BoolValueParser(),
+            Type type when type == typeof(string) => new StringValueParser(),
+            Type type when type == typeof(object) => new ObjectValueParser(),
+            _ => throw new ArgumentException($"The '{typeof(TOut)}' is not supported.")
+        };
     }
 
     public IList<TOut> Parse(string input)
@@ -19,24 +27,17 @@ internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
         throw new InvalidOperationException($"Failed to parse '{input}'.");
     }
 
-    public virtual bool TryParse(string input, out IList<TOut> result)
+    public virtual bool TryParse(ReadOnlySpan<char> input, out IList<TOut> result)
     {
-        if (input is null)
-        {
-            result = Array.Empty<TOut>();
-            return true;
-        }
-
         try
         {
             result = new List<TOut>();
             var stack = new Stack<char>();
             var startIndex = 0;
 
-            var data = input.AsSpan();
-            for (var index = 0; index < data.Length; index++)
+            for (var index = 0; index < input.Length; index++)
             {
-                var ch = data[index];
+                var ch = input[index];
                 if (ch is '[' or '{')
                 {
                     stack.Push(ch);
@@ -45,9 +46,9 @@ internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
                 else if ((ch is ']' && stack.Peek() is '[') || (ch is '}' && stack.Peek() is '{'))
                 {
                     stack.Pop();
-                    if (_valueParser.TryParse(data.Slice(startIndex, index - startIndex), out var value))
+                    if (_valueParser.TryParse(input.Slice(startIndex, index - startIndex), out var value))
                     {
-                        result.Add(value!);
+                        result.Add((TOut)value);
                     }
                     startIndex = index + 1;
                 }
@@ -64,9 +65,9 @@ internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
                 }
                 else if (ch is ',' && stack.Peek() is not '"' and not '\'')
                 {
-                    if (_valueParser.TryParse(data.Slice(startIndex, index - startIndex), out var value))
+                    if (_valueParser.TryParse(input.Slice(startIndex, index - startIndex), out var value))
                     {
-                        result.Add(value);
+                        result.Add((TOut)value);
                     }
 
                     startIndex = index + 1;
@@ -81,5 +82,4 @@ internal class StringToArrayParser<TOut> : IDataParser<string, IList<TOut>>
             return false;
         }
     }
-
 }

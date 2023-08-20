@@ -1,13 +1,13 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<IList<TOut>>>
+internal class StringTo2dArrayParser<TOut> : IDataParser<IList<IList<TOut>>>
 {
     private readonly StringToArrayParser<TOut> _valueParser;
     private readonly bool _allowEmpty;
 
-    public StringTo2dArrayParser(ValueParserBase<TOut> valueParser, bool allowEmpty = true)
+    public StringTo2dArrayParser(bool allowEmpty = true)
     {
-        _valueParser = new StringToArrayParser<TOut>(valueParser);
+        _valueParser = new StringToArrayParser<TOut>();
         _allowEmpty = allowEmpty;
     }
 
@@ -21,24 +21,17 @@ internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<IList<TOu
         throw new InvalidOperationException($"Failed to parse '{input}'.");
     }
 
-    public virtual bool TryParse(string input, out IList<IList<TOut>> result)
+    public virtual bool TryParse(ReadOnlySpan<char> input, out IList<IList<TOut>> result)
     {
-        if (input is null)
-        {
-            result = Array.Empty<IList<TOut>>();
-            return true;
-        }
-
         try
         {
             result = new List<IList<TOut>>();
             var stack = new Stack<char>();
             var startIndex = 0;
 
-            var data = input.AsSpan();
-            for (var index = 0; index < data.Length; index++)
+            for (var index = 0; index < input.Length; index++)
             {
-                var ch = data[index];
+                var ch = input[index];
                 if (ch is '[' or '{')
                 {
                     stack.Push(ch);
@@ -48,7 +41,7 @@ internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<IList<TOu
                 {
                     stack.Pop();
 
-                    if (_valueParser.TryParse(data[startIndex..(index + 1)].ToString(), out var value))
+                    if (_valueParser.TryParse(input[startIndex..(index + 1)].ToString(), out var value))
                     {
                         if (value.Count > 0 || _allowEmpty)
                         {

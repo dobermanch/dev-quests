@@ -1,7 +1,15 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class ObjectValueParser : ValueParserBase<object?>
+internal class ObjectValueParser : ValueParserBase
 {
+    private ValueParserBase[] _parser = new ValueParserBase[]
+    {
+        new CharValueParser(),
+        new IntValueParser(),
+        new BoolValueParser(),
+        new StringValueParser(),
+    };
+
     public override bool TryParse(ReadOnlySpan<char> input, out object? result)
     {
         result = default;
@@ -18,25 +26,13 @@ internal class ObjectValueParser : ValueParserBase<object?>
             return true;
         }
 
-        if (new CharValueParser().TryParse(temp, out var ch))
+        foreach(var parser in _parser)
         {
-            result = ch;
-            return true;
-        }
-        else if (new IntValueParser().TryParse(temp, out var number))
-        {
-            result = number;
-            return true;
-        }
-        else if (new BoolValueParser().TryParse(temp, out var boolean))
-        {
-            result = boolean;
-            return true;
-        }
-        else if (new StringValueParser().TryParse(temp, out var str))
-        {
-            result = str;
-            return true;
+            if (parser.TryParse(temp, out var value))
+            {
+                result = value;
+                return true;
+            }
         }
 
         return false;

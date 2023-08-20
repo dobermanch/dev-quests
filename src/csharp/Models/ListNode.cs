@@ -89,7 +89,7 @@ public class ListNode: IEquatable<ListNode>
         return root;
     }
 
-    public static ListNode? Parse(string? input, int? cycleAtPos = null) => Create(cycleAtPos, input.ToArray());
+    public static ListNode? Parse(string? input, int? cycleAtPos = null) => Create(cycleAtPos, input.ToArray<int>());
 }
 
 public static class ListNodeExtensions

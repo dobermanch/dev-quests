@@ -8,9 +8,9 @@ public sealed class InvertTree : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param<TreeNode>(4, 2, 7, 1, 3, 6, 9).Result<TreeNode>(4, 7, 2, 9, 6, 3, 1))
-          .Add(it => it.Param<TreeNode>(2, 1, 3).Result<TreeNode>(2, 3, 1))
-          .Add(it => it.Param<TreeNode>(null).Result<TreeNode>(null));
+        => Add(it => it.ParamTree("[4, 2, 7, 1, 3, 6, 9]").ResultTree("[4, 7, 2, 9, 6, 3, 1]"))
+          .Add(it => it.ParamTree("[2, 1, 3]").ResultTree("[2, 3, 1]"))
+          .Add(it => it.ParamTree("[]").ResultTree("[]"));
 
     private TreeNode? Solution(TreeNode? root)
     {

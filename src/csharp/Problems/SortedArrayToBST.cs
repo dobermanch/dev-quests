@@ -9,10 +9,10 @@ public sealed class SortedArrayToBst : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.ParamArray(-10,-3,0,5,9).Result<TreeNode>(0,-3,9,-10,null,5))
-          .Add(it => it.ParamArray(1,3).Result<TreeNode>(3,1))
-          .Add(it => it.ParamArray(-10,-3,0,5,9).Result<TreeNode>(0,-3,9,-10,null,5))
-          .Add(it => it.ParamArray(0,1,2,3,4,5).Result<TreeNode>(3,1,5,0,2,4))
+        => Add(it => it.ParamArray(-10,-3,0,5,9).ResultTree("[0,-3,9,-10,null,5]"))
+          .Add(it => it.ParamArray(1,3).ResultTree("[3,1]"))
+          .Add(it => it.ParamArray(-10,-3,0,5,9).ResultTree("[0,-3,9,-10,null,5]"))
+          .Add(it => it.ParamArray(0,1,2,3,4,5).ResultTree("[3,1,5,0,2,4]"))
         ;
 
     private TreeNode Solution(int[] nums)

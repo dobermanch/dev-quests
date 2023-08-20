@@ -1,6 +1,6 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal interface IDataParser<TIn, TOut>
+internal interface IDataParser<TOut>
 {
-    bool TryParse(TIn input, out TOut result);
+    bool TryParse(ReadOnlySpan<char> input, out TOut result);
 }

@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class StringValueParser : ValueParserBase<string>
+internal class StringValueParser : ValueParserBase
 {
-    public override bool TryParse(ReadOnlySpan<char> input, out string result)
+    public override bool TryParse(ReadOnlySpan<char> input, out object result)
     {
         result = default;
 

@@ -9,9 +9,9 @@ public sealed class KthSmallest : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param<TreeNode>(5, 3, 6, 2, 4, null, null, 1).Param(3).Result(3))
-          .Add(it => it.Param<TreeNode>(3, 1, 4, null, 2).Param(1).Result(1))
-          .Add(it => it.Param<TreeNode>(5, 3, 6, 2, 4, null, null, 1).Param(6).Result(6));
+        => Add(it => it.ParamTree("[5, 3, 6, 2, 4, null, null, 1]").Param(3).Result(3))
+          .Add(it => it.ParamTree("[3, 1, 4, null, 2]").Param(1).Result(1))
+          .Add(it => it.ParamTree("[5, 3, 6, 2, 4, null, null, 1]").Param(6).Result(6));
 
     private int Solution(TreeNode root, int k)
     {
