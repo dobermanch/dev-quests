@@ -1,15 +1,17 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<TOut>>
+internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<IList<TOut>>>
 {
-    private readonly ValueParserBase<TOut> _valueParser;
+    private readonly StringToArrayParser<TOut> _valueParser;
+    private readonly bool _allowEmpty;
 
-    public StringTo2dArrayParser(ValueParserBase<TOut> valueParser)
+    public StringTo2dArrayParser(ValueParserBase<TOut> valueParser, bool allowEmpty = true)
     {
-        _valueParser = valueParser;
+        _valueParser = new StringToArrayParser<TOut>(valueParser);
+        _allowEmpty = allowEmpty;
     }
 
-    public IList<TOut> Parse(string input)
+    public IList<IList<TOut>> Parse(string input)
     {
         if (TryParse(input, out var result))
         {
@@ -19,17 +21,17 @@ internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<TOut>>
         throw new InvalidOperationException($"Failed to parse '{input}'.");
     }
 
-    public virtual bool TryParse(string input, out IList<TOut> result)
+    public virtual bool TryParse(string input, out IList<IList<TOut>> result)
     {
         if (input is null)
         {
-            result = Array.Empty<TOut>();
+            result = Array.Empty<IList<TOut>>();
             return true;
         }
 
         try
         {
-            result = new List<TOut>();
+            result = new List<IList<TOut>>();
             var stack = new Stack<char>();
             var startIndex = 0;
 
@@ -40,33 +42,18 @@ internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<TOut>>
                 if (ch is '[' or '{')
                 {
                     stack.Push(ch);
-                    startIndex = index + 1;
+                    startIndex = index;
                 }
                 else if ((ch is ']' && stack.Peek() is '[') || (ch is '}' && stack.Peek() is '{'))
                 {
                     stack.Pop();
-                    if (_valueParser.TryParse(data.Slice(startIndex, index - startIndex), out var value))
+
+                    if (_valueParser.TryParse(data[startIndex..(index + 1)].ToString(), out var value))
                     {
-                        result.Add(value!);
-                    }
-                    startIndex = index + 1;
-                }
-                else if (ch is '"')
-                {
-                    if (input[index - 1] != '\\' && stack.Peek() is '"')
-                    {
-                        stack.Pop();
-                    }
-                    else if (input[index - 1] != '\\')
-                    {
-                        stack.Push(ch);
-                    }
-                }
-                else if (ch is ',' && stack.Peek() is not '"' or '\'')
-                {
-                    if (_valueParser.TryParse(data.Slice(startIndex, index - startIndex), out var value))
-                    {
-                        result.Add(value);
+                        if (value.Count > 0 || _allowEmpty)
+                        {
+                            result.Add(value!);
+                        }
                     }
 
                     startIndex = index + 1;
@@ -77,9 +64,9 @@ internal class StringTo2dArrayParser<TOut> : IDataParser<string, IList<TOut>>
         }
         catch
         {
-            result = Array.Empty<TOut>();
+            result = Array.Empty<IList<TOut>>();
             return false;
         }
     }
-
 }
+ 

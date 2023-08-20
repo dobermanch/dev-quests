@@ -14,7 +14,7 @@ internal class CharValueParser : ValueParserBase<char?>
         var temp = input.Trim(' ');
         if (input.Length != 0 && !temp.Equals("null", StringComparison.InvariantCultureIgnoreCase))
         {
-            if (temp[0] != '\'' && temp[^1] != '\'')
+            if ((temp[0] != '\'' && temp[^1] != '\'') && (temp[0] != '"' && temp[^1] != '"'))
             {
                 return false;
             }

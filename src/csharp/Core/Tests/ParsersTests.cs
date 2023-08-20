@@ -101,4 +101,34 @@ public class ParsersTests
 
         Assert.True(expected.SequenceEqual(result));
     }
+
+    [Theory]
+    [InlineData("""[[2],[2,1],[1,1]]""", new object[] { new int[] { 2 }, new int[] { 2, 1 }, new int[] { 1, 1 } })]
+    [InlineData(""" [ [2] , [2,1] , [1,1] ] """, new object[] { new int[] { 2 }, new int[] { 2, 1 }, new int[] { 1, 1 } })]
+    [InlineData(""" [ [ 2 ] , [2 ,1 ] , [ 1 , 1 ] ] """, new object[] { new int[] { 2 }, new int[] { 2, 1 }, new int[] { 1, 1 } })]
+    [InlineData(""" [] """, new object[0])]
+    public void Should_parse_2d_array(string input, object expected)
+    {
+        var parser = new StringTo2dArrayParser<int>(new IntValueParser());
+
+        var result = parser.Parse(input);
+
+        var arr = ((object[])expected).Cast<int[]>().Select((it, index) => new { arr = it, index }).ToArray();
+
+        Assert.True(arr.All(it => result[it.index].SequenceEqual(it.arr)));
+    }
+
+    [Theory]
+    //[InlineData("""[["esgriv.com"],[9],['7','8']]""", new object[] { new object[] { "esgriv.com" }, new object[] { 9 }, new object[] { '7', '8' } })]
+    [InlineData(""" [] """, new object[0])]
+    public void Should_parse_2d_object_array(string input, object expected)
+    {
+        var parser = new StringTo2dArrayParser<object?>(new ObjectValueParser());
+
+        var result = parser.Parse(input);
+
+        var arr = ((object[])expected).Cast<object[]>().Select((it, index) => new { arr = it, index }).ToArray();
+
+        Assert.True(arr.All(it => result[it.index].SequenceEqual(it.arr)));
+    }
 }
