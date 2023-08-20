@@ -4,15 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class MinCostClimbingStairs : ProblemBase
 {
-    public static void Run()
-    {
-        //var result = Run(new [] {10,15,4,2,1});
-        var result = Run2(new[] { 10, 15, 20 });
-        //        var result = Run(new [] {1,100,1,1,1,100,1,1,100,1});
-    }
+    [Theory]
+    [ClassData(typeof(MinCostClimbingStairs))]
+    public override void Test(object[] data) => base.Test(data);
+
+    public override void AddTestCases()
+        => Add(it => it.ParamArray("[10,15,20]").Result(15))
+          .Add(it => it.ParamArray("[1,100,1,1,1,100,1,1,100,1]").Result(6))
+        ;
 
     //Option 2
-    private static int Run2(int[] cost)
+    private int Solution(int[] cost)
     {
         var paid1 = cost[0];
         var paid2 = Math.Min(cost[1] + paid1, cost[1]);
@@ -28,7 +30,7 @@ public sealed class MinCostClimbingStairs : ProblemBase
     }
 
     //Option 1
-    private static int Run1(int[] cost)
+    private int Solution1(int[] cost)
     {
         var paid = new int[cost.Length];
         paid[0] = cost[0];

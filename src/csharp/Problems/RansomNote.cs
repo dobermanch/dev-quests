@@ -4,14 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class RansomNote : ProblemBase
 {
-    public static void Run()
-    {
-        var result = Run("a", "b");
-        //var result = Run("aa", "ab");
-        //var result = Run("aa", "aab");
-    }
+    [Theory]
+    [ClassData(typeof(RansomNote))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static bool Run(string ransomNote, string magazine) 
+    public override void AddTestCases()
+        => Add(it => it.Param("a").Param("b").Result(false))
+          .Add(it => it.Param("aa").Param("ab").Result(false))
+          .Add(it => it.Param("aa").Param("aab").Result(true))
+        ;
+
+    private bool Solution(string ransomNote, string magazine) 
     {
         if (magazine.Length < ransomNote.Length) 
         {

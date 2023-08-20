@@ -4,17 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class PivotIndex : ProblemBase
 {
-    public static void Run()
-    {
-        var nums = new[] { 1, 7, 3, 6, 5, 6 };
-        //var nums = new []{1,2,3};
-        //var nums = new []{2,1,-1};
-        //var nums = new []{-1,-1,-1,0,1,1};
-        //var nums = new []{-1,-1,-1,-1,-1,0};
-        var d = Run(nums);
-    }
+    [Theory]
+    [ClassData(typeof(PivotIndex))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(int[] nums)
+    public override void AddTestCases()
+        => Add(it => it.ParamArray("[1,7,3,6,5,6]").Result(3))
+          .Add(it => it.ParamArray("[1,2,3]").Result(-1))
+          .Add(it => it.ParamArray("[2,1,-1]").Result(0))
+        ;
+
+    private int Solution(int[] nums)
     {
         var leftSum = 0;
         var rightSum = 0;

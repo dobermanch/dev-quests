@@ -4,14 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class LastStoneWeight : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run(new [] {2,7,4,1,8,1}); // 1
-        //var d = Run(new [] {1}); // 1
-        var d = Run(new[] { 2, 2 }); // 0
-    }
+    [Theory]
+    [ClassData(typeof(LastStoneWeight))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(int[] stones)
+    public override void AddTestCases()
+        => Add(it => it.ParamArray("[2,7,4,1,8,1]").Result(1))
+          .Add(it => it.ParamArray("[1]").Result(1))
+          .Add(it => it.ParamArray("[2, 2]").Result(0))
+        ;
+
+    private int Solution(int[] stones)
     {
         var comparer = Comparer<int>.Create((left, right) => right - left);
         var ordered = new PriorityQueue<int, int>(stones.Select(it => (it, it)), comparer);

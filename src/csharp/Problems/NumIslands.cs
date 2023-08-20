@@ -4,18 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class NumIslands : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(new char[][] {
-            new [] {'1','1','0','0','0'},
-            new [] {'1','1','0','0','0'},
-            new [] {'0','0','1','0','0'},
-            new [] {'0','0','0','1','1'}
-        });
-    }
+    [Theory]
+    [ClassData(typeof(NumIslands))]
+    public override void Test(object[] data) => base.Test(data);
+
+    public override void AddTestCases()
+        => Add(it => it.Param2dArray<char>("""[["1", "1", "1", "1", "0"],["1", "1", "0", "1", "0"],["1", "1", "0", "0", "0"],["0", "0", "0", "0", "0"]]""").Result(1))
+          .Add(it => it.Param2dArray<char>("""[["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]]""").Result(3))
+        ;
 
     //OPTION 1
-    private static int Run(char[][] grid)
+    private int Solution(char[][] grid)
     {
         var result = 0;
         var height = grid.Length;

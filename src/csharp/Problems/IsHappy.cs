@@ -4,13 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class IsHappy : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(19); //true
-        //var d = Run(2); //false
-    }
+    [Theory]
+    [ClassData(typeof(IsHappy))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static bool Run(int n)
+    public override void AddTestCases()
+        => Add(it => it.Param(19).Result(true))
+          .Add(it => it.Param(2).Result(false))
+        ;
+
+    private bool Solution(int n)
     {
         var map = new HashSet<int>();
         var value = n;
@@ -37,7 +40,7 @@ public sealed class IsHappy : ProblemBase
     }
 
     //Option1
-    private static bool Run1(int n)
+    private bool Solution1(int n)
     {
         var map = new HashSet<int>();
         var sum = n;

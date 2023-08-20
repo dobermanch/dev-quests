@@ -4,15 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class UniquePaths : ProblemBase
 {
-    public static void Run()
-    {
-        //var result = Run(3,2);
-        //var result = Run(3,7);
-        var result = Run4(3, 3);
-    }
+    [Theory]
+    [ClassData(typeof(UniquePaths))]
+    public override void Test(object[] data) => base.Test(data);
+
+    public override void AddTestCases()
+        => Add(it => it.Param(3).Param(7).Result(28))
+          .Add(it => it.Param(3).Param(2).Result(3))
+        ;
 
     //Option 4
-    private static int Run4(int m, int n)
+    private int Solution4(int m, int n)
     {
         var path = new int[m, n];
 
@@ -36,9 +38,8 @@ public sealed class UniquePaths : ProblemBase
         return path[m - 1, n - 1];
     }
 
-
     //Option 3
-    private static int Run3(int m, int n)
+    private int Solution3(int m, int n)
     {
         var path = new int[m, n];
 
@@ -54,7 +55,7 @@ public sealed class UniquePaths : ProblemBase
     }
 
     //Option 2
-    private static int Run2(int m, int n)
+    private int Solution2(int m, int n)
     {
         var path = new int[m, n];
 
@@ -81,12 +82,12 @@ public sealed class UniquePaths : ProblemBase
     }
 
     //Option 1
-    private static int Run1(int m, int n)
+    private int Solution1(int m, int n)
     {
         return Path(0, 0, m - 1, n - 1);
     }
 
-    private static int Path(int x, int y, int width, int height)
+    private int Path(int x, int y, int width, int height)
     {
         if (x > width || y > height)
         {

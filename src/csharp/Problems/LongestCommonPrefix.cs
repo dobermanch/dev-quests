@@ -4,14 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class LongestCommonPrefix : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(new[] { "flower", "flow", "flight" });
-        //var d = Run(new []{"dog","racecar","car"});
-        //var d = Run(new []{"cir","car"});
-    }
+    [Theory]
+    [ClassData(typeof(LongestCommonPrefix))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static string Run(string[] strs)
+    public override void AddTestCases()
+        => Add(it => it.ParamArray<string>("""["flower", "flow", "flight"]""").Result("fl"))
+          .Add(it => it.ParamArray<string>("""["dog","racecar","car"]""").Result(""))
+          .Add(it => it.ParamArray<string>("""["cir","car"]""").Result("c"))
+        ;
+
+    private string Solution(string[] strs)
     {
         var map = new Dictionary<string, int>();
 

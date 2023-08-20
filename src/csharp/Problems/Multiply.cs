@@ -4,24 +4,20 @@ namespace LeetCode.Problems;
 
 public sealed class Multiply : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run("0", "12"); // 0
-        //var d = Run("3", "4"); // 12
-        //var d = Run("10", "12"); // 120
-        var d = Run("145", "723"); //104835
-        //var d = Run("43", "435"); //18705
-        //var d = Run("343", "35"); //12005
-        //var d = Run("4213", "1422"); //5990886
-        //var d = Run("42137", "14223"); //599314551
-        //var d = Run("421379", "142237"); //59935684823
-        //var d = Run("123456789", "987654321"); //121932631112635269
-        //var d = Run("6913259244", "71103343"); //491555843274052692
-        //var d = Run("498828660196", "840477629533"); // 419254329864656431168468
-    }
+    [Theory]
+    [ClassData(typeof(Multiply))]
+    public override void Test(object[] data) => base.Test(data);
+
+    public override void AddTestCases()
+        => Add(it => it.Param("0").Param("12").Result("0"))
+          .Add(it => it.Param("3").Param("4").Result("12"))
+          .Add(it => it.Param("10").Param("12").Result("120"))
+          .Add(it => it.Param("145").Param("723").Result("104835"))
+          .Add(it => it.Param("498828660196").Param("840477629533").Result("419254329864656431168468"))
+        ;
 
     //Option 2
-    private static string Run(string num1, string num2)
+    private string Solution(string num1, string num2)
     {
         var buffer = new int[num1.Length + num2.Length];
         for (var i = num2.Length - 1; i >= 0; i--)
@@ -48,7 +44,7 @@ public sealed class Multiply : ProblemBase
     }
 
     //Option 1 (https://www.youtube.com/watch?v=LgJ5bNHBbD4&t=478s)
-    private static string Run1(string num1, string num2)
+    private string Solution1(string num1, string num2)
     {
         if (num1 == "0" || num2 == "0")
         {

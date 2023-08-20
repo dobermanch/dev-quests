@@ -4,13 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class SubarraysDivByK : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(new int[] { 4, 5, 0, -2, -3, 1 }, 5);
-        //var d = Run(new int[]{5}, 9);
-    }
+    [Theory]
+    [ClassData(typeof(SubarraysDivByK))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(int[] nums, int k)
+    public override void AddTestCases()
+        => Add(it => it.ParamArray("[4,5,0,-2,-3,1]").Param(5).Result(7))
+          .Add(it => it.ParamArray("[5]").Param(9).Result(0))
+        ;
+
+    private int Solution(int[] nums, int k)
     {
         var map = new int[k];
         map[0] = 1;

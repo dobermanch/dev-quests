@@ -4,16 +4,18 @@ namespace LeetCode.Problems;
 
 public sealed class GetHint : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run("1807", "7810"); // 1A3B
-        //var d = Run("1123", "0111"); // 1A1B
-        //var d = Run("1122", "2211"); // 1A1B
-        var d = Run("1122", "1222"); // 3A0B
-        //var d = Run("11225", "22111"); // 0A4B
-    }
+    [Theory]
+    [ClassData(typeof(GetHint))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static string Run(string secret, string guess)
+    public override void AddTestCases()
+        => Add(it => it.Param("1807").Param("7810").Result("1A3B"))
+          .Add(it => it.Param("1123").Param("0111").Result("1A1B"))
+          .Add(it => it.Param("1122").Param("1222").Result("3A0B"))
+          .Add(it => it.Param("11225").Param("22111").Result("0A4B"))
+        ;
+
+    private string Solution(string secret, string guess)
     {
         var map = new int[10, 2];
 

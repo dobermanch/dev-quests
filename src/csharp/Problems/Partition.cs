@@ -4,12 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class Partition : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run("aab");
-    }
+    [Theory]
+    [ClassData(typeof(Partition))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static IList<IList<string>> Run(string s)
+    public override void AddTestCases()
+        => Add(it => it.Param("aab").Result2dArray<string>("""[["a","a","b"],["aa","b"]]"""))
+          .Add(it => it.Param("a").Result2dArray<string>("""[["a"]]"""))
+        ;
+    
+    private IList<IList<string>> Solution(string s)
     {
         var result = new List<IList<string>>();
         Find(s, 0, new List<string>(), result);

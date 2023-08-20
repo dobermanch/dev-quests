@@ -4,14 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class MinFlipsMonoIncr : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run("100100111110000010010111011");
-        var d = Run("0000001111100100010010111011");
-        //var d = Run("10011111110010111011");
-    }
+    [Theory]
+    [ClassData(typeof(MinFlipsMonoIncr))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static int Run(string s)
+    public override void AddTestCases()
+        => Add(it => it.Param("00110").Result(1))
+          .Add(it => it.Param("010110").Result(2))
+          .Add(it => it.Param("00011000").Result(2))
+        ;
+
+    private int Solution(string s)
     {
         var flips = 0;
 

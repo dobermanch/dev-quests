@@ -4,14 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class RestoreIpAddresses : ProblemBase
 {
-    public static void Run()
-    {
-        //var d = Run("25525511135");
-        var d = Run("101023");
-        //var d = Run("0000");
-    }
+    [Theory]
+    [ClassData(typeof(RestoreIpAddresses))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static IList<string> Run(string s)
+    public override void AddTestCases()
+        => Add(it => it.Param("25525511135").ResultArray<string>("""["255.255.11.135","255.255.111.35"]"""))
+          .Add(it => it.Param("0000").ResultArray<string>("""["0.0.0.0"]"""))
+          .Add(it => it.Param("101023").ResultArray<string>("""["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]"""))
+        ;
+
+    private IList<string> Solution(string s)
     {
         var result = new List<string>();
         Find(s.AsSpan(), 0, new List<string>(), result);

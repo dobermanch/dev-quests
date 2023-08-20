@@ -4,21 +4,14 @@ namespace LeetCode.Problems;
 
 public sealed class FizzBuzz : ProblemBase
 {
-    //[Theory]
-    //[ClassData(typeof(FizzBuzz))]
-    //public override void Test(object[] data) => base.Test(data);
+    [Theory]
+    [ClassData(typeof(FizzBuzz))]
+    public override void Test(object[] data) => base.Test(data);
 
-    //public override void AddTestCases()
-    //    => Add(it => it.Param(3).ResultArray("""["1","2","Fizz"]"""))
-    //        .Add(it => it.Param(5).ResultArray("""["1","2","Fizz","4","Buzz"]"""))
-    //        .Add(it => it.Param(15).ResultArray("""["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]"""));
-
-    public void Run()
-    {
-        var d = Solution(3); // ["1","2","Fizz"]
-        //var d = Run(5); // ["1","2","Fizz","4","Buzz"]
-        //var d = Run(15); // ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
-    }
+    public override void AddTestCases()
+        => Add(it => it.Param(3).ResultArray<string>("""["1","2","Fizz"]"""))
+          .Add(it => it.Param(5).ResultArray<string>("""["1","2","Fizz","4","Buzz"]"""))
+          .Add(it => it.Param(15).ResultArray<string>("""["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]"""));
 
     private IList<string> Solution(int n)
     {
@@ -40,7 +33,7 @@ public sealed class FizzBuzz : ProblemBase
             else 
             {
                 result.Add(i.ToString());
-            }            
+            }
         }
 
         return result;

@@ -6,12 +6,16 @@ using LeetCode.Models;
 
 public sealed class MiddleNode : ProblemBase
 {
-    public static void Run()
-    {
-        var d = Run(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(2, new ListNode(1)))))));
-    }
+    [Theory]
+    [ClassData(typeof(MiddleNode))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static ListNode Run(ListNode head)
+    public override void AddTestCases()
+        => Add(it => it.ParamListNode("[1,2,3,4,5]").ResultListNode("[3,4,5]"))
+          .Add(it => it.ParamListNode("[1,2,3,4,5,6]").ResultListNode("[4,5,6]"))
+        ;
+
+    private ListNode Solution(ListNode head)
     {
         var list = new List<ListNode>();
         var count = 0;

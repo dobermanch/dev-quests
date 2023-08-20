@@ -4,43 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class MinTime : ProblemBase
 {
-    static (int[][], bool[], int) Case1()
-        => (new int[][]{
-                new []{0,1},
-                new []{0,2},
-                new []{1,4},
-                new []{1,5},
-                new []{2,3},
-                new []{2,6}
-            },
-            new[] { false, false, true, false, true, true, false },
-            7);
+    [Theory]
+    [ClassData(typeof(MinTime))]
+    public override void Test(object[] data) => base.Test(data);
 
-    static (int[][], bool[], int) Case2()
-        => (new int[][]{
-                new []{0,2},
-                new []{0,3},
-                new []{1,2}
-            },
-            new[] { false, true, false, false },
-            4);
+    public override void AddTestCases()
+        => Add(it => it.Param(7).Param2dArray("[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]]").ParamArray<bool>("[false,false,true,false,true,true,false]").Result(8))
+          .Add(it => it.Param(7).Param2dArray("[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]]").ParamArray<bool>("[false,false,true,false,false,true,false]").Result(6))
+          .Add(it => it.Param(7).Param2dArray("[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]]").ParamArray<bool>("[false,false,false,false,false,false,false]").Result(0))
+        ;
 
-    static (int[][], bool[], int) Case3()
-        => (new int[][]{
-                new []{0,1},
-                new []{1,2},
-                new []{0,3}
-            },
-            new[] { true, true, true, true },
-            4);
-
-    public static void Run()
-    {
-        var testData = Case1();
-        Run(testData.Item3, testData.Item1, testData.Item2);
-    }
-
-    static int Run(int n, int[][] edges, IList<bool> hasApple)
+    private int Solution(int n, int[][] edges, IList<bool> hasApple)
     {
         var visitedVertices = new bool[n];
         var route = 0;

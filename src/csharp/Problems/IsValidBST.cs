@@ -4,17 +4,16 @@ namespace LeetCode.Problems;
 
 public sealed class IsValidBST : ProblemBase
 {
-    public static void Run()
-    {
-        //var node = new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)));
-        //var node = new TreeNode(10, new TreeNode(5), new TreeNode(15, new TreeNode(6), new TreeNode(20)));
-        //var node = new TreeNode(3, new TreeNode(1, new TreeNode(0), new TreeNode(2, null, new TreeNode(3))), new TreeNode(5, new TreeNode(4), new TreeNode(6)));
-        var node = new TreeNode(-48, null, new TreeNode(94, new TreeNode(-3, null, new TreeNode(90)), null));
-        //var node = new TreeNode(2, new TreeNode(1), new TreeNode(3));
-        var d = Run(node);
-    }
+    [Theory]
+    [ClassData(typeof(IsValidBST))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static bool Run(TreeNode root)
+    public override void AddTestCases()
+        => Add(it => it.ParamTree("[2,1,3]").Result(true))
+          .Add(it => it.ParamTree("[5,1,4,null,null,3,6]").Result(false))
+        ;
+
+    private bool Solution(TreeNode root)
     {
         var stack = new Stack<(int? left, int? right, TreeNode node)>();
         stack.Push((null, null, root));

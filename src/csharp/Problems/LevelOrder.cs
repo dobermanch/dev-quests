@@ -4,13 +4,17 @@ namespace LeetCode.Problems;
 
 public sealed class LevelOrder : ProblemBase
 {
-    public static void Run()
-    {
-        var node = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
-        var d = Run(node);
-    }
+    [Theory]
+    [ClassData(typeof(LevelOrder))]
+    public override void Test(object[] data) => base.Test(data);
 
-    private static IList<IList<int>> Run(TreeNode root)
+    public override void AddTestCases()
+        => Add(it => it.ParamTree("[3,9,20,null,null,15,7]").Result2dArray("[[3],[9,20],[15,7]]"))
+          .Add(it => it.ParamTree("[1]").Result2dArray("[[1]]"))
+          .Add(it => it.ParamTree("[]").Result2dArray("[]"))
+        ;
+
+    private IList<IList<int>> Solution(TreeNode root)
     {
         if (root == null)
         {

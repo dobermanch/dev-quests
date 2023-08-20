@@ -67,7 +67,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
         //}
     }
 
-    public virtual void AddTestCases() { }
+    public abstract void AddTestCases();
 
     protected TestCaseCollection Add(Action<TestCase> configure) => _testCases.Add(configure);
 
