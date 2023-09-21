@@ -224,6 +224,11 @@ Code: [C#](/src/csharp/Problems/LargestRectangleArea.cs) | [Python](/src/python/
 Tags: Array, Two Pointers, Sorting  
 Code: [C#](/src/csharp/Problems/Merge.cs) | [Go](/src/go/problems/merge_test.go)  
 
+### [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+
+Tags: Array, Backtracking, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/SubsetsWithDup.cs) | [Go](/src/go/problems/subsets_with_dup_test.go) | [Python](/src/python/problems/subsets_with_dup.py)  
+
 ### [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 
 Tags: String, Dynamic Programming  
