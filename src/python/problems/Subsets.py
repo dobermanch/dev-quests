@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/subsets/
 
-from core.ProblemBase import *
+from core.problem_base import *
 
 class Subsets(ProblemBase):
     def Solution(self, nums: list[int]) -> list[list[int]]:

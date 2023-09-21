@@ -23,7 +23,8 @@
                 "golang.go",
                 "ms-python.python",
                 "streetsidesoftware.code-spell-checker",
-                "DavidAnson.vscode-markdownlint"
+                "DavidAnson.vscode-markdownlint",
+                "littlefoxteam.vscode-python-test-adapter"
             ]
         }
     }

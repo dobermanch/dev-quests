@@ -1,7 +1,5 @@
-class Node:
-    def __init__(self, val=None, children=None):
-        self.val = val
-        self.children = children
+
+from models.node import Node
 
 class Preorder:
     def Solution(self, root: 'Node') -> list[int]:
