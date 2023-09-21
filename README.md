@@ -194,6 +194,11 @@ Code: [C#](/src/csharp/Problems/MinWindow.cs) | [Go](/src/go/problems/MinWindow.
 Tags: Backtracking  
 Code: [C#](/src/csharp/Problems/Combine.cs)  
 
+### [78. Subsets](https://leetcode.com/problems/subsets/)
+
+Tags: Array, Backtracking, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/Subsets.cs) | [Go](/src/go/Problems/Subsets.go) | [Python](/src/python/Problems/Subsets.py)  
+
 ### [79. Word Search](https://leetcode.com/problems/word-search/)
 
 Tags: Array, Backtracking, Matrix  
