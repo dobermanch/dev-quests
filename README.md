@@ -29,6 +29,11 @@ Code: [C#](/src/csharp/Problems/FindMedianSortedArrays.cs) | [Python](/src/pytho
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/LongestPalindromeSubstring.cs) | [Python](/src/python/problems/longest_palindrome_substring.py)  
 
+### [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+
+Tags: Math  
+Code: [C#](/src/csharp/Problems/IsPalindromeNumber.cs) | [Go](/src/go/problems/is_palindrome_number_test.go) | [Python](/src/python/problems/is_palindrome_number_test.py)  
+
 ### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 Tags: Array, Two Pointers, Greedy  
