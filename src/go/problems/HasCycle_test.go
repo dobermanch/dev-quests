@@ -7,7 +7,20 @@ import (
 )
 
 func TestHasCycle(t *testing.T) {
-	result := HasCycle([]int{2, 7, 11, 15}, 9)
+	head := ListNode{
+		Val: 3,
+		Next: &ListNode{
+			Val: 2,
+			Next: &ListNode{
+				Val: 0,
+				Next: &ListNode{
+					Val: -4,
+				},
+			},
+		},
+	}
+
+	result := HasCycle(&head)
 	t.Log(result)
 }
 

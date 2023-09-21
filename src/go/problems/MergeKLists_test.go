@@ -9,8 +9,8 @@ import (
 func TestMergeKLists(t *testing.T) {
 	var node1 = ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5}}}}}
 	var node2 = ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5}}}}}
-	
-	result := MergeKLists([]ListNode{node1, node2})
+
+	result := MergeKLists([]*ListNode{&node1, &node2})
 	t.Log(result)
 }
 
@@ -19,17 +19,17 @@ func MergeKLists(lists []*ListNode) *ListNode {
 		return nil
 	}
 
-	return Merge(lists, 0, len(lists) - 1)
+	return merge(lists, 0, len(lists)-1)
 }
 
-func Merge(lists []*ListNode, index1 int, index2 int) *ListNode {
+func merge(lists []*ListNode, index1 int, index2 int) *ListNode {
 	if index1 == index2 {
 		return lists[index1]
 	}
 
 	diff := (index1 + index2) / 2
-	list1 := Merge(lists, index1, diff)
-	list2 := Merge(lists, diff + 1, index2)
+	list1 := merge(lists, index1, diff)
+	list2 := merge(lists, diff+1, index2)
 
 	result := new(ListNode)
 	current := result

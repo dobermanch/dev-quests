@@ -5,7 +5,7 @@ package problems
 import "testing"
 
 func TestSubsets(t *testing.T) {
-	result := Subsets([]int{1, 2, 3, 4})
+	result := Subsets([]int{1, 2, 3})
 	t.Log(result)
 }
 

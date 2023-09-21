@@ -7,9 +7,9 @@ import (
 )
 
 func TestMaxPathSum(t *testing.T) {
-	var node = TreeNode{Val: 1, Left: &TreeNode{Val: 2}, Right: &ListNode{Val: 3}}
+	var node = TreeNode{Val: 1, Left: &TreeNode{Val: 2}, Right: &TreeNode{Val: 3}}
 	
-	result := MaxPathSum(node)
+	result := MaxPathSum(&node)
 	t.Log(result)
 }
 
@@ -30,16 +30,16 @@ func Dfs(node *TreeNode) int {
 	left := Dfs(node.Left)
 	right := Dfs(node.Right)
 
-	nodeMax := max(node.Val + left, node.Val + right)
-	nodeMax = max(nodeMax, node.Val)
+	nodeMax := max2(node.Val + left, node.Val + right)
+	nodeMax = max2(nodeMax, node.Val)
 
-	result = max(result, nodeMax)
-	result = max(result, left + right + node.Val)
+	result = max2(result, nodeMax)
+	result = max2(result, left + right + node.Val)
 
 	return nodeMax
 }
 
-func max(left int, right int) int {
+func max2(left int, right int) int {
 	if left > right {
 		return left
 	}

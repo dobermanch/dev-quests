@@ -11,8 +11,8 @@ func TestFirstMissingPositive(t *testing.T) {
 	t.Log(result)
 }
 
-func FirstMissingPositive(nums []int) []int {
-	length := len(nums)
+func FirstMissingPositive(nums []int) int {
+    length := len(nums)
 
 	for i := 0; i < length; i++ {
 		for nums[i] > 0 && nums[i] <= length && nums[i] != nums[nums[i] - 1] {
@@ -22,8 +22,8 @@ func FirstMissingPositive(nums []int) []int {
 		}
 	}
 
-	for i,v := range nums {
-		if v != i + 1 {
+	for i := 0; i < length; i++ {
+		if nums[i] != i + 1 {
 			return i + 1
 		}
 	}

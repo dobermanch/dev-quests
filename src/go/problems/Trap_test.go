@@ -35,3 +35,12 @@ func Trap(height []int) int {
 
 	return trap
 }
+
+func max(left int, right int) int {
+	if left > right {
+		return left
+	}
+
+	return right
+}
+

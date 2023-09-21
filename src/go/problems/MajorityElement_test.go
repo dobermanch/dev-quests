@@ -11,11 +11,11 @@ func TestMajorityElement(t *testing.T) {
 	t.Log(result)
 }
 
-func MajorityElement(numbers []int, target int) []int {
+func MajorityElement(nums []int) int {
 	result := 0
 	count := 0
 
-	for _,num := range nums {
+	for _, num := range nums {
 		if count == 0 {
 			result = num
 		}
