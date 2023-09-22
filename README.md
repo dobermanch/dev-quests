@@ -146,6 +146,11 @@ Code: [C#](/src/csharp/Problems/RotateImage.cs) | [Python](/src/python/problems/
 Tags: Array, Hash Table, String, Sorting  
 Code: [C#](/src/csharp/Problems/GroupAnagrams.cs) | [Go](/src/go/problems/group_anagrams_test.go)  
 
+### [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+
+Tags: Math, Recursion  
+Code: [C#](/src/csharp/Problems/MyPow.cs) | [Go](/src/go/problems/my_pow_test.go) | [Python](/src/python/problems/my_pow_test.py)  
+
 ### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
 Tags: Array, Divide and Conquer, Dynamic Programming  

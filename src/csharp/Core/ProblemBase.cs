@@ -63,7 +63,14 @@ public abstract class ProblemBase : IEnumerable<object[]>
         //}
         //else
         //{
-        Assert.Equal(data[1], result);
+        if (data[1] is double && result is double)
+        {
+            Assert.True(Math.Abs((double)data[1] - (double)result) < 0.0000001);
+        }
+        else 
+        {
+            Assert.Equal(data[1], result);
+        }
         //}
     }
 
