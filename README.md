@@ -2,6 +2,8 @@
 
 My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 
+[![example workflow](https://github.com/dobermanch/leetcode/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/dobermanch/leetcode/actions/workflows/dotnet-desktop.yml)
+
 ## Problems
 
 ### [1. Two Sum](https://leetcode.com/problems/two-sum/)
