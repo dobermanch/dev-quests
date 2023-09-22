@@ -1,8 +1,9 @@
 #https://leetcode.com/problems/palindrome-number
 
 from core.problem_base import *
+import unittest
 
-class IsPalindromeNumber(ProblemBase):
+class IsPalindromeNumber(unittest.TestCase):
     def Solution(self, x: int) -> bool:
         if x < 0:
             return False

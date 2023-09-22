@@ -13,7 +13,7 @@ public sealed class IsPalindromeNumber : ProblemBase
           .Add(it => it.Param(-121).Result(false))
           .Add(it => it.Param(10).Result(false));
 
-    private bool Solution(int x)
+    private bool Solution1(int x)
     {
         if (x < 0)
         {
@@ -31,7 +31,7 @@ public sealed class IsPalindromeNumber : ProblemBase
         return original == reversed;
     }
 
-    private bool Solution(int x)
+    private bool Solution2(int x)
     {
         if (x < 0)
         {
