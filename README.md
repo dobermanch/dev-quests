@@ -31,6 +31,11 @@ Code: [C#](/src/csharp/Problems/FindMedianSortedArrays.cs) | [Python](/src/pytho
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/LongestPalindromeSubstring.cs) | [Python](/src/python/problems/longest_palindrome_substring_test.py)  
 
+### [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
+
+Tags: Math  
+Code: [C#](/src/csharp/Problems/Reverse.cs) | [Go](/src/go/problems/reverse_test.go) | [Python](/src/python/problems/reverse_test.py)  
+
 ### [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 Tags: Math  
