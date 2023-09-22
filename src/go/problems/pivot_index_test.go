@@ -1,14 +1,26 @@
-//https://leetcode.com/problems/find-pivot-index/
+// https://leetcode.com/problems/find-pivot-index/
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type PivotIndex struct{}
 
 func TestPivotIndex(t *testing.T) {
-	result := PivotIndex([]int{1, 7, 3, 6, 5, 6})
-	t.Log(result)
+	gen := core.TestSuite[PivotIndex]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{1, 7, 3, 6, 5, 6}).Result(3)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{1, 2, 3}).Result(-1)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{2, 1, -1}).Result(0)
+	}).Run(t)
 }
 
-func PivotIndex(nums []int) int {
+func (PivotIndex) Solution(nums []int) int {
 	var leftSum int
 	var rightSum int
 	var index int

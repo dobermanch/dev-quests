@@ -2,14 +2,24 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type MaxProfit struct{}
 
 func TestMaxProfit(t *testing.T) {
-	result := MaxProfit([]int{7, 1, 5, 3, 6, 4})
-	t.Log(result)
+	gen := core.TestSuite[MaxProfit]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{7, 1, 5, 3, 6, 4}).Result(5)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{7, 6, 4, 3, 1}).Result(0)
+	}).Run(t)
 }
 
-func MaxProfit(prices []int) int {
+func (MaxProfit) Solution(prices []int) int {
 	buyDay := 0
 	profit := 0
 

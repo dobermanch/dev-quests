@@ -4,14 +4,24 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type TwoSum2 struct{}
+
 func TestTwoSum2(t *testing.T) {
-	result := TwoSum2([]int{2, 7, 11, 15}, 9)
-	t.Log(result)
+	gen := core.TestSuite[TwoSum2]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{2, 7, 11, 15}).Param(9).Result([]int{1, 2})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{2, 3, 4}).Param(6).Result([]int{1, 3})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{-1, 0}).Param(-1).Result([]int{1, 2})
+	}).Run(t)
 }
 
-func TwoSum2(numbers []int, target int) []int {
+func (TwoSum2) Solution(numbers []int, target int) []int {
 	start := 0
 	end := len(numbers) - 1
 

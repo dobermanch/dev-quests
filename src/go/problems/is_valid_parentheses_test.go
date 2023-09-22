@@ -3,14 +3,24 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type IsValidParentheses struct{}
+
 func TestIsValidParentheses(t *testing.T) {
-	result := IsValidParentheses("()")
-	t.Log(result)
+	gen := core.TestSuite[IsValidParentheses]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("()").Result(true)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("()[]{}").Result(true)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("(]").Result(false)
+	}).Run(t)
 }
 
-func IsValidParentheses(s string) bool {
+func (IsValidParentheses) Solution(s string) bool {
 	stack := []rune{}
 
 	for _, s := range s {

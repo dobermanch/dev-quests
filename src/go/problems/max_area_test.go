@@ -4,14 +4,22 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type MaxArea struct{}
+
 func TestMaxArea(t *testing.T) {
-	result := MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7})
-	t.Log(result)
+	gen := core.TestSuite[MaxArea]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}).Result(49)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{1, 1}).Result(1)
+	}).Run(t)
 }
 
-func MaxArea(height []int) int {
+func (MaxArea) Solution(height []int) int {
 	max := 0
 	left := 0
 	right := len(height) - 1

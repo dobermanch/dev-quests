@@ -2,14 +2,24 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type Subsets struct{}
 
 func TestSubsets(t *testing.T) {
-	result := Subsets([]int{1, 2, 3})
-	t.Log(result)
+	gen := core.TestSuite[Subsets]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{1,2,3}).Result([][]int{{},{1},{2},{1,2},{3},{1,3},{2,3},{1,2,3}})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{0}).Result([][]int{{},{0}})
+	}).Run(t)
 }
 
-func Subsets(nums []int) [][]int {
+func (Subsets) Solution(nums []int) [][]int {
 	result := [][]int{}
 
 	search(nums, 0, []int{}, &result)

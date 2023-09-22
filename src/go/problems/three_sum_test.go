@@ -5,14 +5,24 @@ package problems
 import (
 	"sort"
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type ThreeSum struct{}
+
 func TestThreeSum(t *testing.T) {
-	result := ThreeSum([]int{-1, 0, 1, 2, -1, -4})
-	t.Log(result)
+	gen := core.TestSuite[ThreeSum]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{1,0,1,2,-1,-4}).Result([][]int{{-1,-1,2},{-1,0,1}})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{0,1,1}).Result([][]int{})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{0,0,0}).Result([][]int{{0,0,0}})
+	}).Run(t)
 }
 
-func ThreeSum(nums []int) [][]int {
+func (ThreeSum) Solution(nums []int) [][]int {
 	sort.Ints(nums)
 
 	result := [][]int{}

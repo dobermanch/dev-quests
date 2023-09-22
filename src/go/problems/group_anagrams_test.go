@@ -2,14 +2,26 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type GroupAnagrams struct{}
 
 func TestGroupAnagrams(t *testing.T) {
-	result := GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"})
-	t.Log(result)
+	gen := core.TestSuite[GroupAnagrams]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]string{"eat", "tea", "tan", "ate", "nat", "bat"}).Result([][]string{{"bat"}, {"nat", "tan"}, {"ate", "eat", "tea"}})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]string{""}).Result([][]string{{""}})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]string{"a"}).Result([][]string{{"a"}})
+	}).Run(t)
 }
 
-func GroupAnagrams(strs []string) [][]string {
+func (GroupAnagrams) Solution(strs []string) [][]string {
 	set := make(map[string][]string)
 
 	for _, str := range strs {
@@ -29,4 +41,3 @@ func GroupAnagrams(strs []string) [][]string {
 
 	return result
 }
-

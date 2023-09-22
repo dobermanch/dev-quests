@@ -1,14 +1,24 @@
 // https://leetcode.com/problems/valid-anagram/
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type IsAnagram struct{}
 
 func TestIsAnagram(t *testing.T) {
-	result := IsAnagram("anagram", "nagaram")
-	t.Log(result)
+	gen := core.TestSuite[IsAnagram]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("anagram").Param("nagaram").Result(true)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("rat").Param("car").Result(false)
+	}).Run(t)
 }
 
-func IsAnagram(s string, t string) bool {
+func (IsAnagram) Solution(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}

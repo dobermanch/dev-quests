@@ -4,14 +4,22 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type MajorityElement struct{}
+
 func TestMajorityElement(t *testing.T) {
-	result := MajorityElement([]int{2, 2, 11, 2})
-	t.Log(result)
+	gen := core.TestSuite[MajorityElement]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{3, 2, 3}).Result(3)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{2, 2, 1, 1, 1, 2, 2}).Result(2)
+	}).Run(t)
 }
 
-func MajorityElement(nums []int) int {
+func (MajorityElement) Solution(nums []int) int {
 	result := 0
 	count := 0
 

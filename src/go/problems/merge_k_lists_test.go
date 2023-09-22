@@ -15,7 +15,7 @@ func TestMergeKLists(t *testing.T) {
 }
 
 func MergeKLists(lists []*ListNode) *ListNode {
-	if lists == nil || len(lists) == 0 {
+	if len(lists) == 0 {
 		return nil
 	}
 

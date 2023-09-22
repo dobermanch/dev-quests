@@ -1,14 +1,25 @@
-//https://leetcode.com/problems/is-subsequence/
+// https://leetcode.com/problems/is-subsequence/
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type IsSubsequence struct{}
 
 func TestIsSubsequence(t *testing.T) {
-	result := IsSubsequence("abc", "ahbgdc")
-	t.Log(result)
+	gen := core.TestSuite[IsSubsequence]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("abc").Param("ahbgdc").Result(true)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("axc").Param("ahbgdc").Result(false)
+	}).Run(t)
 }
 
-func IsSubsequence(s string, t string) bool {
+
+func (IsSubsequence)Solution(s string, t string) bool {
 	if len(s) == 0 {
 		return true
 	}

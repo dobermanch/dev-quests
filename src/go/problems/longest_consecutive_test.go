@@ -2,14 +2,24 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type LongestConsecutive struct{}
 
 func TestLongestConsecutive(t *testing.T) {
-	result := LongestConsecutive([]int{100, 4, 200, 1, 3, 2})
-	t.Log(result)
+	gen := core.TestSuite[LongestConsecutive]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{100, 4, 200, 1, 3, 2}).Result(4)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}).Result(9)
+	}).Run(t)
 }
 
-func LongestConsecutive(nums []int) int {
+func (LongestConsecutive) Solution(nums []int) int {
 	set := map[int]struct{}{}
 	max := 0
 

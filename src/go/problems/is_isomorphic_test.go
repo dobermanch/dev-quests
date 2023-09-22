@@ -2,14 +2,26 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type IsIsomorphic struct{}
 
 func TestIsIsomorphic(t *testing.T) {
-	result := IsIsomorphic("egg", "bar")
-	t.Log(result)
+	gen := core.TestSuite[IsIsomorphic]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("egg").Param("add").Result(true)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("foo").Param("bar").Result(false)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("paper").Param("title").Result(true)
+	}).Run(t)
 }
 
-func IsIsomorphic(s string, t string) bool {
+func (IsIsomorphic) Solution(s string, t string) bool {
 	var set1 = [127]byte{}
 	var set2 = [127]byte{}
 

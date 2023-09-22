@@ -1,14 +1,24 @@
 // https://leetcode.com/problems/top-k-frequent-elements/
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type TopKFrequentElement struct{}
 
 func TestTopKFrequentElement(t *testing.T) {
-	result := TopKFrequentElement([]int{1}, 1)
-	t.Log(result)
+	gen := core.TestSuite[TopKFrequentElement]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{1,1,1,2,2,3}).Param(2).Result([]int{1,2})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{1}).Param(1).Result([]int{1})
+	}).Run(t)
 }
 
-func TopKFrequentElement(nums []int, k int) []int {
+func (TopKFrequentElement)Solution(nums []int, k int) []int {
 	set := make(map[int]int)
 	for _, v := range nums {
 		set[v]++

@@ -1,14 +1,26 @@
 // https://leetcode.com/problems/maximum-subarray/
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type MaxSubArray struct{}
 
 func TestMaxSubArray(t *testing.T) {
-	result := MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})
-	t.Log(result)
+	gen := core.TestSuite[MaxSubArray]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}).Result(6)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{1}).Result(1)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{5, 4, -1, 7, 8}).Result(23)
+	}).Run(t)
 }
 
-func MaxSubArray(nums []int) int {
+func (MaxSubArray) Solution(nums []int) int {
 	sum := nums[0]
 	max := nums[0]
 

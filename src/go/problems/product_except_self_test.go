@@ -1,14 +1,24 @@
 // https://leetcode.com/problems/product-of-array-except-self
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type ProductExceptSelf struct{}
 
 func TestProductExceptSelf(t *testing.T) {
-	result := ProductExceptSelf([]int{1, 2, 3, 4})
-	t.Log(result)
+	gen := core.TestSuite[ProductExceptSelf]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{1, 2, 3, 4}).Result([]int{24, 12, 8, 6})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{-1, 1, 0, -3, 3}).Result([]int{0, 0, 9, 0, 0})
+	}).Run(t)
 }
 
-func ProductExceptSelf(nums []int) []int {
+func (ProductExceptSelf) Solution(nums []int) []int {
 	length := len(nums)
 	result := make([]int, length)
 	result[0] = 1

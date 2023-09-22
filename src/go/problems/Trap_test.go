@@ -4,14 +4,22 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type Trap struct{}
+
 func TestTrap(t *testing.T) {
-	result := Trap([]int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1})
-	t.Log(result)
+	gen := core.TestSuite[Trap]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{0,1,0,2,1,0,1,3,2,1,2,1}).Result(6)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{4,2,0,3,2,5}).Result(9)
+	}).Run(t)
 }
 
-func Trap(height []int) int {
+func (Trap) Solution(height []int) int {
 	left := 0
 	right := len(height) - 1
 	maxL, maxR := 0, 0

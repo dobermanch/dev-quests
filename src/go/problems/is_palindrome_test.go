@@ -5,14 +5,24 @@ package problems
 import (
 	"testing"
 	"unicode"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type IsPalindrome struct{}
+
 func TestIsPalindrome(t *testing.T) {
-	result := IsPalindrome("A man, a plan, a canal: Panama")
-	t.Log(result)
+	gen := core.TestSuite[IsPalindrome]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("A man, a plan, a canal: Panama").Result(true)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("race a car").Result(false)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param(" ").Result(true)
+	}).Run(t)
 }
 
-func IsPalindrome(s string) bool {
+func (IsPalindrome) Solution(s string) bool {
 	left := 0
 	right := len(s) - 1
 

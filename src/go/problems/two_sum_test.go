@@ -1,14 +1,26 @@
 // https://leetcode.com/problems/two-sum/
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type TwoSum struct{}
 
 func TestTwoSum(t *testing.T) {
-    result := TwoSum([]int{2,7,11,15}, 9)
-    t.Log(result)
+	gen := core.TestSuite[TwoSum]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{2,7,11,15}).Param(9).Result([]int{0, 1})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{3,2,4}).Param(6).Result([]int{1, 2})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{3,3}).Param(6).Result([]int{0, 1})
+	}).Run(t)
 }
 
-func TwoSum(nums []int, target int) []int {
+func (TwoSum) Solution(nums []int, target int) []int {
     set := make(map[int]int, len(nums))
 
     for i, n := range nums {

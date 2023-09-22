@@ -4,14 +4,24 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type LengthOfLongestSubstring struct{}
+
 func TestLengthOfLongestSubstring(t *testing.T) {
-	result := LengthOfLongestSubstring("abcabcbb")
-	t.Log(result)
+	gen := core.TestSuite[LengthOfLongestSubstring]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("abcabcbb").Result(3)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("bbbbb").Result(1)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("pwwkew").Result(3)
+	}).Run(t)
 }
 
-func LengthOfLongestSubstring(s string) int {
+func (LengthOfLongestSubstring) Solution(s string) int {
 	set := map[byte]struct{}{}
 
 	res := 0

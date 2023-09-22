@@ -4,15 +4,24 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
+type MinWindow struct{}
+
 func TestMinWindow(t *testing.T) {
-	//result := MinWindow("aa", "aa")
-	result := MinWindow("ADOBECODEBANC", "ABC")
-	t.Log(result)
+	gen := core.TestSuite[MinWindow]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("ADOBECODEBANC").Param("ABC").Result("BANC")
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("a").Param("a").Result("a")
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("a").Param("aa").Result("")
+	}).Run(t)
 }
 
-func MinWindow(s string, t string) string {
+func (MinWindow)Solution(s string, t string) string {
 	sLength := len(s)
 	tLength := len(t)
 	set := make(map[byte][]int)

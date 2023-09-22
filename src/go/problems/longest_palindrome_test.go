@@ -2,14 +2,24 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type LongestPalindrome struct{}
 
 func TestLongestPalindrome(t *testing.T) {
-	result := LongestPalindrome("abccccdd")
-	t.Log(result)
+	gen := core.TestSuite[LongestPalindrome]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param("abccccdd").Result(7)
+	}).Add(func(tc *core.TestCase) {
+		tc.Param("a").Result(1)
+	}).Run(t)
 }
 
-func LongestPalindrome(s string) int {
+func (LongestPalindrome) Solution(s string) int {
 	set := [58]int{}
 
 	for _, ch := range s {

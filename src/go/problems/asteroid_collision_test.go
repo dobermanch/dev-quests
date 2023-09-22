@@ -2,14 +2,26 @@
 
 package problems
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/dobermanch/leetcode/core"
+)
+
+type AsteroidCollision struct{}
 
 func TestAsteroidCollision(t *testing.T) {
-	result := AsteroidCollision([]int{-2, 1, 1, -1})
-	t.Log(result)
+	gen := core.TestSuite[AsteroidCollision]{}
+	gen.Add(func(tc *core.TestCase) {
+		tc.Param([]int{5, 10, -5}).Result([]int{5, 10})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{8, -8}).Result([]int{})
+	}).Add(func(tc *core.TestCase) {
+		tc.Param([]int{10, 2, -5}).Result([]int{10})
+	}).Run(t)
 }
 
-func AsteroidCollision(asteroids []int) []int {
+func (AsteroidCollision) Solution(asteroids []int) []int {
 	stack := make([]int, 0, len(asteroids))
 	for _, asteroid := range asteroids {
 		add := true
