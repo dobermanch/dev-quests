@@ -1081,6 +1081,11 @@ Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/running_s
 Tags: Graph  
 Code: [C#](/src/csharp/Problems/FindSmallestSetOfVertices.cs) | [Python](/src/python/problems/find_smallest_set_of_vertices_test.py)  
 
+### [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
+
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
 Tags: Array, Matrix  
