@@ -1056,6 +1056,11 @@ Code: [SQL](/src/sql/problems/ArticleViewsI.sql)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/MinRemoveToMakeValid.cs)  
 
+### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/StudentsAndExaminations.sql)  
+
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 Tags: String, Stack  
