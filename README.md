@@ -1021,6 +1021,11 @@ Code: [C#](/src/csharp/Problems/FindJudge.cs)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)  
 
+### [1068. Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ProductSalesAnalysisI.sql)  
+
 ### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 Tags: String, Dynamic Programming  
