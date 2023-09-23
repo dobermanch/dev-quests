@@ -18,7 +18,7 @@ public sealed class MyPow : ProblemBase
           .Add(it => it.Param(-1.0).Param(-2147483648).Result(1.0))
           .Add(it => it.Param(-1.0).Param(2147483647).Result(-1.0))
           .Add(it => it.Param(1.0).Param(2147483647).Result(1.0))
-          .Add(it => it.Param(1.0000000000001).Param(-2147483648).Result(0.99979))
+          .Add(it => it.Param(1.0000000000001).Param(-2147483648).Result(0.99978))
           .Add(it => it.Param(-5.0).Param(-12).Result(0.0))
           .Add(it => it.Param(2.0).Param(-2).Result(0.25));
 

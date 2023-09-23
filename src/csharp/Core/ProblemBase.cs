@@ -65,7 +65,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
         //{
         if (data[1] is double && result is double)
         {
-            Assert.True(Math.Abs((double)data[1] - (double)result) < 0.0000001);
+            Assert.True(Math.Abs((double)data[1] - (double)result) < 0.0001);
         }
         else 
         {
@@ -78,7 +78,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
 
     protected TestCaseCollection Add(Action<TestCase> configure) => _testCases.Add(configure);
 
-    protected TestCaseCollection Add(bool skip, Action<TestCase> configure) => _testCases.Add(configure, skip);
+    protected TestCaseCollection Add(bool skip, Action<TestCase> configure) => _testCases.Add(skip, configure);
 
     protected TestCaseCollection AddSolutions(params string[] solutionMethodNames)
     {

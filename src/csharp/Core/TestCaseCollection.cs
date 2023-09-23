@@ -12,14 +12,16 @@ public class TestCaseCollection : IEnumerable<TestCase>
         return this;
     }
 
-    public TestCaseCollection Add(Action<TestCase> configure, bool skip = false)
+    public TestCaseCollection Add(bool skip, Action<TestCase> configure)
     {
-        if (!skip)
-        {
-            var testCase = TestCase.Create("<Default>");
-            configure(testCase);
-            _data.Add(testCase);
-        }
+        return skip ? this : Add(configure);     
+    }
+
+    public TestCaseCollection Add(Action<TestCase> configure)
+    {
+        var testCase = TestCase.Create("<Default>");
+        configure(testCase);
+        _data.Add(testCase);
 
         return this;
     }
