@@ -1066,6 +1066,11 @@ Code: [C#](/src/csharp/Problems/FindSmallestSetOfVertices.cs) | [Python](/src/py
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/MaximumWealth.cs)  
 
+### [1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/InvalidTweets.cs)  
+
 ### [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)
 
 Tags: Array, Matrix  
