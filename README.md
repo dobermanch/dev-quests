@@ -821,10 +821,15 @@ Code: [C#](/src/csharp/Problems/SubarraySum.cs) | [Python](/src/python/problems/
 Tags: Array, Matrix, Simulation  
 Code: [C#](/src/csharp/Problems/MatrixReshape.cs)  
 
-### [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
+### [567. Permutation in String](https://leetcode.com/problems/permutation-in-string)
 
 Tags: Hash Table, Two Pointers, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/CheckInclusion.cs)  
+
+### [570. Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ManagersWithAtLeast5DirectReports.sql)  
 
 ### [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
