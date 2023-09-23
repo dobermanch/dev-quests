@@ -1021,6 +1021,11 @@ Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/LongestCommonSubsequence.cs) | [Python](/src/python/problems/longest_common_subsequence_test.py)  
 
+### [1148. Article Views I](https://leetcode.com/problems/article-views-i/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ArticleViewsI.sql)  
+
 ### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 Tags: Array, Heap (Priority Queue)  
