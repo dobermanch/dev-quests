@@ -214,7 +214,7 @@ Code: [C#](/src/csharp/Problems/Combine.cs)
 ### [78. Subsets](https://leetcode.com/problems/subsets/)
 
 Tags: Array, Backtracking, Bit Manipulation  
-Code: [C#](/src/csharp/Problems/Subsets.cs) | [Go](/src/go/Problems/subsets_test.go) | [Python](/src/python/Problems/subsets_test.py)  
+Code: [C#](/src/csharp/Problems/Subsets.cs) | [Go](/src/go/problems/subsets_test.go) | [Python](/src/python/problems/subsets_test.py)  
 
 ### [79. Word Search](https://leetcode.com/problems/word-search/)
 
@@ -834,17 +834,17 @@ Code: [C#](/src/csharp/Problems/IsSubtree.cs) | [Go](/src/go/problems/is_subtree
 ### [584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee)
 
 Tags: Database  
-Code: [SQL](/src/sql/Problems/FindCustomerReferee.sql)  
+Code: [SQL](/src/sql/problems/FindCustomerReferee.sql)  
 
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
-Code: [C#](/src/csharp/Problems/Preorder.cs) | [Python](/src/python/Problems/preorder_test.py)  
+Code: [C#](/src/csharp/Problems/Preorder.cs) | [Python](/src/python/problems/preorder_test.py)  
 
 ### [595. Big Countries](https://leetcode.com/problems/big-countries/)
 
 Tags: Database  
-Code: [SQL](/src/sql/Problems/BigCountries.sql)  
+Code: [SQL](/src/sql/problems/BigCountries.sql)  
 
 ### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 
@@ -1069,12 +1069,12 @@ Code: [C#](/src/csharp/Problems/FindBall.cs)
 ### [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products)
 
 Tags: Database  
-Code: [SQL](/src/sql/Problems/RecyclableAndLowFatProducts.sql)  
+Code: [SQL](/src/sql/problems/RecyclableAndLowFatProducts.sql)  
 
 ### [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
 Tags: Two Pointers, String  
-Code: [C#](/src/csharp/Problems/MergeAlternately.cs) | [Go](/src/go/Problems/merge_alternately_test.go) | [Python](/src/python/Problems/merge_alternately_test.py)  
+Code: [C#](/src/csharp/Problems/MergeAlternately.cs) | [Go](/src/go/problems/merge_alternately_test.go) | [Python](/src/python/problems/merge_alternately_test.py)  
 
 ### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
@@ -1084,7 +1084,7 @@ Code: [C#](/src/csharp/Problems/FindTheWinner.cs) | [Python](/src/python/problem
 ### [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
 
 Tags: Database  
-Code: [SQL](/src/sql/Problems/ConfirmationRate.sql)  
+Code: [SQL](/src/sql/problems/ConfirmationRate.sql)  
 
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
