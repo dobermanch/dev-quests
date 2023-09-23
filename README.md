@@ -486,6 +486,11 @@ Code: [C#](/src/csharp/Problems/ReverseBits.cs)
 Tags: Divide and Conquer, Bit Manipulation  
 Code: [C#](/src/csharp/Problems/HammingWeight.cs)  
 
+### [197. Rising Temperature](https://leetcode.com/problems/rising-temperature)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/RisingTemperature.sql)  
+
 ### [198. House Robber](https://leetcode.com/problems/house-robber/)
 
 Tags: Array, Dynamic Programming  
