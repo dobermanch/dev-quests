@@ -1041,6 +1041,11 @@ Code: [C#](/src/csharp/Problems/MinRemoveToMakeValid.cs)
 Tags: String, Stack  
 Code: [C#](/src/csharp/Problems/NumberOfSteps.cs) | [Python](/src/python/problems/number_of_steps_test.py)  
 
+### [1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)  
+
 ### [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
 Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search  
