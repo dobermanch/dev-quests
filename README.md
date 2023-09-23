@@ -461,6 +461,11 @@ Code: [C#](/src/csharp/Problems/MajorityElement.cs) | [Go](/src/go/problems/majo
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
 
+### [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/DepartmentTopThreeSalaries.sql)  
+
 ### [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 
 Tags: Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function  
