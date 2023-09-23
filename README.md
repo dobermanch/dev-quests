@@ -1041,6 +1041,11 @@ Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)
 Tags: Database  
 Code: [SQL](/src/sql/problems/ProductSalesAnalysisI.sql)  
 
+### [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)
+
+Tags: Math, String  
+Code: [C#](/src/csharp/Problems/GcdOfStrings.cs) | [Go](/src/go/problems/gcd_of_strings_test.go) | [Python](/src/python/problems/gcd_of_strings_test.py)  
+
 ### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 Tags: String, Dynamic Programming  
