@@ -1091,6 +1091,11 @@ Code: [C#](/src/csharp/Problems/FindSmallestSetOfVertices.cs) | [Python](/src/py
 Tags: Database  
 Code: [SQL](/src/sql/problems/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
 
+### [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/AverageTimeOfProcessPerMachine.sql)  
+
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
 Tags: Array, Matrix  
