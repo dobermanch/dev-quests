@@ -1081,6 +1081,11 @@ Code: [C#](/src/csharp/Problems/MergeAlternately.cs) | [Go](/src/go/Problems/mer
 Tags: Array, Math, Recursion, Queue, Simulation  
 Code: [C#](/src/csharp/Problems/FindTheWinner.cs) | [Python](/src/python/problems/find_the_winner_test.py)  
 
+### [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
+
+Tags: Database  
+Code: [SQL](/src/sql/Problems/ConfirmationRate.sql)  
+
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
 Tags: Array, Prefix Sum  
