@@ -841,6 +841,11 @@ Code: [SQL](/src/sql/Problems/FindCustomerReferee.sql)
 Tags: Stack, Tree, Depth-First Search  
 Code: [C#](/src/csharp/Problems/Preorder.cs) | [Python](/src/python/Problems/preorder_test.py)  
 
+### [595. Big Countries](https://leetcode.com/problems/big-countries/)
+
+Tags: Database  
+Code: [SQL](/src/sql/Problems/BigCountries.sql)  
+
 ### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
