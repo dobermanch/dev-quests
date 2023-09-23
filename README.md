@@ -831,6 +831,11 @@ Code: [C#](/src/csharp/Problems/CheckInclusion.cs)
 Tags: Tree, Depth-First Search, String Matching, Binary Tree, Hash Function  
 Code: [C#](/src/csharp/Problems/IsSubtree.cs) | [Go](/src/go/problems/is_subtree_test.go) | [Python](/src/python/problems/is_subtree_test.py)  
 
+### [584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee)
+
+Tags: Database  
+Code: [SQL](/src/sql/Problems/FindCustomerReferee.sql)  
+
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
