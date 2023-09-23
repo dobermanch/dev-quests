@@ -1056,6 +1056,11 @@ Code: [C#](/src/csharp/Problems/MaximumWealth.cs)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
 
+### [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products)
+
+Tags: Database  
+Code: [SQL](/src/sql/Problems/RecyclableAndLowFatProducts.sql)  
+
 ### [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
 Tags: Two Pointers, String  
