@@ -9,8 +9,8 @@ public sealed class GcdOfStrings : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(true, it => it.Param("ABCABC").Param("ABC").Result("ABC"))
-          .Add(true, it => it.Param("ABABAB").Param("ABAB").Result("AB"))
+        => Add(it => it.Param("ABCABC").Param("ABC").Result("ABC"))
+          .Add(it => it.Param("ABABAB").Param("ABAB").Result("AB"))
           .Add(it => it.Param("TAUXXTAUXXTAUXXTAUXXTAUXX").Param("TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX").Result("TAUXX"))
           .Add(it => it.Param("ABCABD").Param("ABC").Result(""))
           .Add(it => it.Param("LEET").Param("CODE").Result(""));
