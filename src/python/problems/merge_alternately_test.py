@@ -1,0 +1,27 @@
+#https://leetcode.com/problems/merge-strings-alternately/
+
+from core.problem_base import *
+
+class MergeAlternately(ProblemBase):
+    def Solution(self, word1: str, word2: str) -> str:
+        result = ""
+
+        word1Length = len(word1)
+        word2Length = len(word2)
+        length = word1Length if word1Length > word2Length else word2Length
+
+        for i in range(length):
+            if i < word1Length:
+                result += word1[i]
+            
+            if i < word2Length:
+                result += word2[i]
+
+        return result
+
+if __name__ == '__main__':
+    TestGen(MergeAlternately) \
+        .Add(lambda tc: tc.Param("word1", "abc").Param("word2", "prq").Result("apbqcr")) \
+        .Add(lambda tc: tc.Param("word1", "ab").Param("word2", "pqrs").Result("apbqrs")) \
+        .Add(lambda tc: tc.Param("word1", "abcd").Param("word2", "pq").Result("apbqcd")) \
+        .Run()

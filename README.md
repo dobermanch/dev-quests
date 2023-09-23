@@ -1056,6 +1056,11 @@ Code: [C#](/src/csharp/Problems/MaximumWealth.cs)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
 
+### [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/MergeAlternately.cs) | [Go](/src/go/Problems/merge_alternately_test.go) | [Python](/src/python/Problems/merge_alternately_test.py)  
+
 ### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
 Tags: Array, Math, Recursion, Queue, Simulation  
