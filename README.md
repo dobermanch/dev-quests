@@ -1086,6 +1086,11 @@ Code: [C#](/src/csharp/Problems/NumberOfSteps.cs) | [Python](/src/python/problem
 Tags: Database  
 Code: [SQL](/src/sql/problems/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)  
 
+### [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)
+
+Tags: Array  
+Code: [C#](/src/csharp/Problems/KidsWithCandies.cs) | [Go](/src/go/problems/kids_with_candies_test.go) | [Python](/src/python/problems/kids_with_candies_test.py)  
+
 ### [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
 Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search  
