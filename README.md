@@ -1051,6 +1051,11 @@ Code: [SQL](/src/sql/problems/ProductSalesAnalysisI.sql)
 Tags: Math, String  
 Code: [C#](/src/csharp/Problems/GcdOfStrings.cs) | [Go](/src/go/problems/gcd_of_strings_test.go) | [Python](/src/python/problems/gcd_of_strings_test.py)  
 
+### [1075. Project Employees I](https://leetcode.com/problems/project-employees-i/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ProjectEmployeesI.sql)  
+
 ### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 Tags: String, Dynamic Programming  
