@@ -876,6 +876,11 @@ Code: [C#](/src/csharp/Problems/MergeTrees.cs)
 Tags: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/FindTarget.cs)  
 
+### [620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/NotBoringMovies.sql)  
+
 ### [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
 Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting  
