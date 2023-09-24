@@ -1,4 +1,4 @@
-/* https://leetcode.com/problems/article-views-i/ */
+/* https://leetcode.com/problems/project-employees-i/ */
 
 Create table If Not Exists Project (project_id int, employee_id int)
 Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)

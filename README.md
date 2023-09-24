@@ -1126,6 +1126,11 @@ Code: [C#](/src/csharp/Problems/FindSmallestSetOfVertices.cs) | [Python](/src/py
 Tags: Database  
 Code: [SQL](/src/sql/problems/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
 
+### [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/PercentageOfUsersAttendedAContest.sql)  
+
 ### [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine)
 
 Tags: Database  
