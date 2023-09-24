@@ -1066,6 +1066,11 @@ Code: [C#](/src/csharp/Problems/LongestCommonSubsequence.cs) | [Python](/src/pyt
 Tags: Database  
 Code: [SQL](/src/sql/problems/ArticleViewsI.sql)  
 
+### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/QueriesQualityAndPercentage.sql)  
+
 ### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 Tags: Array, Heap (Priority Queue)  
