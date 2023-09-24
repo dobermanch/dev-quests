@@ -1066,6 +1066,11 @@ Code: [SQL](/src/sql/problems/ArticleViewsI.sql)
 Tags: Array, Heap (Priority Queue)  
 Code: [C#](/src/csharp/Problems/MinRemoveToMakeValid.cs)  
 
+### [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/AverageSellingPrice.sql)  
+
 ### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations)
 
 Tags: Database  
