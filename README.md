@@ -866,6 +866,11 @@ Code: [C#](/src/csharp/Problems/Preorder.cs) | [Python](/src/python/problems/pre
 Tags: Database  
 Code: [SQL](/src/sql/problems/BigCountries.sql)  
 
+### [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
+
+Tags: Array, Greedy  
+Code: [C#](/src/csharp/Problems/CanPlaceFlowers.cs) | [Go](/src/go/problems/can_place_flowers_test.go) | [Python](/src/python/problems/can_place_flowers_test.py)  
+
 ### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
