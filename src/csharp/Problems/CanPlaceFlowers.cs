@@ -20,9 +20,12 @@ public sealed class CanPlaceFlowers : ProblemBase
 
         while (left > 0 && plot < flowerbed.Length)
         {
-            if (flowerbed[plot] == 0 
-                && plot > 0 && flowerbed[plot - 1] == 0
-                && plot < flowerbed.Length - 1 && flowerbed[plot + 1] == 0)
+            if (flowerbed[plot] == 1)
+            {
+                plot++;
+            }
+            else if ((plot == 0 || flowerbed[plot - 1] == 0)
+                && (plot + 1 >= flowerbed.Length || flowerbed[plot + 1] == 0))
             {
                 flowerbed[plot] = 1;
                 plot++;

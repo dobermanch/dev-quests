@@ -696,6 +696,11 @@ Code: [C#](/src/csharp/Problems/CountBits.cs) | [Python](/src/python/problems/co
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/ReverseString.cs)  
 
+### [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/ReverseVowels.cs) | [Go](/src/go/problems/reverse_vowels_test.go) | [Python](/src/python/problems/reverse_vowels_test.py)  
+
 ### [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
 Tags: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect  
