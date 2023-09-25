@@ -1076,6 +1076,11 @@ Code: [C#](/src/csharp/Problems/LongestCommonSubsequence.cs) | [Python](/src/pyt
 Tags: Database  
 Code: [SQL](/src/sql/problems/ArticleViewsI.sql)  
 
+### [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/MonthlyTransactionsI.sql)  
+
 ### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage)
 
 Tags: Database  
