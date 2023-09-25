@@ -821,6 +821,11 @@ Code: [C#](/src/csharp/Problems/DiameterOfBinaryTree.cs)
 Tags: Depth-First Search, Breadth-First Search, Union Find, Graph  
 Code: [C#](/src/csharp/Problems/FindCircleNum.cs)  
 
+### [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/GamePlayAnalysisIV.sql)  
+
 ### [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 Tags: Two Pointers, String  
