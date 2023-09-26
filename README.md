@@ -1211,6 +1211,11 @@ Code: [SQL](/src/sql/problems/InvalidTweets.cs)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
 
+### [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/TheNumberOfEmployeesWhichReportToEachEmployee.sql)  
+
 ### [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count)
 
 Tags: Database  
