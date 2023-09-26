@@ -1231,6 +1231,11 @@ Code: [SQL](/src/sql/problems/RecyclableAndLowFatProducts.sql)
 Tags: Two Pointers, String  
 Code: [C#](/src/csharp/Problems/MergeAlternately.cs) | [Go](/src/go/problems/merge_alternately_test.go) | [Python](/src/python/problems/merge_alternately_test.py)  
 
+### [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/PrimaryDepartmentForEachEmployee.sql)  
+
 ### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
 Tags: Array, Math, Recursion, Queue, Simulation  
