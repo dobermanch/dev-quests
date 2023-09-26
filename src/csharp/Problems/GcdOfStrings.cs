@@ -20,7 +20,7 @@ public sealed class GcdOfStrings : ProblemBase
         var result = str2;
         while(result.Length > 0)
         {
-            if (str1.Replace(result, "") == "" && str1.Replace(result, "") == "")
+            if (str1.Replace(result, "") == "" && str2.Replace(result, "") == "")
             {
                 return result;
             }
