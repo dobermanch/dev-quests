@@ -891,6 +891,11 @@ Code: [SQL](/src/sql/problems/ClassesMoreThan5Students.sql)
 Tags: Array, Greedy  
 Code: [C#](/src/csharp/Problems/CanPlaceFlowers.cs) | [Go](/src/go/problems/can_place_flowers_test.go) | [Python](/src/python/problems/can_place_flowers_test.py)  
 
+### [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/TriangleJudgement.sql)  
+
 ### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
