@@ -1196,6 +1196,11 @@ Code: [SQL](/src/sql/problems/InvalidTweets.cs)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/FindBall.cs)  
 
+### [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/FindFollowersCount.sql)  
+
 ### [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products)
 
 Tags: Database  
