@@ -1061,6 +1061,11 @@ Code: [C#](/src/csharp/Problems/LastStoneWeight.cs)
 Tags: Database  
 Code: [SQL](/src/sql/problems/ProductSalesAnalysisI.sql)  
 
+### [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ProductSalesAnalysisIII.sql)  
+
 ### [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)
 
 Tags: Math, String  
