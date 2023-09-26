@@ -1061,6 +1061,11 @@ Code: [C#](/src/csharp/Problems/OrangesRotting.cs)
 Tags: Array, Hash Table, Graph  
 Code: [C#](/src/csharp/Problems/FindJudge.cs)  
 
+### [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/CustomersWhoBoughtAllProducts.sql)  
+
 ### [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
 Tags: Array, Heap (Priority Queue)  
