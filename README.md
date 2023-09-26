@@ -1071,6 +1071,11 @@ Code: [C#](/src/csharp/Problems/GcdOfStrings.cs) | [Go](/src/go/problems/gcd_of_
 Tags: Database  
 Code: [SQL](/src/sql/problems/ProjectEmployeesI.sql)  
 
+### [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/UserActivityForThePast30DaysI.sql)  
+
 ### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 Tags: String, Dynamic Programming  
