@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/reverse-words-in-a-string-iii
+//https://leetcode.com/problems/reverse-words-in-a-string
 
 namespace LeetCode.Problems;
 
@@ -9,25 +9,34 @@ public sealed class ReverseWords : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.Param("Let's take LeetCode contest").Result("s'teL ekat edoCteeL tsetnoc"))
-          .Add(it => it.Param("God Ding").Result("doG gniD"));
+        => Add(it => it.Param("the sky is blue").Result("blue is sky the"))
+          .Add(it => it.Param("  hello world  ").Result("world hello"))
+          .Add(it => it.Param("a good   example").Result("example good a"));
 
     private string Solution(string s)
     {
         var result = new StringBuilder();
-
-        var index = 0;
-        foreach (var ch in s)
+        var left = 0;
+        var right = 0;
+        while(right <= s.Length)
         {
-            if (ch == ' ')
+            if (right < s.Length && s[right] != ' ')
             {
-                result.Append(ch);
-                index = result.Length;
+                right++;
+                continue;
             }
-            else
+
+            if (left != right)
             {
-                result.Insert(index, ch);
+                if (result.Length > 0)
+                {
+                    result.Insert(0, ' ');
+                }
+                
+                result.Insert(0, s[left..right]);
             }
+
+            left = ++right;
         }
 
         return result.ToString();

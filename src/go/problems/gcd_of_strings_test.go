@@ -16,7 +16,7 @@ func TestGcdOfStrings(t *testing.T) {
 	gen.Add(func(tc *core.TestCase) {
 		tc.Param("ABCABC").Param("ABC").Result("ABC")
 	}).Add(func(tc *core.TestCase) {
-		tcParam("ABABAB").Param("ABAB").Result("AB")
+		tc.Param("ABABAB").Param("ABAB").Result("AB")
 	}).Add(func(tc *core.TestCase) {
 		tc.Param("TAUXXTAUXXTAUXXTAUXXTAUXX").Param("TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX").Result("TAUXX")
 	}).Add(func(tc *core.TestCase) {
@@ -26,8 +26,8 @@ func TestGcdOfStrings(t *testing.T) {
 	}).Run(t)
 }
 
-func (GcdOfStrings) Solution1(str1 string, str2 string) string  {
-	if !(str1 + str2 == str2 + str1) {
+func (GcdOfStrings) Solution1(str1 string, str2 string) string {
+	if !(str1+str2 == str2+str1) {
 		return ""
 	}
 
@@ -39,11 +39,10 @@ func gcd(left, right int) int {
 		return left
 	}
 
-	return gcd(right, left % right)
+	return gcd(right, left%right)
 }
 
-
-func (GcdOfStrings) Solution2(str1 string, str2 string) string  {
+func (GcdOfStrings) Solution2(str1 string, str2 string) string {
 	result := str2
 
 	for len(result) > 0 {
