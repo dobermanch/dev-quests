@@ -876,6 +876,11 @@ Code: [C#](/src/csharp/Problems/Preorder.cs) | [Python](/src/python/problems/pre
 Tags: Database  
 Code: [SQL](/src/sql/problems/BigCountries.sql)  
 
+### [596. Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ClassesMoreThan5Students.sql)  
+
 ### [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
 Tags: Array, Greedy  
