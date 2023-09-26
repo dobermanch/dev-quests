@@ -1215,3 +1215,8 @@ Code: [C#](/src/csharp/Problems/LongestPalindromeByConcat2Letter.cs)
 
 Tags: Math  
 Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs) | [Go](/src/go/problems/add_two_integers_test.go)  
+
+### [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)  
