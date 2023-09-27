@@ -1276,6 +1276,11 @@ Code: [SQL](/src/sql/problems/CountSalaryCategories.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/ConfirmationRate.sql)  
 
+### [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/EmployeesWhoseManagerLeftTheCompany.sql)  
+
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
 Tags: Array, Prefix Sum  
