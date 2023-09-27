@@ -466,6 +466,11 @@ Code: [C#](/src/csharp/Problems/MajorityElement.cs) | [Go](/src/go/problems/majo
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
 
+### [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ConsecutiveNumbers.sql)  
+
 ### [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
 
 Tags: Database  
