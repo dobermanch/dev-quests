@@ -1201,6 +1201,12 @@ Code: [C#](/src/csharp/Problems/BrowserHistory.cs)
 Tags: Array, Prefix Sum  
 Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/running_sum_test.go)  
 
+### [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/PatientsWithACondition.sql)  
+
+
 ### [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 Tags: Graph  
