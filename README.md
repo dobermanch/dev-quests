@@ -1136,6 +1136,11 @@ Code: [SQL](/src/sql/problems/ImmediateFoodDeliveryII.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/MonthlyTransactionsI.sql)  
 
+### [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/LastPersonToFitInTheBus.sql)  
+
 ### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage)
 
 Tags: Database  
