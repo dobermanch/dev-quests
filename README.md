@@ -796,6 +796,11 @@ Code: [C#](/src/csharp/Problems/PathSum.cs)
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/FindAnagrams.cs)  
 
+### [443. String Compression](https://leetcode.com/problems/string-compression/)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/Compress.cs) | [Go](/src/go/problems/compress_test.go) | [Python](/src/python/problems/compress_test.py)  
+
 ### [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 
 Tags: Tree, Binary Search Tree, Binary Tree  
