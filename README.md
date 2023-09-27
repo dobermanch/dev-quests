@@ -496,6 +496,11 @@ Code: [C#](/src/csharp/Problems/ReverseBits.cs)
 Tags: Divide and Conquer, Bit Manipulation  
 Code: [C#](/src/csharp/Problems/HammingWeight.cs)  
 
+### [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/DeleteDuplicateEmails.sql)  
+
 ### [197. Rising Temperature](https://leetcode.com/problems/rising-temperature)
 
 Tags: Database  
