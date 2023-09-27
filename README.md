@@ -1261,6 +1261,11 @@ Code: [SQL](/src/sql/problems/PrimaryDepartmentForEachEmployee.sql)
 Tags: Array, Math, Recursion, Queue, Simulation  
 Code: [C#](/src/csharp/Problems/FindTheWinner.cs) | [Python](/src/python/problems/find_the_winner_test.py)  
 
+### [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/CountSalaryCategories.sql)  
+
 ### [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
 
 Tags: Database  
