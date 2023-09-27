@@ -1221,6 +1221,11 @@ Code: [SQL](/src/sql/problems/PercentageOfUsersAttendedAContest.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/AverageTimeOfProcessPerMachine.sql)  
 
+### [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/description)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/FixNamesInATable.sql)  
+
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
 Tags: Array, Matrix  
