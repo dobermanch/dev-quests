@@ -1121,6 +1121,11 @@ Code: [C#](/src/csharp/Problems/LongestCommonSubsequence.cs) | [Python](/src/pyt
 Tags: Database  
 Code: [SQL](/src/sql/problems/ArticleViewsI.sql)  
 
+### [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ProductPriceAtAGivenDate.sql)  
+
 ### [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii)
 
 Tags: Database  
