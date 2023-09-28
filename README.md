@@ -1236,6 +1236,10 @@ Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/running_s
 Tags: Database  
 Code: [SQL](/src/sql/problems/PatientsWithACondition.sql)  
 
+### [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/GroupSoldProductsByTheDate.sql)  
 
 ### [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
