@@ -1176,6 +1176,11 @@ Code: [SQL](/src/sql/problems/AverageSellingPrice.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/StudentsAndExaminations.sql)  
 
+### [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/RestaurantGrowth.sql)  
+
 ### [1341. Movie Rating](https://leetcode.com/problems/movie-rating)
 
 Tags: Database  
