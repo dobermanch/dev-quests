@@ -916,6 +916,11 @@ Code: [SQL](/src/sql/problems/TriangleJudgement.sql)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/MergeTrees.cs)  
 
+### [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ExchangeSeats.sql)  
+
 ### [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 
 Tags: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree  
