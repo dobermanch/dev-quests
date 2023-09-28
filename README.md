@@ -901,6 +901,11 @@ Code: [SQL](/src/sql/problems/BigCountries.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/ClassesMoreThan5Students.sql)  
 
+### [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/FriendRequestsIIWhoHasTheMostFriends.sql)  
+
 ### [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
 Tags: Array, Greedy  
