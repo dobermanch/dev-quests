@@ -271,7 +271,7 @@ samples/framework/docker/MVCRandomAnswerGenerator/containerImage
 _dependentPackages/
 
 # Visual Studio Code
-.vscode/
+#.vscode/
 
 .DS_Store
 
