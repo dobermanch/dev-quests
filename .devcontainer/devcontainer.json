@@ -25,7 +25,8 @@
                 "streetsidesoftware.code-spell-checker",
                 "DavidAnson.vscode-markdownlint",
                 "littlefoxteam.vscode-python-test-adapter",
-                "github.vscode-github-actions"
+                "github.vscode-github-actions",
+                "cweijan.vscode-mysql-client2"
             ]
         }
     }
