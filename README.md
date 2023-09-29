@@ -1191,6 +1191,11 @@ Code: [SQL](/src/sql/problems/StudentsAndExaminations.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/RestaurantGrowth.sql)  
 
+### [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/ListTheProductsOrderedInAPeriod.sql)  
+
 ### [1341. Movie Rating](https://leetcode.com/problems/movie-rating)
 
 Tags: Database  
