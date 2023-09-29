@@ -1286,6 +1286,11 @@ Code: [SQL](/src/sql/problems/FixNamesInATable.sql)
 Tags: Array, Matrix  
 Code: [C#](/src/csharp/Problems/MaximumWealth.cs)  
 
+### [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
+
+Tags: Array, Hash Table, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/MaxOperations.cs) | [Go](/src/go/problems/max_operations_test.go) | [Python](/src/python/problems/max_operations_test.py)  
+
 ### [1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
 
 Tags: Database  
