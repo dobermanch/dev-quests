@@ -1246,6 +1246,11 @@ Code: [SQL](/src/sql/problems/PatientsWithACondition.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/GroupSoldProductsByTheDate.sql)  
 
+### [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/FindUsersWithValidEMails.sql)  
+
 ### [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 Tags: Graph  
