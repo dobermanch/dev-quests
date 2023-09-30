@@ -956,6 +956,11 @@ Code: [SQL](/src/sql/problems/NotBoringMovies.sql)
 Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting  
 Code: [C#](/src/csharp/Problems/LeastInterval.cs)  
 
+### [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
+
+Tags: Array, Sliding Window  
+Code: [C#](/src/csharp/Problems/FindMaxAverage.cs) | [Go](/src/go/problems/find_max_average_test.go) | [Python](/src/python/problems/find_max_average_test.py)  
+
 ### [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
 Tags: String, Dynamic Programming  
