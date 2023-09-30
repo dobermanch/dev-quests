@@ -1236,6 +1236,11 @@ Code: [C#](/src/csharp/Problems/MinTime.cs)
 Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/GoodNodes.cs) | [Python](/src/python/problems/good_nodes_test.py)  
 
+### [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
+
+Tags: String, Sliding Window  
+Code: [C#](/src/csharp/Problems/MaxVowels.cs) | [Go](/src/go/problems/max_vowels_test.go) | [Python](/src/python/problems/max_vowels_test.py)  
+
 ### [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
 
 Tags: Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream  
@@ -1246,11 +1251,6 @@ Code: [C#](/src/csharp/Problems/BrowserHistory.cs)
 Tags: Array, Prefix Sum  
 Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/running_sum_test.go)  
 
-### [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)
-
-Tags: Database  
-Code: [SQL](/src/sql/problems/PatientsWithACondition.sql)  
-
 ### [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)
 
 Tags: Database  
@@ -1260,6 +1260,11 @@ Code: [SQL](/src/sql/problems/GroupSoldProductsByTheDate.sql)
 
 Tags: Database  
 Code: [SQL](/src/sql/problems/FindUsersWithValidEMails.sql)  
+
+### [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)
+
+Tags: Database  
+Code: [SQL](/src/sql/problems/PatientsWithACondition.sql)  
 
 ### [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
