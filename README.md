@@ -1111,6 +1111,11 @@ Code: [C#](/src/csharp/Problems/OrangesRotting.cs)
 Tags: Array, Hash Table, Graph  
 Code: [C#](/src/csharp/Problems/FindJudge.cs)  
 
+### [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii)
+
+Tags: Array, Binary Search, Sliding Window, Prefix Sum  
+Code: [C#](/src/csharp/Problems/LongestOnes.cs) | [Go](/src/go/problems/longest_ones_test.go) | [Python](/src/python/problems/longest_ones_test.py)  
+
 ### [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products)
 
 Tags: Database  
