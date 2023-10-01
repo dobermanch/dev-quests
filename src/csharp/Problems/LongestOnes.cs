@@ -1,7 +1,6 @@
 //https://leetcode.com/problems/max-consecutive-ones-iii/
 
 namespace LeetCode.Problems;
-using System.Math;
 
 public sealed class LongestOnes : ProblemBase
 {
