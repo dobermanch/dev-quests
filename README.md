@@ -1261,6 +1261,11 @@ Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/running_s
 Tags: Database  
 Code: [SQL](/src/sql/problems/GroupSoldProductsByTheDate.sql)  
 
+### [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
+
+Tags: Array, Dynamic Programming, Sliding Window  
+Code: [C#](/src/csharp/Problems/LongestSubarray.cs) | [Go](/src/go/problems/longest_subarray_test.go) | [Python](/src/python/problems/longest_subarray_test.py)  
+
 ### [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails)
 
 Tags: Database  
