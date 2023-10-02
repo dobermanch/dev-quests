@@ -1326,6 +1326,11 @@ Code: [C#](/src/csharp/Problems/FindBall.cs)
 Tags: Database  
 Code: [SQL](/src/sql/problems/TheNumberOfEmployeesWhichReportToEachEmployee.sql)  
 
+### [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
+
+Tags: Array, Prefix Sum  
+Code: [C#](/src/csharp/Problems/LargestAltitude.cs) | [Go](/src/go/problems/largest_altitude_test.go) | [Python](/src/python/problems/largest_altitude_test.py)  
+
 ### [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count)
 
 Tags: Database  
