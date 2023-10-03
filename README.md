@@ -1381,6 +1381,11 @@ Code: [C#](/src/csharp/Problems/FindMiddleIndex.cs)
 Tags: Array, Hash Table, String, Greedy, Counting  
 Code: [C#](/src/csharp/Problems/LongestPalindromeByConcat2Letter.cs)  
 
+### [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)
+
+Tags: Array, Hash Table  
+Code: [C#](/src/csharp/Problems/FindDifference.cs) | [Go](/src/go/problems/find_difference_test.go) | [Python](/src/python/problems/find_difference_test.py)  
+
 ### [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
 
 Tags: Math  
