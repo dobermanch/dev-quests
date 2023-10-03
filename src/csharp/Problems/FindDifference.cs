@@ -9,8 +9,8 @@ public sealed class FindDifference : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.ParamArray("[1,2,3]").ParamArray("[1,2,3]").Result2dArray("[[1,3],[4,6]]"))
-          .Add(it => it.ParamArray("[1,2,3,3]").ParamArray("[1,1,2,2]").Result2dArray("[[3],[]]"));
+        => Add(it => it.ParamArray("[1,2,3]").ParamArray("[2,4,6]").Result2dArray("[[1,3],[4,6]]"))
+          .Add(it => it.ParamArray("[1,2,3,3]").ParamArray("[1,1,2,2]").Result2dArray("[[3],[]]", true));
 
     private IList<IList<int>> Solution(int[] nums1, int[] nums2)
     {
