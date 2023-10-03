@@ -1181,6 +1181,12 @@ Code: [SQL](/src/sql/problems/MonthlyTransactionsI.sql)
 Tags: Database  
 Code: [SQL](/src/sql/problems/LastPersonToFitInTheBus.sql)  
 
+### [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)
+
+Tags: Array, Hash Table  
+Code: [C#](/src/csharp/Problems/UniqueOccurrences.cs) | [Go](/src/go/problems/unique_occurrences_test.go) | [Python](/src/python/problems/unique_occurrences_test.py)  
+
+
 ### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage)
 
 Tags: Database  
