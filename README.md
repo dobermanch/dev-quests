@@ -1297,6 +1297,11 @@ Code: [SQL](/src/sql/problems/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql
 Tags: Database  
 Code: [SQL](/src/sql/problems/PercentageOfUsersAttendedAContest.sql)  
 
+### [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
+
+Tags: Hash Table, String, Sorting  
+Code: [C#](/src/csharp/Problems/CloseStrings.cs) | [Go](/src/go/problems/close_strings_test.go) | [Python](/src/python/problems/close_strings_test.py)  
+
 ### [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine)
 
 Tags: Database  
