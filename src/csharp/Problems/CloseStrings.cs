@@ -5,10 +5,10 @@ namespace LeetCode.Problems;
 public sealed class CloseStrings : ProblemBase
 {
     [Theory]
-    [ClassData(typeof(AddStrings))]
+    [ClassData(typeof(CloseStrings))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void CloseStrings()
+    public override void AddTestCases()
         => Add(it => it.Param("abc").Param("bca").Result(true))
           .Add(it => it.Param("a").Param("aa").Result(false))
           .Add(it => it.Param("cabbba").Param("abbccc").Result(true))
