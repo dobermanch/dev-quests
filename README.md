@@ -1076,6 +1076,11 @@ Code: [C#](/src/csharp/Problems/MiddleNode.cs) | [Go](/src/go/problems/middle_no
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)  
 
+### [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls)
+
+Tags: Design, Queue, Data Stream  
+Code: [C#](/src/csharp/Problems/RecentCounter.cs)  
+
 ### [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 
 Tags: Depth-First Search, Union Find, Graph  
