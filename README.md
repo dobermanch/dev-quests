@@ -1402,6 +1402,11 @@ Code: [C#](/src/csharp/Problems/FindDifference.cs) | [Go](/src/go/problems/find_
 Tags: Math  
 Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs) | [Go](/src/go/problems/add_two_integers_test.go)  
 
+### [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)
+
+Tags: Array, Hash Table, Matrix, Simulation  
+Code: [C#](/src/csharp/Problems/EqualPairs.cs) | [Go](/src/go/problems/equal_pairs_test.go) | [Python](/src/python/problems/equal_pairs_test.py)  
+
 ### [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher)
 
 Tags: Database  
