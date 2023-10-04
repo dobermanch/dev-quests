@@ -966,6 +966,11 @@ Code: [C#](/src/csharp/Problems/FindMaxAverage.cs) | [Go](/src/go/problems/find_
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/CountSubstrings.cs) | [Python](/src/python/problems/count_substrings_test.py)  
 
+### [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate)
+
+Tags: String, Greedy, Queue  
+Code: [C#](/src/csharp/Problems/PredictPartyVictory.cs) | [Go](/src/go/problems/predict_party_victory_test.go) | [Python](/src/python/problems/predict_party_victory_test.py)  
+
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
