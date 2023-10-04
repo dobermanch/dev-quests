@@ -1411,3 +1411,8 @@ Code: [C#](/src/csharp/Problems/EqualPairs.cs) | [Go](/src/go/problems/equal_pai
 
 Tags: Database  
 Code: [SQL](/src/sql/problems/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)  
+
+### [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
+
+Tags: String, Stack, Simulation  
+Code: [C#](/src/csharp/Problems/RemoveStars.cs) | [Go](/src/go/problems/remove_stars_test.go) | [Python](/src/python/problems/remove_stars_test.py)  
