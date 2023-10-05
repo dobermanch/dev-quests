@@ -1397,6 +1397,12 @@ Code: [SQL](/src/sql/problems/EmployeesWhoseManagerLeftTheCompany.sql)
 Tags: Array, Prefix Sum  
 Code: [C#](/src/csharp/Problems/FindMiddleIndex.cs)  
 
+### [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)
+
+Tags: Linked List, Two Pointers  
+Code: [C#](/src/csharp/Problems/DeleteMiddle.cs) | [Go](/src/go/problems/delete_middle_test.go) | [Python](/src/python/problems/delete_middle_test.py)  
+
+
 ### [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
 
 Tags: Array, Hash Table, String, Greedy, Counting  
