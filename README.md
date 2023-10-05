@@ -1402,6 +1402,10 @@ Code: [C#](/src/csharp/Problems/FindMiddleIndex.cs)
 Tags: Linked List, Two Pointers  
 Code: [C#](/src/csharp/Problems/DeleteMiddle.cs) | [Go](/src/go/problems/delete_middle_test.go) | [Python](/src/python/problems/delete_middle_test.py)  
 
+### [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)
+
+Tags: Linked List, Two Pointers, Stack  
+Code: [C#](/src/csharp/Problems/PairSum.cs) | [Go](/src/go/problems/pair_sum_test.go) | [Python](/src/python/problems/pair_sum_test.py)  
 
 ### [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
 

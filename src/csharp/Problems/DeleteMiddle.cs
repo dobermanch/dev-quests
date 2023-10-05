@@ -9,10 +9,10 @@ public sealed class DeleteMiddle : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(true, it => it.ParamListNode("[1,3,4,7,1,2,6]").ResultListNode("[1,3,4,1,2,6]"))
-          .Add(true, it => it.ParamListNode("[1,2,3,4]").ResultListNode("[1,2,4]"))
-          .Add(true, it => it.ParamListNode("[1,2,3]").ResultListNode("[1,3]"))
-          .Add(true, it => it.ParamListNode("[2,1]").ResultListNode("[2]"))
+        => Add(it => it.ParamListNode("[1,3,4,7,1,2,6]").ResultListNode("[1,3,4,1,2,6]"))
+          .Add(it => it.ParamListNode("[1,2,3,4]").ResultListNode("[1,2,4]"))
+          .Add(it => it.ParamListNode("[1,2,3]").ResultListNode("[1,3]"))
+          .Add(it => it.ParamListNode("[2,1]").ResultListNode("[2]"))
           .Add(it => it.ParamListNode("[1]").ResultListNode("[]"));
 
     private ListNode? Solution(ListNode head)
