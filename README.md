@@ -1066,6 +1066,11 @@ Code: [C#](/src/csharp/Problems/BackspaceCompare.cs)
 Tags: Array, Stack, Sorting, Monotonic Stack  
 Code: [C#](/src/csharp/Problems/CarFleet.cs) | [Python](/src/python/problems/car_fleet_test.py)  
 
+### [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)
+
+Tags: Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/LeafSimilar.cs) | [Go](/src/go/problems/leaf_similar_test.go) | [Python](/src/python/problems/leaf_similar_test.py)  
+
 ### [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
 Tags: Array, Binary Search  
