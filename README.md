@@ -1242,6 +1242,11 @@ Code: [SQL](/src/sql/problems/MovieRating.sql)
 Tags: String, Stack  
 Code: [C#](/src/csharp/Problems/NumberOfSteps.cs) | [Python](/src/python/problems/number_of_steps_test.py)  
 
+### [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree)
+
+Tags: Dynamic Programming, Tree, Depth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/LongestZigZag.cs) | [Go](/src/go/problems/longest_zig_zag_test.go) | [Python](/src/python/problems/longest_zig_zag_test.py)  
+
 ### [1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)
 
 Tags: Database  
