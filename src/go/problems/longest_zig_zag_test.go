@@ -11,7 +11,7 @@ type LongestZigZag struct {}
 func TestLongestZigZag(t *testing.T) {
 	var node1 = TreeNode{Val: 1, Right: &TreeNode{Val: 1, Left: &TreeNode{Val: 1}, Right: &TreeNode{Val: 1, Left: &TreeNode{Val: 1, Right: &TreeNode{Val: 1, Right: &TreeNode{Val: 1}}}, Right: &TreeNode{Val: 1}}}}
 	
-	result := LongestZigZag().Solution(&node1)
+	result := LongestZigZag{}.Solution(&node1)
 	t.Log(result)
 }
 
