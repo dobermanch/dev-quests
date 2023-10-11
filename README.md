@@ -1206,7 +1206,6 @@ Code: [SQL](/src/sql/problems/LastPersonToFitInTheBus.sql)
 Tags: Array, Hash Table  
 Code: [C#](/src/csharp/Problems/UniqueOccurrences.cs) | [Go](/src/go/problems/unique_occurrences_test.go) | [Python](/src/python/problems/unique_occurrences_test.py)  
 
-
 ### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage)
 
 Tags: Database  
@@ -1276,6 +1275,11 @@ Code: [C#](/src/csharp/Problems/GoodNodes.cs) | [Python](/src/python/problems/go
 
 Tags: String, Sliding Window  
 Code: [C#](/src/csharp/Problems/MaxVowels.cs) | [Go](/src/go/problems/max_vowels_test.go) | [Python](/src/python/problems/max_vowels_test.py)  
+
+### [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero)
+
+Tags: Depth-First Search, Breadth-First Search, Graph  
+Code: [C#](/src/csharp/Problems/MinReorder.cs) | [Go](/src/go/problems/min_reorder_test.go) | [Python](/src/python/problems/min_reorder_test.py)  
 
 ### [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
 
