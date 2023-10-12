@@ -1441,6 +1441,11 @@ Code: [C#](/src/csharp/Problems/FindDifference.cs) | [Go](/src/go/problems/find_
 Tags: Math  
 Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs) | [Go](/src/go/problems/add_two_integers_test.go)  
 
+### [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
+
+Tags: Hash Table, Design, Heap (Priority Queue)  
+Code: [C#](/src/csharp/Problems/SmallestInfiniteSet.cs)  
+
 ### [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)
 
 Tags: Array, Hash Table, Matrix, Simulation  
