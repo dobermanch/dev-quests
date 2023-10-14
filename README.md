@@ -761,6 +761,11 @@ Code: [C#](/src/csharp/Problems/IsSubsequence.cs) | [Go](/src/go/problems/is_sub
 Tags: String, Stack, Recursion  
 Code: [C#](/src/csharp/Problems/DecodeString.cs)  
 
+### [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+
+Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Graph, Shortest Path  
+Code: [C#](/src/csharp/Problems/CalcEquation.cs) | [Go](/src/go/problems/calc_equation_test.go) | [Python](/src/python/problems/calc_equation_test.py)  
+
 ### [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 Tags: Hash Table, String, Greedy  

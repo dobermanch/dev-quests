@@ -9,6 +9,8 @@ internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
         _valueParser = typeof(TOut) switch
         {
             Type type when type == typeof(int) || type == typeof(int?) => new IntValueParser(),
+            Type type when type == typeof(double) || type == typeof(double?)
+                           || type == typeof(float) || type == typeof(float?) => new DoubleValueParser(),
             Type type when type == typeof(char) || type == typeof(char?) => new CharValueParser(),
             Type type when type == typeof(bool) || type == typeof(bool?) => new BoolValueParser(),
             Type type when type == typeof(string) => new StringValueParser(),
