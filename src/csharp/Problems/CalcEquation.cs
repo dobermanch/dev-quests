@@ -12,11 +12,11 @@ public sealed class CalcEquation : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(true, it => it.Param2dArray<string>("""[["a","b"],["a","c"],["a","d"],["a","e"],["a","f"],["a","g"],["a","h"],["a","i"],["a","j"],["a","k"],["a","l"],["a","aa"],["a","aaa"],["a","aaaa"],["a","aaaaa"],["a","bb"],["a","bbb"],["a","ff"]]""")
+        => Add(it => it.Param2dArray<string>("""[["a","b"],["a","c"],["a","d"],["a","e"],["a","f"],["a","g"],["a","h"],["a","i"],["a","j"],["a","k"],["a","l"],["a","aa"],["a","aaa"],["a","aaaa"],["a","aaaaa"],["a","bb"],["a","bbb"],["a","ff"]]""")
                        .ParamArray<double>("[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,1.0,1.0,1.0,1.0,1.0,3.0,5.0]")
                        .Param2dArray<string>("""[["d","f"],["e","g"],["e","k"],["h","a"],["aaa","k"],["aaa","i"],["aa","e"],["aaa","aa"],["aaa","ff"],["bbb","bb"],["bb","h"],["bb","i"],["bb","k"],["aaa","k"],["k","l"],["x","k"],["l","ll"]]""")
                        .ResultArray<double>("[360.00000,0.00833,20.00000,1.00000,-1.00000,-1.00000]"))
-          .Add(true, it => it.Param2dArray<string>("""[["x1","x2"],["x2","x3"],["x3","x4"],["x4","x5"]]""")
+          .Add(it => it.Param2dArray<string>("""[["x1","x2"],["x2","x3"],["x3","x4"],["x4","x5"]]""")
                        .ParamArray<double>("[3.0,4.0,5.0,6.0]")
                        .Param2dArray<string>("""[["x1","x5"],["x5","x2"],["x2","x4"],["x2","x2"],["x2","x9"],["x9","x9"]]""")
                        .ResultArray<double>("[360.00000,0.00833,20.00000,1.00000,-1.00000,-1.00000]"))  
