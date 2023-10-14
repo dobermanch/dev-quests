@@ -56,18 +56,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
 
         //TODO: Deep clone test input data, because it can be modified in the previous test
         var result = method.Invoke(this, data.Skip(2).ToArray());
-        if (data[1] is double or float && result is double or float)
-        {
-            Assert.True(Math.Abs((double)data[1] - (double)result) < 0.0001);
-        }
-        else if (typeof(IEnumerable).IsAssignableFrom(data[1].GetType()) && typeof(IEnumerable).IsAssignableFrom(result!.GetType()))
-        {
-            Assert.True(((IEnumerable)data[1]).OfType<object>().SequenceEqual(((IEnumerable)result).OfType<object>(), new ObjectComparer()));
-        }
-        else 
-        {
-            Assert.Equal(data[1], result);
-        }
+        Assert.Equal(data[1], result, new ObjectComparer());
     }
 
     public abstract void AddTestCases();
