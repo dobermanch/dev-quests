@@ -1,8 +1,8 @@
 {
     "version": "0.2.0",
-    "configurations": [
+    "configurations": [        
         {
-            "name": "Python: Current File",
+            "name": "Python",
             "type": "python",
             "request": "launch",
             "program": "${file}",
@@ -10,7 +10,7 @@
             "justMyCode": true
         },
         {
-            "name": "Go. Launch Package",
+            "name": "Go",
             "type": "go",
             "request": "launch",
             "mode": "auto",
@@ -20,7 +20,7 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
-            "name": ".NET Core Launch (console)",
+            "name": ".NET",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -33,9 +33,19 @@
             "stopAtEntry": false
         },
         {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
+            "type": "node",
+            "request": "launch",
+            "name": "TypeScript",
+            "program": "${file}",
+            "preLaunchTask": "tsc: build - src/typescript/tsconfig.json",
+            "outFiles": ["${workspaceFolder}/src/typescript/**/*.js"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "JavaScript",
+            "program": "${file}",
+            "outFiles": ["${workspaceFolder}/src/typescript/**/*.js"]
         }
     ]
 }

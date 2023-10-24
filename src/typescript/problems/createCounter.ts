@@ -1,9 +1,8 @@
 // https://leetcode.com/problems/counter
 
 function createCounter(n: number): () => number {
-    var number = n
     return function() {
-		return number++
+		return n++
     }
 }
 

@@ -36,6 +36,15 @@
                 "${workspaceFolder}/src/csharp/LeetCode.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "src/typescript/tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "group": "build",
+            "label": "tsc: build - src/typescript/tsconfig.json"
         }
     ]
 }

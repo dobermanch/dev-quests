@@ -5,11 +5,13 @@
  * @return {Function} counter
  */
 var createCounter = function(n) {
-    var number = n
     return function() {
-        return number++
+        return n++
     };
 };
+
+const counter = createCounter(10)
+console.log(counter())
 
 /** 
  * const counter = createCounter(10)

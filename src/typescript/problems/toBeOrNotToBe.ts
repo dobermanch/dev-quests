@@ -24,6 +24,8 @@ function expect(val: any): ToBeOrNotToBe {
     };
 };
 
+var result = expect(5).toBe(5); // true
+console.log(result)
 /**
  * expect(5).toBe(5); // true
  * expect(5).notToBe(5); // throws "Equal"

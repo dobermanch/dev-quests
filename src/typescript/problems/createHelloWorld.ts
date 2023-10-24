@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/create-hello-world-function/
 
 function createHelloWorld() {
-	return function(...args): string {
+	return function(...args: any): string {
         return "Hello World";
     };
 };
