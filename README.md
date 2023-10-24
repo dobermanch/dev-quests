@@ -1471,6 +1471,11 @@ Code: [C#](/src/csharp/Problems/RemoveStars.cs) | [Go](/src/go/problems/remove_s
 Tags:  
 Code: [TypeScript](/src/typescript/problems/createCounter.ts) | [JavaScript](/src/javascript/problems/createCounter.js)  
 
+### [2665. Counter II](https://leetcode.com/problems/counter-ii)
+
+Tags:  
+Code: [TypeScript](/src/typescript/problems/createCounter2.ts) | [JavaScript](/src/javascript/problems/createCounter2.js)  
+
 ### [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)
 
 Tags:  
