@@ -1475,3 +1475,8 @@ Code: [TypeScript](/src/typescript/problems/createCounter.ts) | [JavaScript](/sr
 
 Tags:  
 Code: [TypeScript](/src/typescript/problems/createHelloWorld.ts) | [JavaScript](/src/javascript/problems/createHelloWorld.js)  
+
+### [2704. To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be)
+
+Tags:  
+Code: [TypeScript](/src/typescript/problems/toBeOrNotToBe.ts) | [JavaScript](/src/javascript/problems/toBeOrNotToBe.js)  
