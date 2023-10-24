@@ -29,7 +29,7 @@ internal class ObjectComparer : EqualityComparer<object>
                     return false;
                 }
 
-                return (bool)equalsMethod.Invoke(x, new object[] { y });
+                return (bool)equalsMethod.Invoke(x, new object[] { y })!;
             }
         }
 

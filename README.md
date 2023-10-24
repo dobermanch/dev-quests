@@ -1465,3 +1465,8 @@ Code: [SQL](/src/sql/problems/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)
 
 Tags: String, Stack, Simulation  
 Code: [C#](/src/csharp/Problems/RemoveStars.cs) | [Go](/src/go/problems/remove_stars_test.go) | [Python](/src/python/problems/remove_stars_test.py)  
+
+### [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)
+
+Tags:  
+Code: [TypeScript](/src/typescript/problems/createHelloWorld.ts) | [JavaScript](/src/javascript/problems/createHelloWorld.js)  
