@@ -8,7 +8,7 @@ public sealed class MinWindow : ProblemBase
     [ClassData(typeof(MinWindow))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("ADOBECODEBANC").Param("ABC").Result("BANC"))
           .Add(it => it.Param("ADOBECODEBANC").Param("ABAC").Result("ADOBECODEBA"))
           .Add(it => it.Param("EDOCEBODEBAND").Param("ABC").Result("CEBODEBA"))

@@ -8,7 +8,7 @@ public sealed class SwapPairs : ProblemBase
     [ClassData(typeof(SwapPairs))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,3,4]").ResultListNode("[2,1,4,3]"))
           .Add(it => it.ParamListNode("[1,2,3,4,5,6]").ResultListNode("[2,1,4,3,6,5]"))
           .Add(it => it.ParamListNode("[]").ResultListNode("[]"))

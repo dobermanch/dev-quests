@@ -8,7 +8,7 @@ public sealed class IsHappy : ProblemBase
     [ClassData(typeof(IsHappy))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(19).Result(true))
           .Add(it => it.Param(2).Result(false))
         ;

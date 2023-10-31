@@ -8,7 +8,7 @@ public sealed class NumBusesToDestination : ProblemBase
     [ClassData(typeof(NumBusesToDestination))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,2,7],[3,6,7],[6,5],[1,4]]").Param(1).Param(5).Result(3))
           .Add(it => it.Param2dArray("[[1,2,7],[3,6,7]]").Param(1).Param(6).Result(2))
           .Add(it => it.Param2dArray("[[1,2,7],[3,6,7]]").Param(1).Param(1).Result(0))

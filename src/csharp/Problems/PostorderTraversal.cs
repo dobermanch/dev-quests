@@ -8,7 +8,7 @@ public sealed class PostorderTraversal : ProblemBase
     [ClassData(typeof(PostorderTraversal))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[1,null,2,3]").ResultArray("[3,2,1]"))
           .Add(it => it.ParamTree("[1,5,2,3,4,5,6,7,8,9,10]").ResultArray("[7,8,3,9,10,4,5,5,6,2,1]"))
           .Add(it => it.ParamTree("[1,null,2,3,4,5,6,7,8,9,10]").ResultArray("[9,10,5,6,3,7,8,4,2,1]"))

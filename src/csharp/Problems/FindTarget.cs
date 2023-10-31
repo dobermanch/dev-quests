@@ -8,7 +8,7 @@ public sealed class FindTarget : ProblemBase
     [ClassData(typeof(FindTarget))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[5,3,6,2,4,null,7]").Param(9).Result(true))
           .Add(it => it.ParamTree("[5,3,6,2,4,null,7]").Param(28).Result(false));
 

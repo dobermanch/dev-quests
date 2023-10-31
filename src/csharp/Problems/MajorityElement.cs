@@ -8,7 +8,7 @@ public sealed class MajorityElement : ProblemBase
     [ClassData(typeof(MajorityElement))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[3,2,3]").Result(3))
           .Add(it => it.ParamArray("[2,2,1,1,1,2,2]").Result(2));
 

@@ -8,7 +8,7 @@ public sealed class RemoveStars : ProblemBase
     [ClassData(typeof(RemoveStars))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("leet**cod*e").Result("lecoe"))
           .Add(it => it.Param("erase*****").Result(""));
 

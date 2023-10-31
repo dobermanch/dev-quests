@@ -8,7 +8,7 @@ public sealed class GcdOfStrings : ProblemBase
     [ClassData(typeof(GcdOfStrings))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("ABCABC").Param("ABC").Result("ABC"))
           .Add(it => it.Param("ABABAB").Param("ABAB").Result("AB"))
           .Add(it => it.Param("TAUXXTAUXXTAUXXTAUXXTAUXX").Param("TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX").Result("TAUXX"))

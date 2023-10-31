@@ -8,7 +8,7 @@ public sealed class IsValidBST : ProblemBase
     [ClassData(typeof(IsValidBST))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[2,1,3]").Result(true))
           .Add(it => it.ParamTree("[5,1,4,null,null,3,6]").Result(false))
         ;

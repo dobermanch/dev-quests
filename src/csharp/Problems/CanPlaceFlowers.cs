@@ -8,7 +8,7 @@ public sealed class CanPlaceFlowers : ProblemBase
     [ClassData(typeof(CanPlaceFlowers))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,0,0,0,1]").Param(1).Result(true))
           .Add(it => it.ParamArray("[1,0,0,0,0]").Param(2).Result(true))
           .Add(it => it.ParamArray("[1,0,0,0,1]").Param(2).Result(false));

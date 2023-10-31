@@ -8,7 +8,7 @@ public sealed class PreorderTraversal : ProblemBase
     [ClassData(typeof(PreorderTraversal))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[1,null,2,3]").ResultArray("[1,2,3]"))
           .Add(it => it.ParamTree("[1,null,2,3,4,5,6,7,8,9,10]").ResultArray("[1,2,3,5,9,10,6,4,7,8]"))
           .Add(it => it.ParamTree("[1]").ResultArray("[1]"))

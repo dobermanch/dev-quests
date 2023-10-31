@@ -8,7 +8,7 @@ public sealed class OddEvenList : ProblemBase
     [ClassData(typeof(OddEvenList))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,3,4,5]").ResultListNode("[1,3,5,2,4]"))
           .Add(it => it.ParamListNode("[2]").ResultListNode("[2]"))
           .Add(it => it.ParamListNode("[]").ResultListNode("[]"))

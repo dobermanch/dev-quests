@@ -9,7 +9,7 @@ public sealed class Compress : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     //TODO: ADD CUSTOM Result comparer
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray<char>("['a','a','b','b','c','c','c']").Result(6)) //["a","2","b","2","c","3"]
           .Add(it => it.ParamArray<char>("['a']").Result(1)) // ["a"]
           .Add(it => it.ParamArray<char>("['a','b','b','b','b','b','b','b','b','b','b','b','b']").Result(4)); //["a","b","1","2"]

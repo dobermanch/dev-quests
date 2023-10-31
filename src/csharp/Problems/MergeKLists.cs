@@ -8,7 +8,7 @@ public sealed class MergeKLists : ProblemBase
     [ClassData(typeof(MergeKLists))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[[1,4,5],[1,3,4],[2,6]]").ResultListNode("[1,1,2,3,4,4,5,6]"))
           .Add(it => it.ParamListNode("[[1,2,2],[1,1,2]]").ResultListNode("[1,1,1,2,2,2]"))
           .Add(it => it.ParamListNode("[[1,2,2],[],[1,1,2]]").ResultListNode("[1,1,1,2,2,2]"))

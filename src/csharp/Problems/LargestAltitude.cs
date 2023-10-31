@@ -8,7 +8,7 @@ public sealed class LargestAltitude : ProblemBase
     [ClassData(typeof(LargestAltitude))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[-5,1,5,0,-7]").Result(1))
           .Add(it => it.ParamArray("[-4,-3,-2,-1,4,3,2]").Result(0));
 

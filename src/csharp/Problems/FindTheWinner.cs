@@ -8,7 +8,7 @@ public sealed class FindTheWinner : ProblemBase
     [ClassData(typeof(FindTheWinner))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(5).Param(2).Result(3))
           .Add(it => it.Param(6).Param(5).Result(1))
           .Add(it => it.Param(10).Param(7).Result(9));

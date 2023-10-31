@@ -8,7 +8,7 @@ public sealed class MyPow : ProblemBase
     [ClassData(typeof(MyPow))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(2.0).Param(10).Result(1024.0))
           .Add(it => it.Param(2.1).Param(3).Result(9.26100))
           .Add(it => it.Param(2.0).Param(0).Result(1.0))

@@ -8,7 +8,7 @@ public sealed class MinReorder : ProblemBase
     [ClassData(typeof(MinReorder))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(6).Param2dArray("[[0,2],[0,3],[4,1],[4,5],[5,0]]").Result(3))
           .Add(it => it.Param(6).Param2dArray("[[0,1],[1,3],[2,3],[4,0],[4,5]]").Result(3))
           .Add(it => it.Param(5).Param2dArray("[[1,0],[1,2],[3,2],[3,4]]").Result(2))

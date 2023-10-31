@@ -8,7 +8,7 @@ public sealed class InsertInterval : ProblemBase
     [ClassData(typeof(InsertInterval))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[3,6],[9,9],[11,13],[14,14],[16,19],[20,22],[23,25],[30,34],[41,43],[45,49]]").ParamArray("[29,32]").Result2dArray("[[3,6],[9,9],[11,13],[14,14],[16,19],[20,22],[23,25],[29,34],[41,43],[45,49]]"))
           .Add(it => it.Param2dArray("[[0,5],[9,12]]").ParamArray("[7,16]").Result2dArray("[[0,5],[7,16]]"))
           .Add(it => it.Param2dArray("[[1,5]]").ParamArray("[0,7]").Result2dArray("[[0,7]]"))

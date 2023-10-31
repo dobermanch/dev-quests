@@ -8,7 +8,7 @@ public sealed class CanJump : ProblemBase
     [ClassData(typeof(CanJump))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[2,3,1,1,4]").Result(true))
           .Add(it => it.ParamArray("[1,1,2,2,0,1,1]").Result(true))
           .Add(it => it.ParamArray("[5,9,3,2,1,0,2,3,3,1,0,0]").Result(true))

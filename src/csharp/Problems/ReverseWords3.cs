@@ -8,7 +8,7 @@ public sealed class ReverseWords3 : ProblemBase
     [ClassData(typeof(ReverseWords3))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("Let's take LeetCode contest").Result("s'teL ekat edoCteeL tsetnoc"))
           .Add(it => it.Param("God Ding").Result("doG gniD"));
 

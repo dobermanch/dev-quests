@@ -8,7 +8,7 @@ public sealed class CanFinish : ProblemBase
     [ClassData(typeof(CanFinish))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(2).Param2dArray("[[1,0]]").Result(true))
           .Add(it => it.Param(5).Param2dArray("[[1,4],[2,4],[3,1],[3,2]]").Result(true))
           .Add(it => it.Param(1).Param2dArray("[]").Result(true))

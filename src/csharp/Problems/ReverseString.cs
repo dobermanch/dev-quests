@@ -8,7 +8,7 @@ public sealed class ReverseString : ProblemBase
     [ClassData(typeof(ReverseString))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray('h','e','l','l','o').ResultArray('o','l','l','e','h'))
           .Add(it => it.ParamArray('H','a','n','n','a','h').ResultArray('h','a','n','n','a','H'));
 

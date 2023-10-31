@@ -8,7 +8,7 @@ public sealed class Multiply : ProblemBase
     [ClassData(typeof(Multiply))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("0").Param("12").Result("0"))
           .Add(it => it.Param("3").Param("4").Result("12"))
           .Add(it => it.Param("10").Param("12").Result("120"))

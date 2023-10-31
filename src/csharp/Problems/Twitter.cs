@@ -8,7 +8,7 @@ public sealed class Twitter : ProblemBase
     //[ClassData(typeof(Twitter))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(true, it => it.Param2dArray<int>("""[[], [1, 5], [1], [1, 2], [2, 6], [1], [1, 2], [1]]""", true)
                        .ParamArray<string>("""["Twitter", "postTweet", "getNewsFeed", "follow", "postTweet", "getNewsFeed", "unfollow", "getNewsFeed"]""")
                        .ResultArray<object?>(null, null, new []{5}, null, null, new[] {6, 5}, null, new[] {5}))

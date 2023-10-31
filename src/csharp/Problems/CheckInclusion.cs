@@ -8,7 +8,7 @@ public sealed class CheckInclusion : ProblemBase
     [ClassData(typeof(CheckInclusion))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("ab").Param("eidbaooo").Result(true))
           .Add(it => it.Param("ab").Param("eidboaoo").Result(false))
           .Add(it => it.Param("aba").Param("eidabaooo").Result(true))

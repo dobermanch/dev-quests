@@ -8,7 +8,7 @@ public sealed class AsteroidCollision : ProblemBase
     [ClassData(typeof(AsteroidCollision))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[8,-8]").ResultArray("[]"))
           .Add(it => it.ParamArray("[5,10,-5]").ResultArray("[5,10]"))
           .Add(it => it.ParamArray("[-2,-1,1,2]").ResultArray("[-2,-1,1,2]"))

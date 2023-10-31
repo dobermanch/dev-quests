@@ -8,7 +8,7 @@ public sealed class ContainsDuplicate : ProblemBase
     [ClassData(typeof(ContainsDuplicate))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3,1]").Result(true))
           .Add(it => it.ParamArray("[1,2,3,4]").Result(false))
           .Add(it => it.ParamArray("[1,1,1,3,3,4,3,2,4,2]").Result(true));

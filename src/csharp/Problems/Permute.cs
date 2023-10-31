@@ -8,7 +8,7 @@ public sealed class Permute : ProblemBase
     [ClassData(typeof(Permute))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(true, it => it.ParamArray("[1,2,3]").Result2dArray("[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,2,1],[3,1,2]]"))
           .Add(it => it.ParamArray("[1,2,3,4]").Result2dArray("[[1,2,3,4],[1,2,4,3],[1,3,2,4],[1,3,4,2],[1,4,3,2],[1,4,2,3],[2,1,3,4],[2,1,4,3],[2,3,1,4],[2,3,4,1],[2,4,3,1],[2,4,1,3],[3,2,1,4],[3,2,4,1],[3,1,2,4],[3,1,4,2],[3,4,1,2],[3,4,2,1],[4,2,3,1],[4,2,1,3],[4,3,2,1],[4,3,1,2],[4,1,3,2],[4,1,2,3]]"))
           .Add(it => it.ParamArray("[0,1]").Result2dArray("[[0,1],[1,0]]"))

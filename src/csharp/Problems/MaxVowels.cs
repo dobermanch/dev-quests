@@ -8,7 +8,7 @@ public sealed class MaxVowels : ProblemBase
     [ClassData(typeof(MaxVowels))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abciiidef").Param(3).Result(3))
           .Add(it => it.Param("aeiou").Param(2).Result(2))
           .Add(it => it.Param("leetcode").Param(3).Result(2));

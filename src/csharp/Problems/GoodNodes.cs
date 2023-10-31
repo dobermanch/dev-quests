@@ -8,7 +8,7 @@ public sealed class GoodNodes : ProblemBase
     [ClassData(typeof(GoodNodes))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,1,4,3,null,1,5]").Result(4))
           .Add(it => it.ParamTree("[3,3,null,4,2]").Result(3))
           .Add(it => it.ParamTree("[1]").Result(1));

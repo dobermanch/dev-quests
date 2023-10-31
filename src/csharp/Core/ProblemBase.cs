@@ -17,7 +17,7 @@ namespace LeetCode.Core;
 ///    [ClassData(typeof(ProblemName))]
 ///    public override void Test(object[] data) => base.Test(data);
 ///
-///    public override void AddTestCases()
+///    protected override void AddTestCases()
 ///        => Add(it => it.Param("10").Param("12").Result("22"));
 ///
 ///    private string Solution(string num1, string num2)
@@ -43,7 +43,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
         _runners[GetType()].Run(new TestCase(data));
     }
 
-    public abstract void AddTestCases();
+    protected abstract void AddTestCases();
 
     protected TestCaseCollection Add(Action<TestCase> configure) => _testCases.Add(configure);
 
@@ -100,7 +100,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
 /// <code>
 /// public sealed class ProblemName : ProblemBase<ProblemName>
 /// {
-///    public override void AddTestCases()
+///    protected override void AddTestCases()
 ///        => Add(it => it.Param("10").Param("12").Result("22"));
 ///
 ///    private string Solution(string num1, string num2)

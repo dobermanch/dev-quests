@@ -8,7 +8,7 @@ public sealed class WordDictionary : ProblemBase
     [ClassData(typeof(WordDictionary))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<string>("""[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]""", true)
                        .ParamArray<string>("""["WordDictionary","addWord","addWord","addWord","search","search","search","search"]""")
                        .ResultArray<object?>(null,null,null,null,false,true,true,true))

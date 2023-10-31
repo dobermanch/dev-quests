@@ -8,7 +8,7 @@ public sealed class SingleNumber : ProblemBase
     [ClassData(typeof(SingleNumber))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[2,2,1]").Result(1))
           .Add(it => it.ParamArray("[4,1,2,1,2]").Result(4))
           .Add(it => it.ParamArray("[1]").Result(1))

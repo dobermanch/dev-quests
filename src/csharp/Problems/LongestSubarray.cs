@@ -8,7 +8,7 @@ public sealed class LongestSubarray : ProblemBase
     [ClassData(typeof(LongestSubarray))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,1,0,1]").Result(3))
           .Add(it => it.ParamArray("[0,1,1,1,0,1,1,0,1]").Result(5))
           .Add(it => it.ParamArray("[1,1,1]").Result(2))

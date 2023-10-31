@@ -8,7 +8,7 @@ public sealed class MergeTwoLists : ProblemBase
     [ClassData(typeof(MergeTwoLists))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,4]").ParamListNode("[1,3,4]").ResultListNode("[1,1,2,3,4,4]"))
           .Add(it => it.ParamListNode("[]").ParamListNode("[]").ResultListNode("[]"))
           .Add(it => it.ParamListNode("[]").ParamListNode("[0]").ResultListNode("[0]"));

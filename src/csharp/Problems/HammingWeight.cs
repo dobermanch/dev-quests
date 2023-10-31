@@ -8,7 +8,7 @@ public sealed class HammingWeight : ProblemBase
     [ClassData(typeof(HammingWeight))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param<uint>(11).Result(3))
           .Add(it => it.Param<uint>(128).Result(1))
           .Add(it => it.Param<uint>(4294967293).Result(31));

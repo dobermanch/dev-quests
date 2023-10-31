@@ -8,7 +8,7 @@ public sealed class CountSubstrings : ProblemBase
     [ClassData(typeof(CountSubstrings))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abccba").Result(9))
           .Add(it => it.Param("abaaba").Result(11))
           .Add(it => it.Param("aaa").Result(6))

@@ -8,7 +8,7 @@ public sealed class IsPalindromeLinkedList : ProblemBase
     [ClassData(typeof(IsPalindromeLinkedList))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,2,1]").Result(true))
           .Add(it => it.ParamListNode("[1,2]").Result(false));
 

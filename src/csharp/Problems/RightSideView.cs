@@ -8,7 +8,7 @@ public sealed class RightSideView : ProblemBase
     [ClassData(typeof(RightSideView))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[1,2,3,null,5,null,4]").ResultArray("[1,3,4]"))
             .Add(it => it.ParamTree("[1,2,3,null,5,6,null,4]").ResultArray("[1,3,6,4]"))
             .Add(it => it.ParamTree("[1,null,3,2,5,null,null,4]").ResultArray("[1,3,5,4]"))

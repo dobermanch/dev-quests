@@ -8,7 +8,7 @@ public sealed class LongestCommonPrefix : ProblemBase
     [ClassData(typeof(LongestCommonPrefix))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray<string>("""["flower", "flow", "flight"]""").Result("fl"))
           .Add(it => it.ParamArray<string>("""["dog","racecar","car"]""").Result(""))
           .Add(it => it.ParamArray<string>("""["cir","car"]""").Result("c"))

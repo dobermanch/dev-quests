@@ -8,7 +8,7 @@ public sealed class FindOrder : ProblemBase
     [ClassData(typeof(FindOrder))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(4).Param2dArray("[[2,0],[1,0],[3,1],[3,2],[1,3]]").ResultArray("[]"))
             .Add(it => it.Param(3).Param2dArray("[[1,0],[1,2],[0,1]]").ResultArray("[]"))
             .Add(it => it.Param(3).Param2dArray("[[0,2],[1,2],[2,0]]").ResultArray("[]"))

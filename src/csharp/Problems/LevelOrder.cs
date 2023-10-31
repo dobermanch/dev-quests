@@ -8,7 +8,7 @@ public sealed class LevelOrder : ProblemBase
     [ClassData(typeof(LevelOrder))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,9,20,null,null,15,7]").Result2dArray("[[3],[9,20],[15,7]]"))
           .Add(it => it.ParamTree("[1]").Result2dArray("[[1]]"))
           .Add(it => it.ParamTree("[]").Result2dArray("[]"))

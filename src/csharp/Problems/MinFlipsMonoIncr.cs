@@ -8,7 +8,7 @@ public sealed class MinFlipsMonoIncr : ProblemBase
     [ClassData(typeof(MinFlipsMonoIncr))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("00110").Result(1))
           .Add(it => it.Param("010110").Result(2))
           .Add(it => it.Param("00011000").Result(2))

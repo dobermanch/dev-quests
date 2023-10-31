@@ -8,7 +8,7 @@ public sealed class StockSpanner : ProblemBase
     [ClassData(typeof(StockSpanner))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<int>("""[[],[73],[99],[41],[68],[32],[22],[72],[1],[83],[53]]""", true)
                        .ParamArray<string>("""["StockSpanner","next","next","next","next","next","next","next","next","next","next"]""")
                        .ResultArray<object?>("[null,1,2,1,2,1,1,5,1,7,1]", true))

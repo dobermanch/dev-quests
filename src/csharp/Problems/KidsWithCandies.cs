@@ -8,7 +8,7 @@ public sealed class KidsWithCandies : ProblemBase
     [ClassData(typeof(KidsWithCandies))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[2,3,5,1,3]").Param(3).ResultArray<bool>("[true,true,true,false,true]"))
           .Add(it => it.ParamArray("[4,2,1,1,2]").Param(1).ResultArray<bool>("[true,false,false,false,false]"))
           .Add(it => it.ParamArray("[12,1,12]").Param(10).ResultArray<bool>("[true,false,true]"));

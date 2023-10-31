@@ -10,7 +10,7 @@ public sealed class RemoveStones : ProblemBase
     [ClassData(typeof(RemoveStones))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => //AddSolutions(nameof(Solution1))
            Add(it => it.Param2dArray("[[0,1],[1,0]]").Result(0))
           .Add(it => it.Param2dArray("[[3,2],[3,1],[4,4],[1,1],[0,2],[4,0]]").Result(4))

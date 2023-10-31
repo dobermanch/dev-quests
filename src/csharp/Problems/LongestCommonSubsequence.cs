@@ -8,7 +8,7 @@ public sealed class LongestCommonSubsequence : ProblemBase
     [ClassData(typeof(LongestCommonSubsequence))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abcde").Param("ace").Result(3))
           .Add(it => it.Param("bsbininm").Param("jmjkbkjkv").Result(1))
           .Add(it => it.Param("abcba").Param("abcbcba").Result(5))

@@ -8,7 +8,7 @@ public sealed class Reverse : ProblemBase
     [ClassData(typeof(Reverse))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(123).Result(321))
           .Add(it => it.Param(-123).Result(-321))
           .Add(it => it.Param(120).Result(21))

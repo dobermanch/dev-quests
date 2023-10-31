@@ -8,7 +8,7 @@ public sealed class FindKthLargest : ProblemBase
     [ClassData(typeof(FindKthLargest))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(2).Result(5))
           .Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(1).Result(6))
           .Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(6).Result(1))

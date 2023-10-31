@@ -8,7 +8,7 @@ public sealed class IsSubtree : ProblemBase
     [ClassData(typeof(IsSubtree))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,4,5,1,2]").ParamTree("[4,1,2]").Result(true))
           .Add(it => it.ParamTree("[3,4,5,1,null,2]").ParamTree("[3,1,2]").Result(false))
           .Add(it => it.ParamTree("[3,4,5,1,2,null,null,null,null,0]").ParamTree("[4,1,2]").Result(false))

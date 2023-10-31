@@ -8,7 +8,7 @@ public sealed class LengthOfLongestSubstring : ProblemBase
     [ClassData(typeof(LengthOfLongestSubstring))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("pawwkesw").Result(4))
             .Add(it => it.Param("pwawkesw").Result(5))
             .Add(it => it.Param("pwwkew").Result(3))

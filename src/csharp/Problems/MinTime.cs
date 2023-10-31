@@ -8,7 +8,7 @@ public sealed class MinTime : ProblemBase
     [ClassData(typeof(MinTime))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(7).Param2dArray("[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]]").ParamArray<bool>("[false,false,true,false,true,true,false]").Result(8))
           .Add(it => it.Param(7).Param2dArray("[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]]").ParamArray<bool>("[false,false,true,false,false,true,false]").Result(6))
           .Add(it => it.Param(7).Param2dArray("[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]]").ParamArray<bool>("[false,false,false,false,false,false,false]").Result(0))

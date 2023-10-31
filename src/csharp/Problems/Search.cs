@@ -7,7 +7,7 @@ public sealed class Search : ProblemBase
     [ClassData(typeof(Search))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray(5, 1, 2, 3, 4).Param(1).Result(1))
           .Add(it => it.ParamArray(4, 5, 6, 7, 8, 1, 2, 3).Param(8).Result(4))
           .Add(it => it.ParamArray(5, 1, 3).Param(5).Result(0))

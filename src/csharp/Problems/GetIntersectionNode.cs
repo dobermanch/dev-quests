@@ -8,7 +8,7 @@ public sealed class GetIntersectionNode : ProblemBase
     [ClassData(typeof(GetIntersectionNode))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it =>
            {
                var tail = ListNode.Parse("[8,4,5]")!;

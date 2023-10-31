@@ -8,7 +8,7 @@ public sealed class PartitionLabels : ProblemBase
     [ClassData(typeof(PartitionLabels))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("ababcbacadefegdehijhklij").ResultArray("[9,7,8]"))
           .Add(it => it.Param("abcde").ResultArray("[1,1,1,1,1]"))
           .Add(it => it.Param("abade").ResultArray("[3,1,1]"))

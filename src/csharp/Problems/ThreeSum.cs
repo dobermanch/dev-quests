@@ -8,7 +8,7 @@ public sealed class ThreeSum : ProblemBase
     [ClassData(typeof(ThreeSum))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[-2,0,1,1,2]").Result2dArray("[[-2,0,2],[-2,1,1]]"))
           .Add(it => it.ParamArray("[-1,0,1,2,-1,-4]").Result2dArray("[[-1,-1,2],[-1,0,1]]"))
           .Add(it => it.ParamArray("[0,1,1]").Result2dArray("[]"))

@@ -8,7 +8,7 @@ public sealed class FindAnagrams : ProblemBase
     [ClassData(typeof(FindAnagrams))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("cbaebabacd").Param("abc").ResultArray("[0,6]"))
             .Add(it => it.Param("abab").Param("ab").ResultArray("[0,1,2]"));
 

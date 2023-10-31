@@ -8,7 +8,7 @@ public sealed class MaximumWealth : ProblemBase
     [ClassData(typeof(MaximumWealth))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,2,3],[3,2,1]]").Result(6))
           .Add(it => it.Param2dArray("[[1,5],[7,3],[3,5]]").Result(10))
           .Add(it => it.Param2dArray("[[2,8,7],[7,1,3],[1,9,5]]").Result(17))

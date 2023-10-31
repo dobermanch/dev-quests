@@ -8,7 +8,7 @@ public sealed class DeleteMiddle : ProblemBase
     [ClassData(typeof(DeleteMiddle))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,3,4,7,1,2,6]").ResultListNode("[1,3,4,1,2,6]"))
           .Add(it => it.ParamListNode("[1,2,3,4]").ResultListNode("[1,2,4]"))
           .Add(it => it.ParamListNode("[1,2,3]").ResultListNode("[1,3]"))

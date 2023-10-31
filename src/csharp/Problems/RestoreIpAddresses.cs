@@ -8,7 +8,7 @@ public sealed class RestoreIpAddresses : ProblemBase
     [ClassData(typeof(RestoreIpAddresses))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("25525511135").ResultArray<string>("""["255.255.11.135","255.255.111.35"]"""))
           .Add(it => it.Param("0000").ResultArray<string>("""["0.0.0.0"]"""))
           .Add(it => it.Param("101023").ResultArray<string>("""["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]"""))

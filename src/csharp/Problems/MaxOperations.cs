@@ -8,7 +8,7 @@ public sealed class MaxOperations : ProblemBase
     [ClassData(typeof(MaxOperations))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3,4]").Param(5).Result(2))
           .Add(it => it.ParamArray("[3,1,3,4,3]").Param(6).Result(1))
           .Add(it => it.ParamArray("[4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4]").Param(2).Result(2));

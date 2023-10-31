@@ -8,7 +8,7 @@ public sealed class FloodFill : ProblemBase
     [ClassData(typeof(FloodFill))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,1,1],[1,1,0],[1,0,1]]").Param(1).Param(1).Param(2).Result2dArray("[[2,2,2],[2,2,0],[2,0,1]]"))
             .Add(it => it.Param2dArray("[[0,0,0],[0,0,0]]").Param(0).Param(0).Param(0).Result2dArray("[[0,0,0],[0,0,0]]"));
 

@@ -8,7 +8,7 @@ public sealed class MyQueue : ProblemBase
     [ClassData(typeof(MyQueue))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases() 
+    protected override void AddTestCases() 
         => Instructions<CustomQueue, int[]>(config =>
                 config
                     .MapConstructor("MyQueue")

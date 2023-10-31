@@ -8,7 +8,7 @@ public sealed class SpiralOrder2 : ProblemBase
     [ClassData(typeof(SpiralOrder2))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(3).Result2dArray("[[1,2,3],[8,9,4],[7,6,5]]"))
           .Add(it => it.Param(4).Result2dArray("[[1,2,3,4],[12,13,14,5],[11,16,15,6],[10,9,8,7]]"))
           .Add(it => it.Param(5).Result2dArray("[[1,2,3,4,5],[16,17,18,19,6],[15,24,25,20,7],[14,23,22,21,8],[13,12,11,10,9]]"))

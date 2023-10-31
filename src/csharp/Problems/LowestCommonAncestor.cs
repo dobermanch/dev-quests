@@ -8,7 +8,7 @@ public sealed class LowestCommonAncestor : ProblemBase
     [ClassData(typeof(LowestCommonAncestor))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,5,1,6,2,0,8,null,null,7,4]").ParamTree("[5]").ParamTree("[1]").ResultTree("[3,5,1,6,2,0,8,null,null,7,4]"))
           .Add(it => it.ParamTree("[3,5,1,6,2,0,8,null,null,7,4]").ParamTree("[5]").ParamTree("[4]").ResultTree("[5,6,2,null,null,7,4]"))
           .Add(it => it.ParamTree("[3,5,1,6,2,0,8,null,null,7,4]").ParamTree("[6]").ParamTree("[7]").ResultTree("[5,6,2,null,null,7,4]"))

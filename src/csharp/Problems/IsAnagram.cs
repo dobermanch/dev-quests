@@ -8,7 +8,7 @@ public sealed class IsAnagram : ProblemBase
     [ClassData(typeof(IsAnagram))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("anagram").Param("nagaram").Result(true))
           .Add(it => it.Param("anagram").Param("nagara").Result(false))
           .Add(it => it.Param("rat").Param("car").Result(false));

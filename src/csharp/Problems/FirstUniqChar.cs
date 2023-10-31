@@ -8,7 +8,7 @@ public sealed class FirstUniqChar : ProblemBase
     [ClassData(typeof(FirstUniqChar))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("leetcode").Result(0))
           .Add(it => it.Param("loveleetcode").Result(2))
           .Add(it => it.Param("leetcffjfjrmmsparvnwllffzode").Result(3))

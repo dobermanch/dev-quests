@@ -8,7 +8,7 @@ public sealed class WordBreak : ProblemBase
     [ClassData(typeof(WordBreak))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("leetcode").ParamArray<string>("""["leet","code"]""").Result(true))
           .Add(it => it.Param("applepenapple").ParamArray<string>("""["apple","pen"]""").Result(true))
           .Add(it => it.Param("catsandog").ParamArray<string>("""["cats","dog","sand","and","cat"]""").Result(false));

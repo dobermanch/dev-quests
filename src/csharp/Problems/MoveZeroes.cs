@@ -8,7 +8,7 @@ public sealed class MoveZeroes : ProblemBase
     [ClassData(typeof(MoveZeroes))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[0,1,0,3,12]").ResultArray("[1,3,12,0,0]"))
           .Add(it => it.ParamArray("[1]").ResultArray("[1]"))
           .Add(it => it.ParamArray("[0,1,0]").ResultArray("[1,0,0]"))

@@ -8,7 +8,7 @@ public sealed class BinarySearch : ProblemBase
     [ClassData(typeof(BinarySearch))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[-1, 0, 3, 5, 9, 12]").Param(2).Result(-1))
             .Add(it => it.ParamArray("[-1,0,3,5,9,12]").Param(9).Result(4));
 

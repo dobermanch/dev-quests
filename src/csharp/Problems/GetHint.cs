@@ -8,7 +8,7 @@ public sealed class GetHint : ProblemBase
     [ClassData(typeof(GetHint))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("1807").Param("7810").Result("1A3B"))
           .Add(it => it.Param("1123").Param("0111").Result("1A1B"))
           .Add(it => it.Param("1122").Param("1222").Result("3A0B"))

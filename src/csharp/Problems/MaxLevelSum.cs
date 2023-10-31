@@ -8,7 +8,7 @@ public sealed class MaxLevelSum : ProblemBase
     [ClassData(typeof(MaxLevelSum))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[1,7,0,7,-8,null,null]").Result(2))
           .Add(it => it.ParamTree("[989,null,10250,98693,-89388,null,null,null,-32127]").Result(2));
 

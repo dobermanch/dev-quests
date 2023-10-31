@@ -8,7 +8,7 @@ public sealed class DeleteNode : ProblemBase
     [ClassData(typeof(DeleteNode))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[5,3,6,2,4,null,7]").Param(3).ResultTree("[5,4,6,2,null,null,7]"))
           .Add(it => it.ParamTree("[5,3,6,2,4,null,7]").Param(5).ResultTree("[6,3,7,2,4]"))
           .Add(it => it.ParamTree("[10,5,11,2,7,null,12,1,null,null,8]").Param(5).ResultTree("[10,7,11,2,8,null,12,1]"))

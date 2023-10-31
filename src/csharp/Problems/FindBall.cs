@@ -8,7 +8,7 @@ public sealed class FindBall : ProblemBase
     [ClassData(typeof(FindBall))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]").ResultArray("[1,-1,-1,-1,-1]"))
              .Add(it => it.Param2dArray("[[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1]]").ResultArray("[0,1,2,3,4,-1]"))
              .Add(it => it.Param2dArray("[[-1]]").ResultArray("[-1]"));

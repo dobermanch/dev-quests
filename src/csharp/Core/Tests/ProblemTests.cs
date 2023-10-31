@@ -11,7 +11,7 @@ public sealed class ProblemTests : ProblemBase
     [ClassData(typeof(ProblemTests))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(_param1).Param(_param2).Param(_param3.ToArray()).Result(_result))
           .Add(it => it.Param(_param1).Param(_param2).Param(_param3.ToArray()).Result(_result));
 

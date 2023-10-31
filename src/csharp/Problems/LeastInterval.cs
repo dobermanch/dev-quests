@@ -8,7 +8,7 @@ public sealed class LeastInterval : ProblemBase
     [ClassData(typeof(LeastInterval))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray<char>("""["A","A","A","B","B","B"]""").Param(2).Result(8))
           .Add(it => it.ParamArray<char>("""["A","A","A","B","B","B"]""").Param(0).Result(6))
           .Add(it => it.ParamArray<char>("[]").Param(3).Result(0))

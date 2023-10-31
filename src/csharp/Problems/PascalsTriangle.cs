@@ -8,7 +8,7 @@ public sealed class PascalsTriangle : ProblemBase
     [ClassData(typeof(PascalsTriangle))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(5).Result2dArray("[[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]"))
           .Add(it => it.Param(1).Result2dArray("[[1]]"));
 

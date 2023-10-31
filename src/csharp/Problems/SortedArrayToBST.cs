@@ -8,7 +8,7 @@ public sealed class SortedArrayToBst : ProblemBase
     [ClassData(typeof(SortedArrayToBst))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray(-10,-3,0,5,9).ResultTree("[0,-3,9,-10,null,5]"))
           .Add(it => it.ParamArray(1,3).ResultTree("[3,1]"))
           .Add(it => it.ParamArray(-10,-3,0,5,9).ResultTree("[0,-3,9,-10,null,5]"))

@@ -8,7 +8,7 @@ public sealed class Trie : ProblemBase
     [ClassData(typeof(Trie))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<string>(@"[[], [""apple""], [""apple""], [""app""], [""app""], [""app""], [""app""]]", true)
             .ParamArray("Trie", "insert", "search", "search", "startsWith", "insert", "search")
             .ResultArray<object?>(null, null, true, false, true, null, true))

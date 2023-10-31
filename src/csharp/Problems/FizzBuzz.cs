@@ -8,7 +8,7 @@ public sealed class FizzBuzz : ProblemBase
     [ClassData(typeof(FizzBuzz))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(3).ResultArray<string>("""["1","2","Fizz"]"""))
           .Add(it => it.Param(5).ResultArray<string>("""["1","2","Fizz","4","Buzz"]"""))
           .Add(it => it.Param(15).ResultArray<string>("""["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]"""));

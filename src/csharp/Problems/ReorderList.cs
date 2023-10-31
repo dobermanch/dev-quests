@@ -8,7 +8,7 @@ public sealed class ReorderList : ProblemBase
     [ClassData(typeof(ReorderList))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,3,4,5,6,7,8,9,10,11]").ResultListNode("[1,11,2,10,3,9,4,8,5,7,6]"))
           .Add(it => it.ParamListNode("[1,2,3,4,5,6,7,8,9,10]").ResultListNode("[1,10,2,9,3,8,4,7,5,6]"))
           .Add(it => it.ParamListNode("[1,2,3,4,5,6,7,8,9,10,11,12,13,14]").ResultListNode("[1,14,2,13,3,12,4,11,5,10,6,9,7,8]"))

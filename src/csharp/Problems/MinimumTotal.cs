@@ -8,7 +8,7 @@ public sealed class MinimumTotal : ProblemBase
     [ClassData(typeof(MinimumTotal))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[2],[3,4],[6,5,7],[4,1,8,3]]").Result(11))
           .Add(it => it.Param2dArray("[[2],[3,4],[6,5,4],[4,1,8,3]]").Result(11))
           .Add(it => it.Param2dArray("[[2],[3,4],[6,5,4],[3,4,3,2]]").Result(12))

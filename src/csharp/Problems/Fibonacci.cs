@@ -8,7 +8,7 @@ public sealed class Fibonacci : ProblemBase
     [ClassData(typeof(Fibonacci))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(2).Result(1))
             .Add(it => it.Param(3).Result(2))
             .Add(it => it.Param(4).Result(3))

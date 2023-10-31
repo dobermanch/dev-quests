@@ -8,7 +8,7 @@ public sealed class FindRepeatedDnaSequences : ProblemBase
     [ClassData(typeof(FindRepeatedDnaSequences))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT").ResultArray<string>("""["AAAAACCCCC","CCCCCAAAAA"]"""))
           .Add(it => it.Param("AAAAAAAAAA").ResultArray<string>("""[]"""))
           .Add(it => it.Param("AAAAAAAAAAAAA").ResultArray<string>("""["AAAAAAAAAA"]"""))

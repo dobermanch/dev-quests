@@ -8,7 +8,7 @@ public sealed class EraseOverlapIntervals : ProblemBase
     [ClassData(typeof(EraseOverlapIntervals))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,2],[2,3],[3,4],[1,3]]").Result(1))
           .Add(it => it.Param2dArray("[[1,2],[1,2],[1,2]]").Result(2))
           .Add(it => it.Param2dArray("[[1,2],[2,3]]").Result(0));

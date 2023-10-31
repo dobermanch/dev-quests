@@ -8,7 +8,7 @@ public sealed class IsValidSudoku : ProblemBase
     [ClassData(typeof(IsValidSudoku))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<char>(
                         @"[['5','3','.','.','7','.','.','.','.']
                           ,['6', '.', '.', '1', '9', '5', '.', '.', '.']

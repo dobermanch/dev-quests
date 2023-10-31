@@ -8,7 +8,7 @@ public sealed class Calculate : ProblemBase
     [ClassData(typeof(Calculate))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("3+2*2").Result(7))
           .Add(it => it.Param(" 3/2 ").Result(1))
           .Add(it => it.Param(" 3+5 / 2 ").Result(5))

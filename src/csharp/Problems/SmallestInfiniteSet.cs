@@ -8,7 +8,7 @@ public sealed class SmallestInfiniteSet : ProblemBase
     [ClassData(typeof(SmallestInfiniteSet))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[],[2],[],[],[],[5],[],[],[5],[]]", true)
                        .ParamArray<string>("""["SmallestInfiniteSet","addBack","popSmallest","popSmallest","popSmallest","addBack","popSmallest","popSmallest","addBack","popSmallest"]""")
                        .ResultArray<object?>("[null,null,1,2,3,null,4,5,null,5]", true))

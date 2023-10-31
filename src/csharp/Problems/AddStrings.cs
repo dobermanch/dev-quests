@@ -8,7 +8,7 @@ public sealed class AddStrings : ProblemBase
     [ClassData(typeof(AddStrings))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("10").Param("12").Result("22"))
           .Add(it => it.Param("152").Param("12").Result("164"))
           .Add(it => it.Param("15").Param("122").Result("137"))

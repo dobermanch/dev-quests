@@ -8,7 +8,7 @@ public sealed class SearchBST : ProblemBase
     [ClassData(typeof(SearchBST))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[4,2,7,1,3]").Param(2).ResultTree("[2,1,3]"))
           .Add(it => it.ParamTree("[4,2,7,1,3]").Param(5).ResultTree("[]"));
 

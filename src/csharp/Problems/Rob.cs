@@ -8,7 +8,7 @@ public sealed class Rob : ProblemBase
     [ClassData(typeof(Rob))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3,12,1,3,15,2,4,5,7]").Result(40))
           .Add(it => it.ParamArray("[1,2,3,1,12,3,5,2,4,5,7]").Result(32))
           .Add(it => it.ParamArray("[1,2,3,1]").Result(4))

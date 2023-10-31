@@ -8,7 +8,7 @@ public sealed class EvalRPN : ProblemBase
     [ClassData(typeof(EvalRPN))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray<string>("""["2","1","+","3","*"]""").Result(9))
           .Add(it => it.ParamArray<string>("""["4","13","5","/","+"]""").Result(6))
           .Add(it => it.ParamArray<string>("""["10","6","9","3","+","-11","*","/","*","17","+","5","+"]""").Result(22));

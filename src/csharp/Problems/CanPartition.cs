@@ -8,7 +8,7 @@ public sealed class CanPartition : ProblemBase
     [ClassData(typeof(CanPartition))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,5,11,5]").Result(true))
           .Add(it => it.ParamArray("[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,95]").Result(true))
           .Add(it => it.ParamArray("[23,13,11,7,6,5,5]").Result(true))

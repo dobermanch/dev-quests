@@ -8,7 +8,7 @@ public sealed class IncreasingTriplet : ProblemBase
     [ClassData(typeof(IncreasingTriplet))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[20,100,10,12,5,13]").Result(true))
           .Add(it => it.ParamArray("[1,2,1,3]").Result(true))
           .Add(it => it.ParamArray("[5,1,6]").Result(false))

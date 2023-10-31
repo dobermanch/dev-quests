@@ -8,7 +8,7 @@ public sealed class KClosest : ProblemBase
     [ClassData(typeof(KClosest))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,3],[-2,2]]").Param(1).Result2dArray("[[-2,2]]"))
           .Add(it => it.Param2dArray("[[3,3],[5,-1],[-2,4]]").Param(2).Result2dArray("[[-2,4],[3,3]]"));
 

@@ -8,7 +8,7 @@ public sealed class ZigzagLevelOrder : ProblemBase
     [ClassData(typeof(ZigzagLevelOrder))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,9,20,null,null,15,7]").Result2dArray("[[3],[20,9],[15,7]]"))
           .Add(it => it.ParamTree("[3,9,20,8,10,15,7]").Result2dArray("[[3],[20,9],[8,10,15,7]]"))
           .Add(it => it.ParamTree("[1,3,2,4,5,6,7,15,14,13,12,11,10,9,8]").Result2dArray("[[1],[2,3],[4,5,6,7],[8,9,10,11,12,13,14,15]]"))

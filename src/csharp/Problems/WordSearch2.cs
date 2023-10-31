@@ -8,7 +8,7 @@ public sealed class WordSearch2 : ProblemBase
     [ClassData(typeof(WordSearch2))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<char>("""[['o','a','a','n'],['e','t','a','e'],['i','h','k','r'],['i','f','l','v']]""")
                        .ParamArray<string>("""["oath","pea","eat","rain"]""")
                        .ResultArray<string>("""["oath","eat"]"""))

@@ -8,7 +8,7 @@ public sealed class BrowserHistory : ProblemBase
     [ClassData(typeof(BrowserHistory))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<object>("""[["esgriv.com"],["cgrt.com"],["tip.com"],[9],["kttzxgh.com"],[7],["crqje.com"],["iybch.com"],[5],["uun.com"],[10],["hci.com"],["whula.com"],[10]]""", true)
                        .ParamArray<string>("""["BrowserHistory","visit","visit","back","visit","forward","visit","visit","forward","visit","back","visit","visit","forward"]""")
                        .ResultArray<object?>(null, null, null, "esgriv.com", null, "kttzxgh.com", null, null, "iybch.com", null, "esgriv.com", null, null, "whula.com"))

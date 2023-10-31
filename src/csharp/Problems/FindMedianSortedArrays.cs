@@ -8,7 +8,7 @@ public sealed class FindMedianSortedArrays : ProblemBase
     [ClassData(typeof(FindMedianSortedArrays))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3,4,5]").ParamArray("[1,2,3,4,5,6,7,8]").Result(4.0))
           .Add(it => it.ParamArray("[1,2,3,4]").ParamArray("[1,2,3,4,5,6,7,8]").Result(3.5))
           .Add(it => it.ParamArray("[1,3]").ParamArray("[2]").Result(2.0))

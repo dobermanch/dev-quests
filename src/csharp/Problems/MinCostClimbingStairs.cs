@@ -8,7 +8,7 @@ public sealed class MinCostClimbingStairs : ProblemBase
     [ClassData(typeof(MinCostClimbingStairs))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[10,15,20]").Result(15))
           .Add(it => it.ParamArray("[1,100,1,1,1,100,1,1,100,1]").Result(6))
         ;

@@ -8,7 +8,7 @@ public sealed class NumIslands : ProblemBase
     [ClassData(typeof(NumIslands))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<char>("""[["1", "1", "1", "1", "0"],["1", "1", "0", "1", "0"],["1", "1", "0", "0", "0"],["0", "0", "0", "0", "0"]]""").Result(1))
           .Add(it => it.Param2dArray<char>("""[["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]]""").Result(3))
         ;

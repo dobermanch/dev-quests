@@ -8,7 +8,7 @@ public sealed class IsPowerOfTwo : ProblemBase
     [ClassData(typeof(IsPowerOfTwo))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(1).Result(true))
           .Add(it => it.Param(0).Result(false))
           .Add(it => it.Param(-2147483648).Result(false))

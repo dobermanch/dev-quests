@@ -8,7 +8,7 @@ public sealed class Subsets : ProblemBase
     [ClassData(typeof(Subsets))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3]").Result2dArray("[[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]", true))
           .Add(it => it.ParamArray("[0]").Result2dArray("[[],[0]]", true));
 

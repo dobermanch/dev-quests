@@ -8,7 +8,7 @@ public sealed class DecodeString : ProblemBase
     [ClassData(typeof(DecodeString))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("3[a]2[bc]").Result("aaabcbc"))
             .Add(it => it.Param("3[a2[c]]3[f]").Result("accaccaccfff"))
             .Add(it => it.Param("3[a10[bc]]").Result("abcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbc"))

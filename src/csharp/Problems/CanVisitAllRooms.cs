@@ -8,7 +8,7 @@ public sealed class CanVisitAllRooms : ProblemBase
     [ClassData(typeof(CanVisitAllRooms))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1],[2],[3],[]]", true).Result(true))
           .Add(it => it.Param2dArray("[[1,3],[1,4],[2,3,4,1],[],[4,3,2]]", true).Result(true))
           .Add(it => it.Param2dArray("[[4],[3],[],[2,5,7],[1],[],[8,9],[],[],[6]]", true).Result(false))

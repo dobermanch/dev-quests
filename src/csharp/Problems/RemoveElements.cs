@@ -8,7 +8,7 @@ public sealed class RemoveElements : ProblemBase
     [ClassData(typeof(RemoveElements))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,6,3,4,5,6]").Param(6).ResultListNode("[1,2,3,4,5]"))
           .Add(it => it.ParamListNode("[1,2,6,3,4,5,6]").Param(1).ResultListNode("[2,6,3,4,5,6]"))
           .Add(it => it.ParamListNode("[7,7,7,7]").Param(7).ResultListNode("[]"))

@@ -8,7 +8,7 @@ public sealed class LongestPalindrome : ProblemBase
     [ClassData(typeof(LongestPalindrome))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abccccdd").Result(7))
             .Add(it => it.Param("a").Result(1));
 

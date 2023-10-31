@@ -8,7 +8,7 @@ public sealed class WordSearch : ProblemBase
     [ClassData(typeof(WordSearch))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<char>("""[['a','a']]""").Param("aaa").Result(false))
           .Add(it => it.Param2dArray<char>("""[['A','B','C','E'],['S','F','E','S'],['A','D','E','E']]""").Param("ABCESEEEFS").Result(true))
           .Add(it => it.Param2dArray<char>("""[['C','A','A'],['A','A','A'],['B','C','D']]""").Param("AAB").Result(true))

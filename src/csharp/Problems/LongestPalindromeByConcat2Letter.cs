@@ -8,7 +8,7 @@ public sealed class LongestPalindromeByConcat2Letter : ProblemBase
     [ClassData(typeof(LongestPalindromeByConcat2Letter))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("lc","cl","gg").Result(6))
           .Add(it => it.ParamArray("ab", "ty", "yt", "lc", "cl", "ab").Result(8))
           .Add(it => it.ParamArray("cc", "ll", "xx", "cc", "cc", "xx").Result(10))

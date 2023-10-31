@@ -8,7 +8,7 @@ public sealed class LRUCache : ProblemBase
     [ClassData(typeof(LRUCache))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<int>("""[[2],[2,1],[1,1],[2,3],[4,1],[1],[2]]""", true)
                 .ParamArray<string>("""["LRUCache","put","put","put","put","get","get"]""")
                 .ResultArray<object?>(null, null, null, null, null, -1, 3))

@@ -8,7 +8,7 @@ public sealed class MergeAlternately : ProblemBase
     [ClassData(typeof(MergeAlternately))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abc").Param("pqr").Result("apbqcr"))
           .Add(it => it.Param("ab").Param("pqrs").Result("apbqrs"))
           .Add(it => it.Param("abcd").Param("pq").Result("apbqcd"));

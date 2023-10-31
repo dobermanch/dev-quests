@@ -10,7 +10,7 @@ public sealed class LetterCombinations : ProblemBase
     [ClassData(typeof(LetterCombinations))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("23").ResultArray<string>("""["ad","ae","af","bd","be","bf","cd","ce","cf"]"""))
           .Add(it => it.Param("233").ResultArray<string>("""["add","ade","adf","aed","aee","aef","afd","afe","aff","bdd","bde","bdf","bed","bee","bef","bfd","bfe","bff","cdd","cde","cdf","ced","cee","cef","cfd","cfe","cff"]"""))
           .Add(it => it.Param("2").ResultArray<string>("""["a","b","c"]"""))

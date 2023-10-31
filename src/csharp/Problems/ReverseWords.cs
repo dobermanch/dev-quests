@@ -8,7 +8,7 @@ public sealed class ReverseWords : ProblemBase
     [ClassData(typeof(ReverseWords))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("the sky is blue").Result("blue is sky the"))
           .Add(it => it.Param("  hello world  ").Result("world hello"))
           .Add(it => it.Param("a good   example").Result("example good a"));

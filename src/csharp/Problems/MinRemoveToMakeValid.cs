@@ -8,7 +8,7 @@ public sealed class MinRemoveToMakeValid : ProblemBase
     [ClassData(typeof(MinRemoveToMakeValid))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("lee(t(c)o)de)").Result("lee(t(c)o)de"))
           .Add(it => it.Param("a)b(c)d").Result("ab(c)d"))
           .Add(it => it.Param("a)b()c)d").Result("ab()cd"))

@@ -8,7 +8,7 @@ public sealed class ProductExceptSelf : ProblemBase
     [ClassData(typeof(ProductExceptSelf))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[0,2,3,4]").ResultArray("[24,0,0,0]"))
           .Add(it => it.ParamArray("[1,2,3,4]").ResultArray("[24,12,8,6]"))
           .Add(it => it.ParamArray("[-1,1,0,-3,3]").ResultArray("[0,0,9,0,0]"))

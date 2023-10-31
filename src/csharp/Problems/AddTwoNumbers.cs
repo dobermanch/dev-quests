@@ -8,7 +8,7 @@ public sealed class AddTwoNumbers : ProblemBase
     [ClassData(typeof(AddTwoNumbers))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[2,4,3]").ParamListNode("[5,6,4]").ResultListNode("[7,0,8]"))
           .Add(it => it.ParamListNode("[0]").ParamListNode("[0]").ResultListNode("[0]"))
           .Add(it => it.ParamListNode("[9,9,9,9,9,9,9]").ParamListNode("[9,9,9,9]").ResultListNode("[8,9,9,9,0,0,0,1]"))

@@ -8,7 +8,7 @@ public sealed class UniquePaths : ProblemBase
     [ClassData(typeof(UniquePaths))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(3).Param(7).Result(28))
           .Add(it => it.Param(3).Param(2).Result(3))
         ;

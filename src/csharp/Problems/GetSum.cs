@@ -8,7 +8,7 @@ public sealed class GetSum : ProblemBase
     [ClassData(typeof(GetSum))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(-1).Param(1).Result(0))
           .Add(it => it.Param(17).Param(5).Result(22))
           .Add(it => it.Param(10).Param(12).Result(22))

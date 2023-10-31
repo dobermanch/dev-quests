@@ -8,7 +8,7 @@ public sealed class SetZeroes : ProblemBase
     [ClassData(typeof(SetZeroes))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(true, it => it.Param2dArray("[[1,1,1],[1,0,1],[1,1,1]]").Result2dArray("[[1,0,1],[0,0,0],[1,0,1]]"))
           .Add(it => it.Param2dArray("[[-4,-22,6,-7,0],[-8,6,-8,-6,0],[2,2,-9,-6,-10]]").Result2dArray("[[0,0,0,0,0],[0,0,0,0,0],[2,2,-9,-6,0]]"))
           .Add(it => it.Param2dArray("[[1,2,3,4],[5,0,7,8],[0,10,11,12],[13,14,15,0]]").Result2dArray("[[0,0,3,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]"))

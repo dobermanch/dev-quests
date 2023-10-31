@@ -8,7 +8,7 @@ public sealed class TimeMap : ProblemBase
     [ClassData(typeof(TimeMap))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<object>("""[[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]""", true)
                        .ParamArray<string>("""["TimeMap","set","get","get","set","get","get"]""")
                        .ResultArray<object?>(null, null, "bar", "bar", null, "bar2", "bar2"))

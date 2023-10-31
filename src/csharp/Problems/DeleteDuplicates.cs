@@ -8,7 +8,7 @@ public sealed class DeleteDuplicates : ProblemBase
     [ClassData(typeof(DeleteDuplicates))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,1,2]").ResultListNode("[1,2]"))
           .Add(it => it.ParamListNode("[]").ResultListNode("[]"))
           .Add(it => it.ParamListNode("[1,1,2,3,3]").ResultListNode("[1,2,3]"));

@@ -8,7 +8,7 @@ public sealed class SearchInsert : ProblemBase
     [ClassData(typeof(SearchInsert))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,3]").Param(2).Result(1))
           .Add(it => it.ParamArray("[1,3,5,6]").Param(5).Result(2))
           .Add(it => it.ParamArray("[1,3,5,6]").Param(2).Result(1))

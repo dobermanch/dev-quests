@@ -8,7 +8,7 @@ public sealed class FindJudge : ProblemBase
     [ClassData(typeof(FindJudge))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(2).Param2dArray("[[1,2]]").Result(2))
             .Add(it => it.Param(3).Param2dArray("[[1,3],[2,3]]").Result(3))
             .Add(it => it.Param(3).Param2dArray("[[1,3],[2,3],[3,1]]").Result(-1));

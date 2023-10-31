@@ -8,7 +8,7 @@ public sealed class Intersect : ProblemBase
     [ClassData(typeof(Intersect))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,2,1]").ParamArray("[2,2]").ResultArray("[2,2]"))
           .Add(it => it.ParamArray("[4,9,5]").ParamArray("[9,4,9,8,4]").ResultArray("[9,4]"));
 

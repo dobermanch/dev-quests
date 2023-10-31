@@ -8,7 +8,7 @@ public sealed class AddTwoIntegers : ProblemBase
     [ClassData(typeof(AddTwoIntegers))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(10).Param(12).Result(22))
           .Add(it => it.Param(15).Param(12).Result(27));
 

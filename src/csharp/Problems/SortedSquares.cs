@@ -8,7 +8,7 @@ public sealed class SortedSquares : ProblemBase
     [ClassData(typeof(SortedSquares))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[-10,-5,-4,-3,-2,-1,0,1,1,7]").ResultArray("[0,1,1,1,4,9,16,25,49,100]"))
           .Add(it => it.ParamArray("[-10,-7,-5,-4,-3,-2,-1,0,1,1,6]").ResultArray("[0,1,1,1,4,9,16,25,36,49,100]"))
           .Add(it => it.ParamArray("[-3,0,2]").ResultArray("[0,4,9]"))

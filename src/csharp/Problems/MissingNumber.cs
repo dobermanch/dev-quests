@@ -8,7 +8,7 @@ public sealed class MissingNumber : ProblemBase
     [ClassData(typeof(MissingNumber))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[3,0,1]").Result(2))
           .Add(it => it.ParamArray("[0,1]").Result(2))
           .Add(it => it.ParamArray("[9,6,4,2,3,5,7,0,1]").Result(8))

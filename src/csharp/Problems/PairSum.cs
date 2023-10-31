@@ -8,7 +8,7 @@ public sealed class PairSum : ProblemBase
     [ClassData(typeof(PairSum))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,3,4,5,6,7,8,9,10]").Result(11))
           .Add(it => it.ParamListNode("[5,4,2,1]").Result(6))
           .Add(it => it.ParamListNode("[4,2,2,3]").Result(7))

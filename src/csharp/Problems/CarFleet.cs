@@ -8,7 +8,7 @@ public sealed class CarFleet : ProblemBase
     [ClassData(typeof(CarFleet))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(12).ParamArray("[10,8,0,5,3]").ParamArray("[2,4,1,1,3]").Result(3))
           .Add(it => it.Param(10).ParamArray("[6,8]").ParamArray("[3,2]").Result(2))
           .Add(it => it.Param(10).ParamArray("[3]").ParamArray("[3]").Result(1))

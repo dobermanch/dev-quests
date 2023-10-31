@@ -8,7 +8,7 @@ public sealed class RecentCounter : ProblemBase
     [ClassData(typeof(RecentCounter))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<int>("[[], [1], [100], [3001], [3002]]", true)
                        .ParamArray<string>("""["RecentCounter", "ping", "ping", "ping", "ping"]""")
                        .ResultArray<int?>("[null, 1, 2, 3, 3]"));

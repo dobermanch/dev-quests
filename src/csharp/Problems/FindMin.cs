@@ -8,7 +8,7 @@ public sealed class FindMin : ProblemBase
     [ClassData(typeof(FindMin))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[3,4,5,1,2]").Result(1))
           .Add(it => it.ParamArray("[2,1]").Result(1))
           .Add(it => it.ParamArray("[1,2]").Result(1))

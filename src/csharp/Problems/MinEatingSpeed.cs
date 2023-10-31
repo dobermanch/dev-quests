@@ -8,7 +8,7 @@ public sealed class MinEatingSpeed : ProblemBase
     [ClassData(typeof(MinEatingSpeed))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[3,6,7,11]").Param(8).Result(4))
           .Add(it => it.ParamArray("[312884470]").Param(312884469).Result(2))
           .Add(it => it.ParamArray("[1000000000]").Param(2).Result(500000000))

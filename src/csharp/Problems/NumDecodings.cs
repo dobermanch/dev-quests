@@ -8,7 +8,7 @@ public sealed class NumDecodings : ProblemBase
     [ClassData(typeof(NumDecodings))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("1241").Result(3))
           .Add(it => it.Param("1010").Result(1))
           .Add(it => it.Param("1201234").Result(3))

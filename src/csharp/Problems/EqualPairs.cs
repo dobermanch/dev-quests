@@ -8,7 +8,7 @@ public sealed class EqualPairs : ProblemBase
     [ClassData(typeof(EqualPairs))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[3,2,1],[1,7,6],[2,7,7]]").Result(1))
           .Add(it => it.Param2dArray("[[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]]").Result(3));
 

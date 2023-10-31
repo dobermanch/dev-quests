@@ -8,7 +8,7 @@ public sealed class Merge : ProblemBase
     [ClassData(typeof(Merge))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[4,5,6,0,0,0]").Param(3).ParamArray("[1,2,3]").Param(3).ResultArray("[1,2,3,4,5,6]"))
           .Add(it => it.ParamArray("[1,3,5,0,0,0]").Param(3).ParamArray("[2,4,6]").Param(3).ResultArray("[1,2,3,4,5,6]"))
           .Add(it => it.ParamArray("[1,2,3,0,0,0]").Param(3).ParamArray("[2,5,6]").Param(3).ResultArray("[1,2,2,3,5,6]"))

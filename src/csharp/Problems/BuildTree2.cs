@@ -8,7 +8,7 @@ public sealed class BuildTree2 : ProblemBase
     [ClassData(typeof(BuildTree2))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[9,3,15,20,7]").ParamArray("[9,15,7,20,3]").ResultTree("[3,9,20,null,null,15,7]"))
           .Add(it => it.ParamArray("[-1]").ParamArray("[-1]").ResultTree("[-1]"));
 

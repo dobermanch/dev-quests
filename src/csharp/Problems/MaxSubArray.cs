@@ -8,7 +8,7 @@ public sealed class MaxSubArray : ProblemBase
     [ClassData(typeof(MaxSubArray))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[-2,1,-3,4,-1,2,1,-5,4]").Result(6))
           .Add(it => it.ParamArray("[1]").Result(1))
           .Add(it => it.ParamArray("[-1]").Result(-1))

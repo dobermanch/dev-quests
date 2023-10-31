@@ -8,7 +8,7 @@ public sealed class MergeTrees : ProblemBase
     [ClassData(typeof(MergeTrees))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[1,3,2,5]").ParamTree("[2,1,3,null,4,null,7]").ResultTree("[3,4,5,5,4,null,7]"))
           .Add(it => it.ParamTree("[1,3,2,5]").ParamTree("[]").ResultTree("[1,3,2,5]"))
           .Add(it => it.ParamTree("[]").ParamTree("[]").ResultTree("[]"))

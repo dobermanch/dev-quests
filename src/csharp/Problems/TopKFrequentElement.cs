@@ -8,7 +8,7 @@ public sealed class TopKFrequentElement : ProblemBase
     [ClassData(typeof(TopKFrequentElement))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,1,1,2,2,3]").Param(2).ResultArray("[1,2]"))
           .Add(it => it.ParamArray("[1]").Param(1).ResultArray("[1]"));
 

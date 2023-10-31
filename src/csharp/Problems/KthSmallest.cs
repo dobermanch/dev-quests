@@ -8,7 +8,7 @@ public sealed class KthSmallest : ProblemBase
     [ClassData(typeof(KthSmallest))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[5, 3, 6, 2, 4, null, null, 1]").Param(3).Result(3))
           .Add(it => it.ParamTree("[3, 1, 4, null, 2]").Param(1).Result(1))
           .Add(it => it.ParamTree("[5, 3, 6, 2, 4, null, null, 1]").Param(6).Result(6));

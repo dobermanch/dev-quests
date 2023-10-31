@@ -8,7 +8,7 @@ public sealed class MergeInterval : ProblemBase
     [ClassData(typeof(MergeInterval))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,3],[2,6],[8,10],[15,18]]").Result2dArray("[[1,6],[8,10],[15,18]]"))
           .Add(it => it.Param2dArray("[[1,4],[4,5]]").Result2dArray("[[1,5]]"))
           .Add(it => it.Param2dArray("[[1,6],[4,5]]").Result2dArray("[[1,6]]"))

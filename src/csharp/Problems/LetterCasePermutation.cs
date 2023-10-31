@@ -8,7 +8,7 @@ public sealed class LetterCasePermutation : ProblemBase
     [ClassData(typeof(LetterCasePermutation))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("a1b2").ResultArray("a1b2","a1B2","A1B2","A1b2"))
           .Add(it => it.Param("3z4").ResultArray("3z4","3Z4"))
           .Add(it => it.Param("sd3E42D").ResultArray("sd3E42D","sd3E42d","sd3e42d","sd3e42D","sD3e42D","sD3e42d","sD3E42d","sD3E42D","SD3E42D","SD3E42d","SD3e42d","SD3e42D","Sd3e42D","Sd3e42d","Sd3E42d","Sd3E42D"));

@@ -8,7 +8,7 @@ public sealed class MedianFinder : ProblemBase
     [ClassData(typeof(MedianFinder))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("""[[],[1],[2],[],[3],[],[4],[]]""", true)
                 .ParamArray<string>("""["MedianFinder","addNum","addNum","findMedian","addNum","findMedian","addNum","findMedian"]""")
                 .ResultArray<object?>(null, null, null, 1.5, null, 2.0, null, 2.5))

@@ -8,7 +8,7 @@ public sealed class MyHashMap : ProblemBase
     [ClassData(typeof(MyHashMap))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray<int>("""[[], [1, 1], [2, 2], [1], [3], [2, 1], [2], [2], [2]]""", true)
                        .ParamArray<string>("""["MyHashMap", "put", "put", "get", "get", "put", "get", "remove", "get"]""")
                        .ResultArray<object?>(null, null, null, 1, -1, null, 1, null, -1));

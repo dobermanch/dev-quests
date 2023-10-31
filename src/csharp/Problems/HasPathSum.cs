@@ -8,7 +8,7 @@ public sealed class HasPathSum : ProblemBase
     [ClassData(typeof(HasPathSum))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[5,4,8,11,null,13,4,7,2,null,null,null,1]").Param(22).Result(true))
           .Add(it => it.ParamTree("[1,-2,-3,1,3,-2,null,-1]").Param(-1).Result(true))
           .Add(it => it.ParamTree("[5,4,8,11,null,13,4,7,2,null,null,null,2]").Param(6).Result(false))

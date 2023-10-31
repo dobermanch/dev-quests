@@ -8,7 +8,7 @@ public sealed class MaxDepth : ProblemBase
     [ClassData(typeof(MaxDepth))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,9,20,null,null,15,7]").Result(3))
           .Add(it => it.ParamTree("[3,9,20,null,null,15,7,12,34,4,34,34]").Result(5))
           .Add(it => it.ParamTree("[1,null,2]").Result(2))

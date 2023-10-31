@@ -7,7 +7,7 @@ public sealed class ReverseList : ProblemBase
     [ClassData(typeof(ReverseList))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,3,4,5]").ResultListNode("[5,4,3,2,1]"))
           .Add(it => it.ParamListNode("[1,2]").ResultListNode("[2,1]"))
           .Add(it => it.ParamListNode("[]").ResultListNode("[]"));

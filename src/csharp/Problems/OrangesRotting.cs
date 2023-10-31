@@ -8,7 +8,7 @@ public sealed class OrangesRotting : ProblemBase
     [ClassData(typeof(OrangesRotting))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamMatrix("[[1,1,1,1,1,1],[1,1,0,0,1,1],[0,1,1,0,1,1],[0,1,1,0,1,1],[1,1,0,0,1,2]]").Result(13))
           .Add(it => it.ParamMatrix("[[2,1,1,1,1,1],[1,1,0,0,1,1],[0,1,1,0,1,1],[0,1,1,0,1,1],[1,1,0,0,1,2]]").Result(6))
           .Add(it => it.ParamMatrix("[[2,1,1,1,1,1],[1,1,0,0,1,1],[0,1,1,0,1,1],[0,1,1,0,1,1],[1,1,0,0,1,1]]").Result(9))

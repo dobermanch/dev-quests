@@ -8,7 +8,7 @@ public sealed class FindSubsequences : ProblemBase
     [ClassData(typeof(FindSubsequences))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[4,6,7,7]").Result2dArray("[[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]"))
             .Add(it => it.ParamArray("[4,4,3,2,1]").Result2dArray("[[4,4]]"));
 

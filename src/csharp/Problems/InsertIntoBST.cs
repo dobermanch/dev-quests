@@ -8,7 +8,7 @@ public sealed class InsertIntoBST : ProblemBase
     [ClassData(typeof(InsertIntoBST))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[4,2,7,1,3]").Param(5).ResultTree("[4,2,7,1,3,5]"))
           .Add(it => it.ParamTree("[40,20,60,10,30,50,70]").Param(25).ResultTree("[40,20,60,10,30,50,70,null,null,25]"))
           .Add(it => it.ParamTree("[40,20,60,10,24,50,70]").Param(25).ResultTree("[40,20,60,10,24,50,70,null,null,null,25]"))

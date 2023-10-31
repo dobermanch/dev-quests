@@ -8,7 +8,7 @@ public sealed class IsValidParentheses : ProblemBase
     [ClassData(typeof(IsValidParentheses))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("()").Result(true))
           .Add(it => it.Param("()[]{}").Result(true))
           .Add(it => it.Param("(]").Result(false))

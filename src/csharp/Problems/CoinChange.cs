@@ -8,7 +8,7 @@ public sealed class CoinChange : ProblemBase
     [ClassData(typeof(CoinChange))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[10,6,5]").Param(27).Result(4))
             //.Add(it => it.ParamArray("[411,412,413,414,415,416,417,418,419,420,421,422]").Param(9864).Result(24))
             .Add(it => it.ParamArray("[186,419,83,408]").Param(6249).Result(20))

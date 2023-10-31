@@ -8,7 +8,7 @@ public sealed class ReverseVowels : ProblemBase
     [ClassData(typeof(ReverseVowels))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("hello").Result("holle"))
           .Add(it => it.Param("leetcode").Result("leotcede"));
 

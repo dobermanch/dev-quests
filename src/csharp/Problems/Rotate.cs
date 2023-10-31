@@ -8,7 +8,7 @@ public sealed class Rotate : ProblemBase
     [ClassData(typeof(Rotate))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3,4,5,6]").Param(4).ResultArray("[3,4,5,6,1,2]"))
           .Add(it => it.ParamArray("[1,2,3,4,5,6]").Param(3).ResultArray("[4,5,6,1,2,3]"))
           .Add(it => it.ParamArray("[1,2,3,4,5,6,7]").Param(3).ResultArray("[5,6,7,1,2,3,4]"))

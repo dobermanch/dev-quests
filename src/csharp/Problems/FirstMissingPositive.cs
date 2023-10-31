@@ -8,7 +8,7 @@ public sealed class FirstMissingPositive : ProblemBase
     [ClassData(typeof(FirstMissingPositive))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,0]").Result(3))
           .Add(it => it.ParamArray("[3,4,-1,1]").Result(2))
           .Add(it => it.ParamArray("[3,4,-1,1,2,-2]").Result(5))

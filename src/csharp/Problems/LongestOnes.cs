@@ -8,7 +8,7 @@ public sealed class LongestOnes : ProblemBase
     [ClassData(typeof(LongestOnes))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,1,1,0,0,0,1,1,1,1,0]").Param(2).Result(6))
           .Add(it => it.ParamArray("[0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1]").Param(3).Result(10));
 

@@ -8,7 +8,7 @@ public sealed class PivotIndex : ProblemBase
     [ClassData(typeof(PivotIndex))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,7,3,6,5,6]").Result(3))
           .Add(it => it.ParamArray("[1,2,3]").Result(-1))
           .Add(it => it.ParamArray("[2,1,-1]").Result(0))

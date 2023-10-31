@@ -8,7 +8,7 @@ public sealed class RemoveNthFromEnd : ProblemBase
     [ClassData(typeof(RemoveNthFromEnd))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamListNode("[1,2,3,4,5]").Param(2).ResultListNode("[1,2,3,5]"))
           .Add(it => it.ParamListNode("[1]").Param(1).ResultListNode("[]"))
           .Add(it => it.ParamListNode("[1,2]").Param(1).ResultListNode("[1]"))

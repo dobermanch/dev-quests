@@ -8,7 +8,7 @@ public sealed class Partition : ProblemBase
     [ClassData(typeof(Partition))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("aab").Result2dArray<string>("""[["a","a","b"],["aa","b"]]"""))
           .Add(it => it.Param("a").Result2dArray<string>("""[["a"]]"""))
         ;

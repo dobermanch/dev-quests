@@ -8,7 +8,7 @@ public sealed class ThreeSumClosest : ProblemBase
     [ClassData(typeof(ThreeSumClosest))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[0,0,0]").Param(1).Result(0))
           .Add(it => it.ParamArray("[0,3,97,102,200]").Param(300).Result(300))
           .Add(it => it.ParamArray("[2,2,4,5,6,7,7]").Param(14).Result(14))

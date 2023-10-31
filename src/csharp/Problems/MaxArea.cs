@@ -8,7 +8,7 @@ public sealed class MaxArea : ProblemBase
     [ClassData(typeof(MaxArea))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,8,6,2,5,4,8,3,7]").Result(49))
           .Add(it => it.ParamArray("[1,1]").Result(1));
 

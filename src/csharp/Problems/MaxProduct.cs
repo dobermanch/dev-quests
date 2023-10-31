@@ -8,7 +8,7 @@ public sealed class MaxProduct : ProblemBase
     [ClassData(typeof(MaxProduct))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[2,3,-2,4]").Result(6))
           .Add(it => it.ParamArray("[2,-5,3,-2,-7,3]").Result(126))
           .Add(it => it.ParamArray("[2,-5,-2,-4,3]").Result(24))

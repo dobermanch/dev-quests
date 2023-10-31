@@ -8,7 +8,7 @@ public sealed class IsPalindrome : ProblemBase
     [ClassData(typeof(IsPalindrome))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("A man, a plan, a canal: Panama").Result(true))
           .Add(it => it.Param("A man1, a plan, a canal: Pa1nama").Result(true))
           .Add(it => it.Param("race a car").Result(false))

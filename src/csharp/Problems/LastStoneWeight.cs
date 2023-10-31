@@ -8,7 +8,7 @@ public sealed class LastStoneWeight : ProblemBase
     [ClassData(typeof(LastStoneWeight))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[2,7,4,1,8,1]").Result(1))
           .Add(it => it.ParamArray("[1]").Result(1))
           .Add(it => it.ParamArray("[2, 2]").Result(0))

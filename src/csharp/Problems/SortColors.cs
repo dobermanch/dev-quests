@@ -8,7 +8,7 @@ public sealed class SortColors : ProblemBase
     [ClassData(typeof(SortColors))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[2,0,2,1,1,0]").ResultArray("[0,0,1,1,2,2]"))
           .Add(it => it.ParamArray("[0,2,1]").ResultArray("[0,1,2]"))
           .Add(it => it.ParamArray("[2,0,1]").ResultArray("[0,1,2]"))

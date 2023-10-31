@@ -8,7 +8,7 @@ public sealed class LengthOfLIS : ProblemBase
     [ClassData(typeof(LengthOfLIS))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[10,9,2,5,3,7,101,18]").Result(4))
           .Add(it => it.ParamArray("[0,1,0,3,2,3]").Result(4))
           .Add(it => it.ParamArray("[0,1,0,4,2,3]").Result(4))

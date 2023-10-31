@@ -8,7 +8,7 @@ public sealed class DetectCycle : ProblemBase
     //[ClassData(typeof(DetectCycle))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it =>
         {
             var tail = new ListNode(-4);

@@ -8,7 +8,7 @@ public sealed class IsSameTree : ProblemBase
     [ClassData(typeof(IsSameTree))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[1,2,3]").ParamTree("[1,2,3]").Result(true))
           .Add(it => it.ParamTree("[1,2]").ParamTree("[1,null,2]").Result(false))
           .Add(it => it.ParamTree("[1,2,1]").ParamTree("[1,1,2]").Result(false));

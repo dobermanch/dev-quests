@@ -8,7 +8,7 @@ public sealed class CountBits : ProblemBase
     [ClassData(typeof(CountBits))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(2).ResultArray("[0,1,1]"))
           .Add(it => it.Param(5).ResultArray("[0,1,1,2,1,2]"))
           .Add(it => it.Param(20).ResultArray("[0,1,1,2,1,2,2,3,1,2,2,3,2,3,3,4,1,2,2,3,2]"));

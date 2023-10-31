@@ -8,7 +8,7 @@ public sealed class FindMaxAverage : ProblemBase
     [ClassData(typeof(FindMaxAverage))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,12,-5,-6,50,3]").Param(4).Result(12.75000))
           .Add(it => it.ParamArray("[5]").Param(1).Result(5.0))
           .Add(it => it.ParamArray("[-1]").Param(1).Result(-1.0))

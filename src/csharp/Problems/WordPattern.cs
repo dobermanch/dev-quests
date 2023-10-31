@@ -8,7 +8,7 @@ public sealed class WordPattern : ProblemBase
     [ClassData(typeof(WordPattern))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abba").Param("dog cat cat dog").Result(true))
           .Add(it => it.Param("aaa").Param("aa aa aa aa").Result(false))
           .Add(it => it.Param("abc").Param("b c a").Result(true))

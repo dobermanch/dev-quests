@@ -8,7 +8,7 @@ public sealed class SubsetsWithDup : ProblemBase
     [ClassData(typeof(SubsetsWithDup))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,2]").Result2dArray("[[],[1],[1,2],[1,2,2],[2],[2,2]]", true))
           .Add(it => it.ParamArray("[4,4,4,1,4]").Result2dArray("[[],[1],[1,4],[1,4,4],[1,4,4,4],[1,4,4,4,4],[4],[4,4],[4,4,4],[4,4,4,4]]", true))
           .Add(it => it.ParamArray("[0]").Result2dArray("[[],[0]]", true));

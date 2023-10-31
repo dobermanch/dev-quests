@@ -8,7 +8,7 @@ public sealed class CopyRandomList : ProblemBase
     [ClassData(typeof(CopyRandomList))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it =>
             {
                 var node0 = new Node(7);

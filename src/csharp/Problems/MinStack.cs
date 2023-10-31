@@ -8,7 +8,7 @@ public sealed class MinStack : ProblemBase
     [ClassData(typeof(MinStack))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[],[2],[0],[3],[0],[],[],[],[],[],[],[]]", true)
                 .ParamArray("MinStack", "push", "push", "push", "push", "getMin", "pop", "getMin", "pop", "getMin", "pop", "getMin")
                 .ResultArray<object?>("[null, null, null, null, null, 0, null, 0, null, 0, null, 2]", true))

@@ -8,7 +8,7 @@ public sealed class LargestRectangleArea : ProblemBase
     [ClassData(typeof(LargestRectangleArea))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[4,2]").Result(4))
           .Add(it => it.ParamArray("[1]").Result(1))
           .Add(it => it.ParamArray("[1,1]").Result(2))

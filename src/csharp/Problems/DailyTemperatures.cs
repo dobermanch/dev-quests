@@ -8,7 +8,7 @@ public sealed class DailyTemperatures : ProblemBase
     [ClassData(typeof(DailyTemperatures))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamArray("[73,74,75,71,69,72,76,73]").ResultArray("[1,1,4,2,1,1,0,0]"))
           .Add(it => it.ParamArray("[73,74,75,75,69,72,76,73]").ResultArray("[1,1,4,3,1,1,0,0]"))
           .Add(it => it.ParamArray("[73,74,75,71,69,40,51,56,43,72,76,73]").ResultArray("[1,1,8,6,5,1,1,2,1,1,0,0]"))

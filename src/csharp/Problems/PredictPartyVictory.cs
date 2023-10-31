@@ -8,7 +8,7 @@ public sealed class PredictPartyVictory : ProblemBase
     [ClassData(typeof(PredictPartyVictory))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("RD").Result("Radiant"))
           .Add(it => it.Param("RDD").Result("Dire"))
           .Add(it => it.Param("RRDDD").Result("Radiant"))

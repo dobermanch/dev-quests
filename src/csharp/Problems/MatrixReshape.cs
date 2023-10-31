@@ -8,7 +8,7 @@ public sealed class MatrixReshape : ProblemBase
     [ClassData(typeof(MatrixReshape))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param2dArray("[[1,2,3,4],[3,4,5,6],[3,4,5,6],[3,4,5,6]]").Param(2).Param(8).Result2dArray("[[1,2,3,4,3,4,5,6],[3,4,5,6,3,4,5,6]]"))
           .Add(it => it.Param2dArray("[[1,2],[3,4]]").Param(1).Param(4).Result2dArray("[[1,2,3,4]]"))
           .Add(it => it.Param2dArray("[[1,2],[3,4]]").Param(2).Param(4).Result2dArray("[[1,2],[3,4]]"));

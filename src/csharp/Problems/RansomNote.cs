@@ -8,7 +8,7 @@ public sealed class RansomNote : ProblemBase
     [ClassData(typeof(RansomNote))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("a").Param("b").Result(false))
           .Add(it => it.Param("aa").Param("ab").Result(false))
           .Add(it => it.Param("aa").Param("aab").Result(true))

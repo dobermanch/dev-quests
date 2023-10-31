@@ -8,7 +8,7 @@ public sealed class LeafSimilar : ProblemBase
     [ClassData(typeof(LeafSimilar))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[3,5,1,6,2,9,8,null,null,7,4]").ParamTree("[3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]").Result(true))
           .Add(it => it.ParamTree("[1,2,3]").ParamTree("[1,3,2]").Result(false));
 

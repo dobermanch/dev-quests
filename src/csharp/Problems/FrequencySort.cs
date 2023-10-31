@@ -8,7 +8,7 @@ public sealed class FrequencySort : ProblemBase
     [ClassData(typeof(FrequencySort))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("tree").Result("eetr"))
           .Add(it => it.Param("cacacac").Result("ccccaaa"))
           .Add(it => it.Param("cacaca").Result("cccaaa"))

@@ -8,7 +8,7 @@ public sealed class IsSubsequence : ProblemBase
     [ClassData(typeof(IsSubsequence))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("abc").Param("ahbgdc").Result(true))
           .Add(it => it.Param("axc").Param("ahbgdc").Result(false));
 

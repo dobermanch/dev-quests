@@ -7,7 +7,7 @@ public sealed class InvertTree : ProblemBase
     [ClassData(typeof(InvertTree))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.ParamTree("[4, 2, 7, 1, 3, 6, 9]").ResultTree("[4, 7, 2, 9, 6, 3, 1]"))
           .Add(it => it.ParamTree("[2, 1, 3]").ResultTree("[2, 3, 1]"))
           .Add(it => it.ParamTree("[]").ResultTree("[]"));

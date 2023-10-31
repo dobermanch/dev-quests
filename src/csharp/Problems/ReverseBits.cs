@@ -8,7 +8,7 @@ public sealed class ReverseBits : ProblemBase
     [ClassData(typeof(ReverseBits))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param<uint>(0b00000010100101000001111010011100).Result<uint>(964176192))
           .Add(it => it.Param<uint>(0b11111111111111111111111111111101).Result<uint>(3221225471));
 

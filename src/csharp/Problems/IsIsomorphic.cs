@@ -8,7 +8,7 @@ public sealed class IsIsomorphic : ProblemBase
     [ClassData(typeof(IsIsomorphic))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("egg").Param("add").Result(true))
             .Add(it => it.Param("foo").Param("bar").Result(false))
             .Add(it => it.Param("paper").Param("title").Result(true));

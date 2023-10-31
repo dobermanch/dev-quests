@@ -8,7 +8,7 @@ public sealed class NumberOfSteps : ProblemBase
     [ClassData(typeof(NumberOfSteps))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param(14).Result(6))
           .Add(it => it.Param(8).Result(4))
           .Add(it => it.Param(123).Result(12))

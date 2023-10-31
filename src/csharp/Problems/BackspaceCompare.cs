@@ -8,7 +8,7 @@ public sealed class BackspaceCompare : ProblemBase
     [ClassData(typeof(BackspaceCompare))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
+    protected override void AddTestCases()
         => Add(it => it.Param("ab#c").Param("ad#c").Result(true))
             .Add(it => it.Param("ab##").Param("c#d#").Result(true))
             .Add(it => it.Param("a#c").Param("b").Result(false))
