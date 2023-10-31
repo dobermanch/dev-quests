@@ -18,9 +18,9 @@ public sealed class MyQueue : ProblemBase
                     .MapInstruction("empty", it => it.Empty())
             )
             .Add(tc =>
-                  tc.Param2dArray<int>("[[],[1],[2],[],[],[]]", true)
-                    .ParamArray<string>("""["MyQueue", "push", "push", "peek", "pop", "empty"]""")
-                    .ResultArray<object?>("[null, null, null, 1, 1, false]", true)
+                  tc.Data<int>("[[],[1],[2],[],[],[]]")
+                    .Instructions("""["MyQueue", "push", "push", "peek", "pop", "empty"]""")
+                    .Output("[null, null, null, 1, 1, false]")
             );
 
     internal class CustomQueue

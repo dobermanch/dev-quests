@@ -9,38 +9,16 @@ public sealed class MyHashMap : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param2dArray<int>("""[[], [1, 1], [2, 2], [1], [3], [2, 1], [2], [2], [2]]""", true)
-                       .ParamArray<string>("""["MyHashMap", "put", "put", "get", "get", "put", "get", "remove", "get"]""")
-                       .ResultArray<object?>(null, null, null, 1, -1, null, 1, null, -1));
-
-    private IList<object?> Solution(int[][] data, string[] instructions)
-    {
-        var result = new List<object?>();
-
-        var map = new HashMap();
-        for (int i = 0; i < instructions.Length; i++)
-        {
-            switch (instructions[i])
-            {
-                case "MyHashMap":
-                    result.Add(null);
-                    break;
-                case "put":
-                    result.Add(null);
-                    map.Put(data[i][0], data[i][1]);
-                    break;
-                case "get":
-                    result.Add(map.Get(data[i][0]));
-                    break;
-                case "remove":
-                    result.Add(null);
-                    map.Remove(data[i][0]);
-                    break;
-            }
-        }
-
-        return result;
-    }
+        => Instructions<HashMap, int[]>(config =>
+            config
+                .MapConstructor("MyHashMap")
+                .MapInstruction("put", (it, data) => it.Put(data[0], data[1]))
+                .MapInstruction("get", (it, data) => it.Get(data[0]))
+                .MapInstruction("remove", (it, data) => it.Remove(data[0]))
+        )
+        .Add(it => it.Data<int>("""[[], [1, 1], [2, 2], [1], [3], [2, 1], [2], [2], [2]]""")
+                     .Instructions("""["MyHashMap", "put", "put", "get", "get", "put", "get", "remove", "get"]""")
+                     .Output("[null, null, null, 1, -1, null, 1, null, -1]"));
 
     public class HashMap
     {

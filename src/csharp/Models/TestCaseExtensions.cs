@@ -74,4 +74,14 @@ public static class TestCaseExtensions
 
     public static TestCase ResultNode(this TestCase testCase, string? input, bool neighbors = false)
         => testCase.Result(Node.Parse(input, neighbors));
+
+
+    public static TestCase Data<T>(this TestCase testCase, string data) 
+        => testCase.Param2dArray<T>(data, true);
+
+    public static TestCase Instructions(this TestCase testCase, string instrcutions) 
+        => testCase.ParamArray<string>(instrcutions);
+
+    public static TestCase Output(this TestCase testCase, string output) 
+        => testCase.ResultArray<object?>(output, true);
 }

@@ -9,38 +9,18 @@ public sealed class TimeMap : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param2dArray<object>("""[[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]""", true)
-                       .ParamArray<string>("""["TimeMap","set","get","get","set","get","get"]""")
-                       .ResultArray<object?>(null, null, "bar", "bar", null, "bar2", "bar2"))
-          .Add(it => it.Param2dArray<object>("""[[],["love","high",10],["love","low",20],["love",5],["love",10],["love",15],["love",20],["love",25]]""", true)
-                       .ParamArray<string>("""["TimeMap","set","set","get","get","get","get","get"]""")
-                       .ResultArray<object?>(null, null, null, "", "high", "high", "low", "low"))
-        ;
-
-    private IList<object?> Solution(object[][] data, string[] instructions)
-    {
-        var result = new List<object?>();
-
-        var trie = new CustomTimeMap();
-        for (int i = 0; i < instructions.Length; i++)
-        {
-            switch (instructions[i])
-            {
-                case "TimeMap":
-                    result.Add(null);
-                    break;
-                case "set":
-                    result.Add(null);
-                    trie.Set((string)data[i][0], (string)data[i][1], (int)data[i][2]);
-                    break;
-                case "get":
-                    result.Add(trie.Get((string)data[i][0], (int)data[i][1]));
-                    break;
-            }
-        }
-
-        return result;
-    }
+        => Instructions<CustomTimeMap, object[]>(config =>
+                config
+                    .MapConstructor("TimeMap")
+                    .MapInstruction("set", (it, data) => it.Set((string)data[0], (string)data[1], (int)data[2]))
+                    .MapInstruction("get", (it, data) => it.Get((string)data[0], (int)data[1]))
+           )
+          .Add(it => it.Data<object>("""[[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]""")
+                       .Instructions("""["TimeMap","set","get","get","set","get","get"]""")
+                       .Output("""[null, null, "bar", "bar", null, "bar2", "bar2"]"""))
+          .Add(it => it.Data<object>("""[[],["love","high",10],["love","low",20],["love",5],["love",10],["love",15],["love",20],["love",25]]""")
+                       .Instructions("""["TimeMap","set","set","get","get","get","get","get"]""")
+                       .ResultArray<object?>(null, null, null, "", "high", "high", "low", "low"));
 
     public class CustomTimeMap
     {

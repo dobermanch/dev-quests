@@ -1,7 +1,5 @@
 //https://leetcode.com/problems/design-linked-list
 
-using System.Diagnostics;
-
 namespace LeetCode.Problems;
 
 public sealed class MyLinkedList : ProblemBase
@@ -11,69 +9,36 @@ public sealed class MyLinkedList : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param2dArray<int>("""[[],[38],[66],[61],[76],[26],[37],[8],[5],[4],[45],[4],[85],[37],[5],[93],[10,23],[21],[52],[15],[47],[12],[6,24],[64],[4],[31],[6],[40],[17],[15],[19,2],[11],[86],[17],[55],[15],[14,95],[22],[66],[95],[8],[47],[23],[39],[30],[27],[0],[99],[45],[4],[9,11],[6],[81],[18,32],[20],[13],[42],[37,91],[36],[10,37],[96],[57],[20],[89],[18],[41,5],[23],[75],[7],[25,51],[48],[46],[29],[85],[82],[6],[38],[14],[1],[12],[42],[42],[83],[13],[14,20],[17,34],[36],[58],[2],[38],[33,59],[37],[15],[64],[56],[0],[40],[92],[63],[35],[62],[32]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtHead","addAtTail","addAtTail","addAtTail","addAtTail","addAtTail","addAtTail","deleteAtIndex","addAtHead","addAtHead","get","addAtTail","addAtHead","get","addAtTail","addAtIndex","addAtTail","addAtHead","addAtHead","addAtHead","get","addAtIndex","addAtHead","get","addAtHead","deleteAtIndex","addAtHead","addAtTail","addAtTail","addAtIndex","addAtTail","addAtHead","get","addAtTail","deleteAtIndex","addAtIndex","deleteAtIndex","addAtHead","addAtTail","addAtHead","addAtHead","addAtTail","addAtTail","get","get","addAtHead","addAtTail","addAtTail","addAtTail","addAtIndex","get","addAtHead","addAtIndex","addAtHead","addAtTail","addAtTail","addAtIndex","deleteAtIndex","addAtIndex","addAtHead","addAtHead","deleteAtIndex","addAtTail","deleteAtIndex","addAtIndex","addAtTail","addAtHead","get","addAtIndex","addAtTail","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","deleteAtIndex","get","get","addAtHead","get","addAtTail","addAtTail","addAtIndex","addAtIndex","addAtHead","addAtTail","addAtTail","get","addAtIndex","addAtHead","deleteAtIndex","addAtTail","get","addAtHead","get","addAtHead","deleteAtIndex","get","addAtTail","addAtTail"]""")
-                       .ResultArray<object?>(null, null, null, null, null, null, null, null, null, null, null, 61, null, null, 61, null, null, null, null, null, null, 85, null, null, 37, null, null, null, null, null, null, null, null, 23, null, null, null, null, null, null, null, null, null, null, -1, 95, null, null, null, null, null, 31, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8, null, null, null, null, null, null, null, null, null, 6, 47, null, 23, null, null, null, null, null, null, null, 93, null, null, null, null, 48, null, 93, null, null, 59, null, null))
-          .Add(it => it.Param2dArray<int>("""[[],[1],[0]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtTail","get"]""")
-                       .ResultArray<object?>(null, null, 1))
-          .Add(it => it.Param2dArray<int>("""[[],[0,10],[0,20],[1,30],[0]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtIndex","addAtIndex","addAtIndex","get"]""")
-                       .ResultArray<object?>(null, null, null, null, 20))
-          .Add(it => it.Param2dArray<int>("""[[],[7],[2],[1],[3,0],[2],[6],[4],[4],[4],[5,0],[6]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtHead","addAtHead","addAtHead","addAtIndex","deleteAtIndex","addAtHead","addAtTail","get","addAtHead","addAtIndex","addAtHead"]""")
-                       .ResultArray<object?>(null, null, null, null, null, null, null, null, 4, null, null, null))
-          .Add(it => it.Param2dArray<int>("""[[],[1],[3],[3,2]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtHead","addAtTail","addAtIndex"]""")
-                       .ResultArray<object?>(null, null, null, null))
-          .Add(it => it.Param2dArray<int>("""[[],[2],[1],[2],[7],[3],[2],[5],[5],[5],[6],[4]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtHead","deleteAtIndex","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","addAtTail","get","deleteAtIndex","deleteAtIndex"]""")
-                       .ResultArray<object?>(null, null, null, null, null, null, null, null, null, 2, null, null))
-          .Add(it => it.Param2dArray<int>("""[[],[1],[3],[1,2],[1],[1],[1]]""", true)
-                       .ParamArray<string>("""["MyLinkedList","addAtHead","addAtTail","addAtIndex","get","deleteAtIndex","get"]""")
-                       .ResultArray<object?>(null, null, null, null, 2, null, 3));
-
-    private IList<object?> Solution(int[][] data, string[] instructions)
-    {
-        var result = new List<object?>();
-
-        var list = new CustomLinkedList();
-        for (int i = 0; i < instructions.Length; i++)
-        {
-            switch (instructions[i])
-            {
-                case "MyLinkedList":
-                    result.Add(null);
-                    break;
-                case "get":
-                    result.Add(list.Get(data[i][0]));
-                    Debug.WriteLine($"g: {data[i][0]} \t{list.Print()}");
-                    break;
-                case "addAtHead":
-                    result.Add(null);
-                    list.AddAtHead(data[i][0]);
-                    Debug.WriteLine($"h: {data[i][0]} \t{list.Print()}");
-                    break;
-                case "addAtTail":
-                    result.Add(null);
-                    list.AddAtTail(data[i][0]);
-                    Debug.WriteLine($"t: {data[i][0]} \t{list.Print()}");
-                    break;
-                case "addAtIndex":
-                    result.Add(null);
-                    list.AddAtIndex(data[i][0], data[i][1]);
-                    Debug.WriteLine($"i: {data[i][0]}-{data[i][1]} \t{list.Print()}");
-                    break;
-                case "deleteAtIndex":
-                    result.Add(null);
-                    list.DeleteAtIndex(data[i][0]);
-                    Debug.WriteLine($"d: {data[i][0]} \t{list.Print()}");
-                    break;
-            }
-        }
-
-        return result;
-    }
+        => Instructions<CustomLinkedList, int[]>(config => 
+                config
+                    .MapConstructor("MyLinkedList")
+                    .MapInstruction("get", (it, data) => it.Get(data[0]))
+                    .MapInstruction("addAtHead", (it, data) => it.AddAtHead(data[0]))
+                    .MapInstruction("addAtTail", (it, data) => it.AddAtTail(data[0]))
+                    .MapInstruction("addAtIndex", (it, data) => it.AddAtIndex(data[0], data[1]))
+                    .MapInstruction("deleteAtIndex", (it, data) => it.DeleteAtIndex(data[0]))
+            )
+          .Add(it => it.Data<int>("""[[],[38],[66],[61],[76],[26],[37],[8],[5],[4],[45],[4],[85],[37],[5],[93],[10,23],[21],[52],[15],[47],[12],[6,24],[64],[4],[31],[6],[40],[17],[15],[19,2],[11],[86],[17],[55],[15],[14,95],[22],[66],[95],[8],[47],[23],[39],[30],[27],[0],[99],[45],[4],[9,11],[6],[81],[18,32],[20],[13],[42],[37,91],[36],[10,37],[96],[57],[20],[89],[18],[41,5],[23],[75],[7],[25,51],[48],[46],[29],[85],[82],[6],[38],[14],[1],[12],[42],[42],[83],[13],[14,20],[17,34],[36],[58],[2],[38],[33,59],[37],[15],[64],[56],[0],[40],[92],[63],[35],[62],[32]]""")
+                       .Instructions("""["MyLinkedList","addAtHead","addAtTail","addAtTail","addAtTail","addAtTail","addAtTail","addAtTail","deleteAtIndex","addAtHead","addAtHead","get","addAtTail","addAtHead","get","addAtTail","addAtIndex","addAtTail","addAtHead","addAtHead","addAtHead","get","addAtIndex","addAtHead","get","addAtHead","deleteAtIndex","addAtHead","addAtTail","addAtTail","addAtIndex","addAtTail","addAtHead","get","addAtTail","deleteAtIndex","addAtIndex","deleteAtIndex","addAtHead","addAtTail","addAtHead","addAtHead","addAtTail","addAtTail","get","get","addAtHead","addAtTail","addAtTail","addAtTail","addAtIndex","get","addAtHead","addAtIndex","addAtHead","addAtTail","addAtTail","addAtIndex","deleteAtIndex","addAtIndex","addAtHead","addAtHead","deleteAtIndex","addAtTail","deleteAtIndex","addAtIndex","addAtTail","addAtHead","get","addAtIndex","addAtTail","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","deleteAtIndex","get","get","addAtHead","get","addAtTail","addAtTail","addAtIndex","addAtIndex","addAtHead","addAtTail","addAtTail","get","addAtIndex","addAtHead","deleteAtIndex","addAtTail","get","addAtHead","get","addAtHead","deleteAtIndex","get","addAtTail","addAtTail"]""")
+                       .Output("[null, null, null, null, null, null, null, null, null, null, null, 61, null, null, 61, null, null, null, null, null, null, 85, null, null, 37, null, null, null, null, null, null, null, null, 23, null, null, null, null, null, null, null, null, null, null, -1, 95, null, null, null, null, null, 31, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8, null, null, null, null, null, null, null, null, null, 6, 47, null, 23, null, null, null, null, null, null, null, 93, null, null, null, null, 48, null, 93, null, null, 59, null, null]"))
+          .Add(it => it.Data<int>("""[[],[1],[0]]""")
+                       .Instructions("""["MyLinkedList","addAtTail","get"]""")
+                       .Output("[null, null, 1]"))
+          .Add(it => it.Data<int>("""[[],[0,10],[0,20],[1,30],[0]]""")
+                       .Instructions("""["MyLinkedList","addAtIndex","addAtIndex","addAtIndex","get"]""")
+                       .Output("[null, null, null, null, 20]"))
+          .Add(it => it.Data<int>("""[[],[7],[2],[1],[3,0],[2],[6],[4],[4],[4],[5,0],[6]]""")
+                       .Instructions("""["MyLinkedList","addAtHead","addAtHead","addAtHead","addAtIndex","deleteAtIndex","addAtHead","addAtTail","get","addAtHead","addAtIndex","addAtHead"]""")
+                       .Output("[null, null, null, null, null, null, null, null, 4, null, null, null]"))
+          .Add(it => it.Data<int>("""[[],[1],[3],[3,2]]""")
+                       .Instructions("""["MyLinkedList","addAtHead","addAtTail","addAtIndex"]""")
+                       .Output("[null, null, null, null]"))
+          .Add(it => it.Data<int>("""[[],[2],[1],[2],[7],[3],[2],[5],[5],[5],[6],[4]]""")
+                       .Instructions("""["MyLinkedList","addAtHead","deleteAtIndex","addAtHead","addAtHead","addAtHead","addAtHead","addAtHead","addAtTail","get","deleteAtIndex","deleteAtIndex"]""")
+                       .Output("[null, null, null, null, null, null, null, null, null, 2, null, null]"))
+          .Add(it => it.Data<int>("""[[],[1],[3],[1,2],[1],[1],[1]]""")
+                       .Instructions("""["MyLinkedList","addAtHead","addAtTail","addAtIndex","get","deleteAtIndex","get"]""")
+                       .Output("[null, null, null, null, 2, null, 3]"));
 
     public class CustomLinkedList
     {

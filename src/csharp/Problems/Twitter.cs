@@ -9,45 +9,20 @@ public sealed class Twitter : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(true, it => it.Param2dArray<int>("""[[], [1, 5], [1], [1, 2], [2, 6], [1], [1, 2], [1]]""", true)
-                       .ParamArray<string>("""["Twitter", "postTweet", "getNewsFeed", "follow", "postTweet", "getNewsFeed", "unfollow", "getNewsFeed"]""")
-                       .ResultArray<object?>(null, null, new []{5}, null, null, new[] {6, 5}, null, new[] {5}))
-          .Add(it => it.Param2dArray<int>("""[[],[1,1],[1],[2,1],[2],[2,1],[2]]""", true)
-                       .ParamArray<string>("""["Twitter","postTweet","getNewsFeed","follow","getNewsFeed","unfollow","getNewsFeed"]""")
-                       .ResultArray<object?>(null, null, new[]{1}, null, new[] { 1 }, null, Array.Empty<int>()));
-
-    private IList<object?> Solution(int[][] data, string[] instructions)
-    {
-        var result = new List<object?>();
-
-        var custom = new CustomTwitter();
-        for (int i = 0; i < instructions.Length; i++)
-        {
-            switch (instructions[i])
-            {
-                case "Twitter":
-                    result.Add(null);
-                    break;
-                case "postTweet":
-                    custom.PostTweet(data[i][0], data[i][1]);
-                    result.Add(null);
-                    break;
-                case "getNewsFeed":
-                    result.Add(custom!.GetNewsFeed(data[i][0]));
-                    break;
-                case "follow":
-                    custom.Follow(data[i][0], data[i][1]);
-                    result.Add(null);
-                    break;
-                case "unfollow":
-                    custom.Unfollow(data[i][0], data[i][1]);
-                    result.Add(null);
-                    break;
-            }
-        }
-
-        return result;
-    }
+        => Instructions<CustomTwitter, int[]>(config => 
+                config
+                    .MapConstructor("Twitter")
+                    .MapInstruction("postTweet", (it, data) => it.PostTweet(data[0], data[1]))
+                    .MapInstruction("getNewsFeed", (it, data) => it.GetNewsFeed(data[0]))
+                    .MapInstruction("follow", (it, data) => it.Follow(data[0], data[1]))
+                    .MapInstruction("unfollow", (it, data) => it.Unfollow(data[0], data[1]))
+           )
+           .Add(true, it => it.Data<int>("""[[], [1, 5], [1], [1, 2], [2, 6], [1], [1, 2], [1]]""")
+                       .Instructions("""["Twitter", "postTweet", "getNewsFeed", "follow", "postTweet", "getNewsFeed", "unfollow", "getNewsFeed"]""")
+                       .Output("[null, null, new []{5}, null, null, new[] {6, 5}, null, new[] {5}]"))
+          .Add(it => it.Data<int>("""[[],[1,1],[1],[2,1],[2],[2,1],[2]]""")
+                       .Instructions("""["Twitter","postTweet","getNewsFeed","follow","getNewsFeed","unfollow","getNewsFeed"]""")
+                       .Output("[null, null, new[]{1}, null, new[] { 1 }, null, new[0]]"));
 
     private class CustomTwitter
     {

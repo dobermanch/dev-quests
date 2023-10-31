@@ -9,40 +9,19 @@ public sealed class Trie : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param2dArray<string>(@"[[], [""apple""], [""apple""], [""app""], [""app""], [""app""], [""app""]]", true)
-            .ParamArray("Trie", "insert", "search", "search", "startsWith", "insert", "search")
-            .ResultArray<object?>(null, null, true, false, true, null, true))
-          .Add(it => it.Param2dArray<string>(@"[[],[""ab""],[""a""],[""a""]]", true)
-            .ParamArray("Trie", "insert", "search", "startsWith")
-            .ResultArray<object?>(null, null, false, true));
-
-    private IList<object?> Solution(string[][] data, string[] instructions)
-    {
-        var result = new List<object?>();
-
-        var trie = new CustomTrie();
-        for (int i = 0; i < instructions.Length; i++)
-        {
-            switch (instructions[i])
-            {
-                case "Trie":
-                    result.Add(null);
-                    break;
-                case "insert":
-                    result.Add(null);
-                    trie.Insert(data[i][0]);
-                    break;
-                case "search":
-                    result.Add(trie.Search(data[i][0]));
-                    break;
-                case "startsWith":
-                    result.Add(trie.StartsWith(data[i][0]));
-                    break;
-            }
-        }
-
-        return result;
-    }
+        => Instructions<CustomTrie, string[]>(config =>
+                config
+                    .MapConstructor("Trie")
+                    .MapInstruction("insert", (it, data) => it.Insert(data[0]))
+                    .MapInstruction("search", (it, data) => it.Search(data[0]))
+                    .MapInstruction("startsWith", (it, data) => it.StartsWith(data[0]))
+           )
+           .Add(it => it.Data<string>(@"[[], [""apple""], [""apple""], [""app""], [""app""], [""app""], [""app""]]")
+                        .Instructions("""["Trie", "insert", "search", "search", "startsWith", "insert", "search"]""")
+                        .Output("[null, null, true, false, true, null, true]"))
+           .Add(it => it.Data<string>(@"[[],[""ab""],[""a""],[""a""]]")
+                        .Instructions("""["Trie", "insert", "search", "startsWith"]""")
+                        .Output("[null, null, false, true]"));
 
     public class CustomTrie
     {
