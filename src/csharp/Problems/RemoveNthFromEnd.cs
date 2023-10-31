@@ -15,10 +15,10 @@ public sealed class RemoveNthFromEnd : ProblemBase
         ;
 
     // Option 1
-    private ListNode Solution(ListNode head, int n)
+    private ListNode? Solution(ListNode head, int n)
     {
-        ListNode fast = head;
-        ListNode slow = head;
+        ListNode? fast = head;
+        ListNode? slow = head;
 
         var index = 0;
         while (fast.next != null)
@@ -26,7 +26,7 @@ public sealed class RemoveNthFromEnd : ProblemBase
             fast = fast.next;
             if (++index > n)
             {
-                slow = slow.next;
+                slow = slow?.next;
             }
         }
 
@@ -35,7 +35,7 @@ public sealed class RemoveNthFromEnd : ProblemBase
             return head.next;
         }
 
-        slow.next = slow.next?.next;
+        slow!.next = slow.next?.next;
 
         return head;
     }

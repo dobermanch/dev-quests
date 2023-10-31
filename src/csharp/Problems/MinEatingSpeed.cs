@@ -35,7 +35,7 @@ public sealed class MinEatingSpeed : ProblemBase
         while (left < right)
         {
             var mid = (right + left) / 2;
-            var count = 0l;
+            var count = 0L;
             for (int i = 0; i < piles.Length; i++)
             {
                 count += (long)Math.Ceiling(piles[i] / (double)mid);

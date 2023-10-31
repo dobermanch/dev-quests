@@ -9,8 +9,7 @@ public sealed class TwoSum : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-          .Add(it => it.ParamArray("[2,7,11,15]").Param(9).ResultArray("[0,1]"))
+        => Add(it => it.ParamArray("[2,7,11,15]").Param(9).ResultArray("[0,1]"))
           .Add(it => it.ParamArray("[3,2,4]").Param(6).ResultArray("[1,2]"))
           .Add(it => it.ParamArray("[3,3]").Param(6).ResultArray("[0,1]"));
 

@@ -95,7 +95,7 @@ public class Node : IEquatable<Node>
         bool CheckNeighbors(Node? node1, Node? node2)
         {
             //TODO: Implement check. It may contains circular dependency
-            if (node1 != null && map.ContainsKey(node1))
+            if (node1 != null && map!.ContainsKey(node1))
             {
                 return map[node1];
             }
@@ -108,17 +108,17 @@ public class Node : IEquatable<Node>
 
             if (check)
             {
-                for (var i = 0; i < node1.neighbors.Count; i++)
+                for (var i = 0; i < node1!.neighbors.Count; i++)
                 {
                     if (check)
                     {
-                        check &= CheckNeighbors(node1.neighbors[i], node2.neighbors[i]);
-                        map[node1.neighbors[i]] = check;
+                        check &= CheckNeighbors(node1.neighbors[i], node2!.neighbors[i]);
+                        map![node1.neighbors[i]] = check;
                     }
                 }
             }
 
-            map[node1] = check;
+            map![node1!] = check;
 
             return check;
         }
@@ -131,7 +131,7 @@ public class Node : IEquatable<Node>
 
         if (check)
         {
-            check &= Equals(children, other.children) ||
+            check &= Equals(children, other!.children) ||
                      (children != null && other.children != null && children.SequenceEqual(other.children));
         }
 

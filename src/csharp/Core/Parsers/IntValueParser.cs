@@ -4,7 +4,7 @@ internal class IntValueParser : ValueParserBase
 {
     public override bool TryParse(ReadOnlySpan<char> input, out object result)
     {
-        result = null;
+        result = null!;
 
         if (input.Length == 0)
         {

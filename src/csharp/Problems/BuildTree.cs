@@ -9,8 +9,7 @@ public sealed class BuildTree : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-          .Add(it => it.ParamArray("[3,9,20,15,7]").ParamArray("[9,3,15,20,7]").ResultTree("[3,9,20,null,null,15,7]"))
+        => Add(it => it.ParamArray("[3,9,20,15,7]").ParamArray("[9,3,15,20,7]").ResultTree("[3,9,20,null,null,15,7]"))
           .Add(it => it.ParamArray("[3,9,8,6,1,2,20,15,7]").ParamArray("[8,9,1,6,2,3,15,20,7]").ResultTree("[3,9,20,8,6,15,7,null,null,1,2]"))
           .Add(it => it.ParamArray("[-1]").ParamArray("[-1]").ResultTree("[-1]"));
 

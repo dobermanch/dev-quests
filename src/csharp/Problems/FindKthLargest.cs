@@ -9,8 +9,7 @@ public sealed class FindKthLargest : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-          .Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(2).Result(5))
+        => Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(2).Result(5))
           .Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(1).Result(6))
           .Add(it => it.ParamArray("[3,2,1,5,6,4]").Param(6).Result(1))
           .Add(it => it.ParamArray("[3,2,3,1,2,4,5,5,6]").Param(4).Result(4))

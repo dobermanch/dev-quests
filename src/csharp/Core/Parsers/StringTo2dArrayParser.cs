@@ -11,7 +11,7 @@ internal class StringTo2dArrayParser<TOut> : IDataParser<IList<IList<TOut>>>
         _allowEmpty = allowEmpty;
     }
 
-    public IList<IList<TOut>> Parse(string input)
+    public IList<IList<TOut>> Parse(string? input)
     {
         if (TryParse(input, out var result))
         {

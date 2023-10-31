@@ -12,8 +12,7 @@ public sealed class ProblemTests : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(CustomSolution))
-          .Add(it => it.Param(_param1).Param(_param2).Param(_param3.ToArray()).Result(_result))
+        => Add(it => it.Param(_param1).Param(_param2).Param(_param3.ToArray()).Result(_result))
           .Add(it => it.Param(_param1).Param(_param2).Param(_param3.ToArray()).Result(_result));
 
     private bool Solution(string param1, int param2, int[] param3)

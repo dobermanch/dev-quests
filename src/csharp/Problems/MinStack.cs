@@ -11,14 +11,14 @@ public sealed class MinStack : ProblemBase
     public override void AddTestCases()
         => Add(it => it.Param2dArray("[[],[2],[0],[3],[0],[],[],[],[],[],[],[]]", true)
                 .ParamArray("MinStack", "push", "push", "push", "push", "getMin", "pop", "getMin", "pop", "getMin", "pop", "getMin")
-                .ResultArray<object>(null, null, null, null, null, 0, null, 0, null, 0, null, 2))
+                .ResultArray<object?>("[null, null, null, null, null, 0, null, 0, null, 0, null, 2]", true))
           .Add(it => it.Param2dArray("[[],[-2],[0],[-3],[],[],[],[]]", true)
               .ParamArray("MinStack", "push", "push", "push", "getMin", "pop", "top", "getMin")
-              .ResultArray<object>(null, null, null, null, -3, null, 0, -2));
+              .ResultArray<object?>("[null, null, null, null, -3, null, 0, -2]", true));
 
-    private IList<object> Solution(int[][] data, string[] instructions)
+    private IList<object?> Solution(int[][] data, string[] instructions)
     {
-        var result = new List<object>();
+        var result = new List<object?>();
 
         var queue = new CustomStack();
         for (int i = 0; i < instructions.Length; i++)

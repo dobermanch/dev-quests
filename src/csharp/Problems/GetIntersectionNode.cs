@@ -9,8 +9,7 @@ public sealed class GetIntersectionNode : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1), nameof(Solution2))
-          .Add(it =>
+        => Add(it =>
            {
                var tail = ListNode.Parse("[8,4,5]")!;
                var headA = ListNode.Parse("[4,1]")!.AddLast(tail);
@@ -74,7 +73,7 @@ public sealed class GetIntersectionNode : ProblemBase
         return node;
     }
 
-    private ListNode? Solution2(ListNode headA, ListNode headB)
+    private ListNode? Solution2(ListNode? headA, ListNode? headB)
     {
         int GetLength(ListNode? node)
         {
@@ -118,8 +117,8 @@ public sealed class GetIntersectionNode : ProblemBase
                 return headA;
             }
 
-            headA = headA.next;
-            headB = headB.next;
+            headA = headA?.next;
+            headB = headB?.next;
         }
 
         return headA;

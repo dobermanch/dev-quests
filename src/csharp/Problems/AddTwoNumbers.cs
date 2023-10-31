@@ -15,7 +15,7 @@ public sealed class AddTwoNumbers : ProblemBase
           .Add(it => it.ParamListNode("[2,4]").ParamListNode("[5,6,4]").ResultListNode("[7,0,5]"))
           .Add(it => it.ParamListNode("[2,4,9]").ParamListNode("[5,6]").ResultListNode("[7,0,0,1]"));
 
-    private ListNode Solution(ListNode l1, ListNode l2)
+    private ListNode? Solution(ListNode l1, ListNode l2)
     {
         var node1 = l1;
         var node2 = l2;

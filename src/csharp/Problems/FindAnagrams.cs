@@ -9,8 +9,7 @@ public sealed class FindAnagrams : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-            .Add(it => it.Param("cbaebabacd").Param("abc").ResultArray("[0,6]"))
+        => Add(it => it.Param("cbaebabacd").Param("abc").ResultArray("[0,6]"))
             .Add(it => it.Param("abab").Param("ab").ResultArray("[0,1,2]"));
 
     private IList<int> Solution(string s, string p)

@@ -179,10 +179,10 @@ public sealed class MyLinkedList : ProblemBase
             return node;
         }
 
-        public string Print()
+        public string? Print()
         {
             var node = _root.Next;
-            string result = null;
+            string? result = null;
             while (node != null)
             {
                 result += $"{node.Value}-";

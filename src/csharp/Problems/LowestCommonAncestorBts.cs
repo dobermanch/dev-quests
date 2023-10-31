@@ -9,8 +9,7 @@ public sealed class LowestCommonAncestorBts : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1), nameof(Solution2))
-          .Add(it => it.ParamTree("[6,2,8,0,4,7,9,null,null,3,5]").ParamTree("[2]").ParamTree("[8]").ResultTree("[6,2,8,0,4,7,9,null,null,3,5]"))
+        => Add(it => it.ParamTree("[6,2,8,0,4,7,9,null,null,3,5]").ParamTree("[2]").ParamTree("[8]").ResultTree("[6,2,8,0,4,7,9,null,null,3,5]"))
           .Add(it => it.ParamTree("[6,2,8,0,4,7,9,null,null,3,5]").ParamTree("[2]").ParamTree("[4]").ResultTree("[2,0,4,null,null,3,5]"));
 
     private TreeNode? Solution(TreeNode? root, TreeNode p, TreeNode q)
@@ -74,11 +73,11 @@ public sealed class LowestCommonAncestorBts : ProblemBase
         return pPath[min - 1];
     }
 
-    static void Search(TreeNode node, TreeNode target, IList<TreeNode> path)
+    static void Search(TreeNode? node, TreeNode target, IList<TreeNode> path)
     {
-        path.Add(node);
+        path.Add(node!);
 
-        if (node.val != target.val)
+        if (node!.val != target.val)
         {
             Search(node.val > target.val ? node.left : node.right, target, path);
         }

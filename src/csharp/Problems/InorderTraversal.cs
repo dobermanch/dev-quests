@@ -9,8 +9,7 @@ public sealed class InorderTraversal : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-          .Add(it => it.ParamTree("[1,5,2,3,4,5,6,7,8,9,10]").ResultArray("[7,3,8,5,9,4,10,1,5,2,6]"))
+        => Add(it => it.ParamTree("[1,5,2,3,4,5,6,7,8,9,10]").ResultArray("[7,3,8,5,9,4,10,1,5,2,6]"))
           .Add(it => it.ParamTree("[1,null,2,3]").ResultArray("[1,3,2]"))
           .Add(it => it.ParamTree("[1,null,2,3,4,5,6,7,8,9,10]").ResultArray("[1,9,5,10,3,6,2,7,4,8]"))
           .Add(it => it.ParamTree("[1]").ResultArray("[1]"))

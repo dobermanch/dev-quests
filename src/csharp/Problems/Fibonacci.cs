@@ -9,8 +9,7 @@ public sealed class Fibonacci : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-            .Add(it => it.Param(2).Result(1))
+        => Add(it => it.Param(2).Result(1))
             .Add(it => it.Param(3).Result(2))
             .Add(it => it.Param(4).Result(3))
             .Add(it => it.Param(15).Result(610));

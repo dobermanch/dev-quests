@@ -9,8 +9,7 @@ public sealed class DecodeString : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-            .Add(it => it.Param("3[a]2[bc]").Result("aaabcbc"))
+        => Add(it => it.Param("3[a]2[bc]").Result("aaabcbc"))
             .Add(it => it.Param("3[a2[c]]3[f]").Result("accaccaccfff"))
             .Add(it => it.Param("3[a10[bc]]").Result("abcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbcabcbcbcbcbcbcbcbcbcbc"))
             .Add(it => it.Param("3[z]2[2[y]pq4[2[jk]e1[f]]]ef").Result("zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef"));
@@ -62,11 +61,11 @@ public sealed class DecodeString : ProblemBase
     }
 
     //Option 1
-    private string Solution1(string s)
+    private string? Solution1(string s)
     {
         var stack = new Stack<string>();
-        string number = null;
-        string text = null;
+        string? number = null;
+        string? text = null;
         foreach (var c in s)
         {
             if (char.IsDigit(c))
@@ -74,13 +73,13 @@ public sealed class DecodeString : ProblemBase
                 number += c;
                 if (number.Length == 1)
                 {
-                    stack.Push(text);
+                    stack.Push(text!);
                     text = null;
                 }
             }
             else if (c == '[')
             {
-                stack.Push(number);
+                stack.Push(number!);
                 number = null;
             }
             else if (char.IsLetter(c))
@@ -89,7 +88,7 @@ public sealed class DecodeString : ProblemBase
             }
             else if (c == ']')
             {
-                var repeat = int.Parse(stack.Pop());
+                var repeat = int.Parse(stack.Pop()!);
                 var temp = text;
                 for (var i = 1; i < repeat; i++)
                 {

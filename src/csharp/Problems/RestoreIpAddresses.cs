@@ -60,7 +60,7 @@ public sealed class RestoreIpAddresses : ProblemBase
         {
             if (temp.Count >= 3 && temp[2] < index)
             {
-                string buffer = null;
+                string? buffer = null;
                 for (var i = 0; i < raw.Length; i++)
                 {
                     if (temp.Contains(i))
@@ -69,7 +69,7 @@ public sealed class RestoreIpAddresses : ProblemBase
                     }
                     buffer += raw[i];
                 }
-                result.Add(buffer);
+                result.Add(buffer!);
             }
 
             return;

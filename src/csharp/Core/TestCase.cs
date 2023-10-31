@@ -4,9 +4,9 @@ using System.Diagnostics;
 namespace LeetCode.Core;
 
 [DebuggerDisplay("{Name} Params({_data.Count - 1})")]
-public class TestCase : IEnumerable<object>
+public class TestCase : IEnumerable<object?>
 {
-    private readonly IList<object> _data;
+    private readonly IList<object?> _data;
     private bool _resultAdded;
 
     public TestCase(object[] data)
@@ -17,9 +17,9 @@ public class TestCase : IEnumerable<object>
     protected TestCase(string name) 
         : this(name, null) { }
 
-    protected TestCase(string name, IList<object>? data)
+    protected TestCase(string name, IList<object?>? data)
     {
-        _data = data ?? new List<object>();
+        _data = data ?? new List<object?>();
         if (!_data.Any())
         {
             _data.Insert(0, name);
@@ -36,7 +36,7 @@ public class TestCase : IEnumerable<object>
         set => _data[0] = value;
     }
 
-    public object[] Params => _data.Skip(2).ToArray();
+    public object?[] Params => _data.Skip(2).ToArray();
 
     public object? Output => _data.Count > 1 ?  _data[1] : null;
 
@@ -63,7 +63,7 @@ public class TestCase : IEnumerable<object>
 
     public static TestCase Create(string methodName) => new(methodName);
 
-    IEnumerator<object> IEnumerable<object>.GetEnumerator() => _data.GetEnumerator();
+    IEnumerator<object?> IEnumerable<object?>.GetEnumerator() => _data.GetEnumerator();
 
-    IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable<object>)this).GetEnumerator();
+    IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable<object?>)this).GetEnumerator();
 }

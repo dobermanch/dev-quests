@@ -16,9 +16,9 @@ public sealed class StockSpanner : ProblemBase
                        .ParamArray<string>("""["StockSpanner", "next", "next", "next", "next", "next", "next", "next"]""")
                        .ResultArray<object?>("[null, 1, 1, 1, 2, 1, 4, 6]", true));
 
-    private IList<object> Solution(int[][] data, string[] instructions)
+    private IList<object?> Solution(int[][] data, string[] instructions)
     {
-        var result = new List<object>();
+        var result = new List<object?>();
 
         var obj = new Scanner();
         for (int i = 0; i < instructions.Length; i++)

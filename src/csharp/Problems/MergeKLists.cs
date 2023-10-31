@@ -59,7 +59,7 @@ public sealed class MergeKLists : ProblemBase
         return Merge(lists, 0, lists.Length - 1);
     }
 
-    private ListNode Solution1(ListNode?[]? lists)
+    private ListNode? Solution1(ListNode?[]? lists)
     {
         var queue = new PriorityQueue<ListNode, int>();
         foreach (var list in lists ?? Array.Empty<ListNode>())

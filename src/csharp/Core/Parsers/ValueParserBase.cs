@@ -1,10 +1,10 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal abstract class ValueParserBase : IDataParser<object>
+internal abstract class ValueParserBase : IDataParser<object?>
 {
-    public virtual bool TryParse(ReadOnlySpan<char> input, out object result)
+    public virtual bool TryParse(ReadOnlySpan<char> input, out object? result)
     {
-        result = default;
+        result = default!;
 
         if (input.Length == 0)
         {

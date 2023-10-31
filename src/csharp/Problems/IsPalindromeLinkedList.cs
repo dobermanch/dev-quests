@@ -22,7 +22,7 @@ public sealed class IsPalindromeLinkedList : ProblemBase
         {
             fast = fast.next.next;
 
-            var next = slow.next;
+            var next = slow!.next;
             slow.next = reverse;
             reverse = slow;
             slow = next;
@@ -30,12 +30,12 @@ public sealed class IsPalindromeLinkedList : ProblemBase
 
         if (fast != null)
         {
-            slow = slow.next;
+            slow = slow!.next;
         }
 
         while (slow != null)
         {
-            if (slow.val != reverse.val)
+            if (slow.val != reverse!.val)
             {
                 return false;
             }

@@ -9,11 +9,11 @@ public sealed class BSTIterator : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => Add(it => it.ParamTree("[7,3,15,null,null,9,20]").ParamArray("BSTIterator","next","next","hasNext","next","hasNext","next","hasNext","next","hasNext").ResultArray<object>(null,3,7,true,9,true,15,true,20,false));
+        => Add(it => it.ParamTree("[7,3,15,null,null,9,20]").ParamArray("BSTIterator","next","next","hasNext","next","hasNext","next","hasNext","next","hasNext").ResultArray<object?>(null,3,7,true,9,true,15,true,20,false));
 
-    private IList<object> Solution(TreeNode root, string[] instructions)
+    private IList<object?> Solution(TreeNode root, string[] instructions)
     {
-        var result = new List<object>();
+        var result = new List<object?>();
 
         var iterator = new Iterator(root);
         foreach (var instruction in instructions)

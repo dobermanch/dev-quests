@@ -49,19 +49,6 @@ public abstract class ProblemBase : IEnumerable<object[]>
 
     protected TestCaseCollection Add(bool skip, Action<TestCase> configure) => _testCases.Add(skip, configure);
 
-    protected TestCaseCollection AddSolutions(params string[] solutionMethodNames)
-    {
-        //foreach (var methodName in solutionMethodNames)
-        //{
-        //    if (!_solutions.Contains(methodName))
-        //    {
-        //        _solutions.Add(methodName);
-        //    }
-        //}
-
-        return _testCases;
-    }
-
     protected TestCaseCollection Instructions<T, TValue>(Action<Instructions<T, TValue>> configure)
          where T : class, new()
     {
@@ -81,7 +68,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
 
         if (_runner.Targets.Count <= 0)
         {
-            throw new InvalidOperationException($"No solution methods found. Add method that start from 'Solution' or call {nameof(AddSolutions)} method.");
+            throw new InvalidOperationException($"No solution methods found. Add method that start from 'Solution'.");
         }
 
         var target = _runner.Targets.First();

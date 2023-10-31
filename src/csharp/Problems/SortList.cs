@@ -1,7 +1,5 @@
 //https://leetcode.com/problems/sort-list/
 
-using LeetCode.Models;
-
 namespace LeetCode.Problems;
 
 public sealed class SortList : ProblemBase
@@ -33,10 +31,10 @@ public sealed class SortList : ProblemBase
         while (fast?.next != null)
         {
             fast = fast.next.next;
-            slow = slow.next;
+            slow = slow!.next;
         }
 
-        var mid = slow.next;
+        var mid = slow!.next;
         slow.next = null;
 
         var left = Sort(head);
@@ -45,7 +43,7 @@ public sealed class SortList : ProblemBase
         return Merge(left, right);
     }
 
-    private ListNode Merge(ListNode? left, ListNode? right)
+    private ListNode? Merge(ListNode? left, ListNode? right)
     {
         var result = new ListNode();
         var merge = result;

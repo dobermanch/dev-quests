@@ -14,7 +14,7 @@ public sealed class LongestCommonPrefix : ProblemBase
           .Add(it => it.ParamArray<string>("""["cir","car"]""").Result("c"))
         ;
 
-    private string Solution(string[] strs)
+    private string? Solution(string[] strs)
     {
         var map = new Dictionary<string, int>();
 
@@ -27,7 +27,7 @@ public sealed class LongestCommonPrefix : ProblemBase
                 return string.Empty;
             }
 
-            string prefix = null;
+            string? prefix = null;
             for (var j = 0; j < minLength; j++)
             {
                 prefix += strs[i][j];

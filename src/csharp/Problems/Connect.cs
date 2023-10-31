@@ -9,8 +9,7 @@ public sealed class Connect : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1), nameof(Solution2))
-          .Add(it => it.ParamNode("[1,2,3,4,5,6,7]").ResultNode("[1,#,2,3,#,4,5,6,7,#]"))
+        => Add(it => it.ParamNode("[1,2,3,4,5,6,7]").ResultNode("[1,#,2,3,#,4,5,6,7,#]"))
           .Add(it => it.ParamNode("[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]").ResultNode("[1,#,2,3,#,4,5,6,7,#,8,9,10,11,12,13,14,15,#]"))
           .Add(it => it.ParamNode("[]").ResultNode("[]"));
 

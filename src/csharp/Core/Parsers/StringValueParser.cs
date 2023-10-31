@@ -4,7 +4,7 @@ internal class StringValueParser : ValueParserBase
 {
     public override bool TryParse(ReadOnlySpan<char> input, out object result)
     {
-        result = default;
+        result = default!;
 
         if (input.Length == 0)
         {

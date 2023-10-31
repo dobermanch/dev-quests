@@ -31,9 +31,9 @@ public class ParsersTests
     [InlineData(""" [ 1, -52 , 3456,  466  ] """, new object[] { 1, -52, 3456, 466 })]
     [InlineData(""" [1,-52,3456,466]""", new object[] { 1, -52, 3456, 466 })]
     [InlineData(""" [1,,52,3456,466]""", new object[] { 1, 52, 3456, 466 })]
-    [InlineData(""" [1, ,52,3456,466]""", new object[] { 1, null, 52, 3456, 466 })]
-    [InlineData(""" [1, null ,52,3456,466]""", new object[] { 1, null, 52, 3456, 466 })]
-    [InlineData(""" [1, null ,52,"3456",466]""", new object[] { 1, null, 52, 3456, 466 })]
+    [InlineData(""" [1, ,52,3456,466]""", new object[] { 1, null!, 52, 3456, 466 })]
+    [InlineData(""" [1, null ,52,3456,466]""", new object[] { 1, null!, 52, 3456, 466 })]
+    [InlineData(""" [1, null ,52,"3456",466]""", new object[] { 1, null!, 52, 3456, 466 })]
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_null_int_array(string input, object[] expected)
     {
@@ -75,9 +75,9 @@ public class ParsersTests
     }
 
     [Theory]
-    [InlineData("""[true,false,null]""", new object[] { true, false, null })]
-    [InlineData("""[ true , false,null ]""", new object[] { true, false, null })]
-    [InlineData(""" [true,false,null] """, new object[] { true, false, null })]
+    [InlineData("""[true,false,null]""", new object[] { true, false, null! })]
+    [InlineData("""[ true , false,null ]""", new object[] { true, false, null! })]
+    [InlineData(""" [true,false,null] """, new object[] { true, false, null! })]
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_bool_array(string input, object[] expected)
     {
@@ -89,9 +89,9 @@ public class ParsersTests
     }
 
     [Theory]
-    [InlineData("""[true,1,'2',"dd",null]""", new object[] { true, 1, '2', "dd", null})]
-    [InlineData("""[ true , 1, '2' ,"dd" ,null]""", new object[] { true, 1, '2', "dd", null })]
-    [InlineData(""" [ true , 1, '2' ,"dd" ,null] """, new object[] { true, 1, '2', "dd", null })]
+    [InlineData("""[true,1,'2',"dd",null]""", new object[] { true, 1, '2', "dd", null!})]
+    [InlineData("""[ true , 1, '2' ,"dd" ,null]""", new object[] { true, 1, '2', "dd", null! })]
+    [InlineData(""" [ true , 1, '2' ,"dd" ,null] """, new object[] { true, 1, '2', "dd", null! })]
     [InlineData(""" [] """, new object[0])]
     public void Should_parse_object_array(string input, object[] expected)
     {

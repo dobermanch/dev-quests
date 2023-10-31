@@ -11,14 +11,14 @@ public sealed class SmallestInfiniteSet : ProblemBase
     public override void AddTestCases()
         => Add(it => it.Param2dArray("[[],[2],[],[],[],[5],[],[],[5],[]]", true)
                        .ParamArray<string>("""["SmallestInfiniteSet","addBack","popSmallest","popSmallest","popSmallest","addBack","popSmallest","popSmallest","addBack","popSmallest"]""")
-                       .ResultArray<object>(null,null,1,2,3,null,4,5,null,5))
+                       .ResultArray<object?>("[null,null,1,2,3,null,4,5,null,5]", true))
           .Add(it => it.Param2dArray("[[], [2], [], [], [], [1], [], [], []]", true)
                        .ParamArray<string>("""["SmallestInfiniteSet", "addBack", "popSmallest", "popSmallest", "popSmallest", "addBack", "popSmallest", "popSmallest", "popSmallest"]""")
-                       .ResultArray<object>(null, null, 1, 2, 3, null, 1, 4, 5));
+                       .ResultArray<object?>("[null, null, 1, 2, 3, null, 1, 4, 5]", true));
 
     private IList<object?> Solution(int[][] data, string[] instructions)
     {
-        var result = new List<object>();
+        var result = new List<object?>();
 
         var obj = new CustomSmallestInfiniteSet();
         for (int i = 0; i < instructions.Length; i++)
@@ -31,7 +31,7 @@ public sealed class SmallestInfiniteSet : ProblemBase
                 case "popSmallest":
                     result.Add(obj.PopSmallest());
                     break;
-                case "addBack":                    
+                case "addBack":
                     result.Add(null);
                     obj.AddBack(data[i][0]);
                     break;

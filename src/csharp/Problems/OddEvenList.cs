@@ -16,7 +16,7 @@ public sealed class OddEvenList : ProblemBase
           .Add(it => it.ParamListNode("[2,1,3,5,6,4]").ResultListNode("[2,3,6,1,5,4]"))
           .Add(it => it.ParamListNode("[1,2,3,4,5,8,9,6,4,5]").ResultListNode("[1,3,5,9,4,2,4,8,6,5]"));
 
-    private ListNode Solution(ListNode head)
+    private ListNode? Solution(ListNode head)
     {
         var lead = head;
         var skip = head?.next;
@@ -25,7 +25,7 @@ public sealed class OddEvenList : ProblemBase
         while(next != null)
         {
             var temp = lead.next;
-            skip.next = next.next;
+            skip!.next = next.next;
             lead.next = next;
             lead.next.next = temp;
 

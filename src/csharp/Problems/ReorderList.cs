@@ -25,7 +25,7 @@ public sealed class ReorderList : ProblemBase
 
         while (fast != null)
         {
-            slow = slow.next;
+            slow = slow!.next;
             fast = fast.next?.next;
         }
 
@@ -40,9 +40,9 @@ public sealed class ReorderList : ProblemBase
 
         var lead = head;
         var tail = reverse;
-        while (tail.next != null)
+        while (tail!.next != null)
         {
-            var leadNext = lead.next;
+            var leadNext = lead!.next;
             var tailNext = tail.next;
 
             lead.next = tail;

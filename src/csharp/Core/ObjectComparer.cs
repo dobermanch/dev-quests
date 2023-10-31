@@ -6,16 +6,16 @@ namespace LeetCode.Core;
 
 internal class ObjectComparer : EqualityComparer<object?>
 {
-    public override bool Equals(object x, object y)
+    public override bool Equals(object? x, object? y)
     {
         if (x is double or float)
         {
-            return Math.Abs((double)x - (double)y) < 0.0001;
+            return Math.Abs((double)x - (double)y!) < 0.0001;
         }
 
         if (x is not null && typeof(IEnumerable).IsAssignableFrom(x.GetType()))
         {
-            return ((IEnumerable)x).OfType<object>().SequenceEqual(((IEnumerable)y).OfType<object>(), new ObjectComparer());
+            return ((IEnumerable)x).OfType<object>().SequenceEqual(((IEnumerable)y!).OfType<object>(), new ObjectComparer());
         }
 
         if (x is not null)
@@ -29,7 +29,7 @@ internal class ObjectComparer : EqualityComparer<object?>
                     return false;
                 }
 
-                return (bool)equalsMethod.Invoke(x, new object[] { y })!;
+                return (bool)equalsMethod.Invoke(x, new object[] { y! })!;
             }
         }
 

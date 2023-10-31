@@ -15,7 +15,7 @@ public sealed class SortedArrayToBst : ProblemBase
           .Add(it => it.ParamArray(0,1,2,3,4,5).ResultTree("[3,1,5,0,2,4]"))
         ;
 
-    private TreeNode Solution(int[] nums)
+    private TreeNode? Solution(int[] nums)
     {
         TreeNode? BuildTree(int[] nums, int start, int end)
         {

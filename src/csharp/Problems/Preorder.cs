@@ -12,7 +12,7 @@ public sealed class Preorder : ProblemBase
         => Add(it =>
                {
                    var node = new Node(1);
-                   node.children.Add(new Node(3, new Node(5), new Node(6)));
+                   node.children!.Add(new Node(3, new Node(5), new Node(6)));
                    node.children.Add(new Node(2));
                    node.children.Add(new Node(4));
 
@@ -36,7 +36,7 @@ public sealed class Preorder : ProblemBase
 
             for (var i = current.children?.Count - 1; i >= 0; i--)
             {
-                stack.Push(current.children[i.Value]);
+                stack.Push(current.children![i.Value]);
             }
         }
 

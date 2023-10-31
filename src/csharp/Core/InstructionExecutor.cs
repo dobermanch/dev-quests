@@ -75,8 +75,8 @@ internal class InstructionsRunner<T, TData> : ITestRunner
         var result = new List<object>();
 
         var obj = new T();
-        var instructions = (string[])testCase.Params[1];
-        var data = (TData[])testCase.Params[0];
+        var instructions = (string[])testCase.Params[1]!;
+        var data = (TData[])testCase.Params[0]!;
         for (int i = 0; i < instructions.Length ; i++)
         {
             result.Add(Instructions.Map[instructions[i]].Execute(obj, data[i]));

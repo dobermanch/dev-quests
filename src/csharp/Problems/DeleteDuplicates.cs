@@ -19,7 +19,7 @@ public sealed class DeleteDuplicates : ProblemBase
         var current = head?.next;
         while (current != null)
         {
-            if (prev.val == current.val)
+            if (prev!.val == current.val)
             {
                 prev.next = current.next;
             }

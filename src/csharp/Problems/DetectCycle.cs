@@ -19,21 +19,21 @@ public sealed class DetectCycle : ProblemBase
             //it.ParamListNode("[3,2,0,-4]", 1).ResultListNode("[2,0,-4]");
         });
 
-    private ListNode Solution(ListNode head)
+    private ListNode? Solution(ListNode? head)
     {
-        var slow = head;
-        var fast = head;
+        ListNode? slow = head;
+        ListNode? fast = head;
 
         while (fast != null && fast.next != null)
         {
-            slow = slow.next;
+            slow = slow!.next;
             fast = fast.next.next;
             if (slow == fast)
             {
                 while (head != slow)
                 {
-                    head = head.next;
-                    slow = slow.next;
+                    head = head?.next;
+                    slow = slow?.next;
                 }
 
                 return head;

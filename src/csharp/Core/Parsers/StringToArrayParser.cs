@@ -19,7 +19,7 @@ internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
         };
     }
 
-    public IList<TOut> Parse(string input)
+    public IList<TOut> Parse(string? input)
     {
         if (TryParse(input, out var result))
         {
@@ -50,7 +50,7 @@ internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
                     stack.Pop();
                     if (_valueParser.TryParse(input.Slice(startIndex, index - startIndex), out var value))
                     {
-                        result.Add((TOut)value);
+                        result.Add((TOut)value!);
                     }
                     startIndex = index + 1;
                 }
@@ -69,7 +69,7 @@ internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
                 {
                     if (_valueParser.TryParse(input.Slice(startIndex, index - startIndex), out var value))
                     {
-                        result.Add((TOut)value);
+                        result.Add((TOut)value!);
                     }
 
                     startIndex = index + 1;

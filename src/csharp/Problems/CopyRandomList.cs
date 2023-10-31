@@ -9,8 +9,7 @@ public sealed class CopyRandomList : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1))
-          .Add(it =>
+        => Add(it =>
             {
                 var node0 = new Node(7);
                 var node1 = new Node(13);

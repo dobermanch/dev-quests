@@ -15,7 +15,7 @@ public sealed class RightSideView : ProblemBase
             .Add(it => it.ParamTree("[1,2,4,3,null,null,5,null,6,7,null,null,8,9,null,null,10,12,null]").ResultArray("[1,4,5,7,9,12]"))
             .Add(it => it.ParamTree("[1,2,3,null,4,5,null,null,6,7,null,null,8,9,null,null,10,9,null,null,10,9,null,null,10]").ResultArray("[1,3,5,7,9,9,9,10]"))
             .Add(it => it.ParamTree("[1,null,3]").ResultArray("[1,3]"))
-            .Add(it => it.ParamTree((string)null).ResultArray("[]"));
+            .Add(it => it.ParamTree(null).ResultArray("[]"));
 
     private IList<int> Solution(TreeNode? root)
     {

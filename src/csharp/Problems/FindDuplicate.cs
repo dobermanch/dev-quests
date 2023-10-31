@@ -9,8 +9,7 @@ public sealed class FindDuplicate : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     public override void AddTestCases()
-        => AddSolutions(nameof(Solution1), nameof(Solution2))
-          .Add(it => it.ParamArray("[1,3,4,2,2]").Result(2))
+        => Add(it => it.ParamArray("[1,3,4,2,2]").Result(2))
           .Add(it => it.ParamArray("[3,1,3,4,2]").Result(3));
 
     private int Solution(int[] nums)
