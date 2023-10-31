@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Reflection;
+using System.Collections.Concurrent;
 
 namespace LeetCode.Core;
 
@@ -29,34 +29,18 @@ namespace LeetCode.Core;
 /// </summary>
 public abstract class ProblemBase : IEnumerable<object[]>
 {
-    private static readonly Dictionary<Type, Dictionary<string, MethodInfo>> _map = new();
+    private static readonly ConcurrentDictionary<Type, ITestRunner> _runners = new();
     private readonly TestCaseCollection _testCases = new();
-    private readonly List<string> _solutions = new();
+    private ITestRunner _runner = null!;
+
+    public ProblemBase()
+    {
+        _runner = new MethodRunner(this);
+    }
 
     public virtual void Test(object[] data)
     {
-        if (!_map.TryGetValue(GetType(), out var solutions))
-        {
-            _map.Add(GetType(), solutions = new Dictionary<string, MethodInfo>());
-        }
-
-        if (!solutions.TryGetValue((string)data[0], out var method))
-        {
-            method = GetType()
-                .GetMethods(BindingFlags.Instance | BindingFlags.NonPublic)
-                .FirstOrDefault(it => it.Name.Equals((string)data[0]));
-
-            if (method == null)
-            {
-                throw new ArgumentException($"The '{data[0]}' method is not found.");
-            }
-
-            solutions.Add(method.Name, method);
-        }
-
-        //TODO: Deep clone test input data, because it can be modified in the previous test
-        var result = method.Invoke(this, data.Skip(2).ToArray());
-        Assert.Equal(data[1], result, new ObjectComparer());
+        _runners[GetType()].Run(new TestCase(data));
     }
 
     public abstract void AddTestCases();
@@ -67,13 +51,24 @@ public abstract class ProblemBase : IEnumerable<object[]>
 
     protected TestCaseCollection AddSolutions(params string[] solutionMethodNames)
     {
-        foreach (var methodName in solutionMethodNames)
-        {
-            if (!_solutions.Contains(methodName))
-            {
-                _solutions.Add(methodName);
-            }
-        }
+        //foreach (var methodName in solutionMethodNames)
+        //{
+        //    if (!_solutions.Contains(methodName))
+        //    {
+        //        _solutions.Add(methodName);
+        //    }
+        //}
+
+        return _testCases;
+    }
+
+    protected TestCaseCollection Instructions<T, TValue>(Action<Instructions<T, TValue>> configure)
+         where T : class, new()
+    {
+        var runner = new InstructionsRunner<T, TValue>();
+        configure(runner.Instructions);
+
+        _runner = runner;
 
         return _testCases;
     }
@@ -82,24 +77,21 @@ public abstract class ProblemBase : IEnumerable<object[]>
     {
         AddTestCases();
 
-        AddSolutions(GetType()
-            .GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public)
-            .Where(it => it.Name.StartsWith("Solution"))
-            .Select(it => it.Name)
-            .ToArray());
+        _runners.TryAdd(GetType(), _runner);
 
-        if (_solutions.Count <= 0)
+        if (_runner.Targets.Count <= 0)
         {
             throw new InvalidOperationException($"No solution methods found. Add method that start from 'Solution' or call {nameof(AddSolutions)} method.");
         }
 
+        var target = _runner.Targets.First();
         foreach (var testCase in _testCases)
         {
-            testCase.Name = _solutions[0];
+            testCase.Name = target;
         }
 
         var testCases = _testCases.ToArray();
-        foreach (var solution in _solutions.Skip(1))
+        foreach (var solution in _runner.Targets.Skip(1))
         {
             foreach (var testCase in testCases)
             {

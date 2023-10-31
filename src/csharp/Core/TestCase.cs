@@ -9,13 +9,18 @@ public class TestCase : IEnumerable<object>
     private readonly IList<object> _data;
     private bool _resultAdded;
 
-    protected TestCase(string name) 
-        : this(name, new List<object>()) { }
-
-    protected TestCase(string name, IList<object> data)
+    public TestCase(object[] data)
     {
-        _data = data;
-        if (!data.Any())
+        _data = data ?? throw new ArgumentNullException(nameof(data));
+    }
+
+    protected TestCase(string name) 
+        : this(name, null) { }
+
+    protected TestCase(string name, IList<object>? data)
+    {
+        _data = data ?? new List<object>();
+        if (!_data.Any())
         {
             _data.Insert(0, name);
         }
@@ -27,11 +32,15 @@ public class TestCase : IEnumerable<object>
 
     public string Name
     {
-        get => (string)_data[0];
+        get => _data.Count > 0 ? (string)_data[0]! : throw new ArgumentNullException();
         set => _data[0] = value;
     }
 
-    public TestCase Param<T>(T param)
+    public object[] Params => _data.Skip(2).ToArray();
+
+    public object? Output => _data.Count > 1 ?  _data[1] : null;
+
+    public TestCase Param<T>(T? param)
     {
         _data.Add(param);
         return this;

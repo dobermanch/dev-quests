@@ -8,41 +8,22 @@ public sealed class MyQueue : ProblemBase
     [ClassData(typeof(MyQueue))]
     public override void Test(object[] data) => base.Test(data);
 
-    public override void AddTestCases()
-        => Add(it => it.Param2dArray("[[],[1],[2],[],[],[]]", true).ParamArray("MyQueue", "push", "push", "peek", "pop", "empty").ResultArray<object>(null, null, null, 1, 1, false));
+    public override void AddTestCases() 
+        => Instructions<CustomQueue, int[]>(config =>
+                config
+                    .MapConstructor("MyQueue")
+                    .MapInstruction("push", (it, data) => it.Push(data[0]))
+                    .MapInstruction("peek", it => it.Peek())
+                    .MapInstruction("pop", it => it.Pop())
+                    .MapInstruction("empty", it => it.Empty())
+            )
+            .Add(tc =>
+                  tc.Param2dArray<int>("[[],[1],[2],[],[],[]]", true)
+                    .ParamArray<string>("""["MyQueue", "push", "push", "peek", "pop", "empty"]""")
+                    .ResultArray<object?>("[null, null, null, 1, 1, false]", true)
+            );
 
-    private IList<object> Solution(int[][] data, string[] instructions)
-    {
-        var result = new List<object>();
-
-        var queue = new CustomQueue();
-        for (int i = 0; i < instructions.Length; i++)
-        {
-            switch (instructions[i])
-            {
-                case "MyQueue":
-                    result.Add(null);
-                    break;
-                case "push":
-                    result.Add(null);
-                    queue.Push(data[i][0]);
-                    break;
-                case "peek":
-                    result.Add(queue.Peek());
-                    break;
-                case "pop":
-                    result.Add(queue.Pop());
-                    break;
-                case "empty":
-                    result.Add(queue.Empty());
-                    break;
-            }
-        }
-
-        return result;
-    }
-
-    public class CustomQueue
+    internal class CustomQueue
     {
         private readonly Stack<int> _input = new();
         private readonly Stack<int> _output = new();

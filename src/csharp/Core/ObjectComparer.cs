@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace LeetCode.Core;
 
-internal class ObjectComparer : EqualityComparer<object>
+internal class ObjectComparer : EqualityComparer<object?>
 {
     public override bool Equals(object x, object y)
     {

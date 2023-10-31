@@ -14,7 +14,7 @@ public class TestCaseCollection : IEnumerable<TestCase>
 
     public TestCaseCollection Add(bool skip, Action<TestCase> configure)
     {
-        return skip ? this : Add(configure);     
+        return skip ? this : Add(configure);
     }
 
     public TestCaseCollection Add(Action<TestCase> configure)
@@ -25,6 +25,8 @@ public class TestCaseCollection : IEnumerable<TestCase>
 
         return this;
     }
+
+    public void Clear() => _data.Clear();
 
     public virtual IEnumerator<TestCase> GetEnumerator() 
         => _data.GetEnumerator();
