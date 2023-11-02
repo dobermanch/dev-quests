@@ -1,12 +1,12 @@
 #!/bin/bash
 # Updates Tags sections in the README.md file
-# Example: Tags: Array, Hash Table   --> Tags: `Array` `Hash Table`  
+# Example: Code: [C#](...) | [Go](...) | [Python](...)  --> Code: [`C#`](...) [`Go`](...) [`Python`](...)  
 
 shopt -s extglob
 
 file_path="README.md"
 
-prefixMatch="Tags"
+prefixMatch="Code"
 
 # The regex pattern
 pattern="(^$prefixMatch:.*$)"
@@ -17,7 +17,7 @@ IFS=$'\n' read -rd '' -a groups <<< "$groups"
 
 for group in "${groups[@]}"; do
     # Split string by specified separators into an array
-    IFS=',\`:' read -ra rawParts <<< "$group"
+    IFS='|:' read -ra rawParts <<< "$group"
 
     # Cleanup and prepare parts
     parts=()
@@ -30,7 +30,10 @@ for group in "${groups[@]}"; do
             continue
         fi
 
-        parts+=("\`$part\`")
+        langPattern="\[([^\`\|\[]*)\]"
+        part="$(echo $part | sed -E "s|$langPattern|[\`\1\`]|g")"
+
+        parts+=("$part")
     done
     
     # Format final string
@@ -40,6 +43,6 @@ for group in "${groups[@]}"; do
     group="$(echo $group | sed -e 's/[]\/$*.^|()[]/\\&/g')"
     formatted="$(echo $formatted | sed -e 's/[]\/$*.^()[]/\\&/g')"
 
-    # Replace original match with modified
+    # # Replace original match with modified
     sed -i -E "s/$group/$formatted/g" "$file_path"
 done
