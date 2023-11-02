@@ -156,6 +156,11 @@ Code: [C#](/src/csharp/Problems/GroupAnagrams.cs) | [Go](/src/go/problems/group_
 Tags: Math, Recursion  
 Code: [C#](/src/csharp/Problems/MyPow.cs) | [Go](/src/go/problems/my_pow_test.go) | [Python](/src/python/problems/my_pow_test.py)  
 
+### [51. N-Queens](https://leetcode.com/problems/n-queens)
+
+Tags: Array, Backtracking  
+Code: [C#](/src/csharp/Problems/SolveNQueens.cs) | [Go](/src/go/problems/solve_n_queens_test.go) | [Python](/src/python/problems/solve_n_queens_test.py)  
+
 ### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
 Tags: Array, Divide and Conquer, Dynamic Programming  

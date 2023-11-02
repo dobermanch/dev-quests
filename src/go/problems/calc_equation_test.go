@@ -12,10 +12,7 @@ type CalcEquation struct{}
 func TestCalcEquation(t *testing.T) {
 	gen := core.TestSuite[CalcEquation]{}
 	gen.Add(func(tc *core.TestCase) {
-		tc.Param([][]int{{"a","b"},{"b","c"}})
-		  .Param([]{2.0,3.0})
-		  .Param([][]int{{"a","c"},{"b","a"},{"a","e"},{"a","a"},{"x","x"}})
-		  .Result([]{6.00000,0.50000,-1.00000,1.00000,-1.00000})
+		tc.Param([][]string{{"a","b"},{"b","c"}}).Param([]float64{2.0,3.0}).Param([][]string{{"a","c"},{"b","a"},{"a","e"},{"a","a"},{"x","x"}}).Result([]float64{6.00000,0.50000,-1.00000,1.00000,-1.00000})
 	}).Run(t)
 }
 

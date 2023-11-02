@@ -18,7 +18,7 @@ func TestLetterCombinations(t *testing.T) {
 	}).Run(t)
 }
 
-func (LetterCombinations) Solution(digits string) string[] {
+func (LetterCombinations) Solution(digits string) []string {
     set := [] string {
 		"abc", "def",
 		"ghi", "jkl", "mno",

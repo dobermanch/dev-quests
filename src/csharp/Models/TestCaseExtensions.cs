@@ -63,8 +63,8 @@ public static class TestCaseExtensions
     public static TestCase Result2dArray(this TestCase testCase, string? input, bool includeEmpty)
         => testCase.Result(input.To2dArray<int>(includeEmpty));
 
-    public static TestCase Result2dArray<T>(this TestCase testCase, string? input)
-        => testCase.Result(input.To2dArray<T>());
+    public static TestCase Result2dArray<T>(this TestCase testCase, string? input, bool includeEmpty = true)
+        => testCase.Result(input.To2dArray<T>(includeEmpty));
 
     public static TestCase ResultTree(this TestCase testCase, string? input)
         => testCase.Result(TreeNode.Parse(input));
