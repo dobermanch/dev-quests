@@ -2,6 +2,11 @@
 
 # Install MySql commands
 # https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+
+echo "==="
+echo "  Configure MySQL"
+echo "==="
+
 sudo apt update
 sudo apt install -y mysql-server
 sudo service mysql start

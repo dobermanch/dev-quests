@@ -46,6 +46,14 @@
             "name": "JavaScript",
             "program": "${file}",
             "outFiles": ["${workspaceFolder}/src/typescript/**/*.js"]
+        },
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}/scripts",
+            "args": ["../README.md", "Code"]
         }
     ]
 }

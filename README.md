@@ -88,7 +88,7 @@ Code: [`C#`](/src/csharp/Problems/GenerateParenthesis.cs) [`Go`](/src/go/problem
 
 ### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-Tags: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort  
+Tags: `Linked List` `Divide and Conquer` `Heap (Priority Queue)` `Merge Sort`  
 Code: [`C#`](/src/csharp/Problems/MergeKLists.cs) [`Go`](/src/go/problems/merge_k_lists_test.go) [`Python`](/src/python/problems/merge_k_lists_test.py)  
 
 ### [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
@@ -588,7 +588,7 @@ Code: [`C#`](/src/csharp/Problems/Rob2.cs) [`Python`](/src/python/problems/rob2_
 
 ### [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
-Tags: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect  
+Tags: `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect`  
 Code: [`C#`](/src/csharp/Problems/FindKthLargest.cs) [`Pyhton`](/src/python/problems/FindKthLargest_test.py)  
 
 ### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
@@ -643,7 +643,7 @@ Code: [`C#`](/src/csharp/Problems/ProductExceptSelf.cs) [`Go`](/src/go/problems/
 
 ### [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
-Tags: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue  
+Tags: `Array` `Queue` `Sliding Window` `Heap (Priority Queue)` `Monotonic Queue`  
 Code: [`C#`](/src/csharp/Problems/MaxSlidingWindow.cs) [`Python`](/src/python/problems/max_sliding_window_test.py)  
 
 ### [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
@@ -683,7 +683,7 @@ Code: [`C#`](/src/csharp/Problems/WordPattern.cs) [`Python`](/src/python/problem
 
 ### [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
-Tags: Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream  
+Tags: `Two Pointers` `Design` `Sorting` `Heap (Priority Queue)` `Data Stream`  
 Code: [`C#`](/src/csharp/Problems/MedianFinder.cs)  
 
 ### [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
@@ -733,7 +733,7 @@ Code: [`C#`](/src/csharp/Problems/ReverseVowels.cs) [`Go`](/src/go/problems/reve
 
 ### [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
-Tags: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect  
+Tags: `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect`  
 Code: [`C#`](/src/csharp/Problems/TopKFrequentElement.cs) [`Go`](/src/go/problems/top_k_frequent_element_test.go)  
 
 ### [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
@@ -743,7 +743,7 @@ Code: [`C#`](/src/csharp/Problems/Intersect.cs)
 
 ### [355. Design Twitter](https://leetcode.com/problems/design-twitter/)
 
-Tags: Hash Table, Linked List, Designm, Heap (Priority Queue)  
+Tags: `Hash Table` `Linked List` `Designm` `Heap (Priority Queue)`  
 Code: [`C#`](/src/csharp/Problems/Twitter.cs)  
 
 ### [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
@@ -833,7 +833,7 @@ Code: [`C#`](/src/csharp/Problems/DeleteNode.cs) [`Python`](/src/python/problems
 
 ### [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 
-Tags: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
+Tags: `Hash Table` `String` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`  
 Code: [`C#`](/src/csharp/Problems/FrequencySort.cs) [`Python`](/src/python/problems/frequency_sort_test.py)  
 
 ### [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
@@ -968,7 +968,7 @@ Code: [`SQL`](/src/sql/problems/NotBoringMovies.sql)
 
 ### [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
-Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting  
+Tags: `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` `Counting`  
 Code: [`C#`](/src/csharp/Problems/LeastInterval.cs)  
 
 ### [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
@@ -988,7 +988,7 @@ Code: [`C#`](/src/csharp/Problems/PredictPartyVictory.cs) [`Go`](/src/go/problem
 
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
-Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
+Tags: `Hash Table` `String` `Trie` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`  
 Code: [`C#`](/src/csharp/Problems/TopKFrequentWords.cs)  
 
 ### [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
@@ -1008,7 +1008,7 @@ Code: [`C#`](/src/csharp/Problems/InsertIntoBST.cs)
 
 ### [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
-Tags: Tree, Design, Binary Search Tree, Heap (Priority Queue), Binary Tree, Data Stream  
+Tags: `Tree` `Design` `Binary Search Tree` `Heap (Priority Queue)` `Binary Tree` `Data Stream`  
 Code: [`C#`](/src/csharp/Problems/KthLargest.cs)  
 
 ### [704. Binary Search](https://leetcode.com/problems/binary-search/)
@@ -1064,7 +1064,7 @@ Code: [`C#`](/src/csharp/Problems/LetterCasePermutation.cs)
 ### [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 
 Tags: `Array` `Hash Table` `Breadth-First Search`  
-Code: [`C#`](/src/csharp/Problems/LetterCasePermutation.cs) | [Python](/src/python/problems/letter_case_permutation_test.py)  
+Code: [`C#`](/src/csharp/Problems/LetterCasePermutation.cs) [`Python`](/src/python/problems/letter_case_permutation_test.py)  
 
 ### [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 
@@ -1118,7 +1118,7 @@ Code: [`C#`](/src/csharp/Problems/RemoveStones.cs)
 
 ### [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
-Tags: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect  
+Tags: `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect`  
 Code: [`C#`](/src/csharp/Problems/KClosest.cs) [`Python`](/src/python/problems/k_closest_test.py)  
 
 ### [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
@@ -1158,7 +1158,7 @@ Code: [`SQL`](/src/sql/problems/CustomersWhoBoughtAllProducts.sql)
 
 ### [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
-Tags: Array, Heap (Priority Queue)  
+Tags: `Array` `Heap (Priority Queue)`  
 Code: [`C#`](/src/csharp/Problems/LastStoneWeight.cs)  
 
 ### [1068. Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)
@@ -1233,7 +1233,7 @@ Code: [`SQL`](/src/sql/problems/QueriesQualityAndPercentage.sql)
 
 ### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
-Tags: Array, Heap (Priority Queue)  
+Tags: `Array` `Heap (Priority Queue)`  
 Code: [`C#`](/src/csharp/Problems/MinRemoveToMakeValid.cs)  
 
 ### [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/)
@@ -1463,7 +1463,7 @@ Code: [`C#`](/src/csharp/Problems/AddTwoIntegers.cs) [`Go`](/src/go/problems/add
 
 ### [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
 
-Tags: Hash Table, Design, Heap (Priority Queue)  
+Tags: `Hash Table` `Design` `Heap (Priority Queue)`  
 Code: [`C#`](/src/csharp/Problems/SmallestInfiniteSet.cs)  
 
 ### [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)

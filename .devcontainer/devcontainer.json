@@ -27,7 +27,9 @@
                 "DavidAnson.vscode-markdownlint",
                 "littlefoxteam.vscode-python-test-adapter",
                 "github.vscode-github-actions",
-                "cweijan.vscode-mysql-client2"
+                "cweijan.vscode-mysql-client2",
+                "rogalmic.bash-debug",
+                "lfm.vscode-makefile-term"
             ]
         }
     }
