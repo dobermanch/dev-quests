@@ -19,7 +19,7 @@ public sealed class SearchRange : ProblemBase
 
     private int[] Solution1(int[] nums, int target)
     {
-        int FindLeft(int[] nums, int target)
+        int Search(int[] nums, int target, bool searchLeft)
         {
             var left = 0;
             var right = nums.Length - 1;
@@ -31,38 +31,21 @@ public sealed class SearchRange : ProblemBase
                 {
                     left = mid + 1;
                 }
-                else
+                else if (nums[mid] > target)
                 {
                     right = mid - 1;
-                    if (nums[mid] == target)
-                    {
-                        index = mid;
-                    }
-                }
-            }
-
-            return index;
-        }
-
-        int FindRight(int[] nums, int target)
-        {
-            var left = 0;
-            var right = nums.Length - 1;
-            var index = -1;
-            while (left <= right)
-            {
-                var mid = (left + right) / 2;
-                if (nums[mid] <= target)
-                {
-                    left = mid + 1;
-                    if (nums[mid] == target)
-                    {
-                        index = mid;
-                    }
                 }
                 else
                 {
-                    right = mid - 1;
+                    index = mid;
+                    if (searchLeft)
+                    {
+                        left = mid + 1;
+                    }
+                    else
+                    {
+                        right = mid - 1;
+                    }
                 }
             }
 
@@ -71,8 +54,8 @@ public sealed class SearchRange : ProblemBase
 
         return new[]
         {
-            FindLeft(nums, target),
-            FindRight(nums, target)
+            Search(nums, target, true),
+            Search(nums, target, false)
         };
     }
 
