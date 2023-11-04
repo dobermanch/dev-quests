@@ -40,11 +40,11 @@ public sealed class SearchRange : ProblemBase
                     index = mid;
                     if (searchLeft)
                     {
-                        left = mid + 1;
+                        right = mid - 1;
                     }
                     else
                     {
-                        right = mid - 1;
+                        left = mid + 1;
                     }
                 }
             }
