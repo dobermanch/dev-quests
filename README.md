@@ -106,6 +106,11 @@ Code: [`C#`](/src/csharp/Problems/ReverseKGroup.cs) [`Python`](/src/python/probl
 Tags: `Array` `Binary Search`  
 Code: [`C#`](/src/csharp/Problems/Search.cs)  
 
+### [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
+
+Tags: `Array` `Binary Search`  
+Code: [`C#`](/src/csharp/Problems/SearchRange.cs) [`Go`](/src/go/problems/search_range_test.go) [`Python`](/src/python/problems/search_range_test.py)  
+
 ### [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 
 Tags: `Array` `Binary Search`  
