@@ -336,6 +336,11 @@ Code: [`C#`](/src/csharp/Problems/HasPathSum.cs)
 Tags: `Backtracking` `Tree` `Depth-First Search` `Binary Tree`  
 Code: [`C#`](/src/csharp/Problems/PathSum2.cs) [`Python`](/src/python/problems/path_sum2_test.py)  
 
+### [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+
+Tags: `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/Flatten.cs) [`Go`](/src/go/problems/flatten_test.go) [`Python`](/src/go/problems/flatten_test.py)  
+
 ### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 Tags: `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
