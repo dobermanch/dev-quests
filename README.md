@@ -101,6 +101,11 @@ Code: [`C#`](/src/csharp/Problems/SwapPairs.cs) [`Python`](/src/python/problems/
 Tags: `Linked List` `Recursion`  
 Code: [`C#`](/src/csharp/Problems/ReverseKGroup.cs) [`Python`](/src/python/problems/reverse_k_group_test.py)  
 
+### [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
+
+Tags: `Array` `Two Pointers`  
+Code: [`C#`](/src/csharp/Problems/NextPermutation.cs) [`Go`](/src/go/problems/next_permutation_test.go) [`Python`](/src/python/problems/next_permutation_test.py)  
+
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 Tags: `Array` `Binary Search`  
