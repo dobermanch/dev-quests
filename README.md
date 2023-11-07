@@ -146,6 +146,11 @@ Code: [`C#`](/src/csharp/Problems/Trap.cs) [`Go`](/src/go/problems/trap_test.go)
 Tags: `Math` `String` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/Multiply.cs)  
 
+### [45. Jump Game II](https://leetcode.com/problems/jump-game-ii)
+
+Tags: `Array` `Dynamic Programming` `Greedy`  
+Code: [`C#`](/src/csharp/Problems/Jump.cs) [`Go`](/src/go/problems/jump_test.go) [`Python`](/src/python/problems/jump_test.py)  
+
 ### [46. Permutations](https://leetcode.com/problems/permutations/)
 
 Tags: `Array` `Backtracking`  
