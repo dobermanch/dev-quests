@@ -2,7 +2,8 @@
     "dotnet.defaultSolution": "src/csharp/LeetCode.sln",
     "cSpell.words": [
         "devcontainers",
-        "nums"
+        "nums",
+        "Tribonacci"
     ],
     "python.analysis.extraPaths": [
         "./src",

@@ -1201,6 +1201,11 @@ Code: [`C#`](/src/csharp/Problems/GcdOfStrings.cs) [`Go`](/src/go/problems/gcd_o
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/ProjectEmployeesI.sql)  
 
+### [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+
+Tags: `Math` `Dynamic Programming` `Memoization`  
+Code: [`C#`](/src/csharp/Problems/Tribonacci.cs) [`Go`](/src/go/problems/tribonacci_test.go) [`Python`](/src/python/problems/tribonacci_test.py)  
+
 ### [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i)
 
 Tags: `Database`  
