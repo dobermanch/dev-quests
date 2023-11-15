@@ -771,6 +771,11 @@ Code: [`C#`](/src/csharp/Problems/Twitter.cs)
 Tags: `Math` `Bit Manipulation`  
 Code: [`C#`](/src/csharp/Problems/GetSum.cs)  
 
+### [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
+
+Tags: `Binary Search` `Interactive`  
+Code: [`C#`](/src/csharp/Problems/GuessNumber.cs) [`Go`](/src/go/problems/guess_number_test.go) [`Python`](/src/python/problems/guess_number_test.py)  
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 Tags: `Hash Table` `String` `Counting`  
