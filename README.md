@@ -686,6 +686,11 @@ Code: [`C#`](/src/csharp/Problems/MissingNumber.cs) [`Python`](/src/pyrhon/probl
 Tags: `Binary Search` `Interactive`  
 Code: [`C#`](/src/csharp/Problems/FirstBadVersion.cs)  
 
+### [279. Perfect Squares](https://leetcode.com/problems/perfect-squares)
+
+Tags: `Math` `Dynamic Programming` `Breadth-First Search`  
+Code: [`C#`](/src/csharp/Problems/NumSquares.cs) [`Go`](/src/go/problems/num_squares_test.go) [`Python`](/src/python/problems/num_squares_test.py)  
+
 ### [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
 Tags: `Array` `Two Pointers`  
