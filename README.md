@@ -206,6 +206,11 @@ Code: [`C#`](/src/csharp/Problems/InsertInterval.cs)
 Tags: `Array` `Matrix` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/SpiralOrder2.cs) [`Python`](/src/python/problems/spiral_order2_test.py)  
 
+### [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)
+
+Tags: `Array` `Dynamic Programming` `Matrix`  
+Code: [`C#`](/src/csharp/Problems/MinPathSum.cs) [`Go`](/src/go/problems/min_path_sum_test.go) [`Python`](/src/python/problems/min_path_sum_test.py)  
+
 ### [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 Tags: `Math` `Dynamic Programming` `Memoization`  
