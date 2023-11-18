@@ -106,6 +106,11 @@ Code: [`C#`](/src/csharp/Problems/ReverseKGroup.cs) [`Python`](/src/python/probl
 Tags: `Array` `Two Pointers`  
 Code: [`C#`](/src/csharp/Problems/NextPermutation.cs) [`Go`](/src/go/problems/next_permutation_test.go) [`Python`](/src/python/problems/next_permutation_test.py)  
 
+### [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)
+
+Tags: `String` `Dynamic Programming` `Stack`  
+Code: [`C#`](/src/csharp/Problems/LongestValidParentheses.cs) [`Go`](/src/go/problems/longest_valid_parentheses_test.go) [`Python`](/src/python/problems/longest_valid_parentheses_test.py)  
+
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 Tags: `Array` `Binary Search`  
