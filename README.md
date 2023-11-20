@@ -221,6 +221,11 @@ Code: [`C#`](/src/csharp/Problems/MinPathSum.cs) [`Go`](/src/go/problems/min_pat
 Tags: `Math` `Dynamic Programming` `Memoization`  
 Code: [`C#`](/src/csharp/Problems/ClimbStairs.cs)  
 
+### [72. Edit Distance](https://leetcode.com/problems/edit-distance)
+
+Tags: `String` `Dynamic Programming`  
+Code: [`C#`](/src/csharp/Problems/MinDistance.cs) [`Go`](/src/go/problems/min_distance_test.go) [`Python`](/src/python/problems/min_distance_test.py)  
+
 ### [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 Tags: `Array` `Hash Table` `Matrix`  
