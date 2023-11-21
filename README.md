@@ -1531,6 +1531,11 @@ Code: [`SQL`](/src/sql/problems/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)
 Tags: `String` `Stack` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/RemoveStars.cs) [`Go`](/src/go/problems/remove_stars_test.go) [`Python`](/src/python/problems/remove_stars_test.py)  
 
+### [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
+
+Tags: `Array` `Greedy` `Sorting` `Heap (Priority Queue)`  
+Code: [`C#`](/src/csharp/Problems/MaxScore.cs) [`Go`](/src/go/problems/max_score_test.go) [`Python`](/src/python/problems/max_score_test.py)  
+
 ### [2620. Counter](https://leetcode.com/problems/counter)
 
 Tags:      
