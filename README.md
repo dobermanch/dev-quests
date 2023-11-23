@@ -881,6 +881,11 @@ Code: [`C#`](/src/csharp/Problems/DeleteNode.cs) [`Python`](/src/python/problems
 Tags: `Hash Table` `String` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`  
 Code: [`C#`](/src/csharp/Problems/FrequencySort.cs) [`Python`](/src/python/problems/frequency_sort_test.py)  
 
+### [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+
+Tags: `Array` `Greedy` `Sorting`  
+Code: [`C#`](/src/csharp/Problems/FindMinArrowShots.cs) [`Go`](/src/go/problems/find_min_arrow_shots_test.go) [`Python`](/src/python/problems/find_min_arrow_shots_test.py)  
+
 ### [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
 
 Tags: `Array` `Hash Table` `Backtracking` `Bit Manipulation`  
