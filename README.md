@@ -1306,6 +1306,11 @@ Code: [`C#`](/src/csharp/Problems/SuggestedProducts.cs) [`Go`](/src/go/Problems/
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/StudentsAndExaminations.sql)  
 
+### [1318. Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)
+
+Tags: `Bit Manipulation`  
+Code: [`C#`](/src/csharp/Problems/MinFlips.cs) [`Go`](/src/go/problems/min_flips_test.go) [`Python`](/src/python/problems/min_flips_test.py)  
+
 ### [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)
 
 Tags: `Database`  
