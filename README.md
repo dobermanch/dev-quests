@@ -1296,6 +1296,11 @@ Code: [`C#`](/src/csharp/Problems/MinRemoveToMakeValid.cs)
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/AverageSellingPrice.sql)  
 
+### [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
+
+Tags: `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)`  
+Code: [`C#`](/src/csharp/Problems/SuggestedProducts.cs) [`Go`](/src/go/Problems/suggested_products_test.go) [`Python`](/src/python/Problems/suggested_products_test.py)  
+
 ### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations)
 
 Tags: `Database`  
