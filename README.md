@@ -626,6 +626,11 @@ Code: [`C#`](/src/csharp/Problems/Rob2.cs) [`Python`](/src/python/problems/rob2_
 Tags: `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect`  
 Code: [`C#`](/src/csharp/Problems/FindKthLargest.cs) [`Pyhton`](/src/python/problems/FindKthLargest_test.py)  
 
+### [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)
+
+Tags: `Array` `Backtracking`  
+Code: [`C#`](/src/csharp/Problems/CombinationSum3.cs) [`Go`](/src/go/problems/combination_sum_3_test.go) [`Python`](/src/python/problems/combination_sum_3_test.py)  
+
 ### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 Tags: `Array` `Hash Table` `Sorting`  
