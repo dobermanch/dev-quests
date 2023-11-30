@@ -11,11 +11,13 @@ class TestGen:
     def __init__(self, type: object):
         self.type = type
         self.testCases = []
-        self.solutions = [ "Solution" ]
+        self.solutions = [attr for attr in dir(self.type) if attr.lower().startswith("solution")]
 
     def AddSolution(self, *args):
         for arg in args:
-            self.solutions.append(arg)
+            if arg not in self.solutions:
+                self.solutions.append(arg)
+
         return self
 
     def Add(self, configure):
@@ -25,18 +27,20 @@ class TestGen:
 
         return self
 
-    def GenerateTest(self, testCase):
+    def GenerateTest(self, testCase, suffix):
         def test(self):
             result = getattr(self, testCase.name)(**testCase.params)
             self.assertEqual(result, testCase.result)
 
-        testName = 'test_' + testCase.name + '_' + str(testCase.params)
+        testName = 'test_' + testCase.name + '_' + suffix
         setattr(self.type, testName, test)
-        return test
 
     def Run(self):
-        for testCase in self.testCases:
-            for solution in self.solutions:
-                self.GenerateTest(testCase.Clone(solution))
+        if not self.solutions:
+            raise ValueError("The solution is not found. The solution method should start with 'Solution' prefix.")
+
+        for tIndex, testCase in enumerate(self.testCases):
+            for sIndex, solution in enumerate(self.solutions):
+                self.GenerateTest(testCase.Clone(solution), f"{tIndex}_{sIndex}")
 
         unittest.main()

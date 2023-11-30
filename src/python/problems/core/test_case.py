@@ -1,11 +1,10 @@
 import copy
 
-# TODO: Fix, new testcase overrides previous one
 class TestCase:
 
-    def __init__(self, name: str, params: list = {}, result: any = None, disabled: bool = False):
+    def __init__(self, name: str, params: list = None, result: any = None, disabled: bool = False):
         self.name = name
-        self.params = params
+        self.params = params if params else {}
         self.result = result
         self.disabled = disabled
 
