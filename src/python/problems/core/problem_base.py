@@ -29,8 +29,8 @@ class TestGen:
 
     def GenerateTest(self, testCase, suffix):
         def test(self):
-            result = getattr(self, testCase.name)(**testCase.params)
-            self.assertEqual(result, testCase.result)
+            result = getattr(self, testCase.name)(*testCase.params)
+            self.assertEqual(result, testCase.result, f"{str(testCase)}, Actual: {result}")
 
         testName = 'test_' + testCase.name + '_' + suffix
         setattr(self.type, testName, test)
