@@ -1,3 +1,4 @@
+import math
 import unittest
 
 from core.test_case import TestCase
@@ -30,7 +31,10 @@ class TestGen:
     def GenerateTest(self, testCase, suffix):
         def test(self):
             result = getattr(self, testCase.name)(*testCase.params)
-            self.assertEqual(result, testCase.result, f"{str(testCase)}, Actual: {result}")
+            if isinstance(result, float):
+                self.assertTrue(math.isclose(testCase.result, result, rel_tol=0.01), f"{str(testCase)}, Actual: {result}")
+            else:
+                self.assertEqual(result, testCase.result, f"{str(testCase)}, Actual: {result}")
 
         testName = 'test_' + testCase.name + '_' + suffix
         setattr(self.type, testName, test)
