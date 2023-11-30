@@ -496,6 +496,11 @@ Code: [`C#`](/src/csharp/Problems/MinStack.cs)
 Tags: `Hash Table` `Linked List` `Two Pointers`  
 Code: [`C#`](/src/csharp/Problems/GetIntersectionNode.cs) [`Python`](/src/python/problems/get_intersection_node_test.py)  
 
+### [162. Find Peak Element](https://leetcode.com/problems/find-peak-element)
+
+Tags: `Array` `Binary Search`  
+Code: [`C#`](/src/csharp/Problems/FindPeakElement.cs) [`Go`](/src/go/problems/find_peak_element_test.go) [`Python`](/src/python/problems/find_peak_element_test.py)  
+
 ### [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 Tags: `Array` `Two Pointers` `Binary Search`  
