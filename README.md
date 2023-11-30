@@ -1536,6 +1536,11 @@ Code: [`C#`](/src/csharp/Problems/FindDifference.cs) [`Go`](/src/go/problems/fin
 Tags: `Math`  
 Code: [`C#`](/src/csharp/Problems/AddTwoIntegers.cs) [`Go`](/src/go/problems/add_two_integers_test.go)  
 
+### [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
+
+Tags: `Array` `Two Pointers` `Binary Search` `Sorting`  
+Code: [`C#`](/src/csharp/Problems/SuccessfulPairs.cs) [`Go`](/src/go/problems/successful_pairs_test.go) [`Python`](/src/python/problems/successful_pairs_test.py)  
+
 ### [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
 
 Tags: `Hash Table` `Design` `Heap (Priority Queue)`  
