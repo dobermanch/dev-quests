@@ -18,8 +18,9 @@ class RemoveElements(ProblemBase):
 
         return head if not head or head.val != val else head.next
 
-#if __name__ == '__main__':
-    # TestGen(RemoveElements) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    #RemoveElements().Solution([ListNode(1, ListNode(2, ListNode(4))), ListNode(1, ListNode(3, ListNode(4))), ListNode(1, ListNode(2, ListNode(4))), ListNode(1, ListNode(3, ListNode(4)))])
+if __name__ == '__main__':
+    TestGen(RemoveElements) \
+        .Add(lambda tc: tc.ParamListNode([1,2,6,3,4,5,6]).Param(6).ResultListNode([1,2,3,4,5])) \
+        .Add(lambda tc: tc.ParamListNode([]).Param(1).ResultListNode([])) \
+        .Add(lambda tc: tc.ParamListNode([7,7,7,7]).Param(7).ResultListNode([])) \
+        .Run()

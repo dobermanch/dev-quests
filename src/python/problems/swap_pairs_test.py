@@ -21,7 +21,8 @@ class SwapPairs(ProblemBase):
         return result.next
 
 if __name__ == '__main__':
-    # TestGen(SwapPairs) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    SwapPairs().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))
+    TestGen(SwapPairs) \
+        .Add(lambda tc: tc.ParamListNode([1,2,3,4]).ResultListNode([2,1,4,3])) \
+        .Add(lambda tc: tc.ParamListNode([]).ResultListNode([])) \
+        .Add(lambda tc: tc.ParamListNode([1]).ResultListNode([1])) \
+        .Run()

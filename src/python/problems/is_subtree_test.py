@@ -27,7 +27,7 @@ class IsSubtree(ProblemBase):
         return Dfs(root, subRoot, False)
 
 if __name__ == '__main__':
-    # TestGen(IsSubtree) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    IsSubtree().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), TreeNode(1, TreeNode(2), TreeNode(3)))
+    TestGen(IsSubtree) \
+        .Add(lambda tc: tc.ParamTreeNode([3,4,5,1,2]).ParamTreeNode([4,1,2]).Result(True)) \
+        .Add(lambda tc: tc.ParamTreeNode([3,4,5,1,2,None,None,None,None,0]).ParamTreeNode([4,1,2]).Result(False)) \
+        .Run()

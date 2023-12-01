@@ -23,8 +23,9 @@ class GetIntersectionNode(ProblemBase):
         return headB
 
 if __name__ == '__main__':
-    # TestGen(CloneGraph) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-
-    GetIntersectionNode().Solution(ListNode(1, ListNode(2, ListNode(3))), ListNode(1, ListNode(2, ListNode(3))))
+    node8 = ListNode(8, ListNode(4, ListNode(5)))
+    node4 = ListNode(4, ListNode(1, node8))
+    node5 = ListNode(5, ListNode(6, ListNode(1, node8)))
+    TestGen(GetIntersectionNode) \
+        .Add(lambda tc: tc.Param(node4).Param(node5).Result(node8)) \
+        .Run()

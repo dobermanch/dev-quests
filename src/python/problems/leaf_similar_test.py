@@ -26,9 +26,7 @@ class LeafSimilar(ProblemBase):
         return result1 == result2
 
 if __name__ == '__main__':
-    node1 = TreeNode(3, TreeNode(5, TreeNode(6), TreeNode(2, TreeNode(7), TreeNode(4))), TreeNode(1, TreeNode(9), TreeNode(8)))
-    node2 = TreeNode(3, TreeNode(5, TreeNode(6), TreeNode(7)), TreeNode(1, TreeNode(4), TreeNode(2, TreeNode(9), TreeNode(8))))
-
     TestGen(LeafSimilar) \
-        .Add(lambda tc: tc.Param(node1).Param(node2).Result(True)) \
+        .Add(lambda tc: tc.ParamTreeNode([3,5,1,6,2,9,8,None,None,7,4]).ParamTreeNode([3,5,1,6,7,4,2,None,None,None,None,None,None,9,8]).Result(True)) \
+        .Add(lambda tc: tc.ParamTreeNode([1,2,3]).ParamTreeNode([1,3,2]).Result(False)) \
         .Run()

@@ -36,8 +36,9 @@ class GoodNodes(ProblemBase):
         return Dfs(root, float('-inf'))
 
 
-# if __name__ == '__main__':
-#     TestGen(GoodNodes) \
-#         .Add(lambda tc: tc.Param([3,1,4,3,null,1,5]).Result(2)) \
-#         .Add(lambda tc: tc.Param([3,1,3,4,2]).Result(3)) \
-#         .Run()
+if __name__ == '__main__':
+    TestGen(GoodNodes) \
+        .Add(lambda tc: tc.ParamTreeNode([3,1,4,3,None,1,5]).Result(4)) \
+        .Add(lambda tc: tc.ParamTreeNode([3,3,None,4,2]).Result(3)) \
+        .Add(lambda tc: tc.ParamTreeNode([1]).Result(1)) \
+        .Run()

@@ -14,7 +14,7 @@ class TreeNode:
         queue = []
         queue.append(self)
         while queue:
-            node = queue.pop()
+            node = queue.pop(0)
             sb += f",{node.val}"
             if node.left:
                 queue.append(node.left)
@@ -39,6 +39,9 @@ class TreeNode:
         if not self and not __value:
             return True
         
+        if (not self and __value) or (self and not __value):
+            return False
+        
         if self is __value:
             return True
         
@@ -61,12 +64,12 @@ class TreeNode:
         while queue and index < len(param):
             node = queue.pop(0)
             index += 1
-            if index < len(param) and param[index]:
+            if index < len(param) and param[index] is not None:
                 node.left = TreeNode(param[index])
                 queue.append(node.left)
 
             index += 1
-            if index < len(param) and param[index]:
+            if index < len(param) and param[index] is not None:
                 node.right = TreeNode(param[index])
                 queue.append(node.right)
 

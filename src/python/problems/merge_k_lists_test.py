@@ -35,7 +35,6 @@ class MergeKLists(ProblemBase):
         return Merge(lists, 0, len(lists) - 1)
 
 if __name__ == '__main__':
-    # TestGen(MergeKLists) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    MergeKLists().Solution([ListNode(1, ListNode(2, ListNode(4))), ListNode(1, ListNode(3, ListNode(4))), ListNode(1, ListNode(2, ListNode(4))), ListNode(1, ListNode(3, ListNode(4)))])
+    TestGen(MergeKLists) \
+        .Add(lambda tc: tc.Param([ListNode.Create([1,4,5]),ListNode.Create([1,3,4]),ListNode.Create([2,6])]).ResultListNode([1,1,2,3,4,4,5,6])) \
+        .Run()

@@ -34,7 +34,7 @@ class ReverseKGroup(ProblemBase):
 
 
 if __name__ == '__main__':
-    # TestGen(ReverseKGroup) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    ReverseKGroup().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))), 2)
+    TestGen(ReverseKGroup) \
+        .Add(lambda tc: tc.ParamListNode([1,2,3,4,5]).Param(2).ResultListNode([2,1,4,3,5])) \
+        .Add(lambda tc: tc.ParamListNode([1,2,3,4,5]).Param(3).ResultListNode([3,2,1,4,5])) \
+        .Run()

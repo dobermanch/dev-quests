@@ -19,7 +19,6 @@ class LowestCommonAncestor(ProblemBase):
         return Dfs(root, p, q)
 
 if __name__ == '__main__':
-    # TestGen(LowestCommonAncestor) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    LowestCommonAncestor().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), TreeNode(2),  TreeNode(3))
+    TestGen(LowestCommonAncestor) \
+        .Add(lambda tc: tc.ParamTreeNode([3,5,1,6,2,0,8,None,None,7,4]).ParamTreeNode([5]).ParamTreeNode([1]).ResultTreeNode([3,5,1,6,2,0,8,None,None,7,4])) \
+        .Run()

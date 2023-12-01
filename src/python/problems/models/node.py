@@ -44,6 +44,9 @@ class Node:
         if not self and not __value:
             return True
         
+        if (not self and __value) or (self and not __value):
+            return False
+        
         if self is __value:
             return True
         
@@ -74,18 +77,18 @@ class Node:
         queue.append((root, 0))
         index = 0
         while queue:
-            node, level = queue.pop()
+            node, level = queue.pop(0)
 
             if link and queue[-1].level == level:
                 node.next = queue[-1].node
 
             index += 1
-            if index < len(param) and param[index]:
+            if index < len(param) and param[index] is not None:
                 node.left = Node(param[index])
                 queue.append((node.left, level + 1))
 
             index += 1
-            if index < len(param) and param[index]:
+            if index < len(param) and param[index] is not None:
                 node.right = Node(param[index])
                 queue.append((node.right, level + 1))
 

@@ -31,8 +31,7 @@ class MaxLevelSum(ProblemBase):
         return result
 
 if __name__ == '__main__':
-    node1 = TreeNode(1, TreeNode(7, TreeNode(7), TreeNode(-8)), TreeNode(0))
-
     TestGen(MaxLevelSum) \
-        .Add(lambda tc: tc.Param(node1).Result(2)) \
+        .Add(lambda tc: tc.ParamTreeNode([1,7,0,7,-8,None,None]).Result(2)) \
+        .Add(lambda tc: tc.ParamTreeNode([989,None,10250,98693,-89388,None,None,None,-32127]).Result(2)) \
         .Run()

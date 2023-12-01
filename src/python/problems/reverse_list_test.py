@@ -1,4 +1,4 @@
-
+# https://leetcode.com/problems/reverse-linked-list/
 from typing import Optional
 from models.list_node import ListNode
 from core.problem_base import *
@@ -16,7 +16,8 @@ class ReverseList(ProblemBase):
         return result
 
 if __name__ == '__main__':
-    # TestGen(ReverseList) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    ReverseList().Solution(ListNode(1, ListNode(2, ListNode(3))))
+    TestGen(ReverseList) \
+        .Add(lambda tc: tc.ParamListNode([1,2,3,4,5]).ResultListNode([5,4,3,2,1])) \
+        .Add(lambda tc: tc.ParamListNode([1,2]).ResultListNode([2,1])) \
+        .Add(lambda tc: tc.ParamListNode([]).ResultListNode([])) \
+        .Run()

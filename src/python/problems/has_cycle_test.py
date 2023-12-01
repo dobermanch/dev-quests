@@ -20,7 +20,8 @@ class HasCycle(ProblemBase):
 
 
 if __name__ == '__main__':
-    # TestGen(HasCycle) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    HasCycle().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))
+    TestGen(HasCycle) \
+        .Add(lambda tc: tc.ParamListNode([3,2,0,-4], 2).Result(True)) \
+        .Add(lambda tc: tc.ParamListNode([1,2], 0).Result(True)) \
+        .Add(lambda tc: tc.ParamListNode([1]).Result(False)) \
+        .Run()

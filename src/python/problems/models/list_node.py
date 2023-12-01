@@ -35,6 +35,9 @@ class ListNode:
         if not self and not __value:
             return True
         
+        if (not self and __value) or (self and not __value):
+            return False
+        
         if self is __value:
             return True
         
@@ -79,8 +82,8 @@ def TestCaseExtension(cls):
     return decorator
     
 @TestCaseExtension(TestCase)
-def ParamListNode(self, param: any):
-    return self.Param(ListNode.Create(param))
+def ParamListNode(self, param: any, cycleAtPos: int = None):
+    return self.Param(ListNode.Create(param, cycleAtPos))
 
 @TestCaseExtension(TestCase)
 def ResultListNode(self, param: any):

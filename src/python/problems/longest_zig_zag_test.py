@@ -18,8 +18,7 @@ class LongestZigZag(ProblemBase):
         return Dfs(root, 0, True)
 
 if __name__ == '__main__':
-    node1 = TreeNode(1, None, TreeNode(1, TreeNode(1), TreeNode(1, TreeNode(1, None, TreeNode(1, None, TreeNode(1))), TreeNode(1))))
-
     TestGen(LongestZigZag) \
-        .Add(lambda tc: tc.Param(node1).Result(3)) \
+        .Add(lambda tc: tc.ParamTreeNode([1,None,1,1,1,None,None,1,1,None,1,None,None,None,1]).Result(3)) \
+        .Add(lambda tc: tc.ParamTreeNode([1,1,1,None,1,None,None,1,1,None,1]).Result(4)) \
         .Run()

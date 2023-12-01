@@ -28,7 +28,7 @@ class MaxPathSum(ProblemBase):
         return result[0]
 
 if __name__ == '__main__':
-    # TestGen(MaxPathSum) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    MaxPathSum().Solution(TreeNode(1, TreeNode(2), TreeNode(3)))
+    TestGen(MaxPathSum) \
+        .Add(lambda tc: tc.ParamTreeNode([1,2,3]).Result(6)) \
+        .Add(lambda tc: tc.ParamTreeNode([-10,9,20,None,None,15,7]).Result(42)) \
+        .Run()

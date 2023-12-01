@@ -27,7 +27,7 @@ class PathSum2(ProblemBase):
         return result
 
 if __name__ == '__main__':
-    # TestGen(PathSum2) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    PathSum2().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), 3)
+    TestGen(PathSum2) \
+        .Add(lambda tc: tc.ParamTreeNode([5,4,8,11,None,13,4,7,2,None,None,5,1]).Param(22).Result([[5,4,11,2],[5,8,4,5]])) \
+        .Add(lambda tc: tc.ParamTreeNode([1,2,3]).Param(5).Result([])) \
+        .Run()

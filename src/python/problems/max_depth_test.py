@@ -17,7 +17,7 @@ class MaxDepth(ProblemBase):
         return Dfs(root, 0)
 
 if __name__ == '__main__':
-    # TestGen(MaxDepth) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    MaxDepth().Solution(TreeNode(1, TreeNode(2), TreeNode(3)))
+    TestGen(MaxDepth) \
+        .Add(lambda tc: tc.ParamTreeNode([3,9,20,None,None,15,7]).Result(3)) \
+        .Add(lambda tc: tc.ParamTreeNode([1,None,2]).Result(2)) \
+        .Run()

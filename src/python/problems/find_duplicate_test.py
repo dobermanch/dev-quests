@@ -1,6 +1,4 @@
 #https://leetcode.com/problems/find-the-duplicate-number
-
-import math
 from core.problem_base import *
 
 class FindDuplicate(ProblemBase):

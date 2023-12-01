@@ -24,7 +24,8 @@ class MergeTwoLists(ProblemBase):
         return result.next
 
 if __name__ == '__main__':
-    # TestGen(MergeTwoLists) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    MergeTwoLists().Solution(ListNode(1, ListNode(2, ListNode(4))), ListNode(1, ListNode(3, ListNode(4))))
+    TestGen(MergeTwoLists) \
+        .Add(lambda tc: tc.ParamListNode([1,2,4]).ParamListNode([1,3,4]).ResultListNode([1,1,2,3,4,4])) \
+        .Add(lambda tc: tc.ParamListNode([]).ParamListNode([]).ResultListNode([])) \
+        .Add(lambda tc: tc.ParamListNode([]).ParamListNode([0]).ResultListNode([0])) \
+        .Run()
