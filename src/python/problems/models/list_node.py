@@ -23,6 +23,13 @@ class ListNode:
         sb += "]"
 
         return sb
+    
+    def __hash__(self) -> int:
+        prime = 31
+        result = 1
+        result = prime * result + hash(self.val)
+        result = prime * result + hash(self.next)
+        return result
 
     def __eq__(self, __value: object) -> bool:
         if not self and not __value:

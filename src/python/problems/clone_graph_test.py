@@ -20,9 +20,6 @@ class CloneGraph(ProblemBase):
         return Clone(node, {}) if node else None
 
 if __name__ == '__main__':
-    # TestGen(CloneGraph) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
     node1 = Node(1)
     node2 = Node(2)
     node3 = Node(3)
@@ -36,4 +33,7 @@ if __name__ == '__main__':
     node3.neighbors.append(node4)
     node4.neighbors.append(node1)
     node4.neighbors.append(node3)
-    CloneGraph().Solution(node1)
+
+    TestGen(CloneGraph) \
+        .Add(lambda tc: tc.Param(node1).Result(node1)) \
+        .Run()

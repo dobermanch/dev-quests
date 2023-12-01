@@ -25,7 +25,6 @@ class DeleteDuplicates(ProblemBase):
         return head.next
 
 if __name__ == '__main__':
-    # TestGen(DeleteDuplicates) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    DeleteDuplicates().Solution(ListNode(1, ListNode(2, ListNode(2))))
+    TestGen(DeleteDuplicates) \
+        .Add(lambda tc: tc.ParamListNode([1,2,3,3,4,4,5]).ResultListNode([1,2,5])) \
+        .Run()

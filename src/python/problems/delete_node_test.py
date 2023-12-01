@@ -34,7 +34,6 @@ class ZigzagLevelOrder(ProblemBase):
         return Delete(root, key)
 
 if __name__ == '__main__':
-    # TestGen(ZigzagLevelOrder) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    ZigzagLevelOrder().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), 1)
+    TestGen(ZigzagLevelOrder) \
+        .Add(lambda tc: tc.ParamTreeNode([5,3,6,2,4,None,7]).Param(3).ResultTreeNode([5,4,6,2,None,None,7])) \
+        .Run()
