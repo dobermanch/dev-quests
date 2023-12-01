@@ -8,13 +8,10 @@ class TestCase:
         self.result = result
         self.disabled = disabled
 
-    def Param(self, name: str, param: any):
-        return self.Param(param)
-    
     def Param(self, param: any):
         self.params.append(param)
         return self
-
+    
     def Result(self, result):
         if self.result:
             raise ValueError(result)

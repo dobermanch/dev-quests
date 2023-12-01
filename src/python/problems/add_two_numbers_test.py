@@ -27,7 +27,8 @@ class AddTwoNumbers(ProblemBase):
         return result.next
 
 if __name__ == '__main__':
-    # TestGen(AddTwoNumbers) \
-    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
-    #     .Run()
-    AddTwoNumbers().Solution(ListNode(1, ListNode(2, ListNode(3))), ListNode(1, ListNode(2, ListNode(3))))
+    TestGen(AddTwoNumbers) \
+        .Add(lambda tc: tc.ParamListNode([2,4,3]).ParamListNode([5,6,4]).ResultListNode([7,0,8])) \
+        .Add(lambda tc: tc.ParamListNode([0]).ParamListNode([0]).ResultListNode([0])) \
+        .Add(lambda tc: tc.ParamListNode([9,9,9,9,9,9,9]).ParamListNode([9,9,9,9]).ResultListNode([8,9,9,9,0,0,0,1])) \
+        .Run()
