@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/non-overlapping-intervals/
+from core.problem_base import *
 
-
-class EraseOverlapIntervals:
+class EraseOverlapIntervals(ProblemBase):
     def Solution(self, intervals: list[list[int]]) -> int:
         result = 0
         intervals.sort(key = lambda x: x[0])
@@ -16,5 +16,9 @@ class EraseOverlapIntervals:
         return result
 
 
-
-EraseOverlapIntervals().Solution([[1,2],[2,3],[3,4],[1,3]])
+if __name__ == '__main__':
+    TestGen(EraseOverlapIntervals) \
+        .Add(lambda tc: tc.Param([[1,2],[2,3],[3,4],[1,3]]).Result(1)) \
+        .Add(lambda tc: tc.Param([[1,2],[1,2],[1,2]]).Result(2)) \
+        .Add(lambda tc: tc.Param([[1,2],[2,3]]).Result(0)) \
+        .Run()

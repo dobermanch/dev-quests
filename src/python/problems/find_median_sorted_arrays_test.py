@@ -38,8 +38,8 @@ class FindMedianSortedArrays(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(FindMedianSortedArrays) \
-        .Add(lambda tc: tc.Param("nums1", [1,2,3,4,5]).Param("nums2", [1,2,3,4,5,6,7,8]).Result(4.0)) \
-        .Add(lambda tc: tc.Param("nums1", [1,2,3,4]).Param("nums2", [1,2,3,4,5,6,7,8]).Result(3.5)) \
-        .Add(lambda tc: tc.Param("nums1", [1,3]).Param("nums2", [2]).Result(2.0)) \
-        .Add(lambda tc: tc.Param("nums1", [1,2]).Param("nums2", [3,4]).Result(2.5)) \
+        .Add(lambda tc: tc.Param([1,2,3,4,5]).Param([1,2,3,4,5,6,7,8]).Result(4.0)) \
+        .Add(lambda tc: tc.Param([1,2,3,4]).Param([1,2,3,4,5,6,7,8]).Result(3.5)) \
+        .Add(lambda tc: tc.Param([1,3]).Param([2]).Result(2.0)) \
+        .Add(lambda tc: tc.Param([1,2]).Param([3,4]).Result(2.5)) \
         .Run()

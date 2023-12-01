@@ -21,6 +21,6 @@ class MaxScore(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MaxScore) \
-        .Add(lambda tc: tc.Param("nums1", [1,3,3,2]).Param("nums2", [2,1,3,4]).Param("k", 3).Result(12)) \
-        .Add(lambda tc: tc.Param("nums1", [4,2,3,1,1]).Param("nums2", [7,5,10,9,6]).Param("k", 1).Result(30)) \
+        .Add(lambda tc: tc.Param([1,3,3,2]).Param([2,1,3,4]).Param(3).Result(12)) \
+        .Add(lambda tc: tc.Param([4,2,3,1,1]).Param([7,5,10,9,6]).Param(1).Result(30)) \
         .Run()

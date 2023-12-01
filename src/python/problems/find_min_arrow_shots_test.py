@@ -17,7 +17,7 @@ class FindMinArrowShots(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(FindMinArrowShots) \
-        .Add(lambda tc: tc.Param("points", [[10,16],[2,8],[1,6],[7,12]]).Result(2)) \
-        .Add(lambda tc: tc.Param("points", [[1,2],[3,4],[5,6],[7,8]]).Result(4)) \
-        .Add(lambda tc: tc.Param("points", [[1,2],[2,3],[3,4],[4,5]]).Result(2)) \
+        .Add(lambda tc: tc.Param([[10,16],[2,8],[1,6],[7,12]]).Result(2)) \
+        .Add(lambda tc: tc.Param([[1,2],[3,4],[5,6],[7,8]]).Result(4)) \
+        .Add(lambda tc: tc.Param([[1,2],[2,3],[3,4],[4,5]]).Result(2)) \
         .Run()

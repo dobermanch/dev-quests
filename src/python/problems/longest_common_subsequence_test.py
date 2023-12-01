@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/longest-common-subsequence/
-class LongestCommonSubsequence:
+from core.problem_base import *
+
+class LongestCommonSubsequence(ProblemBase):
     def Solution(self, text1: str, text2: str) -> int:
         map = [[0 for i in range(len(text2) + 1)] for j in range(len(text1) + 1)]
         for i in range(len(text1) - 1, -1, -1):
@@ -12,5 +14,9 @@ class LongestCommonSubsequence:
         return map[0][0]
 
 
-
-LongestCommonSubsequence().Solution("abcde", "ace")
+if __name__ == '__main__':
+    TestGen(LongestCommonSubsequence) \
+        .Add(lambda tc: tc.Param("abcde").Param("ace").Result(3)) \
+        .Add(lambda tc: tc.Param("abc").Param("abc").Result(3)) \
+        .Add(lambda tc: tc.Param("abc").Param("def").Result(0)) \
+        .Run()

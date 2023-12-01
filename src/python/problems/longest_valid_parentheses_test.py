@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/longest-valid-parentheses
 
-from heapq import heappop, heappush
 from core.problem_base import *
 
 class LongestValidParentheses(ProblemBase):
@@ -22,8 +21,8 @@ class LongestValidParentheses(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LongestValidParentheses) \
-        .Add(lambda tc: tc.Param("s", "(()").Result(2)) \
-        .Add(lambda tc: tc.Param("s", ")()())").Result(4)) \
-        .Add(lambda tc: tc.Param("s", "").Result(0)) \
-        .Add(lambda tc: tc.Param("s", "()(())").Result(6)) \
+        .Add(lambda tc: tc.Param("(()").Result(2)) \
+        .Add(lambda tc: tc.Param(")()())").Result(4)) \
+        .Add(lambda tc: tc.Param("").Result(0)) \
+        .Add(lambda tc: tc.Param("()(())").Result(6)) \
         .Run()

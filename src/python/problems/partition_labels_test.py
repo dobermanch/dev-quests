@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/partition-labels/
-class PartitionLabels:
-    def Solution(self, s: str) -> List[int]:
+from core.problem_base import *
+
+class PartitionLabels(ProblemBase):
+    def Solution(self, s: str) -> list[int]:
         result = []
         map = {}
 
@@ -22,5 +24,9 @@ class PartitionLabels:
 
         return result
 
+if __name__ == '__main__':
+    TestGen(PartitionLabels) \
+        .Add(lambda tc: tc.Param("ababcbacadefegdehijhklij").Result([9,7,8])) \
+        .Add(lambda tc: tc.Param("eccbbbbdec").Result([10])) \
+        .Run()
 
-PartitionLabels().Solution("ababcbacadefegdehijhklij")

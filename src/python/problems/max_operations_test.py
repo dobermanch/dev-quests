@@ -25,6 +25,6 @@ class MaxOperations(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MaxOperations) \
-        .Add(lambda tc: tc.Param("nums", [1,2,3,4]).Param("k", 5).Result(2)) \
-        .Add(lambda tc: tc.Param("nums", [3,1,3,4,3]).Param("k", 6).Result(1)) \
+        .Add(lambda tc: tc.Param([1,2,3,4]).Param(5).Result(2)) \
+        .Add(lambda tc: tc.Param([3,1,3,4,3]).Param(6).Result(1)) \
         .Run()

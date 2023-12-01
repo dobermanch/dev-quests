@@ -1,7 +1,8 @@
 # https://leetcode.com/problems/clone-graph/
 from models.node import *
+from core.problem_base import *
 
-class CloneGraph:
+class CloneGraph(ProblemBase):
     def Solution(self, node: 'Node') -> 'Node':
         def Clone(source, map):
             if source.val in map:
@@ -18,17 +19,21 @@ class CloneGraph:
 
         return Clone(node, {}) if node else None
 
-node1 = Node(1)
-node2 = Node(2)
-node3 = Node(3)
-node4 = Node(4)
+if __name__ == '__main__':
+    # TestGen(CloneGraph) \
+    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
+    #     .Run()
+    node1 = Node(1)
+    node2 = Node(2)
+    node3 = Node(3)
+    node4 = Node(4)
 
-node1.neighbors.append(node2)
-node1.neighbors.append(node4)
-node2.neighbors.append(node1)
-node2.neighbors.append(node3)
-node3.neighbors.append(node2)
-node3.neighbors.append(node4)
-node4.neighbors.append(node1)
-node4.neighbors.append(node3)
-CloneGraph().Solution(node1)
+    node1.neighbors.append(node2)
+    node1.neighbors.append(node4)
+    node2.neighbors.append(node1)
+    node2.neighbors.append(node3)
+    node3.neighbors.append(node2)
+    node3.neighbors.append(node4)
+    node4.neighbors.append(node1)
+    node4.neighbors.append(node3)
+    CloneGraph().Solution(node1)

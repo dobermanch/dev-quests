@@ -22,6 +22,6 @@ class Jump(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(Jump) \
-        .Add(lambda tc: tc.Param("nums", [2,3,1,1,4]).Result(2)) \
-        .Add(lambda tc: tc.Param("nums", [2,3,0,1,4]).Result(2)) \
+        .Add(lambda tc: tc.Param([2,3,1,1,4]).Result(2)) \
+        .Add(lambda tc: tc.Param([2,3,0,1,4]).Result(2)) \
         .Run()

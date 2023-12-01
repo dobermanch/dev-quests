@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/maximum-product-subarray
-class MaxProduct:
+from core.problem_base import *
+
+class MaxProduct(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         result = nums[0]
         maxProd = 1
@@ -16,4 +18,8 @@ class MaxProduct:
         return result
 
 
-MaxProduct().Solution([1,1,1])
+if __name__ == '__main__':
+    TestGen(MaxProduct) \
+        .Add(lambda tc: tc.Param([2,3,-2,4]).Result(6)) \
+        .Add(lambda tc: tc.Param([-2,0,-1]).Result(0)) \
+        .Run()

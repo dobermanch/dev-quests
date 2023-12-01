@@ -3,8 +3,9 @@
 from typing import Optional
 
 from models.list_node import *
+from core.problem_base import *
 
-class AddTwoNumbers:
+class AddTwoNumbers(ProblemBase):
     def Solution(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         node1 = l1
         node2 = l2
@@ -25,5 +26,8 @@ class AddTwoNumbers:
 
         return result.next
 
-
-AddTwoNumbers().Solution(ListNode(1, ListNode(2, ListNode(3))), ListNode(1, ListNode(2, ListNode(3))))
+if __name__ == '__main__':
+    # TestGen(AddTwoNumbers) \
+    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
+    #     .Run()
+    AddTwoNumbers().Solution(ListNode(1, ListNode(2, ListNode(3))), ListNode(1, ListNode(2, ListNode(3))))

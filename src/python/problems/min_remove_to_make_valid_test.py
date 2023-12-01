@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
-class MinRemoveToMakeValid:
+from core.problem_base import *
+
+class MinRemoveToMakeValid(ProblemBase):
     def Solution(self, s: str) -> str:
         stack = []
         result = list(s)
@@ -16,5 +18,9 @@ class MinRemoveToMakeValid:
 
         return ''.join(result)
 
-
-MinRemoveToMakeValid().Solution("babad")
+if __name__ == '__main__':
+    TestGen(MinRemoveToMakeValid) \
+        .Add(lambda tc: tc.Param("lee(t(c)o)de)").Result("lee(t(c)o)de")) \
+        .Add(lambda tc: tc.Param("a)b(c)d").Result("ab(c)d")) \
+        .Add(lambda tc: tc.Param("))((").Result("")) \
+        .Run()

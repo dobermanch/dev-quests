@@ -1,6 +1,8 @@
 #https://leetcode.com/problems/sliding-window-maximum/
 from heapq import heappush, heappop
-class MaxSlidingWindow:
+from core.problem_base import *
+
+class MaxSlidingWindow(ProblemBase):
     def Solution(self, nums: list[int], k: int) -> list[int]:
         queue = []
         result = []
@@ -16,5 +18,8 @@ class MaxSlidingWindow:
 
         return result
 
-
-MaxSlidingWindow().Solution([9,10,9,-7,-4,-8,2,-6], 5)
+if __name__ == '__main__':
+    TestGen(MaxSlidingWindow) \
+        .Add(lambda tc: tc.Param([1,3,-1,-3,5,3,6,7]).Param(3).Result([3,3,5,5,6,7])) \
+        .Add(lambda tc: tc.Param([1]).Param(1).Result([1])) \
+        .Run()

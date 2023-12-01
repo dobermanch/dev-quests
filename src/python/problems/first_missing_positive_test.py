@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/first-missing-positive/
-class FirstMissingPositive:
+from core.problem_base import *
+
+class FirstMissingPositive(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         length = len(nums)
         for i in range(length):
@@ -13,4 +15,9 @@ class FirstMissingPositive:
         return length + 1
 
 
-FirstMissingPositive().Solution([1,2,0])
+if __name__ == '__main__':
+    TestGen(FirstMissingPositive) \
+        .Add(lambda tc: tc.Param([1,2,0]).Result(3)) \
+        .Add(lambda tc: tc.Param([3,4,-1,1]).Result(2)) \
+        .Add(lambda tc: tc.Param([7,8,9,11,12]).Result(1)) \
+        .Run()

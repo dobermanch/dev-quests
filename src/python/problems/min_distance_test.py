@@ -21,6 +21,6 @@ class MinDistance(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MinDistance) \
-        .Add(lambda tc: tc.Param("word1", "horse").Param("word2", "ros").Result(3)) \
-        .Add(lambda tc: tc.Param("word1", "intention").Param("word2", "execution").Result(5)) \
+        .Add(lambda tc: tc.Param("horse").Param("ros").Result(3)) \
+        .Add(lambda tc: tc.Param("intention").Param("execution").Result(5)) \
         .Run()

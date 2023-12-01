@@ -22,7 +22,7 @@ class CanPlaceFlowers(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(CanPlaceFlowers) \
-        .Add(lambda tc: tc.Param("flowerbed", [1,0,0,0,1]).Param(1).Result(True)) \
-        .Add(lambda tc: tc.Param("flowerbed", [1,0,0,0,1]).Param(2).Result(False)) \
-        .Add(lambda tc: tc.Param("flowerbed", [1,0,0,0,0]).Param(2).Result(True)) \
+        .Add(lambda tc: tc.Param([1,0,0,0,1]).Param(1).Result(True)) \
+        .Add(lambda tc: tc.Param([1,0,0,0,1]).Param(2).Result(False)) \
+        .Add(lambda tc: tc.Param([1,0,0,0,0]).Param(2).Result(True)) \
         .Run()

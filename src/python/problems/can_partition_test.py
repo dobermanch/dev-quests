@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/partition-equal-subset-sum/
-class CanPartition:
+from core.problem_base import *
+
+class CanPartition(ProblemBase):
     def Solution(self, nums: list[int]) -> bool:
         targetSum = sum(nums)
 
@@ -21,4 +23,8 @@ class CanPartition:
         return map[targetSum]
 
 
-CanPartition().Solution([1,5,11,5])
+if __name__ == '__main__':
+    TestGen(CanPartition) \
+        .Add(lambda tc: tc.Param([1,5,11,5]).Result(True)) \
+        .Add(lambda tc: tc.Param([1,2,3,5]).Result(False)) \
+        .Run()

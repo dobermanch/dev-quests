@@ -30,7 +30,7 @@ class SearchRange(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(SearchRange) \
-        .Add(lambda tc: tc.Param("nums", [5,7,7,8,8,10]).Param("target", 8).Result([3,4])) \
-        .Add(lambda tc: tc.Param("nums", [5,7,7,8,8,10]).Param("target", 6).Result([-1,-1])) \
-        .Add(lambda tc: tc.Param("nums", []).Param("target", 0).Result([-1,-1])) \
+        .Add(lambda tc: tc.Param([5,7,7,8,8,10]).Param(8).Result([3,4])) \
+        .Add(lambda tc: tc.Param([5,7,7,8,8,10]).Param(6).Result([-1,-1])) \
+        .Add(lambda tc: tc.Param([]).Param(0).Result([-1,-1])) \
         .Run()

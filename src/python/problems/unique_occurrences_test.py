@@ -17,7 +17,7 @@ class UniqueOccurrences(ProblemBase):
         
 if __name__ == '__main__':
     TestGen(UniqueOccurrences) \
-        .Add(lambda tc: tc.Param("arr", [1,2,2,1,1,3]).Result(True)) \
-        .Add(lambda tc: tc.Param("arr", [1,2]).Result(False)) \
-        .Add(lambda tc: tc.Param("arr", [-3,0,1,-3,1,1,1,-3,10,0]).Result(True)) \
+        .Add(lambda tc: tc.Param([1,2,2,1,1,3]).Result(True)) \
+        .Add(lambda tc: tc.Param([1,2]).Result(False)) \
+        .Add(lambda tc: tc.Param([-3,0,1,-3,1,1,1,-3,10,0]).Result(True)) \
         .Run()

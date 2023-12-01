@@ -34,5 +34,5 @@ if __name__ == '__main__':
     node1 = TreeNode(1, TreeNode(7, TreeNode(7), TreeNode(-8)), TreeNode(0))
 
     TestGen(MaxLevelSum) \
-        .Add(lambda tc: tc.Param("root", node1).Result(2)) \
+        .Add(lambda tc: tc.Param(node1).Result(2)) \
         .Run()

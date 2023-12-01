@@ -24,7 +24,7 @@ class GuessNumber(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(GuessNumber) \
-        .Add(lambda tc: tc.Param("n", 10).Param("pick", 6).Result(6)) \
-        .Add(lambda tc: tc.Param("n", 1).Param("pick", 1).Result(1)) \
-        .Add(lambda tc: tc.Param("n", 2).Param("pick", 1).Result(1)) \
+        .Add(lambda tc: tc.Param(10).Param(6).Result(6)) \
+        .Add(lambda tc: tc.Param(1).Param(1).Result(1)) \
+        .Add(lambda tc: tc.Param(2).Param(1).Result(1)) \
         .Run()

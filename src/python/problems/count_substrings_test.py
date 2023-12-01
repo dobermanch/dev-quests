@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/palindromic-substrings/
-class CountSubstrings:
+
+from core.problem_base import *
+class CountSubstrings(ProblemBase):
     def Solution(self, s: str) -> int:
         def IsPalindrome(str, left, right):
             count = 0
@@ -17,6 +19,9 @@ class CountSubstrings:
             result += IsPalindrome(s, i, i + 1)
 
         return result
-
-
-CountSubstrings().Solution("abaaba")
+    
+if __name__ == '__main__':
+    TestGen(CountSubstrings) \
+        .Add(lambda tc: tc.Param("abc").Result(3)) \
+        .Add(lambda tc: tc.Param("aaa").Result(6)) \
+        .Run()

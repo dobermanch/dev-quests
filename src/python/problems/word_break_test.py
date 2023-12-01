@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/word-break/
-class WordBreak:
+from core.problem_base import *
+
+class WordBreak(ProblemBase):
     def Solution(self, s: str, wordDict: list[str]) -> bool:
         map = [False] * (len(s) + 1)
         map[len(s)] = True
@@ -13,5 +15,10 @@ class WordBreak:
 
         return map[0]
 
+if __name__ == '__main__':
+    TestGen(WordBreak) \
+        .Add(lambda tc: tc.Param("leetcode").Param(["leet","code"]).Result(True)) \
+        .Add(lambda tc: tc.Param("applepenapple").Param(["apple","pen"]).Result(True)) \
+        .Add(lambda tc: tc.Param("catsandog").Param(["cats","dog","sand","and","cat"]).Result(False)) \
+        .Run()
 
-WordBreak().Solution("leetcode", ["leet","code"])

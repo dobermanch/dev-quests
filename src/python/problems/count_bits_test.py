@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/counting-bits/
-class CountBits:
+from core.problem_base import *
+
+class CountBits(ProblemBase):
     def Solution(self, n: int) -> list[int]:
         result = [0] * (n + 1)
 
@@ -8,5 +10,9 @@ class CountBits:
 
         return result
 
+if __name__ == '__main__':
+    TestGen(CountBits) \
+        .Add(lambda tc: tc.Param(2).Result([0,1,1])) \
+        .Add(lambda tc: tc.Param(5).Result([0,1,1,2,1,2])) \
+        .Run()
 
-CountBits().Solution(10)

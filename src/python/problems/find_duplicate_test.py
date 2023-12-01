@@ -48,6 +48,6 @@ class FindDuplicate(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(FindDuplicate) \
-        .Add(lambda tc: tc.Param("nums", [1,3,4,2,2]).Result(2)) \
-        .Add(lambda tc: tc.Param("nums", [3,1,3,4,2]).Result(3)) \
+        .Add(lambda tc: tc.Param([1,3,4,2,2]).Result(2)) \
+        .Add(lambda tc: tc.Param([3,1,3,4,2]).Result(3)) \
         .Run()

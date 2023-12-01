@@ -14,7 +14,7 @@ class KidsWithCandies(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(KidsWithCandies) \
-        .Add(lambda tc: tc.Param("candies", [2,3,1,1,4]).Param("extraCandies", 3).Result([True,True,True,False,True])) \
-        .Add(lambda tc: tc.Param("candies", [4,2,1,1,2]).Param("extraCandies", 1).Result([True,False,False,False,False])) \
-        .Add(lambda tc: tc.Param("candies", [12,1,12]).Param("extraCandies", 10).Result([True,False,True])) \
+        .Add(lambda tc: tc.Param([2,3,5,1,3]).Param(3).Result([True,True,True,False,True])) \
+        .Add(lambda tc: tc.Param([4,2,1,1,2]).Param(1).Result([True,False,False,False,False])) \
+        .Add(lambda tc: tc.Param([12,1,12]).Param(10).Result([True,False,True])) \
         .Run()

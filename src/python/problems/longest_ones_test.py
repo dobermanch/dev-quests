@@ -38,6 +38,6 @@ class LongestOnes(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LongestOnes) \
-        .Add(lambda tc: tc.Param("nums", [1,1,1,0,0,0,1,1,1,1,0]).Param("k", 2).Result(6)) \
-        .Add(lambda tc: tc.Param("nums", [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1]).Param("k", 3).Result(10)) \
+        .Add(lambda tc: tc.Param([1,1,1,0,0,0,1,1,1,1,0]).Param(2).Result(6)) \
+        .Add(lambda tc: tc.Param([0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1]).Param(3).Result(10)) \
         .Run()

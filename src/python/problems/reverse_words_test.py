@@ -29,7 +29,7 @@ class ReverseWords(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(ReverseWords) \
-        .Add(lambda tc: tc.Param("s", "the sky is blue").Result("blue is sky the")) \
-        .Add(lambda tc: tc.Param("s", "  hello world  ").Result("world hello")) \
-        .Add(lambda tc: tc.Param("s", "a good   example").Result("example good a")) \
+        .Add(lambda tc: tc.Param("the sky is blue").Result("blue is sky the")) \
+        .Add(lambda tc: tc.Param("  hello world  ").Result("world hello")) \
+        .Add(lambda tc: tc.Param("a good   example").Result("example good a")) \
         .Run()

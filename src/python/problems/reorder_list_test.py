@@ -1,8 +1,9 @@
 # https://leetcode.com/problems/reorder-list/
 from typing import Optional
 from models.list_node import ListNode
+from core.problem_base import *
 
-class ReorderList:
+class ReorderList(ProblemBase):
     def Solution(self, head: Optional[ListNode]) -> None:
         """
         Do not return anything, modify head in-place instead.
@@ -35,5 +36,8 @@ class ReorderList:
             tail = tailNext
 
 
-
-ReorderList().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))
+if __name__ == '__main__':
+    # TestGen(ReorderList) \
+    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
+    #     .Run()
+    ReorderList().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))))

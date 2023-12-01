@@ -16,6 +16,6 @@ class LargestAltitude(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LargestAltitude) \
-        .Add(lambda tc: tc.Param("gain", [-5,1,5,0,-7]).Result(1)) \
-        .Add(lambda tc: tc.Param("gain", [-5,1,5,0,-7]).Result(0)) \
+        .Add(lambda tc: tc.Param([-5,1,5,0,-7]).Result(1)) \
+        .Add(lambda tc: tc.Param([-4,-3,-2,-1,4,3,2]).Result(0)) \
         .Run()

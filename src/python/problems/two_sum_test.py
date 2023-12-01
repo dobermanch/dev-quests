@@ -16,7 +16,7 @@ class TwoSum(ProblemBase):
         
 if __name__ == '__main__':
     TestGen(TwoSum) \
-        .Add(lambda tc: tc.Param("nums", [2,7,11,15]).Param("target", 9).Result([0,1])) \
-        .Add(lambda tc: tc.Param("nums", [3,2,4]).Param("target", 6).Result([1,2])) \
-        .Add(lambda tc: tc.Param("nums", [3,3]).Param("target", 6).Result([0,1])) \
+        .Add(lambda tc: tc.Param([2,7,11,15]).Param(9).Result([0,1])) \
+        .Add(lambda tc: tc.Param([3,2,4]).Param(6).Result([1,2])) \
+        .Add(lambda tc: tc.Param([3,3]).Param(6).Result([0,1])) \
         .Run()

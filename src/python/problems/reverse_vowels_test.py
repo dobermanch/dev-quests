@@ -22,8 +22,8 @@ class ReverseVowels(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(ReverseVowels) \
-        .Add(lambda tc: tc.Param("s", "hello").Result("holle")) \
-        .Add(lambda tc: tc.Param("s", "leetcode").Result("leotcede")) \
-        .Add(lambda tc: tc.Param("s", " ").Result(" ")) \
+        .Add(lambda tc: tc.Param("hello").Result("holle")) \
+        .Add(lambda tc: tc.Param("leetcode").Result("leotcede")) \
+        .Add(lambda tc: tc.Param(" ").Result(" ")) \
         .Run()
 

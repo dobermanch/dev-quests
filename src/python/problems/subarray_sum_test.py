@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/subarray-sum-equals-k/
-class SubarraySum:
+from core.problem_base import *
+
+class SubarraySum(ProblemBase):
     def Solution(self, nums: list[int], k: int) -> int:
         map = {}
         map[0] = 1
@@ -15,5 +17,8 @@ class SubarraySum:
 
         return result
 
-
-SubarraySum().Solution([1,1,1], 2)
+if __name__ == '__main__':
+    TestGen(SubarraySum) \
+        .Add(lambda tc: tc.Param([1,1,1]).Param(2).Result(2)) \
+        .Add(lambda tc: tc.Param([1,2,3]).Param(3).Result(2)) \
+        .Run()

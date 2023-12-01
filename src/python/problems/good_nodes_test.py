@@ -2,7 +2,7 @@
 from core.problem_base import *
 from models.tree_node import TreeNode
 
-class GoodNodes:
+class GoodNodes(ProblemBase):
     def Solution(self, root: TreeNode) -> int:
         stack = []
         stack.append((root, float('-inf')))
@@ -36,8 +36,8 @@ class GoodNodes:
         return Dfs(root, float('-inf'))
 
 
-if __name__ == '__main__':
-    TestGen(GoodNodes) \
-        .Add(lambda tc: tc.Param("nums", [1,3,4,2,2]).Result(2)) \
-        .Add(lambda tc: tc.Param("nums", [3,1,3,4,2]).Result(3)) \
-        .Run()
+# if __name__ == '__main__':
+#     TestGen(GoodNodes) \
+#         .Add(lambda tc: tc.Param([3,1,4,3,null,1,5]).Result(2)) \
+#         .Add(lambda tc: tc.Param([3,1,3,4,2]).Result(3)) \
+#         .Run()

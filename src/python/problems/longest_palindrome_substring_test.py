@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/longest-palindromic-substring
-class LongestPalindromeSubstring:
+from core.problem_base import *
+
+class LongestPalindromeSubstring(ProblemBase):
     def Solution(self, s: str) -> str:
         def isPalindrome(s, left, right) -> str:
             while left >= 0 and right < len(s) and s[left] == s[right]:
@@ -17,4 +19,8 @@ class LongestPalindromeSubstring:
         return result
 
 
-LongestPalindromeSubstring().Solution("babad")
+if __name__ == '__main__':
+    TestGen(LongestPalindromeSubstring) \
+        .Add(lambda tc: tc.Param("babad").Result("bab")) \
+        .Add(lambda tc: tc.Param("cbbd").Result("bb")) \
+        .Run()

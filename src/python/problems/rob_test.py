@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/house-robber/
-class Rob:
+from core.problem_base import *
+
+class Rob(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         rob1 = 0
         rob2 = 0
@@ -11,4 +13,8 @@ class Rob:
         return rob2
 
 
-Rob().Solution([2,7,4,5,3,5,6,8,5,9,3,1,12])
+if __name__ == '__main__':
+    TestGen(Rob) \
+        .Add(lambda tc: tc.Param([1,2,3,1]).Result(4)) \
+        .Add(lambda tc: tc.Param([2,7,9,3,1]).Result(12)) \
+        .Run()

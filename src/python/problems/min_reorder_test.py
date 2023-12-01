@@ -28,7 +28,7 @@ class MinReorder(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MinReorder) \
-        .Add(lambda tc: tc.Param("n", 6).Param("connections", [[0,1],[1,3],[2,3],[4,0],[4,5]]).Result(3)) \
-        .Add(lambda tc: tc.Param("n", 5).Param("connections", [[1,0],[1,2],[3,2],[3,4]]).Result(2)) \
-        .Add(lambda tc: tc.Param("n", 3).Param("connections", [[1,0],[2,0]]).Result(0)) \
+        .Add(lambda tc: tc.Param(6).Param([[0,1],[1,3],[2,3],[4,0],[4,5]]).Result(3)) \
+        .Add(lambda tc: tc.Param(5).Param([[1,0],[1,2],[3,2],[3,4]]).Result(2)) \
+        .Add(lambda tc: tc.Param(3).Param([[1,0],[2,0]]).Result(0)) \
         .Run()

@@ -20,7 +20,7 @@ class LongestSubarray(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LongestSubarray) \
-        .Add(lambda tc: tc.Param("nums", [1,1,0,1]).Result(3)) \
-        .Add(lambda tc: tc.Param("nums", [0,1,1,1,0,1,1,0,1]).Result(5)) \
-        .Add(lambda tc: tc.Param("nums", [1,1,1]).Result(2)) \
+        .Add(lambda tc: tc.Param([1,1,0,1]).Result(3)) \
+        .Add(lambda tc: tc.Param([0,1,1,1,0,1,1,0,1]).Result(5)) \
+        .Add(lambda tc: tc.Param([1,1,1]).Result(2)) \
         .Run()

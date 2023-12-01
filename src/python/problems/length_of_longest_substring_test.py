@@ -22,7 +22,7 @@ class LengthOfLongestSubstring(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LengthOfLongestSubstring) \
-        .Add(lambda tc: tc.Param("s", "abcabcbb").Result(3)) \
-        .Add(lambda tc: tc.Param("s", "bbbbb").Result(1)) \
-        .Add(lambda tc: tc.Param("s", "pwwkew").Result(3)) \
+        .Add(lambda tc: tc.Param("abcabcbb").Result(3)) \
+        .Add(lambda tc: tc.Param("bbbbb").Result(1)) \
+        .Add(lambda tc: tc.Param("pwwkew").Result(3)) \
         .Run()

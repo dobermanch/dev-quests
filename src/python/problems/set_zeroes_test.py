@@ -1,6 +1,8 @@
 #https://leetcode.com/problems/set-matrix-zeroes/
-class SetZeroes:
-    def Solution(self, matrix: list[list[int]]) -> None:
+from core.problem_base import *
+
+class SetZeroes(ProblemBase):
+    def Solution(self, matrix: list[list[int]]) -> list[list[int]]:
         """
         Do not return anything, modify matrix in-place instead.
         """
@@ -24,7 +26,11 @@ class SetZeroes:
             
             if x0:
                 matrix[y][0] = 0
+        
+        return matrix
 
-
-
-SetZeroes().Solution([[1,2,3,4],[5,0,7,8],[0,10,11,12],[13,14,15,0]])
+if __name__ == '__main__':
+    TestGen(SetZeroes) \
+        .Add(lambda tc: tc.Param([[1,1,1],[1,0,1],[1,1,1]]).Result([[1,0,1],[0,0,0],[1,0,1]])) \
+        .Add(lambda tc: tc.Param([[0,1,2,0],[3,4,5,2],[1,3,1,5]]).Result([[0,0,0,0],[0,4,5,0],[0,3,1,0]])) \
+        .Run()

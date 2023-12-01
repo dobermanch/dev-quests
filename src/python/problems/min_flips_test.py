@@ -27,7 +27,7 @@ class MinFlips(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MinFlips) \
-        .Add(lambda tc: tc.Param("a", 2).Param("b", 6).Param("c", 5).Result(3)) \
-        .Add(lambda tc: tc.Param("a", 4).Param("b", 2).Param("c", 7).Result(1)) \
-        .Add(lambda tc: tc.Param("a", 1).Param("b", 2).Param("c", 3).Result(0)) \
+        .Add(lambda tc: tc.Param(2).Param(6).Param(5).Result(3)) \
+        .Add(lambda tc: tc.Param(4).Param(2).Param(7).Result(1)) \
+        .Add(lambda tc: tc.Param(1).Param(2).Param(3).Result(0)) \
         .Run()

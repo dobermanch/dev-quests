@@ -25,16 +25,15 @@ class MyPow(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MyPow) \
-        .Add(lambda tc: tc.Param("x", 2.0).Param("n", 10).Result(1024.0)) \
-        .Add(lambda tc: tc.Param("x", 2.1).Param("n", 3).Result(9.26100)) \
-        .Add(lambda tc: tc.Param("x", 2.0).Param("n", 0).Result(1.0)) \
-        .Add(lambda tc: tc.Param("x", 0.0).Param("n", 21).Result(0.0)) \
-        .Add(lambda tc: tc.Param("x", 2.0).Param("n", -2147483648).Result(0.0)) \
-        .Add(lambda tc: tc.Param("x", 1.0).Param("n", -2147483648).Result(1.0)) \
-        .Add(lambda tc: tc.Param("x", -1.0).Param("n", -2147483648).Result(1.0)) \
-        .Add(lambda tc: tc.Param("x", -1.0).Param("n", 2147483647).Result(-1.0)) \
-        .Add(lambda tc: tc.Param("x", 1.0).Param("n", 2147483647).Result(1.0)) \
-        .Add(lambda tc: tc.Param("x", 1.0000000000001).Param("n", -2147483648).Result(0.99979)) \
-        .Add(lambda tc: tc.Param("x", -5.0).Param("n", -12).Result(0.0)) \
-        .Add(lambda tc: tc.Param("x", 2.0).Param("n", -2).Result(0.25)) \
+        .Add(lambda tc: tc.Param(2.0).Param(10).Result(1024.0)) \
+        .Add(lambda tc: tc.Param(2.1).Param(3).Result(9.26100)) \
+        .Add(lambda tc: tc.Param(2.0).Param(0).Result(1.0)) \
+        .Add(lambda tc: tc.Param(0.0).Param(21).Result(0.0)) \
+        .Add(lambda tc: tc.Param(2.0).Param(-2147483648).Result(0.0)) \
+        .Add(lambda tc: tc.Param(1.0).Param(-2147483648).Result(1.0)) \
+        .Add(lambda tc: tc.Param(-1.0).Param(-2147483648).Result(1.0)) \
+        .Add(lambda tc: tc.Param(-1.0).Param(2147483647).Result(-1.0)) \
+        .Add(lambda tc: tc.Param(1.0).Param(2147483647).Result(1.0)) \
+        .Add(lambda tc: tc.Param(1.0000000000001).Param(-2147483648).Result(0.99979)) \
+        .Add(lambda tc: tc.Param(2.0).Param(-2).Result(0.25)) \
         .Run()

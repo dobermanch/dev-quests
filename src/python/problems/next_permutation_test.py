@@ -24,13 +24,14 @@ class NextPermutation(ProblemBase):
                     break
                 right -= 1
 
-        nums[left + 1:] = reversed(nums[left + 1:])
+        nums[left+1:] = reversed(nums[left+1:])
+
+        return nums
 
 
 if __name__ == '__main__':
     TestGen(NextPermutation) \
-        .Add(lambda tc: tc.Param("nums", [1,2,3]).Result([1,3,2])) \
-        .Add(lambda tc: tc.Param("nums", [3,2,1]).Result([1,5,1])) \
-        .Add(lambda tc: tc.Param("nums", [1,1,5]).Result([1,5,1])) \
-        .Add(lambda tc: tc.Param("nums", [1,3,2]).Result([2,1,3])) \
+        .Add(lambda tc: tc.Param([1,2,3]).Result([1,3,2])) \
+        .Add(lambda tc: tc.Param([3,2,1]).Result([1,2,3])) \
+        .Add(lambda tc: tc.Param([1,1,5]).Result([1,5,1])) \
         .Run()

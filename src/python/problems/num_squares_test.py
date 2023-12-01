@@ -21,9 +21,9 @@ class NumSquares(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(NumSquares) \
-        .Add(lambda tc: tc.Param("n", 1).Result(1)) \
-        .Add(lambda tc: tc.Param("n", 13).Result(2)) \
-        .Add(lambda tc: tc.Param("n", 4).Result(1)) \
-        .Add(lambda tc: tc.Param("n", 3).Result(3)) \
-        .Add(lambda tc: tc.Param("n", 12).Result(3)) \
+        .Add(lambda tc: tc.Param(1).Result(1)) \
+        .Add(lambda tc: tc.Param(13).Result(2)) \
+        .Add(lambda tc: tc.Param(4).Result(1)) \
+        .Add(lambda tc: tc.Param(3).Result(3)) \
+        .Add(lambda tc: tc.Param(12).Result(3)) \
         .Run()

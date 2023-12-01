@@ -20,6 +20,6 @@ class Subsets(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(Subsets) \
-        .Add(lambda tc: tc.Param("nums", [1,2,3]).Result([[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]])) \
-        .Add(lambda tc: tc.Param("nums", []).Result([[],[0]])) \
+        .Add(lambda tc: tc.Param([1,2,3]).Result([[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]])) \
+        .Add(lambda tc: tc.Param([0]).Result([[],[0]])) \
         .Run()

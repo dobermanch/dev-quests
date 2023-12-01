@@ -4,7 +4,7 @@ from typing import Optional
 from core.problem_base import *
 from models.node import Node
 
-class CopyRandomList:
+class CopyRandomList(ProblemBase):
     def Solution(self, head: Optional[Node]) -> Optional[Node]:
         set = {None: None}
 
@@ -65,5 +65,5 @@ if __name__ == '__main__':
     node4.random = node0
 
     TestGen(CopyRandomList) \
-        .Add(lambda tc: tc.Param("head", node0).Result(node0)) \
+        .Add(lambda tc: tc.Param(node0).Result(node0)) \
         .Run()

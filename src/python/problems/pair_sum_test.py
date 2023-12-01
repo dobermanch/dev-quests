@@ -34,5 +34,5 @@ class DeleteMiddle(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(DeleteMiddle) \
-        .Add(lambda tc: tc.Param("head", ListNode(1, ListNode(4, ListNode(2, ListNode(1))))).Result(6)) \
+        .Add(lambda tc: tc.Param(ListNode(1, ListNode(4, ListNode(2, ListNode(1))))).Result(6)) \
         .Run()

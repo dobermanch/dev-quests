@@ -52,5 +52,5 @@ class SolveNQueens(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(SolveNQueens) \
-        .Add(lambda tc: tc.Param("n", 4).Result([[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]])) \
+        .Add(lambda tc: tc.Param(4).Result([[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]])) \
         .Run()

@@ -1,7 +1,6 @@
 # https://leetcode.com/problems/combination-sum-iii
 
 from core.problem_base import *
-import collections
 
 class CombinationSum3(ProblemBase):
     def Solution(self, k: int, n: int) -> list[list[int]]:
@@ -27,7 +26,7 @@ class CombinationSum3(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(CombinationSum3) \
-        .Add(lambda tc: tc.Param("k", 3).Param("n", 7).Result([[1,2,4]])) \
-        .Add(lambda tc: tc.Param("k", 3).Param("n", 9).Result([[1,2,6],[1,3,5],[2,3,4]])) \
-        .Add(lambda tc: tc.Param("k", 4).Param("n", 1).Result([])) \
+        .Add(lambda tc: tc.Param(3).Param(7).Result([[1,2,4]])) \
+        .Add(lambda tc: tc.Param(3).Param(9).Result([[1,2,6],[1,3,5],[2,3,4]])) \
+        .Add(lambda tc: tc.Param(4).Param(1).Result([])) \
         .Run()

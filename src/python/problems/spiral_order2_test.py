@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/spiral-matrix-ii/
+from core.problem_base import *
 
-class SpiralOrder2:
+class SpiralOrder2(ProblemBase):
     def Solution(self, n: int) -> list[list[int]]:
         martix = [[0] * n for _ in range(n)]
 
@@ -28,5 +29,8 @@ class SpiralOrder2:
         return martix
 
 
-
-SpiralOrder2().Solution(3)
+if __name__ == '__main__':
+    TestGen(SpiralOrder2) \
+        .Add(lambda tc: tc.Param(3).Result([[1,2,3],[8,9,4],[7,6,5]])) \
+        .Add(lambda tc: tc.Param(1).Result([[1]])) \
+        .Run()

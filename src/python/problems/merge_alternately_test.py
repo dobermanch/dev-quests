@@ -21,7 +21,7 @@ class MergeAlternately(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MergeAlternately) \
-        .Add(lambda tc: tc.Param("word1", "abc").Param("word2", "prq").Result("apbqcr")) \
-        .Add(lambda tc: tc.Param("word1", "ab").Param("word2", "pqrs").Result("apbqrs")) \
-        .Add(lambda tc: tc.Param("word1", "abcd").Param("word2", "pq").Result("apbqcd")) \
+        .Add(lambda tc: tc.Param("abc").Param("pqr").Result("apbqcr")) \
+        .Add(lambda tc: tc.Param("ab").Param("pqrs").Result("apbqrs")) \
+        .Add(lambda tc: tc.Param("abcd").Param("pq").Result("apbqcd")) \
         .Run()

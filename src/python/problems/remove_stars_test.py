@@ -15,6 +15,6 @@ class CanJump(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(CanJump) \
-        .Add(lambda tc: tc.Param("s", "leet**cod*e").Result("lecoe")) \
-        .Add(lambda tc: tc.Param("s", "erase*****").Result("")) \
+        .Add(lambda tc: tc.Param("leet**cod*e").Result("lecoe")) \
+        .Add(lambda tc: tc.Param("erase*****").Result("")) \
         .Run()

@@ -34,7 +34,7 @@ class Compress(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(Compress) \
-        .Add(lambda tc: tc.Param("chars", ["a","a","b","b","c","c","c"]).Result(6)) \
-        .Add(lambda tc: tc.Param("chars", ["a"]).Result(1)) \
-        .Add(lambda tc: tc.Param("chars", ["a","b","b","b","b","b","b","b","b","b","b","b","b"]).Result(4)) \
+        .Add(lambda tc: tc.Param(["a","a","b","b","c","c","c"]).Result(6)) \
+        .Add(lambda tc: tc.Param(["a"]).Result(1)) \
+        .Add(lambda tc: tc.Param(["a","b","b","b","b","b","b","b","b","b","b","b","b"]).Result(4)) \
         .Run()

@@ -31,5 +31,5 @@ class LetterCombinations(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LetterCombinations) \
-        .Add(lambda tc: tc.Param("digits", "23") .Result(["ad","ae","af","bd","be","bf","cd","ce","cf"])) \
+        .Add(lambda tc: tc.Param("23") .Result(["ad","ae","af","bd","be","bf","cd","ce","cf"])) \
         .Run()

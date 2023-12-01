@@ -21,5 +21,5 @@ if __name__ == '__main__':
     node1 = TreeNode(1, None, TreeNode(1, TreeNode(1), TreeNode(1, TreeNode(1, None, TreeNode(1, None, TreeNode(1))), TreeNode(1))))
 
     TestGen(LongestZigZag) \
-        .Add(lambda tc: tc.Param("root", node1).Result(3)) \
+        .Add(lambda tc: tc.Param(node1).Result(3)) \
         .Run()

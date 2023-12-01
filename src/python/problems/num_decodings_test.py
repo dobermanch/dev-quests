@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/decode-ways/
-class NumDecodings:
+from core.problem_base import *
+
+class NumDecodings(ProblemBase):
     def Solution(self, s: str) -> int:
         n = len(s)
         temp1 = 1
@@ -16,4 +18,9 @@ class NumDecodings:
         return temp1
 
 
-NumDecodings().Solution("1201234")
+if __name__ == '__main__':
+    TestGen(NumDecodings) \
+        .Add(lambda tc: tc.Param("12").Result(2)) \
+        .Add(lambda tc: tc.Param("226").Result(3)) \
+        .Add(lambda tc: tc.Param("06").Result(0)) \
+        .Run()

@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/minimum-path-sum
 
-from heapq import heappop, heappush
 from core.problem_base import *
 
 class MinPathSum(ProblemBase):
@@ -22,6 +21,6 @@ class MinPathSum(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MinPathSum) \
-        .Add(lambda tc: tc.Param("grid", [[1,3,1],[1,5,1],[4,2,1]]).Result(7)) \
-        .Add(lambda tc: tc.Param("grid", [[1,2,3],[4,5,6]]).Result(12)) \
+        .Add(lambda tc: tc.Param([[1,3,1],[1,5,1],[4,2,1]]).Result(7)) \
+        .Add(lambda tc: tc.Param([[1,2,3],[4,5,6]]).Result(12)) \
         .Run()

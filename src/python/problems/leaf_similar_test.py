@@ -30,5 +30,5 @@ if __name__ == '__main__':
     node2 = TreeNode(3, TreeNode(5, TreeNode(6), TreeNode(7)), TreeNode(1, TreeNode(4), TreeNode(2, TreeNode(9), TreeNode(8))))
 
     TestGen(LeafSimilar) \
-        .Add(lambda tc: tc.Param("root1", node1).Param("root2", node2).Result(True)) \
+        .Add(lambda tc: tc.Param(node1).Param(node2).Result(True)) \
         .Run()

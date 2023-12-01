@@ -26,8 +26,8 @@ class GcdOfStrings(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(GcdOfStrings) \
-        .Add(lambda tc: tc.Param("str1", "ABCABC").Param("str2", "ABC").Result("ABC")) \
-        .Add(lambda tc: tc.Param("str1", "ABABAB").Param("str2", "ABAB").Result("AB")) \
-        .Add(lambda tc: tc.Param("str1", "ABAB").Param("str2", "CODE").Result("")) \
-        .Add(lambda tc: tc.Param("str1", "TAUXXTAUXXTAUXXTAUXXTAUXX").Param("str2", "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX").Result("TAUXX")) \
+        .Add(lambda tc: tc.Param("ABCABC").Param("ABC").Result("ABC")) \
+        .Add(lambda tc: tc.Param("ABABAB").Param("ABAB").Result("AB")) \
+        .Add(lambda tc: tc.Param("ABAB").Param("CODE").Result("")) \
+        .Add(lambda tc: tc.Param("TAUXXTAUXXTAUXXTAUXXTAUXX").Param("TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX").Result("TAUXX")) \
         .Run()

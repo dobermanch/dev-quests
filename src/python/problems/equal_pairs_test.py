@@ -33,6 +33,6 @@ class EqualPairs(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(EqualPairs) \
-        .Add(lambda tc: tc.Param("grid", [[3,2,1],[1,7,6],[2,7,7]]).Result(1)) \
-        .Add(lambda tc: tc.Param("grid", [[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]]).Result(3)) \
+        .Add(lambda tc: tc.Param([[3,2,1],[1,7,6],[2,7,7]]).Result(1)) \
+        .Add(lambda tc: tc.Param([[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]]).Result(3)) \
         .Run()

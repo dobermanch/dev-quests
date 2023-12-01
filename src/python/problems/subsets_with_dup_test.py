@@ -24,7 +24,7 @@ class SubsetsWithDup(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(SubsetsWithDup) \
-        .Add(lambda tc: tc.Param("nums", [1,2,3]).Result([[],[1],[1,2],[1,2,2],[2],[2,2]])) \
-        .Add(lambda tc: tc.Param("nums", [4,4,4,1,4]).Result([[],[1],[1,4],[1,4,4],[1,4,4,4],[1,4,4,4,4],[4],[4,4],[4,4,4],[4,4,4,4]])) \
-        .Add(lambda tc: tc.Param("nums", []).Result([[],[0]])) \
+        .Add(lambda tc: tc.Param([1,2,2]).Result([[],[1],[1,2],[1,2,2],[2],[2,2]])) \
+        .Add(lambda tc: tc.Param([4,4,4,1,4]).Result([[],[1],[1,4],[1,4,4],[1,4,4,4],[1,4,4,4,4],[4],[4,4],[4,4,4],[4,4,4,4]])) \
+        .Add(lambda tc: tc.Param([0]).Result([[],[0]])) \
         .Run()

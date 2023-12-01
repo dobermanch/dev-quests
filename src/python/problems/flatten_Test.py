@@ -2,9 +2,9 @@
 
 from typing import Optional
 from core.problem_base import *
-from models.node import TreeNode
+from models.tree_node import TreeNode
 
-class CopyRandomList:
+class CopyRandomList(ProblemBase):
     def Solution(self, root: Optional[TreeNode]) -> TreeNode:
         node = root
         while node:
@@ -47,5 +47,5 @@ if __name__ == '__main__':
     root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(5, None, TreeNode(6)))
 
     TestGen(CopyRandomList) \
-        .Add(lambda tc: tc.Param("root", root).Result(root)) \
+        .Add(lambda tc: tc.Param(root).Result(root)) \
         .Run()

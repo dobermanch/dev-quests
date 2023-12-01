@@ -28,14 +28,14 @@ class LargestRectangleArea(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(LargestRectangleArea) \
-        .Add(lambda tc: tc.Param("heights", [4,2]).Result(4)) \
-        .Add(lambda tc: tc.Param("heights", [1]).Result(1)) \
-        .Add(lambda tc: tc.Param("heights", [1,1]).Result(2)) \
-        .Add(lambda tc: tc.Param("heights", [3,6,5,7,4,8,1,0]).Result(20)) \
-        .Add(lambda tc: tc.Param("heights", [4,2,0,3,2,4,3,4]).Result(10)) \
-        .Add(lambda tc: tc.Param("heights", [5,4,1,2]).Result(8)) \
-        .Add(lambda tc: tc.Param("heights", [1,2,3,4,5]).Result(9)) \
-        .Add(lambda tc: tc.Param("heights", [2,1,5,6,2,3,2,3]).Result(12)) \
-        .Add(lambda tc: tc.Param("heights", [2,1,5,6,2,3]).Result(10)) \
-        .Add(lambda tc: tc.Param("heights", [2,4]).Result(4)) \
+        .Add(lambda tc: tc.Param([4,2]).Result(4)) \
+        .Add(lambda tc: tc.Param([1]).Result(1)) \
+        .Add(lambda tc: tc.Param([1,1]).Result(2)) \
+        .Add(lambda tc: tc.Param([3,6,5,7,4,8,1,0]).Result(20)) \
+        .Add(lambda tc: tc.Param([4,2,0,3,2,4,3,4]).Result(10)) \
+        .Add(lambda tc: tc.Param([5,4,1,2]).Result(8)) \
+        .Add(lambda tc: tc.Param([1,2,3,4,5]).Result(9)) \
+        .Add(lambda tc: tc.Param([2,1,5,6,2,3,2,3]).Result(12)) \
+        .Add(lambda tc: tc.Param([2,1,5,6,2,3]).Result(10)) \
+        .Add(lambda tc: tc.Param([2,4]).Result(4)) \
         .Run()

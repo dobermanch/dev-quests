@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/house-robber-ii/
-class Rob2:
+from core.problem_base import *
+
+class Rob2(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         if len(nums) == 1:
             return nums[0]
@@ -17,4 +19,9 @@ class Rob2:
         return max(RobHouses(0, len(nums) - 1), RobHouses(1, len(nums)))
 
 
-Rob2().Solution([2,7,4,5,3,5,6,8,5,9,3,1,12])
+if __name__ == '__main__':
+    TestGen(Rob2) \
+        .Add(lambda tc: tc.Param([2,3,2]).Result(3)) \
+        .Add(lambda tc: tc.Param([1,2,3,1]).Result(4)) \
+        .Add(lambda tc: tc.Param([1,2,3]).Result(3)) \
+        .Run()

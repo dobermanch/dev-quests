@@ -24,6 +24,6 @@ class Tribonacci(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(Tribonacci) \
-        .Add(lambda tc: tc.Param("n", 4).Result(4)) \
-        .Add(lambda tc: tc.Param("n", 25).Result(1389537)) \
+        .Add(lambda tc: tc.Param(4).Result(4)) \
+        .Add(lambda tc: tc.Param(25).Result(1389537)) \
         .Run()

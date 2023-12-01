@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/longest-increasing-subsequence/
-class LengthOfLIS:
+from core.problem_base import *
+
+class LengthOfLIS(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         map = [0] * len(nums)
         for i in range(len(nums) - 1, -1, -1):
@@ -24,5 +26,9 @@ class LengthOfLIS:
 
         return len(sub)
 
-
-LengthOfLIS().Solution1([4,10,4,3,8,9])
+if __name__ == '__main__':
+    TestGen(LengthOfLIS) \
+        .Add(lambda tc: tc.Param([10,9,2,5,3,7,101,18]).Result(4)) \
+        .Add(lambda tc: tc.Param([0,1,0,3,2,3]).Result(4)) \
+        .Add(lambda tc: tc.Param([7,7,7,7,7,7,7]).Result(1)) \
+        .Run()

@@ -1,7 +1,9 @@
 #https://leetcode.com/problems/find-the-winner-of-the-circular-game/
-class FindTheWinner:
+from core.problem_base import *
+
+class FindTheWinner(ProblemBase):
     def Solution(self, n: int, k: int) -> int:
-        players = list(range(n))
+        players = list(range(1, n + 1))
         index = k - 1
 
         while len(players) > 1:
@@ -11,4 +13,8 @@ class FindTheWinner:
         return players[0]
 
 
-FindTheWinner().Solution(5, 2)
+if __name__ == '__main__':
+    TestGen(FindTheWinner) \
+        .Add(lambda tc: tc.Param(5).Param(2).Result(3)) \
+        .Add(lambda tc: tc.Param(6).Param(5).Result(1)) \
+        .Run()

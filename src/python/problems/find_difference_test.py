@@ -12,10 +12,10 @@ class FindDifference(ProblemBase):
                 set1.remove(nums1[i])
                 set2.remove(nums1[i])
         
-        return [set1, set2]
+        return [list(set1), list(set2)]
 
 if __name__ == '__main__':
     TestGen(FindDifference) \
-        .Add(lambda tc: tc.Param("nums1", [1,2,3]).Param("nums2", [2,4,6]).Result([[1,3],[4,6]])) \
-        .Add(lambda tc: tc.Param("nums1", [1,2,3,3]).Param("nums2", [1,1,2,2]).Result([[3],[]])) \
+        .Add(lambda tc: tc.Param([1,2,3]).Param([2,4,6]).Result([[1,3],[4,6]])) \
+        .Add(lambda tc: tc.Param([1,2,3,3]).Param([1,1,2,2]).Result([[3],[]])) \
         .Run()

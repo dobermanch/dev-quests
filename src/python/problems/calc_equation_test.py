@@ -37,8 +37,8 @@ class CalcEquation(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(CalcEquation) \
-        .Add(lambda tc: tc.Param("equations", [["a","b"],["b","c"]]) \
-                          .Param("values", [2.0,3.0]) \
-                          .Param("queries", [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]) \
+        .Add(lambda tc: tc.Param([["a","b"],["b","c"]]) \
+                          .Param([2.0,3.0]) \
+                          .Param([["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]) \
                           .Result([6.00000,0.50000,-1.00000,1.00000,-1.00000])) \
         .Run()

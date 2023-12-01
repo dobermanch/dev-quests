@@ -53,12 +53,12 @@ class PredictPartyVictory(ProblemBase):
             else:
                 dire.append(direVoter + len(senate))
 
-        return "Radiant" if dire else "Dire"
+        return "Radiant" if radiant else "Dire"
 
 if __name__ == '__main__':
     TestGen(PredictPartyVictory) \
-        .Add(lambda tc: tc.Param("senate", "RD").Result("Radiant")) \
-        .Add(lambda tc: tc.Param("senate", "RDD").Result("Dire")) \
-        .Add(lambda tc: tc.Param("senate", "RRDDD").Result("Radiant")) \
-        .Add(lambda tc: tc.Param("senate", "DRRDRDRDRDDRDRDR").Result("Radiant")) \
+        .Add(lambda tc: tc.Param("RD").Result("Radiant")) \
+        .Add(lambda tc: tc.Param("RDD").Result("Dire")) \
+        .Add(lambda tc: tc.Param("RRDDD").Result("Radiant")) \
+        .Add(lambda tc: tc.Param("DRRDRDRDRDDRDRDR").Result("Radiant")) \
         .Run()

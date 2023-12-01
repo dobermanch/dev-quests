@@ -2,8 +2,9 @@
 
 from typing import Optional
 from models.list_node import ListNode
+from core.problem_base import *
 
-class ReverseKGroup:
+class ReverseKGroup(ProblemBase):
     def Solution(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         def Reverse(node, length):
             group = None
@@ -32,5 +33,8 @@ class ReverseKGroup:
         return result.next
 
 
-
-ReverseKGroup().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))), 2)
+if __name__ == '__main__':
+    # TestGen(ReverseKGroup) \
+    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
+    #     .Run()
+    ReverseKGroup().Solution(ListNode(1, ListNode(2, ListNode(3, ListNode(4)))), 2)

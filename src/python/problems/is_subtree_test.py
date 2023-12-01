@@ -2,8 +2,9 @@
 
 from typing import Optional
 from models.tree_node import TreeNode
+from core.problem_base import *
 
-class IsSubtree:
+class IsSubtree(ProblemBase):
     def Solution(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         def Dfs(node1, node2, checking) -> int:
             if not node1 and not node2:
@@ -25,5 +26,8 @@ class IsSubtree:
 
         return Dfs(root, subRoot, False)
 
-
-IsSubtree().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), TreeNode(1, TreeNode(2), TreeNode(3)))
+if __name__ == '__main__':
+    # TestGen(IsSubtree) \
+    #     .Add(lambda tc: tc.Param([73,74,75,71,69,72,76,73]).Result([1,1,4,2,1,1,0,0])) \
+    #     .Run()
+    IsSubtree().Solution(TreeNode(1, TreeNode(2), TreeNode(3)), TreeNode(1, TreeNode(2), TreeNode(3)))

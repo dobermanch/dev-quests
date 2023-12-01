@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/missing-number/
-class MissingNumber:
+from core.problem_base import *
+
+class MissingNumber(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         result = len(nums)
 
@@ -18,4 +20,9 @@ class MissingNumber:
         return result
 
 
-MissingNumber().Solution([9,6,4,2,3,5,7,0,1,10,11,12,13])
+if __name__ == '__main__':
+    TestGen(MissingNumber) \
+        .Add(lambda tc: tc.Param([3,0,1]).Result(2)) \
+        .Add(lambda tc: tc.Param([0,1]).Result(2)) \
+        .Add(lambda tc: tc.Param([9,6,4,2,3,5,7,0,1]).Result(8)) \
+        .Run()

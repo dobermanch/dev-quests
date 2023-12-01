@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/course-schedule/
-class CanFinish:
+from core.problem_base import *
+
+class CanFinish(ProblemBase):
     def Solution(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
         def Visit(dependencies, current, visited, cycle):
             if cycle[current]:
@@ -17,6 +19,8 @@ class CanFinish:
 
             cycle[current] = False
 
+            return True
+
 
         dependencies = {}
         for course, prereq in prerequisites:
@@ -33,6 +37,8 @@ class CanFinish:
 
         return True
 
-
-
-CanFinish().Solution(5, [[1,4],[2,4],[3,1],[3,2]])
+if __name__ == '__main__':
+    TestGen(CanFinish) \
+        .Add(lambda tc: tc.Param(2).Param([[1,0]]).Result(True)) \
+        .Add(lambda tc: tc.Param(2).Param([[1,0],[0,1]]).Result(False)) \
+        .Run()

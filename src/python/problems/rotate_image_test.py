@@ -1,7 +1,8 @@
 # https://leetcode.com/problems/rotate-image/
+from core.problem_base import *
 
-class RotateImage:
-    def Solution(self, matrix: list[list[int]]) -> None:
+class RotateImage(ProblemBase):
+    def Solution(self, matrix: list[list[int]]) -> list[list[int]]:
         rows = len(matrix)
         cols = len(matrix[0])
 
@@ -33,5 +34,11 @@ class RotateImage:
             xR -= 1
             yT += 1
             yB -= 1
+        
+        return matrix
 
-RotateImage().Solution([[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]])
+if __name__ == '__main__':
+    TestGen(RotateImage) \
+        .Add(lambda tc: tc.Param([[1,2,3],[4,5,6],[7,8,9]]).Result([[7,4,1],[8,5,2],[9,6,3]])) \
+        .Add(lambda tc: tc.Param([[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]).Result([[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]])) \
+        .Run()

@@ -1,4 +1,8 @@
-class MinWindow:
+#https://leetcode.com/problems/minimum-window-substring/
+
+from core.problem_base import *
+
+class MinWindow(ProblemBase):
     def Solution(self, s: str, t: str) -> str:
         mapT = {}
 
@@ -28,4 +32,9 @@ class MinWindow:
         return "" if pos[1] > len(s) else s[pos[0]: pos[1] + 1]
 
 
-MinWindow().Solution("ADOBECODEBANC", "ABC")
+if __name__ == '__main__':
+    TestGen(MinWindow) \
+        .Add(lambda tc: tc.Param("ADOBECODEBANC").Param("ABC").Result("BANC")) \
+        .Add(lambda tc: tc.Param("a").Param("a").Result("a")) \
+        .Add(lambda tc: tc.Param("a").Param("aa").Result("")) \
+        .Run()

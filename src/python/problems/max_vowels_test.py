@@ -23,7 +23,7 @@ class MaxVowels(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(MaxVowels) \
-        .Add(lambda tc: tc.Param("s", "abciiidef").Param(3).Result(3)) \
-        .Add(lambda tc: tc.Param("s", "aeiou").Param(2).Result(2)) \
-        .Add(lambda tc: tc.Param("s", "leetcode").Param(3).Result(2)) \
+        .Add(lambda tc: tc.Param("abciiidef").Param(3).Result(3)) \
+        .Add(lambda tc: tc.Param("aeiou").Param(2).Result(2)) \
+        .Add(lambda tc: tc.Param("leetcode").Param(3).Result(2)) \
         .Run()

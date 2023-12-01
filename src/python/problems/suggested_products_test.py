@@ -1,6 +1,5 @@
 #https://leetcode.com/problems/search-suggestions-system
 
-from collections import Counter, defaultdict
 from core.problem_base import *
 
 class SuggestedProducts(ProblemBase):
@@ -52,6 +51,6 @@ class Trie:
 
 if __name__ == '__main__':
     TestGen(SuggestedProducts) \
-        .Add(lambda tc: tc.Param("products", ["mobile","mouse","moneypot","monitor","mousepad"]).Param("searchWord", "mouse").Result([["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]])) \
-        .Add(lambda tc: tc.Param("products", ["havana"]).Param("searchWord", "havana").Result([["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]])) \
+        .Add(lambda tc: tc.Param(["mobile","mouse","moneypot","monitor","mousepad"]).Param("mouse").Result([["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]])) \
+        .Add(lambda tc: tc.Param(["havana"]).Param("havana").Result([["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]])) \
         .Run()

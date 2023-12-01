@@ -1,7 +1,8 @@
 #https://leetcode.com/problems/kth-largest-element-in-an-array/
 from heapq import heappop, heappush, heapify
+from core.problem_base import *
 
-class FindKthLargest:
+class FindKthLargest(ProblemBase):
     def Solution(self, nums: list[int], k: int) -> int:
         queue = []
 
@@ -37,5 +38,9 @@ class FindKthLargest:
 
         return Sort(0, len(nums) - 1, len(nums) - k)
 
+if __name__ == '__main__':
+    TestGen(FindKthLargest) \
+        .Add(lambda tc: tc.Param([3,2,1,5,6,4]).Param(2).Result(5)) \
+        .Add(lambda tc: tc.Param([3,2,3,1,2,4,5,5,6]).Param(4).Result(4)) \
+        .Run()
 
-FindKthLargest().Solution([3,2,3,1,2,4,5,5,6], 4)

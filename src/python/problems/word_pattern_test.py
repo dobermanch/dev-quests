@@ -1,6 +1,7 @@
-# https://leetcode.com/problems/rotate-image/
+# https://leetcode.com/problems/word-pattern
+from core.problem_base import *
 
-class WordPattern:
+class WordPattern(ProblemBase):
     def Solution(self, pattern: str, s: str) -> bool:
         words = s.split(' ')
         if len(words) != len(pattern):
@@ -23,5 +24,10 @@ class WordPattern:
 
         return True
 
+if __name__ == '__main__':
+    TestGen(WordPattern) \
+        .Add(lambda tc: tc.Param("abba").Param("dog cat cat dog").Result(True)) \
+        .Add(lambda tc: tc.Param("abba").Param("dog cat cat fish").Result(False)) \
+        .Add(lambda tc: tc.Param("aaaa").Param("dog cat cat dog").Result(False)) \
+        .Run()
 
-WordPattern().Solution("aaa", "dog cat dog")

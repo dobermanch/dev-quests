@@ -30,6 +30,6 @@ class SuccessfulPairs(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(SuccessfulPairs) \
-        .Add(lambda tc: tc.Param("spells", [5,1,3]).Param("potions", [1,2,3,4,5]).Param("success", 7).Result([4,0,3])) \
-        .Add(lambda tc: tc.Param("spells", [3,1,2]).Param("potions", [8,5,8]).Param("success", 16).Result([2,0,2])) \
+        .Add(lambda tc: tc.Param([5,1,3]).Param([1,2,3,4,5]).Param(7).Result([4,0,3])) \
+        .Add(lambda tc: tc.Param([3,1,2]).Param([8,5,8]).Param(16).Result([2,0,2])) \
         .Run()

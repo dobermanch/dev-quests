@@ -1,9 +1,8 @@
 # https://leetcode.com/problems/find-peak-element
 
-from heapq import heappop, heappush
 from core.problem_base import *
 
-class FindPeakElement:
+class FindPeakElement(ProblemBase):
     def Solution(self, nums: list[int]) -> int:
         length = len(nums) - 1
         left = 0
@@ -22,6 +21,6 @@ class FindPeakElement:
 
 if __name__ == '__main__':
     TestGen(FindPeakElement) \
-        .Add(lambda tc: tc.Param("nums", [1,2,3,1]).Result(2)) \
-        .Add(lambda tc: tc.Param("nums", [1,2,1,3,5,6,4]).Result(5)) \
+        .Add(lambda tc: tc.Param([1,2,3,1]).Result(2)) \
+        .Add(lambda tc: tc.Param([1,2,1,3,5,6,4]).Result(5)) \
         .Run()

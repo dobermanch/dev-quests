@@ -22,9 +22,9 @@ class Reverse(ProblemBase):
         
 if __name__ == '__main__':
     TestGen(Reverse) \
-        .Add(lambda tc: tc.Param("x", 123).Result(321)) \
-        .Add(lambda tc: tc.Param("x", -123).Result(-321)) \
-        .Add(lambda tc: tc.Param("x", 120).Result(21)) \
-        .Add(lambda tc: tc.Param("x", 1534236469).Result(0)) \
-        .Add(lambda tc: tc.Param("x", -1534236469).Result(0)) \
+        .Add(lambda tc: tc.Param(123).Result(321)) \
+        .Add(lambda tc: tc.Param(-123).Result(-321)) \
+        .Add(lambda tc: tc.Param(120).Result(21)) \
+        .Add(lambda tc: tc.Param(1534236469).Result(0)) \
+        .Add(lambda tc: tc.Param(-1534236469).Result(0)) \
         .Run()

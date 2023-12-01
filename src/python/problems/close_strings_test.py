@@ -26,8 +26,9 @@ class CloseStrings(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(CloseStrings) \
-        .Add(lambda tc: tc.Param("word1", "abc").Param("word2", "bca").Result(True)) \
-        .Add(lambda tc: tc.Param("word1", "a").Param("word2", "a").Result(False)) \
-        .Add(lambda tc: tc.Param("word1", "cabbba").Param("word2", "abbccc").Result(True)) \
-        .Add(lambda tc: tc.Param("word1", "abbzzca").Param("word2", "babzzcz").Result(False)) \
+        .Add(lambda tc: tc.Param("abc").Param("bca").Result(True)) \
+        .Add(lambda tc: tc.Param("a").Param("a").Result(True)) \
+        .Add(lambda tc: tc.Param("a").Param("aa").Result(False)) \
+        .Add(lambda tc: tc.Param("cabbba").Param("abbccc").Result(True)) \
+        .Add(lambda tc: tc.Param("abbzzca").Param("babzzcz").Result(False)) \
         .Run()

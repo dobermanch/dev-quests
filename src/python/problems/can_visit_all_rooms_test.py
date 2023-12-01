@@ -1,6 +1,8 @@
 #https://leetcode.com/problems/keys-and-rooms/
-class SubarraySum:
-    def Solution(self, rooms: List[List[int]]) -> bool:
+from core.problem_base import *
+
+class CanVisitAllRooms(ProblemBase):
+    def Solution(self, rooms: list[list[int]]) -> bool:
         collectedKeys = set()
         collectedKeys.add(0)
 
@@ -17,4 +19,8 @@ class SubarraySum:
         return len(collectedKeys) == len(rooms)
 
 
-CanVisitAllRooms().Solution(5, [[1,3],[2,0],[2,3],[1,0],[4,1],[0,3]])
+if __name__ == '__main__':
+    TestGen(CanVisitAllRooms) \
+        .Add(lambda tc: tc.Param([[1],[2],[3],[]]).Result(True)) \
+        .Add(lambda tc: tc.Param([[1,3],[3,0,1],[2],[0]]).Result(False)) \
+        .Run()

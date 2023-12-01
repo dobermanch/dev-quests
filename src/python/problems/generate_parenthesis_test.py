@@ -1,5 +1,7 @@
 #https://leetcode.com/problems/generate-parentheses/
-class GenerateParenthesis:
+from core.problem_base import *
+
+class GenerateParenthesis(ProblemBase):
     def Solution(self, n: int) -> list[str]:
         result = []
         def Build(open, closed, parenthesis, temp):
@@ -20,4 +22,8 @@ class GenerateParenthesis:
         return result
 
 
-GenerateParenthesis().Solution([9,10,9,-7,-4,-8,2,-6], 5)
+if __name__ == '__main__':
+    TestGen(GenerateParenthesis) \
+        .Add(lambda tc: tc.Param(3).Result(["((()))","(()())","(())()","()(())","()()()"])) \
+        .Add(lambda tc: tc.Param(1).Result(["()"])) \
+        .Run()

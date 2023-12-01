@@ -13,6 +13,6 @@ class CanJump(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(CanJump) \
-        .Add(lambda tc: tc.Param("nums", [2,3,1,1,4]).Result(True)) \
-        .Add(lambda tc: tc.Param("nums", [3,2,1,0,4]).Result(False)) \
+        .Add(lambda tc: tc.Param([2,3,1,1,4]).Result(True)) \
+        .Add(lambda tc: tc.Param([3,2,1,0,4]).Result(False)) \
         .Run()
