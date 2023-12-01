@@ -1431,6 +1431,11 @@ Code: [`C#`](/src/csharp/Problems/CloseStrings.cs) [`Go`](/src/go/problems/close
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/AverageTimeOfProcessPerMachine.sql)  
 
+### [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent)
+
+Tags: `Array` `String`  
+Code: [`C#`](/src/csharp/Problems/ArrayStringsAreEqual.cs) [`Go`](/src/go/problems/array_strings_are_equal_test.go) [`Python`](/src/python/problems/array_strings_are_equal_test.py)  
+
 ### [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/description)
 
 Tags: `Database`  
