@@ -1261,6 +1261,11 @@ Code: [`C#`](/src/csharp/Problems/LongestCommonSubsequence.cs) [`Python`](/src/p
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/ArticleViewsI.sql)  
 
+### [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description)
+
+Tags: `Array` `Hash Table` `String`  
+Code: [`C#`](/src/csharp/Problems/CountCharacters.cs) [`Go`](/src/go/problems/count_characters_test.go) [`Python`](/src/python/problems/count_characters_test.py)  
+
 ### [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree)
 
 Tags: `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
