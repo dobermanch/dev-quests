@@ -5,23 +5,12 @@
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
     // Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/dotnet:2": {
-			"version": "8.0"
-		},
-		"ghcr.io/devcontainers/features/git:1": {
-			"ppa": true,
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/go:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/python:1": {
-			"installTools": true,
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers-community/npm-features/typescript:1": {
-			"version": "latest"
-		}
+		"ghcr.io/devcontainers/features/dotnet:2": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/go:1": {},
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
+		"ghcr.io/devcontainers/features/rust:1": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -44,8 +33,8 @@
                 "lfm.vscode-makefile-term"
             ]
         }
-    }
-
+    },
+    "postCreateCommand": "./.devcontainer/scripts/dependencies.sh"
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
