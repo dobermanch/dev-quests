@@ -1655,3 +1655,8 @@ Code: [`Pandas`](/src/python/problems/pandas/modify_salary_column_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/rename_columns_test.py)  
+
+### [2886. Change Data Type](https://leetcode.com/problems/change-data-type)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/change_datatype_test.py)  

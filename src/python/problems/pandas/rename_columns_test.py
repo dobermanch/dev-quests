@@ -12,7 +12,6 @@ class RenameColumns(ProblemBase):
             "age": "age_in_years",
         })
 
-        print(students)
         return students
 
 
