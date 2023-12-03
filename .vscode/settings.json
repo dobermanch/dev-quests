@@ -21,5 +21,10 @@
     ],
     "python.envFile": "${workspaceFolder}/src/python/.env",
     "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "rust-analyzer.linkedProjects": [
+        "${workspaceFolder}/src/rust/Cargo.toml"
+    ],
+    "rust-analyzer.check.command": "clippy",
+    "debug.allowBreakpointsEverywhere": true
 }
