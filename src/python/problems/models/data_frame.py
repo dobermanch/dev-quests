@@ -27,20 +27,20 @@ def parse(input):
     columnNames = []
     dataRows = []
     for line in input.split('\n'):
-        if not columnNames and line.strip().startswith('|'):
-            columnNames = [p.strip() for p in line.split('|') if p.strip()]
-        elif line.strip().startswith('|'):
+        toParse = line.strip()
+        if not columnNames and toParse.startswith('|'):
+            columnNames = [p.strip() for p in toParse.split('|') if p.strip()]
+        elif toParse.startswith('|'):
             row = []
-            for p in line.split('|'):
+            for p in toParse.split('|')[1:-1]:
                 param = p.strip()
-                if param:
+                try:
+                    row.append(int(param))
+                except:                    
                     try:
-                        row.append(int(param))
-                    except:                    
-                        try:
-                            row.append(float(param))
-                        except:
-                            row.append(param)
+                        row.append(float(param))
+                    except:
+                        row.append(param if param else None)
             if row:
                 dataRows.append(row)
                     

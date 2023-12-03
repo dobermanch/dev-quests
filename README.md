@@ -1640,3 +1640,8 @@ Code: [`Pandas`](/src/python/problems/pandas/create_bonus_column_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/drop_duplicate_emails_test.py)  
+
+### [2883. Drop Missing Data](https://leetcode.com/problems/drop-missing-data)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/drop_missing_data_test.py)  
