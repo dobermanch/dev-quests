@@ -1625,3 +1625,8 @@ Code: [`Pandas`](/src/python/problems/pandas/get_dataframe_size_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/select_first_rows_test.py)  
+
+### [2880. Select Data](https://leetcode.com/problems/select-data)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/select_data_test.py)  
