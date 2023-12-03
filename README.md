@@ -1650,3 +1650,8 @@ Code: [`Pandas`](/src/python/problems/pandas/drop_missing_data_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/modify_salary_column_test.py)  
+
+### [2885. Rename Columns](https://leetcode.com/problems/rename-columns)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/rename_columns_test.py)  
