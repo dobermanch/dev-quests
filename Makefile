@@ -20,4 +20,8 @@ rename_files:
 configure_sql:
 	# Configure MySQL
 	./scripts/configure_mysql.sh
-	
+
+.PHONY: configure_pandas
+configure_pandas:
+	# Configure Pandas
+	./scripts/configure_pandas.sh

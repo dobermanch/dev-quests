@@ -34,7 +34,7 @@
             ]
         }
     },
-    "postCreateCommand": "./.devcontainer/scripts/dependencies.sh"
+    "postCreateCommand": "./scripts/install_dependencies.sh"
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
