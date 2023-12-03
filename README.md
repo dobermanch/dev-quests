@@ -1635,3 +1635,8 @@ Code: [`Pandas`](/src/python/problems/pandas/select_data_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/create_bonus_column_test.py)  
+
+### [2882. Drop Duplicate Rows](https://leetcode.com/problems/drop-duplicate-rows)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/drop_duplicate_emails_test.py)  

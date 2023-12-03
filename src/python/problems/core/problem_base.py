@@ -36,6 +36,7 @@ class TestGen:
             if isinstance(result, float):
                 self.assertTrue(math.isclose(testCase.result, result, rel_tol=0.01), f"{str(testCase)}, Actual: {result}")
             elif isinstance(result, pd.DataFrame):
+                result.reset_index(drop=True, inplace=True)
                 self.assertTrue(result.equals(testCase.result), f"{str(testCase)}, Actual: {result}")
             else:
                 self.assertEqual(result, testCase.result, f"{str(testCase)}, Actual: {result}")
