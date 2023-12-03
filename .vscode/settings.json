@@ -2,6 +2,8 @@
     "dotnet.defaultSolution": "src/csharp/LeetCode.sln",
     "cSpell.words": [
         "devcontainers",
+        "dobermanch",
+        "leetcode",
         "nums",
         "Tribonacci"
     ],

@@ -29,7 +29,7 @@ func (KidsWithCandies) Solution(candies []int, extraCandies int) []bool {
 	}
 
 	result := make([]bool, len(candies))
-	for i, _ := range candies {
+	for i := range candies {
 		result[i] = candies[i] + extraCandies >= maxCandies
 	}
 

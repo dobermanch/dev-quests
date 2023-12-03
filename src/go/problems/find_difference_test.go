@@ -4,6 +4,7 @@ package problems
 
 import (
 	"testing"
+
 	"github.com/dobermanch/leetcode/core"
 )
 
@@ -12,14 +13,14 @@ type FindDifference struct{}
 func TestFindDifference(t *testing.T) {
 	gen := core.TestSuite[FindDifference]{}
 	gen.Add(func(tc *core.TestCase) {
-		tc.Param([]int{1,2,3}).Param([]int{2,4,6}).Result([][]int{[]int{1,3},[]int{4,6}})
+		tc.Param([]int{1, 2, 3}).Param([]int{2, 4, 6}).Result([][]int{{1, 3}, {4, 6}})
 	}).Add(func(tc *core.TestCase) {
-		tc.Param([]int{1,2,3,3}).Param([]int{1,1,2,2}).Result([][]int{[]int{3},[]int{}})
+		tc.Param([]int{1, 2, 3, 3}).Param([]int{1, 1, 2, 2}).Result([][]int{{3}, {}})
 	}).Run(t)
 }
 
 func (FindDifference) Solution(nums1 []int, nums2 []int) [][]int {
-	createHash := func (nums []int) map[int]struct{} {
+	createHash := func(nums []int) map[int]struct{} {
 		set := map[int]struct{}{}
 		for _, item := range nums {
 			set[item] = struct{}{}
@@ -27,9 +28,9 @@ func (FindDifference) Solution(nums1 []int, nums2 []int) [][]int {
 		return set
 	}
 
-	filter := func (set1 map[int]struct{}, set2 map[int]struct{}) []int {
+	filter := func(set1 map[int]struct{}, set2 map[int]struct{}) []int {
 		result := []int{}
-		for key, _ := range set1 {
+		for key := range set1 {
 			if _, ok := set2[key]; !ok {
 				result = append(result, key)
 			}
@@ -46,4 +47,3 @@ func (FindDifference) Solution(nums1 []int, nums2 []int) [][]int {
 
 	return result
 }
-

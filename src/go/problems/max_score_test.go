@@ -3,7 +3,6 @@
 package problems
 
 import (
-	"math"
 	"testing"
 	"container/heap"
 	"sort"

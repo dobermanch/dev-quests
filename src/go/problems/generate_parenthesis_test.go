@@ -8,10 +8,10 @@ import (
 	"github.com/dobermanch/leetcode/core"
 )
 
-type GgenerateParenthesis struct{}
+type GenerateParenthesis struct{}
 
-func TestGgenerateParenthesis(t *testing.T) {
-	gen := core.TestSuite[GgenerateParenthesis]{}
+func TestGenerateParenthesis(t *testing.T) {
+	gen := core.TestSuite[GenerateParenthesis]{}
 	gen.Add(func(tc *core.TestCase) {
 		tc.Param(3).Result([]string{"((()))", "(()())", "(())()", "()(())", "()()()"})
 	}).Add(func(tc *core.TestCase) {
@@ -19,7 +19,7 @@ func TestGgenerateParenthesis(t *testing.T) {
 	}).Run(t)
 }
 
-func (GgenerateParenthesis) Solution(n int) []string {
+func (GenerateParenthesis) Solution(n int) []string {
 	result := make([]string, 0)
 
 	build(n-1, n, "(", "", &result)
@@ -40,6 +40,4 @@ func build(open int, closed int, parenthesis string, temp string, result *[]stri
 	if open == 0 && closed == 0 {
 		*result = append(*result, temp)
 	}
-
-	temp = temp[:len(temp)-1]
 }

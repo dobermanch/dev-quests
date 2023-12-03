@@ -4,6 +4,8 @@ package problems
 
 import (
 	"testing"
+
+	"github.com/dobermanch/leetcode/core"
 )
 
 type MaxProfit2 struct {}

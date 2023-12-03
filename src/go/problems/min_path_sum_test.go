@@ -3,9 +3,7 @@
 package problems
 
 import (
-	"sort"
 	"testing"
-	"math"
 	"github.com/dobermanch/leetcode/core"
 )
 
