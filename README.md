@@ -1630,3 +1630,8 @@ Code: [`Pandas`](/src/python/problems/pandas/select_first_rows_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/select_data_test.py)  
+
+### [2881. Create a New Column](https://leetcode.com/problems/create-a-new-column)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/create_bonus_column_test.py)  
