@@ -1660,3 +1660,8 @@ Code: [`Pandas`](/src/python/problems/pandas/rename_columns_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/change_datatype_test.py)  
+
+### [2887. Fill Missing Data](https://leetcode.com/problems/fill-missing-data)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/fill_missing_values_test.py)  
