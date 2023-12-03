@@ -1,6 +1,8 @@
 import math
 import unittest
 
+import pandas as pd
+
 from core.test_case import TestCase
 
 class ProblemBase(unittest.TestCase):
@@ -33,6 +35,8 @@ class TestGen:
             result = getattr(self, testCase.name)(*testCase.params)
             if isinstance(result, float):
                 self.assertTrue(math.isclose(testCase.result, result, rel_tol=0.01), f"{str(testCase)}, Actual: {result}")
+            elif isinstance(result, pd.DataFrame):
+                self.assertTrue(result.equals(testCase.result), f"{str(testCase)}, Actual: {result}")
             else:
                 self.assertEqual(result, testCase.result, f"{str(testCase)}, Actual: {result}")
 

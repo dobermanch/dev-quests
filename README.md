@@ -1600,3 +1600,8 @@ Code: [`TypeScript`](/src/typescript/problems/createHelloWorld.ts) [`JavaScript`
 
 Tags:      
 Code: [`TypeScript`](/src/typescript/problems/toBeOrNotToBe.ts) [`JavaScript`](/src/javascript/problems/toBeOrNotToBe.js)  
+
+### [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/create_dataframe_test.py)  

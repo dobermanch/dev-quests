@@ -8,7 +8,7 @@
     "python.analysis.extraPaths": [
         "./src",
         "./src/python/problems",
-        "./src/python/problems"
+        "./src/python/problems/pandas"
     ],
     "python.testing.unittestArgs": [
         "-v",
@@ -17,6 +17,7 @@
         "-p",
         "*test.py"
     ],
+    "python.envFile": "${workspaceFolder}/src/python/.env",
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true
 }
