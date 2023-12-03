@@ -1610,3 +1610,8 @@ Code: [`Pandas`](/src/python/problems/pandas/create_dataframe_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/get_dataframe_size_test.py)  
+
+### [2879. Display the First Three Rows](https://leetcode.com/problems/display-the-first-three-rows)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/select_first_rows_test.py)  
