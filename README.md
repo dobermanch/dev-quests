@@ -1675,3 +1675,8 @@ Code: [`Pandas`](/src/python/problems/pandas/concatenate_tables_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/pivot_table_test.py)  
+
+### [2890. Reshape Data: Melt](https://leetcode.com/problems/reshape-data-melt)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/melt_table_test.py)  
