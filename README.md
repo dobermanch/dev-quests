@@ -1680,3 +1680,8 @@ Code: [`Pandas`](/src/python/problems/pandas/pivot_table_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/melt_table_test.py)  
+
+### [2891. Method Chaining](https://leetcode.com/problems/method-chaining)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/find_heavy_animals_test.py)  
