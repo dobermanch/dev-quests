@@ -1126,6 +1126,11 @@ Code: [`C#`](/src/csharp/Problems/PartitionLabels.cs) [`Python`](/src/python/pro
 Tags: `String` `Backtracking` `Bit Manipulation`  
 Code: [`C#`](/src/csharp/Problems/LetterCasePermutation.cs)  
 
+### [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)
+
+Tags: `Dynamic Programming`  
+Code: [`C#`](/src/csharp/Problems/NumTilings.cs) [`Go`](/src/go/problems/num_tilings_test.go) [`Python`](/src/python/problems/num_tilings_test.py)  
+
 ### [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 
 Tags: `Array` `Hash Table` `Breadth-First Search`  
