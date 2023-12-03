@@ -1645,3 +1645,8 @@ Code: [`Pandas`](/src/python/problems/pandas/drop_duplicate_emails_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/drop_missing_data_test.py)  
+
+### [2884. Modify Columns](https://leetcode.com/problems/modify-columns)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/modify_salary_column_test.py)  
