@@ -1316,6 +1316,11 @@ Code: [`C#`](/src/csharp/Problems/MinRemoveToMakeValid.cs)
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/AverageSellingPrice.sql)  
 
+### [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points)
+
+Tags: `Array` `Math` `Geometry`  
+Code: [`C#`](/src/csharp/Problems/MinTimeToVisitAllPoints.cs) [`Go`](/src/go/Problems/min_time_to_visit_all_points_test.go) [`Python`](/src/python/Problems/min_time_to_visit_all_points_test.py)  
+
 ### [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
 
 Tags: `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)`  
