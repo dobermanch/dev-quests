@@ -1665,3 +1665,8 @@ Code: [`Pandas`](/src/python/problems/pandas/change_datatype_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/fill_missing_values_test.py)  
+
+### [2888. Reshape Data: Concatenate](https://leetcode.com/problems/reshape-data-concatenate)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/concatenate_tables_test.py)  
