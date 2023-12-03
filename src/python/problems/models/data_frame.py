@@ -55,8 +55,8 @@ def TestCaseDataFrame(cls):
     return decorator
     
 @TestCaseDataFrame(TestCase)
-def ParamDataFrame(self, param: any, cycleAtPos: int = None):
-    return self.Param(parse(param, cycleAtPos))
+def ParamDataFrame(self, param: any):
+    return self.Param(parse(param))
 
 @TestCaseDataFrame(TestCase)
 def ResultDataFrame(self, param: any):

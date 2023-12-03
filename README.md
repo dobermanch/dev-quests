@@ -1605,3 +1605,8 @@ Code: [`TypeScript`](/src/typescript/problems/toBeOrNotToBe.ts) [`JavaScript`](/
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/create_dataframe_test.py)  
+
+### [2878. Get the Size of a DataFrame](https://leetcode.com/problems/get-the-size-of-a-dataframe)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/get_dataframe_size_test.py)  
