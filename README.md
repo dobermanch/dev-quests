@@ -1670,3 +1670,8 @@ Code: [`Pandas`](/src/python/problems/pandas/fill_missing_values_test.py)
 
 Tags:  
 Code: [`Pandas`](/src/python/problems/pandas/concatenate_tables_test.py)  
+
+### [2889. Reshape Data: Pivot](https://leetcode.com/problems/reshape-data-pivot)
+
+Tags:  
+Code: [`Pandas`](/src/python/problems/pandas/pivot_table_test.py)  
