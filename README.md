@@ -1591,6 +1591,11 @@ Code: [`SQL`](/src/sql/problems/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)
 Tags: `String` `Stack` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/RemoveStars.cs) [`Go`](/src/go/problems/remove_stars_test.go) [`Python`](/src/python/problems/remove_stars_test.py)  
 
+### [2462. Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers)
+
+Tags: `Array` `Two Pointers` `Heap (Priority Queue)` `Simulation`  
+Code: [`C#`](/src/csharp/Problems/TotalCost.cs)  
+
 ### [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 
 Tags: `Array` `Greedy` `Sorting` `Heap (Priority Queue)`  
