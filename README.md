@@ -1561,6 +1561,11 @@ Code: [`C#`](/src/csharp/Problems/FindDifference.cs) [`Go`](/src/go/problems/fin
 Tags: `Math`  
 Code: [`C#`](/src/csharp/Problems/AddTwoIntegers.cs) [`Go`](/src/go/problems/add_two_integers_test.go)  
 
+### [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string)
+
+Tags: `String`  
+Code: [`C#`](/src/csharp/Problems/LargestGoodInteger.cs) [`Go`](/src/go/problems/largest_good_integer_test.go) [`Python`](/src/python/problems/largest_good_integer_test.py) [`Rust`](/src/rust/src/largest_good_integer_test.rs)  
+
 ### [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 
 Tags: `Array` `Two Pointers` `Binary Search` `Sorting`  
