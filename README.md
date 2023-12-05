@@ -279,7 +279,7 @@ Code: [`C#`](/src/csharp/Problems/LargestRectangleArea.cs) [`Python`](/src/pytho
 ### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 Tags: `Array` `Two Pointers` `Sorting`  
-Code: [`C#`](/src/csharp/Problems/Merge.cs) [`Go`](/src/go/problems/merge_test.go)  
+Code: [`C#`](/src/csharp/Problems/Merge.cs) [`Go`](/src/go/problems/merge_test.go) [`Python`](/src/python/problems/merge_test.py)  
 
 ### [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
