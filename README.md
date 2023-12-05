@@ -1526,6 +1526,11 @@ Code: [`C#`](/src/csharp/Problems/FindTheWinner.cs) [`Python`](/src/python/probl
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/CountSalaryCategories.sql)  
 
+### [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
+
+Tags: `Array` `Breadth-First Search` `Matrix`  
+Code: [`C#`](/src/csharp/Problems/NearestExit.cs) [`Go`](/src/go/problems/nearest_exit_test.go) [`Python`](/src/python/problems/nearest_exit_test.py)  
+
 ### [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
 
 Tags: `Database`  
