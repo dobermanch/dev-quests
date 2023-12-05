@@ -1476,6 +1476,11 @@ Code: [`C#`](/src/csharp/Problems/MaxOperations.cs) [`Go`](/src/go/problems/max_
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/InvalidTweets.cs)  
 
+### [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)
+
+Tags: `Math` `Simulation`  
+Code: [`C#`](/src/csharp/Problems/NumberOfMatches.cs) [`Go`](/src/go/problems/number_of_matches_test.go) [`Python`](/src/python/problems/number_of_matches_test.py) [`Rust`](/src/rust/src/problems/number_of_matches_test.rs)  
+
 ### [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)
 
 Tags: `Array` `Matrix`  
@@ -1603,22 +1608,22 @@ Code: [`C#`](/src/csharp/Problems/MaxScore.cs) [`Go`](/src/go/problems/max_score
 
 ### [2620. Counter](https://leetcode.com/problems/counter)
 
-Tags:      
+Tags:  
 Code: [`TypeScript`](/src/typescript/problems/createCounter.ts) [`JavaScript`](/src/javascript/problems/createCounter.js)  
 
 ### [2665. Counter II](https://leetcode.com/problems/counter-ii)
 
-Tags:      
+Tags:  
 Code: [`TypeScript`](/src/typescript/problems/createCounter2.ts) [`JavaScript`](/src/javascript/problems/createCounter2.js)  
 
 ### [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)
 
-Tags:      
+Tags:  
 Code: [`TypeScript`](/src/typescript/problems/createHelloWorld.ts) [`JavaScript`](/src/javascript/problems/createHelloWorld.js)  
 
 ### [2704. To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be)
 
-Tags:      
+Tags:  
 Code: [`TypeScript`](/src/typescript/problems/toBeOrNotToBe.ts) [`JavaScript`](/src/javascript/problems/toBeOrNotToBe.js)  
 
 ### [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list)
