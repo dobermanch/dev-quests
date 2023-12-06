@@ -1486,6 +1486,11 @@ Code: [`C#`](/src/csharp/Problems/NumberOfMatches.cs) [`Go`](/src/go/problems/nu
 Tags: `Array` `Matrix`  
 Code: [`C#`](/src/csharp/Problems/FindBall.cs)  
 
+### [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)
+
+Tags: `Math`  
+Code: [`C#`](/src/csharp/Problems/TotalMoney.cs) [`Go`](/src/go/problems/total_money_test.go) [`Python`](/src/python/problems/total_money_test.py) [`Rust`](/src/rust/src/problems/total_money_test.rs)  
+
 ### [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee)
 
 Tags: `Database`  
