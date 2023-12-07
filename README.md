@@ -509,7 +509,7 @@ Code: [`C#`](/src/csharp/Problems/TwoSum2.cs) [`Go`](/src/go/problems/two_sum2_t
 ### [169. Majority Element](https://leetcode.com/problems/majority-element/)
 
 Tags: `Array` `Hash Table` `Divide and Conquer` `Sorting` `Counting`  
-Code: [`C#`](/src/csharp/Problems/MajorityElement.cs) [`Go`](/src/go/problems/majority_element_test.go) [`Python`](/src/python/problems/majority_element_test.py)  
+Code: [`C#`](/src/csharp/Problems/MajorityElement.cs) [`Go`](/src/go/problems/majority_element_test.go) [`Python`](/src/python/problems/majority_element_test.py) [`Rust`](/src/rust/src/problems/majority_element_test.rs)  
 
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
