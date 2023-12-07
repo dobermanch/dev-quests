@@ -1526,6 +1526,11 @@ Code: [`SQL`](/src/sql/problems/PrimaryDepartmentForEachEmployee.sql)
 Tags: `Array` `Math` `Recursion` `Queue` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/FindTheWinner.cs) [`Python`](/src/python/problems/find_the_winner_test.py)  
 
+### [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)
+
+Tags: `Math` `String` `Greedy`  
+Code: [`C#`](/src/csharp/Problems/LargestOddNumber.cs) [`Go`](/src/go/problems/largest_odd_number_test.go) [`Python`](/src/python/problems/largest_odd_number_test.py) [`Rust`](/src/rust/src/problems/largest_odd_number_test.rs)  
+
 ### [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)
 
 Tags: `Database`  

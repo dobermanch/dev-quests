@@ -1,5 +1,5 @@
-mod largest_good_integer_test;
+mod largest_odd_number_test;
 
 fn main() {
-    largest_good_integer_test::solution("6777133339".to_string());
+    largest_odd_number_test::solution("35427".to_string());
 }
