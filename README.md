@@ -539,7 +539,7 @@ Code: [`C#`](/src/csharp/Problems/FindRepeatedDnaSequences.cs)
 ### [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 Tags: `Array` `Math` `Two Pointers`  
-Code: [`C#`](/src/csharp/Problems/Rotate.cs)  
+Code: [`C#`](/src/csharp/Problems/Rotate.cs) [`Go`](/src/go/problems/rotate_test.go) [`Python`](/src/python/problems/rotate_test.py)  
 
 ### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
