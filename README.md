@@ -996,6 +996,11 @@ Code: [`SQL`](/src/sql/problems/FriendRequestsIIWhoHasTheMostFriends.sql)
 Tags: `Array` `Greedy`  
 Code: [`C#`](/src/csharp/Problems/CanPlaceFlowers.cs) [`Go`](/src/go/problems/can_place_flowers_test.go) [`Python`](/src/python/problems/can_place_flowers_test.py)  
 
+### [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)
+
+Tags: `String` `Tree` `Depth-First Search` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/Tree2str.cs) [`Go`](/src/go/problems/tree_2_str_test.go) [`Python`](/src/python/problems/tree_2_str_test.py)  
+
 ### [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)
 
 Tags: `Database`  
