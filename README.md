@@ -416,6 +416,11 @@ Code: [`C#`](/src/csharp/Problems/Partition.cs)
 Tags: `Hash Table` `Depth-First Search` `Breadth-First Search` `Graph`  
 Code: [`C#`](/src/csharp/Problems/CloneGraph.cs) [`Python`](/src/python/problems/clone_graph_test.py)  
 
+### [135. Candy](https://leetcode.com/problems/candy)
+
+Tags: `Array` `Greedy`  
+Code: [`C#`](/src/csharp/Problems/Candy.cs) [`Go`](/src/go/problems/candy_test.go) [`Python`](/src/python/problems/candy_test.py) [`Rust`](/src/rust/src/problems/candy_test.rs)  
+
 ### [136. Single Number](https://leetcode.com/problems/single-number/)
 
 Tags: `Array` `Bit Manipulation`  
