@@ -299,7 +299,7 @@ Code: [`C#`](/src/csharp/Problems/RestoreIpAddresses.cs)
 ### [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 Tags: `Stack` `Tree` `Depth-First Search` `Binary Tree`  
-Code: [`C#`](/src/csharp/Problems/InorderTraversal.cs)  
+Code: [`C#`](/src/csharp/Problems/InorderTraversal.cs) [`Go`](/src/go/problems/inorder_traversal_test.go) [`Python`](/src/python/problems/inorder_traversal_test.py)  
 
 ### [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
