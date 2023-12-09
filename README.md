@@ -389,7 +389,7 @@ Code: [`C#`](/src/csharp/Problems/MinimumTotal.cs)
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: `Array` `Dynamic Programming`  
-Code: [`C#`](/src/csharp/Problems/MaxProfit.cs) [`Go`](/src/go/problems/max_profit_test.go)  
+Code: [`C#`](/src/csharp/Problems/MaxProfit.cs) [`Go`](/src/go/problems/max_profit_test.go) [`Python`](/src/python/problems/max_profit_test.go) [`Rust`](/src/rust/src/problems/max_profit_test.rs)  
 
 ### [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
