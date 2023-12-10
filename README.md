@@ -194,7 +194,7 @@ Code: [`C#`](/src/csharp/Problems/SpiralOrder.cs)
 ### [55. Jump Game](https://leetcode.com/problems/jump-game/)
 
 Tags: `Array` `Dynamic Programming` `Greedy`  
-Code: [`C#`](/src/csharp/Problems/CanJump.cs) [`Python`](/src/python/problems/can_jump_test.py)  
+Code: [`C#`](/src/csharp/Problems/CanJump.cs) [`Go`](/src/go/problems/can_jump_test.go) [`Python`](/src/python/problems/can_jump_test.py) [`Rust`](/src/rust/src/problems/can_jump_test.rs)  
 
 ### [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
