@@ -216,6 +216,11 @@ Code: [`C#`](/src/csharp/Problems/SpiralOrder2.cs) [`Python`](/src/python/proble
 Tags: `Array` `Dynamic Programming` `Matrix`  
 Code: [`C#`](/src/csharp/Problems/MinPathSum.cs) [`Go`](/src/go/problems/min_path_sum_test.go) [`Python`](/src/python/problems/min_path_sum_test.py)  
 
+### [68. Text Justification](https://leetcode.com/problems/text-justification)
+
+Tags: `Array` `String` `Simulation`  
+Code: [`C#`](/src/csharp/Problems/FullJustify.cs) [`Go`](/src/go/problems/full_justify_test.go) [`Python`](/src/python/problems/full_justify_test.py)  
+
 ### [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 Tags: `Math` `Dynamic Programming` `Memoization`  
