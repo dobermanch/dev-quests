@@ -1161,6 +1161,11 @@ Code: [`C#`](/src/csharp/Problems/BackspaceCompare.cs)
 Tags: `Array` `Stack` `Sorting` `Monotonic Stack`  
 Code: [`C#`](/src/csharp/Problems/CarFleet.cs) [`Python`](/src/python/problems/car_fleet_test.py)  
 
+### [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix)
+
+Tags: `Array` `Matrix` `Simulation`  
+Code: [`C#`](/src/csharp/Problems/Transpose.cs) [`Go`](/src/go/problems/transpose_test.go) [`Python`](/src/python/problems/transpose_test.py)  
+
 ### [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)
 
 Tags: `Tree` `Depth-First Search` `Binary Tree`  
