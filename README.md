@@ -1344,17 +1344,22 @@ Code: [`SQL`](/src/sql/problems/AverageSellingPrice.sql)
 ### [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points)
 
 Tags: `Array` `Math` `Geometry`  
-Code: [`C#`](/src/csharp/Problems/MinTimeToVisitAllPoints.cs) [`Go`](/src/go/Problems/min_time_to_visit_all_points_test.go) [`Python`](/src/python/Problems/min_time_to_visit_all_points_test.py)  
+Code: [`C#`](/src/csharp/Problems/MinTimeToVisitAllPoints.cs) [`Go`](/src/go/problems/min_time_to_visit_all_points_test.go) [`Python`](/src/python/problems/min_time_to_visit_all_points_test.py)  
 
 ### [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
 
 Tags: `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)`  
-Code: [`C#`](/src/csharp/Problems/SuggestedProducts.cs) [`Go`](/src/go/Problems/suggested_products_test.go) [`Python`](/src/python/Problems/suggested_products_test.py)  
+Code: [`C#`](/src/csharp/Problems/SuggestedProducts.cs) [`Go`](/src/go/problems/suggested_products_test.go) [`Python`](/src/python/problems/suggested_products_test.py) 
 
 ### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations)
 
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/StudentsAndExaminations.sql)  
+
+### [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array)
+
+Tags: `Array`  
+Code: [`C#`](/src/csharp/Problems/FindSpecialInteger.cs) [`Go`](/src/go/problems/find_special_integer_test.go) [`Python`](/src/python/problems/find_special_integer_test.py) [`Rust`](/src/rust/src/problems/find_special_integer_test.rs)  
 
 ### [1318. Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)
 
