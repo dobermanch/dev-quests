@@ -17,7 +17,7 @@ public sealed class FindSpecialInteger : ProblemBase
     private int Solution1(int[] arr)
     {
         var minCount = arr.Length / 4;
-        for (var i = 1; i < arr.Length - minCount; i++)
+        for (var i = 0; i < arr.Length - minCount; i++)
         {
             if (arr[i] == arr[i + minCount])
             {
