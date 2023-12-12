@@ -1416,6 +1416,11 @@ Code: [`C#`](/src/csharp/Problems/GoodNodes.cs) [`Python`](/src/python/problems/
 Tags: `String` `Sliding Window`  
 Code: [`C#`](/src/csharp/Problems/MaxVowels.cs) [`Go`](/src/go/problems/max_vowels_test.go) [`Python`](/src/python/problems/max_vowels_test.py)  
 
+### [1464. Maximum Product of Two Elements in an Array]https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)
+
+Tags: `Array` `Sorting` `Heap (Priority Queue)`  
+Code: [`C#`](/src/csharp/Problems/MaxProduct2.cs) [`Go`](/src/go/problems/max_product2_test.go) [`Python`](/src/python/problems/max_product2_test.py) [`Rust`](/src/rust/src/problems/max_product2_test.rs)  
+
 ### [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero)
 
 Tags: `Depth-First Search` `Breadth-First Search` `Graph`  
