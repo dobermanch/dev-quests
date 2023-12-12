@@ -101,6 +101,11 @@ Code: [`C#`](/src/csharp/Problems/SwapPairs.cs) [`Python`](/src/python/problems/
 Tags: `Linked List` `Recursion`  
 Code: [`C#`](/src/csharp/Problems/ReverseKGroup.cs) [`Python`](/src/python/problems/reverse_k_group_test.py)  
 
+### [27. Remove Element](https://leetcode.com/problems/remove-element)
+
+Tags: `Array` `Two Pointers`  
+Code: [`C#`](/src/csharp/Problems/RemoveElement.cs) [`Go`](/src/go/problems/remove_element_test.go) [`Python`](/src/python/problems/remove_element_test.py) [`Rust`](/src/rust/src/problems/remove_element_test.rs)  
+
 ### [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 Tags: `Array` `Two Pointers`  
