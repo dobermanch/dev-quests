@@ -1471,6 +1471,11 @@ Code: [`C#`](/src/csharp/Problems/FindSmallestSetOfVertices.cs) [`Python`](/src/
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
 
+### [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix)
+
+Tags: `Array` `Matrix`  
+Code: [`C#`](/src/csharp/Problems/NumSpecial.cs) [`Go`](/src/go/problems/num_special_test.go) [`Python`](/src/python/problems/num_special_test.py) [`Rust`](/src/rust/src/problems/num_special_test.rs)  
+
 ### [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest)
 
 Tags: `Database`  
