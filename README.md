@@ -276,6 +276,11 @@ Code: [`C#`](/src/csharp/Problems/Subsets.cs) [`Go`](/src/go/problems/subsets_te
 Tags: `Array` `Backtracking` `Matrix`  
 Code: [`C#`](/src/csharp/Problems/WordSearch.cs)  
 
+### [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)
+
+Tags: `Array` `Two Pointers`  
+Code: [`C#`](/src/csharp/Problems/RemoveDuplicates2.cs) [`Go`](/src/go/problems/remove_duplicates2_test.go) [`Python`](/src/python/problems/remove_duplicates2_test.py) [`Rust`](/src/rust/src/problems/remove_duplicates2_test.rs)  
+
 ### [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
 
 Tags: `Linked List` `Two Pointers`  
