@@ -101,6 +101,11 @@ Code: [`C#`](/src/csharp/Problems/SwapPairs.cs) [`Python`](/src/python/problems/
 Tags: `Linked List` `Recursion`  
 Code: [`C#`](/src/csharp/Problems/ReverseKGroup.cs) [`Python`](/src/python/problems/reverse_k_group_test.py)  
 
+### [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+
+Tags: `Array` `Two Pointers`  
+Code: [`C#`](/src/csharp/Problems/RemoveDuplicates.cs) [`Go`](/src/go/problems/remove_duplicates_test.go) [`Python`](/src/python/problems/remove_duplicates_test.py) [`Rust`](/src/rust/src/problems/remove_duplicates_test.rs)  
+
 ### [27. Remove Element](https://leetcode.com/problems/remove-element)
 
 Tags: `Array` `Two Pointers`  
