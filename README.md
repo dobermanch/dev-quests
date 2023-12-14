@@ -154,7 +154,7 @@ Code: [`C#`](/src/csharp/Problems/FirstMissingPositive.cs) [`Go`](/src/go/proble
 ### [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 Tags: `Array` `Two Pointers` `Dynamic Programming` `Stack` `Monotonic Stack`  
-Code: [`C#`](/src/csharp/Problems/Trap.cs) [`Go`](/src/go/problems/trap_test.go)  
+Code: [`C#`](/src/csharp/Problems/Trap.cs) [`Go`](/src/go/problems/trap_test.go) [`Python`](/src/python/problems/trap_test.py) [`Rust`](/src/rust/src/problems/trap_test.rs)  
 
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
