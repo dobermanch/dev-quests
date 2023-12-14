@@ -1364,7 +1364,7 @@ Code: [`C#`](/src/csharp/Problems/MinTimeToVisitAllPoints.cs) [`Go`](/src/go/pro
 ### [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
 
 Tags: `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)`  
-Code: [`C#`](/src/csharp/Problems/SuggestedProducts.cs) [`Go`](/src/go/problems/suggested_products_test.go) [`Python`](/src/python/problems/suggested_products_test.py) 
+Code: [`C#`](/src/csharp/Problems/SuggestedProducts.cs) [`Go`](/src/go/problems/suggested_products_test.go) [`Python`](/src/python/problems/suggested_products_test.py)  
 
 ### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations)
 
@@ -1431,7 +1431,7 @@ Code: [`C#`](/src/csharp/Problems/GoodNodes.cs) [`Python`](/src/python/problems/
 Tags: `String` `Sliding Window`  
 Code: [`C#`](/src/csharp/Problems/MaxVowels.cs) [`Go`](/src/go/problems/max_vowels_test.go) [`Python`](/src/python/problems/max_vowels_test.py)  
 
-### [1464. Maximum Product of Two Elements in an Array]https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)
+### [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)
 
 Tags: `Array` `Sorting` `Heap (Priority Queue)`  
 Code: [`C#`](/src/csharp/Problems/MaxProduct2.cs) [`Go`](/src/go/problems/max_product2_test.go) [`Python`](/src/python/problems/max_product2_test.py) [`Rust`](/src/rust/src/problems/max_product2_test.rs)  
@@ -1665,6 +1665,11 @@ Code: [`C#`](/src/csharp/Problems/RemoveStars.cs) [`Go`](/src/go/problems/remove
 
 Tags: `Array` `Two Pointers` `Heap (Priority Queue)` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/TotalCost.cs)  
+
+### [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column)
+
+Tags: `Array` `Matrix` `Simulation`  
+Code: [`C#`](/src/csharp/Problems/OnesMinusZeros.cs) [`Go`](/src/go/problems/ones_minus_zeros_test.go) [`Python`](/src/python/problems/ones_minus_zeros_test.py) [`Rust`](/src/rust/src/ones_minus_zeros_test.rs)  
 
 ### [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 
