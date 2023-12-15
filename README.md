@@ -1124,7 +1124,7 @@ Code: [`C#`](/src/csharp/Problems/MyLinkedList.cs)
 ### [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
 
 Tags: `Array` `Dynamic Programming` `Greedy`  
-Code: [`C#`](/src/csharp/Problems/MaxProfit2.cs) [`Go`](/src/go/problems/max_profit_2_test.go) | [`Python`](/src/python/problems/max_profit_2_test.py)  
+Code: [`C#`](/src/csharp/Problems/MaxProfitFee.cs) [`Go`](/src/go/problems/max_profit_fee_test.go) [`Python`](/src/python/problems/max_profit_fee_test.py) [`Rust`](/src/rust/src/problems/max_profit_fee_test.rs)  
 
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
