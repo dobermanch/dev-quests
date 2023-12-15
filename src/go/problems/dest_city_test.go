@@ -23,8 +23,8 @@ func TestDestCity(t *testing.T) {
 
 func (DestCity) Solution(paths [][]string) string {
 	from := map[string]bool{}
-	for i := 0; i < len(paths); i++ {
-		from[paths[i][0]] = true
+	for _, path := range paths {
+		from[path[0]] = true
 	}
 
 	for _, path := range paths {
