@@ -3,7 +3,7 @@
 from core.problem_base import *
 
 class MaxProfit2(ProblemBase):
-    def Solution(self, prices: List[int], fee: int) -> int:
+    def Solution(self, prices: list[int], fee: int) -> int:
         temp = -prices[0]
         profit = 0
 

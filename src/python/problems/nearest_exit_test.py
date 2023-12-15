@@ -1,10 +1,9 @@
 # https://leetcode.com/problems/nearest-exit-from-entrance-in-maze
 
-from ast import List
 from core.problem_base import *
 
 class NearestExit(ProblemBase):
-    def Solution(self, maze: List[List[str]], entrance: List[int]) -> int:
+    def Solution(self, maze: list[list[str]], entrance: list[int]) -> int:
         direction = [[1, 0], [-1, 0], [0, 1], [0, -1]]
         queue = []
         rows = len(maze)

@@ -1416,6 +1416,11 @@ Code: [`SQL`](/src/sql/problems/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)
 Tags: `Array`  
 Code: [`C#`](/src/csharp/Problems/KidsWithCandies.cs) [`Go`](/src/go/problems/kids_with_candies_test.go) [`Python`](/src/python/problems/kids_with_candies_test.py)  
 
+### [1436. Destination City](https://leetcode.com/problems/destination-city)
+
+Tags: `Hash Table` `String`  
+Code: [`C#`](/src/csharp/Problems/DestCity.cs) [`Go`](/src/go/problems/dest_city_test.go) [`Python`](/src/python/problems/dest_city_test.py) [`Rust`](/src/rust/src/problems/dest_city_test.rs)  
+
 ### [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
 Tags: `Hash Table` `Tree` `Depth-First Search` `Breadth-First Search`  
