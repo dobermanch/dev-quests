@@ -111,6 +111,11 @@ Code: [`C#`](/src/csharp/Problems/RemoveDuplicates.cs) [`Go`](/src/go/problems/r
 Tags: `Array` `Two Pointers`  
 Code: [`C#`](/src/csharp/Problems/RemoveElement.cs) [`Go`](/src/go/problems/remove_element_test.go) [`Python`](/src/python/problems/remove_element_test.py) [`Rust`](/src/rust/src/problems/remove_element_test.rs)  
 
+### [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)
+
+Tags: `Hash Table` `String` `Sliding Window`  
+Code: [`C#`](/src/csharp/Problems/FindSubstring.cs)  
+
 ### [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 Tags: `Array` `Two Pointers`  
