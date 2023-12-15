@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
 
 namespace LeetCode.Problems;
 
@@ -9,18 +9,20 @@ public sealed class MaxProfit2 : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.ParamArray("[1,3,2,8,4,9]").Param(2).Result(8))
-          .Add(it => it.ParamArray("[1,3,7,5,10,3]").Param(3).Result(6));
+        => Add(it => it.ParamArray("[7,1,5,3,6,4]").Result(7))
+          .Add(it => it.ParamArray("[1,2,3,4,5]").Result(4))
+          .Add(it => it.ParamArray("[7,6,4,3,1]").Result(0));
 
-    private int Solution(int[] prices, int fee)
+    private int Solution(int[] prices)
     {
-        var temp = -prices[0];
         var profit = 0;
 
         for (var i = 1; i < prices.Length; i++)
         {
-            temp = Math.Max(temp, profit - prices[i]);
-            profit = Math.Max(profit, temp + prices[i] - fee);
+            if (prices[i] > prices[i - 1])
+            {
+                profit += prices[i] - prices[i - 1];
+            }
         }
 
         return profit;
