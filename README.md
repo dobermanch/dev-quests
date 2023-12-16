@@ -676,6 +676,11 @@ Code: [`C#`](/src/csharp/Problems/CombinationSum3.cs) [`Go`](/src/go/problems/co
 Tags: `Array` `Hash Table` `Sorting`  
 Code: [`C#`](/src/csharp/Problems/ContainsDuplicate.cs) [`Go`](/src/go/problems/contains_duplicate_test.go)  
 
+### [224. Basic Calculator](https://leetcode.com/problems/basic-calculator)
+
+Tags: `Math` `String` `Stack` `Recursion`  
+Code: [`C#`](/src/csharp/Problems/Calculate.cs) [`Go`](/src/go/problems/calculate_test.go) [`Python`](/src/python/problems/calculate_test.py) [`Rust`](/src/rust/src/problems/calculate_test.rs)  
+
 ### [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 Tags: `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
