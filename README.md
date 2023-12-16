@@ -734,7 +734,7 @@ Code: [`C#`](/src/csharp/Problems/SearchMatrix2.cs) [`Python`](/src/python/probl
 ### [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 Tags: `Hash Table` `String` `Sorting`  
-Code: [`C#`](/src/csharp/Problems/IsAnagram.cs) [`Go`](/src/go/problems/is_anagram_test.go)  
+Code: [`C#`](/src/csharp/Problems/IsAnagram.cs) [`Go`](/src/go/problems/is_anagram_test.go) [`Python`](/src/python/problems/is_anagram_test.py) [`Rust`](/src/rust/src/problems/is_anagram_test.rs)  
 
 ### [268. Missing Number](https://leetcode.com/problems/missing-number/)
 

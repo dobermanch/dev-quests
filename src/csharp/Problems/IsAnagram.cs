@@ -23,19 +23,8 @@ public sealed class IsAnagram : ProblemBase
         var map = new Dictionary<char, int>();
         for (var i = 0; i < s.Length; i++)
         {
-            if (!map.ContainsKey(s[i]))
-            {
-                map.Add(s[i], 0);
-            }
-
-            map[s[i]]++;
-
-            if (!map.ContainsKey(t[i]))
-            {
-                map.Add(t[i], 0);
-            }
-
-            map[t[i]]--;
+            map[s[i]] = map.GetValueOrDefault(s[i]) + 1;
+            map[t[i]] = map.GetValueOrDefault(t[i]) - 1;
         }
 
         return map.All(it => it.Value == 0);
