@@ -196,6 +196,11 @@ Code: [`C#`](/src/csharp/Problems/MyPow.cs) [`Go`](/src/go/problems/my_pow_test.
 Tags: `Array` `Backtracking`  
 Code: [`C#`](/src/csharp/Problems/SolveNQueens.cs) [`Go`](/src/go/problems/solve_n_queens_test.go) [`Python`](/src/python/problems/solve_n_queens_test.py)  
 
+### [52. N-Queens II](https://leetcode.com/problems/n-queens-ii)
+
+Tags: `Backtracking`  
+Code: [`C#`](/src/csharp/Problems/TotalNQueens.cs) [`Go`](/src/go/problems/total_n_queens_test.go) [`Python`](/src/python/problems/total_n_queens_test.py) [`Rust`](/src/rust/src/problems/total_n_queens_test.rs)  
+
 ### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
 Tags: `Array` `Divide and Conquer` `Dynamic Programming`  
