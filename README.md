@@ -751,6 +751,11 @@ Code: [`C#`](/src/csharp/Problems/IsAnagram.cs) [`Go`](/src/go/problems/is_anagr
 Tags: `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting`  
 Code: [`C#`](/src/csharp/Problems/MissingNumber.cs) [`Python`](/src/pyrhon/problems/missing_number_test.py)  
 
+### [274. H-Index](https://leetcode.com/problems/h-index)
+
+Tags: `Array` `Sorting` `Counting Sort`  
+Code: [`C#`](/src/csharp/Problems/HIndex.cs) [`Go`](/src/go/problems/h_index_test.go) [`Python`](/src/python/problems/h_index_test.py)  
+
 ### [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 Tags: `Binary Search` `Interactive`  
