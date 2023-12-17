@@ -13,6 +13,7 @@ internal static class ListExtensions
 
     public static TOut[][] To2dArray<TOut>(this string? input, bool allowEmpty = true)
     {
+        // TODO: Enhance parser to parse array string like this [[[..],[..]],[..],[..]]
         var parser = new StringTo2dArrayParser<TOut>(allowEmpty);
 
         return parser.Parse(input).Select(it => it.ToArray()).ToArray();

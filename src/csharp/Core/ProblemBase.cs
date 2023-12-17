@@ -50,7 +50,7 @@ public abstract class ProblemBase : IEnumerable<object[]>
     protected TestCaseCollection Add(bool skip, Action<TestCase> configure) => _testCases.Add(skip, configure);
 
     protected TestCaseCollection Instructions<T, TValue>(Action<Instructions<T, TValue>> configure)
-         where T : class, new()
+         where T : class
     {
         var runner = new InstructionsRunner<T, TValue>();
         configure(runner.Instructions);

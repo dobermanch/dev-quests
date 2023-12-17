@@ -1681,6 +1681,11 @@ Code: [`C#`](/src/csharp/Problems/SmallestInfiniteSet.cs)
 Tags: `Array` `Hash Table` `Matrix` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/EqualPairs.cs) [`Go`](/src/go/problems/equal_pairs_test.go) [`Python`](/src/python/problems/equal_pairs_test.py)  
 
+### [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system)
+
+Tags: `Hash Table` `Design` `Heap (Priority Queue)` `Ordered Set`  
+Code: [`C#`](/src/csharp/Problems/MyFoodRatings.cs)  
+
 ### [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher)
 
 Tags: `Database`  
