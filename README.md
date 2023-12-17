@@ -856,6 +856,11 @@ Code: [`C#`](/src/csharp/Problems/GetSum.cs)
 Tags: `Binary Search` `Interactive`  
 Code: [`C#`](/src/csharp/Problems/GuessNumber.cs) [`Go`](/src/go/problems/guess_number_test.go) [`Python`](/src/python/problems/guess_number_test.py)  
 
+### [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
+
+Tags: `Array` `Hash Table` `Math` `Design` `Randomized`  
+Code: [`C#`](/src/csharp/Problems/MyRandomizedSet.cs)  
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 Tags: `Hash Table` `String` `Counting`  
