@@ -31,6 +31,11 @@ Code: [`C#`](/src/csharp/Problems/FindMedianSortedArrays.cs) [`Python`](/src/pyt
 Tags: `String` `Dynamic Programming`  
 Code: [`C#`](/src/csharp/Problems/LongestPalindromeSubstring.cs) [`Python`](/src/python/problems/longest_palindrome_substring_test.py)  
 
+### [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion)
+
+Tags: `String`  
+Code: [`C#`](/src/csharp/Problems/Convert.cs) [`Go`](/src/go/problems/convert_test.go) [`Python`](/src/python/problems/convert_test.py)  
+
 ### [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
 
 Tags: `Math`  
