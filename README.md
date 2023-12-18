@@ -51,6 +51,11 @@ Code: [`C#`](/src/csharp/Problems/IsPalindromeNumber.cs) [`Go`](/src/go/problems
 Tags: `Array` `Two Pointers` `Greedy`  
 Code: [`C#`](/src/csharp/Problems/MaxArea.cs) [`Go`](/src/go/problems/max_area_test.go)  
 
+### [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman)
+
+Tags: `Hash Table` `Math` `String`  
+Code: [`C#`](/src/csharp/Problems/IntToRoman.cs) [`Go`](/src/go/problems/int_to_roman_test.go) [`Python`](/src/python/problems/int_to_roman_test.py) [`Rust`](/src/rust/src/problems/int_to_roman_test.rs)  
+
 ### [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 
 Tags: `Hash Table` `Math` `String`  
