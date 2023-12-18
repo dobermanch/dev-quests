@@ -126,6 +126,11 @@ Code: [`C#`](/src/csharp/Problems/RemoveDuplicates.cs) [`Go`](/src/go/problems/r
 Tags: `Array` `Two Pointers`  
 Code: [`C#`](/src/csharp/Problems/RemoveElement.cs) [`Go`](/src/go/problems/remove_element_test.go) [`Python`](/src/python/problems/remove_element_test.py) [`Rust`](/src/rust/src/problems/remove_element_test.rs)  
 
+### [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)
+
+Tags: `Two Pointers` `String` `String Matching`  
+Code: [`C#`](/src/csharp/Problems/StrStr.cs) [`Go`](/src/go/problems/str_str_test.go) [`Python`](/src/python/problems/str_str_test.py) [`Rust`](/src/rust/src/problems/str_str_test.rs)  
+
 ### [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)
 
 Tags: `Hash Table` `String` `Sliding Window`  

@@ -1,5 +1,5 @@
-mod largest_odd_number_test;
+mod str_str_test;
 
 fn main() {
-    largest_odd_number_test::solution("35427".to_string());
+    str_str_test::solution("abb".to_string(), "abaaa".to_string());
 }
