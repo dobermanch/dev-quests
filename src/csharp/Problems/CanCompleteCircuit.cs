@@ -10,15 +10,39 @@ public sealed class CanCompleteCircuit : ProblemBase
 
     protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,2,3,4,5]").ParamArray("[3,4,5,1,2]").Result(3))
-          .Add(it => it.ParamArray("[2,3,4]").ParamArray("[3,4,3]").Result(-1));
+          .Add(it => it.ParamArray("[2,3,4]").ParamArray("[3,4,3]").Result(-1))
+          .Add(it => it.ParamArray("[2]").ParamArray("[2]").Result(0))
+          .Add(it => it.ParamArray("[2,0,0,0]").ParamArray("[0,1,0,0]").Result(0))
+          .Add(it => it.ParamArray("[3,1,1]").ParamArray("[1,2,2]").Result(0))
+          .Add(it => it.ParamArray("[5,1,2,3,4]").ParamArray("[4,4,1,5,1]").Result(4));
 
     private int Solution(int[] gas, int[] cost)
+    {
+        var startAt = 0;
+        var sum = 0;
+        var total = 0;
+        for (var i = 0; i < gas.Length; i++)
+        {
+            total += gas[i] - cost[i];
+            sum += gas[i] - cost[i];
+
+            if (sum < 0)
+            {
+                sum = 0;
+                startAt = i + 1;
+            }
+        }
+
+        return total >= 0 ? startAt : -1;
+    }
+
+    private int Solution2(int[] gas, int[] cost)
     {
         var starCosts = new PriorityQueue<int, int>();
         for (var i = 0; i < gas.Length; i++)
         {
             var starCost = gas[i] - cost[i];
-            if (starCost > 0)
+            if (starCost >= 0)
             {
                 starCosts.Enqueue(i, -starCost);
             }
@@ -48,6 +72,6 @@ public sealed class CanCompleteCircuit : ProblemBase
             }
         }
 
-        return 0;
+        return -1;
     }
 }
