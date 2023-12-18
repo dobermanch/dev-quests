@@ -1621,6 +1621,11 @@ Code: [`C#`](/src/csharp/Problems/LargestOddNumber.cs) [`Go`](/src/go/problems/l
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/CountSalaryCategories.sql)  
 
+### [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs)
+
+Tags: `Array` `Sorting`  
+Code: [`C#`](/src/csharp/Problems/MaxProductDifference.cs) [`Go`](/src/go/problems/max_product_difference_test.go) [`Python`](/src/python/problems/max_product_difference_test.py) [`Rust`](/src/rust/src/problems/max_product_difference_test.rs)  
+
 ### [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
 Tags: `Array` `Breadth-First Search` `Matrix`  
