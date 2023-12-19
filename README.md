@@ -459,7 +459,7 @@ Code: [`C#`](/src/csharp/Problems/MaxPathSum.cs) [`Go`](/src/go/problems/max_pat
 ### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 Tags: `Two Pointers` `String`  
-Code: [`C#`](/src/csharp/Problems/IsPalindrome.cs) [`Go`](/src/go/problems/is_palindrome_test.go)  
+Code: [`C#`](/src/csharp/Problems/IsPalindrome.cs) [`Go`](/src/go/problems/is_palindrome_test.go) [`Python`](/src/python/problems/is_palindrome_test.py) [`Rust`](/src/rust/src/problems/is_palindrome_test.rs)  
 
 ### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
