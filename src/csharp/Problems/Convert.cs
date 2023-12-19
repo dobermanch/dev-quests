@@ -16,6 +16,11 @@ public sealed class Convert : ProblemBase
 
     private string Solution(string s, int numRows)
     {
+        if (numRows == 1)
+        {
+            return s;
+        }
+
         var builders = Enumerable.Range(0, numRows).Select(it => new StringBuilder()).ToArray();
 
         var count = 0;

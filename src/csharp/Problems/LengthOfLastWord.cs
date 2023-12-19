@@ -9,7 +9,7 @@ public sealed class LengthOfLastWord : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param("a").Result(5))
+        => Add(it => it.Param("a").Result(1))
           .Add(it => it.Param("Hello World").Result(5))
           .Add(it => it.Param("   fly me   to   the moon  ").Result(4))
           .Add(it => it.Param("qWnqNICa   ADGZNrBw  DdxMEuhNuvTJaETF   KhKKfVFX").Result(8))
