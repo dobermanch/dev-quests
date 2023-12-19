@@ -1136,6 +1136,11 @@ Code: [`C#`](/src/csharp/Problems/CountSubstrings.cs) [`Python`](/src/python/pro
 Tags: `String` `Greedy` `Queue`  
 Code: [`C#`](/src/csharp/Problems/PredictPartyVictory.cs) [`Go`](/src/go/problems/predict_party_victory_test.go) [`Python`](/src/python/problems/predict_party_victory_test.py)  
 
+### [661. Image Smoother](https://leetcode.com/problems/image-smoother)
+
+Tags: `Array` `Matrix`  
+Code: [`C#`](/src/csharp/Problems/ImageSmoother.cs) [`Go`](/src/go/problems/image_smoother_test.go) [`Python`](/src/python/problems/image_smoother_test.py) [`Rust`](/src/rust/src/problems/image_smoother_test.rs)  
+
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: `Hash Table` `String` `Trie` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`  
