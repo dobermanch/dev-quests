@@ -1781,6 +1781,11 @@ Code: [`TypeScript`](/src/typescript/problems/createHelloWorld.ts) [`JavaScript`
 Tags:  
 Code: [`TypeScript`](/src/typescript/problems/toBeOrNotToBe.ts) [`JavaScript`](/src/javascript/problems/toBeOrNotToBe.js)  
 
+### [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates)
+
+Tags: `Array` `Sorting`  
+Code: [`C#`](/src/csharp/Problems/BuyChoco.cs) [`Go`](/src/go/problems/buy_choco_test.go) [`Python`](/src/python/problems/buy_choco_test.py) [`Rust`](/src/rust/src/buy_choco_test.rs)  
+
 ### [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list)
 
 Tags:  
