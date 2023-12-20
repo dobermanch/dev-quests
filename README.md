@@ -909,7 +909,7 @@ Code: [`C#`](/src/csharp/Problems/FirstUniqChar.cs)
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 Tags: `Two Pointers` `String` `Dynamic Programming`  
-Code: [`C#`](/src/csharp/Problems/IsSubsequence.cs) [`Go`](/src/go/problems/is_subsequence_test.go)  
+Code: [`C#`](/src/csharp/Problems/IsSubsequence.cs) [`Go`](/src/go/problems/is_subsequence_test.go) [`Python`](/src/python/problems/is_subsequence_test.py) [`Rust`](/src/rust/src/problems/is_subsequence_test.rs)  
 
 ### [394. Decode String](https://leetcode.com/problems/decode-string/)
 
