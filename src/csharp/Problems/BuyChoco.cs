@@ -15,7 +15,7 @@ public sealed class BuyChoco : ProblemBase
 
     private int Solution1(int[] prices, int money)
     {
-        var result = int.MaxValue;
+        var result = int.MinValue;
         var cost = 0;
         for (int i = 0; i < prices.Length; i++)
         {
