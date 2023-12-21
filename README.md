@@ -811,6 +811,11 @@ Code: [`C#`](/src/csharp/Problems/MoveZeroes.cs)
 Tags: `Array` `Two Pointers` `Binary Search` `Bit Manipulation`  
 Code: [`C#`](/src/csharp/Problems/FindDuplicate.cs) [`Python`](/src/python/problems/find_duplicate_test.py)  
 
+### [289. Game of Life](https://leetcode.com/problems/game-of-life)
+
+Tags: `Array` `Matrix` `Simulation`  
+Code: [`C#`](/src/csharp/Problems/GameOfLife.cs) [`Go`](/src/go/problems/game_of_life_test.go) [`Python`](/src/python/problems/game_of_life_test.py) [`Rust`](/src/rust/src/problems/game_of_life_test.rs)  
+
 ### [290. Word Pattern](https://leetcode.com/problems/word-pattern)
 
 Tags: `Hash Table` `String`  
