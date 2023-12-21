@@ -716,6 +716,11 @@ Code: [`C#`](/src/csharp/Problems/CombinationSum3.cs) [`Go`](/src/go/problems/co
 Tags: `Array` `Hash Table` `Sorting`  
 Code: [`C#`](/src/csharp/Problems/ContainsDuplicate.cs) [`Go`](/src/go/problems/contains_duplicate_test.go)  
 
+### [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
+
+Tags: `Array` `Hash Table` `Sliding Window`  
+Code: [`C#`](/src/csharp/Problems/ContainsNearbyDuplicate.cs) [`Go`](/src/go/problems/contains_nearby_duplicate_test.go) [`Python`](/src/python/problems/contains_nearby_duplicate_test.py) [`Rust`](/src/rust/src/problems/contains_nearby_duplicate_test.rs)  
+
 ### [224. Basic Calculator](https://leetcode.com/problems/basic-calculator)
 
 Tags: `Math` `String` `Stack` `Recursion`  
