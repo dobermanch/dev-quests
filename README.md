@@ -1571,6 +1571,11 @@ Code: [`C#`](/src/csharp/Problems/NumSpecial.cs) [`Go`](/src/go/problems/num_spe
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/PercentageOfUsersAttendedAContest.sql)  
 
+### [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points)
+
+Tags: `Array` `Sorting`  
+Code: [`C#`](/src/csharp/Problems/MaxWidthOfVerticalArea.cs) [`Go`](/src/go/problems/max_width_of_vertical_area_test.go) [`Python`](/src/python/problems/max_width_of_vertical_area_test.py) [`Rust`](/src/rust/src/problems/max_width_of_vertical_area_test.rs)  
+
 ### [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
 
 Tags: `Hash Table` `String` `Sorting`  
