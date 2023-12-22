@@ -256,6 +256,11 @@ Code: [`C#`](/src/csharp/Problems/LengthOfLastWord.cs) [`Go`](/src/go/problems/l
 Tags: `Array` `Matrix` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/SpiralOrder2.cs) [`Python`](/src/python/problems/spiral_order2_test.py)  
 
+### [61. Rotate List](https://leetcode.com/problems/rotate-list)
+
+Tags: `Linked List` `Two Pointers`  
+Code: [`C#`](/src/csharp/Problems/RotateRight.cs)  
+
 ### [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)
 
 Tags: `Array` `Dynamic Programming` `Matrix`  
