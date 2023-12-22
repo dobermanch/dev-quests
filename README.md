@@ -341,6 +341,11 @@ Code: [`C#`](/src/csharp/Problems/DeleteDuplicates.cs)
 Tags: `Array` `Stack` `Monotonic Stack`  
 Code: [`C#`](/src/csharp/Problems/LargestRectangleArea.cs) [`Python`](/src/python/problems/largest_rectangle_area_test.py)  
 
+### [86. Partition List](https://leetcode.com/problems/partition-list)
+
+Tags: `Linked List` `Two Pointers`  
+Code: [`C#`](/src/csharp/Problems/PartitionList.cs)  
+
 ### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 Tags: `Array` `Two Pointers` `Sorting`  
