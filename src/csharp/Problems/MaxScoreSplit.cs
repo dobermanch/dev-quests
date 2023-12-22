@@ -16,11 +16,13 @@ public sealed class MaxScoreSplit : ProblemBase
 
     private int Solution(string s)
     {
-        var ones = new int[s.Length + 1];
-
-        for (int i = s.Length - 1; i >= 0; i--)
+        var oneCount = 0;
+        for (var i = 0; i < s.Length; i++)
         {
-            ones[i] = ones[i + 1] + (s[i] == '1' ? 1 : 0);
+            if (s[i] == '1')
+            {
+                oneCount++;
+            }
         }
 
         var zeroCount = 0;
@@ -31,8 +33,12 @@ public sealed class MaxScoreSplit : ProblemBase
             {
                 zeroCount++;
             }
+            else
+            {
+                oneCount--;
+            }
 
-            score = Math.Max(score, zeroCount + ones[i + 1]);
+            score = Math.Max(score, zeroCount + oneCount);
         }
 
         return score;
