@@ -351,6 +351,11 @@ Code: [`C#`](/src/csharp/Problems/SubsetsWithDup.cs) [`Go`](/src/go/problems/sub
 Tags: `String` `Dynamic Programming`  
 Code: [`C#`](/src/csharp/Problems/NumDecodings.cs) [`Python`](/src/python/problems/num_decodings_test.py)  
 
+### [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)
+
+Tags: `Linked List`  
+Code: [`C#`](/src/csharp/Problems/ReverseBetween.cs)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: `String` `Backtracking`  
