@@ -1496,6 +1496,11 @@ Code: [`C#`](/src/csharp/Problems/LongestZigZag.cs) [`Go`](/src/go/problems/long
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)  
 
+### [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string)
+
+Tags: `String`  
+Code: [`C#`](/src/csharp/Problems/MaxScoreSplit.cs) [`Go`](/src/go/problems/max_score_split_after.go) [`Python`](/src/python/problems/max_score_split_after.py) [`Rust`](/src/rust/src/problems/max_score_split_after.rs)  
+
 ### [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)
 
 Tags: `Array`  
