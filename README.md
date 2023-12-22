@@ -271,6 +271,11 @@ Code: [`C#`](/src/csharp/Problems/FullJustify.cs) [`Go`](/src/go/problems/full_j
 Tags: `Math` `Dynamic Programming` `Memoization`  
 Code: [`C#`](/src/csharp/Problems/ClimbStairs.cs)  
 
+### [71. Simplify Path](https://leetcode.com/problems/simplify-path)
+
+Tags: `String` `Stack`  
+Code: [`C#`](/src/csharp/Problems/SimplifyPath.cs) [`Go`](/src/go/problems/simplify_path_test.go) [`Python`](/src/python/problems/simplify_path_test.py) [`Rust`](/src/rust/src/problems/simplify_path_test.rs)  
+
 ### [72. Edit Distance](https://leetcode.com/problems/edit-distance)
 
 Tags: `String` `Dynamic Programming`  
