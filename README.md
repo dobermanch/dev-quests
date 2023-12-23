@@ -1576,6 +1576,11 @@ Code: [`SQL`](/src/sql/problems/GroupSoldProductsByTheDate.sql)
 Tags: `Array` `Dynamic Programming` `Sliding Window`  
 Code: [`C#`](/src/csharp/Problems/LongestSubarray.cs) [`Go`](/src/go/problems/longest_subarray_test.go) [`Python`](/src/python/problems/longest_subarray_test.py)  
 
+### [1496. Path Crossing](https://leetcode.com/problems/path-crossing/description)
+
+Tags: `Hash Table` `String`  
+Code: [`C#`](/src/csharp/Problems/IsPathCrossing.cs) [`Go`](/src/go/problems/is_path_crossing_test.go) [`Python`](/src/python/problems/is_path_crossing_test.py)  
+
 ### [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails)
 
 Tags: `Database`  
