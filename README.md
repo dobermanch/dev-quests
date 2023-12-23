@@ -446,6 +446,11 @@ Code: [`C#`](/src/csharp/Problems/Flatten.cs) [`Go`](/src/go/problems/flatten_te
 Tags: `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
 Code: [`C#`](/src/csharp/Problems/Connect.cs)  
 
+### [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)
+
+Tags: `Linked List` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/Connect2.cs)  
+
 ### [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
 Tags: `Array` `Dynamic Programming`  
