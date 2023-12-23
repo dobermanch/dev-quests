@@ -15,26 +15,37 @@ public sealed class CountNodes : ProblemBase
 
     private int Solution(TreeNode root)
     {
-        if (root == null)
+        int Count(TreeNode? root)
         {
-            return 0;
-        }
-
-        var count = 1;
-        var level = 1;
-        var node = root;
-        while (node != null)
-        {
-            count += (int)Math.Pow(2, level++);
-            if (node.right == null)
+            if (root == null)
             {
-                count += (int)Math.Pow(2, level) + (node.right != null  ? -1 : 0);
-                break;
+                return 0;
             }
 
-            node = node.right;
+            var node = root;
+            var leftDepth = 0;
+            while (node != null)
+            {
+                node = node.left;
+                leftDepth++;
+            }
+
+            node = root;
+            var rightDepth = 0;
+            while (node != null)
+            {
+                node = node.right;
+                rightDepth++;
+            }
+
+            if (leftDepth == rightDepth)
+            {
+                return (int)Math.Pow(2, leftDepth) - 1;
+            }
+
+            return 1 + Count(root.left) + Count(root.right);
         }
 
-        return count;
+        return Count(root);
     }
 }

@@ -741,6 +741,11 @@ Code: [`C#`](/src/csharp/Problems/ContainsDuplicate.cs) [`Go`](/src/go/problems/
 Tags: `Array` `Hash Table` `Sliding Window`  
 Code: [`C#`](/src/csharp/Problems/ContainsNearbyDuplicate.cs) [`Go`](/src/go/problems/contains_nearby_duplicate_test.go) [`Python`](/src/python/problems/contains_nearby_duplicate_test.py) [`Rust`](/src/rust/src/problems/contains_nearby_duplicate_test.rs)  
 
+### [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes)
+
+Tags: `Binary Search` `Bit Manipulation` `Tree` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/CountNodes.cs) [`Go`](/src/go/problems/count_nodes_test.go) [`Python`](/src/python/problems/count_nodes_test.py)  
+
 ### [224. Basic Calculator](https://leetcode.com/problems/basic-calculator)
 
 Tags: `Math` `String` `Stack` `Recursion`  
