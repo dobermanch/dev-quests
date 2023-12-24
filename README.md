@@ -1696,6 +1696,11 @@ Code: [`SQL`](/src/sql/problems/FindFollowersCount.sql)
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/RecyclableAndLowFatProducts.sql)  
 
+### [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)
+
+Tags: `String`  
+Code: [`C#`](/src/csharp/Problems/LargestAltitude.cs) [`Go`](/src/go/problems/largest_altitude_test.go) [`Python`](/src/python/problems/largest_altitude_test.py)  
+
 ### [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
 Tags: `Two Pointers` `String`  
