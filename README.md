@@ -1046,6 +1046,11 @@ Code: [`C#`](/src/csharp/Problems/FindSubsequences.cs)
 Tags: `Math` `Dynamic Programming` `Recursion` `Memoization`  
 Code: [`C#`](/src/csharp/Problems/Fibonacci.cs)  
 
+### [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst)
+
+Tags: `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/GetMinimumDifference.cs) [`Go`](/src/go/problems/get_minimum_difference_test.go) [`Python`](/src/python/problems/get_minimum_difference_test.py)  
+
 ### [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
 
 Tags: `Array` `Dynamic Programming` `Breadth-First Search` `Matrix`  
