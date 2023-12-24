@@ -1176,6 +1176,11 @@ Code: [`SQL`](/src/sql/problems/NotBoringMovies.sql)
 Tags: `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` `Counting`  
 Code: [`C#`](/src/csharp/Problems/LeastInterval.cs)  
 
+### [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)
+
+Tags: `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/AverageOfLevels.cs) [`Go`](/src/go/problems/average_of_levels_test.go) [`Python`](/src/python/problems/average_of_levels_test.py)  
+
 ### [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 
 Tags: `Array` `Sliding Window`  
