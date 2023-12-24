@@ -491,6 +491,11 @@ Code: [`C#`](/src/csharp/Problems/IsPalindrome.cs) [`Go`](/src/go/problems/is_pa
 Tags: `Array` `Hash Table` `Union Find`  
 Code: [`C#`](/src/csharp/Problems/LongestConsecutive.cs) [`Go`](/src/go/problems/longest_consecutive_test.go)  
 
+### [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)
+
+Tags: `Tree` `Depth-First Search` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/SumNumbers.cs) [`Go`](/src/go/problems/sum_numbers_test.go) [`Python`](/src/python/problems/sum_numbers_test.py)  
+
 ### [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 Tags: `String` `Dynamic Programming` `Backtracking`  
@@ -1699,7 +1704,7 @@ Code: [`SQL`](/src/sql/problems/RecyclableAndLowFatProducts.sql)
 ### [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)
 
 Tags: `String`  
-Code: [`C#`](/src/csharp/Problems/LargestAltitude.cs) [`Go`](/src/go/problems/largest_altitude_test.go) [`Python`](/src/python/problems/largest_altitude_test.py)  
+Code: [`C#`](/src/csharp/Problems/MinOperations.cs) [`Go`](/src/go/problems/min_operations_test.go) [`Python`](/src/python/problems/min_operations_test.py)  
 
 ### [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
