@@ -1281,6 +1281,11 @@ Code: [`C#`](/src/csharp/Problems/MinCostClimbingStairs.cs)
 Tags: `Hash Table` `Two Pointers` `String` `Greedy`  
 Code: [`C#`](/src/csharp/Problems/PartitionLabels.cs) [`Python`](/src/python/problems/partition_labels_test.py)  
 
+### [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
+
+Tags: `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`  
+Code: [`C#`](/src/csharp/Problems/MinDiffInBST.cs) [`Go`](/src/go/problems/min_diff_in_bst_test.go) [`Python`](/src/python/problems/min_diff_in_bst_test.py)  
+
 ### [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
 
 Tags: `String` `Backtracking` `Bit Manipulation`  
