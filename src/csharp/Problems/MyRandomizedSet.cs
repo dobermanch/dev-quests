@@ -1,7 +1,5 @@
 //https://leetcode.com/problems/insert-delete-getrandom-o1
 
-using System.Runtime.InteropServices;
-
 namespace LeetCode.Problems;
 
 public sealed class MyRandomizedSet : ProblemBase
