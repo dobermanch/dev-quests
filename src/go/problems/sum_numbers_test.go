@@ -13,9 +13,9 @@ type SumNumbers struct{}
 func TestSumNumbers(t *testing.T) {
 	gen := core.TestSuite[SumNumbers]{}
 	gen.Add(func(tc *core.TestCase) {
-		tc.Param(10).Param(13).Result(23)
+		tc.Param(&TreeNode{Val: 1, Left: &TreeNode{Val: 2}, Right: &TreeNode{Val: 3}}).Result(25)
 	}).Add(func(tc *core.TestCase) {
-		tc.Param(-10).Param(12).Result(2)
+		tc.Param(&TreeNode{Val: 4, Left: &TreeNode{Val: 9, Left: &TreeNode{Val: 5}, Right: &TreeNode{Val: 1}}, Right: &TreeNode{Val: 0}}).Result(1026)
 	}).Run(t)
 }
 
