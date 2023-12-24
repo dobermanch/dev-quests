@@ -10,7 +10,7 @@ public sealed class MinOperations : ProblemBase
 
     protected override void AddTestCases()
         => Add(it => it.Param("0100").Result(1))
-          .Add(it => it.Param(10).Result(0))
+          .Add(it => it.Param("10").Result(0))
           .Add(it => it.Param("1111").Result(2))
           .Add(it => it.Param("00010111").Result(2))
           .Add(it => it.Param("00001111").Result(4));

@@ -9,7 +9,7 @@ public sealed class MaxScoreSplit : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param("00").Result(5))
+        => Add(it => it.Param("00").Result(1))
           .Add(it => it.Param("011101").Result(5))
           .Add(it => it.Param("00111").Result(5))
           .Add(it => it.Param("1111").Result(3));
