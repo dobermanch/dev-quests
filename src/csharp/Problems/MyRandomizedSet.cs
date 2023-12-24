@@ -21,7 +21,7 @@ public sealed class MyRandomizedSet : ProblemBase
                     .Instructions("""["RandomizedSet","insert","insert","remove","insert","remove","getRandom"]""")
                     .Output("[null,true,true,true,true,true,2]")
             )
-            .Add(tc =>
+            .Add(true, tc =>
                   tc.Data<int>("[[], [1], [2], [2], [], [1], [2], []]")
                     .Instructions("""["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"]""")
                     .Output("[null, true, false, true, 2, true, false, 2]")

@@ -25,7 +25,7 @@ public sealed class IsPathCrossing : ProblemBase
                 'N' => (point.x, point.y + 1),
                 'S' => (point.x, point.y - 1),
                 'E' => (point.x + 1, point.y),
-                'W' => (point.x - 1, point.y)
+                'W' or _ => (point.x - 1, point.y)
             };
 
             if (!map.Add(point))
