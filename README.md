@@ -359,7 +359,7 @@ Code: [`C#`](/src/csharp/Problems/SubsetsWithDup.cs) [`Go`](/src/go/problems/sub
 ### [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 
 Tags: `String` `Dynamic Programming`  
-Code: [`C#`](/src/csharp/Problems/NumDecodings.cs) [`Python`](/src/python/problems/num_decodings_test.py)  
+Code: [`C#`](/src/csharp/Problems/NumDecodings.cs) [`Go`](/src/go/problems/num_decodings_test.go) [`Python`](/src/python/problems/num_decodings_test.py)  
 
 ### [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)
 
