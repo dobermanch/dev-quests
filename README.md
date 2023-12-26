@@ -1446,6 +1446,11 @@ Code: [`C#`](/src/csharp/Problems/LongestCommonSubsequence.cs) [`Python`](/src/p
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/ArticleViewsI.sql)  
 
+### [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)
+
+Tags: `Dynamic Programming`  
+Code: [`C#`](/src/csharp/Problems/NumRollsToTarget.cs)  
+
 ### [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description)
 
 Tags: `Array` `Hash Table` `String`  
