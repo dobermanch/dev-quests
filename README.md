@@ -1636,6 +1636,11 @@ Code: [`SQL`](/src/sql/problems/PatientsWithACondition.sql)
 Tags: `Graph`  
 Code: [`C#`](/src/csharp/Problems/FindSmallestSetOfVertices.cs) [`Python`](/src/python/problems/find_smallest_set_of_vertices_test.py)  
 
+### [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful)
+
+Tags: `Array` `String` `Dynamic Programming` `Greedy`  
+Code: [`C#`](/src/csharp/Problems/MinCost.cs) [`Go`](/src/go/problems/min_cost_test.go) [`Python`](/src/python/problems/min_cost_test.py)  
+
 ### [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
 
 Tags: `Database`  
