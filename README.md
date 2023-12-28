@@ -281,6 +281,11 @@ Code: [`C#`](/src/csharp/Problems/AddBinary.cs) [`Go`](/src/go/problems/add_bina
 Tags: `Array` `String` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/FullJustify.cs) [`Go`](/src/go/problems/full_justify_test.go) [`Python`](/src/python/problems/full_justify_test.py)  
 
+### [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)
+
+Tags: `Math` `Binary Search`  
+Code: [`C#`](/src/csharp/Problems/MySqrt.cs) [`Go`](/src/go/problems/my_sqrt_test.go) [`Python`](/src/python/problems/my_sqrt_test.py)  
+
 ### [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 Tags: `Math` `Dynamic Programming` `Memoization`  
