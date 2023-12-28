@@ -1636,6 +1636,11 @@ Code: [`SQL`](/src/sql/problems/FindUsersWithValidEMails.sql)
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/PatientsWithACondition.sql)  
 
+### [1531. String Compression II](https://leetcode.com/problems/string-compression-ii)
+
+Tags: `String` `Dynamic Programming`  
+Code: [`C#`](/src/csharp/Problems/GetLengthOfOptimalCompression.cs)  
+
 ### [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 Tags: `Graph`  
