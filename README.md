@@ -266,6 +266,11 @@ Code: [`C#`](/src/csharp/Problems/RotateRight.cs)
 Tags: `Array` `Dynamic Programming` `Matrix`  
 Code: [`C#`](/src/csharp/Problems/MinPathSum.cs) [`Go`](/src/go/problems/min_path_sum_test.go) [`Python`](/src/python/problems/min_path_sum_test.py)  
 
+### [66. Plus One](https://leetcode.com/problems/plus-one)
+
+Tags: `Array` `Math`  
+Code: [`C#`](/src/csharp/Problems/PlusOne.cs) [`Go`](/src/go/problems/plus_one_test.go) [`Python`](/src/python/problems/plus_one_test.py)  
+
 ### [67. Add Binary](https://leetcode.com/problems/add-binary)
 
 Tags: `Math` `String` `Bit Manipulation` `Simulation`  
