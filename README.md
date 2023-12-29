@@ -1556,6 +1556,11 @@ Code: [`SQL`](/src/sql/problems/RestaurantGrowth.sql)
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/ListTheProductsOrderedInAPeriod.sql)  
 
+### [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule)
+
+Tags: `Array` `Dynamic Programming`  
+Code: [`C#`](/src/csharp/Problems/MinDifficulty.cs)  
+
 ### [1341. Movie Rating](https://leetcode.com/problems/movie-rating)
 
 Tags: `Database`  
