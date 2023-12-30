@@ -541,6 +541,11 @@ Code: [`C#`](/src/csharp/Problems/Candy.cs) [`Go`](/src/go/problems/candy_test.g
 Tags: `Array` `Bit Manipulation`  
 Code: [`C#`](/src/csharp/Problems/SingleNumber.cs)  
 
+### [137. Single Number II](https://leetcode.com/problems/single-number-ii)
+
+Tags: `Array` `Bit Manipulation`  
+Code: [`C#`](/src/csharp/Problems/SingleNumber2.cs)  
+
 ### [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 Tags: `Hash Table` `Linked List`  
