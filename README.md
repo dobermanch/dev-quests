@@ -1781,6 +1781,11 @@ Code: [`SQL`](/src/sql/problems/PrimaryDepartmentForEachEmployee.sql)
 Tags: `Array` `Math` `Recursion` `Queue` `Simulation`  
 Code: [`C#`](/src/csharp/Problems/FindTheWinner.cs) [`Python`](/src/python/problems/find_the_winner_test.py)  
 
+### [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal)
+
+Tags: `Hash Table` `String` `Counting`  
+Code: [`C#`](/src/csharp/Problems/MakeEqual.cs) [`Go`](/src/go/problems/make_equal_test.go) [`Python`](/src/python/problems/make_equal_test.py)  
+
 ### [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)
 
 Tags: `Math` `String` `Greedy`  
