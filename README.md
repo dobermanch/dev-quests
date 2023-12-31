@@ -1686,6 +1686,11 @@ Code: [`SQL`](/src/sql/problems/CustomerWhoVisitedButDidNotMakeAnyTransactions.s
 Tags: `Array` `Matrix`  
 Code: [`C#`](/src/csharp/Problems/NumSpecial.cs) [`Go`](/src/go/problems/num_special_test.go) [`Python`](/src/python/problems/num_special_test.py) [`Rust`](/src/rust/src/problems/num_special_test.rs)  
 
+### [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters)
+
+Tags: `Hash Table` `String`  
+Code: [`C#`](/src/csharp/Problems/MaxLengthBetweenEqualCharacters.cs) [`Go`](/src/go/problems/max_length_between_equal_characters_test.go) [`Python`](/src/python/problems/max_length_between_equal_characters_test.py)  
+
 ### [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest)
 
 Tags: `Database`  
