@@ -1911,6 +1911,11 @@ Code: [`C#`](/src/csharp/Problems/OnesMinusZeros.cs) [`Go`](/src/go/problems/one
 Tags: `Array` `Greedy` `Sorting` `Heap (Priority Queue)`  
 Code: [`C#`](/src/csharp/Problems/MaxScore.cs) [`Go`](/src/go/problems/max_score_test.go) [`Python`](/src/python/problems/max_score_test.py)  
 
+### [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)
+
+Tags: `Array` `Hash Table`  
+Code: [`C#`](/src/csharp/Problems/FindMatrix.cs)  
+
 ### [2620. Counter](https://leetcode.com/problems/counter)
 
 Tags:  
