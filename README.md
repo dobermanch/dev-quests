@@ -1841,6 +1841,11 @@ Code: [`C#`](/src/csharp/Problems/FindMiddleIndex.cs)
 Tags: `Linked List` `Two Pointers`  
 Code: [`C#`](/src/csharp/Problems/DeleteMiddle.cs) [`Go`](/src/go/problems/delete_middle_test.go) [`Python`](/src/python/problems/delete_middle_test.py)  
 
+### [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
+
+Tags: `Array` `Math` `String` `Matrix`  
+Code: [`C#`](/src/csharp/Problems/NumberOfBeams.cs) [`Go`](/src/go/problems/number_of_beams_test.go) [`Python`](/src/python/problems/number_of_beams_test.py)  
+
 ### [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)
 
 Tags: `Linked List` `Two Pointers` `Stack`  
