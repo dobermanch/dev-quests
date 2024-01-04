@@ -1946,6 +1946,11 @@ Code: [`TypeScript`](/src/typescript/problems/toBeOrNotToBe.ts) [`JavaScript`](/
 Tags: `Array` `Sorting`  
 Code: [`C#`](/src/csharp/Problems/BuyChoco.cs) [`Go`](/src/go/problems/buy_choco_test.go) [`Python`](/src/python/problems/buy_choco_test.py) [`Rust`](/src/rust/src/buy_choco_test.rs)  
 
+### [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty)
+
+Tags: `Array` `Hash Table` `Greedy` `Counting`  
+Code: [`C#`](/src/csharp/Problems/MinOperations.cs) [`Go`](/src/go/problems/min_operations_test.go) [`Python`](/src/python/problems/min_operations_test.py)  
+
 ### [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list)
 
 Tags:  
