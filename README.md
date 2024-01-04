@@ -1866,6 +1866,11 @@ Code: [`C#`](/src/csharp/Problems/FindDifference.cs) [`Go`](/src/go/problems/fin
 Tags: `Math`  
 Code: [`C#`](/src/csharp/Problems/AddTwoIntegers.cs) [`Go`](/src/go/problems/add_two_integers_test.go)  
 
+### [2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
+
+Tags: `Array` `Hash Table` `Greedy` `Counting`  
+Code: [`C#`](/src/csharp/Problems/MinimumRounds.cs) [`Go`](/src/go/problems/minimum_rounds_test.go) [`Python`](/src/python/problems/minimum_rounds_test.py)  
+
 ### [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string)
 
 Tags: `String`  
