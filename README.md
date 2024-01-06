@@ -1521,6 +1521,11 @@ Code: [`C#`](/src/csharp/Problems/UniqueOccurrences.cs) [`Go`](/src/go/problems/
 Tags: `Database`  
 Code: [`SQL`](/src/sql/problems/QueriesQualityAndPercentage.sql)  
 
+### [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+
+Tags: `Array` `Binary Search` `Dynamic Programming` `Sorting`  
+Code: [`C#`](/src/csharp/Problems/JobScheduling.cs)  
+
 ### [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 Tags: `Array` `Heap (Priority Queue)`  
