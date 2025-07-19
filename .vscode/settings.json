@@ -26,5 +26,6 @@
         "${workspaceFolder}/src/rust/Cargo.toml"
     ],
     "rust-analyzer.check.command": "clippy",
-    "debug.allowBreakpointsEverywhere": true
+    "debug.allowBreakpointsEverywhere": true,
+    "terminal.integrated.inheritEnv": true
 }
