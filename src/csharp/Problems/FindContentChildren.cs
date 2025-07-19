@@ -12,7 +12,7 @@ public sealed class FindContentChildren : ProblemBase
         => Add(it => it.ParamArray("[1,2,3]").ParamArray("[3]").Result(1))
           .Add(it => it.ParamArray("[1,2,3]").ParamArray("[1,1]").Result(1))
           .Add(it => it.ParamArray("[10,9,8,7]").ParamArray("[5,6,7,8]").Result(2))
-          .Add(it => it.ParamArray("[1,2]").ParamArray("[1,2,3]").Result(1));
+          .Add(it => it.ParamArray("[1,2]").ParamArray("[1,2,3]").Result(2));
 
     private int Solution(int[] g, int[] s)
     {
@@ -22,8 +22,7 @@ public sealed class FindContentChildren : ProblemBase
         var cookie = 0;
         var green = 0;
         var result = 0;
-
-        while (green < g.Length && cookie < s.Length)
+        while(green < g.Length && cookie < s.Length)
         {
             if (s[cookie] >= g[green])
             {

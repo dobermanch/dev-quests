@@ -10,28 +10,24 @@ public sealed class FindMatrix : ProblemBase
 
     protected override void AddTestCases()
         => Add(it => it.ParamArray("[1,3,4,1,2,3,1]").Result2dArray("[[1,3,4,2],[1,3],[1]]"))
-          .Add(it => it.ParamArray("[1,2,3,4]").Result2dArray("[[4,3,2,1]]"));
+          .Add(it => it.ParamArray("[1,2,3,4]").Result2dArray("[[1,2,3,4]]"));
 
     private IList<IList<int>> Solution(int[] nums)
     {
-        var result = new List<HashSet<int>>();
+        var frequency = new int[nums.Length + 1];
+        var result = new List<IList<int>>();
 
-        for (var i = 0; i < nums.Length; i++)
+        foreach (var num in nums)
         {
-            var added = false;
-            var index = -1;
-            while (!added && ++index < result.Count)
+            var index = frequency[num]++;
+            if (result.Count <= index)
             {
-                added = result[index].Add(nums[i]);
+                result.Add(new List<int>());
             }
-
-            if (!added)
-            {
-                result.Add(new HashSet<int>());
-                result[^1].Add(nums[i]);
-            }
+            
+            result[index].Add(num);
         }
 
-        return result.Select(it => it.ToArray()).ToArray();
+        return result;
     }
 }
