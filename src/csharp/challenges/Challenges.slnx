@@ -2,5 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path="../../README.md" />
   </Folder>
-  <Project Path="LeetCode.Tests.csproj" />
+  <Project Path="Challenges.Tests.csproj" />
 </Solution>

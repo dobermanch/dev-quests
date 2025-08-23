@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/csharp/LeetCode.csproj",
+                "${workspaceFolder}/src/csharp/challenges/Challenges.Tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/csharp/LeetCode.csproj",
+                "${workspaceFolder}/src/csharp/challenges/Challenges.Tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,18 +33,18 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/csharp/LeetCode.csproj"
+                "${workspaceFolder}/src/csharp/challenges/Challenges.Tests.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
         {
             "type": "typescript",
-            "tsconfig": "src/typescript/tsconfig.json",
+            "tsconfig": "src/typescript/challenges/tsconfig.json",
             "problemMatcher": [
                 "$tsc"
             ],
             "group": "build",
-            "label": "tsc: build - src/typescript/tsconfig.json"
+            "label": "tsc: build - src/typescript/challenges/tsconfig.json"
         }
     ]
 }

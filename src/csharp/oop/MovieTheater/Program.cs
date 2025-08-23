@@ -1,0 +1,1 @@
+﻿Console.WriteLine($"Args: {args[0]}");

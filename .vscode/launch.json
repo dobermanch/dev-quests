@@ -25,9 +25,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/csharp/bin/Debug/net7.0/LeetCode.dll",
+            "program": "${workspaceFolder}/src/csharp/challenges/bin/Debug/net9.0/Challenges.Tests.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/csharp",
+            "cwd": "${workspaceFolder}/src/csharp/challenges",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
@@ -37,15 +37,15 @@
             "request": "launch",
             "name": "TypeScript",
             "program": "${file}",
-            "preLaunchTask": "tsc: build - src/typescript/tsconfig.json",
-            "outFiles": ["${workspaceFolder}/src/typescript/**/*.js"]
+            "preLaunchTask": "tsc: build - src/typescript/challenges/tsconfig.json",
+            "outFiles": ["${workspaceFolder}/src/typescript/challenges/**/*.js"]
         },
         {
             "type": "node",
             "request": "launch",
             "name": "JavaScript",
             "program": "${file}",
-            "outFiles": ["${workspaceFolder}/src/typescript/**/*.js"]
+            "outFiles": ["${workspaceFolder}/src/typescript/challenges/**/*.js"]
         },
         {
             "type": "bashdb",

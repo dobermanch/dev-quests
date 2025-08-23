@@ -1,5 +1,5 @@
 {
-    "dotnet.defaultSolution": "src/csharp/LeetCode.sln",
+    "dotnet.defaultSolution": "src/csharp/challenges/Challenges.slnx",
     "cSpell.words": [
         "devcontainers",
         "dobermanch",
@@ -9,21 +9,21 @@
     ],
     "python.analysis.extraPaths": [
         "./src",
-        "./src/python/problems",
-        "./src/python/problems/pandas"
+        "./src/python/challenges/problems",
+        "./src/python/challenges/problems/pandas"
     ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./src/python/problems",
+        "./src/python/challenges/problems",
         "-p",
         "*test.py"
     ],
-    "python.envFile": "${workspaceFolder}/src/python/.env",
+    "python.envFile": "${workspaceFolder}/src/python/challenges/.env",
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
     "rust-analyzer.linkedProjects": [
-        "${workspaceFolder}/src/rust/Cargo.toml"
+        "${workspaceFolder}/src/rust/challenges/Cargo.toml"
     ],
     "rust-analyzer.check.command": "clippy",
     "debug.allowBreakpointsEverywhere": true,

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FileSearch\FileSearch.csproj" Type="Classic C#" />
+  <Project Path="Hearthstone\Hearthstone.csproj" Type="Classic C#" />
+  <Project Path="MovieTheater\MovieTheater.csproj" Type="Classic C#" />
+  <Project Path="ParkingLot\ParkingLot.csproj" Type="Classic C#" />
+</Solution>
