@@ -2,7 +2,7 @@
 
 from core.problem_base import *
 
-class NextGreatestLetter(ProblemBase):
+class FindSmallestLetterGreaterThanTarget(ProblemBase):
     def Solution(self, letters: list[str], target: str) -> str:
         left = 0
         right = len(letters) - 1
@@ -19,7 +19,7 @@ class NextGreatestLetter(ProblemBase):
 
 
 if __name__ == '__main__':
-    TestGen(NextGreatestLetter) \
+    TestGen(FindSmallestLetterGreaterThanTarget) \
         .Add(lambda tc: tc.Param(["e","e","e","e","e","e","n","n","n","n"]).Param("e").Result("n")) \
         .Add(lambda tc: tc.Param(["c","f","j"]).Param("a").Result("c")) \
         .Add(lambda tc: tc.Param(["c","f","j"]).Param("c").Result("f")) \

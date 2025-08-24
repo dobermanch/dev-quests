@@ -1304,7 +1304,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/DailyTemperatures.cs) [`Python`](/s
 ### [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
 
 Tags: `Array` `Binary Search`  
-Code: [`C#`](/src/csharp/challenges/Problems/NextGreatestLetter.cs) [`Python`](/src/python/challenges/problems/next_greatest_letter_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/FindSmallestLetterGreaterThanTarget.cs) [`Python`](/src/python/challenges/problems/find_smallest_letter_greater_than_target_test.py)  
 
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 

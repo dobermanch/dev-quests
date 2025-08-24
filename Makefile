@@ -25,3 +25,10 @@ configure_sql:
 configure_pandas:
 	# Configure Pandas
 	./scripts/configure_pandas.sh
+
+SLUG=
+LANGS=
+.PHONY: scrap
+scrap:
+	# Scrap Leetcode problem
+	python ./scripts/scrap_leetcode_problem.py $(SLUG) --output_dir ${PWD}/docs/challenges --langs $(LANGS) --gen_langs true

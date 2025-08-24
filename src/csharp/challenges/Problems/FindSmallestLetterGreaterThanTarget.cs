@@ -2,10 +2,10 @@
 
 namespace LeetCode.Problems;
 
-public sealed class NextGreatestLetter : ProblemBase
+public sealed class FindSmallestLetterGreaterThanTarget : ProblemBase
 {
     [Theory]
-    [ClassData(typeof(NextGreatestLetter))]
+    [ClassData(typeof(FindSmallestLetterGreaterThanTarget))]
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()

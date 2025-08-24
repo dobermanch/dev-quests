@@ -1,13 +1,29 @@
 {
     "version": "0.2.0",
-    "configurations": [        
+    "configurations": [
+        {
+            "name": "Scrap Script",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "two-sum --lang 'csharp,python,rust' --gen_langs true"
+        },
         {
             "name": "Python",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Python With Args",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}"
         },
         {
             "name": "Go",
@@ -38,14 +54,18 @@
             "name": "TypeScript",
             "program": "${file}",
             "preLaunchTask": "tsc: build - src/typescript/challenges/tsconfig.json",
-            "outFiles": ["${workspaceFolder}/src/typescript/challenges/**/*.js"]
+            "outFiles": [
+                "${workspaceFolder}/src/typescript/challenges/**/*.js"
+            ]
         },
         {
             "type": "node",
             "request": "launch",
             "name": "JavaScript",
             "program": "${file}",
-            "outFiles": ["${workspaceFolder}/src/typescript/challenges/**/*.js"]
+            "outFiles": [
+                "${workspaceFolder}/src/typescript/challenges/**/*.js"
+            ]
         },
         {
             "type": "bashdb",
@@ -53,7 +73,10 @@
             "name": "Bash",
             "program": "${file}",
             "cwd": "${workspaceFolder}/scripts",
-            "args": ["../README.md", "Code"]
+            "args": [
+                "../README.md",
+                "Code"
+            ]
         }
     ]
 }
