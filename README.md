@@ -221,7 +221,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/SolveNQueens.cs) [`Go`](/src/go/cha
 Tags: `Backtracking`  
 Code: [`C#`](/src/csharp/challenges/Problems/TotalNQueens.cs) [`Go`](/src/go/challenges/problems/total_n_queens_test.go) [`Python`](/src/python/challenges/problems/total_n_queens_test.py) [`Rust`](/src/rust/challenges/src/problems/total_n_queens_test.rs)  
 
-### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 Tags: `Array` `Divide and Conquer` `Dynamic Programming`  
 Code: [`C#`](/src/csharp/challenges/Problems/MaxSubArray.cs) [`Go`](/src/go/challenges/problems/max_sub_array_test.go)  
@@ -556,7 +556,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/CopyRandomList.cs) [`Python`](/src/
 Tags: `Array` `Hash Table` `String` `Dynamic Programming` `Trie` `Memoization`  
 Code: [`C#`](/src/csharp/challenges/Problems/WordBreak.cs) [`Python`](/src/python/challenges/problems/word_break_test.py)  
 
-### [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+### [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 Tags: `Hash Table` `Linked List` `Two Pointers`  
 Code: [`C#`](/src/csharp/challenges/Problems/HasCycle.cs) [`Go`](/src/go/challenges/problems/has_cycle_test.go) [`Python`](/src/python/challenges/problems/has_cycle_test.py)  
@@ -1156,7 +1156,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/Preorder.cs) [`Python`](/src/python
 Tags: `Database`  
 Code: [`SQL`](/src/sql/challenges/BigCountries.sql)  
 
-### [596. Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)
+### [596. Classes More Than 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/)
 
 Tags: `Database`  
 Code: [`SQL`](/src/sql/challenges/ClassesMoreThan5Students.sql)  
@@ -1491,7 +1491,7 @@ Code: [`SQL`](/src/sql/challenges/ArticleViewsI.sql)
 Tags: `Dynamic Programming`  
 Code: [`C#`](/src/csharp/challenges/Problems/NumRollsToTarget.cs)  
 
-### [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description)
+### [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
 
 Tags: `Array` `Hash Table` `String`  
 Code: [`C#`](/src/csharp/challenges/Problems/CountCharacters.cs) [`Go`](/src/go/challenges/problems/count_characters_test.go) [`Python`](/src/python/challenges/problems/count_characters_test.py)  
@@ -1666,7 +1666,7 @@ Code: [`SQL`](/src/sql/challenges/GroupSoldProductsByTheDate.sql)
 Tags: `Array` `Dynamic Programming` `Sliding Window`  
 Code: [`C#`](/src/csharp/challenges/Problems/LongestSubarray.cs) [`Go`](/src/go/challenges/problems/longest_subarray_test.go) [`Python`](/src/python/challenges/problems/longest_subarray_test.py)  
 
-### [1496. Path Crossing](https://leetcode.com/problems/path-crossing/description)
+### [1496. Path Crossing](https://leetcode.com/problems/path-crossing/)
 
 Tags: `Hash Table` `String`  
 Code: [`C#`](/src/csharp/challenges/Problems/IsPathCrossing.cs) [`Go`](/src/go/challenges/problems/is_path_crossing_test.go) [`Python`](/src/python/challenges/problems/is_path_crossing_test.py)  
@@ -1736,7 +1736,7 @@ Code: [`SQL`](/src/sql/challenges/AverageTimeOfProcessPerMachine.sql)
 Tags: `Array` `String`  
 Code: [`C#`](/src/csharp/challenges/Problems/ArrayStringsAreEqual.cs) [`Go`](/src/go/challenges/problems/array_strings_are_equal_test.go) [`Python`](/src/python/challenges/problems/array_strings_are_equal_test.py)  
 
-### [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/description)
+### [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)
 
 Tags: `Database`  
 Code: [`SQL`](/src/sql/challenges/FixNamesInATable.sql)  
