@@ -141,6 +141,9 @@ def get_lang_path(lang: str, slug: str) -> str:
         case "python":
             fileName = to_snake_case(slug)
             return f"{os.path.join(SRC_PATH, 'python/challenges/problems', f'{fileName}_test.py')}"
+        case "pandas":
+            fileName = to_snake_case(slug)
+            return f"{os.path.join(SRC_PATH, 'python/challenges/problems/pandas', f'{fileName}_test.py')}"
         case "golang":
             fileName = to_snake_case(slug)
             return f"{os.path.join(SRC_PATH, 'go/challenges/problems', f'{fileName}_test.go')}"
@@ -149,7 +152,7 @@ def get_lang_path(lang: str, slug: str) -> str:
             return f"{os.path.join(SRC_PATH, 'rust/challenges/src/problems', f'{fileName}_test.rs')}"
         case "javascript":
             fileName = to_camel_case(slug)
-            return f"{os.path.join(SRC_PATH, 'javascript/challenges/problems', f'{fileName}.js')}"
+            return f"{os.path.join(SRC_PATH, 'javascript/challenges', f'{fileName}.js')}"
         case "typescript":
             fileName = to_camel_case(slug)
             return f"{os.path.join(SRC_PATH, 'typescript/challenges/problems', f'{fileName}.ts')}"
@@ -177,14 +180,19 @@ def main():
     parser.add_argument("--gen_langs", default=False, help=f"Generate solution files for provided languages")
 
     args = parser.parse_args()
+    langs = [lang.strip().lower() for lang in langs.split(',')] if langs else []
 
-    langs = [lang.strip().lower() for lang in args.langs.split(',')] if args.langs else []
+    scrap(args.slug, langs, args.gen_langs, args.output_dir)
 
-    problem_data = fetch_leetcode_problem(args.slug, langs)
+def scrap(slug: str, langs: List[str], generate_langs: bool, output_dir: str):
+    if not output_dir:
+        output_dir = OUTPUT_DIR
 
-    generate_markdown(problem_data, args.output_dir)
+    problem_data = fetch_leetcode_problem(slug, langs)
 
-    if args.gen_langs:
+    generate_markdown(problem_data, output_dir)
+
+    if generate_langs:
         generate_lang_files(problem_data)
 
 if __name__ == "__main__":

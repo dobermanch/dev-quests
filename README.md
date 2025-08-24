@@ -79,7 +79,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/ThreeSumClosest.cs)
 ### [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 
 Tags: `Hash Table` `String` `Backtracking`  
-Code: [`C#`](/src/csharp/challenges/Problems/LetterCombinations.cs) [`Go`](/src/go/challenges/problems/letter_combinations_test.go) [`Python`](/src/python/challenges/problems/letter_combinations_test.py) [`TypeScript`](/src/typescript/challenges/problems/letterCombinations.ts) [`JavaScript`](/src/javascript/challenges/problems/letterCombinations.js)  
+Code: [`C#`](/src/csharp/challenges/Problems/LetterCombinations.cs) [`Go`](/src/go/challenges/problems/letter_combinations_test.go) [`Python`](/src/python/challenges/problems/letter_combinations_test.py) [`TypeScript`](/src/typescript/challenges/problems/letterCombinations.ts) [`JavaScript`](/src/javascript/challenges/letterCombinations.js)  
 
 ### [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
@@ -344,7 +344,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/RemoveDuplicates2.cs) [`Go`](/src/g
 ### [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
 
 Tags: `Linked List` `Two Pointers`  
-Code: [`C#`](/src/csharp/challenges/Problems/DeleteDuplicates.cs) [`Python`](/src/python/challenges/problems/delete_duplicates_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/DeleteDuplicates2.cs) [`Python`](/src/python/challenges/problems/delete_duplicates_test.py)  
 
 ### [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
@@ -454,7 +454,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/PathSum2.cs) [`Python`](/src/python
 ### [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 Tags: `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree`  
-Code: [`C#`](/src/csharp/challenges/Problems/Flatten.cs) [`Go`](/src/go/challenges/problems/flatten_test.go) [`Python`](/src/go/challenges/problems/flatten_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/Flatten.cs) [`Go`](/src/go/challenges/problems/flatten_test.go) [`Python`](/src/python/challenges/problems/flatten_test.py)  
 
 ### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
@@ -484,22 +484,22 @@ Code: [`C#`](/src/csharp/challenges/Problems/MinimumTotal.cs)
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: `Array` `Dynamic Programming`  
-Code: [`C#`](/src/csharp/challenges/Problems/MaxProfit.cs) [`Go`](/src/go/challenges/problems/max_profit_test.go) [`Python`](/src/python/challenges/problems/max_profit_test.go) [`Rust`](/src/rust/challenges/src/problems/max_profit_test.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/MaxProfit.cs) [`Go`](/src/go/challenges/problems/max_profit_test.go) [`Python`](/src/python/challenges/problems/max_profit_test.py) [`Rust`](/src/rust/challenges/src/problems/max_profit_test.rs)  
 
 ### [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 
 Tags: `Array` `Dynamic Programming` `Greedy`  
-Code: [`C#`](/src/csharp/challenges/Problems/MaxProfit2.cs) [`Go`](/src/go/challenges/problems/max_profit2_test.go) [`Python`](/src/python/challenges/problems/max_profit2_test.go) [`Rust`](/src/rust/challenges/src/problems/max_profit2_test.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/MaxProfit2.cs) [`Go`](/src/go/challenges/problems/max_profit2_test.go) [`Python`](/src/python/challenges/problems/max_profit2_test.py) [`Rust`](/src/rust/challenges/src/problems/max_profit2_test.rs)  
 
 ### [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 Tags: `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree`  
-Code: [`C#`](/src/csharp/challenges/Problems/MaxPathSum.cs) [`Go`](/src/go/challenges/problems/max_path_sum_test.go) [`Python`](/src/go/challenges/problems/max_path_sum_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/MaxPathSum.cs) [`Go`](/src/go/challenges/problems/max_path_sum_test.go) [`Python`](/src/python/challenges/problems/max_path_sum_test.py)  
 
 ### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 Tags: `Two Pointers` `String`  
-Code: [`C#`](/src/csharp/challenges/Problems/IsPalindrome.cs) [`Go`](/src/go/challenges/problems/is_palindrome_test.go) [`Python`](/src/python/challenges/problems/is_palindrome_test.py) [`Rust`](/src/rust/challenges/src/problems/is_palindrome_test.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/IsPalindrome.cs) [`Go`](/src/go/challenges/problems/is_palindrome_test.go) [`Python`](/src/python/challenges/problems/is_palindrome.py) [`Rust`](/src/rust/challenges/src/problems/is_palindrome_test.rs)  
 
 ### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
@@ -549,7 +549,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/SingleNumber2.cs)
 ### [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 Tags: `Hash Table` `Linked List`  
-Code: [`C#`](/src/csharp/challenges/Problems/CopyRandomList.cs) [`Python`](/src/challenges/pyhton/problems/copy_random_list_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/CopyRandomList.cs) [`Python`](/src/python/challenges/problems/copy_random_list.py)  
 
 ### [139. Word Break](https://leetcode.com/problems/word-break/)
 
@@ -609,7 +609,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/MaxProduct.cs) [`Python`](/src/pyth
 ### [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 Tags: `Array` `Binary Search`  
-Code: [`C#`](/src/csharp/challenges/Problems/FindMin.cs) [`Go`](/src/go/challenges/problems/find_min_test.go) [`Python`](/src/python/challenges/problems/find_min_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/FindMin.cs) [`Go`](/src/go/challenges/problems/find_min__test.go) [`Python`](/src/python/challenges/problems/find_min_test.py)  
 
 ### [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
@@ -759,7 +759,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/Rob2.cs) [`Python`](/src/python/cha
 ### [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 Tags: `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect`  
-Code: [`C#`](/src/csharp/challenges/Problems/FindKthLargest.cs) [`Pyhton`](/src/python/challenges/problems/FindKthLargest_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/FindKthLargest.cs) [`Python`](/src/python/challenges/problems/find_kth_largest_test.py)  
 
 ### [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)
 
@@ -854,7 +854,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/IsAnagram.cs) [`Go`](/src/go/challe
 ### [268. Missing Number](https://leetcode.com/problems/missing-number/)
 
 Tags: `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting`  
-Code: [`C#`](/src/csharp/challenges/Problems/MissingNumber.cs) [`Python`](/src/challenges/pyrhon/problems/missing_number_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/MissingNumber.cs) [`Python`](/src/python/challenges/problems/missing_number_test.py)  
 
 ### [274. H-Index](https://leetcode.com/problems/h-index)
 
@@ -1334,7 +1334,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/NumTilings.cs) [`Go`](/src/go/chall
 ### [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 
 Tags: `Array` `Hash Table` `Breadth-First Search`  
-Code: [`C#`](/src/csharp/challenges/Problems/LetterCasePermutation.cs) [`Python`](/src/python/challenges/problems/letter_case_permutation_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/LetterCasePermutation.cs)  
 
 ### [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 
@@ -1594,7 +1594,7 @@ Code: [`SQL`](/src/sql/challenges/MovieRating.sql)
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 Tags: `String` `Stack`  
-Code: [`C#`](/src/csharp/challenges/Problems/NumberOfSteps.cs) [`Python`](/src/python/challenges/problems/number_of_steps_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/NumberOfSteps.cs)  
 
 ### [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree)
 
@@ -1609,7 +1609,7 @@ Code: [`SQL`](/src/sql/challenges/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)
 ### [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string)
 
 Tags: `String`  
-Code: [`C#`](/src/csharp/challenges/Problems/MaxScoreSplit.cs) [`Go`](/src/go/challenges/problems/max_score_split_after.go) [`Python`](/src/python/challenges/problems/max_score_split_after.py) [`Rust`](/src/rust/challenges/src/problems/max_score_split_after.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/MaxScoreSplit.cs) [`Go`](/src/go/challenges/problems/max_score_split_test.go) [`Python`](/src/python/challenges/problems/max_score_split_test.py) [`Rust`](/src/rust/challenges/src/problems/max_score_split_test.rs)  
 
 ### [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)
 
@@ -1754,7 +1754,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/MaxOperations.cs) [`Go`](/src/go/ch
 ### [1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
 
 Tags: `Database`  
-Code: [`SQL`](/src/sql/challenges/InvalidTweets.cs)  
+Code: [`SQL`](/src/sql/challenges/InvalidTweets.sql)  
 
 ### [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)
 
@@ -1889,7 +1889,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/MinimumRounds.cs) [`Go`](/src/go/ch
 ### [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string)
 
 Tags: `String`  
-Code: [`C#`](/src/csharp/challenges/Problems/LargestGoodInteger.cs) [`Go`](/src/go/challenges/problems/largest_good_integer_test.go) [`Python`](/src/python/challenges/problems/largest_good_integer_test.py) [`Rust`](/src/rust/challenges/src/challenges/largest_good_integer_test.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/LargestGoodInteger.cs) [`Go`](/src/go/challenges/problems/largest_good_integer_test.go) [`Python`](/src/python/challenges/problems/largest_good_integer_test.py) [`Rust`](/src/rust/challenges/src/problems/largest_good_integer_test.rs)  
 
 ### [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 
@@ -1909,7 +1909,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/EqualPairs.cs) [`Go`](/src/go/chall
 ### [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system)
 
 Tags: `Hash Table` `Design` `Heap (Priority Queue)` `Ordered Set`  
-Code: [`C#`](/src/csharp/challenges/Problems/MyFoodRatings.cs)  
+Code: [`C#`](/src/csharp/challenges/Problems/FoodRatings.cs)  
 
 ### [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher)
 
@@ -1929,7 +1929,7 @@ Code: [`C#`](/src/csharp/challenges/Problems/TotalCost.cs)
 ### [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column)
 
 Tags: `Array` `Matrix` `Simulation`  
-Code: [`C#`](/src/csharp/challenges/Problems/OnesMinusZeros.cs) [`Go`](/src/go/challenges/problems/ones_minus_zeros_test.go) [`Python`](/src/python/challenges/problems/ones_minus_zeros_test.py) [`Rust`](/src/rust/challenges/src/challenges/ones_minus_zeros_test.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/OnesMinusZeros.cs) [`Go`](/src/go/challenges/problems/ones_minus_zeros_test.go) [`Python`](/src/python/challenges/problems/ones_minus_zeros_test.py) [`Rust`](/src/rust/challenges/src/problems/ones_minus_zeros_test.rs)  
 
 ### [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 
@@ -1944,32 +1944,32 @@ Code: [`C#`](/src/csharp/challenges/Problems/FindMatrix.cs)
 ### [2620. Counter](https://leetcode.com/problems/counter)
 
 Tags:  
-Code: [`TypeScript`](/src/typescript/challenges/problems/createCounter.ts) [`JavaScript`](/src/javascript/challenges/problems/createCounter.js)  
+Code: [`TypeScript`](/src/typescript/challenges/problems/createCounter.ts) [`JavaScript`](/src/javascript/challenges/createCounter.js)  
 
 ### [2665. Counter II](https://leetcode.com/problems/counter-ii)
 
 Tags:  
-Code: [`TypeScript`](/src/typescript/challenges/problems/createCounter2.ts) [`JavaScript`](/src/javascript/challenges/problems/createCounter2.js)  
+Code: [`TypeScript`](/src/typescript/challenges/problems/createCounter2.ts) [`JavaScript`](/src/javascript/challenges/createCounter2.js)  
 
 ### [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)
 
 Tags:  
-Code: [`TypeScript`](/src/typescript/challenges/problems/createHelloWorld.ts) [`JavaScript`](/src/javascript/challenges/problems/createHelloWorld.js)  
+Code: [`TypeScript`](/src/typescript/challenges/problems/createHelloWorld.ts) [`JavaScript`](/src/javascript/challenges/createHelloWorld.js)  
 
 ### [2704. To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be)
 
 Tags:  
-Code: [`TypeScript`](/src/typescript/challenges/problems/toBeOrNotToBe.ts) [`JavaScript`](/src/javascript/challenges/problems/toBeOrNotToBe.js)  
+Code: [`TypeScript`](/src/typescript/challenges/problems/toBeOrNotToBe.ts) [`JavaScript`](/src/javascript/challenges/toBeOrNotToBe.js)  
 
 ### [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates)
 
 Tags: `Array` `Sorting`  
-Code: [`C#`](/src/csharp/challenges/Problems/BuyChoco.cs) [`Go`](/src/go/challenges/problems/buy_choco_test.go) [`Python`](/src/python/challenges/problems/buy_choco_test.py) [`Rust`](/src/rust/challenges/src/challenges/buy_choco_test.rs)  
+Code: [`C#`](/src/csharp/challenges/Problems/BuyChoco.cs) [`Go`](/src/go/challenges/problems/buy_choco_test.go) [`Python`](/src/python/challenges/problems/buy_choco_test.py) [`Rust`](/src/rust/challenges/src/problems/buy_choco_test.rs)  
 
 ### [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty)
 
 Tags: `Array` `Hash Table` `Greedy` `Counting`  
-Code: [`C#`](/src/csharp/challenges/Problems/MinOperations.cs) [`Go`](/src/go/challenges/problems/min_operations_test.go) [`Python`](/src/python/challenges/problems/min_operations_test.py)  
+Code: [`C#`](/src/csharp/challenges/Problems/MinOperations1.cs) [`Go`](/src/go/challenges/problems/min_operations1_test.go) [`Python`](/src/python/challenges/problems/min_operations1_test.py)  
 
 ### [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list)
 
