@@ -8,7 +8,7 @@
         "Tribonacci"
     ],
     "python.analysis.extraPaths": [
-        "./src",
+        "./src/python/",
         "./src/python/challenges/problems",
         "./src/python/challenges/problems/pandas"
     ],

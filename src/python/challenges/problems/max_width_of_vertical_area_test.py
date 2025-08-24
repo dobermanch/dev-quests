@@ -3,7 +3,7 @@
 from core.problem_base import *
 
 class MaxWidthOfVerticalArea(ProblemBase):
-    def Solution(self, points: List[List[int]]) -> int:
+    def Solution(self, points: list[list[int]]) -> int:
         points.sort(key=lambda x: x[0])
 
         max_diff = 0

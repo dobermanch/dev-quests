@@ -1301,6 +1301,11 @@ Code: [`C#`](/src/csharp/challenges/Problems/AsteroidCollision.cs) [`Go`](/src/g
 Tags: `Array` `Stack` `Monotonic Stack`  
 Code: [`C#`](/src/csharp/challenges/Problems/DailyTemperatures.cs) [`Python`](/src/python/challenges/problems/daily_temperatures_test.py)  
 
+### [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
+
+Tags: `Array` `Binary Search`  
+Code: [`C#`](/src/csharp/challenges/Problems/NextGreatestLetter.cs) [`Python`](/src/python/challenges/problems/next_greatest_letter_test.py)  
+
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 Tags: `Array` `Dynamic Programming`  

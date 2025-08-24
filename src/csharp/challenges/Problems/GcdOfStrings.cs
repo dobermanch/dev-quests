@@ -18,7 +18,7 @@ public sealed class GcdOfStrings : ProblemBase
     private string? Solution1(string str1, string str2)
     {
         var result = str2;
-        while(result.Length > 0)
+        while (result.Length > 0)
         {
             if (str1.Replace(result, "") == "" && str2.Replace(result, "") == "")
             {
@@ -49,5 +49,23 @@ public sealed class GcdOfStrings : ProblemBase
         }
 
         return str1[..Gcd(str1.Length, str2.Length)];
+    }
+
+    private string? Solution3(string str1, string str2)
+    {
+        if (str1 + str2 != str2 + str1)
+        {
+            return string.Empty;
+        }
+
+        var left = str1.Length;
+        var right = str2.Length;
+
+        while (right > 0)
+        {
+            (left, right) = (right, left % right);
+        }
+
+        return str2[..left];
     }
 }
