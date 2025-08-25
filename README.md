@@ -1601,6 +1601,11 @@ Code: [`SQL`](/src/sql/challenges/MovieRating.sql)
 Tags: `String` `Stack`  
 Code: [`C#`](/src/csharp/challenges/Problems/NumberOfSteps.cs)  
 
+### [1351. Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+
+Tags: `Array` `Binary Search` `Matrix`  
+Code: [`Python`](/src/python/challenges/problems/count_negative_numbers_in_a_sorted_matrix_test.py), [`C#`](/src/csharp/challenges/Problems/CountNegativeNumbersInASortedMatrix.cs), [`Go`](/src/go/challenges/problems/count_negative_numbers_in_a_sorted_matrix_test.go)
+
 ### [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree)
 
 Tags: `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree`  
