@@ -1,10 +1,10 @@
 # [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 
-**Difficulty:** Easy
+**Difficulty:** `Easy`
 
-**Topics:** Array, Binary Search
+**Topics:** `Array` `Binary Search`
 
-**Solutions:** [Python](../../src/python/challenges/problems/find_smallest_letter_greater_than_target_test.py), [C#](../../src/csharp/challenges/Problems/FindSmallestLetterGreaterThanTarget.cs)
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindSmallestLetterGreaterThanTarget.cs)
 
 ---
 
