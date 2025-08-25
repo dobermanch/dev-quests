@@ -611,6 +611,11 @@ Code: [`C#`](/src/csharp/challenges/Problems/MaxProduct.cs) [`Python`](/src/pyth
 Tags: `Array` `Binary Search`  
 Code: [`C#`](/src/csharp/challenges/Problems/FindMin.cs) [`Go`](/src/go/challenges/problems/find_min__test.go) [`Python`](/src/python/challenges/problems/find_min_test.py)  
 
+### [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+
+Tags: `Array` `Binary Search`
+Code: [`Python`](/src/python/challenges/problems/find_minimum_in_rotated_sorted_array_ii_test.py), [`C#`](/src/csharp/challenges/Problems/FindMinimumInRotatedSortedArrayIi.cs), [`Go`](/src/go/challenges/problems/find_minimum_in_rotated_sorted_array_ii_test.go)
+
 ### [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 Tags: `Stack` `Design`  
