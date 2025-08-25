@@ -1031,6 +1031,11 @@ Code: [`C#`](/src/csharp/challenges/Problems/CharacterReplacement.cs)
 Tags: `Array` `Dynamic Programming` `Greedy` `Sorting`  
 Code: [`C#`](/src/csharp/challenges/Problems/EraseOverlapIntervals.cs) [`Python`](/src/python/challenges/problems/erase_overlap_intervals_test.py)  
 
+### [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/)
+
+Tags: `Array` `Binary` `Search` `Sorting`  
+Code: [Python](/src/python/challenges/problems/find_right_interval_test.py), [C#](/src/csharp/challenges/Problems/FindRightInterval.cs), [Go](/src/go/challenges/problems/find_right_interval_test.go)  
+
 ### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
 Tags: `Tree` `Depth-First Search` `Binary Tree`  
