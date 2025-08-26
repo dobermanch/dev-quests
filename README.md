@@ -503,7 +503,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 
 ### [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
 
-**Topics:** `Hash Table` `String` `Breadth-First Search`
+**Topics:** `Hash Table` `String` `Breadth-First Search`  
 **Solutions:** [`Python`](/src/python/challenges/problems/word_ladder_test.py) [`C#`](/src/csharp/challenges/Problems/WordLadder.cs) [`Go`](/src/go/challenges/problems/word_ladder_test.go)
 
 ### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
@@ -2070,3 +2070,8 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 
 **Topics:**  
 **Solutions:** [`Pandas`](/src/python/challenges/problems/pandas/find_heavy_animals_test.py)  
+
+### [3000. Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)
+
+**Topics:** `Array`  
+**Solutions:** [`Python`](/src/python/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.py) [`C#`](/src/csharp/challenges/Problems/MaximumAreaOfLongestDiagonalRectangle.cs) [`Go`](/src/go/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.go)  
