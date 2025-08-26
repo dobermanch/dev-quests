@@ -28,7 +28,7 @@ configure_pandas:
 
 SLUG=
 LANGS=
-.PHONY: scrap
-scrap:
+.PHONY: challenge
+challenge:
 	# Scrap Leetcode problem
 	python ./scripts/scrap_leetcode_problem.py $(SLUG) --output_dir ${PWD}/docs/challenges --langs $(LANGS) --gen_langs true

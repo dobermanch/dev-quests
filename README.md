@@ -1031,6 +1031,11 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 **Topics:** `Hash Table` `String` `Sliding Window`  
 **Solutions:** [`C#`](/src/csharp/challenges/Problems/CharacterReplacement.cs)  
 
+### [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
+
+**Topics:** `Hash Table` `String` `Breadth-First Search`  
+**Solutions:** [`Python`](/src/python/challenges/problems/minimum_genetic_mutation_test.py) [`C#`](/src/csharp/challenges/Problems/MinimumGeneticMutation.cs) [`Go`](/src/go/challenges/problems/minimum_genetic_mutation_test.go)
+
 ### [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 
 **Topics:** `Array` `Dynamic Programming` `Greedy` `Sorting`  
