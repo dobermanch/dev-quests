@@ -4,12 +4,12 @@ My solutions to the [LeetCode](https://leetcode.com/SergiiCh/) problems.
 
 **Solved challenges**  
 
-| | |
+| Difficulty | Count |
 |---:|---:|
 | Easy | 179 |
-| Medium | 209 |
+| Medium | 210 |
 | Hard | 27 |
-| **Total** | 415 |
+| **Total** | 416 |
 
 ## Challenges  
 
@@ -158,6 +158,7 @@ My solutions to the [LeetCode](https://leetcode.com/SergiiCh/) problems.
 | 198 | [House Robber](198-house-robber.md) | `Medium` | `Array` `Dynamic Programming` | [`Python`](../../src/python/challenges/problems/house_robber_test.py) [`C#`](../../src/csharp/challenges/Problems/HouseRobber.cs) |
 | 199 | [Binary Tree Right Side View](199-binary-tree-right-side-view.md) | `Medium` | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` | [`C#`](../../src/csharp/challenges/Problems/BinaryTreeRightSideView.cs) |
 | 200 | [Number of Islands](200-number-of-islands.md) | `Medium` | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix` | [`C#`](../../src/csharp/challenges/Problems/NumberOfIslands.cs) |
+| 201 | [Bitwise AND of Numbers Range](201-bitwise-and-of-numbers-range.md) | `Medium`   | `Bit Manipulation`   | [`Python`](../../src/python/challenges/problems/bitwise_and_of_numbers_range_test.py) [`C#`](../../src/csharp/challenges/Problems/BitwiseAndOfNumbersRange.cs) [`Go`](../../src/go/challenges/problems/bitwise_and_of_numbers_range_test.go)   |
 | 202 | [Happy Number](202-happy-number.md) | `Easy` | `Hash Table` `Math` `Two Pointers` | [`C#`](../../src/csharp/challenges/Problems/HappyNumber.cs) |
 | 203 | [Remove Linked List Elements](203-remove-linked-list-elements.md) | `Easy` | `Linked List` `Recursion` | [`Python`](../../src/python/challenges/problems/remove_linked_list_elements_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveLinkedListElements.cs) [`Go`](../../src/go/challenges/problems/remove_linked_list_elements_test.go) |
 | 205 | [Isomorphic Strings](205-isomorphic-strings.md) | `Easy` | `Hash Table` `String` | [`C#`](../../src/csharp/challenges/Problems/IsomorphicStrings.cs) [`Go`](../../src/go/challenges/problems/isomorphic_strings_test.go) |

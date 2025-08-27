@@ -29,7 +29,7 @@ def generate_readme(output_dir: str):
     md += "My solutions to the [LeetCode](https://leetcode.com/SergiiCh/) problems.  \n\n"
 
     md += "**Solved challenges**  \n\n"
-    md += "| | |\n|---:|---:|\n"
+    md += "| Difficulty | Count |\n|---:|---:|\n"
     for key, value in difficulties.items():
         md += f"| {key} | {value} |\n"
     md += f"| **Total** | {len(challenges)} |\n"
