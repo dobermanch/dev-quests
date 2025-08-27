@@ -106,11 +106,11 @@ def generate_markdown(problem: ProblemInfo, output_dir: str):
     link = f"https://leetcode.com/problems/{problem.slug}/"
     md = f"# [{problem.id}. {problem.title}]({link})\n\n"
 
-    md += f"**Difficulty:** `{problem.difficulty}`\n\n"
-    md += f"**Topics:** {' '.join([f'`{tag}`' for tag in problem.topic_tags])}\n\n"
+    md += f"**Difficulty:** `{problem.difficulty}`  \n"
+    md += f"**Topics:** {' '.join([f'`{tag}`' for tag in problem.topic_tags])}  \n"
 
     langs = ' '.join([f'[`{lang.name}`]({os.path.relpath(lang.path, start=output_dir)})' for lang in problem.code_snippets.values()])
-    md += f"**Solutions:** {langs}\n\n"
+    md += f"**Solutions:** {langs}  \n\n"
 
     md += "---\n\n"
     md += markdownify.markdownify(problem.content, heading_style="ATX")

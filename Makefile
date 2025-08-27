@@ -32,3 +32,4 @@ LANGS=
 challenge:
 	# Scrap Leetcode problem
 	python ./scripts/scrap_leetcode_problem.py $(SLUG) --output_dir ${PWD}/docs/challenges --langs $(LANGS) --gen_langs true
+	python ./scripts/generate_readme.py --output_dir ${PWD}/docs/challenges
