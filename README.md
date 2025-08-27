@@ -651,6 +651,11 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 **Topics:** `Array` `Hash Table` `Divide and Conquer` `Sorting` `Counting`  
 **Solutions:** [`C#`](/src/csharp/challenges/Problems/MajorityElement.cs) [`Go`](/src/go/challenges/problems/majority_element_test.go) [`Python`](/src/python/challenges/problems/majority_element_test.py) [`Rust`](/src/rust/challenges/src/problems/majority_element_test.rs)  
 
+### [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+
+**Topics:** `Math`  
+**Solutions:** [`Python`](/src/python/challenges/problems/factorial_trailing_zeroes_test.py) [`C#`](/src/csharp/challenges/Problems/FactorialTrailingZeroes.cs) [`Go`](/src/go/challenges/problems/factorial_trailing_zeroes_test.go)  
+
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 **Topics:** `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator`  
