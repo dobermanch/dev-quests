@@ -596,6 +596,11 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 **Topics:** `Linked List` `Two Pointers` `Divide and Conquer` `Sorting` `Merge Sort`  
 **Solutions:** [`C#`](/src/csharp/challenges/Problems/SortList.cs)  
 
+### [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
+
+**Topics:** `Array` `Hash Table` `Math` `Geometry`  
+**Solutions:** [`Python`](/src/python/challenges/problems/max_points_on_a_line_test.py) [`C#`](/src/csharp/challenges/Problems/MaxPointsOnALine.cs) [`Go`](/src/go/challenges/problems/max_points_on_a_line_test.go)  
+
 ### [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
 **Topics:** `Array` `Math` `Stack`  
