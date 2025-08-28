@@ -19,17 +19,9 @@ public sealed class SnakesAndLadders : ProblemBase
 
     private int Solution(int[][] board)
     {
-        board.Reverse();
         var oneDBoard = board
-            .SelectMany((it, index) =>
-            {
-                if (index % 2 != 0)
-                {
-                    it.Reverse();
-                }
-
-                return it;
-            })
+            .Reverse()
+            .SelectMany((it, index) => index % 2 == 0 ? it : it.Reverse())
             .ToArray();
 
         var queue = new Queue<(int square, int moves)>();
