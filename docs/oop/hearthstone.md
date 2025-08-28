@@ -1,5 +1,8 @@
 # Hearthstone
 
+**Topics:** `OOP`  
+**Solutions:** [`C#`](../../src/csharp/oop/Hearthstone)  
+
 ## Rules
 
 1. Mana System

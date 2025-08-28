@@ -1,5 +1,8 @@
 # Movie Theater
 
+**Topics:** `OOP`  
+**Solutions:** [`C#`](../../src/csharp/oop/MovieTheater)  
+
 ## Rules
 
 On a high-traffic weekend, a user accesses the movie booking platform to reserve seats for a popular film.

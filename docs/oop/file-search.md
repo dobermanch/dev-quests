@@ -1,5 +1,8 @@
 # File Search
 
+**Topics:** `OOP`  
+**Solutions:** [`C#`](../../src/csharp/oop/FileSearch)  
+
 ## Rules
 
 A user initiates a search on a system to locate specific files, such as those owned by a particular user or matching

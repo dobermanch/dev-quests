@@ -1,5 +1,8 @@
 # Parking Lot
 
+**Topics:** `OOP`  
+**Solutions:** [`C#`](../../src/csharp/oop/ParkingLot)  
+
 ## Rules
 
 As a driver enters a crowded parking facility, they're issued a ticket at the gate. Navigating through the lot, they

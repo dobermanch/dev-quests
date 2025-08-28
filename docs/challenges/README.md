@@ -1,6 +1,6 @@
 # Overview
 
-My solutions to the [LeetCode](https://leetcode.com/SergiiCh/) problems.  
+A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh/) problems.  
 
 **Solved challenges**  
 

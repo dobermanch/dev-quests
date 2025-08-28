@@ -26,7 +26,7 @@ def generate_readme(output_dir: str):
     challenges = sorted(challenges, key=lambda it: it["index"])
 
     md = "# Overview\n\n"
-    md += "My solutions to the [LeetCode](https://leetcode.com/SergiiCh/) problems.  \n\n"
+    md += "A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh/) problems.  \n\n"
 
     md += "**Solved challenges**  \n\n"
     md += "| Difficulty | Count |\n|---:|---:|\n"
