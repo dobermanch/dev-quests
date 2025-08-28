@@ -589,7 +589,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 **Topics:** `Hash Table` `Linked List` `Design` `Doubly-Linked List`  
-**Solutions:** [`C#`](/src/csharp/challenges/Problems/LRUCache.cs)
+**Solutions:** [`C#`](/src/csharp/challenges/Problems/LruCache.cs)
 
 ### [148. Sort List](https://leetcode.com/problems/sort-list/)
 
@@ -1069,7 +1069,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
 **Topics:** `Tree` `Depth-First Search` `Binary Tree`  
-**Solutions:** [`C#`](/src/csharp/challenges/Problems/PathSum.cs)  
+**Solutions:** [`C#`](/src/csharp/challenges/Problems/PathSum3.cs)  
 
 ### [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
@@ -1134,7 +1134,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/GamePlayAnalysisIV.sql)  
+**Solutions:** [`SQL`](/src/sql/challenges/GamePlayAnalysisIv.sql)  
 
 ### [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
@@ -1199,7 +1199,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/FriendRequestsIIWhoHasTheMostFriends.sql)  
+**Solutions:** [`SQL`](/src/sql/challenges/FriendRequestsIiWhoHasTheMostFriends.sql)  
 
 ### [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
@@ -1489,7 +1489,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ProductSalesAnalysisIII.sql)  
+**Solutions:** [`SQL`](/src/sql/challenges/ProductSalesAnalysisIii.sql)  
 
 ### [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)
 
@@ -1544,7 +1544,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ImmediateFoodDeliveryII.sql)  
+**Solutions:** [`SQL`](/src/sql/challenges/ImmediateFoodDeliveryIi.sql)  
 
 ### [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)
 
@@ -1644,7 +1644,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)  
+**Solutions:** [`SQL`](/src/sql/challenges/ReplaceEmployeeIdWithTheUniqueIdentifier.sql)  
 
 ### [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string)
 
