@@ -1,10 +1,8 @@
 # [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/min_cost_climbing_stairs_test.py) [`C#`](../../src/csharp/challenges/Problems/MinCostClimbingStairs.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinCostClimbingStairs.cs)  
 
 ---
 

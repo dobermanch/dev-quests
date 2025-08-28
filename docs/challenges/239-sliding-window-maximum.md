@@ -1,10 +1,8 @@
 # [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Queue` `Sliding Window` `Heap (Priority Queue)` `Monotonic Queue`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/sliding_window_maximum_test.py) [`C#`](../../src/csharp/challenges/Problems/SlidingWindowMaximum.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Queue` `Sliding Window` `Heap (Priority Queue)` `Monotonic Queue`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/sliding_window_maximum_test.py) [`C#`](../../src/csharp/challenges/Problems/SlidingWindowMaximum.cs)  
 
 ---
 

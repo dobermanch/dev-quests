@@ -1,10 +1,8 @@
 # [2886. Change Data Type](https://leetcode.com/problems/change-data-type/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/change_data_type_test.py)  
 
 ---
 

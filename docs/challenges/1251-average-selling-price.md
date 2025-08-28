@@ -1,10 +1,8 @@
 # [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/AverageSellingPrice.sql) [`MS SQL Server`](../../src/sql/challenges/AverageSellingPrice.sql)  
 
 ---
 

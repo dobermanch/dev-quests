@@ -1,10 +1,8 @@
 # [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `String` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/construct_string_from_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/ConstructStringFromBinaryTree.cs) [`Go`](../../src/go/challenges/problems/construct_string_from_binary_tree_test.go)  
 
 ---
 

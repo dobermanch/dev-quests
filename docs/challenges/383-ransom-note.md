@@ -1,10 +1,8 @@
 # [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String` `Counting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RansomNote.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String` `Counting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RansomNote.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_words_in_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseWordsInAString.cs) [`Go`](../../src/go/challenges/problems/reverse_words_in_a_string_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_words_in_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseWordsInAString.cs) [`Go`](../../src/go/challenges/problems/reverse_words_in_a_string_test.go)  
 
 ---
 

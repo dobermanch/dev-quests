@@ -1,10 +1,8 @@
 # [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Stack` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreePostorderTraversal.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Stack` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreePostorderTraversal.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [77. Combinations](https://leetcode.com/problems/combinations/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Backtracking`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/Combinations.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Backtracking`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/Combinations.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [443. String Compression](https://leetcode.com/problems/string-compression/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/string_compression_test.py) [`C#`](../../src/csharp/challenges/Problems/StringCompression.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/string_compression_test.py) [`C#`](../../src/csharp/challenges/Problems/StringCompression.cs) [`Go`](../../src/go/challenges/problems/string_compression_test.go)  
 
 ---
 

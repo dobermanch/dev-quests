@@ -1,10 +1,8 @@
 # [1075. Project Employees I](https://leetcode.com/problems/project-employees-i/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ProjectEmployeesI.sql) [`MS SQL Server`](../../src/sql/challenges/ProjectEmployeesI.sql)  
 
 ---
 

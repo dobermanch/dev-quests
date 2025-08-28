@@ -1,10 +1,8 @@
 # [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/AverageTimeOfProcessPerMachine.sql) [`MS SQL Server`](../../src/sql/challenges/AverageTimeOfProcessPerMachine.sql)  
 
 ---
 

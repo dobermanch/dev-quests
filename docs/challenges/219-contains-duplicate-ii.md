@@ -1,10 +1,8 @@
 # [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/contains_duplicate_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/ContainsDuplicateIi.cs) [`Go`](../../src/go/challenges/problems/contains_duplicate_ii_test.go) [`Rust`](../../src/rust/challenges/src/problems/contains_duplicate_ii_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Sliding Window`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/contains_duplicate_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/ContainsDuplicateIi.cs) [`Go`](../../src/go/challenges/problems/contains_duplicate_ii_test.go) [`Rust`](../../src/rust/challenges/src/problems/contains_duplicate_ii_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/next_permutation_test.py) [`C#`](../../src/csharp/challenges/Problems/NextPermutation.cs) [`Go`](../../src/go/challenges/problems/next_permutation_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/next_permutation_test.py) [`C#`](../../src/csharp/challenges/Problems/NextPermutation.cs) [`Go`](../../src/go/challenges/problems/next_permutation_test.go)  
 
 ---
 

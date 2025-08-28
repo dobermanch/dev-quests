@@ -1,10 +1,8 @@
 # [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Stack` `Tree` `Depth-First Search`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Stack` `Tree` `Depth-First Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/n_ary_tree_preorder_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/NAryTreePreorderTraversal.cs)  
 
 ---
 

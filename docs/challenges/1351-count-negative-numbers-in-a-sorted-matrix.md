@@ -1,10 +1,8 @@
 # [1351. Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Binary Search` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/count_negative_numbers_in_a_sorted_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/CountNegativeNumbersInASortedMatrix.cs) [`Go`](../../src/go/challenges/problems/count_negative_numbers_in_a_sorted_matrix_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Binary Search` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/count_negative_numbers_in_a_sorted_matrix_test.py)  
 
 ---
 

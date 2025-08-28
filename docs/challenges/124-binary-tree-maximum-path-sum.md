@@ -1,10 +1,8 @@
 # [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_maximum_path_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeMaximumPathSum.cs) [`Go`](../../src/go/challenges/problems/binary_tree_maximum_path_sum_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_maximum_path_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeMaximumPathSum.cs) [`Go`](../../src/go/challenges/problems/binary_tree_maximum_path_sum_test.go)  
 
 ---
 

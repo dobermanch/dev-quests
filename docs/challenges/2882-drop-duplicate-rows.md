@@ -1,10 +1,8 @@
 # [2882. Drop Duplicate Rows](https://leetcode.com/problems/drop-duplicate-rows/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/drop_duplicate_rows_test.py)  
 
 ---
 

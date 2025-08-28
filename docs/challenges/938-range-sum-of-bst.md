@@ -1,10 +1,8 @@
 # [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RangeSumOfBst.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RangeSumOfBst.cs)  
 
 ---
 

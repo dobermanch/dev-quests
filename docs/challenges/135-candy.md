@@ -1,10 +1,8 @@
 # [135. Candy](https://leetcode.com/problems/candy/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Greedy`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/candy_test.py) [`C#`](../../src/csharp/challenges/Problems/Candy.cs) [`Go`](../../src/go/challenges/problems/candy_test.go) [`Rust`](../../src/rust/challenges/src/problems/candy_test.rs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/candy_test.py) [`C#`](../../src/csharp/challenges/Problems/Candy.cs) [`Go`](../../src/go/challenges/problems/candy_test.go) [`Rust`](../../src/rust/challenges/src/problems/candy_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [394. Decode String](https://leetcode.com/problems/decode-string/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Stack` `Recursion`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DecodeString.cs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Stack` `Recursion`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DecodeString.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Breadth-First Search` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SnakesAndLadders.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Breadth-First Search` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/snakes_and_ladders_test.py) [`C#`](../../src/csharp/challenges/Problems/SnakesAndLadders.cs) [`Go`](../../src/go/challenges/problems/snakes_and_ladders_test.go)  
 
 ---
 

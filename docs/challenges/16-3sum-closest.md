@@ -1,10 +1,8 @@
 # [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/3sumClosest.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/3sumClosest.cs)  
 
 ---
 

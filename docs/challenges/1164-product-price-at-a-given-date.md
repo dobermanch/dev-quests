@@ -1,10 +1,8 @@
 # [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql) [`MS SQL Server`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql)  
 
 ---
 

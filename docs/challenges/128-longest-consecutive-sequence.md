@@ -1,10 +1,8 @@
 # [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Union Find`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestConsecutiveSequence.cs) [`Go`](../../src/go/challenges/problems/longest_consecutive_sequence_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Union Find`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestConsecutiveSequence.cs) [`Go`](../../src/go/challenges/problems/longest_consecutive_sequence_test.go)  
 
 ---
 

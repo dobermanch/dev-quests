@@ -1,10 +1,8 @@
 # [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReshapeTheMatrix.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReshapeTheMatrix.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Two Pointers` `Greedy` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/AssignCookies.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Two Pointers` `Greedy` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/assign_cookies_test.py) [`C#`](../../src/csharp/challenges/Problems/AssignCookies.cs) [`Go`](../../src/go/challenges/problems/assign_cookies_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/longest_substring_without_repeating_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestSubstringWithoutRepeatingCharacters.cs) [`Go`](../../src/go/challenges/problems/longest_substring_without_repeating_characters_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Sliding Window`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_substring_without_repeating_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestSubstringWithoutRepeatingCharacters.cs) [`Go`](../../src/go/challenges/problems/longest_substring_without_repeating_characters_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/decode_ways_test.py) [`C#`](../../src/csharp/challenges/Problems/DecodeWays.cs) [`Go`](../../src/go/challenges/problems/decode_ways_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/decode_ways_test.py) [`C#`](../../src/csharp/challenges/Problems/DecodeWays.cs) [`Go`](../../src/go/challenges/problems/decode_ways_test.go)  
 
 ---
 

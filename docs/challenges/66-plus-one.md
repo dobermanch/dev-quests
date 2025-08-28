@@ -1,10 +1,8 @@
 # [66. Plus One](https://leetcode.com/problems/plus-one/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Math`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/plus_one_test.py) [`C#`](../../src/csharp/challenges/Problems/PlusOne.cs) [`Go`](../../src/go/challenges/problems/plus_one_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Math`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/plus_one_test.py) [`C#`](../../src/csharp/challenges/Problems/PlusOne.cs) [`Go`](../../src/go/challenges/problems/plus_one_test.go)  
 
 ---
 

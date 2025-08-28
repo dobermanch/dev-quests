@@ -1,10 +1,8 @@
 # [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_all_anagrams_in_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/FindAllAnagramsInAString.cs) [`Go`](../../src/go/challenges/problems/find_all_anagrams_in_a_string_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Sliding Window`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindAllAnagramsInAString.cs)  
 
 ---
 

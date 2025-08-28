@@ -1,10 +1,8 @@
 # [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Dynamic Programming` `Memoization`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Dynamic Programming` `Memoization`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/n_th_tribonacci_number_test.py) [`C#`](../../src/csharp/challenges/Problems/NThTribonacciNumber.cs) [`Go`](../../src/go/challenges/problems/n_th_tribonacci_number_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Two Pointers` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/merge_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeSortedArray.cs) [`Go`](../../src/go/challenges/problems/merge_sorted_array_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Two Pointers` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/merge_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeSortedArray.cs) [`Go`](../../src/go/challenges/problems/merge_sorted_array_test.go)  
 
 ---
 

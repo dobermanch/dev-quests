@@ -1,10 +1,8 @@
 # [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Two Pointers` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SquaresOfASortedArray.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Two Pointers` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SquaresOfASortedArray.cs)  
 
 ---
 

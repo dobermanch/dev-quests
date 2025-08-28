@@ -1,10 +1,8 @@
 # [355. Design Twitter](https://leetcode.com/problems/design-twitter/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Linked List` `Design` `Heap (Priority Queue)`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignTwitter.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Linked List` `Design` `Heap (Priority Queue)`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignTwitter.cs)  
 
 ---
 

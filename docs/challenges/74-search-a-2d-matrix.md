@@ -1,10 +1,8 @@
 # [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchA2dMatrix.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchA2dMatrix.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `String` `Prefix Sum`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_score_after_splitting_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumScoreAfterSplittingAString.cs) [`Go`](../../src/go/challenges/problems/maximum_score_after_splitting_a_string_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `String` `Prefix Sum`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_score_after_splitting_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumScoreAfterSplittingAString.cs) [`Go`](../../src/go/challenges/problems/maximum_score_after_splitting_a_string_test.go) [`Rust`](../../src/rust/challenges/src/problems/maximum_score_after_splitting_a_string_test.rs)  
 
 ---
 

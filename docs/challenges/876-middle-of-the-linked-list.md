@@ -1,10 +1,8 @@
 # [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Linked List` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MiddleOfTheLinkedList.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Linked List` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MiddleOfTheLinkedList.cs) [`Go`](../../src/go/challenges/problems/middle_of_the_linked_list_test.go)  
 
 ---
 

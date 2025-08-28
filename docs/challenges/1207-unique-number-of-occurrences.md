@@ -1,10 +1,8 @@
 # [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/unique_number_of_occurrences_test.py) [`C#`](../../src/csharp/challenges/Problems/UniqueNumberOfOccurrences.cs) [`Go`](../../src/go/challenges/problems/unique_number_of_occurrences_test.go)  
 
 ---
 

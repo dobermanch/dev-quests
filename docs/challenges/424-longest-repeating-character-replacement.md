@@ -1,10 +1,8 @@
 # [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Sliding Window`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestRepeatingCharacterReplacement.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Sliding Window`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestRepeatingCharacterReplacement.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/ConfirmationRate.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ConfirmationRate.sql) [`MS SQL Server`](../../src/sql/challenges/ConfirmationRate.sql)  
 
 ---
 

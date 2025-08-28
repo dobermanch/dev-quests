@@ -1,10 +1,8 @@
 # [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/house_robber_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/HouseRobberIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/house_robber_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/HouseRobberIi.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [100. Same Tree](https://leetcode.com/problems/same-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SameTree.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SameTree.cs)  
 
 ---
 

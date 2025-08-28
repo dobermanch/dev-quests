@@ -1,10 +1,8 @@
 # [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/spiral_matrix_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SpiralMatrixIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/spiral_matrix_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SpiralMatrixIi.cs)  
 
 ---
 

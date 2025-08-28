@@ -1,10 +1,8 @@
 # [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Linked List` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/merge_two_sorted_lists_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeTwoSortedLists.cs) [`Go`](../../src/go/challenges/problems/merge_two_sorted_lists_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Linked List` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/merge_two_sorted_lists_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeTwoSortedLists.cs) [`Go`](../../src/go/challenges/problems/merge_two_sorted_lists_test.go)  
 
 ---
 

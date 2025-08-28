@@ -1,10 +1,8 @@
 # [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FloodFill.cs) [`Go`](../../src/go/challenges/problems/flood_fill_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FloodFill.cs)  
 
 ---
 

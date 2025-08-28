@@ -1,10 +1,8 @@
 # [139. Word Break](https://leetcode.com/problems/word-break/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `String` `Dynamic Programming` `Trie` `Memoization`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/word_break_test.py) [`C#`](../../src/csharp/challenges/Problems/WordBreak.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `String` `Dynamic Programming` `Trie` `Memoization`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/word_break_test.py) [`C#`](../../src/csharp/challenges/Problems/WordBreak.cs)  
 
 ---
 

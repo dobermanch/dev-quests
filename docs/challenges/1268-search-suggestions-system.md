@@ -1,10 +1,8 @@
 # [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `String` `Binary Search` `Trie` `Sorting` `Heap (Priority Queue)`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/search_suggestions_system_test.py) [`C#`](../../src/csharp/challenges/Problems/SearchSuggestionsSystem.cs) [`Go`](../../src/go/challenges/problems/search_suggestions_system_test.go)  
 
 ---
 

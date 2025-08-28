@@ -1,10 +1,8 @@
 # [86. Partition List](https://leetcode.com/problems/partition-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PartitionList.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PartitionList.cs)  
 
 ---
 

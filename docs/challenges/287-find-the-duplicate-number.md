@@ -1,10 +1,8 @@
 # [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers` `Binary Search` `Bit Manipulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_duplicate_number_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheDuplicateNumber.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers` `Binary Search` `Bit Manipulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_duplicate_number_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheDuplicateNumber.cs)  
 
 ---
 

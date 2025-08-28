@@ -1,10 +1,8 @@
 # [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Breadth-First Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_genetic_mutation_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumGeneticMutation.cs) [`Go`](../../src/go/challenges/problems/minimum_genetic_mutation_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Breadth-First Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_genetic_mutation_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumGeneticMutation.cs) [`Go`](../../src/go/challenges/problems/minimum_genetic_mutation_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ContainsDuplicate.cs) [`Go`](../../src/go/challenges/problems/contains_duplicate_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ContainsDuplicate.cs) [`Go`](../../src/go/challenges/problems/contains_duplicate_test.go)  
 
 ---
 

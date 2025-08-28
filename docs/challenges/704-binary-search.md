@@ -1,10 +1,8 @@
 # [704. Binary Search](https://leetcode.com/problems/binary-search/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinarySearch.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinarySearch.cs)  
 
 ---
 

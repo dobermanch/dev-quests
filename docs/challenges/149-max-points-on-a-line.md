@@ -1,10 +1,8 @@
 # [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Hash Table` `Math` `Geometry`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/max_points_on_a_line_test.py) [`C#`](../../src/csharp/challenges/Problems/MaxPointsOnALine.cs) [`Go`](../../src/go/challenges/problems/max_points_on_a_line_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Hash Table` `Math` `Geometry`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/max_points_on_a_line_test.py) [`C#`](../../src/csharp/challenges/Problems/MaxPointsOnALine.cs) [`Go`](../../src/go/challenges/problems/max_points_on_a_line_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Math` `Bit Manipulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SumOfTwoIntegers.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Math` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SumOfTwoIntegers.cs)  
 
 ---
 

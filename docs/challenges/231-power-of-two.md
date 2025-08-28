@@ -1,10 +1,8 @@
 # [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Bit Manipulation` `Recursion`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PowerOfTwo.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Bit Manipulation` `Recursion`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PowerOfTwo.cs)  
 
 ---
 

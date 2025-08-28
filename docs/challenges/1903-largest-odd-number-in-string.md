@@ -1,10 +1,8 @@
 # [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `String` `Greedy`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Math` `String` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/largest_odd_number_in_string_test.py) [`C#`](../../src/csharp/challenges/Problems/LargestOddNumberInString.cs) [`Go`](../../src/go/challenges/problems/largest_odd_number_in_string_test.go) [`Rust`](../../src/rust/challenges/src/problems/largest_odd_number_in_string_test.rs)  
 
 ---
 

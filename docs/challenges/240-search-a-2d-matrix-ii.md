@@ -1,10 +1,8 @@
 # [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search` `Divide and Conquer` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/search_a_2d_matrix_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SearchA2dMatrixIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search` `Divide and Conquer` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/search_a_2d_matrix_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SearchA2dMatrixIi.cs)  
 
 ---
 

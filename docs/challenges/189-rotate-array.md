@@ -1,10 +1,8 @@
 # [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Math` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/rotate_array_test.py) [`C#`](../../src/csharp/challenges/Problems/RotateArray.cs) [`Go`](../../src/go/challenges/problems/rotate_array_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Math` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/rotate_array_test.py) [`C#`](../../src/csharp/challenges/Problems/RotateArray.cs) [`Go`](../../src/go/challenges/problems/rotate_array_test.go)  
 
 ---
 

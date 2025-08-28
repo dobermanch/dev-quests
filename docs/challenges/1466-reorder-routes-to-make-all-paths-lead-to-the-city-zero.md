@@ -1,10 +1,8 @@
 # [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Depth-First Search` `Breadth-First Search` `Graph`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReorderRoutesToMakeAllPathsLeadToTheCityZero.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Depth-First Search` `Breadth-First Search` `Graph`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reorder_routes_to_make_all_paths_lead_to_the_city_zero_test.py) [`C#`](../../src/csharp/challenges/Problems/ReorderRoutesToMakeAllPathsLeadToTheCityZero.cs) [`Go`](../../src/go/challenges/problems/reorder_routes_to_make_all_paths_lead_to_the_city_zero_test.go)  
 
 ---
 

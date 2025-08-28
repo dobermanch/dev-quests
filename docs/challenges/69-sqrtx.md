@@ -1,10 +1,8 @@
 # [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Binary Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/sqrtx_test.py) [`C#`](../../src/csharp/challenges/Problems/Sqrtx.cs) [`Go`](../../src/go/challenges/problems/sqrtx_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Binary Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/sqrtx_test.py) [`C#`](../../src/csharp/challenges/Problems/Sqrtx.cs) [`Go`](../../src/go/challenges/problems/sqrtx_test.go)  
 
 ---
 

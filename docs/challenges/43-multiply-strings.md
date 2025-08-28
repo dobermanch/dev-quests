@@ -1,10 +1,8 @@
 # [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Math` `String` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MultiplyStrings.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Math` `String` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MultiplyStrings.cs)  
 
 ---
 

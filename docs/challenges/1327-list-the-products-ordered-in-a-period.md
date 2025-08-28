@@ -1,10 +1,8 @@
 # [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ListTheProductsOrderedInAPeriod.sql) [`MS SQL Server`](../../src/sql/challenges/ListTheProductsOrderedInAPeriod.sql)  
 
 ---
 

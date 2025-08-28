@@ -1,10 +1,8 @@
 # [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Math` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/rotate_image_test.py) [`C#`](../../src/csharp/challenges/Problems/RotateImage.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Math` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/rotate_image_test.py) [`C#`](../../src/csharp/challenges/Problems/RotateImage.cs)  
 
 ---
 

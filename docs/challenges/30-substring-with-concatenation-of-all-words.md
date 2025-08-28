@@ -1,10 +1,8 @@
 # [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Hash Table` `String` `Sliding Window`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SubstringWithConcatenationOfAllWords.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Hash Table` `String` `Sliding Window`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SubstringWithConcatenationOfAllWords.cs)  
 
 ---
 

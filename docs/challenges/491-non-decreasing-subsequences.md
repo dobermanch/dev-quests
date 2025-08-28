@@ -1,10 +1,8 @@
 # [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Backtracking` `Bit Manipulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NonDecreasingSubsequences.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Backtracking` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NonDecreasingSubsequences.cs)  
 
 ---
 

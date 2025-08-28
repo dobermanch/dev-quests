@@ -1,10 +1,8 @@
 # [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Divide and Conquer` `Bit Manipulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOf1Bits.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Divide and Conquer` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOf1Bits.cs)  
 
 ---
 

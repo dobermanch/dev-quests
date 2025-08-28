@@ -1,10 +1,8 @@
 # [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `String` `Dynamic Programming` `Greedy`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `String` `Dynamic Programming` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_time_to_make_rope_colorful_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumTimeToMakeRopeColorful.cs) [`Go`](../../src/go/challenges/problems/minimum_time_to_make_rope_colorful_test.go)  
 
 ---
 

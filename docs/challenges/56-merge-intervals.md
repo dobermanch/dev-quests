@@ -1,10 +1,8 @@
 # [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MergeIntervals.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MergeIntervals.cs)  
 
 ---
 

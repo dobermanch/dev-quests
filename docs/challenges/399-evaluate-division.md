@@ -1,10 +1,8 @@
 # [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `String` `Depth-First Search` `Breadth-First Search` `Union Find` `Graph` `Shortest Path`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/evaluate_division_test.py) [`C#`](../../src/csharp/challenges/Problems/EvaluateDivision.cs) [`Go`](../../src/go/challenges/problems/evaluate_division_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `String` `Depth-First Search` `Breadth-First Search` `Union Find` `Graph` `Shortest Path`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/evaluate_division_test.py) [`C#`](../../src/csharp/challenges/Problems/EvaluateDivision.cs) [`Go`](../../src/go/challenges/problems/evaluate_division_test.go)  
 
 ---
 

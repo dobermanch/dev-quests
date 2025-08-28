@@ -1,10 +1,8 @@
 # [1318. Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Bit Manipulation`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Bit Manipulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_flips_to_make_a_or_b_equal_to_c_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumFlipsToMakeAOrBEqualToC.cs) [`Go`](../../src/go/challenges/problems/minimum_flips_to_make_a_or_b_equal_to_c_test.go)  
 
 ---
 

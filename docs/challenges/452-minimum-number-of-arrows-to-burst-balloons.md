@@ -1,10 +1,8 @@
 # [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Greedy` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_number_of_arrows_to_burst_balloons_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumNumberOfArrowsToBurstBalloons.cs) [`Go`](../../src/go/challenges/problems/minimum_number_of_arrows_to_burst_balloons_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Greedy` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_number_of_arrows_to_burst_balloons_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumNumberOfArrowsToBurstBalloons.cs) [`Go`](../../src/go/challenges/problems/minimum_number_of_arrows_to_burst_balloons_test.go)  
 
 ---
 

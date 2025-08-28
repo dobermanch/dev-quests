@@ -1,10 +1,8 @@
 # [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Prefix Sum`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_middle_index_in_array_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheMiddleIndexInArray.cs) [`Go`](../../src/go/challenges/problems/find_the_middle_index_in_array_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Prefix Sum`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindTheMiddleIndexInArray.cs)  
 
 ---
 

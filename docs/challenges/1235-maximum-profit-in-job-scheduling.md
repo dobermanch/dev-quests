@@ -1,10 +1,8 @@
 # [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Binary Search` `Dynamic Programming` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaximumProfitInJobScheduling.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Binary Search` `Dynamic Programming` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaximumProfitInJobScheduling.cs)  
 
 ---
 

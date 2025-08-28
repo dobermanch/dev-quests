@@ -1,10 +1,8 @@
 # [2665. Counter II](https://leetcode.com/problems/counter-ii/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** [`JavaScript`](../../src/javascript/challenges/counterIi.js) [`TypeScript`](../../src/typescript/challenges/problems/counterIi.ts)
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`JavaScript`](../../src/javascript/challenges/counterIi.js) [`TypeScript`](../../src/typescript/challenges/problems/counterIi.ts)  
 
 ---
 

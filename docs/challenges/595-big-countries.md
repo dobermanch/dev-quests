@@ -1,10 +1,8 @@
 # [595. Big Countries](https://leetcode.com/problems/big-countries/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/BigCountries.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/BigCountries.sql) [`MS SQL Server`](../../src/sql/challenges/BigCountries.sql)  
 
 ---
 

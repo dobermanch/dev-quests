@@ -1,10 +1,8 @@
 # [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Sorting` `Heap (Priority Queue)`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_product_of_two_elements_in_an_array_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductOfTwoElementsInAnArray.cs) [`Go`](../../src/go/challenges/problems/maximum_product_of_two_elements_in_an_array_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Sorting` `Heap (Priority Queue)`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_product_of_two_elements_in_an_array_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductOfTwoElementsInAnArray.cs) [`Go`](../../src/go/challenges/problems/maximum_product_of_two_elements_in_an_array_test.go) [`Rust`](../../src/rust/challenges/src/problems/maximum_product_of_two_elements_in_an_array_test.rs)  
 
 ---
 

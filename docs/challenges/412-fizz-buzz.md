@@ -1,10 +1,8 @@
 # [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `String` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FizzBuzz.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `String` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FizzBuzz.cs)  
 
 ---
 

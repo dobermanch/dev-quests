@@ -1,10 +1,8 @@
 # [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Binary Search` `Interactive`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FirstBadVersion.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Binary Search` `Interactive`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FirstBadVersion.cs)  
 
 ---
 

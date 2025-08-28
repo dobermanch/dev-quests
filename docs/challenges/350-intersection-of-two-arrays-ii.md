@@ -1,10 +1,8 @@
 # [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/IntersectionOfTwoArraysIi.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/IntersectionOfTwoArraysIi.cs)  
 
 ---
 

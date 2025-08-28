@@ -1,10 +1,8 @@
 # [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Linked List` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LinkedListCycleIi.cs) [`Go`](../../src/go/challenges/problems/linked_list_cycle_ii_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Linked List` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LinkedListCycleIi.cs) [`Go`](../../src/go/challenges/problems/linked_list_cycle_ii_test.go)  
 
 ---
 

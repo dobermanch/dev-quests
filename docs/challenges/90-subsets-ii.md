@@ -1,10 +1,8 @@
 # [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Backtracking` `Bit Manipulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/subsets_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SubsetsIi.cs) [`Go`](../../src/go/challenges/problems/subsets_ii_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Backtracking` `Bit Manipulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/subsets_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SubsetsIi.cs) [`Go`](../../src/go/challenges/problems/subsets_ii_test.go)  
 
 ---
 

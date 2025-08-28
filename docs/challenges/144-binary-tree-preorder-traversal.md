@@ -1,10 +1,8 @@
 # [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Stack` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreePreorderTraversal.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Stack` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreePreorderTraversal.cs)  
 
 ---
 

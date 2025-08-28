@@ -1,10 +1,8 @@
 # [570. Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ManagersWithAtLeast5DirectReports.sql) [`MS SQL Server`](../../src/sql/challenges/ManagersWithAtLeast5DirectReports.sql)  
 
 ---
 

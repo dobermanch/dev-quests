@@ -1,10 +1,8 @@
 # [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaxAreaOfIsland.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaxAreaOfIsland.cs)  
 
 ---
 

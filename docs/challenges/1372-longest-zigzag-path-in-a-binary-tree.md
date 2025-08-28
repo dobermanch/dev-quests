@@ -1,10 +1,8 @@
 # [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Dynamic Programming` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_zigzag_path_in_a_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestZigzagPathInABinaryTree.cs) [`Go`](../../src/go/challenges/problems/longest_zigzag_path_in_a_binary_tree_test.go)  
 
 ---
 

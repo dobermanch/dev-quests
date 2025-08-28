@@ -1,10 +1,8 @@
 # [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming` `Breadth-First Search` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/01Matrix.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming` `Breadth-First Search` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/01Matrix.cs)  
 
 ---
 

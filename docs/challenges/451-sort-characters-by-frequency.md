@@ -1,10 +1,8 @@
 # [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/sort_characters_by_frequency_test.py) [`C#`](../../src/csharp/challenges/Problems/SortCharactersByFrequency.cs) [`Go`](../../src/go/challenges/problems/sort_characters_by_frequency_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/sort_characters_by_frequency_test.py) [`C#`](../../src/csharp/challenges/Problems/SortCharactersByFrequency.cs)  
 
 ---
 

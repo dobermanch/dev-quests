@@ -1,10 +1,8 @@
 # [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ProductSalesAnalysisIii.sql) [`MS SQL Server`](../../src/sql/challenges/ProductSalesAnalysisIii.sql)  
 
 ---
 

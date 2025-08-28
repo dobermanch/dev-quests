@@ -1,10 +1,8 @@
 # [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Math` `String` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/number_of_laser_beams_in_a_bank_test.py) [`C#`](../../src/csharp/challenges/Problems/NumberOfLaserBeamsInABank.cs) [`Go`](../../src/go/challenges/problems/number_of_laser_beams_in_a_bank_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Math` `String` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/number_of_laser_beams_in_a_bank_test.py) [`C#`](../../src/csharp/challenges/Problems/NumberOfLaserBeamsInABank.cs) [`Go`](../../src/go/challenges/problems/number_of_laser_beams_in_a_bank_test.go)  
 
 ---
 

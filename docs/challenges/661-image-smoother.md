@@ -1,10 +1,8 @@
 # [661. Image Smoother](https://leetcode.com/problems/image-smoother/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ImageSmoother.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/image_smoother_test.py) [`C#`](../../src/csharp/challenges/Problems/ImageSmoother.cs) [`Go`](../../src/go/challenges/problems/image_smoother_test.go) [`Rust`](../../src/rust/challenges/src/problems/image_smoother_test.rs)  
 
 ---
 

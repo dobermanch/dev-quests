@@ -1,10 +1,8 @@
 # [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql) [`MS SQL Server`](../../src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
 
 ---
 

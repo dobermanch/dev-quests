@@ -1,10 +1,8 @@
 # [2704. To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`JavaScript`](../../src/javascript/challenges/toBeOrNotToBe.js) [`TypeScript`](../../src/typescript/challenges/problems/toBeOrNotToBe.ts)  
 
 ---
 

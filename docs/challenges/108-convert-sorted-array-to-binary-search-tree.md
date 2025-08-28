@@ -1,10 +1,8 @@
 # [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Divide and Conquer` `Tree` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ConvertSortedArrayToBinarySearchTree.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Divide and Conquer` `Tree` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ConvertSortedArrayToBinarySearchTree.cs)  
 
 ---
 

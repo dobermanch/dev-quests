@@ -1,10 +1,8 @@
 # [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RemoveNthNodeFromEndOfList.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RemoveNthNodeFromEndOfList.cs)  
 
 ---
 

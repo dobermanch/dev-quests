@@ -1,10 +1,8 @@
 # [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Depth-First Search` `Design` `Trie`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignAddAndSearchWordsDataStructure.cs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Depth-First Search` `Design` `Trie`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignAddAndSearchWordsDataStructure.cs)  
 
 ---
 

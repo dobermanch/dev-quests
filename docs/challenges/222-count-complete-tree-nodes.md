@@ -1,10 +1,8 @@
 # [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Binary Search` `Bit Manipulation` `Tree` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/count_complete_tree_nodes_test.py) [`C#`](../../src/csharp/challenges/Problems/CountCompleteTreeNodes.cs) [`Go`](../../src/go/challenges/problems/count_complete_tree_nodes_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Binary Search` `Bit Manipulation` `Tree` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/count_complete_tree_nodes_test.py) [`C#`](../../src/csharp/challenges/Problems/CountCompleteTreeNodes.cs) [`Go`](../../src/go/challenges/problems/count_complete_tree_nodes_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [198. House Robber](https://leetcode.com/problems/house-robber/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/house_robber_test.py) [`C#`](../../src/csharp/challenges/Problems/HouseRobber.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/house_robber_test.py) [`C#`](../../src/csharp/challenges/Problems/HouseRobber.cs)  
 
 ---
 

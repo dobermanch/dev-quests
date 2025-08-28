@@ -1,10 +1,8 @@
 # [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KClosestPointsToOrigin.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Math` `Divide and Conquer` `Geometry` `Sorting` `Heap (Priority Queue)` `Quickselect`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/k_closest_points_to_origin_test.py) [`C#`](../../src/csharp/challenges/Problems/KClosestPointsToOrigin.cs)  
 
 ---
 

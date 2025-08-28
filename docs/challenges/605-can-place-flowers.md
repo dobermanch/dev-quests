@@ -1,10 +1,8 @@
 # [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Greedy`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/can_place_flowers_test.py) [`C#`](../../src/csharp/challenges/Problems/CanPlaceFlowers.cs) [`Go`](../../src/go/challenges/problems/can_place_flowers_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/can_place_flowers_test.py) [`C#`](../../src/csharp/challenges/Problems/CanPlaceFlowers.cs) [`Go`](../../src/go/challenges/problems/can_place_flowers_test.go)  
 
 ---
 

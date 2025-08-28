@@ -1,10 +1,8 @@
 # [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindRightInterval.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_right_interval_test.py)  
 
 ---
 

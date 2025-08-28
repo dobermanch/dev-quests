@@ -1,10 +1,8 @@
 # [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** [`JavaScript`](../../src/javascript/challenges/createHelloWorldFunction.js) [`TypeScript`](../../src/typescript/challenges/problems/createHelloWorldFunction.ts)
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`JavaScript`](../../src/javascript/challenges/createHelloWorldFunction.js) [`TypeScript`](../../src/typescript/challenges/problems/createHelloWorldFunction.ts)  
 
 ---
 

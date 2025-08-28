@@ -1,10 +1,8 @@
 # [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Linked List` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_nodes_in_k_group_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseNodesInKGroup.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Linked List` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_nodes_in_k_group_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseNodesInKGroup.cs)  
 
 ---
 

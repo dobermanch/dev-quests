@@ -143,7 +143,7 @@ def get_lang_path(lang: str, slug: str) -> str:
         case "python":
             fileName = to_snake_case(slug)
             return f"{os.path.join(SRC_PATH, 'python/challenges/problems', f'{fileName}_test.py')}"
-        case "pandas":
+        case "pythondata":
             fileName = to_snake_case(slug)
             return f"{os.path.join(SRC_PATH, 'python/challenges/problems/pandas', f'{fileName}_test.py')}"
         case "golang":
@@ -159,6 +159,9 @@ def get_lang_path(lang: str, slug: str) -> str:
             fileName = to_camel_case(slug)
             return f"{os.path.join(SRC_PATH, 'typescript/challenges/problems', f'{fileName}.ts')}"
         case "mysql":
+            fileName = to_pascal_case(slug)
+            return f"{os.path.join(SRC_PATH, 'sql/challenges', f'{fileName}.sql')}"
+        case "mssql":
             fileName = to_pascal_case(slug)
             return f"{os.path.join(SRC_PATH, 'sql/challenges', f'{fileName}.sql')}"
 
@@ -210,7 +213,7 @@ if __name__ == '__main__':
         .Run()
 """
             return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'])
-        case "pandas":
+        case "pythondata":
             info = parse_method_signature(snippet.code, r'def\s+(?P<method_name>\w+)\s*\((?P<params>[^)]*)\)\s*->\s*(?P<return_type>[^\s:]+)')
             template = """
 # https://leetcode.com/problems/{slug}
@@ -280,6 +283,13 @@ pub fn solution({params}) -> {return_type} {{
 """
             return template.format(slug=problem.slug, snippet=snippet.code)
         case "mysql":
+            template = """
+/* https://leetcode.com/problems/{slug}
+
+{snippet}
+"""
+            return template.format(slug=problem.slug, snippet=snippet.code)
+        case "mssql":
             template = """
 /* https://leetcode.com/problems/{slug}
 

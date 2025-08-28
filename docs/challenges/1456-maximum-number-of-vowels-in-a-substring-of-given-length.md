@@ -1,10 +1,8 @@
 # [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_number_of_vowels_in_a_substring_of_given_length_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumNumberOfVowelsInASubstringOfGivenLength.cs) [`Go`](../../src/go/challenges/problems/maximum_number_of_vowels_in_a_substring_of_given_length_test.go) [`Rust`](../../src/rust/challenges/src/problems/maximum_number_of_vowels_in_a_substring_of_given_length_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Sliding Window`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_number_of_vowels_in_a_substring_of_given_length_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumNumberOfVowelsInASubstringOfGivenLength.cs) [`Go`](../../src/go/challenges/problems/maximum_number_of_vowels_in_a_substring_of_given_length_test.go)  
 
 ---
 

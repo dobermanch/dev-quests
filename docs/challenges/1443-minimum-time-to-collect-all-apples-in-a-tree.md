@@ -1,10 +1,8 @@
 # [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Tree` `Depth-First Search` `Breadth-First Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_time_to_collect_all_apples_in_a_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumTimeToCollectAllApplesInATree.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Tree` `Depth-First Search` `Breadth-First Search`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinimumTimeToCollectAllApplesInATree.cs)  
 
 ---
 

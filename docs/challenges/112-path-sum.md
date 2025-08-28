@@ -1,10 +1,8 @@
 # [112. Path Sum](https://leetcode.com/problems/path-sum/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PathSum.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PathSum.cs)  
 
 ---
 

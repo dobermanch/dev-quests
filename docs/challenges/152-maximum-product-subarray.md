@@ -1,10 +1,8 @@
 # [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_product_subarray_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductSubarray.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_product_subarray_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductSubarray.cs)  
 
 ---
 

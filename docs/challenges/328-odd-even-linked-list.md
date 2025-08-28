@@ -1,10 +1,8 @@
 # [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/OddEvenLinkedList.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/OddEvenLinkedList.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [853. Car Fleet](https://leetcode.com/problems/car-fleet/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Stack` `Sorting` `Monotonic Stack`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/car_fleet_test.py) [`C#`](../../src/csharp/challenges/Problems/CarFleet.cs) [`Go`](../../src/go/challenges/problems/car_fleet_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Stack` `Sorting` `Monotonic Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/car_fleet_test.py) [`C#`](../../src/csharp/challenges/Problems/CarFleet.cs)  
 
 ---
 

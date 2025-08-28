@@ -1,10 +1,8 @@
 # [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Greedy` `Queue`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/dota2_senate_test.py) [`C#`](../../src/csharp/challenges/Problems/Dota2Senate.cs) [`Go`](../../src/go/challenges/problems/dota2_senate_test.go) [`Rust`](../../src/rust/challenges/src/problems/dota2_senate_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Greedy` `Queue`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/dota2_senate_test.py) [`C#`](../../src/csharp/challenges/Problems/Dota2Senate.cs) [`Go`](../../src/go/challenges/problems/dota2_senate_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [134. Gas Station](https://leetcode.com/problems/gas-station/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Greedy`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/gas_station_test.py) [`C#`](../../src/csharp/challenges/Problems/GasStation.cs) [`Go`](../../src/go/challenges/problems/gas_station_test.go) [`Rust`](../../src/rust/challenges/src/problems/gas_station_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/gas_station_test.py) [`C#`](../../src/csharp/challenges/Problems/GasStation.cs) [`Go`](../../src/go/challenges/problems/gas_station_test.go) [`Rust`](../../src/rust/challenges/src/problems/gas_station_test.rs)  
 
 ---
 

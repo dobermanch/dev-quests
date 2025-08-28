@@ -1,10 +1,8 @@
 # [2890. Reshape Data: Melt](https://leetcode.com/problems/reshape-data-melt/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/reshape_data_melt_test.py)  
 
 ---
 

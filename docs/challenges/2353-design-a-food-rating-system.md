@@ -1,10 +1,8 @@
 # [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `String` `Design` `Heap (Priority Queue)` `Ordered Set`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `String` `Design` `Heap (Priority Queue)` `Ordered Set`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignAFoodRatingSystem.cs)  
 
 ---
 

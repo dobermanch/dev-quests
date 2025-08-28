@@ -1,10 +1,8 @@
 # [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Two Pointers` `String` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/palindromic_substrings_test.py) [`C#`](../../src/csharp/challenges/Problems/PalindromicSubstrings.cs) [`Go`](../../src/go/challenges/problems/palindromic_substrings_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Two Pointers` `String` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/palindromic_substrings_test.py) [`C#`](../../src/csharp/challenges/Problems/PalindromicSubstrings.cs)  
 
 ---
 

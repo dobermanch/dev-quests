@@ -1,10 +1,8 @@
 # [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Dynamic Programming` `Bit Manipulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/counting_bits_test.py) [`C#`](../../src/csharp/challenges/Problems/CountingBits.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Dynamic Programming` `Bit Manipulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/counting_bits_test.py) [`C#`](../../src/csharp/challenges/Problems/CountingBits.cs)  
 
 ---
 

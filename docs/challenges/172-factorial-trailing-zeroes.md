@@ -1,9 +1,7 @@
 # [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 
 **Difficulty:** `Medium`  
-
 **Topics:** `Math`  
-
 **Solutions:** [`Python`](../../src/python/challenges/problems/factorial_trailing_zeroes_test.py) [`C#`](../../src/csharp/challenges/Problems/FactorialTrailingZeroes.cs) [`Go`](../../src/go/challenges/problems/factorial_trailing_zeroes_test.go)  
 
 ---

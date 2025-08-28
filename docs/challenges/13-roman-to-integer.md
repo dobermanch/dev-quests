@@ -1,10 +1,8 @@
 # [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `Math` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/roman_to_integer_test.py) [`C#`](../../src/csharp/challenges/Problems/RomanToInteger.cs) [`Go`](../../src/go/challenges/problems/roman_to_integer_test.go) [`Rust`](../../src/rust/challenges/src/problems/roman_to_integer_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `Math` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/roman_to_integer_test.py) [`C#`](../../src/csharp/challenges/Problems/RomanToInteger.cs) [`Go`](../../src/go/challenges/problems/roman_to_integer_test.go) [`Rust`](../../src/rust/challenges/src/problems/roman_to_integer_test.rs)  
 
 ---
 

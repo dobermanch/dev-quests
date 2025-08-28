@@ -1,10 +1,8 @@
 # [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/CountSalaryCategories.sql) [`MS SQL Server`](../../src/sql/challenges/CountSalaryCategories.sql)  
 
 ---
 

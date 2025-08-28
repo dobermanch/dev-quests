@@ -1,10 +1,8 @@
 # [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Heap (Priority Queue)`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Heap (Priority Queue)`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LastStoneWeight.cs)  
 
 ---
 

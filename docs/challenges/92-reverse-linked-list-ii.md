@@ -1,10 +1,8 @@
 # [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseLinkedListIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseLinkedListIi.cs)  
 
 ---
 

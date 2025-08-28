@@ -1,10 +1,8 @@
 # [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/InsertIntoABinarySearchTree.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/InsertIntoABinarySearchTree.cs)  
 
 ---
 

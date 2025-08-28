@@ -1,10 +1,8 @@
 # [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Depth-First Search` `Union Find` `Graph`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/most_stones_removed_with_same_row_or_column_test.py) [`C#`](../../src/csharp/challenges/Problems/MostStonesRemovedWithSameRowOrColumn.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Depth-First Search` `Union Find` `Graph`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MostStonesRemovedWithSameRowOrColumn.cs)  
 
 ---
 

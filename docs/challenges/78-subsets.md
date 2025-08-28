@@ -1,10 +1,8 @@
 # [78. Subsets](https://leetcode.com/problems/subsets/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Backtracking` `Bit Manipulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/subsets_test.py) [`C#`](../../src/csharp/challenges/Problems/Subsets.cs) [`Go`](../../src/go/challenges/problems/subsets_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Backtracking` `Bit Manipulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/subsets_test.py) [`C#`](../../src/csharp/challenges/Problems/Subsets.cs) [`Go`](../../src/go/challenges/problems/subsets_test.go)  
 
 ---
 

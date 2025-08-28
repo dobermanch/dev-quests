@@ -1,10 +1,8 @@
 # [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/PatientsWithACondition.sql) [`MS SQL Server`](../../src/sql/challenges/PatientsWithACondition.sql)  
 
 ---
 

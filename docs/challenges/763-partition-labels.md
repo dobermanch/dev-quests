@@ -1,10 +1,8 @@
 # [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Two Pointers` `String` `Greedy`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/partition_labels_test.py) [`C#`](../../src/csharp/challenges/Problems/PartitionLabels.cs) [`Go`](../../src/go/challenges/problems/partition_labels_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Two Pointers` `String` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/partition_labels_test.py) [`C#`](../../src/csharp/challenges/Problems/PartitionLabels.cs)  
 
 ---
 

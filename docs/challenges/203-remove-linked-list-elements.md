@@ -1,10 +1,8 @@
 # [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Linked List` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/remove_linked_list_elements_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveLinkedListElements.cs) [`Go`](../../src/go/challenges/problems/remove_linked_list_elements_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Linked List` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/remove_linked_list_elements_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveLinkedListElements.cs) [`Go`](../../src/go/challenges/problems/remove_linked_list_elements_test.go)  
 
 ---
 

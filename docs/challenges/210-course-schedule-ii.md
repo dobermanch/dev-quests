@@ -1,10 +1,8 @@
 # [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/CourseScheduleIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/CourseScheduleIi.cs)  
 
 ---
 

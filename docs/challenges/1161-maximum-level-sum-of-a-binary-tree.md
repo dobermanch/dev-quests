@@ -1,10 +1,8 @@
 # [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_level_sum_of_a_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumLevelSumOfABinaryTree.cs) [`Go`](../../src/go/challenges/problems/maximum_level_sum_of_a_binary_tree_test.go)  
 
 ---
 

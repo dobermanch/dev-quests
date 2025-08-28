@@ -1,10 +1,8 @@
 # [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Math` `String` `Stack` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/basic_calculator_test.py) [`C#`](../../src/csharp/challenges/Problems/BasicCalculator.cs) [`Go`](../../src/go/challenges/problems/basic_calculator_test.go) [`Rust`](../../src/rust/challenges/src/problems/basic_calculator_test.rs)
+**Difficulty:** `Hard`  
+**Topics:** `Math` `String` `Stack` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/basic_calculator_test.py) [`C#`](../../src/csharp/challenges/Problems/BasicCalculator.cs) [`Go`](../../src/go/challenges/problems/basic_calculator_test.go) [`Rust`](../../src/rust/challenges/src/problems/basic_calculator_test.rs)  
 
 ---
 

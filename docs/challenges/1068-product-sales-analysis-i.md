@@ -1,10 +1,8 @@
 # [1068. Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/ProductSalesAnalysisI.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ProductSalesAnalysisI.sql) [`MS SQL Server`](../../src/sql/challenges/ProductSalesAnalysisI.sql)  
 
 ---
 

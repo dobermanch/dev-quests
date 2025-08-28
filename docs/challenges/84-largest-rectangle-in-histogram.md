@@ -1,10 +1,8 @@
 # [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Stack` `Monotonic Stack`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/largest_rectangle_in_histogram_test.py) [`C#`](../../src/csharp/challenges/Problems/LargestRectangleInHistogram.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Stack` `Monotonic Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/largest_rectangle_in_histogram_test.py) [`C#`](../../src/csharp/challenges/Problems/LargestRectangleInHistogram.cs)  
 
 ---
 

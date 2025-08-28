@@ -1,10 +1,8 @@
 # [79. Word Search](https://leetcode.com/problems/word-search/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `String` `Backtracking` `Depth-First Search` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/WordSearch.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `String` `Backtracking` `Depth-First Search` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/WordSearch.cs)  
 
 ---
 

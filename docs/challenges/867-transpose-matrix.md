@@ -1,10 +1,8 @@
 # [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/transpose_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/TransposeMatrix.cs) [`Go`](../../src/go/challenges/problems/transpose_matrix_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/transpose_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/TransposeMatrix.cs) [`Go`](../../src/go/challenges/problems/transpose_matrix_test.go)  
 
 ---
 

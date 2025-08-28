@@ -1,10 +1,8 @@
 # [143. Reorder List](https://leetcode.com/problems/reorder-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers` `Stack` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reorder_list_test.py) [`C#`](../../src/csharp/challenges/Problems/ReorderList.cs) [`Go`](../../src/go/challenges/problems/reorder_list_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers` `Stack` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reorder_list_test.py) [`C#`](../../src/csharp/challenges/Problems/ReorderList.cs) [`Go`](../../src/go/challenges/problems/reorder_list_test.go)  
 
 ---
 

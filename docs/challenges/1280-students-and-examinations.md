@@ -1,10 +1,8 @@
 # [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/StudentsAndExaminations.sql) [`MS SQL Server`](../../src/sql/challenges/StudentsAndExaminations.sql)  
 
 ---
 

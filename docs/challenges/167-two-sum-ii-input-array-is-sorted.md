@@ -1,10 +1,8 @@
 # [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers` `Binary Search`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TwoSumIiInputArrayIsSorted.cs) [`Go`](../../src/go/challenges/problems/two_sum_ii_input_array_is_sorted_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers` `Binary Search`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TwoSumIiInputArrayIsSorted.cs) [`Go`](../../src/go/challenges/problems/two_sum_ii_input_array_is_sorted_test.go)  
 
 ---
 

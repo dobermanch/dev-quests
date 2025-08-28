@@ -1,10 +1,8 @@
 # [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/FixNamesInATable.sql) [`MS SQL Server`](../../src/sql/challenges/FixNamesInATable.sql)  
 
 ---
 

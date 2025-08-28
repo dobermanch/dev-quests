@@ -1,10 +1,8 @@
 # [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Backtracking`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/combination_sum_iii_test.py) [`C#`](../../src/csharp/challenges/Problems/CombinationSumIii.cs) [`Go`](../../src/go/challenges/problems/combination_sum_iii_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Backtracking`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/combination_sum_iii_test.py) [`C#`](../../src/csharp/challenges/Problems/CombinationSumIii.cs) [`Go`](../../src/go/challenges/problems/combination_sum_iii_test.go)  
 
 ---
 

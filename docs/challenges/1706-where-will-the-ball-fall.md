@@ -1,10 +1,8 @@
 # [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/where_will_the_ball_fall_test.py) [`C#`](../../src/csharp/challenges/Problems/WhereWillTheBallFall.cs) [`Go`](../../src/go/challenges/problems/where_will_the_ball_fall_test.go) [`Rust`](../../src/rust/challenges/src/problems/where_will_the_ball_fall_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/WhereWillTheBallFall.cs)  
 
 ---
 

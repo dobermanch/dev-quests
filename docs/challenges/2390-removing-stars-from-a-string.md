@@ -1,10 +1,8 @@
 # [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Stack` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RemovingStarsFromAString.cs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Stack` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/removing_stars_from_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/RemovingStarsFromAString.cs) [`Go`](../../src/go/challenges/problems/removing_stars_from_a_string_test.go)  
 
 ---
 

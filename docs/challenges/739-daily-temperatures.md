@@ -1,10 +1,8 @@
 # [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Stack` `Monotonic Stack`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/daily_temperatures_test.py) [`C#`](../../src/csharp/challenges/Problems/DailyTemperatures.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Stack` `Monotonic Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/daily_temperatures_test.py) [`C#`](../../src/csharp/challenges/Problems/DailyTemperatures.cs)  
 
 ---
 

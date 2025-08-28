@@ -14,8 +14,9 @@ lang_map = {
     "Rust": "rust",
     "JavaScript": "javascript",
     "TypeScript": "typescript",
-    "SQL": "mysql",
-    "Pandas": "Pandas"
+    "MySQL": "mysql",
+    "MsSQL": "mssql",
+    "Pandas": "pythondata"
 }
 
 def parse_leetcode_markdown(md_text: str) -> List[Dict]:
@@ -41,23 +42,54 @@ def parse_leetcode_markdown(md_text: str) -> List[Dict]:
 
     return results
 
+def extract_solution_details(lang: str, content: str):
+    patternClassName = None
+    match lang.lower():
+        case "csharp":
+            patternClassName = r"\bclass\s+(\w+)"
+        case "golang":
+            patternClassName = r"\type\s+(\w+)"
+        case "python":
+            patternClassName = r"\bclass\s+(\w+)\s*\("
+
+    if not patternClassName:
+        return None
+
+    className = re.search(patternClassName, content)
+    url = re.search(r"https://\S+", content)
+    if className:
+        return {
+            "class_name": className.group(1),
+            "url": url.group(0) if url else ""
+        }
+
+    return None
+
 def main():
     with open(README_FILE, "r", encoding="utf-8") as f:
         markdown_content = f.read()
 
     parsed = parse_leetcode_markdown(markdown_content)
 
-    for slug, value in parsed.items():
-        langs = [lang_map[entry['language']] for entry in value ]
-        #scrap(slug, langs, False, None)
+    for slug, challenge in parsed.items():
+        langs = [lang_map[entry['language']] for entry in challenge ]
+        if not langs:
+            print(f"🛑 Langs not found {slug}")
 
-        for entry in value:
-            fileName = os.path.join(ROOT_PATH, entry["path"][1:])
+        scrap(slug, langs, False, None)
+
+        continue
+
+        for solution in challenge:
+            fileName = os.path.join(ROOT_PATH, solution["path"][1:])
             if not os.path.exists(fileName):
                 print(f"🛑 File does not exists {fileName}")
                 continue
 
-            lang = lang_map[entry['language']]
+            lang = lang_map[solution['language']]
+            if lang == "mssql":
+                continue
+
             oldName = os.path.basename(fileName)
             newName = get_file_name(slug, lang)
 
@@ -65,18 +97,30 @@ def main():
                 print(f"🛑 Missed {lang} language for {slug} slug")
                 continue
 
+            # with open(fileName, "r", encoding="utf-8") as f:
+            #     content = f.read()
+
+            # details = extract_solution_details(lang, content)
+            # if details:
+            #     content = content.replace(details['class_name'], to_pascal_case(details['class_name']))
+            #     if details['url']:
+            #         content = content.replace(details['url'], f'https://leetcode.com/problems/{slug}')
+            #     else:
+            #         content = f'https://leetcode.com/problems/{slug}/n/n' + content
+
+            #     with open(fileName, "w", encoding="utf-8") as f:
+            #         f.write(content)
+            #     print(f"✅ Updated content: {fileName}")
+
             if oldName != newName:
                 newFileName = fileName.replace(oldName, newName)
+                if os.path.exists(newFileName):
+                    print(f"🛑 Cannot rename, file already exists: {slug} {fileName} → {newFileName}")
+                    continue
+
                 os.rename(fileName, newFileName)
                 markdown_content = markdown_content.replace(oldName, newName)
                 #print(f"✅ Renamed: {fileName} → {newFileName}")
-
-                with open(newFileName, "r", encoding="utf-8") as f:
-                    content = f.read()
-
-                content = f"https://leetcode.com/problems/{slug}\n\n" + content
-                with open(newFileName, "w", encoding="utf-8") as f:
-                    f.write(content)
 
 
     with open(README_FILE, "w", encoding="utf-8") as f:
@@ -89,7 +133,7 @@ def get_file_name(slug: str, lang: str) -> str:
             return f'{to_pascal_case(slug)}.cs'
         case "python":
             return f'{to_snake_case(slug)}_test.py'
-        case "pandas":
+        case "pythondata":
             return f'{to_snake_case(slug)}_test.py'
         case "golang":
             return f'{to_snake_case(slug)}_test.go'
@@ -100,6 +144,8 @@ def get_file_name(slug: str, lang: str) -> str:
         case "typescript":
             return f'{to_camel_case(slug)}.ts'
         case "mysql":
+            return f'{to_pascal_case(slug)}.sql'
+        case "mssql":
             return f'{to_pascal_case(slug)}.sql'
 
     return None

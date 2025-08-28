@@ -1,10 +1,8 @@
 # [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Bit Manipulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/number_of_steps_to_reduce_a_number_to_zero_test.py)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOfStepsToReduceANumberToZero.cs)  
 
 ---
 

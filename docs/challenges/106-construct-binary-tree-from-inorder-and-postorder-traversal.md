@@ -1,10 +1,8 @@
 # [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ConstructBinaryTreeFromInorderAndPostorderTraversal.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Divide and Conquer` `Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ConstructBinaryTreeFromInorderAndPostorderTraversal.cs)  
 
 ---
 

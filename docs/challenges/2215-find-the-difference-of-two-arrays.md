@@ -1,10 +1,8 @@
 # [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindTheDifferenceOfTwoArrays.cs) [`Go`](../../src/go/challenges/problems/find_the_difference_of_two_arrays_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_difference_of_two_arrays_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheDifferenceOfTwoArrays.cs) [`Go`](../../src/go/challenges/problems/find_the_difference_of_two_arrays_test.go)  
 
 ---
 

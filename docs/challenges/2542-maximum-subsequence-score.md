@@ -1,10 +1,8 @@
 # [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Greedy` `Sorting` `Heap (Priority Queue)`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaximumSubsequenceScore.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Greedy` `Sorting` `Heap (Priority Queue)`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_subsequence_score_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumSubsequenceScore.cs) [`Go`](../../src/go/challenges/problems/maximum_subsequence_score_test.go)  
 
 ---
 

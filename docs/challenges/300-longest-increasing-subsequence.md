@@ -1,10 +1,8 @@
 # [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/longest_increasing_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestIncreasingSubsequence.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_increasing_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestIncreasingSubsequence.cs)  
 
 ---
 

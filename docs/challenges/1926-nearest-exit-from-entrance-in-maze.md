@@ -1,10 +1,8 @@
 # [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Breadth-First Search` `Matrix`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Breadth-First Search` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/nearest_exit_from_entrance_in_maze_test.py) [`C#`](../../src/csharp/challenges/Problems/NearestExitFromEntranceInMaze.cs) [`Go`](../../src/go/challenges/problems/nearest_exit_from_entrance_in_maze_test.go)  
 
 ---
 

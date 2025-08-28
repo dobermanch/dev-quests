@@ -1,10 +1,8 @@
 # [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Depth-First Search` `Breadth-First Search` `Graph`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KeysAndRooms.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Depth-First Search` `Breadth-First Search` `Graph`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/keys_and_rooms_test.py) [`C#`](../../src/csharp/challenges/Problems/KeysAndRooms.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Linked List` `Design` `Hash Function`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignHashmap.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Linked List` `Design` `Hash Function`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignHashmap.cs)  
 
 ---
 

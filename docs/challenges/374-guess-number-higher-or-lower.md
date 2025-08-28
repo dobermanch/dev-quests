@@ -1,10 +1,8 @@
 # [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Binary Search` `Interactive`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/guess_number_higher_or_lower_test.py) [`C#`](../../src/csharp/challenges/Problems/GuessNumberHigherOrLower.cs) [`Go`](../../src/go/challenges/problems/guess_number_higher_or_lower_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Binary Search` `Interactive`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/guess_number_higher_or_lower_test.py) [`C#`](../../src/csharp/challenges/Problems/GuessNumberHigherOrLower.cs) [`Go`](../../src/go/challenges/problems/guess_number_higher_or_lower_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/InvalidTweets.sql) [`MS SQL Server`](../../src/sql/challenges/InvalidTweets.sql)  
 
 ---
 

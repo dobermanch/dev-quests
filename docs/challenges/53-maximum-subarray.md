@@ -1,10 +1,8 @@
 # [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Divide and Conquer` `Dynamic Programming`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaximumSubarray.cs) [`Go`](../../src/go/challenges/problems/maximum_subarray_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Divide and Conquer` `Dynamic Programming`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaximumSubarray.cs) [`Go`](../../src/go/challenges/problems/maximum_subarray_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_average_subarray_i_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAverageSubarrayI.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Sliding Window`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_average_subarray_i_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAverageSubarrayI.cs) [`Go`](../../src/go/challenges/problems/maximum_average_subarray_i_test.go)  
 
 ---
 

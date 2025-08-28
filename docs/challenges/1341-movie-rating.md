@@ -1,10 +1,8 @@
 # [1341. Movie Rating](https://leetcode.com/problems/movie-rating/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/MovieRating.sql) [`MS SQL Server`](../../src/sql/challenges/MovieRating.sql)  
 
 ---
 

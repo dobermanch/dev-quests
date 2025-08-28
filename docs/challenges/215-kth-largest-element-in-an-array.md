@@ -1,10 +1,8 @@
 # [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/kth_largest_element_in_an_array_test.py) [`C#`](../../src/csharp/challenges/Problems/KthLargestElementInAnArray.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Quickselect`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/kth_largest_element_in_an_array_test.py) [`C#`](../../src/csharp/challenges/Problems/KthLargestElementInAnArray.cs)  
 
 ---
 

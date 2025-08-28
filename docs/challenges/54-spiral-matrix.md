@@ -1,10 +1,8 @@
 # [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SpiralMatrix.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SpiralMatrix.cs)  
 
 ---
 

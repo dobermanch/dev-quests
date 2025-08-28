@@ -1,10 +1,8 @@
 # [202. Happy Number](https://leetcode.com/problems/happy-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `Math` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/HappyNumber.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `Math` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/HappyNumber.cs)  
 
 ---
 

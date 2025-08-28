@@ -1,10 +1,8 @@
 # [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** 
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinimumDifficultyOfAJobSchedule.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KokoEatingBananas.cs) [`Go`](../../src/go/challenges/problems/koko_eating_bananas_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/koko_eating_bananas_test.py) [`C#`](../../src/csharp/challenges/Problems/KokoEatingBananas.cs)  
 
 ---
 

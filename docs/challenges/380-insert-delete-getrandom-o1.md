@@ -1,10 +1,8 @@
 # [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Math` `Design` `Randomized`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/InsertDeleteGetrandomO1.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Math` `Design` `Randomized`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/InsertDeleteGetrandomO1.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/largest_substring_between_two_equal_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/LargestSubstringBetweenTwoEqualCharacters.cs) [`Go`](../../src/go/challenges/problems/largest_substring_between_two_equal_characters_test.go)  
 
 ---
 

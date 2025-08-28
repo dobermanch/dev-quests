@@ -1,10 +1,8 @@
 # [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/ImmediateFoodDeliveryIi.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ImmediateFoodDeliveryIi.sql) [`MS SQL Server`](../../src/sql/challenges/ImmediateFoodDeliveryIi.sql)  
 
 ---
 

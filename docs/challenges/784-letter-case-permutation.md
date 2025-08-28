@@ -1,10 +1,8 @@
 # [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Backtracking` `Bit Manipulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/letter_case_permutation_test.py) [`C#`](../../src/csharp/challenges/Problems/LetterCasePermutation.cs) [`Go`](../../src/go/challenges/problems/letter_case_permutation_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Backtracking` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LetterCasePermutation.cs)  
 
 ---
 

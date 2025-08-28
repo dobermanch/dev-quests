@@ -1,10 +1,8 @@
 # [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming` `Greedy`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/jump_game_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/JumpGameIi.cs) [`Go`](../../src/go/challenges/problems/jump_game_ii_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/jump_game_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/JumpGameIi.cs) [`Go`](../../src/go/challenges/problems/jump_game_ii_test.go)  
 
 ---
 

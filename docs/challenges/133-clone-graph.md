@@ -1,10 +1,8 @@
 # [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Depth-First Search` `Breadth-First Search` `Graph`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/clone_graph_test.py) [`C#`](../../src/csharp/challenges/Problems/CloneGraph.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Depth-First Search` `Breadth-First Search` `Graph`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/clone_graph_test.py) [`C#`](../../src/csharp/challenges/Problems/CloneGraph.cs)  
 
 ---
 

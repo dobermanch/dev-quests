@@ -1,10 +1,8 @@
 # [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table`
-
-**Solutions:** [`JavaScript`](../../src/javascript/challenges/convertAnArrayIntoA2dArrayWithConditions.js) [`TypeScript`](../../src/typescript/challenges/problems/convertAnArrayIntoA2dArrayWithConditions.ts)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ConvertAnArrayIntoA2dArrayWithConditions.cs)  
 
 ---
 

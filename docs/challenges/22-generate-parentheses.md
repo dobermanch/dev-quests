@@ -1,10 +1,8 @@
 # [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Dynamic Programming` `Backtracking`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/generate_parentheses_test.py) [`C#`](../../src/csharp/challenges/Problems/GenerateParentheses.cs) [`Go`](../../src/go/challenges/problems/generate_parentheses_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Dynamic Programming` `Backtracking`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/generate_parentheses_test.py) [`C#`](../../src/csharp/challenges/Problems/GenerateParentheses.cs) [`Go`](../../src/go/challenges/problems/generate_parentheses_test.go)  
 
 ---
 

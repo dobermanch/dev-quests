@@ -1,10 +1,8 @@
 # [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_product_difference_between_two_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductDifferenceBetweenTwoPairs.cs) [`Go`](../../src/go/challenges/problems/maximum_product_difference_between_two_pairs_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_product_difference_between_two_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductDifferenceBetweenTwoPairs.cs) [`Go`](../../src/go/challenges/problems/maximum_product_difference_between_two_pairs_test.go) [`Rust`](../../src/rust/challenges/src/problems/maximum_product_difference_between_two_pairs_test.rs)  
 
 ---
 

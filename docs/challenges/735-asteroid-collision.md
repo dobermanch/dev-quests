@@ -1,10 +1,8 @@
 # [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Stack` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/asteroid_collision_test.py) [`C#`](../../src/csharp/challenges/Problems/AsteroidCollision.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Stack` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/AsteroidCollision.cs) [`Go`](../../src/go/challenges/problems/asteroid_collision_test.go)  
 
 ---
 

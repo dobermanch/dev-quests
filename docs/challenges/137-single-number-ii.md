@@ -1,10 +1,8 @@
 # [137. Single Number II](https://leetcode.com/problems/single-number-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Bit Manipulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SingleNumberIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SingleNumberIi.cs)  
 
 ---
 

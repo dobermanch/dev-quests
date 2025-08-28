@@ -1,10 +1,8 @@
 # [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/valid_anagram_test.py) [`C#`](../../src/csharp/challenges/Problems/ValidAnagram.cs) [`Go`](../../src/go/challenges/problems/valid_anagram_test.go) [`Rust`](../../src/rust/challenges/src/problems/valid_anagram_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/valid_anagram_test.py) [`C#`](../../src/csharp/challenges/Problems/ValidAnagram.cs) [`Go`](../../src/go/challenges/problems/valid_anagram_test.go) [`Rust`](../../src/rust/challenges/src/problems/valid_anagram_test.rs)  
 
 ---
 

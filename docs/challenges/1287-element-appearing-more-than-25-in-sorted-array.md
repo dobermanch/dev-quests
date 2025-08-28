@@ -1,10 +1,8 @@
 # [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/element_appearing_more_than_25_in_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/ElementAppearingMoreThan25InSortedArray.cs) [`Go`](../../src/go/challenges/problems/element_appearing_more_than_25_in_sorted_array_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/element_appearing_more_than_25_in_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/ElementAppearingMoreThan25InSortedArray.cs) [`Go`](../../src/go/challenges/problems/element_appearing_more_than_25_in_sorted_array_test.go) [`Rust`](../../src/rust/challenges/src/problems/element_appearing_more_than_25_in_sorted_array_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [268. Missing Number](https://leetcode.com/problems/missing-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/missing_number_test.py) [`C#`](../../src/csharp/challenges/Problems/MissingNumber.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/missing_number_test.py) [`C#`](../../src/csharp/challenges/Problems/MissingNumber.cs)  
 
 ---
 

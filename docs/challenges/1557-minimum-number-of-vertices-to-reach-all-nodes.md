@@ -1,10 +1,8 @@
 # [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Graph`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_number_of_vertices_to_reach_all_nodes_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumNumberOfVerticesToReachAllNodes.cs) [`Go`](../../src/go/challenges/problems/minimum_number_of_vertices_to_reach_all_nodes_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Graph`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_number_of_vertices_to_reach_all_nodes_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumNumberOfVerticesToReachAllNodes.cs)  
 
 ---
 

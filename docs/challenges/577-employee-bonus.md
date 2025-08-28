@@ -1,10 +1,8 @@
 # [577. Employee Bonus](https://leetcode.com/problems/employee-bonus/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/EmployeeBonus.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/EmployeeBonus.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeeBonus.sql)  
 
 ---
 

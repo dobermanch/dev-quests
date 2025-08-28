@@ -1,10 +1,8 @@
 # [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers` `Binary Search` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SuccessfulPairsOfSpellsAndPotions.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers` `Binary Search` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/successful_pairs_of_spells_and_potions_test.py) [`C#`](../../src/csharp/challenges/Problems/SuccessfulPairsOfSpellsAndPotions.cs) [`Go`](../../src/go/challenges/problems/successful_pairs_of_spells_and_potions_test.go)  
 
 ---
 

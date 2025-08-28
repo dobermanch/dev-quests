@@ -1,10 +1,8 @@
 # [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Greedy` `Counting`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Greedy` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_number_of_operations_to_make_array_empty_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumNumberOfOperationsToMakeArrayEmpty.cs) [`Go`](../../src/go/challenges/problems/minimum_number_of_operations_to_make_array_empty_test.go)  
 
 ---
 

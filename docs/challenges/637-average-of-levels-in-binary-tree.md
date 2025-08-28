@@ -1,10 +1,8 @@
 # [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/average_of_levels_in_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/AverageOfLevelsInBinaryTree.cs) [`Go`](../../src/go/challenges/problems/average_of_levels_in_binary_tree_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/average_of_levels_in_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/AverageOfLevelsInBinaryTree.cs) [`Go`](../../src/go/challenges/problems/average_of_levels_in_binary_tree_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchInsertPosition.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchInsertPosition.cs)  
 
 ---
 

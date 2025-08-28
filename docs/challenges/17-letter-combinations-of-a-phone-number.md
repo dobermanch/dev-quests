@@ -1,10 +1,8 @@
 # [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Backtracking`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/letter_combinations_of_a_phone_number_test.py) [`C#`](../../src/csharp/challenges/Problems/LetterCombinationsOfAPhoneNumber.cs) [`JavaScript`](../../src/javascript/challenges/letterCombinationsOfAPhoneNumber.js) [`TypeScript`](../../src/typescript/challenges/problems/letterCombinationsOfAPhoneNumber.ts) [`Go`](../../src/go/challenges/problems/letter_combinations_of_a_phone_number_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Backtracking`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/letter_combinations_of_a_phone_number_test.py) [`C#`](../../src/csharp/challenges/Problems/LetterCombinationsOfAPhoneNumber.cs) [`JavaScript`](../../src/javascript/challenges/letterCombinationsOfAPhoneNumber.js) [`TypeScript`](../../src/typescript/challenges/problems/letterCombinationsOfAPhoneNumber.ts) [`Go`](../../src/go/challenges/problems/letter_combinations_of_a_phone_number_test.go)  
 
 ---
 

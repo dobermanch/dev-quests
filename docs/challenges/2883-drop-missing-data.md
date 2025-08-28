@@ -1,10 +1,8 @@
 # [2883. Drop Missing Data](https://leetcode.com/problems/drop-missing-data/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/drop_missing_data_test.py)  
 
 ---
 

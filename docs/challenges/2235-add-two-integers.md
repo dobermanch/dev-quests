@@ -1,10 +1,8 @@
 # [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/add_two_integers_test.py) [`C#`](../../src/csharp/challenges/Problems/AddTwoIntegers.cs) [`Go`](../../src/go/challenges/problems/add_two_integers_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Math`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/AddTwoIntegers.cs) [`Go`](../../src/go/challenges/problems/add_two_integers_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [67. Add Binary](https://leetcode.com/problems/add-binary/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `String` `Bit Manipulation` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/add_binary_test.py) [`C#`](../../src/csharp/challenges/Problems/AddBinary.cs) [`Go`](../../src/go/challenges/problems/add_binary_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `String` `Bit Manipulation` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/add_binary_test.py) [`C#`](../../src/csharp/challenges/Problems/AddBinary.cs) [`Go`](../../src/go/challenges/problems/add_binary_test.go)  
 
 ---
 

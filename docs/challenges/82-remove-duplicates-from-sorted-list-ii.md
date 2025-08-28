@@ -1,10 +1,8 @@
 # [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/remove_duplicates_from_sorted_list_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveDuplicatesFromSortedListIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/remove_duplicates_from_sorted_list_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveDuplicatesFromSortedListIi.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Two Pointers` `Sorting`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Two Pointers` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/max_number_of_k_sum_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/MaxNumberOfKSumPairs.cs) [`Go`](../../src/go/challenges/problems/max_number_of_k_sum_pairs_test.go)  
 
 ---
 

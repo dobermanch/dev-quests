@@ -1,10 +1,8 @@
 # [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/MonthlyTransactionsI.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/MonthlyTransactionsI.sql) [`MS SQL Server`](../../src/sql/challenges/MonthlyTransactionsI.sql)  
 
 ---
 

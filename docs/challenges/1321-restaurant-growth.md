@@ -1,10 +1,8 @@
 # [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/RestaurantGrowth.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/RestaurantGrowth.sql) [`MS SQL Server`](../../src/sql/challenges/RestaurantGrowth.sql)  
 
 ---
 

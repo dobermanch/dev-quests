@@ -1,10 +1,8 @@
 # [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Linked List` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseLinkedList.cs) [`Go`](../../src/go/challenges/problems/reverse_linked_list_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Linked List` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseLinkedList.cs) [`Go`](../../src/go/challenges/problems/reverse_linked_list_test.go)  
 
 ---
 

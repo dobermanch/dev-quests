@@ -1,10 +1,8 @@
 # [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql)
+**Difficulty:** `Hard`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql) [`MS SQL Server`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql)  
 
 ---
 

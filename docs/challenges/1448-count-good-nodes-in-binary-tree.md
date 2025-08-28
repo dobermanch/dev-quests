@@ -1,10 +1,8 @@
 # [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/count_good_nodes_in_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/CountGoodNodesInBinaryTree.cs) [`Go`](../../src/go/challenges/problems/count_good_nodes_in_binary_tree_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/count_good_nodes_in_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/CountGoodNodesInBinaryTree.cs)  
 
 ---
 

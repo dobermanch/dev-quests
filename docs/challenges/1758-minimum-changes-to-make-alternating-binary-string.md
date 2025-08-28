@@ -1,10 +1,8 @@
 # [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_changes_to_make_alternating_binary_string_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumChangesToMakeAlternatingBinaryString.cs) [`Go`](../../src/go/challenges/problems/minimum_changes_to_make_alternating_binary_string_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_changes_to_make_alternating_binary_string_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumChangesToMakeAlternatingBinaryString.cs) [`Go`](../../src/go/challenges/problems/minimum_changes_to_make_alternating_binary_string_test.go)  
 
 ---
 

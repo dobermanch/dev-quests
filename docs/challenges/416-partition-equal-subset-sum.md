@@ -1,10 +1,8 @@
 # [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/partition_equal_subset_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/PartitionEqualSubsetSum.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/partition_equal_subset_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/PartitionEqualSubsetSum.cs)  
 
 ---
 

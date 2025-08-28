@@ -1,10 +1,8 @@
 # [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Design`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/design_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/DesignLinkedList.cs) [`Go`](../../src/go/challenges/problems/design_linked_list_test.go) [`Rust`](../../src/rust/challenges/src/problems/design_linked_list_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Design`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignLinkedList.cs)  
 
 ---
 

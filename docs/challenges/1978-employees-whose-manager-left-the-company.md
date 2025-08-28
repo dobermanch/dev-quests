@@ -1,10 +1,8 @@
 # [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql)  
 
 ---
 

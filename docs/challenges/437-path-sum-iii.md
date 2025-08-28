@@ -1,10 +1,8 @@
 # [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PathSumIii.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PathSumIii.cs)  
 
 ---
 

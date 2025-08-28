@@ -1,10 +1,8 @@
 # [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/LastPersonToFitInTheBus.sql) [`MS SQL Server`](../../src/sql/challenges/LastPersonToFitInTheBus.sql)  
 
 ---
 

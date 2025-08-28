@@ -1,10 +1,8 @@
 # [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Greedy` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/buy_two_chocolates_test.py) [`C#`](../../src/csharp/challenges/Problems/BuyTwoChocolates.cs) [`Go`](../../src/go/challenges/problems/buy_two_chocolates_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Greedy` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/buy_two_chocolates_test.py) [`C#`](../../src/csharp/challenges/Problems/BuyTwoChocolates.cs) [`Go`](../../src/go/challenges/problems/buy_two_chocolates_test.go) [`Rust`](../../src/rust/challenges/src/problems/buy_two_chocolates_test.rs)  
 
 ---
 

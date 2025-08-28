@@ -1,10 +1,8 @@
 # [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Two Pointers` `String` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/longest_palindromic_substring_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestPalindromicSubstring.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Two Pointers` `String` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_palindromic_substring_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestPalindromicSubstring.cs)  
 
 ---
 

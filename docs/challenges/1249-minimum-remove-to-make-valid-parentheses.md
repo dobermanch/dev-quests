@@ -1,10 +1,8 @@
 # [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Stack`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `String` `Stack`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinimumRemoveToMakeValidParentheses.cs)  
 
 ---
 

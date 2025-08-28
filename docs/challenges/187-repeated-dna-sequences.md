@@ -1,10 +1,8 @@
 # [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Bit Manipulation` `Sliding Window` `Rolling Hash` `Hash Function`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RepeatedDnaSequences.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Bit Manipulation` `Sliding Window` `Rolling Hash` `Hash Function`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RepeatedDnaSequences.cs)  
 
 ---
 

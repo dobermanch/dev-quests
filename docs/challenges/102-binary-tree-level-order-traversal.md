@@ -1,10 +1,8 @@
 # [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreeLevelOrderTraversal.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreeLevelOrderTraversal.cs)  
 
 ---
 

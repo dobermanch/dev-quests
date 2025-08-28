@@ -1,10 +1,8 @@
 # [2885. Rename Columns](https://leetcode.com/problems/rename-columns/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/rename_columns_test.py)  
 
 ---
 

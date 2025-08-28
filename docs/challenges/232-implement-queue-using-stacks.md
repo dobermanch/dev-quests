@@ -1,10 +1,8 @@
 # [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Stack` `Design` `Queue`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ImplementQueueUsingStacks.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Stack` `Design` `Queue`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ImplementQueueUsingStacks.cs)  
 
 ---
 

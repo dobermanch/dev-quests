@@ -1,10 +1,8 @@
 # [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/BiggestSingleNumber.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/BiggestSingleNumber.sql) [`MS SQL Server`](../../src/sql/challenges/BiggestSingleNumber.sql)  
 
 ---
 

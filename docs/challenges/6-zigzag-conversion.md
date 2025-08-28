@@ -1,10 +1,8 @@
 # [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/zigzag_conversion_test.py) [`C#`](../../src/csharp/challenges/Problems/ZigzagConversion.cs) [`Go`](../../src/go/challenges/problems/zigzag_conversion_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/zigzag_conversion_test.py) [`C#`](../../src/csharp/challenges/Problems/ZigzagConversion.cs) [`Go`](../../src/go/challenges/problems/zigzag_conversion_test.go)  
 
 ---
 

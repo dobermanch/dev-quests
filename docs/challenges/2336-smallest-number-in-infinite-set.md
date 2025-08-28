@@ -1,10 +1,8 @@
 # [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Design` `Heap (Priority Queue)` `Ordered Set`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/smallest_number_in_infinite_set_test.py) [`C#`](../../src/csharp/challenges/Problems/SmallestNumberInInfiniteSet.cs) [`Go`](../../src/go/challenges/problems/smallest_number_in_infinite_set_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Design` `Heap (Priority Queue)` `Ordered Set`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SmallestNumberInInfiniteSet.cs)  
 
 ---
 

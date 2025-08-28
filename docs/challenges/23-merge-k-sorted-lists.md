@@ -1,10 +1,8 @@
 # [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Linked List` `Divide and Conquer` `Heap (Priority Queue)` `Merge Sort`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/merge_k_sorted_lists_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeKSortedLists.cs) [`Go`](../../src/go/challenges/problems/merge_k_sorted_lists_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Linked List` `Divide and Conquer` `Heap (Priority Queue)` `Merge Sort`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/merge_k_sorted_lists_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeKSortedLists.cs) [`Go`](../../src/go/challenges/problems/merge_k_sorted_lists_test.go)  
 
 ---
 

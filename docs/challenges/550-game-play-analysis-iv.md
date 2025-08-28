@@ -1,10 +1,8 @@
 # [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/GamePlayAnalysisIv.sql) [`MS SQL Server`](../../src/sql/challenges/GamePlayAnalysisIv.sql)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `String` `Stack`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ValidParentheses.cs) [`Go`](../../src/go/challenges/problems/valid_parentheses_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `String` `Stack`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ValidParentheses.cs) [`Go`](../../src/go/challenges/problems/valid_parentheses_test.go)  
 
 ---
 

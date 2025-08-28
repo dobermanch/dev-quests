@@ -1,10 +1,8 @@
 # [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Two Pointers` `Dynamic Programming` `Stack` `Monotonic Stack`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/trapping_rain_water_test.py) [`C#`](../../src/csharp/challenges/Problems/TrappingRainWater.cs) [`Go`](../../src/go/challenges/problems/trapping_rain_water_test.go) [`Rust`](../../src/rust/challenges/src/problems/trapping_rain_water_test.rs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Two Pointers` `Dynamic Programming` `Stack` `Monotonic Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/trapping_rain_water_test.py) [`C#`](../../src/csharp/challenges/Problems/TrappingRainWater.cs) [`Go`](../../src/go/challenges/problems/trapping_rain_water_test.go) [`Rust`](../../src/rust/challenges/src/problems/trapping_rain_water_test.rs)  
 
 ---
 

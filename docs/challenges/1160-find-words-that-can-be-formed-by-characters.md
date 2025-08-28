@@ -1,10 +1,8 @@
 # [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `String` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_words_that_can_be_formed_by_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/FindWordsThatCanBeFormedByCharacters.cs) [`Go`](../../src/go/challenges/problems/find_words_that_can_be_formed_by_characters_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `String` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_words_that_can_be_formed_by_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/FindWordsThatCanBeFormedByCharacters.cs) [`Go`](../../src/go/challenges/problems/find_words_that_can_be_formed_by_characters_test.go)  
 
 ---
 

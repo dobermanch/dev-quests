@@ -1,10 +1,8 @@
 # [2884. Modify Columns](https://leetcode.com/problems/modify-columns/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/modify_columns_test.py)  
 
 ---
 

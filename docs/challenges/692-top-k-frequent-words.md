@@ -1,10 +1,8 @@
 # [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `String` `Trie` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TopKFrequentWords.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `String` `Trie` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TopKFrequentWords.cs)  
 
 ---
 

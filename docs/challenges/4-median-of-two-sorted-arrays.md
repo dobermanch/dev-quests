@@ -1,10 +1,8 @@
 # [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Binary Search` `Divide and Conquer`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/median_of_two_sorted_arrays_test.py) [`C#`](../../src/csharp/challenges/Problems/MedianOfTwoSortedArrays.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Binary Search` `Divide and Conquer`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/median_of_two_sorted_arrays_test.py) [`C#`](../../src/csharp/challenges/Problems/MedianOfTwoSortedArrays.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/FindFollowersCount.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/FindFollowersCount.sql) [`MS SQL Server`](../../src/sql/challenges/FindFollowersCount.sql)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/delete_node_in_a_bst_test.py) [`C#`](../../src/csharp/challenges/Problems/DeleteNodeInABst.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/delete_node_in_a_bst_test.py) [`C#`](../../src/csharp/challenges/Problems/DeleteNodeInABst.cs)  
 
 ---
 

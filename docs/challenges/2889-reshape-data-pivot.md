@@ -1,10 +1,8 @@
 # [2889. Reshape Data: Pivot](https://leetcode.com/problems/reshape-data-pivot/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/reshape_data_pivot_test.py)  
 
 ---
 

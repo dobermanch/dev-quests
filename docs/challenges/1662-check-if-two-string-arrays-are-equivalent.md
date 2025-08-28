@@ -1,10 +1,8 @@
 # [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `String`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Array` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/check_if_two_string_arrays_are_equivalent_test.py) [`C#`](../../src/csharp/challenges/Problems/CheckIfTwoStringArraysAreEquivalent.cs) [`Go`](../../src/go/challenges/problems/check_if_two_string_arrays_are_equivalent_test.go)  
 
 ---
 

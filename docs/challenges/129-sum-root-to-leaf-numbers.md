@@ -1,10 +1,8 @@
 # [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/sum_root_to_leaf_numbers_test.py) [`C#`](../../src/csharp/challenges/Problems/SumRootToLeafNumbers.cs) [`Go`](../../src/go/challenges/problems/sum_root_to_leaf_numbers_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/sum_root_to_leaf_numbers_test.py) [`C#`](../../src/csharp/challenges/Problems/SumRootToLeafNumbers.cs) [`Go`](../../src/go/challenges/problems/sum_root_to_leaf_numbers_test.go)  
 
 ---
 

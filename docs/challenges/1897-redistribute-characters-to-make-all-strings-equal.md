@@ -1,10 +1,8 @@
 # [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/redistribute_characters_to_make_all_strings_equal_test.py) [`C#`](../../src/csharp/challenges/Problems/RedistributeCharactersToMakeAllStringsEqual.cs) [`Go`](../../src/go/challenges/problems/redistribute_characters_to_make_all_strings_equal_test.go) [`Rust`](../../src/rust/challenges/src/problems/redistribute_characters_to_make_all_strings_equal_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/redistribute_characters_to_make_all_strings_equal_test.py) [`C#`](../../src/csharp/challenges/Problems/RedistributeCharactersToMakeAllStringsEqual.cs) [`Go`](../../src/go/challenges/problems/redistribute_characters_to_make_all_strings_equal_test.go)  
 
 ---
 

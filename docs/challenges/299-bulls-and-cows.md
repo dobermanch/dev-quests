@@ -1,10 +1,8 @@
 # [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Counting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BullsAndCows.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Counting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BullsAndCows.cs)  
 
 ---
 

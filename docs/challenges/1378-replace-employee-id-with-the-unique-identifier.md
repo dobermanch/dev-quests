@@ -1,10 +1,8 @@
 # [1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ReplaceEmployeeIdWithTheUniqueIdentifier.sql) [`MS SQL Server`](../../src/sql/challenges/ReplaceEmployeeIdWithTheUniqueIdentifier.sql)  
 
 ---
 

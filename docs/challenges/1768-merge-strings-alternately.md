@@ -1,10 +1,8 @@
 # [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/merge_strings_alternately_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeStringsAlternately.cs) [`Go`](../../src/go/challenges/problems/merge_strings_alternately_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Math` `Stack`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/EvaluateReversePolishNotation.cs) [`Go`](../../src/go/challenges/problems/evaluate_reverse_polish_notation_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Math` `Stack`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/EvaluateReversePolishNotation.cs) [`Go`](../../src/go/challenges/problems/evaluate_reverse_polish_notation_test.go)  
 
 ---
 

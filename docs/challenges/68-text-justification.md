@@ -1,10 +1,8 @@
 # [68. Text Justification](https://leetcode.com/problems/text-justification/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `String` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/text_justification_test.py) [`C#`](../../src/csharp/challenges/Problems/TextJustification.cs) [`Go`](../../src/go/challenges/problems/text_justification_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `String` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/text_justification_test.py) [`C#`](../../src/csharp/challenges/Problems/TextJustification.cs) [`Go`](../../src/go/challenges/problems/text_justification_test.go)  
 
 ---
 

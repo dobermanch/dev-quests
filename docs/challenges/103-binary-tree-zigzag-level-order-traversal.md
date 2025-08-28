@@ -1,10 +1,8 @@
 # [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_zigzag_level_order_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeZigzagLevelOrderTraversal.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_zigzag_level_order_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeZigzagLevelOrderTraversal.cs)  
 
 ---
 

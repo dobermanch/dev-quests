@@ -1,10 +1,8 @@
 # [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Design` `Binary Search Tree` `Heap (Priority Queue)` `Binary Tree` `Data Stream`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KthLargestElementInAStream.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Design` `Binary Search Tree` `Heap (Priority Queue)` `Binary Tree` `Data Stream`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KthLargestElementInAStream.cs)  
 
 ---
 

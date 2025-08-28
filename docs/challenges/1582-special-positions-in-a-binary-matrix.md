@@ -1,10 +1,8 @@
 # [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/special_positions_in_a_binary_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/SpecialPositionsInABinaryMatrix.cs) [`Go`](../../src/go/challenges/problems/special_positions_in_a_binary_matrix_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/special_positions_in_a_binary_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/SpecialPositionsInABinaryMatrix.cs) [`Go`](../../src/go/challenges/problems/special_positions_in_a_binary_matrix_test.go) [`Rust`](../../src/rust/challenges/src/problems/special_positions_in_a_binary_matrix_test.rs)  
 
 ---
 

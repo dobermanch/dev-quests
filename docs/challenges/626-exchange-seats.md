@@ -1,10 +1,8 @@
 # [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ExchangeSeats.sql) [`MS SQL Server`](../../src/sql/challenges/ExchangeSeats.sql)  
 
 ---
 

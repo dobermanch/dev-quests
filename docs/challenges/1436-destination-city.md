@@ -1,10 +1,8 @@
 # [1436. Destination City](https://leetcode.com/problems/destination-city/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `String`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DestinationCity.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/destination_city_test.py) [`C#`](../../src/csharp/challenges/Problems/DestinationCity.cs) [`Go`](../../src/go/challenges/problems/destination_city_test.go) [`Rust`](../../src/rust/challenges/src/problems/destination_city_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/InvestmentsIn2016.sql) [`MS SQL Server`](../../src/sql/challenges/InvestmentsIn2016.sql)  
 
 ---
 

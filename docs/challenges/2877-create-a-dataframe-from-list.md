@@ -1,10 +1,8 @@
 # [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/create_a_dataframe_from_list_test.py)  
 
 ---
 

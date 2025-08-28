@@ -1,10 +1,8 @@
 # [2878. Get the Size of a DataFrame](https://leetcode.com/problems/get-the-size-of-a-dataframe/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/get_the_size_of_a_dataframe_test.py)  
 
 ---
 

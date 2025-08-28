@@ -1,10 +1,8 @@
 # [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/IsomorphicStrings.cs) [`Go`](../../src/go/challenges/problems/isomorphic_strings_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/IsomorphicStrings.cs) [`Go`](../../src/go/challenges/problems/isomorphic_strings_test.go)  
 
 ---
 

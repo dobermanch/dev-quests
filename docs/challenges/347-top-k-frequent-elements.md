@@ -1,10 +1,8 @@
 # [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TopKFrequentElements.cs) [`Go`](../../src/go/challenges/problems/top_k_frequent_elements_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Divide and Conquer` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting` `Quickselect`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TopKFrequentElements.cs) [`Go`](../../src/go/challenges/problems/top_k_frequent_elements_test.go)  
 
 ---
 
@@ -26,7 +24,7 @@ Given an integer array `nums` and an integer `k`, return *the* `k` *most frequen
 
 **Input:** nums = [1,2,1,2,1,2,3,1,3,2], k = 2
 
-**Output:** [-1]
+**Output:** [1,2]
 
 **Constraints:**
 

@@ -1,10 +1,8 @@
 # [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Dynamic Programming`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DominoAndTrominoTiling.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/domino_and_tromino_tiling_test.py) [`C#`](../../src/csharp/challenges/Problems/DominoAndTrominoTiling.cs) [`Go`](../../src/go/challenges/problems/domino_and_tromino_tiling_test.go)  
 
 ---
 

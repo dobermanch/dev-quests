@@ -1,10 +1,8 @@
 # [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/ConsecutiveNumbers.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ConsecutiveNumbers.sql) [`MS SQL Server`](../../src/sql/challenges/ConsecutiveNumbers.sql)  
 
 ---
 

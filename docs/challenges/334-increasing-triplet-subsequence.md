@@ -1,10 +1,8 @@
 # [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Greedy`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/increasing_triplet_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/IncreasingTripletSubsequence.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/increasing_triplet_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/IncreasingTripletSubsequence.cs)  
 
 ---
 

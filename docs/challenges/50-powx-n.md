@@ -1,10 +1,8 @@
 # [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Math` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/powx_n_test.py) [`C#`](../../src/csharp/challenges/Problems/PowxN.cs) [`Go`](../../src/go/challenges/problems/powx_n_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Math` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/powx_n_test.py) [`C#`](../../src/csharp/challenges/Problems/PowxN.cs) [`Go`](../../src/go/challenges/problems/powx_n_test.go)  
 
 ---
 

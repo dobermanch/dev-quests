@@ -1,10 +1,8 @@
 # [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `Linked List` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/linked_list_cycle_test.py) [`C#`](../../src/csharp/challenges/Problems/LinkedListCycle.cs) [`Go`](../../src/go/challenges/problems/linked_list_cycle_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `Linked List` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/linked_list_cycle_test.py) [`C#`](../../src/csharp/challenges/Problems/LinkedListCycle.cs) [`Go`](../../src/go/challenges/problems/linked_list_cycle_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1148. Article Views I](https://leetcode.com/problems/article-views-i/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/ArticleViewsI.sql) [`MS SQL Server`](../../src/sql/challenges/ArticleViewsI.sql)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Design` `Trie`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ImplementTriePrefixTree.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Design` `Trie`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ImplementTriePrefixTree.cs)  
 
 ---
 

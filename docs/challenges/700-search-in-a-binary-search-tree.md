@@ -1,10 +1,8 @@
 # [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchInABinarySearchTree.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchInABinarySearchTree.cs)  
 
 ---
 

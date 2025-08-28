@@ -1,10 +1,8 @@
 # [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/RecyclableAndLowFatProducts.sql) [`MS SQL Server`](../../src/sql/challenges/RecyclableAndLowFatProducts.sql)  
 
 ---
 

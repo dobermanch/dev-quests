@@ -1,10 +1,8 @@
 # [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/PercentageOfUsersAttendedAContest.sql) [`MS SQL Server`](../../src/sql/challenges/PercentageOfUsersAttendedAContest.sql)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/SecondHighestSalary.sql)
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/SecondHighestSalary.sql) [`MS SQL Server`](../../src/sql/challenges/SecondHighestSalary.sql)  
 
 ---
 

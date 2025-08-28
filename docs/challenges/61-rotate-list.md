@@ -1,10 +1,8 @@
 # [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RotateList.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RotateList.cs)  
 
 ---
 

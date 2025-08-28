@@ -1,10 +1,8 @@
 # [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/CountOfMatchesInTournament.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/count_of_matches_in_tournament_test.py) [`C#`](../../src/csharp/challenges/Problems/CountOfMatchesInTournament.cs) [`Go`](../../src/go/challenges/problems/count_of_matches_in_tournament_test.go) [`Rust`](../../src/rust/challenges/src/problems/count_of_matches_in_tournament_test.rs)  
 
 ---
 

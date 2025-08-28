@@ -1,10 +1,8 @@
 # [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/summary_ranges_test.py) [`C#`](../../src/csharp/challenges/Problems/SummaryRanges.cs) [`Go`](../../src/go/challenges/problems/summary_ranges_test.go) [`Rust`](../../src/rust/challenges/src/problems/summary_ranges_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Array`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/summary_ranges_test.py) [`C#`](../../src/csharp/challenges/Problems/SummaryRanges.cs) [`Go`](../../src/go/challenges/problems/summary_ranges_test.go) [`Rust`](../../src/rust/challenges/src/problems/summary_ranges_test.rs)  
 
 ---
 

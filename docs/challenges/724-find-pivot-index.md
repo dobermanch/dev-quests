@@ -1,10 +1,8 @@
 # [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Prefix Sum`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindPivotIndex.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Prefix Sum`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindPivotIndex.cs) [`Go`](../../src/go/challenges/problems/find_pivot_index_test.go)  
 
 ---
 

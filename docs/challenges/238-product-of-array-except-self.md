@@ -1,10 +1,8 @@
 # [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Prefix Sum`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ProductOfArrayExceptSelf.cs) [`Go`](../../src/go/challenges/problems/product_of_array_except_self_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Prefix Sum`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ProductOfArrayExceptSelf.cs) [`Go`](../../src/go/challenges/problems/product_of_array_except_self_test.go)  
 
 ---
 

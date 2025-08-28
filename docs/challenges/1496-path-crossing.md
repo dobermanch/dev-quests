@@ -1,10 +1,8 @@
 # [1496. Path Crossing](https://leetcode.com/problems/path-crossing/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/path_crossing_test.py) [`C#`](../../src/csharp/challenges/Problems/PathCrossing.cs) [`Go`](../../src/go/challenges/problems/path_crossing_test.go)  
 
 ---
 

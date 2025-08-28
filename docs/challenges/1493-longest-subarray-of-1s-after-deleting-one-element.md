@@ -1,10 +1,8 @@
 # [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/longest_subarray_of_1s_after_deleting_one_element_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestSubarrayOf1sAfterDeletingOneElement.cs) [`Go`](../../src/go/challenges/problems/longest_subarray_of_1s_after_deleting_one_element_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming` `Sliding Window`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_subarray_of_1s_after_deleting_one_element_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestSubarrayOf1sAfterDeletingOneElement.cs) [`Go`](../../src/go/challenges/problems/longest_subarray_of_1s_after_deleting_one_element_test.go)  
 
 ---
 

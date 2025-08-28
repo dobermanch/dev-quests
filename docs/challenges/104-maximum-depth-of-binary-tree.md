@@ -1,10 +1,8 @@
 # [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_depth_of_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumDepthOfBinaryTree.cs) [`Go`](../../src/go/challenges/problems/maximum_depth_of_binary_tree_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_depth_of_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumDepthOfBinaryTree.cs) [`Go`](../../src/go/challenges/problems/maximum_depth_of_binary_tree_test.go)  
 
 ---
 

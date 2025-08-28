@@ -1,10 +1,8 @@
 # [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Prefix Sum`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SubarraySumEqualsK.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Prefix Sum`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/subarray_sum_equals_k_test.py) [`C#`](../../src/csharp/challenges/Problems/SubarraySumEqualsK.cs)  
 
 ---
 

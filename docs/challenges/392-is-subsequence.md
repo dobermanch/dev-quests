@@ -1,10 +1,8 @@
 # [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/is_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/IsSubsequence.cs) [`Go`](../../src/go/challenges/problems/is_subsequence_test.go) [`Rust`](../../src/rust/challenges/src/problems/is_subsequence_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/is_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/IsSubsequence.cs) [`Go`](../../src/go/challenges/problems/is_subsequence_test.go) [`Rust`](../../src/rust/challenges/src/problems/is_subsequence_test.rs)  
 
 ---
 

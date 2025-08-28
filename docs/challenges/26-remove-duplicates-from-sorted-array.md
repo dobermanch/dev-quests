@@ -1,10 +1,8 @@
 # [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/remove_duplicates_from_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveDuplicatesFromSortedArray.cs) [`Go`](../../src/go/challenges/problems/remove_duplicates_from_sorted_array_test.go) [`Rust`](../../src/rust/challenges/src/problems/remove_duplicates_from_sorted_array_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/remove_duplicates_from_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveDuplicatesFromSortedArray.cs) [`Go`](../../src/go/challenges/problems/remove_duplicates_from_sorted_array_test.go) [`Rust`](../../src/rust/challenges/src/problems/remove_duplicates_from_sorted_array_test.rs)  
 
 ---
 

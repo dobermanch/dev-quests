@@ -664,17 +664,17 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/SecondHighestSalary.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/SecondHighestSalary.sql) [`MsSQL`](/src/sql/challenges/SecondHighestSalary.sql)  
 
 ### [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ConsecutiveNumbers.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ConsecutiveNumbers.sql) [`MsSQL`](/src/sql/challenges/ConsecutiveNumbers.sql)  
 
 ### [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/DepartmentTopThreeSalaries.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/DepartmentTopThreeSalaries.sql) [`MsSQL`](/src/sql/challenges/DepartmentTopThreeSalaries.sql)  
 
 ### [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 
@@ -699,12 +699,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/DeleteDuplicateEmails.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/DeleteDuplicateEmails.sql) [`MsSQL`](/src/sql/challenges/DeleteDuplicateEmails.sql)  
 
 ### [197. Rising Temperature](https://leetcode.com/problems/rising-temperature)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/RisingTemperature.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/RisingTemperature.sql) [`MsSQL`](/src/sql/challenges/RisingTemperature.sql)  
 
 ### [198. House Robber](https://leetcode.com/problems/house-robber/)
 
@@ -1134,7 +1134,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/GamePlayAnalysisIv.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/GamePlayAnalysisIv.sql) [`MsSQL`](/src/sql/challenges/GamePlayAnalysisIv.sql)  
 
 ### [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
@@ -1159,7 +1159,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [570. Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ManagersWithAtLeast5DirectReports.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ManagersWithAtLeast5DirectReports.sql) [`MsSQL`](/src/sql/challenges/ManagersWithAtLeast5DirectReports.sql)  
 
 ### [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
@@ -1169,17 +1169,17 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [577. Employee Bonus](https://leetcode.com/problems/employee-bonus)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/EmployeeBonus.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/EmployeeBonus.sql) [`MsSQL`](/src/sql/challenges/EmployeeBonus.sql)  
 
 ### [584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/FindCustomerReferee.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/FindCustomerReferee.sql) [`MsSQL`](/src/sql/challenges/FindCustomerReferee.sql)  
 
 ### [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/InvestmentsIn2016.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/InvestmentsIn2016.sql) [`MsSQL`](/src/sql/challenges/InvestmentsIn2016.sql)  
 
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
@@ -1189,17 +1189,17 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [595. Big Countries](https://leetcode.com/problems/big-countries/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/BigCountries.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/BigCountries.sql) [`MsSQL`](/src/sql/challenges/BigCountries.sql)  
 
 ### [596. Classes More Than 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ClassesWithAtLeast5Students.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ClassesWithAtLeast5Students.sql) [`MsSQL`](/src/sql/challenges/ClassesWithAtLeast5Students.sql)  
 
 ### [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/FriendRequestsIiWhoHasTheMostFriends.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/FriendRequestsIiWhoHasTheMostFriends.sql) [`MsSQL`](/src/sql/challenges/FriendRequestsIiWhoHasTheMostFriends.sql)  
 
 ### [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
@@ -1214,7 +1214,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/TriangleJudgement.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/TriangleJudgement.sql) [`MsSQL`](/src/sql/challenges/TriangleJudgement.sql)  
 
 ### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 
@@ -1224,7 +1224,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ExchangeSeats.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ExchangeSeats.sql) [`MsSQL`](/src/sql/challenges/ExchangeSeats.sql)  
 
 ### [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 
@@ -1234,12 +1234,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/BiggestSingleNumber.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/BiggestSingleNumber.sql) [`MsSQL`](/src/sql/challenges/BiggestSingleNumber.sql)  
 
 ### [620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/NotBoringMovies.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/NotBoringMovies.sql) [`MsSQL`](/src/sql/challenges/NotBoringMovies.sql)  
 
 ### [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
@@ -1474,7 +1474,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/CustomersWhoBoughtAllProducts.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/CustomersWhoBoughtAllProducts.sql) [`MsSQL`](/src/sql/challenges/CustomersWhoBoughtAllProducts.sql)  
 
 ### [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
@@ -1484,12 +1484,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1068. Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ProductSalesAnalysisI.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ProductSalesAnalysisI.sql) [`MsSQL`](/src/sql/challenges/ProductSalesAnalysisI.sql)  
 
 ### [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ProductSalesAnalysisIii.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ProductSalesAnalysisIii.sql) [`MsSQL`](/src/sql/challenges/ProductSalesAnalysisIii.sql)  
 
 ### [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)
 
@@ -1499,7 +1499,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1075. Project Employees I](https://leetcode.com/problems/project-employees-i/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ProjectEmployeesI.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ProjectEmployeesI.sql) [`MsSQL`](/src/sql/challenges/ProjectEmployeesI.sql)  
 
 ### [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 
@@ -1509,7 +1509,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/UserActivityForThePast30DaysI.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/UserActivityForThePast30DaysI.sql) [`MsSQL`](/src/sql/challenges/UserActivityForThePast30DaysI.sql)  
 
 ### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
@@ -1519,7 +1519,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1148. Article Views I](https://leetcode.com/problems/article-views-i/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ArticleViewsI.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ArticleViewsI.sql) [`MsSQL`](/src/sql/challenges/ArticleViewsI.sql)  
 
 ### [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)
 
@@ -1539,22 +1539,22 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ProductPriceAtAGivenDate.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ProductPriceAtAGivenDate.sql) [`MsSQL`](/src/sql/challenges/ProductPriceAtAGivenDate.sql)  
 
 ### [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ImmediateFoodDeliveryIi.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ImmediateFoodDeliveryIi.sql) [`MsSQL`](/src/sql/challenges/ImmediateFoodDeliveryIi.sql)  
 
 ### [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/MonthlyTransactionsI.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/MonthlyTransactionsI.sql) [`MsSQL`](/src/sql/challenges/MonthlyTransactionsI.sql)  
 
 ### [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/LastPersonToFitInTheBus.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/LastPersonToFitInTheBus.sql) [`MsSQL`](/src/sql/challenges/LastPersonToFitInTheBus.sql)  
 
 ### [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)
 
@@ -1564,7 +1564,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/QueriesQualityAndPercentage.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/QueriesQualityAndPercentage.sql) [`MsSQL`](/src/sql/challenges/QueriesQualityAndPercentage.sql)  
 
 ### [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
@@ -1579,7 +1579,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/AverageSellingPrice.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/AverageSellingPrice.sql) [`MsSQL`](/src/sql/challenges/AverageSellingPrice.sql)  
 
 ### [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points)
 
@@ -1594,7 +1594,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/StudentsAndExaminations.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/StudentsAndExaminations.sql) [`MsSQL`](/src/sql/challenges/StudentsAndExaminations.sql)  
 
 ### [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array)
 
@@ -1609,12 +1609,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/RestaurantGrowth.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/RestaurantGrowth.sql) [`MsSQL`](/src/sql/challenges/RestaurantGrowth.sql)  
 
 ### [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ListTheProductsOrderedInAPeriod.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ListTheProductsOrderedInAPeriod.sql) [`MsSQL`](/src/sql/challenges/ListTheProductsOrderedInAPeriod.sql)  
 
 ### [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule)
 
@@ -1624,7 +1624,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1341. Movie Rating](https://leetcode.com/problems/movie-rating)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/MovieRating.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/MovieRating.sql) [`MsSQL`](/src/sql/challenges/MovieRating.sql)  
 
 ### [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
@@ -1644,7 +1644,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ReplaceEmployeeIdWithTheUniqueIdentifier.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ReplaceEmployeeIdWithTheUniqueIdentifier.sql) [`MsSQL`](/src/sql/challenges/ReplaceEmployeeIdWithTheUniqueIdentifier.sql)  
 
 ### [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string)
 
@@ -1699,7 +1699,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/GroupSoldProductsByTheDate.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/GroupSoldProductsByTheDate.sql) [`MsSQL`](/src/sql/challenges/GroupSoldProductsByTheDate.sql)  
 
 ### [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
 
@@ -1714,12 +1714,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/FindUsersWithValidEMails.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/FindUsersWithValidEMails.sql) [`MsSQL`](/src/sql/challenges/FindUsersWithValidEMails.sql)  
 
 ### [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/PatientsWithACondition.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/PatientsWithACondition.sql) [`MsSQL`](/src/sql/challenges/PatientsWithACondition.sql)  
 
 ### [1531. String Compression II](https://leetcode.com/problems/string-compression-ii)
 
@@ -1739,7 +1739,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql) [`MsSQL`](/src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)  
 
 ### [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix)
 
@@ -1754,7 +1754,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/PercentageOfUsersAttendedAContest.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/PercentageOfUsersAttendedAContest.sql) [`MsSQL`](/src/sql/challenges/PercentageOfUsersAttendedAContest.sql)  
 
 ### [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points)
 
@@ -1769,7 +1769,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/AverageTimeOfProcessPerMachine.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/AverageTimeOfProcessPerMachine.sql) [`MsSQL`](/src/sql/challenges/AverageTimeOfProcessPerMachine.sql)  
 
 ### [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent)
 
@@ -1779,7 +1779,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/FixNamesInATable.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/FixNamesInATable.sql) [`MsSQL`](/src/sql/challenges/FixNamesInATable.sql)  
 
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
@@ -1794,7 +1794,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/InvalidTweets.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/InvalidTweets.sql) [`MsSQL`](/src/sql/challenges/InvalidTweets.sql)  
 
 ### [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)
 
@@ -1814,7 +1814,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql) [`MsSQL`](/src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql)  
 
 ### [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
 
@@ -1824,12 +1824,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/FindFollowersCount.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/FindFollowersCount.sql) [`MsSQL`](/src/sql/challenges/FindFollowersCount.sql)  
 
 ### [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/RecyclableAndLowFatProducts.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/RecyclableAndLowFatProducts.sql) [`MsSQL`](/src/sql/challenges/RecyclableAndLowFatProducts.sql)  
 
 ### [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)
 
@@ -1844,7 +1844,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/PrimaryDepartmentForEachEmployee.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/PrimaryDepartmentForEachEmployee.sql) [`MsSQL`](/src/sql/challenges/PrimaryDepartmentForEachEmployee.sql)  
 
 ### [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
@@ -1864,7 +1864,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/CountSalaryCategories.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/CountSalaryCategories.sql) [`MsSQL`](/src/sql/challenges/CountSalaryCategories.sql)  
 
 ### [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs)
 
@@ -1879,12 +1879,12 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/ConfirmationRate.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/ConfirmationRate.sql) [`MsSQL`](/src/sql/challenges/ConfirmationRate.sql)  
 
 ### [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql) [`MsSQL`](/src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql)  
 
 ### [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
@@ -1954,7 +1954,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher)
 
 **Topics:** `Database`  
-**Solutions:** [`SQL`](/src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)  
+**Solutions:** [`MySQL`](/src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql) [`MsSQL`](/src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)  
 
 ### [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
 

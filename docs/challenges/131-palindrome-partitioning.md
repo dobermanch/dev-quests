@@ -1,10 +1,8 @@
 # [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Dynamic Programming` `Backtracking`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PalindromePartitioning.cs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Dynamic Programming` `Backtracking`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PalindromePartitioning.cs)  
 
 ---
 

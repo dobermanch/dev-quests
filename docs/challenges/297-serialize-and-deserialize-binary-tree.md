@@ -1,10 +1,8 @@
 # [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `String` `Tree` `Depth-First Search` `Breadth-First Search` `Design` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SerializeAndDeserializeBinaryTree.cs)
+**Difficulty:** `Hard`  
+**Topics:** `String` `Tree` `Depth-First Search` `Breadth-First Search` `Design` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SerializeAndDeserializeBinaryTree.cs)  
 
 ---
 

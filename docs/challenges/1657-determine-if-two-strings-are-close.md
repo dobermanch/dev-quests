@@ -1,10 +1,8 @@
 # [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Sorting` `Counting`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Sorting` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/determine_if_two_strings_are_close_test.py) [`C#`](../../src/csharp/challenges/Problems/DetermineIfTwoStringsAreClose.cs) [`Go`](../../src/go/challenges/problems/determine_if_two_strings_are_close_test.go)  
 
 ---
 

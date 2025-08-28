@@ -1,10 +1,8 @@
 # [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Prefix Sum`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Prefix Sum`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RunningSumOf1dArray.cs) [`Go`](../../src/go/challenges/problems/running_sum_of_1d_array_test.go)  
 
 ---
 

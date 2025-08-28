@@ -1,10 +1,8 @@
 # [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_words_in_a_string_iii_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseWordsInAStringIii.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseWordsInAStringIii.cs)  
 
 ---
 

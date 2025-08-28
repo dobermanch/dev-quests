@@ -1,10 +1,8 @@
 # [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/swap_nodes_in_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/SwapNodesInPairs.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/swap_nodes_in_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/SwapNodesInPairs.cs)  
 
 ---
 

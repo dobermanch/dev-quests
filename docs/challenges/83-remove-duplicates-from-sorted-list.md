@@ -1,10 +1,8 @@
 # [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Linked List`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RemoveDuplicatesFromSortedList.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Linked List`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RemoveDuplicatesFromSortedList.cs)  
 
 ---
 

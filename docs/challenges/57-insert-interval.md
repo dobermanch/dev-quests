@@ -1,10 +1,8 @@
 # [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/InsertInterval.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/InsertInterval.cs)  
 
 ---
 

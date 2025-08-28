@@ -1,10 +1,8 @@
 # [2888. Reshape Data: Concatenate](https://leetcode.com/problems/reshape-data-concatenate/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/reshape_data_concatenate_test.py)  
 
 ---
 

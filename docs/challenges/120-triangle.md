@@ -1,10 +1,8 @@
 # [120. Triangle](https://leetcode.com/problems/triangle/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/Triangle.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/Triangle.cs)  
 
 ---
 

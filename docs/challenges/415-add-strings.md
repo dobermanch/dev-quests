@@ -1,10 +1,8 @@
 # [415. Add Strings](https://leetcode.com/problems/add-strings/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `String` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/add_strings_test.py) [`C#`](../../src/csharp/challenges/Problems/AddStrings.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `String` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/add_strings_test.py) [`C#`](../../src/csharp/challenges/Problems/AddStrings.cs)  
 
 ---
 

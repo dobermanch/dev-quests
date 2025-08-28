@@ -1,10 +1,8 @@
 # [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Math` `Recursion`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/add_two_numbers_test.py) [`C#`](../../src/csharp/challenges/Problems/AddTwoNumbers.cs) [`Go`](../../src/go/challenges/problems/add_two_numbers_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Math` `Recursion`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/add_two_numbers_test.py) [`C#`](../../src/csharp/challenges/Problems/AddTwoNumbers.cs) [`Go`](../../src/go/challenges/problems/add_two_numbers_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_path_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumPathSum.cs) [`Go`](../../src/go/challenges/problems/minimum_path_sum_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_path_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumPathSum.cs) [`Go`](../../src/go/challenges/problems/minimum_path_sum_test.go)  
 
 ---
 

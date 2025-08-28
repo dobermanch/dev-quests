@@ -1,10 +1,8 @@
 # [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/surrounded_regions_test.py) [`C#`](../../src/csharp/challenges/Problems/SurroundedRegions.cs) [`Go`](../../src/go/challenges/problems/surrounded_regions_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/surrounded_regions_test.py) [`C#`](../../src/csharp/challenges/Problems/SurroundedRegions.cs) [`Go`](../../src/go/challenges/problems/surrounded_regions_test.go)  
 
 ---
 

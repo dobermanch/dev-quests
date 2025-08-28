@@ -1,10 +1,8 @@
 # [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/QueriesQualityAndPercentage.sql) [`MS SQL Server`](../../src/sql/challenges/QueriesQualityAndPercentage.sql)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Math` `String` `Stack`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BasicCalculatorIi.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Math` `String` `Stack`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BasicCalculatorIi.cs)  
 
 ---
 

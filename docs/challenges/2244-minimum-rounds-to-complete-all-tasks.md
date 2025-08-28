@@ -1,10 +1,8 @@
 # [2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Greedy` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_rounds_to_complete_all_tasks_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumRoundsToCompleteAllTasks.cs) [`Go`](../../src/go/challenges/problems/minimum_rounds_to_complete_all_tasks_test.go) [`Rust`](../../src/rust/challenges/src/problems/minimum_rounds_to_complete_all_tasks_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Greedy` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_rounds_to_complete_all_tasks_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumRoundsToCompleteAllTasks.cs) [`Go`](../../src/go/challenges/problems/minimum_rounds_to_complete_all_tasks_test.go)  
 
 ---
 

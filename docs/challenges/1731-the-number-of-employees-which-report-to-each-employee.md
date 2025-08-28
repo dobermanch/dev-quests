@@ -1,10 +1,8 @@
 # [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql) [`MS SQL Server`](../../src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql)  
 
 ---
 

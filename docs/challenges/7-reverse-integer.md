@@ -1,10 +1,8 @@
 # [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Math`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_integer_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseInteger.cs) [`Go`](../../src/go/challenges/problems/reverse_integer_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Math`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_integer_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseInteger.cs) [`Go`](../../src/go/challenges/problems/reverse_integer_test.go)  
 
 ---
 

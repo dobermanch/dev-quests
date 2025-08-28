@@ -1,10 +1,8 @@
 # [290. Word Pattern](https://leetcode.com/problems/word-pattern/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/word_pattern_test.py) [`C#`](../../src/csharp/challenges/Problems/WordPattern.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/word_pattern_test.py) [`C#`](../../src/csharp/challenges/Problems/WordPattern.cs)  
 
 ---
 

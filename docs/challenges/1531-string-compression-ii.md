@@ -1,10 +1,8 @@
 # [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `String` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/string_compression_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/StringCompressionIi.cs)
+**Difficulty:** `Hard`  
+**Topics:** `String` `Dynamic Programming`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/StringCompressionIi.cs)  
 
 ---
 

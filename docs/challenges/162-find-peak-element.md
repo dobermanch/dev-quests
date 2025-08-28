@@ -1,10 +1,8 @@
 # [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_peak_element_test.py) [`C#`](../../src/csharp/challenges/Problems/FindPeakElement.cs) [`Go`](../../src/go/challenges/problems/find_peak_element_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_peak_element_test.py) [`C#`](../../src/csharp/challenges/Problems/FindPeakElement.cs) [`Go`](../../src/go/challenges/problems/find_peak_element_test.go)  
 
 ---
 

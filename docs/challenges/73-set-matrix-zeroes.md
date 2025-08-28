@@ -1,10 +1,8 @@
 # [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/set_matrix_zeroes_test.py) [`C#`](../../src/csharp/challenges/Problems/SetMatrixZeroes.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Matrix`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/set_matrix_zeroes_test.py) [`C#`](../../src/csharp/challenges/Problems/SetMatrixZeroes.cs)  
 
 ---
 

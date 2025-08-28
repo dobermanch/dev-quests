@@ -1,10 +1,8 @@
 # [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/task_scheduler_test.py) [`C#`](../../src/csharp/challenges/Problems/TaskScheduler.cs) [`Go`](../../src/go/challenges/problems/task_scheduler_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` `Counting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TaskScheduler.cs)  
 
 ---
 

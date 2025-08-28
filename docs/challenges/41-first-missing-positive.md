@@ -1,10 +1,8 @@
 # [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Hash Table`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/first_missing_positive_test.py) [`C#`](../../src/csharp/challenges/Problems/FirstMissingPositive.cs) [`Go`](../../src/go/challenges/problems/first_missing_positive_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Hash Table`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/first_missing_positive_test.py) [`C#`](../../src/csharp/challenges/Problems/FirstMissingPositive.cs) [`Go`](../../src/go/challenges/problems/first_missing_positive_test.go)  
 
 ---
 

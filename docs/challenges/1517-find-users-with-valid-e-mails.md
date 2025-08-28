@@ -1,10 +1,8 @@
 # [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/FindUsersWithValidEMails.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/FindUsersWithValidEMails.sql) [`MS SQL Server`](../../src/sql/challenges/FindUsersWithValidEMails.sql)  
 
 ---
 

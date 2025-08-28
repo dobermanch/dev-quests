@@ -1,10 +1,8 @@
 # [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `String`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Math` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/greatest_common_divisor_of_strings_test.py) [`C#`](../../src/csharp/challenges/Problems/GreatestCommonDivisorOfStrings.cs) [`Go`](../../src/go/challenges/problems/greatest_common_divisor_of_strings_test.go)  
 
 ---
 

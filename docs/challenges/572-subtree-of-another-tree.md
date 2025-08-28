@@ -1,10 +1,8 @@
 # [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `String Matching` `Binary Tree` `Hash Function`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `String Matching` `Binary Tree` `Hash Function`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/subtree_of_another_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/SubtreeOfAnotherTree.cs) [`Go`](../../src/go/challenges/problems/subtree_of_another_tree_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Graph`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_town_judge_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheTownJudge.cs) [`Go`](../../src/go/challenges/problems/find_the_town_judge_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Graph`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindTheTownJudge.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/TriangleJudgement.sql) [`MS SQL Server`](../../src/sql/challenges/TriangleJudgement.sql)  
 
 ---
 

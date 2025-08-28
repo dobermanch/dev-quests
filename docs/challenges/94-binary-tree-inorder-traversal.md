@@ -1,10 +1,8 @@
 # [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Stack` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_inorder_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeInorderTraversal.cs) [`Go`](../../src/go/challenges/problems/binary_tree_inorder_traversal_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Stack` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_inorder_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeInorderTraversal.cs) [`Go`](../../src/go/challenges/problems/binary_tree_inorder_traversal_test.go)  
 
 ---
 

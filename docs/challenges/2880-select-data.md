@@ -1,10 +1,8 @@
 # [2880. Select Data](https://leetcode.com/problems/select-data/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/select_data_test.py)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Dynamic Programming`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `String` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_common_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestCommonSubsequence.cs)  
 
 ---
 

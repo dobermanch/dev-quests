@@ -1,10 +1,8 @@
 # [46. Permutations](https://leetcode.com/problems/permutations/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Backtracking`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/Permutations.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Backtracking`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/Permutations.cs)  
 
 ---
 

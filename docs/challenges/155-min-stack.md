@@ -1,10 +1,8 @@
 # [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Stack` `Design`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinStack.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Stack` `Design`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinStack.cs)  
 
 ---
 

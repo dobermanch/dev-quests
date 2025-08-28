@@ -1,10 +1,8 @@
 # [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search` `Sliding Window` `Prefix Sum`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_size_subarray_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumSizeSubarraySum.cs) [`Go`](../../src/go/challenges/problems/minimum_size_subarray_sum_test.go) [`Rust`](../../src/rust/challenges/src/problems/minimum_size_subarray_sum_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search` `Sliding Window` `Prefix Sum`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_size_subarray_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumSizeSubarraySum.cs) [`Go`](../../src/go/challenges/problems/minimum_size_subarray_sum_test.go) [`Rust`](../../src/rust/challenges/src/problems/minimum_size_subarray_sum_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Two Pointers`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MoveZeroes.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Two Pointers`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MoveZeroes.cs)  
 
 ---
 

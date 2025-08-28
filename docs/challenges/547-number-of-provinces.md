@@ -1,10 +1,8 @@
 # [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Depth-First Search` `Breadth-First Search` `Union Find` `Graph`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Depth-First Search` `Breadth-First Search` `Union Find` `Graph`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOfProvinces.cs)  
 
 ---
 

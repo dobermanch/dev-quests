@@ -1,10 +1,8 @@
 # [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Math`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/calculate_money_in_leetcode_bank_test.py) [`C#`](../../src/csharp/challenges/Problems/CalculateMoneyInLeetcodeBank.cs) [`Go`](../../src/go/challenges/problems/calculate_money_in_leetcode_bank_test.go) [`Rust`](../../src/rust/challenges/src/problems/calculate_money_in_leetcode_bank_test.rs)  
 
 ---
 

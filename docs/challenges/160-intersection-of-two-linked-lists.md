@@ -1,10 +1,8 @@
 # [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `Linked List` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/intersection_of_two_linked_lists_test.py) [`C#`](../../src/csharp/challenges/Problems/IntersectionOfTwoLinkedLists.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `Linked List` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/intersection_of_two_linked_lists_test.py) [`C#`](../../src/csharp/challenges/Problems/IntersectionOfTwoLinkedLists.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [197. Rising Temperature](https://leetcode.com/problems/rising-temperature/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/RisingTemperature.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/RisingTemperature.sql) [`MS SQL Server`](../../src/sql/challenges/RisingTemperature.sql)  
 
 ---
 

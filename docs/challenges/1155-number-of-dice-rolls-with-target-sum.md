@@ -1,10 +1,8 @@
 # [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/number_of_dice_rolls_with_target_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/NumberOfDiceRollsWithTargetSum.cs) [`Go`](../../src/go/challenges/problems/number_of_dice_rolls_with_target_sum_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Dynamic Programming`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOfDiceRollsWithTargetSum.cs)  
 
 ---
 

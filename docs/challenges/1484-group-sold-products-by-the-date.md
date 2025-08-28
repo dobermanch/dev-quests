@@ -1,10 +1,8 @@
 # [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/GroupSoldProductsByTheDate.sql) [`MS SQL Server`](../../src/sql/challenges/GroupSoldProductsByTheDate.sql)  
 
 ---
 

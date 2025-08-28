@@ -1,10 +1,8 @@
 # [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/largest_3_same_digit_number_in_string_test.py) [`C#`](../../src/csharp/challenges/Problems/Largest3SameDigitNumberInString.cs) [`Go`](../../src/go/challenges/problems/largest_3_same_digit_number_in_string_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/largest_3_same_digit_number_in_string_test.py) [`C#`](../../src/csharp/challenges/Problems/Largest3SameDigitNumberInString.cs) [`Go`](../../src/go/challenges/problems/largest_3_same_digit_number_in_string_test.go) [`Rust`](../../src/rust/challenges/src/problems/largest_3_same_digit_number_in_string_test.rs)  
 
 ---
 

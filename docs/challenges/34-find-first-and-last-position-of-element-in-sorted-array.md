@@ -1,10 +1,8 @@
 # [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_first_and_last_position_of_element_in_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/FindFirstAndLastPositionOfElementInSortedArray.cs) [`Go`](../../src/go/challenges/problems/find_first_and_last_position_of_element_in_sorted_array_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_first_and_last_position_of_element_in_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/FindFirstAndLastPositionOfElementInSortedArray.cs) [`Go`](../../src/go/challenges/problems/find_first_and_last_position_of_element_in_sorted_array_test.go)  
 
 ---
 

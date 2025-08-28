@@ -1,10 +1,8 @@
 # [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `Hash Table` `Breadth-First Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/bus_routes_test.py) [`C#`](../../src/csharp/challenges/Problems/BusRoutes.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `Hash Table` `Breadth-First Search`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BusRoutes.cs)  
 
 ---
 

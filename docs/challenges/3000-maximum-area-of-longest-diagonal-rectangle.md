@@ -1,10 +1,8 @@
 # [3000. Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAreaOfLongestDiagonalRectangle.cs) [`Go`](../../src/go/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAreaOfLongestDiagonalRectangle.cs) [`Go`](../../src/go/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.go)  
 
 ---
 

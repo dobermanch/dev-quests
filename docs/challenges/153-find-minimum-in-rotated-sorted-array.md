@@ -1,10 +1,8 @@
 # [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_minimum_in_rotated_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/FindMinimumInRotatedSortedArray.cs) [`Go`](../../src/go/challenges/problems/find_minimum_in_rotated_sorted_array_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_minimum_in_rotated_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/FindMinimumInRotatedSortedArray.cs) [`Go`](../../src/go/challenges/problems/find_minimum_in_rotated_sorted_array_test.go)  
 
 ---
 

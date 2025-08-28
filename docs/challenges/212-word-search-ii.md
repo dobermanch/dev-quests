@@ -1,10 +1,8 @@
 # [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Array` `String` `Backtracking` `Trie` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/WordSearchIi.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Array` `String` `Backtracking` `Trie` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/WordSearchIi.cs)  
 
 ---
 

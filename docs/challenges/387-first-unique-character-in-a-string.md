@@ -1,10 +1,8 @@
 # [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String` `Queue` `Counting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FirstUniqueCharacterInAString.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String` `Queue` `Counting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FirstUniqueCharacterInAString.cs)  
 
 ---
 

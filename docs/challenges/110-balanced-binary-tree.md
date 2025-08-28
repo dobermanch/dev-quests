@@ -1,10 +1,8 @@
 # [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BalancedBinaryTree.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BalancedBinaryTree.cs)  
 
 ---
 

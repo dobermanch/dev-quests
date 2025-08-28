@@ -1,10 +1,8 @@
 # [2879. Display the First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/display_the_first_three_rows_test.py)  
 
 ---
 

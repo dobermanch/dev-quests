@@ -1,10 +1,8 @@
 # [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Math` `Recursion` `Queue` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_winner_of_the_circular_game_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheWinnerOfTheCircularGame.cs) [`Go`](../../src/go/challenges/problems/find_the_winner_of_the_circular_game_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Math` `Recursion` `Queue` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_winner_of_the_circular_game_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheWinnerOfTheCircularGame.cs)  
 
 ---
 

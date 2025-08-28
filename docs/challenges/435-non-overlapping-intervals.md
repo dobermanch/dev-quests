@@ -1,10 +1,8 @@
 # [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming` `Greedy` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/non_overlapping_intervals_test.py) [`C#`](../../src/csharp/challenges/Problems/NonOverlappingIntervals.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming` `Greedy` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/non_overlapping_intervals_test.py) [`C#`](../../src/csharp/challenges/Problems/NonOverlappingIntervals.cs)  
 
 ---
 

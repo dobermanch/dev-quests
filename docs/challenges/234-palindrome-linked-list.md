@@ -1,10 +1,8 @@
 # [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Linked List` `Two Pointers` `Stack` `Recursion`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PalindromeLinkedList.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Linked List` `Two Pointers` `Stack` `Recursion`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PalindromeLinkedList.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/difference_between_ones_and_zeros_in_row_and_column_test.py) [`C#`](../../src/csharp/challenges/Problems/DifferenceBetweenOnesAndZerosInRowAndColumn.cs) [`Go`](../../src/go/challenges/problems/difference_between_ones_and_zeros_in_row_and_column_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/difference_between_ones_and_zeros_in_row_and_column_test.py) [`C#`](../../src/csharp/challenges/Problems/DifferenceBetweenOnesAndZerosInRowAndColumn.cs) [`Go`](../../src/go/challenges/problems/difference_between_ones_and_zeros_in_row_and_column_test.go) [`Rust`](../../src/rust/challenges/src/problems/difference_between_ones_and_zeros_in_row_and_column_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseString.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseString.cs)  
 
 ---
 

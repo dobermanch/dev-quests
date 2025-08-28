@@ -1,10 +1,8 @@
 # [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Matrix` `Simulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/EqualRowAndColumnPairs.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Matrix` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/equal_row_and_column_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/EqualRowAndColumnPairs.cs) [`Go`](../../src/go/challenges/problems/equal_row_and_column_pairs_test.go)  
 
 ---
 

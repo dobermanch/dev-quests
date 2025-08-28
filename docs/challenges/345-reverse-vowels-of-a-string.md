@@ -1,10 +1,8 @@
 # [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_vowels_of_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseVowelsOfAString.cs) [`Go`](../../src/go/challenges/problems/reverse_vowels_of_a_string_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/reverse_vowels_of_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/ReverseVowelsOfAString.cs) [`Go`](../../src/go/challenges/problems/reverse_vowels_of_a_string_test.go)  
 
 ---
 

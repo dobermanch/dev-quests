@@ -1,10 +1,8 @@
 # [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Matrix`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/richest_customer_wealth_test.py) [`C#`](../../src/csharp/challenges/Problems/RichestCustomerWealth.cs) [`Go`](../../src/go/challenges/problems/richest_customer_wealth_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RichestCustomerWealth.cs)  
 
 ---
 

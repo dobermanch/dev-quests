@@ -1,10 +1,8 @@
 # [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers` `Stack`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MaximumTwinSumOfALinkedList.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers` `Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/maximum_twin_sum_of_a_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumTwinSumOfALinkedList.cs) [`Go`](../../src/go/challenges/problems/maximum_twin_sum_of_a_linked_list_test.go)  
 
 ---
 

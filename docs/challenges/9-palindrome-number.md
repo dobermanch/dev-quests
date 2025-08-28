@@ -1,10 +1,8 @@
 # [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/palindrome_number_test.py) [`C#`](../../src/csharp/challenges/Problems/PalindromeNumber.cs) [`Go`](../../src/go/challenges/problems/palindrome_number_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Math`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/palindrome_number_test.py) [`C#`](../../src/csharp/challenges/Problems/PalindromeNumber.cs) [`Go`](../../src/go/challenges/problems/palindrome_number_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinimumDistanceBetweenBstNodes.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_distance_between_bst_nodes_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumDistanceBetweenBstNodes.cs) [`Go`](../../src/go/challenges/problems/minimum_distance_between_bst_nodes_test.go)  
 
 ---
 

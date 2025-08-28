@@ -1,10 +1,8 @@
 # [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Dynamic Programming` `Recursion` `Memoization`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/fibonacci_number_test.py) [`C#`](../../src/csharp/challenges/Problems/FibonacciNumber.cs) [`Go`](../../src/go/challenges/problems/fibonacci_number_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Dynamic Programming` `Recursion` `Memoization`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FibonacciNumber.cs)  
 
 ---
 

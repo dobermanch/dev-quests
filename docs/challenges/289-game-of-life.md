@@ -1,10 +1,8 @@
 # [289. Game of Life](https://leetcode.com/problems/game-of-life/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Matrix` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/game_of_life_test.py) [`C#`](../../src/csharp/challenges/Problems/GameOfLife.cs) [`Go`](../../src/go/challenges/problems/game_of_life_test.go) [`Rust`](../../src/rust/challenges/src/problems/game_of_life_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Matrix` `Simulation`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/game_of_life_test.py) [`C#`](../../src/csharp/challenges/Problems/GameOfLife.cs) [`Go`](../../src/go/challenges/problems/game_of_life_test.go) [`Rust`](../../src/rust/challenges/src/problems/game_of_life_test.rs)  
 
 ---
 

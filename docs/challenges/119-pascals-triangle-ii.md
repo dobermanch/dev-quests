@@ -1,10 +1,8 @@
 # [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/pascals_triangle_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/PascalsTriangleIi.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/pascals_triangle_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/PascalsTriangleIi.cs)  
 
 ---
 

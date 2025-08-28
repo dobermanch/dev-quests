@@ -1,10 +1,8 @@
 # [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ValidateBinarySearchTree.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ValidateBinarySearchTree.cs)  
 
 ---
 

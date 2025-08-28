@@ -1,10 +1,8 @@
 # [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Linked List`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/copy_list_with_random_pointer_test.py) [`C#`](../../src/csharp/challenges/Problems/CopyListWithRandomPointer.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Linked List`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/copy_list_with_random_pointer_test.py) [`C#`](../../src/csharp/challenges/Problems/CopyListWithRandomPointer.cs)  
 
 ---
 

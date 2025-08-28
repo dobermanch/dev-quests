@@ -1,10 +1,8 @@
 # [2881. Create a New Column](https://leetcode.com/problems/create-a-new-column/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/create_a_new_column_test.py)  
 
 ---
 

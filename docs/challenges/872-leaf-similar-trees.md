@@ -1,10 +1,8 @@
 # [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/leaf_similar_trees_test.py) [`C#`](../../src/csharp/challenges/Problems/LeafSimilarTrees.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/leaf_similar_trees_test.py) [`C#`](../../src/csharp/challenges/Problems/LeafSimilarTrees.cs) [`Go`](../../src/go/challenges/problems/leaf_similar_trees_test.go)  
 
 ---
 

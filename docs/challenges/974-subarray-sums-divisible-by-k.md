@@ -1,10 +1,8 @@
 # [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Prefix Sum`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SubarraySumsDivisibleByK.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Prefix Sum`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SubarraySumsDivisibleByK.cs)  
 
 ---
 

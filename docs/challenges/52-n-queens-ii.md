@@ -1,10 +1,8 @@
 # [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Backtracking`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/n_queens_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/NQueensIi.cs) [`Go`](../../src/go/challenges/problems/n_queens_ii_test.go) [`Rust`](../../src/rust/challenges/src/problems/n_queens_ii_test.rs)
+**Difficulty:** `Hard`  
+**Topics:** `Backtracking`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/n_queens_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/NQueensIi.cs) [`Go`](../../src/go/challenges/problems/n_queens_ii_test.go) [`Rust`](../../src/rust/challenges/src/problems/n_queens_ii_test.rs)  
 
 ---
 

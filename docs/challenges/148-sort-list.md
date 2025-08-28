@@ -1,10 +1,8 @@
 # [148. Sort List](https://leetcode.com/problems/sort-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers` `Divide and Conquer` `Sorting` `Merge Sort`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SortList.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers` `Divide and Conquer` `Sorting` `Merge Sort`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SortList.cs)  
 
 ---
 

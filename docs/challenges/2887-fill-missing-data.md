@@ -1,10 +1,8 @@
 # [2887. Fill Missing Data](https://leetcode.com/problems/fill-missing-data/)
 
-**Difficulty:** `Easy`
-
-**Topics:** 
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:**   
+**Solutions:** [`Pandas`](../../src/python/challenges/problems/pandas/fill_missing_data_test.py)  
 
 ---
 

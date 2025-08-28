@@ -1,10 +1,8 @@
 # [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Linked List` `Stack` `Design` `Doubly-Linked List` `Data Stream`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignBrowserHistory.cs) [`Go`](../../src/go/challenges/problems/design_browser_history_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Linked List` `Stack` `Design` `Doubly-Linked List` `Data Stream`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DesignBrowserHistory.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `String` `Binary Search` `Design`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TimeBasedKeyValueStore.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `String` `Binary Search` `Design`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/TimeBasedKeyValueStore.cs)  
 
 ---
 

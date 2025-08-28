@@ -1,10 +1,8 @@
 # [136. Single Number](https://leetcode.com/problems/single-number/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Bit Manipulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SingleNumber.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SingleNumber.cs)  
 
 ---
 

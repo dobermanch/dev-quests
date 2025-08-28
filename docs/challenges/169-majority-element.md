@@ -1,10 +1,8 @@
 # [169. Majority Element](https://leetcode.com/problems/majority-element/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table` `Divide and Conquer` `Sorting` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/majority_element_test.py) [`C#`](../../src/csharp/challenges/Problems/MajorityElement.cs) [`Go`](../../src/go/challenges/problems/majority_element_test.go) [`Rust`](../../src/rust/challenges/src/problems/majority_element_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table` `Divide and Conquer` `Sorting` `Counting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/majority_element_test.py) [`C#`](../../src/csharp/challenges/Problems/MajorityElement.cs) [`Go`](../../src/go/challenges/problems/majority_element_test.go) [`Rust`](../../src/rust/challenges/src/problems/majority_element_test.rs)  
 
 ---
 

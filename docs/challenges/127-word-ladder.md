@@ -1,10 +1,8 @@
 # [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Hash Table` `String` `Breadth-First Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/word_ladder_test.py) [`C#`](../../src/csharp/challenges/Problems/WordLadder.cs) [`Go`](../../src/go/challenges/problems/word_ladder_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Hash Table` `String` `Breadth-First Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/word_ladder_test.py) [`C#`](../../src/csharp/challenges/Problems/WordLadder.cs) [`Go`](../../src/go/challenges/problems/word_ladder_test.go)  
 
 ---
 

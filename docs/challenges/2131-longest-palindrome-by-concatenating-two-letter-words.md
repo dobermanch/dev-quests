@@ -1,10 +1,8 @@
 # [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `String` `Greedy` `Counting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/longest_palindrome_by_concatenating_two_letter_words_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestPalindromeByConcatenatingTwoLetterWords.cs) [`Go`](../../src/go/challenges/problems/longest_palindrome_by_concatenating_two_letter_words_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `String` `Greedy` `Counting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestPalindromeByConcatenatingTwoLetterWords.cs)  
 
 ---
 

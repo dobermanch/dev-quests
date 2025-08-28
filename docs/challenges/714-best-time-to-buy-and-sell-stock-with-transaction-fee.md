@@ -1,10 +1,8 @@
 # [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Dynamic Programming` `Greedy`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BestTimeToBuyAndSellStockWithTransactionFee.cs) [`Go`](../../src/go/challenges/problems/best_time_to_buy_and_sell_stock_with_transaction_fee_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Dynamic Programming` `Greedy`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/best_time_to_buy_and_sell_stock_with_transaction_fee_test.py) [`C#`](../../src/csharp/challenges/Problems/BestTimeToBuyAndSellStockWithTransactionFee.cs) [`Go`](../../src/go/challenges/problems/best_time_to_buy_and_sell_stock_with_transaction_fee_test.go) [`Rust`](../../src/rust/challenges/src/problems/best_time_to_buy_and_sell_stock_with_transaction_fee_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/flatten_binary_tree_to_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/FlattenBinaryTreeToLinkedList.cs) [`Go`](../../src/go/challenges/problems/flatten_binary_tree_to_linked_list_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Stack` `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/flatten_binary_tree_to_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/FlattenBinaryTreeToLinkedList.cs) [`Go`](../../src/go/challenges/problems/flatten_binary_tree_to_linked_list_test.go)  
 
 ---
 

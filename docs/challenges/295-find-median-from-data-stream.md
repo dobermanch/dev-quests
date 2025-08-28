@@ -1,10 +1,8 @@
 # [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Two Pointers` `Design` `Sorting` `Heap (Priority Queue)` `Data Stream`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindMedianFromDataStream.cs)
+**Difficulty:** `Hard`  
+**Topics:** `Two Pointers` `Design` `Sorting` `Heap (Priority Queue)` `Data Stream`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/FindMedianFromDataStream.cs)  
 
 ---
 

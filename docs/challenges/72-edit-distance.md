@@ -1,10 +1,8 @@
 # [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Dynamic Programming`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/edit_distance_test.py) [`C#`](../../src/csharp/challenges/Problems/EditDistance.cs) [`Go`](../../src/go/challenges/problems/edit_distance_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Dynamic Programming`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/edit_distance_test.py) [`C#`](../../src/csharp/challenges/Problems/EditDistance.cs) [`Go`](../../src/go/challenges/problems/edit_distance_test.go)  
 
 ---
 

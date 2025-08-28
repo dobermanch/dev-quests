@@ -1,10 +1,8 @@
 # [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Sorting`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/widest_vertical_area_between_two_points_containing_no_points_test.py) [`C#`](../../src/csharp/challenges/Problems/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.cs) [`Go`](../../src/go/challenges/problems/widest_vertical_area_between_two_points_containing_no_points_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Sorting`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/widest_vertical_area_between_two_points_containing_no_points_test.py) [`C#`](../../src/csharp/challenges/Problems/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.cs) [`Go`](../../src/go/challenges/problems/widest_vertical_area_between_two_points_containing_no_points_test.go) [`Rust`](../../src/rust/challenges/src/problems/widest_vertical_area_between_two_points_containing_no_points_test.rs)  
 
 ---
 

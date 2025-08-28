@@ -1,10 +1,8 @@
 # [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MinimumAbsoluteDifferenceInBst.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_absolute_difference_in_bst_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumAbsoluteDifferenceInBst.cs) [`Go`](../../src/go/challenges/problems/minimum_absolute_difference_in_bst_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/FindCustomerReferee.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/FindCustomerReferee.sql) [`MS SQL Server`](../../src/sql/challenges/FindCustomerReferee.sql)  
 
 ---
 

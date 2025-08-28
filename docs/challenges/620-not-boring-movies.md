@@ -1,10 +1,8 @@
 # [620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/NotBoringMovies.sql) [`MS SQL Server`](../../src/sql/challenges/NotBoringMovies.sql)  
 
 ---
 

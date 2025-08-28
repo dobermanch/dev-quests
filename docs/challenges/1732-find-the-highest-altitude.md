@@ -1,10 +1,8 @@
 # [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Prefix Sum`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Prefix Sum`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/find_the_highest_altitude_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheHighestAltitude.cs) [`Go`](../../src/go/challenges/problems/find_the_highest_altitude_test.go)  
 
 ---
 

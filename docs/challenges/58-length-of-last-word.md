@@ -1,10 +1,8 @@
 # [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/length_of_last_word_test.py) [`C#`](../../src/csharp/challenges/Problems/LengthOfLastWord.cs) [`Go`](../../src/go/challenges/problems/length_of_last_word_test.go) [`Rust`](../../src/rust/challenges/src/problems/length_of_last_word_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/length_of_last_word_test.py) [`C#`](../../src/csharp/challenges/Problems/LengthOfLastWord.cs) [`Go`](../../src/go/challenges/problems/length_of_last_word_test.go) [`Rust`](../../src/rust/challenges/src/problems/length_of_last_word_test.rs)  
 
 ---
 

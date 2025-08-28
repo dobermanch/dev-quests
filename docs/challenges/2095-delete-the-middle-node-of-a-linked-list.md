@@ -1,10 +1,8 @@
 # [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Linked List` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/delete_the_middle_node_of_a_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/DeleteTheMiddleNodeOfALinkedList.cs) [`Go`](../../src/go/challenges/problems/delete_the_middle_node_of_a_linked_list_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Linked List` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/delete_the_middle_node_of_a_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/DeleteTheMiddleNodeOfALinkedList.cs) [`Go`](../../src/go/challenges/problems/delete_the_middle_node_of_a_linked_list_test.go)  
 
 ---
 

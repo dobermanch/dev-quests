@@ -1,10 +1,8 @@
 # [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Backtracking`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RestoreIpAddresses.cs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Backtracking`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RestoreIpAddresses.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/valid_palindrome_test.py) [`C#`](../../src/csharp/challenges/Problems/ValidPalindrome.cs) [`Go`](../../src/go/challenges/problems/valid_palindrome_test.go) [`Rust`](../../src/rust/challenges/src/problems/valid_palindrome_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/valid_palindrome_test.py) [`C#`](../../src/csharp/challenges/Problems/ValidPalindrome.cs) [`Go`](../../src/go/challenges/problems/valid_palindrome_test.go) [`Rust`](../../src/rust/challenges/src/problems/valid_palindrome_test.rs)  
 
 ---
 

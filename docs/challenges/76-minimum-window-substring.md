@@ -1,10 +1,8 @@
 # [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `Hash Table` `String` `Sliding Window`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_window_substring_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumWindowSubstring.cs) [`Go`](../../src/go/challenges/problems/minimum_window_substring_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `Hash Table` `String` `Sliding Window`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_window_substring_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumWindowSubstring.cs) [`Go`](../../src/go/challenges/problems/minimum_window_substring_test.go)  
 
 ---
 

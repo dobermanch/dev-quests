@@ -1,10 +1,8 @@
 # [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 
-**Difficulty:** `Hard`
-
-**Topics:** `String` `Dynamic Programming` `Stack`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/longest_valid_parentheses_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestValidParentheses.cs) [`Go`](../../src/go/challenges/problems/longest_valid_parentheses_test.go)
+**Difficulty:** `Hard`  
+**Topics:** `String` `Dynamic Programming` `Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/longest_valid_parentheses_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestValidParentheses.cs) [`Go`](../../src/go/challenges/problems/longest_valid_parentheses_test.go)  
 
 ---
 

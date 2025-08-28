@@ -1,10 +1,8 @@
 # [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Hash Table` `String` `Greedy`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestPalindrome.cs) [`Go`](../../src/go/challenges/problems/longest_palindrome_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Hash Table` `String` `Greedy`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LongestPalindrome.cs) [`Go`](../../src/go/challenges/problems/longest_palindrome_test.go)  
 
 ---
 

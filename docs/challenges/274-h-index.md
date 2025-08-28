@@ -1,10 +1,8 @@
 # [274. H-Index](https://leetcode.com/problems/h-index/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Sorting` `Counting Sort`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/h_index_test.py) [`C#`](../../src/csharp/challenges/Problems/HIndex.cs) [`Go`](../../src/go/challenges/problems/h_index_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Sorting` `Counting Sort`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/h_index_test.py) [`C#`](../../src/csharp/challenges/Problems/HIndex.cs) [`Go`](../../src/go/challenges/problems/h_index_test.go)  
 
 ---
 

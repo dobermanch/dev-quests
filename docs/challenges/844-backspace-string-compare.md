@@ -1,10 +1,8 @@
 # [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Two Pointers` `String` `Stack` `Simulation`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/backspace_string_compare_test.py) [`C#`](../../src/csharp/challenges/Problems/BackspaceStringCompare.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Two Pointers` `String` `Stack` `Simulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BackspaceStringCompare.cs)  
 
 ---
 

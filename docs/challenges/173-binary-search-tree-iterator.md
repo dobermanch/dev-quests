@@ -1,10 +1,8 @@
 # [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinarySearchTreeIterator.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinarySearchTreeIterator.cs)  
 
 ---
 

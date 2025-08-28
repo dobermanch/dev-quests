@@ -1,10 +1,8 @@
 # [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Linked List` `Design` `Doubly-Linked List`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LruCache.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Linked List` `Design` `Doubly-Linked List`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/LruCache.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `String` `Stack`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/simplify_path_test.py) [`C#`](../../src/csharp/challenges/Problems/SimplifyPath.cs) [`Go`](../../src/go/challenges/problems/simplify_path_test.go) [`Rust`](../../src/rust/challenges/src/problems/simplify_path_test.rs)
+**Difficulty:** `Medium`  
+**Topics:** `String` `Stack`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/simplify_path_test.py) [`C#`](../../src/csharp/challenges/Problems/SimplifyPath.cs) [`Go`](../../src/go/challenges/problems/simplify_path_test.go) [`Rust`](../../src/rust/challenges/src/problems/simplify_path_test.rs)  
 
 ---
 

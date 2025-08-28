@@ -1,10 +1,8 @@
 # [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/course_schedule_test.py) [`C#`](../../src/csharp/challenges/Problems/CourseSchedule.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Depth-First Search` `Breadth-First Search` `Graph` `Topological Sort`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/course_schedule_test.py) [`C#`](../../src/csharp/challenges/Problems/CourseSchedule.cs)  
 
 ---
 

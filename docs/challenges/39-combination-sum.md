@@ -1,10 +1,8 @@
 # [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Backtracking`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/CombinationSum.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Backtracking`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/CombinationSum.cs)  
 
 ---
 

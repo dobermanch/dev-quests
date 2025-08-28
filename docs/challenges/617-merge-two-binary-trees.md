@@ -1,10 +1,8 @@
 # [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/MergeTwoBinaryTrees.cs)  
 
 ---
 

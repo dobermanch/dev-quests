@@ -1,10 +1,8 @@
 # [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KthSmallestElementInABst.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/KthSmallestElementInABst.cs)  
 
 ---
 

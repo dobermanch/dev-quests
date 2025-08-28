@@ -1,10 +1,8 @@
 # [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Hash Table`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/two_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/TwoSum.cs) [`Go`](../../src/go/challenges/problems/two_sum_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/two_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/TwoSum.cs) [`Go`](../../src/go/challenges/problems/two_sum_test.go)  
 
 ---
 

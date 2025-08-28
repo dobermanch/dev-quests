@@ -1,10 +1,8 @@
 # [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DiameterOfBinaryTree.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/DiameterOfBinaryTree.cs)  
 
 ---
 

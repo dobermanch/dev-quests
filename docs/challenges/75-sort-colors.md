@@ -1,10 +1,8 @@
 # [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers` `Sorting`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SortColors.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers` `Sorting`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SortColors.cs)  
 
 ---
 

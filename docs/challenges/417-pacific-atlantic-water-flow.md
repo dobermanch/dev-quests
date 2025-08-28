@@ -1,10 +1,8 @@
 # [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PacificAtlanticWaterFlow.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PacificAtlanticWaterFlow.cs)  
 
 ---
 

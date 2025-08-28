@@ -1,10 +1,8 @@
 # [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Hash Table` `Matrix`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ValidSudoku.cs) [`Go`](../../src/go/challenges/problems/valid_sudoku_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Hash Table` `Matrix`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ValidSudoku.cs) [`Go`](../../src/go/challenges/problems/valid_sudoku_test.go)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql) [`MS SQL Server`](../../src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)  
 
 ---
 

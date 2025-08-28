@@ -1,10 +1,8 @@
 # [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchInRotatedSortedArray.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/SearchInRotatedSortedArray.cs)  
 
 ---
 

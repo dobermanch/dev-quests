@@ -1,10 +1,8 @@
 # [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Database`
-
-**Solutions:** [`MySQL`](../../src/sql/challenges/DeleteDuplicateEmails.sql)
+**Difficulty:** `Easy`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/DeleteDuplicateEmails.sql) [`MS SQL Server`](../../src/sql/challenges/DeleteDuplicateEmails.sql)  
 
 ---
 

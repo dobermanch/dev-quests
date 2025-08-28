@@ -1,10 +1,8 @@
 # [27. Remove Element](https://leetcode.com/problems/remove-element/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Two Pointers`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/remove_element_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveElement.cs) [`Go`](../../src/go/challenges/problems/remove_element_test.go) [`Rust`](../../src/rust/challenges/src/problems/remove_element_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Two Pointers`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/remove_element_test.py) [`C#`](../../src/csharp/challenges/Problems/RemoveElement.cs) [`Go`](../../src/go/challenges/problems/remove_element_test.go) [`Rust`](../../src/rust/challenges/src/problems/remove_element_test.rs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Math` `Dynamic Programming` `Memoization`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ClimbingStairs.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Math` `Dynamic Programming` `Memoization`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ClimbingStairs.cs)  
 
 ---
 

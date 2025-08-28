@@ -1,10 +1,8 @@
 # [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Math` `Dynamic Programming` `Breadth-First Search`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/perfect_squares_test.py) [`C#`](../../src/csharp/challenges/Problems/PerfectSquares.cs) [`Go`](../../src/go/challenges/problems/perfect_squares_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Math` `Dynamic Programming` `Breadth-First Search`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/perfect_squares_test.py) [`C#`](../../src/csharp/challenges/Problems/PerfectSquares.cs) [`Go`](../../src/go/challenges/problems/perfect_squares_test.go)  
 
 ---
 

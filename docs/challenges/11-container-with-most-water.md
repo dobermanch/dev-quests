@@ -1,10 +1,8 @@
 # [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Two Pointers` `Greedy`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ContainerWithMostWater.cs) [`Go`](../../src/go/challenges/problems/container_with_most_water_test.go)
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Two Pointers` `Greedy`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ContainerWithMostWater.cs) [`Go`](../../src/go/challenges/problems/container_with_most_water_test.go)  
 
 ---
 

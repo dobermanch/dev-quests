@@ -1,10 +1,8 @@
 # [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Hash Table` `Two Pointers` `String` `Sliding Window`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Hash Table` `Two Pointers` `String` `Sliding Window`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/PermutationInString.cs)  
 
 ---
 

@@ -1,10 +1,8 @@
 # [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Divide and Conquer` `Bit Manipulation`
-
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseBits.cs)
+**Difficulty:** `Easy`  
+**Topics:** `Divide and Conquer` `Bit Manipulation`  
+**Solutions:** [`C#`](../../src/csharp/challenges/Problems/ReverseBits.cs)  
 
 ---
 

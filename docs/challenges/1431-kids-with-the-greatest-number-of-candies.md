@@ -1,10 +1,8 @@
 # [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/kids_with_the_greatest_number_of_candies_test.py) [`C#`](../../src/csharp/challenges/Problems/KidsWithTheGreatestNumberOfCandies.cs) [`Go`](../../src/go/challenges/problems/kids_with_the_greatest_number_of_candies_test.go) [`Rust`](../../src/rust/challenges/src/problems/kids_with_the_greatest_number_of_candies_test.rs)
+**Difficulty:** `Easy`  
+**Topics:** `Array`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/kids_with_the_greatest_number_of_candies_test.py) [`C#`](../../src/csharp/challenges/Problems/KidsWithTheGreatestNumberOfCandies.cs) [`Go`](../../src/go/challenges/problems/kids_with_the_greatest_number_of_candies_test.go)  
 
 ---
 

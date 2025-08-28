@@ -1,10 +1,8 @@
 # [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Array` `Binary Search` `Sliding Window` `Prefix Sum`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Array` `Binary Search` `Sliding Window` `Prefix Sum`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/max_consecutive_ones_iii_test.py) [`C#`](../../src/csharp/challenges/Problems/MaxConsecutiveOnesIii.cs) [`Go`](../../src/go/challenges/problems/max_consecutive_ones_iii_test.go)  
 
 ---
 

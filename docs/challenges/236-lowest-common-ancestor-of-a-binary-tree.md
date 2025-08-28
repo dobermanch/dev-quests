@@ -1,10 +1,8 @@
 # [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Tree` `Depth-First Search` `Binary Tree`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/lowest_common_ancestor_of_a_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/LowestCommonAncestorOfABinaryTree.cs)
+**Difficulty:** `Medium`  
+**Topics:** `Tree` `Depth-First Search` `Binary Tree`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/lowest_common_ancestor_of_a_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/LowestCommonAncestorOfABinaryTree.cs)  
 
 ---
 

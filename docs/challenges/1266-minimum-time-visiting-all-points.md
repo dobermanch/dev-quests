@@ -1,10 +1,8 @@
 # [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)
 
-**Difficulty:** `Easy`
-
-**Topics:** `Array` `Math` `Geometry`
-
-**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_time_visiting_all_points_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumTimeVisitingAllPoints.cs) [`Go`](../../src/go/challenges/problems/minimum_time_visiting_all_points_test.go)
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Math` `Geometry`  
+**Solutions:** [`Python`](../../src/python/challenges/problems/minimum_time_visiting_all_points_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumTimeVisitingAllPoints.cs) [`Go`](../../src/go/challenges/problems/minimum_time_visiting_all_points_test.go)  
 
 ---
 

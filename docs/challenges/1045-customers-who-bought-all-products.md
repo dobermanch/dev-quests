@@ -1,10 +1,8 @@
 # [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)
 
-**Difficulty:** `Medium`
-
-**Topics:** `Database`
-
-**Solutions:** 
+**Difficulty:** `Medium`  
+**Topics:** `Database`  
+**Solutions:** [`MySQL`](../../src/sql/challenges/CustomersWhoBoughtAllProducts.sql) [`MS SQL Server`](../../src/sql/challenges/CustomersWhoBoughtAllProducts.sql)  
 
 ---
 
