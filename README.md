@@ -1064,7 +1064,7 @@ My solutions to [LeetCode](https://leetcode.com/SergiiCh/) problems.
 ### [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/)
 
 **Topics:** `Array` `Binary` `Search` `Sorting`  
-**Solutions:** [Python](/src/python/challenges/problems/find_right_interval_test.py), [C#](/src/csharp/challenges/Problems/FindRightInterval.cs), [Go](/src/go/challenges/problems/find_right_interval_test.go)  
+**Solutions:** [`Python`](/src/python/challenges/problems/find_right_interval_test.py), [`C#`](/src/csharp/challenges/Problems/FindRightInterval.cs), [`Go`](/src/go/challenges/problems/find_right_interval_test.go)  
 
 ### [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
