@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 180 |
-| Medium | 210 |
+| Medium | 211 |
 | Hard | 27 |
-| **Total** | 417 |
+| **Total** | 418 |
 
 ## Challenges  
 
@@ -432,3 +432,4 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 2890 | [Reshape Data: Melt](2890-reshape-data-melt.md) | `Easy`   |  | [`Pandas`](../../src/python/challenges/problems/pandas/reshape_data_melt_test.py)   |
 | 2891 | [Method Chaining](2891-method-chaining.md) | `Easy`   |  | [`Pandas`](../../src/python/challenges/problems/pandas/method_chaining_test.py)   |
 | 3000 | [Maximum Area of Longest Diagonal Rectangle](3000-maximum-area-of-longest-diagonal-rectangle.md) | `Easy`   | `Array`   | [`Python`](../../src/python/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAreaOfLongestDiagonalRectangle.cs) [`Go`](../../src/go/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.go)   |
+| 3446 | [Sort Matrix by Diagonals](3446-sort-matrix-by-diagonals.md) | `Medium`   | `Array` `Sorting` `Matrix`   | [`Python`](../../src/python/challenges/problems/sort_matrix_by_diagonals_test.py) [`C#`](../../src/csharp/challenges/Problems/SortMatrixByDiagonals.cs) [`Go`](../../src/go/challenges/problems/sort_matrix_by_diagonals_test.go)   |
