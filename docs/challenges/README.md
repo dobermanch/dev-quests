@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 180 |
-| Medium | 211 |
+| Medium | 213 |
 | Hard | 27 |
-| **Total** | 418 |
+| **Total** | 420 |
 
 ## Challenges  
 
@@ -211,6 +211,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 350 | [Intersection of Two Arrays II](350-intersection-of-two-arrays-ii.md) | `Easy`   | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting`   | [`C#`](../../src/csharp/challenges/Problems/IntersectionOfTwoArraysIi.cs)   |
 | 355 | [Design Twitter](355-design-twitter.md) | `Medium`   | `Hash Table` `Linked List` `Design` `Heap (Priority Queue)`   | [`C#`](../../src/csharp/challenges/Problems/DesignTwitter.cs)   |
 | 371 | [Sum of Two Integers](371-sum-of-two-integers.md) | `Medium`   | `Math` `Bit Manipulation`   | [`C#`](../../src/csharp/challenges/Problems/SumOfTwoIntegers.cs)   |
+| 373 | [Find K Pairs with Smallest Sums](373-find-k-pairs-with-smallest-sums.md) | `Medium`   | `Array` `Heap (Priority Queue)`   | [`Python`](../../src/python/challenges/problems/find_k_pairs_with_smallest_sums_test.py) [`C#`](../../src/csharp/challenges/Problems/FindKPairsWithSmallestSums.cs) [`Go`](../../src/go/challenges/problems/find_k_pairs_with_smallest_sums_test.go)   |
 | 374 | [Guess Number Higher or Lower](374-guess-number-higher-or-lower.md) | `Easy`   | `Binary Search` `Interactive`   | [`Python`](../../src/python/challenges/problems/guess_number_higher_or_lower_test.py) [`C#`](../../src/csharp/challenges/Problems/GuessNumberHigherOrLower.cs) [`Go`](../../src/go/challenges/problems/guess_number_higher_or_lower_test.go)   |
 | 380 | [Insert Delete GetRandom O(1)](380-insert-delete-getrandom-o1.md) | `Medium`   | `Array` `Hash Table` `Math` `Design` `Randomized`   | [`C#`](../../src/csharp/challenges/Problems/InsertDeleteGetrandomO1.cs)   |
 | 383 | [Ransom Note](383-ransom-note.md) | `Easy`   | `Hash Table` `String` `Counting`   | [`C#`](../../src/csharp/challenges/Problems/RansomNote.cs)   |
@@ -432,4 +433,5 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 2890 | [Reshape Data: Melt](2890-reshape-data-melt.md) | `Easy`   |  | [`Pandas`](../../src/python/challenges/problems/pandas/reshape_data_melt_test.py)   |
 | 2891 | [Method Chaining](2891-method-chaining.md) | `Easy`   |  | [`Pandas`](../../src/python/challenges/problems/pandas/method_chaining_test.py)   |
 | 3000 | [Maximum Area of Longest Diagonal Rectangle](3000-maximum-area-of-longest-diagonal-rectangle.md) | `Easy`   | `Array`   | [`Python`](../../src/python/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAreaOfLongestDiagonalRectangle.cs) [`Go`](../../src/go/challenges/problems/maximum_area_of_longest_diagonal_rectangle_test.go)   |
+| 3021 | [Alice and Bob Playing Flower Game](3021-alice-and-bob-playing-flower-game.md) | `Medium`   | `Math`   | [`Python`](../../src/python/challenges/problems/alice_and_bob_playing_flower_game_test.py) [`C#`](../../src/csharp/challenges/Problems/AliceAndBobPlayingFlowerGame.cs) [`Go`](../../src/go/challenges/problems/alice_and_bob_playing_flower_game_test.go)   |
 | 3446 | [Sort Matrix by Diagonals](3446-sort-matrix-by-diagonals.md) | `Medium`   | `Array` `Sorting` `Matrix`   | [`Python`](../../src/python/challenges/problems/sort_matrix_by_diagonals_test.py) [`C#`](../../src/csharp/challenges/Problems/SortMatrixByDiagonals.cs) [`Go`](../../src/go/challenges/problems/sort_matrix_by_diagonals_test.go)   |

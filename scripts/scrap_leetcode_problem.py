@@ -88,6 +88,21 @@ def fetch_leetcode_problem(slug: str, supportedLangs: List[str]) -> dict:
                     path=path
                 )
 
+        testcases = []
+        sampleParams = data.get("sampleTestCase").split('\n')
+        if len(sampleParams) > 0:
+            params = data.get("exampleTestcases", '').split('\n')
+            testcase = f"{params[0]}"
+            for i in range(1, len(params)):
+                if i % len(sampleParams) == 0:
+                    testcases.append(testcase)
+                    testcase = f"{params[i]}"
+                else:
+                    testcase += f" | {params[i]}"
+            
+            if testcase:
+                testcases.append(testcase)
+
         return ProblemInfo(
             slug=slug,
             id=data["questionFrontendId"],
@@ -96,7 +111,7 @@ def fetch_leetcode_problem(slug: str, supportedLangs: List[str]) -> dict:
             content=data["content"],
             topic_tags=[tag["name"] for tag in data.get("topicTags", [])],
             code_snippets=code_snippets,
-            example_testcases=data.get("exampleTestcases", []),
+            example_testcases=testcases,
             sample_testcase=data.get("sampleTestCase")
         )
     else:
@@ -185,7 +200,12 @@ public sealed class {name} : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => /* Test case here */ )
+        => Add(it => 
+/*
+Test cases
+{samples}
+*/
+          )
         ;
 
     private {return_type} Solution({params})
@@ -194,7 +214,7 @@ public sealed class {name} : ProblemBase
     }}
 }}
 """
-            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'])
+            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'], samples='\n'.join(problem.example_testcases))
         case "python":
             info = parse_method_signature(snippet.code, r'def\s+(?P<method_name>\w+)\s*\((?P<params>[^)]*)\)\s*->\s*(?P<return_type>[^\s:]+)')
             template = """
@@ -209,10 +229,13 @@ class {name}(ProblemBase):
 
 if __name__ == '__main__':
     TestGen({name}) \\
-        .Add(lambda tc: Test case here ) \\
+        .Add(lambda tc: Test cases here ) \\
         .Run()
+
+# Test cases
+{samples}
 """
-            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'])
+            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'], samples='\n'.join(f'# {test}' for test in problem.example_testcases))
         case "pythondata":
             info = parse_method_signature(snippet.code, r'def\s+(?P<method_name>\w+)\s*\((?P<params>[^)]*)\)\s*->\s*(?P<return_type>[^\s:]+)')
             template = """
@@ -228,10 +251,13 @@ class {name}(ProblemBase):
 
 if __name__ == '__main__':
     TestGen({name}) \\
-        .Add(lambda tc: Test case here ) \\
+        .Add(lambda tc: Test Cases here ) \\
         .Run()
+
+# Test cases
+{samples}
 """
-            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'])
+            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'], samples='\n'.join(f'# {test}' for test in problem.example_testcases))
         case "golang":
             info = parse_method_signature(snippet.code, r'func\s+(?P<method_name>\w+)\s*\((?P<params>[^)]*)\)\s*(?P<return_type>\[\[.*?\]\]|\[\].*?\w+|\w+)?\s*\{')
             template = """
@@ -249,7 +275,10 @@ type {name} struct{{}}
 func Test{name}(t *testing.T) {{
     gen := core.TestSuite[{name}]{{}}
     gen.Add(func(tc *core.TestCase) {{
-        // Test case here
+
+// Test cases here
+{samples}
+
     }}).Run(t)
 }}
 
@@ -257,45 +286,64 @@ func ({name}) Solution({params}) {return_type} {{
     // Solution is here
 }}
 """
-            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'])
+            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'], samples='\n'.join(f'// {test}' for test in problem.example_testcases))
         case "rust":
             info = parse_method_signature(snippet.code, r'pub\s+fn\s+(?P<method_name>\w+)\s*\((?P<params>[^)]*)\)\s*->\s*(?P<return_type>[^{\n]+)')
             template = """
 // https://leetcode.com/problems/{slug}
 
 pub fn solution({params}) -> {return_type} {{
-    // Solution is here
+// Solution is here
 }}
+
+// Test cases
+{samples}
 """
-            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'])
+            return template.format(slug=problem.slug, name=to_pascal_case(problem.slug), params=info['parameters'], return_type=info['return_type'], samples='\n'.join(f'// {test}' for test in problem.example_testcases))
         case "javascript":
             template = """
 // https://leetcode.com/problems/{slug}
 
 {snippet}
+
+// Test cases
+{samples}
 """
-            return template.format(slug=problem.slug, snippet=snippet.code)
+            return template.format(slug=problem.slug, snippet=snippet.code, samples='\n'.join(f'// {test}' for test in problem.example_testcases))
         case "typescript":
             template = """
 // https://leetcode.com/problems/{slug}
 
 {snippet}
+
+// Test cases
+{samples}
 """
-            return template.format(slug=problem.slug, snippet=snippet.code)
+            return template.format(slug=problem.slug, snippet=snippet.code, samples='\n'.join(f'// {test}' for test in problem.example_testcases))
         case "mysql":
             template = """
-/* https://leetcode.com/problems/{slug}
+/* https://leetcode.com/problems/{slug} */
 
 {snippet}
+
+/*
+Test Cases
+{samples}
+*/
 """
-            return template.format(slug=problem.slug, snippet=snippet.code)
+            return template.format(slug=problem.slug, snippet=snippet.code, samples='\n'.join(problem.example_testcases))
         case "mssql":
             template = """
-/* https://leetcode.com/problems/{slug}
+/* https://leetcode.com/problems/{slug} */
 
 {snippet}
+
+/*
+Test Cases
+{samples}
+*/
 """
-            return template.format(slug=problem.slug, snippet=snippet.code)
+            return template.format(slug=problem.slug, snippet=snippet.code, samples='\n'.join(problem.example_testcases))
 
 def parse_method_signature(code: str, pattern: str):
     match = re.search(pattern, code)
