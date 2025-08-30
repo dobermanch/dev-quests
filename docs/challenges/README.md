@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 180 |
-| Medium | 213 |
+| Medium | 214 |
 | Hard | 27 |
-| **Total** | 420 |
+| **Total** | 421 |
 
 ## Challenges  
 
@@ -66,6 +66,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 58 | [Length of Last Word](58-length-of-last-word.md) | `Easy`   | `String`   | [`Python`](../../src/python/challenges/problems/length_of_last_word_test.py) [`C#`](../../src/csharp/challenges/Problems/LengthOfLastWord.cs) [`Go`](../../src/go/challenges/problems/length_of_last_word_test.go) [`Rust`](../../src/rust/challenges/src/problems/length_of_last_word_test.rs)   |
 | 59 | [Spiral Matrix II](59-spiral-matrix-ii.md) | `Medium`   | `Array` `Matrix` `Simulation`   | [`Python`](../../src/python/challenges/problems/spiral_matrix_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SpiralMatrixIi.cs)   |
 | 61 | [Rotate List](61-rotate-list.md) | `Medium`   | `Linked List` `Two Pointers`   | [`C#`](../../src/csharp/challenges/Problems/RotateList.cs)   |
+| 63 | [Unique Paths II](63-unique-paths-ii.md) | `Medium`   | `Array` `Dynamic Programming` `Matrix`   | [`Python`](../../src/python/challenges/problems/unique_paths_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/UniquePathsIi.cs) [`Go`](../../src/go/challenges/problems/unique_paths_ii_test.go)   |
 | 64 | [Minimum Path Sum](64-minimum-path-sum.md) | `Medium`   | `Array` `Dynamic Programming` `Matrix`   | [`Python`](../../src/python/challenges/problems/minimum_path_sum_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumPathSum.cs) [`Go`](../../src/go/challenges/problems/minimum_path_sum_test.go)   |
 | 66 | [Plus One](66-plus-one.md) | `Easy`   | `Array` `Math`   | [`Python`](../../src/python/challenges/problems/plus_one_test.py) [`C#`](../../src/csharp/challenges/Problems/PlusOne.cs) [`Go`](../../src/go/challenges/problems/plus_one_test.go)   |
 | 67 | [Add Binary](67-add-binary.md) | `Easy`   | `Math` `String` `Bit Manipulation` `Simulation`   | [`Python`](../../src/python/challenges/problems/add_binary_test.py) [`C#`](../../src/csharp/challenges/Problems/AddBinary.cs) [`Go`](../../src/go/challenges/problems/add_binary_test.go)   |
