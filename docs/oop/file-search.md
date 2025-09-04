@@ -1,7 +1,7 @@
 # File Search
 
 **Topics:** `OOP`  
-**Solutions:** [`C#`](../../src/csharp/oop/FileSearch)  
+**Solutions:** [`Python`](../../src/python/oop/FileSearch) [`C#`](../../src/csharp/oop/FileSearch)  
 
 ## Rules
 
@@ -14,10 +14,18 @@ the user-defined filters to pinpoint matching files with speed and precision.
 
 ## Build and Run
 
+### C#
+
 ``` bash
 dotnet run --project ./FileSearch.csproj
 ```
 
 ``` bash
 dotnet test ./FileSearch.csproj
+```
+
+### Python
+
+``` bash
+python main.py
 ```

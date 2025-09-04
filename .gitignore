@@ -304,4 +304,4 @@ Cargo.lock
 
 src/**/Assesments
 
-src/typescript/dist
+src/**/dist
