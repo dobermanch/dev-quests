@@ -1,7 +1,7 @@
 # Movie Theater
 
 **Topics:** `OOP`  
-**Solutions:** [`C#`](../../src/csharp/oop/MovieTheater)  
+**Solutions:** [`Python`](../../src/python/oop/MovieTheater) [`C#`](../../src/csharp/oop/MovieTheater)  
 
 ## Rules
 
@@ -14,10 +14,19 @@ ticket pricing—all in real time—to ensure a smooth and responsive user exper
 
 ## Build and Run
 
+### C#
+
 ``` bash
 dotnet run --project ./MovieTheater.csproj
 ```
 
 ``` bash
 dotnet test ./MovieTheater.csproj
+```
+
+### Python
+
+
+``` bash
+python main.py
 ```

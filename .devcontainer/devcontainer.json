@@ -23,7 +23,8 @@
                 "github.vscode-github-actions",
                 "cweijan.vscode-mysql-client2",
                 "rogalmic.bash-debug",
-                "lfm.vscode-makefile-term"
+                "lfm.vscode-makefile-term",
+                "EditorConfig.EditorConfig"
             ]
         }
     },
