@@ -1,7 +1,7 @@
 # Parking Lot
 
 **Topics:** `OOP`  
-**Solutions:** [`C#`](../../src/csharp/oop/ParkingLot)  
+**Solutions:** [`Python`](../../src/python/oop/ParkingLot) [`C#`](../../src/csharp/oop/ParkingLot)  
 
 ## Rules
 
@@ -14,10 +14,18 @@ and updates real-time availability to ensure efficient turnover.
 
 ## Build and Run
 
+### C#
+
 ``` bash
 dotnet run --project ./ParkingLot.csproj
 ```
 
 ``` bash
 dotnet test ./ParkingLot.csproj
+```
+
+### Python
+
+``` bash
+python main.py
 ```
