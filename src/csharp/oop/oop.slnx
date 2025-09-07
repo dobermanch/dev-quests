@@ -4,4 +4,5 @@
   <Project Path="MovieTheater\MovieTheater.csproj" Type="Classic C#" />
   <Project Path="ParkingLot\ParkingLot.csproj" Type="Classic C#" />
   <Project Path="VendingMachine\VendingMachine.csproj" Type="Classic C#" />
+  <Project Path="ElevatorSystem\ElevatorSystem.csproj" Type="Classic C#" />
 </Solution>
