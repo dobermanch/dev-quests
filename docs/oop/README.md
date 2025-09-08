@@ -11,3 +11,4 @@ A collection of my solutions to OOP development challenges.
 - [Vending Machine](vending-machine.md)
 - [Elevator System](elevator-system.md)
 - [Tic-TAc-Toe](tic-tac-toe.md)
+- [Blackjack](blackjack.md)
