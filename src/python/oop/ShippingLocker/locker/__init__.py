@@ -1,6 +1,6 @@
 from .locker_system import *
 from .dimensions import *
-from .locker_manager import *
+from .locker_site import *
 from .locker_policy import *
 from .locker import *
 from .notification_system import *

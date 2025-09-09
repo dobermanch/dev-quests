@@ -1,18 +1,18 @@
 from .locker import *
-from .locker_manager import LockerManager
+from .locker_site import LockerSite
 from .notification_system import NotificationSystem
 from .package import *
 from .price_calculator import PriceCalculator
 
-class LockerSite:
+class LockerSystem:
     def __init__(self, location: str, locker_sizes: list[(LockerSize, int)]):
         self._location = location
-        self._locker_manager = LockerManager(locker_sizes)
+        self._locker_site = LockerSite(locker_sizes)
         self._notification = NotificationSystem()
         self._price_calculator = PriceCalculator()
 
     def add_package(self, package: Package) -> Locker:
-        locker = self._locker_manager.assign_locker(package)
+        locker = self._locker_site.assign_locker(package)
         if not locker:
             print("The suitable locker not found")
             return
@@ -24,7 +24,7 @@ class LockerSite:
         return locker
 
     def get_package(self, access_code: str) -> bool:
-        locker = self._locker_manager.get_locker(access_code)
+        locker = self._locker_site.get_locker(access_code)
         if not locker:
             print("The access code is not valid")
             return False
@@ -36,12 +36,12 @@ class LockerSite:
 
         self._notification.package_retrieved(package)
 
-        self._locker_manager.release_locker(locker)
+        self._locker_site.release_locker(locker)
 
         return True
 
     def release_expired_lockers(self) -> None:
-        lockers = self._locker_manager.get_expired_lockers()
+        lockers = self._locker_site.get_expired_lockers()
 
         for locker in lockers:
             package = locker.package
@@ -51,4 +51,4 @@ class LockerSite:
 
             self._notification.package_expired(package)
 
-            self._locker_manager.release_locker(locker)
+            self._locker_site.release_locker(locker)

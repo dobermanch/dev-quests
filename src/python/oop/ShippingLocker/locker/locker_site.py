@@ -3,7 +3,7 @@ import random
 from .locker import *
 from .package import *
 
-class LockerManager:
+class LockerSite:
     def __init__(self, sizes: list[(LockerSize, int)]):
         self._locker_to_code = {}
         self._code_to_lockers = {}

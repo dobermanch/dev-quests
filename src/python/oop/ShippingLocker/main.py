@@ -9,7 +9,7 @@ def main():
     medium = LockerSize(LockerSizeType.MEDIUM, Dimensions(10.0, 20.0, 20.0))
     large = LockerSize(LockerSizeType.LARGE, Dimensions(20.0, 30.0, 30.0))
 
-    system = LockerSite("Address 123", [(small, 20), (medium, 10), (large, 5)])
+    system = LockerSystem("Address 123", [(small, 20), (medium, 10), (large, 5)])
 
     system.add_package(package)
     print("Enter access code:", end=" ")
