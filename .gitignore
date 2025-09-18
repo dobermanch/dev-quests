@@ -275,7 +275,7 @@ _dependentPackages/
 
 .DS_Store
 
-# Ignore docuntation 
+# Ignore docuntation
 docs/reference
 
 # Identity Server developer key
@@ -303,5 +303,8 @@ Cargo.lock
 *.pdb
 
 src/**/Assesments
+src/**/assesments
+
 
 src/**/dist
+src/**/.venv
