@@ -1,7 +1,7 @@
 # Parking Lot
 
-**Topics:** `OOP`  
-**Solutions:** [`Python`](../../src/python/oop/ParkingLot) [`C#`](../../src/csharp/oop/ParkingLot)  
+**Topics:** `OOP`
+**Solutions:** [`Python`](../../src/python/oop/ParkingLot) [`C#`](../../src/csharp/oop/ParkingLot) [`Go`](../../src/go/oop/ParkingLot)
 
 ## Rules
 
@@ -28,4 +28,10 @@ dotnet test ./ParkingLot.csproj
 
 ``` bash
 python main.py
+```
+
+### Go
+
+``` bash
+go run ./cmd/parking
 ```
