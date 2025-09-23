@@ -1,7 +1,7 @@
 # File Search
 
-**Topics:** `OOP`  
-**Solutions:** [`Python`](../../src/python/oop/FileSearch) [`C#`](../../src/csharp/oop/FileSearch)  
+**Topics:** `OOP`
+**Solutions:** [`Python`](../../src/python/oop/FileSearch) [`C#`](../../src/csharp/oop/FileSearch) [`Go`](../../src/go/oop/FileSearch)
 
 ## Rules
 
@@ -28,4 +28,10 @@ dotnet test ./FileSearch.csproj
 
 ``` bash
 python main.py
+```
+
+### Go
+
+``` bash
+go run ./cmd/search
 ```
