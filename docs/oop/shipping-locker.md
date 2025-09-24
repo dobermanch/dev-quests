@@ -1,7 +1,7 @@
 # Shipping Locker System
 
 **Topics:** `OOP`
-**Solutions:** [`Python`](../../src/python/oop/ShippingLocker) [`C#`](../../src/csharp/oop/ShippingLocker)
+**Solutions:** [`Python`](../../src/python/oop/ShippingLocker) [`C#`](../../src/csharp/oop/ShippingLocker) [`Go`](../../src/go/oop/ShippingLocker)
 
 ## Rules
 
@@ -23,4 +23,11 @@ dotnet test ./ShippingLocker.csproj
 
 ``` bash
 python main.py
+```
+
+
+### Go
+
+``` bash
+go run ./cmd/locker
 ```
