@@ -1,7 +1,7 @@
 # Vending Machine
 
 **Topics:** `OOP`
-**Solutions:** [`Python`](../../src/python/oop/VendingMachine) [`C#`](../../src/csharp/oop/VendingMachine)
+**Solutions:** [`Python`](../../src/python/oop/VendingMachine) [`C#`](../../src/csharp/oop/VendingMachine) [`Go`](../../src/go/oop/VendingMachine)
 
 ## Rules
 
@@ -23,4 +23,10 @@ dotnet test ./VendingMachine.csproj
 
 ``` bash
 python main.py
+```
+
+### Go
+
+``` bash
+go run ./cmd/vending
 ```
