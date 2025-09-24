@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 **Topics:** `OOP`
-**Solutions:** [`Python`](../../src/python/oop/TicTacToe) [`C#`](../../src/csharp/oop/TicTacToe)
+**Solutions:** [`Python`](../../src/python/oop/TicTacToe) [`C#`](../../src/csharp/oop/TicTacToe) [`Go`](../../src/go/oop/TicTacToe)
 
 ## Rules
 
@@ -23,4 +23,10 @@ dotnet test ./TicTacToe.csproj
 
 ``` bash
 python main.py
+```
+
+### Go
+
+``` bash
+go run ./cmd/game
 ```
