@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/challenges/">
+    <Project Path="challenges\Challenges.Tests.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/oop/">
+    <Project Path="oop\ElevatorSystem\ElevatorSystem.csproj" Type="Classic C#" />
+    <Project Path="oop\FileSearch\FileSearch.csproj" Type="Classic C#" />
+    <Project Path="oop\Hearthstone\Hearthstone.csproj" Type="Classic C#" />
+    <Project Path="oop\MovieTheater\MovieTheater.csproj" Type="Classic C#" />
+    <Project Path="oop\ParkingLot\ParkingLot.csproj" Type="Classic C#" />
+    <Project Path="oop\Snake\Snake.csproj" Type="Classic C#" />
+    <Project Path="oop\TicTacToe\TicTacToe.csproj" Type="Classic C#" />
+    <Project Path="oop\VendingMachine\VendingMachine.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>

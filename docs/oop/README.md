@@ -13,3 +13,4 @@ A collection of my solutions to OOP development challenges.
 - [Tic-TAc-Toe](tic-tac-toe.md)
 - [Blackjack](blackjack.md)
 - [Shipping Locker System](shipping-locker.md)
+- [Snake](snake.md)
