@@ -14,3 +14,4 @@ A collection of my solutions to OOP development challenges.
 - [Blackjack](blackjack.md)
 - [Shipping Locker System](shipping-locker.md)
 - [Snake](snake.md)
+- [Rate Limiter](rate-limiter.md)

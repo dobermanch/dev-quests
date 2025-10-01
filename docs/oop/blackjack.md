@@ -1,6 +1,7 @@
 # Blackjack
 
 **Topics:** `OOP`
+
 **Solutions:** [`Python`](../../src/python/oop/Blackjack) [`C#`](../../src/csharp/oop/Blackjack)
 
 ## Rules

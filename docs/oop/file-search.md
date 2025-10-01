@@ -1,6 +1,7 @@
 # File Search
 
 **Topics:** `OOP`
+
 **Solutions:** [`Python`](../../src/python/oop/FileSearch) [`C#`](../../src/csharp/oop/FileSearch) [`Go`](../../src/go/oop/FileSearch)
 
 ## Rules

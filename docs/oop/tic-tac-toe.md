@@ -1,6 +1,7 @@
 # Tic-Tac-Toe
 
 **Topics:** `OOP`
+
 **Solutions:** [`Python`](../../src/python/oop/TicTacToe) [`C#`](../../src/csharp/oop/TicTacToe) [`Go`](../../src/go/oop/TicTacToe)
 
 ## Rules

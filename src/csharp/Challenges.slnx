@@ -11,5 +11,6 @@
     <Project Path="oop\Snake\Snake.csproj" Type="Classic C#" />
     <Project Path="oop\TicTacToe\TicTacToe.csproj" Type="Classic C#" />
     <Project Path="oop\VendingMachine\VendingMachine.csproj" Type="Classic C#" />
+    <Project Path="oop\RateLimiter\RateLimiter.csproj" Type="Classic C#" />
   </Folder>
 </Solution>

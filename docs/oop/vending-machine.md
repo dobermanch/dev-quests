@@ -1,6 +1,7 @@
 # Vending Machine
 
 **Topics:** `OOP`
+
 **Solutions:** [`Python`](../../src/python/oop/VendingMachine) [`C#`](../../src/csharp/oop/VendingMachine) [`Go`](../../src/go/oop/VendingMachine)
 
 ## Rules

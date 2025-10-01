@@ -1,7 +1,8 @@
 # Hearthstone
 
-**Topics:** `OOP`  
-**Solutions:** [`C#`](../../src/csharp/oop/Hearthstone)  
+**Topics:** `OOP`
+
+**Solutions:** [`C#`](../../src/csharp/oop/Hearthstone)
 
 ## Rules
 
