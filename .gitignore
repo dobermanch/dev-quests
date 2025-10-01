@@ -302,8 +302,8 @@ Cargo.lock
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
 
-src/**/Assesments
-src/**/assesments
+**/Assesments
+**/assesments
 
 
 src/**/dist
