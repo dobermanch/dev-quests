@@ -15,3 +15,4 @@ A collection of my solutions to OOP development challenges.
 - [Shipping Locker System](shipping-locker.md)
 - [Snake](snake.md)
 - [Rate Limiter](rate-limiter.md)
+- [ATM (Automated Teller Machine)](atm.md)

@@ -8,4 +8,5 @@
   <Project Path="TicTacToe\TicTacToe.csproj" Type="Classic C#" />
   <Project Path="Snake\Snake.csproj" Type="Classic C#" />
   <Project Path="RateLimiter\RateLimiter.csproj" Type="Classic C#" />
+  <Project Path="Atm\Atm.csproj" Type="Classic C#" />
 </Solution>
