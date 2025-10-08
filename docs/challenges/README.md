@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 180 |
 | Medium | 214 |
-| Hard | 27 |
-| **Total** | 421 |
+| Hard | 28 |
+| **Total** | 422 |
 
 ## Challenges  
 
@@ -47,6 +47,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 34 | [Find First and Last Position of Element in Sorted Array](34-find-first-and-last-position-of-element-in-sorted-array.md) | `Medium`   | `Array` `Binary Search`   | [`Python`](../../src/python/challenges/problems/find_first_and_last_position_of_element_in_sorted_array_test.py) [`C#`](../../src/csharp/challenges/Problems/FindFirstAndLastPositionOfElementInSortedArray.cs) [`Go`](../../src/go/challenges/problems/find_first_and_last_position_of_element_in_sorted_array_test.go)   |
 | 35 | [Search Insert Position](35-search-insert-position.md) | `Easy`   | `Array` `Binary Search`   | [`C#`](../../src/csharp/challenges/Problems/SearchInsertPosition.cs)   |
 | 36 | [Valid Sudoku](36-valid-sudoku.md) | `Medium`   | `Array` `Hash Table` `Matrix`   | [`C#`](../../src/csharp/challenges/Problems/ValidSudoku.cs) [`Go`](../../src/go/challenges/problems/valid_sudoku_test.go)   |
+| 37 | [Sudoku Solver](37-sudoku-solver.md) | `Hard`   | `Array` `Hash Table` `Backtracking` `Matrix`   | [`Python`](../../src/python/challenges/problems/sudoku_solver_test.py) [`C#`](../../src/csharp/challenges/Problems/SudokuSolver.cs) [`Go`](../../src/go/challenges/problems/sudoku_solver_test.go)   |
 | 39 | [Combination Sum](39-combination-sum.md) | `Medium`   | `Array` `Backtracking`   | [`C#`](../../src/csharp/challenges/Problems/CombinationSum.cs)   |
 | 41 | [First Missing Positive](41-first-missing-positive.md) | `Hard`   | `Array` `Hash Table`   | [`Python`](../../src/python/challenges/problems/first_missing_positive_test.py) [`C#`](../../src/csharp/challenges/Problems/FirstMissingPositive.cs) [`Go`](../../src/go/challenges/problems/first_missing_positive_test.go)   |
 | 42 | [Trapping Rain Water](42-trapping-rain-water.md) | `Hard`   | `Array` `Two Pointers` `Dynamic Programming` `Stack` `Monotonic Stack`   | [`Python`](../../src/python/challenges/problems/trapping_rain_water_test.py) [`C#`](../../src/csharp/challenges/Problems/TrappingRainWater.cs) [`Go`](../../src/go/challenges/problems/trapping_rain_water_test.go) [`Rust`](../../src/rust/challenges/src/problems/trapping_rain_water_test.rs)   |
