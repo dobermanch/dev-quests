@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 188 |
+| Easy | 189 |
 | Medium | 219 |
 | Hard | 30 |
-| **Total** | 437 |
+| **Total** | 438 |
 
 ## Challenges  
 
@@ -327,6 +327,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1004 | [Max Consecutive Ones III](1004-max-consecutive-ones-iii.md) | `Medium`   | `Array` `Binary Search` `Sliding Window` `Prefix Sum`   | [`Python`](../../src/python/challenges/problems/max_consecutive_ones_iii_test.py) [`C#`](../../src/csharp/challenges/Problems/MaxConsecutiveOnesIii.cs) [`Go`](../../src/go/challenges/problems/max_consecutive_ones_iii_test.go)   |
 | 1045 | [Customers Who Bought All Products](1045-customers-who-bought-all-products.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/CustomersWhoBoughtAllProducts.sql) [`MS SQL Server`](../../src/sql/challenges/CustomersWhoBoughtAllProducts.sql)   |
 | 1046 | [Last Stone Weight](1046-last-stone-weight.md) | `Easy`   | `Array` `Heap (Priority Queue)`   | [`C#`](../../src/csharp/challenges/Problems/LastStoneWeight.cs)   |
+| 1050 | [Actors and Directors Who Cooperated At Least Three Times](1050-actors-and-directors-who-cooperated-at-least-three-times.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql)   |
 | 1068 | [Product Sales Analysis I](1068-product-sales-analysis-i.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ProductSalesAnalysisI.sql) [`MS SQL Server`](../../src/sql/challenges/ProductSalesAnalysisI.sql)   |
 | 1070 | [Product Sales Analysis III](1070-product-sales-analysis-iii.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ProductSalesAnalysisIii.sql) [`MS SQL Server`](../../src/sql/challenges/ProductSalesAnalysisIii.sql)   |
 | 1071 | [Greatest Common Divisor of Strings](1071-greatest-common-divisor-of-strings.md) | `Easy`   | `Math` `String`   | [`Python`](../../src/python/challenges/problems/greatest_common_divisor_of_strings_test.py) [`C#`](../../src/csharp/challenges/Problems/GreatestCommonDivisorOfStrings.cs) [`Go`](../../src/go/challenges/problems/greatest_common_divisor_of_strings_test.go)   |
