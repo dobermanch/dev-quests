@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 196 |
+| Easy | 197 |
 | Medium | 221 |
 | Hard | 30 |
-| **Total** | 447 |
+| **Total** | 448 |
 
 ## Challenges  
 
@@ -412,6 +412,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1789 | [Primary Department for Each Employee](1789-primary-department-for-each-employee.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/PrimaryDepartmentForEachEmployee.sql) [`MS SQL Server`](../../src/sql/challenges/PrimaryDepartmentForEachEmployee.sql)   |
 | 1795 | [Rearrange Products Table](1795-rearrange-products-table.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/RearrangeProductsTable.sql) [`MS SQL Server`](../../src/sql/challenges/RearrangeProductsTable.sql)   |
 | 1823 | [Find the Winner of the Circular Game](1823-find-the-winner-of-the-circular-game.md) | `Medium`   | `Array` `Math` `Recursion` `Queue` `Simulation`   | [`Python`](../../src/python/challenges/problems/find_the_winner_of_the_circular_game_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheWinnerOfTheCircularGame.cs)   |
+| 1873 | [Calculate Special Bonus](1873-calculate-special-bonus.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/CalculateSpecialBonus.sql) [`MS SQL Server`](../../src/sql/challenges/CalculateSpecialBonus.sql)   |
 | 1897 | [Redistribute Characters to Make All Strings Equal](1897-redistribute-characters-to-make-all-strings-equal.md) | `Easy`   | `Hash Table` `String` `Counting`   | [`Python`](../../src/python/challenges/problems/redistribute_characters_to_make_all_strings_equal_test.py) [`C#`](../../src/csharp/challenges/Problems/RedistributeCharactersToMakeAllStringsEqual.cs) [`Go`](../../src/go/challenges/problems/redistribute_characters_to_make_all_strings_equal_test.go)   |
 | 1903 | [Largest Odd Number in String](1903-largest-odd-number-in-string.md) | `Easy`   | `Math` `String` `Greedy`   | [`Python`](../../src/python/challenges/problems/largest_odd_number_in_string_test.py) [`C#`](../../src/csharp/challenges/Problems/LargestOddNumberInString.cs) [`Go`](../../src/go/challenges/problems/largest_odd_number_in_string_test.go) [`Rust`](../../src/rust/challenges/src/problems/largest_odd_number_in_string_test.rs)   |
 | 1907 | [Count Salary Categories](1907-count-salary-categories.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/CountSalaryCategories.sql) [`MS SQL Server`](../../src/sql/challenges/CountSalaryCategories.sql)   |
