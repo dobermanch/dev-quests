@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 198 |
+| Easy | 199 |
 | Medium | 221 |
 | Hard | 30 |
-| **Total** | 449 |
+| **Total** | 450 |
 
 ## Challenges  
 
@@ -420,6 +420,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1913 | [Maximum Product Difference Between Two Pairs](1913-maximum-product-difference-between-two-pairs.md) | `Easy`   | `Array` `Sorting`   | [`Python`](../../src/python/challenges/problems/maximum_product_difference_between_two_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumProductDifferenceBetweenTwoPairs.cs) [`Go`](../../src/go/challenges/problems/maximum_product_difference_between_two_pairs_test.go) [`Rust`](../../src/rust/challenges/src/problems/maximum_product_difference_between_two_pairs_test.rs)   |
 | 1926 | [Nearest Exit from Entrance in Maze](1926-nearest-exit-from-entrance-in-maze.md) | `Medium`   | `Array` `Breadth-First Search` `Matrix`   | [`Python`](../../src/python/challenges/problems/nearest_exit_from_entrance_in_maze_test.py) [`C#`](../../src/csharp/challenges/Problems/NearestExitFromEntranceInMaze.cs) [`Go`](../../src/go/challenges/problems/nearest_exit_from_entrance_in_maze_test.go)   |
 | 1934 | [Confirmation Rate](1934-confirmation-rate.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ConfirmationRate.sql) [`MS SQL Server`](../../src/sql/challenges/ConfirmationRate.sql)   |
+| 1965 | [Employees With Missing Information](1965-employees-with-missing-information.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/EmployeesWithMissingInformation.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeesWithMissingInformation.sql)   |
 | 1978 | [Employees Whose Manager Left the Company](1978-employees-whose-manager-left-the-company.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql)   |
 | 1991 | [Find the Middle Index in Array](1991-find-the-middle-index-in-array.md) | `Easy`   | `Array` `Prefix Sum`   | [`C#`](../../src/csharp/challenges/Problems/FindTheMiddleIndexInArray.cs)   |
 | 2095 | [Delete the Middle Node of a Linked List](2095-delete-the-middle-node-of-a-linked-list.md) | `Medium`   | `Linked List` `Two Pointers`   | [`Python`](../../src/python/challenges/problems/delete_the_middle_node_of_a_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/DeleteTheMiddleNodeOfALinkedList.cs) [`Go`](../../src/go/challenges/problems/delete_the_middle_node_of_a_linked_list_test.go)   |
