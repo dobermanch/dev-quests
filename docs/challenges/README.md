@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 199 |
-| Medium | 222 |
+| Medium | 223 |
 | Hard | 31 |
-| **Total** | 452 |
+| **Total** | 453 |
 
 ## Challenges  
 
@@ -466,4 +466,5 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3021 | [Alice and Bob Playing Flower Game](3021-alice-and-bob-playing-flower-game.md) | `Medium`   | `Math`   | [`Python`](../../src/python/challenges/problems/alice_and_bob_playing_flower_game_test.py) [`C#`](../../src/csharp/challenges/Problems/AliceAndBobPlayingFlowerGame.cs) [`Go`](../../src/go/challenges/problems/alice_and_bob_playing_flower_game_test.go)   |
 | 3220 | [Odd and Even Transactions](3220-odd-and-even-transactions.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/OddAndEvenTransactions.sql) [`MS SQL Server`](../../src/sql/challenges/OddAndEvenTransactions.sql)   |
 | 3374 | [First Letter Capitalization II](3374-first-letter-capitalization-ii.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/FirstLetterCapitalizationIi.sql) [`MS SQL Server`](../../src/sql/challenges/FirstLetterCapitalizationIi.sql)   |
+| 3421 | [Find Students Who Improved](3421-find-students-who-improved.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindStudentsWhoImproved.sql) [`MS SQL Server`](../../src/sql/challenges/FindStudentsWhoImproved.sql)   |
 | 3446 | [Sort Matrix by Diagonals](3446-sort-matrix-by-diagonals.md) | `Medium`   | `Array` `Sorting` `Matrix`   | [`Python`](../../src/python/challenges/problems/sort_matrix_by_diagonals_test.py) [`C#`](../../src/csharp/challenges/Problems/SortMatrixByDiagonals.cs) [`Go`](../../src/go/challenges/problems/sort_matrix_by_diagonals_test.go)   |
