@@ -1,8 +1,10 @@
 # [608. Tree Node](https://leetcode.com/problems/tree-node/)
 
-**Difficulty:** `Medium`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/TreeNode.sql)  
+**Difficulty:** `Medium`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/TreeNode.sql) [`MS SQL Server`](../../src/sql/challenges/TreeNode.sql)
 
 ---
 
@@ -37,7 +39,7 @@ The result format is in the following example.
 ![](https://assets.leetcode.com/uploads/2021/10/22/tree1.jpg)
 
 ```
-Input: 
+Input:
 Tree table:
 +----+------+
 | id | p_id |
@@ -48,7 +50,7 @@ Tree table:
 | 4  | 2    |
 | 5  | 2    |
 +----+------+
-Output: 
+Output:
 +----+-------+
 | id | type  |
 +----+-------+
@@ -58,7 +60,7 @@ Output:
 | 4  | Leaf  |
 | 5  | Leaf  |
 +----+-------+
-Explanation: 
+Explanation:
 Node 1 is the root node because its parent node is null and it has child nodes 2 and 3.
 Node 2 is an inner node because it has parent node 1 and child node 4 and 5.
 Nodes 3, 4, and 5 are leaf nodes because they have parent nodes and they do not have child nodes.
@@ -69,14 +71,14 @@ Nodes 3, 4, and 5 are leaf nodes because they have parent nodes and they do not 
 ![](https://assets.leetcode.com/uploads/2021/10/22/tree2.jpg)
 
 ```
-Input: 
+Input:
 Tree table:
 +----+------+
 | id | p_id |
 +----+------+
 | 1  | null |
 +----+------+
-Output: 
+Output:
 +----+-------+
 | id | type  |
 +----+-------+

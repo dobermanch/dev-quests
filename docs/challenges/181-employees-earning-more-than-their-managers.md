@@ -1,8 +1,10 @@
 # [181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)
 
-**Difficulty:** `Easy`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/EmployeesEarningMoreThanTheirManagers.sql)  
+**Difficulty:** `Easy`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/EmployeesEarningMoreThanTheirManagers.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeesEarningMoreThanTheirManagers.sql)
 
 ---
 
@@ -30,7 +32,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Employee table:
 +----+-------+--------+-----------+
 | id | name  | salary | managerId |
@@ -40,7 +42,7 @@ Employee table:
 | 3  | Sam   | 60000  | Null      |
 | 4  | Max   | 90000  | Null      |
 +----+-------+--------+-----------+
-Output: 
+Output:
 +----------+
 | Employee |
 +----------+

@@ -1,8 +1,10 @@
 # [262. Trips and Users](https://leetcode.com/problems/trips-and-users/)
 
-**Difficulty:** `Hard`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/TripsAndUsers.sql)  
+**Difficulty:** `Hard`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/TripsAndUsers.sql) [`MS SQL Server`](../../src/sql/challenges/TripsAndUsers.sql)
 
 ---
 
@@ -17,7 +19,7 @@ Table: `Trips`
 | driver_id   | int      |
 | city_id     | int      |
 | status      | enum     |
-| request_at  | varchar  |     
+| request_at  | varchar  |
 +-------------+----------+
 id is the primary key (column with unique values) for this table.
 The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys to the users_id at the Users table.
@@ -50,7 +52,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Trips table:
 +----+-----------+-----------+---------+---------------------+------------+
 | id | client_id | driver_id | city_id | status              | request_at |
@@ -79,7 +81,7 @@ Users table:
 | 12       | No     | driver |
 | 13       | No     | driver |
 +----------+--------+--------+
-Output: 
+Output:
 +------------+-------------------+
 | Day        | Cancellation Rate |
 +------------+-------------------+
@@ -87,7 +89,7 @@ Output:
 | 2013-10-02 | 0.00              |
 | 2013-10-03 | 0.50              |
 +------------+-------------------+
-Explanation: 
+Explanation:
 On 2013-10-01:
   - There were 4 requests in total, 2 of which were canceled.
   - However, the request with Id=2 was made by a banned client (User_Id=2), so it is ignored in the calculation.

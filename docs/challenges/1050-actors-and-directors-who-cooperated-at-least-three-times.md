@@ -1,8 +1,10 @@
 # [1050. Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)
 
-**Difficulty:** `Easy`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql)  
+**Difficulty:** `Easy`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql) [`MS SQL Server`](../../src/sql/challenges/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql)
 
 ---
 
@@ -28,7 +30,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 ActorDirector table:
 +-------------+-------------+-------------+
 | actor_id    | director_id | timestamp   |
@@ -41,7 +43,7 @@ ActorDirector table:
 | 2           | 1           | 5           |
 | 2           | 1           | 6           |
 +-------------+-------------+-------------+
-Output: 
+Output:
 +-------------+-------------+
 | actor_id    | director_id |
 +-------------+-------------+

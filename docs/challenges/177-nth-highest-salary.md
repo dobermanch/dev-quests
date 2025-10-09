@@ -1,8 +1,10 @@
 # [177. Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)
 
-**Difficulty:** `Medium`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/NthHighestSalary.sql)  
+**Difficulty:** `Medium`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/NthHighestSalary.sql) [`MS SQL Server`](../../src/sql/challenges/NthHighestSalary.sql)
 
 ---
 
@@ -26,7 +28,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Employee table:
 +----+--------+
 | id | salary |
@@ -36,7 +38,7 @@ Employee table:
 | 3  | 300    |
 +----+--------+
 n = 2
-Output: 
+Output:
 +------------------------+
 | getNthHighestSalary(2) |
 +------------------------+
@@ -47,7 +49,7 @@ Output:
 **Example 2:**
 
 ```
-Input: 
+Input:
 Employee table:
 +----+--------+
 | id | salary |
@@ -55,7 +57,7 @@ Employee table:
 | 1  | 100    |
 +----+--------+
 n = 2
-Output: 
+Output:
 +------------------------+
 | getNthHighestSalary(2) |
 +------------------------+

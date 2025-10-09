@@ -1,8 +1,10 @@
 # [586. Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)
 
-**Difficulty:** `Easy`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/CustomerPlacingTheLargestNumberOfOrders.sql)  
+**Difficulty:** `Easy`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/CustomerPlacingTheLargestNumberOfOrders.sql) [`MS SQL Server`](../../src/sql/challenges/CustomerPlacingTheLargestNumberOfOrders.sql)
 
 ---
 
@@ -28,7 +30,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Orders table:
 +--------------+-----------------+
 | order_number | customer_number |
@@ -38,14 +40,14 @@ Orders table:
 | 3            | 3               |
 | 4            | 3               |
 +--------------+-----------------+
-Output: 
+Output:
 +-----------------+
 | customer_number |
 +-----------------+
 | 3               |
 +-----------------+
-Explanation: 
-The customer with number 3 has two orders, which is greater than either customer 1 or 2 because each of them only has one order. 
+Explanation:
+The customer with number 3 has two orders, which is greater than either customer 1 or 2 because each of them only has one order.
 So the result is customer_number 3.
 ```
 

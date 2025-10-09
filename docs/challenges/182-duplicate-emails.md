@@ -1,8 +1,10 @@
 # [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
 
-**Difficulty:** `Easy`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/DuplicateEmails.sql)  
+**Difficulty:** `Easy`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/DuplicateEmails.sql) [`MS SQL Server`](../../src/sql/challenges/DuplicateEmails.sql)
 
 ---
 
@@ -28,7 +30,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Person table:
 +----+---------+
 | id | email   |
@@ -37,7 +39,7 @@ Person table:
 | 2  | c@d.com |
 | 3  | a@b.com |
 +----+---------+
-Output: 
+Output:
 +---------+
 | Email   |
 +---------+

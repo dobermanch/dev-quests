@@ -1,8 +1,10 @@
 # [183. Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)
 
-**Difficulty:** `Easy`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/CustomersWhoNeverOrder.sql)  
+**Difficulty:** `Easy`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/CustomersWhoNeverOrder.sql) [`MS SQL Server`](../../src/sql/challenges/CustomersWhoNeverOrder.sql)
 
 ---
 
@@ -42,7 +44,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Customers table:
 +----+-------+
 | id | name  |
@@ -59,7 +61,7 @@ Orders table:
 | 1  | 3          |
 | 2  | 1          |
 +----+------------+
-Output: 
+Output:
 +-----------+
 | Customers |
 +-----------+

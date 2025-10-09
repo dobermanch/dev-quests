@@ -1,8 +1,10 @@
 # [178. Rank Scores](https://leetcode.com/problems/rank-scores/)
 
-**Difficulty:** `Medium`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/RankScores.sql)  
+**Difficulty:** `Medium`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/RankScores.sql) [`MS SQL Server`](../../src/sql/challenges/RankScores.sql)
 
 ---
 
@@ -32,7 +34,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Scores table:
 +----+-------+
 | id | score |
@@ -44,7 +46,7 @@ Scores table:
 | 5  | 4.00  |
 | 6  | 3.65  |
 +----+-------+
-Output: 
+Output:
 +-------+------+
 | score | rank |
 +-------+------+

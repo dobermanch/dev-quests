@@ -1,8 +1,10 @@
 # [1158. Market Analysis I](https://leetcode.com/problems/market-analysis-i/)
 
-**Difficulty:** `Medium`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/MarketAnalysisI.sql)  
+**Difficulty:** `Medium`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/MarketAnalysisI.sql) [`MS SQL Server`](../../src/sql/challenges/MarketAnalysisI.sql)
 
 ---
 
@@ -58,7 +60,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Users table:
 +---------+------------+----------------+
 | user_id | join_date  | favorite_brand |
@@ -88,7 +90,7 @@ Items table:
 | 3       | LG         |
 | 4       | HP         |
 +---------+------------+
-Output: 
+Output:
 +-----------+------------+----------------+
 | buyer_id  | join_date  | orders_in_2019 |
 +-----------+------------+----------------+

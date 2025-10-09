@@ -1,8 +1,10 @@
 # [184. Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)
 
-**Difficulty:** `Medium`  
-**Topics:** `Database`  
-**Solutions:** [`MySQL`](../../src/sql/challenges/DepartmentHighestSalary.sql)  
+**Difficulty:** `Medium`
+
+**Topics:** `Database`
+
+**Solutions:** [`MySQL`](../../src/sql/challenges/DepartmentHighestSalary.sql) [`MS SQL Server`](../../src/sql/challenges/DepartmentHighestSalary.sql)
 
 ---
 
@@ -44,7 +46,7 @@ The result format is in the following example.
 **Example 1:**
 
 ```
-Input: 
+Input:
 Employee table:
 +----+-------+--------+--------------+
 | id | name  | salary | departmentId |
@@ -62,7 +64,7 @@ Department table:
 | 1  | IT    |
 | 2  | Sales |
 +----+-------+
-Output: 
+Output:
 +------------+----------+--------+
 | Department | Employee | Salary |
 +------------+----------+--------+
