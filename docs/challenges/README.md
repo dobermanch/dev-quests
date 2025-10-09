@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 187 |
+| Easy | 188 |
 | Medium | 219 |
 | Hard | 30 |
-| **Total** | 436 |
+| **Total** | 437 |
 
 ## Challenges  
 
@@ -278,6 +278,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 620 | [Not Boring Movies](620-not-boring-movies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/NotBoringMovies.sql) [`MS SQL Server`](../../src/sql/challenges/NotBoringMovies.sql)   |
 | 621 | [Task Scheduler](621-task-scheduler.md) | `Medium`   | `Array` `Hash Table` `Greedy` `Sorting` `Heap (Priority Queue)` `Counting`   | [`C#`](../../src/csharp/challenges/Problems/TaskScheduler.cs)   |
 | 626 | [Exchange Seats](626-exchange-seats.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ExchangeSeats.sql) [`MS SQL Server`](../../src/sql/challenges/ExchangeSeats.sql)   |
+| 627 | [Swap Salary](627-swap-salary.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/SwapSalary.sql)   |
 | 637 | [Average of Levels in Binary Tree](637-average-of-levels-in-binary-tree.md) | `Easy`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/average_of_levels_in_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/AverageOfLevelsInBinaryTree.cs) [`Go`](../../src/go/challenges/problems/average_of_levels_in_binary_tree_test.go)   |
 | 643 | [Maximum Average Subarray I](643-maximum-average-subarray-i.md) | `Easy`   | `Array` `Sliding Window`   | [`Python`](../../src/python/challenges/problems/maximum_average_subarray_i_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumAverageSubarrayI.cs) [`Go`](../../src/go/challenges/problems/maximum_average_subarray_i_test.go)   |
 | 647 | [Palindromic Substrings](647-palindromic-substrings.md) | `Medium`   | `Two Pointers` `String` `Dynamic Programming`   | [`Python`](../../src/python/challenges/problems/palindromic_substrings_test.py) [`C#`](../../src/csharp/challenges/Problems/PalindromicSubstrings.cs)   |
