@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 194 |
+| Easy | 195 |
 | Medium | 221 |
 | Hard | 30 |
-| **Total** | 445 |
+| **Total** | 446 |
 
 ## Challenges  
 
@@ -405,6 +405,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1729 | [Find Followers Count](1729-find-followers-count.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindFollowersCount.sql) [`MS SQL Server`](../../src/sql/challenges/FindFollowersCount.sql)   |
 | 1731 | [The Number of Employees Which Report to Each Employee](1731-the-number-of-employees-which-report-to-each-employee.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql) [`MS SQL Server`](../../src/sql/challenges/TheNumberOfEmployeesWhichReportToEachEmployee.sql)   |
 | 1732 | [Find the Highest Altitude](1732-find-the-highest-altitude.md) | `Easy`   | `Array` `Prefix Sum`   | [`Python`](../../src/python/challenges/problems/find_the_highest_altitude_test.py) [`C#`](../../src/csharp/challenges/Problems/FindTheHighestAltitude.cs) [`Go`](../../src/go/challenges/problems/find_the_highest_altitude_test.go)   |
+| 1741 | [Find Total Time Spent by Each Employee](1741-find-total-time-spent-by-each-employee.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindTotalTimeSpentByEachEmployee.sql) [`MS SQL Server`](../../src/sql/challenges/FindTotalTimeSpentByEachEmployee.sql)   |
 | 1757 | [Recyclable and Low Fat Products](1757-recyclable-and-low-fat-products.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/RecyclableAndLowFatProducts.sql) [`MS SQL Server`](../../src/sql/challenges/RecyclableAndLowFatProducts.sql)   |
 | 1758 | [Minimum Changes To Make Alternating Binary String](1758-minimum-changes-to-make-alternating-binary-string.md) | `Easy`   | `String`   | [`Python`](../../src/python/challenges/problems/minimum_changes_to_make_alternating_binary_string_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumChangesToMakeAlternatingBinaryString.cs) [`Go`](../../src/go/challenges/problems/minimum_changes_to_make_alternating_binary_string_test.go)   |
 | 1768 | [Merge Strings Alternately](1768-merge-strings-alternately.md) | `Easy`   | `Two Pointers` `String`   | [`Python`](../../src/python/challenges/problems/merge_strings_alternately_test.py) [`C#`](../../src/csharp/challenges/Problems/MergeStringsAlternately.cs) [`Go`](../../src/go/challenges/problems/merge_strings_alternately_test.go)   |
