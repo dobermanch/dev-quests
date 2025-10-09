@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 185 |
 | Medium | 218 |
-| Hard | 28 |
-| **Total** | 431 |
+| Hard | 29 |
+| **Total** | 432 |
 
 ## Challenges  
 
@@ -198,6 +198,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 239 | [Sliding Window Maximum](239-sliding-window-maximum.md) | `Hard`   | `Array` `Queue` `Sliding Window` `Heap (Priority Queue)` `Monotonic Queue`   | [`Python`](../../src/python/challenges/problems/sliding_window_maximum_test.py) [`C#`](../../src/csharp/challenges/Problems/SlidingWindowMaximum.cs)   |
 | 240 | [Search a 2D Matrix II](240-search-a-2d-matrix-ii.md) | `Medium`   | `Array` `Binary Search` `Divide and Conquer` `Matrix`   | [`Python`](../../src/python/challenges/problems/search_a_2d_matrix_ii_test.py) [`C#`](../../src/csharp/challenges/Problems/SearchA2dMatrixIi.cs)   |
 | 242 | [Valid Anagram](242-valid-anagram.md) | `Easy`   | `Hash Table` `String` `Sorting`   | [`Python`](../../src/python/challenges/problems/valid_anagram_test.py) [`C#`](../../src/csharp/challenges/Problems/ValidAnagram.cs) [`Go`](../../src/go/challenges/problems/valid_anagram_test.go) [`Rust`](../../src/rust/challenges/src/problems/valid_anagram_test.rs)   |
+| 262 | [Trips and Users](262-trips-and-users.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/TripsAndUsers.sql)   |
 | 268 | [Missing Number](268-missing-number.md) | `Easy`   | `Array` `Hash Table` `Math` `Binary Search` `Bit Manipulation` `Sorting`   | [`Python`](../../src/python/challenges/problems/missing_number_test.py) [`C#`](../../src/csharp/challenges/Problems/MissingNumber.cs)   |
 | 274 | [H-Index](274-h-index.md) | `Medium`   | `Array` `Sorting` `Counting Sort`   | [`Python`](../../src/python/challenges/problems/h_index_test.py) [`C#`](../../src/csharp/challenges/Problems/HIndex.cs) [`Go`](../../src/go/challenges/problems/h_index_test.go)   |
 | 278 | [First Bad Version](278-first-bad-version.md) | `Easy`   | `Binary Search` `Interactive`   | [`C#`](../../src/csharp/challenges/Problems/FirstBadVersion.cs)   |
