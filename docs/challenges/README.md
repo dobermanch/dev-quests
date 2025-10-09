@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 190 |
-| Medium | 219 |
+| Medium | 220 |
 | Hard | 30 |
-| **Total** | 439 |
+| **Total** | 440 |
 
 ## Challenges  
 
@@ -338,6 +338,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1143 | [Longest Common Subsequence](1143-longest-common-subsequence.md) | `Medium`   | `String` `Dynamic Programming`   | [`Python`](../../src/python/challenges/problems/longest_common_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestCommonSubsequence.cs)   |
 | 1148 | [Article Views I](1148-article-views-i.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ArticleViewsI.sql) [`MS SQL Server`](../../src/sql/challenges/ArticleViewsI.sql)   |
 | 1155 | [Number of Dice Rolls With Target Sum](1155-number-of-dice-rolls-with-target-sum.md) | `Medium`   | `Dynamic Programming`   | [`C#`](../../src/csharp/challenges/Problems/NumberOfDiceRollsWithTargetSum.cs)   |
+| 1158 | [Market Analysis I](1158-market-analysis-i.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/MarketAnalysisI.sql)   |
 | 1160 | [Find Words That Can Be Formed by Characters](1160-find-words-that-can-be-formed-by-characters.md) | `Easy`   | `Array` `Hash Table` `String` `Counting`   | [`Python`](../../src/python/challenges/problems/find_words_that_can_be_formed_by_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/FindWordsThatCanBeFormedByCharacters.cs) [`Go`](../../src/go/challenges/problems/find_words_that_can_be_formed_by_characters_test.go)   |
 | 1161 | [Maximum Level Sum of a Binary Tree](1161-maximum-level-sum-of-a-binary-tree.md) | `Medium`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/maximum_level_sum_of_a_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumLevelSumOfABinaryTree.cs) [`Go`](../../src/go/challenges/problems/maximum_level_sum_of_a_binary_tree_test.go)   |
 | 1164 | [Product Price at a Given Date](1164-product-price-at-a-given-date.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql) [`MS SQL Server`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql)   |
