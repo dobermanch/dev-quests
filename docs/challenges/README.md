@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 181 |
+| Easy | 182 |
 | Medium | 217 |
 | Hard | 28 |
-| **Total** | 426 |
+| **Total** | 427 |
 
 ## Challenges  
 
@@ -153,6 +153,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 177 | [Nth Highest Salary](177-nth-highest-salary.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/NthHighestSalary.sql)   |
 | 178 | [Rank Scores](178-rank-scores.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/RankScores.sql)   |
 | 180 | [Consecutive Numbers](180-consecutive-numbers.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ConsecutiveNumbers.sql) [`MS SQL Server`](../../src/sql/challenges/ConsecutiveNumbers.sql)   |
+| 181 | [Employees Earning More Than Their Managers](181-employees-earning-more-than-their-managers.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/EmployeesEarningMoreThanTheirManagers.sql)   |
 | 185 | [Department Top Three Salaries](185-department-top-three-salaries.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql) [`MS SQL Server`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql)   |
 | 187 | [Repeated DNA Sequences](187-repeated-dna-sequences.md) | `Medium`   | `Hash Table` `String` `Bit Manipulation` `Sliding Window` `Rolling Hash` `Hash Function`   | [`C#`](../../src/csharp/challenges/Problems/RepeatedDnaSequences.cs)   |
 | 189 | [Rotate Array](189-rotate-array.md) | `Medium`   | `Array` `Math` `Two Pointers`   | [`Python`](../../src/python/challenges/problems/rotate_array_test.py) [`C#`](../../src/csharp/challenges/Problems/RotateArray.cs) [`Go`](../../src/go/challenges/problems/rotate_array_test.go)   |
