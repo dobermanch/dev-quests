@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 187 |
-| Medium | 218 |
+| Medium | 219 |
 | Hard | 30 |
-| **Total** | 435 |
+| **Total** | 436 |
 
 ## Challenges  
 
@@ -271,6 +271,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 605 | [Can Place Flowers](605-can-place-flowers.md) | `Easy`   | `Array` `Greedy`   | [`Python`](../../src/python/challenges/problems/can_place_flowers_test.py) [`C#`](../../src/csharp/challenges/Problems/CanPlaceFlowers.cs) [`Go`](../../src/go/challenges/problems/can_place_flowers_test.go)   |
 | 606 | [Construct String from Binary Tree](606-construct-string-from-binary-tree.md) | `Medium`   | `String` `Tree` `Depth-First Search` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/construct_string_from_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/ConstructStringFromBinaryTree.cs) [`Go`](../../src/go/challenges/problems/construct_string_from_binary_tree_test.go)   |
 | 607 | [Sales Person](607-sales-person.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/SalesPerson.sql)   |
+| 608 | [Tree Node](608-tree-node.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/TreeNode.sql)   |
 | 610 | [Triangle Judgement](610-triangle-judgement.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/TriangleJudgement.sql) [`MS SQL Server`](../../src/sql/challenges/TriangleJudgement.sql)   |
 | 617 | [Merge Two Binary Trees](617-merge-two-binary-trees.md) | `Easy`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`   | [`C#`](../../src/csharp/challenges/Problems/MergeTwoBinaryTrees.cs)   |
 | 619 | [Biggest Single Number](619-biggest-single-number.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/BiggestSingleNumber.sql) [`MS SQL Server`](../../src/sql/challenges/BiggestSingleNumber.sql)   |
