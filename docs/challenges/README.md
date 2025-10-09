@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 180 |
-| Medium | 214 |
+| Medium | 215 |
 | Hard | 28 |
-| **Total** | 422 |
+| **Total** | 423 |
 
 ## Challenges  
 
@@ -357,6 +357,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1472 | [Design Browser History](1472-design-browser-history.md) | `Medium`   | `Array` `Linked List` `Stack` `Design` `Doubly-Linked List` `Data Stream`   | [`C#`](../../src/csharp/challenges/Problems/DesignBrowserHistory.cs)   |
 | 1480 | [Running Sum of 1d Array](1480-running-sum-of-1d-array.md) | `Easy`   | `Array` `Prefix Sum`   | [`C#`](../../src/csharp/challenges/Problems/RunningSumOf1dArray.cs) [`Go`](../../src/go/challenges/problems/running_sum_of_1d_array_test.go)   |
 | 1484 | [Group Sold Products By The Date](1484-group-sold-products-by-the-date.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/GroupSoldProductsByTheDate.sql) [`MS SQL Server`](../../src/sql/challenges/GroupSoldProductsByTheDate.sql)   |
+| 1488 | [Avoid Flood in The City](1488-avoid-flood-in-the-city.md) | `Medium`   | `Array` `Hash Table` `Binary Search` `Greedy` `Heap (Priority Queue)`   | [`Python`](../../src/python/challenges/problems/avoid_flood_in_the_city_test.py) [`C#`](../../src/csharp/challenges/Problems/AvoidFloodInTheCity.cs) [`Go`](../../src/go/challenges/problems/avoid_flood_in_the_city_test.go)   |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](1493-longest-subarray-of-1s-after-deleting-one-element.md) | `Medium`   | `Array` `Dynamic Programming` `Sliding Window`   | [`Python`](../../src/python/challenges/problems/longest_subarray_of_1s_after_deleting_one_element_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestSubarrayOf1sAfterDeletingOneElement.cs) [`Go`](../../src/go/challenges/problems/longest_subarray_of_1s_after_deleting_one_element_test.go)   |
 | 1496 | [Path Crossing](1496-path-crossing.md) | `Easy`   | `Hash Table` `String`   | [`Python`](../../src/python/challenges/problems/path_crossing_test.py) [`C#`](../../src/csharp/challenges/Problems/PathCrossing.cs) [`Go`](../../src/go/challenges/problems/path_crossing_test.go)   |
 | 1517 | [Find Users With Valid E-Mails](1517-find-users-with-valid-e-mails.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindUsersWithValidEMails.sql) [`MS SQL Server`](../../src/sql/challenges/FindUsersWithValidEMails.sql)   |
