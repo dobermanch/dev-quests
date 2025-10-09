@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 181 |
-| Medium | 215 |
+| Medium | 216 |
 | Hard | 28 |
-| **Total** | 424 |
+| **Total** | 425 |
 
 ## Challenges  
 
@@ -150,6 +150,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 173 | [Binary Search Tree Iterator](173-binary-search-tree-iterator.md) | `Medium`   | `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator`   | [`C#`](../../src/csharp/challenges/Problems/BinarySearchTreeIterator.cs)   |
 | 175 | [Combine Two Tables](175-combine-two-tables.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/CombineTwoTables.sql)   |
 | 176 | [Second Highest Salary](176-second-highest-salary.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/SecondHighestSalary.sql) [`MS SQL Server`](../../src/sql/challenges/SecondHighestSalary.sql)   |
+| 177 | [Nth Highest Salary](177-nth-highest-salary.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/NthHighestSalary.sql)   |
 | 180 | [Consecutive Numbers](180-consecutive-numbers.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ConsecutiveNumbers.sql) [`MS SQL Server`](../../src/sql/challenges/ConsecutiveNumbers.sql)   |
 | 185 | [Department Top Three Salaries](185-department-top-three-salaries.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql) [`MS SQL Server`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql)   |
 | 187 | [Repeated DNA Sequences](187-repeated-dna-sequences.md) | `Medium`   | `Hash Table` `String` `Bit Manipulation` `Sliding Window` `Rolling Hash` `Hash Function`   | [`C#`](../../src/csharp/challenges/Problems/RepeatedDnaSequences.cs)   |
