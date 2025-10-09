@@ -24,6 +24,7 @@ class ProblemInfo:
     code_snippets: Dict[str, Lang]
     example_testcases: List[str]
     sample_testcase: Optional[str]
+    sqlSchemas: List[str]
 
 
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -56,6 +57,7 @@ def fetch_leetcode_problem(slug: str, supportedLangs: List[str]) -> dict:
         }
         exampleTestcases
         sampleTestCase
+        mysqlSchemas
       }
     }
     """
@@ -99,7 +101,7 @@ def fetch_leetcode_problem(slug: str, supportedLangs: List[str]) -> dict:
                     testcase = f"{params[i]}"
                 else:
                     testcase += f" | {params[i]}"
-            
+
             if testcase:
                 testcases.append(testcase)
 
@@ -112,7 +114,8 @@ def fetch_leetcode_problem(slug: str, supportedLangs: List[str]) -> dict:
             topic_tags=[tag["name"] for tag in data.get("topicTags", [])],
             code_snippets=code_snippets,
             example_testcases=testcases,
-            sample_testcase=data.get("sampleTestCase")
+            sample_testcase=data.get("sampleTestCase"),
+            sqlSchemas=data.get("mysqlSchemas")
         )
     else:
         raise ValueError("Failed to fetch problem data")
@@ -121,8 +124,8 @@ def generate_markdown(problem: ProblemInfo, output_dir: str):
     link = f"https://leetcode.com/problems/{problem.slug}/"
     md = f"# [{problem.id}. {problem.title}]({link})\n\n"
 
-    md += f"**Difficulty:** `{problem.difficulty}`  \n"
-    md += f"**Topics:** {' '.join([f'`{tag}`' for tag in problem.topic_tags])}  \n"
+    md += f"**Difficulty:** `{problem.difficulty}`  \n\n"
+    md += f"**Topics:** {' '.join([f'`{tag}`' for tag in problem.topic_tags])}  \n\n"
 
     langs = ' '.join([f'[`{lang.name}`]({os.path.relpath(lang.path, start=output_dir)})' for lang in problem.code_snippets.values()])
     md += f"**Solutions:** {langs}  \n\n"
@@ -200,7 +203,7 @@ public sealed class {name} : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => 
+        => Add(it =>
 /*
 Test cases
 {samples}
@@ -324,6 +327,8 @@ pub fn solution({params}) -> {return_type} {{
             template = """
 /* https://leetcode.com/problems/{slug} */
 
+{schema}
+
 {snippet}
 
 /*
@@ -331,7 +336,7 @@ Test Cases
 {samples}
 */
 """
-            return template.format(slug=problem.slug, snippet=snippet.code, samples='\n'.join(problem.example_testcases))
+            return template.format(slug=problem.slug, snippet=snippet.code, samples='\n'.join(problem.example_testcases), schema='\n'.join(problem.sqlSchemas))
         case "mssql":
             template = """
 /* https://leetcode.com/problems/{slug} */
