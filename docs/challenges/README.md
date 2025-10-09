@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 185 |
+| Easy | 186 |
 | Medium | 218 |
 | Hard | 29 |
-| **Total** | 432 |
+| **Total** | 433 |
 
 ## Challenges  
 
@@ -262,6 +262,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 577 | [Employee Bonus](577-employee-bonus.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/EmployeeBonus.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeeBonus.sql)   |
 | 584 | [Find Customer Referee](584-find-customer-referee.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindCustomerReferee.sql) [`MS SQL Server`](../../src/sql/challenges/FindCustomerReferee.sql)   |
 | 585 | [Investments in 2016](585-investments-in-2016.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/InvestmentsIn2016.sql) [`MS SQL Server`](../../src/sql/challenges/InvestmentsIn2016.sql)   |
+| 586 | [Customer Placing the Largest Number of Orders](586-customer-placing-the-largest-number-of-orders.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/CustomerPlacingTheLargestNumberOfOrders.sql)   |
 | 589 | [N-ary Tree Preorder Traversal](589-n-ary-tree-preorder-traversal.md) | `Easy`   | `Stack` `Tree` `Depth-First Search`   | [`Python`](../../src/python/challenges/problems/n_ary_tree_preorder_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/NAryTreePreorderTraversal.cs)   |
 | 595 | [Big Countries](595-big-countries.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/BigCountries.sql) [`MS SQL Server`](../../src/sql/challenges/BigCountries.sql)   |
 | 596 | [Classes With at Least 5 Students](596-classes-with-at-least-5-students.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ClassesWithAtLeast5Students.sql) [`MS SQL Server`](../../src/sql/challenges/ClassesWithAtLeast5Students.sql)   |
