@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 180 |
+| Easy | 181 |
 | Medium | 215 |
 | Hard | 28 |
-| **Total** | 423 |
+| **Total** | 424 |
 
 ## Challenges  
 
@@ -148,6 +148,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 169 | [Majority Element](169-majority-element.md) | `Easy`   | `Array` `Hash Table` `Divide and Conquer` `Sorting` `Counting`   | [`Python`](../../src/python/challenges/problems/majority_element_test.py) [`C#`](../../src/csharp/challenges/Problems/MajorityElement.cs) [`Go`](../../src/go/challenges/problems/majority_element_test.go) [`Rust`](../../src/rust/challenges/src/problems/majority_element_test.rs)   |
 | 172 | [Factorial Trailing Zeroes](172-factorial-trailing-zeroes.md) | `Medium`   | `Math`   | [`Python`](../../src/python/challenges/problems/factorial_trailing_zeroes_test.py) [`C#`](../../src/csharp/challenges/Problems/FactorialTrailingZeroes.cs) [`Go`](../../src/go/challenges/problems/factorial_trailing_zeroes_test.go)   |
 | 173 | [Binary Search Tree Iterator](173-binary-search-tree-iterator.md) | `Medium`   | `Stack` `Tree` `Design` `Binary Search Tree` `Binary Tree` `Iterator`   | [`C#`](../../src/csharp/challenges/Problems/BinarySearchTreeIterator.cs)   |
+| 175 | [Combine Two Tables](175-combine-two-tables.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/CombineTwoTables.sql)   |
 | 176 | [Second Highest Salary](176-second-highest-salary.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/SecondHighestSalary.sql) [`MS SQL Server`](../../src/sql/challenges/SecondHighestSalary.sql)   |
 | 180 | [Consecutive Numbers](180-consecutive-numbers.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ConsecutiveNumbers.sql) [`MS SQL Server`](../../src/sql/challenges/ConsecutiveNumbers.sql)   |
 | 185 | [Department Top Three Salaries](185-department-top-three-salaries.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql) [`MS SQL Server`](../../src/sql/challenges/DepartmentTopThreeSalaries.sql)   |
