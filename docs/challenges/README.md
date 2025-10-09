@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 190 |
+| Easy | 191 |
 | Medium | 220 |
 | Hard | 30 |
-| **Total** | 440 |
+| **Total** | 441 |
 
 ## Challenges  
 
@@ -343,6 +343,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1161 | [Maximum Level Sum of a Binary Tree](1161-maximum-level-sum-of-a-binary-tree.md) | `Medium`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/maximum_level_sum_of_a_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumLevelSumOfABinaryTree.cs) [`Go`](../../src/go/challenges/problems/maximum_level_sum_of_a_binary_tree_test.go)   |
 | 1164 | [Product Price at a Given Date](1164-product-price-at-a-given-date.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql) [`MS SQL Server`](../../src/sql/challenges/ProductPriceAtAGivenDate.sql)   |
 | 1174 | [Immediate Food Delivery II](1174-immediate-food-delivery-ii.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ImmediateFoodDeliveryIi.sql) [`MS SQL Server`](../../src/sql/challenges/ImmediateFoodDeliveryIi.sql)   |
+| 1179 | [Reformat Department Table](1179-reformat-department-table.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ReformatDepartmentTable.sql)   |
 | 1193 | [Monthly Transactions I](1193-monthly-transactions-i.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/MonthlyTransactionsI.sql) [`MS SQL Server`](../../src/sql/challenges/MonthlyTransactionsI.sql)   |
 | 1204 | [Last Person to Fit in the Bus](1204-last-person-to-fit-in-the-bus.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/LastPersonToFitInTheBus.sql) [`MS SQL Server`](../../src/sql/challenges/LastPersonToFitInTheBus.sql)   |
 | 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences.md) | `Easy`   | `Array` `Hash Table`   | [`Python`](../../src/python/challenges/problems/unique_number_of_occurrences_test.py) [`C#`](../../src/csharp/challenges/Problems/UniqueNumberOfOccurrences.cs) [`Go`](../../src/go/challenges/problems/unique_number_of_occurrences_test.go)   |

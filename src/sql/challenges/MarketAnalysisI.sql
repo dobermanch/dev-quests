@@ -1,6 +1,7 @@
 
 /* https://leetcode.com/problems/market-analysis-i */
 
+
 # Write your MySQL, MsSQL query statement below
 
 SELECT
