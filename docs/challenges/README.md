@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 192 |
+| Easy | 193 |
 | Medium | 221 |
 | Hard | 30 |
-| **Total** | 443 |
+| **Total** | 444 |
 
 ## Challenges  
 
@@ -387,6 +387,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1578 | [Minimum Time to Make Rope Colorful](1578-minimum-time-to-make-rope-colorful.md) | `Medium`   | `Array` `String` `Dynamic Programming` `Greedy`   | [`Python`](../../src/python/challenges/problems/minimum_time_to_make_rope_colorful_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumTimeToMakeRopeColorful.cs) [`Go`](../../src/go/challenges/problems/minimum_time_to_make_rope_colorful_test.go)   |
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](1581-customer-who-visited-but-did-not-make-any-transactions.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql) [`MS SQL Server`](../../src/sql/challenges/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)   |
 | 1582 | [Special Positions in a Binary Matrix](1582-special-positions-in-a-binary-matrix.md) | `Easy`   | `Array` `Matrix`   | [`Python`](../../src/python/challenges/problems/special_positions_in_a_binary_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/SpecialPositionsInABinaryMatrix.cs) [`Go`](../../src/go/challenges/problems/special_positions_in_a_binary_matrix_test.go) [`Rust`](../../src/rust/challenges/src/problems/special_positions_in_a_binary_matrix_test.rs)   |
+| 1587 | [Bank Account Summary II](1587-bank-account-summary-ii.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/BankAccountSummaryIi.sql) [`MS SQL Server`](../../src/sql/challenges/BankAccountSummaryIi.sql)   |
 | 1624 | [Largest Substring Between Two Equal Characters](1624-largest-substring-between-two-equal-characters.md) | `Easy`   | `Hash Table` `String`   | [`Python`](../../src/python/challenges/problems/largest_substring_between_two_equal_characters_test.py) [`C#`](../../src/csharp/challenges/Problems/LargestSubstringBetweenTwoEqualCharacters.cs) [`Go`](../../src/go/challenges/problems/largest_substring_between_two_equal_characters_test.go)   |
 | 1633 | [Percentage of Users Attended a Contest](1633-percentage-of-users-attended-a-contest.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/PercentageOfUsersAttendedAContest.sql) [`MS SQL Server`](../../src/sql/challenges/PercentageOfUsersAttendedAContest.sql)   |
 | 1637 | [Widest Vertical Area Between Two Points Containing No Points](1637-widest-vertical-area-between-two-points-containing-no-points.md) | `Easy`   | `Array` `Sorting`   | [`Python`](../../src/python/challenges/problems/widest_vertical_area_between_two_points_containing_no_points_test.py) [`C#`](../../src/csharp/challenges/Problems/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.cs) [`Go`](../../src/go/challenges/problems/widest_vertical_area_between_two_points_containing_no_points_test.go) [`Rust`](../../src/rust/challenges/src/problems/widest_vertical_area_between_two_points_containing_no_points_test.rs)   |
