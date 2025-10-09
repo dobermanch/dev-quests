@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 199 |
+| Easy | 200 |
 | Medium | 223 |
 | Hard | 31 |
-| **Total** | 453 |
+| **Total** | 454 |
 
 ## Challenges  
 
@@ -467,4 +467,5 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3220 | [Odd and Even Transactions](3220-odd-and-even-transactions.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/OddAndEvenTransactions.sql) [`MS SQL Server`](../../src/sql/challenges/OddAndEvenTransactions.sql)   |
 | 3374 | [First Letter Capitalization II](3374-first-letter-capitalization-ii.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/FirstLetterCapitalizationIi.sql) [`MS SQL Server`](../../src/sql/challenges/FirstLetterCapitalizationIi.sql)   |
 | 3421 | [Find Students Who Improved](3421-find-students-who-improved.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindStudentsWhoImproved.sql) [`MS SQL Server`](../../src/sql/challenges/FindStudentsWhoImproved.sql)   |
+| 3436 | [Find Valid Emails](3436-find-valid-emails.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindValidEmails.sql) [`MS SQL Server`](../../src/sql/challenges/FindValidEmails.sql)   |
 | 3446 | [Sort Matrix by Diagonals](3446-sort-matrix-by-diagonals.md) | `Medium`   | `Array` `Sorting` `Matrix`   | [`Python`](../../src/python/challenges/problems/sort_matrix_by_diagonals_test.py) [`C#`](../../src/csharp/challenges/Problems/SortMatrixByDiagonals.cs) [`Go`](../../src/go/challenges/problems/sort_matrix_by_diagonals_test.go)   |
