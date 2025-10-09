@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 189 |
+| Easy | 190 |
 | Medium | 219 |
 | Hard | 30 |
-| **Total** | 438 |
+| **Total** | 439 |
 
 ## Challenges  
 
@@ -332,6 +332,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1070 | [Product Sales Analysis III](1070-product-sales-analysis-iii.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ProductSalesAnalysisIii.sql) [`MS SQL Server`](../../src/sql/challenges/ProductSalesAnalysisIii.sql)   |
 | 1071 | [Greatest Common Divisor of Strings](1071-greatest-common-divisor-of-strings.md) | `Easy`   | `Math` `String`   | [`Python`](../../src/python/challenges/problems/greatest_common_divisor_of_strings_test.py) [`C#`](../../src/csharp/challenges/Problems/GreatestCommonDivisorOfStrings.cs) [`Go`](../../src/go/challenges/problems/greatest_common_divisor_of_strings_test.go)   |
 | 1075 | [Project Employees I](1075-project-employees-i.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ProjectEmployeesI.sql) [`MS SQL Server`](../../src/sql/challenges/ProjectEmployeesI.sql)   |
+| 1084 | [Sales Analysis III](1084-sales-analysis-iii.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/SalesAnalysisIii.sql)   |
 | 1137 | [N-th Tribonacci Number](1137-n-th-tribonacci-number.md) | `Easy`   | `Math` `Dynamic Programming` `Memoization`   | [`Python`](../../src/python/challenges/problems/n_th_tribonacci_number_test.py) [`C#`](../../src/csharp/challenges/Problems/NThTribonacciNumber.cs) [`Go`](../../src/go/challenges/problems/n_th_tribonacci_number_test.go)   |
 | 1141 | [User Activity for the Past 30 Days I](1141-user-activity-for-the-past-30-days-i.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/UserActivityForThePast30DaysI.sql) [`MS SQL Server`](../../src/sql/challenges/UserActivityForThePast30DaysI.sql)   |
 | 1143 | [Longest Common Subsequence](1143-longest-common-subsequence.md) | `Medium`   | `String` `Dynamic Programming`   | [`Python`](../../src/python/challenges/problems/longest_common_subsequence_test.py) [`C#`](../../src/csharp/challenges/Problems/LongestCommonSubsequence.cs)   |
