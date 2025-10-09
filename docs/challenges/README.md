@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 186 |
 | Medium | 218 |
-| Hard | 29 |
-| **Total** | 433 |
+| Hard | 30 |
+| **Total** | 434 |
 
 ## Challenges  
 
@@ -266,6 +266,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 589 | [N-ary Tree Preorder Traversal](589-n-ary-tree-preorder-traversal.md) | `Easy`   | `Stack` `Tree` `Depth-First Search`   | [`Python`](../../src/python/challenges/problems/n_ary_tree_preorder_traversal_test.py) [`C#`](../../src/csharp/challenges/Problems/NAryTreePreorderTraversal.cs)   |
 | 595 | [Big Countries](595-big-countries.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/BigCountries.sql) [`MS SQL Server`](../../src/sql/challenges/BigCountries.sql)   |
 | 596 | [Classes With at Least 5 Students](596-classes-with-at-least-5-students.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/ClassesWithAtLeast5Students.sql) [`MS SQL Server`](../../src/sql/challenges/ClassesWithAtLeast5Students.sql)   |
+| 601 | [Human Traffic of Stadium](601-human-traffic-of-stadium.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/HumanTrafficOfStadium.sql)   |
 | 602 | [Friend Requests II: Who Has the Most Friends](602-friend-requests-ii-who-has-the-most-friends.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FriendRequestsIiWhoHasTheMostFriends.sql) [`MS SQL Server`](../../src/sql/challenges/FriendRequestsIiWhoHasTheMostFriends.sql)   |
 | 605 | [Can Place Flowers](605-can-place-flowers.md) | `Easy`   | `Array` `Greedy`   | [`Python`](../../src/python/challenges/problems/can_place_flowers_test.py) [`C#`](../../src/csharp/challenges/Problems/CanPlaceFlowers.cs) [`Go`](../../src/go/challenges/problems/can_place_flowers_test.go)   |
 | 606 | [Construct String from Binary Tree](606-construct-string-from-binary-tree.md) | `Medium`   | `String` `Tree` `Depth-First Search` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/construct_string_from_binary_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/ConstructStringFromBinaryTree.cs) [`Go`](../../src/go/challenges/problems/construct_string_from_binary_tree_test.go)   |
