@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 184 |
+| Easy | 185 |
 | Medium | 218 |
 | Hard | 28 |
-| **Total** | 430 |
+| **Total** | 431 |
 
 ## Challenges  
 
@@ -246,6 +246,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 455 | [Assign Cookies](455-assign-cookies.md) | `Easy`   | `Array` `Two Pointers` `Greedy` `Sorting`   | [`Python`](../../src/python/challenges/problems/assign_cookies_test.py) [`C#`](../../src/csharp/challenges/Problems/AssignCookies.cs) [`Go`](../../src/go/challenges/problems/assign_cookies_test.go)   |
 | 491 | [Non-decreasing Subsequences](491-non-decreasing-subsequences.md) | `Medium`   | `Array` `Hash Table` `Backtracking` `Bit Manipulation`   | [`C#`](../../src/csharp/challenges/Problems/NonDecreasingSubsequences.cs)   |
 | 509 | [Fibonacci Number](509-fibonacci-number.md) | `Easy`   | `Math` `Dynamic Programming` `Recursion` `Memoization`   | [`C#`](../../src/csharp/challenges/Problems/FibonacciNumber.cs)   |
+| 511 | [Game Play Analysis I](511-game-play-analysis-i.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/GamePlayAnalysisI.sql)   |
 | 530 | [Minimum Absolute Difference in BST](530-minimum-absolute-difference-in-bst.md) | `Easy`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/minimum_absolute_difference_in_bst_test.py) [`C#`](../../src/csharp/challenges/Problems/MinimumAbsoluteDifferenceInBst.cs) [`Go`](../../src/go/challenges/problems/minimum_absolute_difference_in_bst_test.go)   |
 | 542 | [01 Matrix](542-01-matrix.md) | `Medium`   | `Array` `Dynamic Programming` `Breadth-First Search` `Matrix`   | [`C#`](../../src/csharp/challenges/Problems/01Matrix.cs)   |
 | 543 | [Diameter of Binary Tree](543-diameter-of-binary-tree.md) | `Easy`   | `Tree` `Depth-First Search` `Binary Tree`   | [`C#`](../../src/csharp/challenges/Problems/DiameterOfBinaryTree.cs)   |
