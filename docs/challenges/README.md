@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 193 |
+| Easy | 194 |
 | Medium | 221 |
 | Hard | 30 |
-| **Total** | 444 |
+| **Total** | 445 |
 
 ## Challenges  
 
@@ -399,6 +399,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1679 | [Max Number of K-Sum Pairs](1679-max-number-of-k-sum-pairs.md) | `Medium`   | `Array` `Hash Table` `Two Pointers` `Sorting`   | [`Python`](../../src/python/challenges/problems/max_number_of_k_sum_pairs_test.py) [`C#`](../../src/csharp/challenges/Problems/MaxNumberOfKSumPairs.cs) [`Go`](../../src/go/challenges/problems/max_number_of_k_sum_pairs_test.go)   |
 | 1683 | [Invalid Tweets](1683-invalid-tweets.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/InvalidTweets.sql) [`MS SQL Server`](../../src/sql/challenges/InvalidTweets.sql)   |
 | 1688 | [Count of Matches in Tournament](1688-count-of-matches-in-tournament.md) | `Easy`   | `Math` `Simulation`   | [`Python`](../../src/python/challenges/problems/count_of_matches_in_tournament_test.py) [`C#`](../../src/csharp/challenges/Problems/CountOfMatchesInTournament.cs) [`Go`](../../src/go/challenges/problems/count_of_matches_in_tournament_test.go) [`Rust`](../../src/rust/challenges/src/problems/count_of_matches_in_tournament_test.rs)   |
+| 1693 | [Daily Leads and Partners](1693-daily-leads-and-partners.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/DailyLeadsAndPartners.sql) [`MS SQL Server`](../../src/sql/challenges/DailyLeadsAndPartners.sql)   |
 | 1706 | [Where Will the Ball Fall](1706-where-will-the-ball-fall.md) | `Medium`   | `Array` `Matrix` `Simulation`   | [`C#`](../../src/csharp/challenges/Problems/WhereWillTheBallFall.cs)   |
 | 1716 | [Calculate Money in Leetcode Bank](1716-calculate-money-in-leetcode-bank.md) | `Easy`   | `Math`   | [`Python`](../../src/python/challenges/problems/calculate_money_in_leetcode_bank_test.py) [`C#`](../../src/csharp/challenges/Problems/CalculateMoneyInLeetcodeBank.cs) [`Go`](../../src/go/challenges/problems/calculate_money_in_leetcode_bank_test.go) [`Rust`](../../src/rust/challenges/src/problems/calculate_money_in_leetcode_bank_test.rs)   |
 | 1729 | [Find Followers Count](1729-find-followers-count.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindFollowersCount.sql) [`MS SQL Server`](../../src/sql/challenges/FindFollowersCount.sql)   |
