@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 201 |
 | Medium | 224 |
-| Hard | 32 |
-| **Total** | 457 |
+| Hard | 33 |
+| **Total** | 458 |
 
 ## Challenges  
 
@@ -472,3 +472,4 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3451 | [Find Invalid IP Addresses](3451-find-invalid-ip-addresses.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindInvalidIpAddresses.sql) [`MS SQL Server`](../../src/sql/challenges/FindInvalidIpAddresses.sql)   |
 | 3465 | [Find Products with Valid Serial Numbers](3465-find-products-with-valid-serial-numbers.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindProductsWithValidSerialNumbers.sql) [`MS SQL Server`](../../src/sql/challenges/FindProductsWithValidSerialNumbers.sql)   |
 | 3475 | [DNA Pattern Recognition ](3475-dna-pattern-recognition.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/DnaPatternRecognition.sql) [`MS SQL Server`](../../src/sql/challenges/DnaPatternRecognition.sql)   |
+| 3482 | [Analyze Organization Hierarchy](3482-analyze-organization-hierarchy.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql)   |
