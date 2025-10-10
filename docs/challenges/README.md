@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 200 |
 | Medium | 223 |
-| Hard | 31 |
-| **Total** | 454 |
+| Hard | 32 |
+| **Total** | 455 |
 
 ## Challenges  
 
@@ -469,3 +469,4 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3421 | [Find Students Who Improved](3421-find-students-who-improved.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindStudentsWhoImproved.sql) [`MS SQL Server`](../../src/sql/challenges/FindStudentsWhoImproved.sql)   |
 | 3436 | [Find Valid Emails](3436-find-valid-emails.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindValidEmails.sql) [`MS SQL Server`](../../src/sql/challenges/FindValidEmails.sql)   |
 | 3446 | [Sort Matrix by Diagonals](3446-sort-matrix-by-diagonals.md) | `Medium`   | `Array` `Sorting` `Matrix`   | [`Python`](../../src/python/challenges/problems/sort_matrix_by_diagonals_test.py) [`C#`](../../src/csharp/challenges/Problems/SortMatrixByDiagonals.cs) [`Go`](../../src/go/challenges/problems/sort_matrix_by_diagonals_test.go)   |
+| 3451 | [Find Invalid IP Addresses](3451-find-invalid-ip-addresses.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindInvalidIpAddresses.sql) [`MS SQL Server`](../../src/sql/challenges/FindInvalidIpAddresses.sql)   |
