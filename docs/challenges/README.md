@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 201 |
+| Easy | 202 |
 | Medium | 225 |
 | Hard | 33 |
-| **Total** | 459 |
+| **Total** | 460 |
 
 ## Challenges  
 
@@ -474,3 +474,4 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3475 | [DNA Pattern Recognition ](3475-dna-pattern-recognition.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/DnaPatternRecognition.sql) [`MS SQL Server`](../../src/sql/challenges/DnaPatternRecognition.sql)   |
 | 3482 | [Analyze Organization Hierarchy](3482-analyze-organization-hierarchy.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql)   |
 | 3497 | [Analyze Subscription Conversion ](3497-analyze-subscription-conversion.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql)   |
+| 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
