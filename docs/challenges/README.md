@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 202 |
-| Medium | 225 |
+| Medium | 226 |
 | Hard | 33 |
-| **Total** | 460 |
+| **Total** | 461 |
 
 ## Challenges  
 
@@ -474,4 +474,5 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3475 | [DNA Pattern Recognition ](3475-dna-pattern-recognition.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/DnaPatternRecognition.sql) [`MS SQL Server`](../../src/sql/challenges/DnaPatternRecognition.sql)   |
 | 3482 | [Analyze Organization Hierarchy](3482-analyze-organization-hierarchy.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql)   |
 | 3497 | [Analyze Subscription Conversion ](3497-analyze-subscription-conversion.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql)   |
+| 3521 | [Find Product Recommendation Pairs](3521-find-product-recommendation-pairs.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindProductRecommendationPairs.sql) [`MS SQL Server`](../../src/sql/challenges/FindProductRecommendationPairs.sql)   |
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
