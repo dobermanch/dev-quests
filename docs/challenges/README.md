@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 203 |
-| Medium | 226 |
+| Medium | 227 |
 | Hard | 33 |
-| **Total** | 462 |
+| **Total** | 463 |
 
 ## Challenges  
 
@@ -477,3 +477,4 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3521 | [Find Product Recommendation Pairs](3521-find-product-recommendation-pairs.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindProductRecommendationPairs.sql) [`MS SQL Server`](../../src/sql/challenges/FindProductRecommendationPairs.sql)   |
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
 | 3642 | [Find Books with Polarized Opinions](3642-find-books-with-polarized-opinions.md) | `Easy`   |  | [`MySQL`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql)   |
+| 3705 | [Find Golden Hour Customers](3705-find-golden-hour-customers.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindGoldenHourCustomers.sql) [`MS SQL Server`](../../src/sql/challenges/FindGoldenHourCustomers.sql)   |
