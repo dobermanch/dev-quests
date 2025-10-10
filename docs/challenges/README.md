@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 202 |
+| Easy | 203 |
 | Medium | 226 |
 | Hard | 33 |
-| **Total** | 461 |
+| **Total** | 462 |
 
 ## Challenges  
 
@@ -476,3 +476,4 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3497 | [Analyze Subscription Conversion ](3497-analyze-subscription-conversion.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql)   |
 | 3521 | [Find Product Recommendation Pairs](3521-find-product-recommendation-pairs.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindProductRecommendationPairs.sql) [`MS SQL Server`](../../src/sql/challenges/FindProductRecommendationPairs.sql)   |
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
+| 3642 | [Find Books with Polarized Opinions](3642-find-books-with-polarized-opinions.md) | `Easy`   |  | [`MySQL`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql)   |
