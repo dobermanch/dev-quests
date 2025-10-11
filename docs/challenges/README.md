@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 203 |
-| Medium | 229 |
+| Medium | 230 |
 | Hard | 33 |
-| **Total** | 465 |
+| **Total** | 466 |
 
 ## Challenges  
 
@@ -479,4 +479,5 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
 | 3580 | [Find Consistently Improving Employees](3580-find-consistently-improving-employees.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql) [`MS SQL Server`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql)   |
 | 3642 | [Find Books with Polarized Opinions](3642-find-books-with-polarized-opinions.md) | `Easy`   |  | [`MySQL`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql)   |
+| 3657 | [Find Loyal Customers](3657-find-loyal-customers.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindLoyalCustomers.sql) [`MS SQL Server`](../../src/sql/challenges/FindLoyalCustomers.sql)   |
 | 3705 | [Find Golden Hour Customers](3705-find-golden-hour-customers.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindGoldenHourCustomers.sql) [`MS SQL Server`](../../src/sql/challenges/FindGoldenHourCustomers.sql)   |
