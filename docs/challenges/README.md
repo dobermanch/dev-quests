@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 203 |
 | Medium | 230 |
-| Hard | 34 |
-| **Total** | 467 |
+| Hard | 35 |
+| **Total** | 468 |
 
 ## Challenges  
 
@@ -481,4 +481,5 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3580 | [Find Consistently Improving Employees](3580-find-consistently-improving-employees.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql) [`MS SQL Server`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql)   |
 | 3642 | [Find Books with Polarized Opinions](3642-find-books-with-polarized-opinions.md) | `Easy`   |  | [`MySQL`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql)   |
 | 3657 | [Find Loyal Customers](3657-find-loyal-customers.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindLoyalCustomers.sql) [`MS SQL Server`](../../src/sql/challenges/FindLoyalCustomers.sql)   |
+| 3673 | [Find Zombie Sessions](3673-find-zombie-sessions.md) | `Hard`   |  | [`MySQL`](../../src/sql/challenges/FindZombieSessions.sql) [`MS SQL Server`](../../src/sql/challenges/FindZombieSessions.sql)   |
 | 3705 | [Find Golden Hour Customers](3705-find-golden-hour-customers.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindGoldenHourCustomers.sql) [`MS SQL Server`](../../src/sql/challenges/FindGoldenHourCustomers.sql)   |
