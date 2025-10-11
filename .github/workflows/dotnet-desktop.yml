@@ -31,4 +31,4 @@ jobs:
 
     # Execute .NET unit tests in the solution
     - name: Execute unit tests
-      run: dotnet test src/csharp/Challenges.slnx
+      run: dotnet test src/csharp/challenges/Challenges.Tests.csproj
