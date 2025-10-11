@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 203 |
-| Medium | 233 |
+| Medium | 234 |
 | Hard | 35 |
-| **Total** | 471 |
+| **Total** | 472 |
 
 ## Challenges  
 
@@ -479,6 +479,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3564 | [Seasonal Sales Analysis](3564-seasonal-sales-analysis.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/SeasonalSalesAnalysis.sql) [`MS SQL Server`](../../src/sql/challenges/SeasonalSalesAnalysis.sql)   |
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
 | 3580 | [Find Consistently Improving Employees](3580-find-consistently-improving-employees.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql) [`MS SQL Server`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql)   |
+| 3586 | [Find COVID Recovery Patients](3586-find-covid-recovery-patients.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindCovidRecoveryPatients.sql) [`MS SQL Server`](../../src/sql/challenges/FindCovidRecoveryPatients.sql)   |
 | 3601 | [Find Drivers with Improved Fuel Efficiency](3601-find-drivers-with-improved-fuel-efficiency.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindDriversWithImprovedFuelEfficiency.sql) [`MS SQL Server`](../../src/sql/challenges/FindDriversWithImprovedFuelEfficiency.sql)   |
 | 3611 | [Find Overbooked Employees](3611-find-overbooked-employees.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindOverbookedEmployees.sql) [`MS SQL Server`](../../src/sql/challenges/FindOverbookedEmployees.sql)   |
 | 3626 | [Find Stores with Inventory Imbalance](3626-find-stores-with-inventory-imbalance.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindStoresWithInventoryImbalance.sql) [`MS SQL Server`](../../src/sql/challenges/FindStoresWithInventoryImbalance.sql)   |
