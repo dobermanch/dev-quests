@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 203 |
-| Medium | 231 |
+| Medium | 232 |
 | Hard | 35 |
-| **Total** | 469 |
+| **Total** | 470 |
 
 ## Challenges  
 
@@ -479,6 +479,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3564 | [Seasonal Sales Analysis](3564-seasonal-sales-analysis.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/SeasonalSalesAnalysis.sql) [`MS SQL Server`](../../src/sql/challenges/SeasonalSalesAnalysis.sql)   |
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
 | 3580 | [Find Consistently Improving Employees](3580-find-consistently-improving-employees.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql) [`MS SQL Server`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql)   |
+| 3601 | [Find Drivers with Improved Fuel Efficiency](3601-find-drivers-with-improved-fuel-efficiency.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindDriversWithImprovedFuelEfficiency.sql) [`MS SQL Server`](../../src/sql/challenges/FindDriversWithImprovedFuelEfficiency.sql)   |
 | 3626 | [Find Stores with Inventory Imbalance](3626-find-stores-with-inventory-imbalance.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindStoresWithInventoryImbalance.sql) [`MS SQL Server`](../../src/sql/challenges/FindStoresWithInventoryImbalance.sql)   |
 | 3642 | [Find Books with Polarized Opinions](3642-find-books-with-polarized-opinions.md) | `Easy`   |  | [`MySQL`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithPolarizedOpinions.sql)   |
 | 3657 | [Find Loyal Customers](3657-find-loyal-customers.md) | `Medium`   |  | [`MySQL`](../../src/sql/challenges/FindLoyalCustomers.sql) [`MS SQL Server`](../../src/sql/challenges/FindLoyalCustomers.sql)   |
