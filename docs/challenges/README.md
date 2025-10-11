@@ -8,8 +8,8 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 |---:|---:|
 | Easy | 203 |
 | Medium | 230 |
-| Hard | 33 |
-| **Total** | 466 |
+| Hard | 34 |
+| **Total** | 467 |
 
 ## Challenges  
 
@@ -475,6 +475,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 3482 | [Analyze Organization Hierarchy](3482-analyze-organization-hierarchy.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeOrganizationHierarchy.sql)   |
 | 3497 | [Analyze Subscription Conversion ](3497-analyze-subscription-conversion.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql) [`MS SQL Server`](../../src/sql/challenges/AnalyzeSubscriptionConversion.sql)   |
 | 3521 | [Find Product Recommendation Pairs](3521-find-product-recommendation-pairs.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindProductRecommendationPairs.sql) [`MS SQL Server`](../../src/sql/challenges/FindProductRecommendationPairs.sql)   |
+| 3554 | [Find Category Recommendation Pairs](3554-find-category-recommendation-pairs.md) | `Hard`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindCategoryRecommendationPairs.sql) [`MS SQL Server`](../../src/sql/challenges/FindCategoryRecommendationPairs.sql)   |
 | 3564 | [Seasonal Sales Analysis](3564-seasonal-sales-analysis.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/SeasonalSalesAnalysis.sql) [`MS SQL Server`](../../src/sql/challenges/SeasonalSalesAnalysis.sql)   |
 | 3570 | [Find Books with No Available Copies](3570-find-books-with-no-available-copies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql) [`MS SQL Server`](../../src/sql/challenges/FindBooksWithNoAvailableCopies.sql)   |
 | 3580 | [Find Consistently Improving Employees](3580-find-consistently-improving-employees.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql) [`MS SQL Server`](../../src/sql/challenges/FindConsistentlyImprovingEmployees.sql)   |
