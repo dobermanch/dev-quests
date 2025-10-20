@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 203 |
+| Easy | 204 |
 | Medium | 234 |
 | Hard | 35 |
-| **Total** | 472 |
+| **Total** | 473 |
 
 ## Challenges  
 
@@ -423,6 +423,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1965 | [Employees With Missing Information](1965-employees-with-missing-information.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/EmployeesWithMissingInformation.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeesWithMissingInformation.sql)   |
 | 1978 | [Employees Whose Manager Left the Company](1978-employees-whose-manager-left-the-company.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql) [`MS SQL Server`](../../src/sql/challenges/EmployeesWhoseManagerLeftTheCompany.sql)   |
 | 1991 | [Find the Middle Index in Array](1991-find-the-middle-index-in-array.md) | `Easy`   | `Array` `Prefix Sum`   | [`C#`](../../src/csharp/challenges/Problems/FindTheMiddleIndexInArray.cs)   |
+| 2011 | [Final Value of Variable After Performing Operations](2011-final-value-of-variable-after-performing-operations.md) | `Easy`   | `Array` `String` `Simulation`   | [`Python`](../../src/python/challenges/problems/final_value_of_variable_after_performing_operations_test.py) [`C#`](../../src/csharp/challenges/Problems/FinalValueOfVariableAfterPerformingOperations.cs) [`Go`](../../src/go/challenges/problems/final_value_of_variable_after_performing_operations_test.go)   |
 | 2095 | [Delete the Middle Node of a Linked List](2095-delete-the-middle-node-of-a-linked-list.md) | `Medium`   | `Linked List` `Two Pointers`   | [`Python`](../../src/python/challenges/problems/delete_the_middle_node_of_a_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/DeleteTheMiddleNodeOfALinkedList.cs) [`Go`](../../src/go/challenges/problems/delete_the_middle_node_of_a_linked_list_test.go)   |
 | 2125 | [Number of Laser Beams in a Bank](2125-number-of-laser-beams-in-a-bank.md) | `Medium`   | `Array` `Math` `String` `Matrix`   | [`Python`](../../src/python/challenges/problems/number_of_laser_beams_in_a_bank_test.py) [`C#`](../../src/csharp/challenges/Problems/NumberOfLaserBeamsInABank.cs) [`Go`](../../src/go/challenges/problems/number_of_laser_beams_in_a_bank_test.go)   |
 | 2130 | [Maximum Twin Sum of a Linked List](2130-maximum-twin-sum-of-a-linked-list.md) | `Medium`   | `Linked List` `Two Pointers` `Stack`   | [`Python`](../../src/python/challenges/problems/maximum_twin_sum_of_a_linked_list_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumTwinSumOfALinkedList.cs) [`Go`](../../src/go/challenges/problems/maximum_twin_sum_of_a_linked_list_test.go)   |
