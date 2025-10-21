@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 204 |
-| Medium | 234 |
+| Medium | 235 |
 | Hard | 35 |
-| **Total** | 473 |
+| **Total** | 474 |
 
 ## Challenges  
 
@@ -223,6 +223,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 371 | [Sum of Two Integers](371-sum-of-two-integers.md) | `Medium`   | `Math` `Bit Manipulation`   | [`C#`](../../src/csharp/challenges/Problems/SumOfTwoIntegers.cs)   |
 | 373 | [Find K Pairs with Smallest Sums](373-find-k-pairs-with-smallest-sums.md) | `Medium`   | `Array` `Heap (Priority Queue)`   | [`Python`](../../src/python/challenges/problems/find_k_pairs_with_smallest_sums_test.py) [`C#`](../../src/csharp/challenges/Problems/FindKPairsWithSmallestSums.cs) [`Go`](../../src/go/challenges/problems/find_k_pairs_with_smallest_sums_test.go)   |
 | 374 | [Guess Number Higher or Lower](374-guess-number-higher-or-lower.md) | `Easy`   | `Binary Search` `Interactive`   | [`Python`](../../src/python/challenges/problems/guess_number_higher_or_lower_test.py) [`C#`](../../src/csharp/challenges/Problems/GuessNumberHigherOrLower.cs) [`Go`](../../src/go/challenges/problems/guess_number_higher_or_lower_test.go)   |
+| 378 | [Kth Smallest Element in a Sorted Matrix](378-kth-smallest-element-in-a-sorted-matrix.md) | `Medium`   | `Array` `Binary Search` `Sorting` `Heap (Priority Queue)` `Matrix`   | [`Python`](../../src/python/challenges/problems/kth_smallest_element_in_a_sorted_matrix_test.py) [`C#`](../../src/csharp/challenges/Problems/KthSmallestElementInASortedMatrix.cs) [`Go`](../../src/go/challenges/problems/kth_smallest_element_in_a_sorted_matrix_test.go)   |
 | 380 | [Insert Delete GetRandom O(1)](380-insert-delete-getrandom-o1.md) | `Medium`   | `Array` `Hash Table` `Math` `Design` `Randomized`   | [`C#`](../../src/csharp/challenges/Problems/InsertDeleteGetrandomO1.cs)   |
 | 383 | [Ransom Note](383-ransom-note.md) | `Easy`   | `Hash Table` `String` `Counting`   | [`C#`](../../src/csharp/challenges/Problems/RansomNote.cs)   |
 | 387 | [First Unique Character in a String](387-first-unique-character-in-a-string.md) | `Easy`   | `Hash Table` `String` `Queue` `Counting`   | [`C#`](../../src/csharp/challenges/Problems/FirstUniqueCharacterInAString.cs)   |

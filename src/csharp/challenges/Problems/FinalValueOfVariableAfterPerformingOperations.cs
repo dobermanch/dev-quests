@@ -10,9 +10,9 @@ public sealed class FinalValueOfVariableAfterPerformingOperations : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.ParamArray<stirng>(["--X","X++","X++"]).Result(1))
-        .Add(it => it.ParamArray<stirng>(["++X","++X","X++"]).Result(3))
-        .Add(it => it.ParamArray<stirng>(["X++","++X","--X","X--"]).Result(0))
+        => Add(it => it.ParamArray<string>(["--X","X++","X++"]).Result(1))
+        .Add(it => it.ParamArray<string>(["++X","++X","X++"]).Result(3))
+        .Add(it => it.ParamArray<string>(["X++","++X","--X","X--"]).Result(0))
         ;
 
     private int Solution(string[] operations)
