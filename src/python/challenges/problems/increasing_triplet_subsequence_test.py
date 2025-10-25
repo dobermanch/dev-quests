@@ -10,7 +10,7 @@ class IncreasingTriplet(ProblemBase):
         for num in nums:
             if num > n2:
                 return True
-            
+
             if num <= n1:
                 n1 = num
             elif num < n2:
@@ -20,6 +20,8 @@ class IncreasingTriplet(ProblemBase):
 
 if __name__ == '__main__':
     TestGen(IncreasingTriplet) \
+        .Add(lambda tc: tc.Param([5,3,0,4]).Result(True)) \
+        .Add(lambda tc: tc.Param([2,5,3,0,4]).Result(True)) \
         .Add(lambda tc: tc.Param([1,2,3,4,5]).Result(True)) \
         .Add(lambda tc: tc.Param([5,4,3,2,1]).Result(False)) \
         .Add(lambda tc: tc.Param([2,1,5,0,4,6]).Result(True)) \

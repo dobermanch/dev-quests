@@ -1,8 +1,10 @@
 # [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)
 
 **Difficulty:** `Easy`  
+
 **Topics:** `Design` `Queue` `Data Stream`  
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOfRecentCalls.cs)  
+
+**Solutions:** [`Python`](../../src/python/challenges/problems/number_of_recent_calls_test.py) [`C#`](../../src/csharp/challenges/Problems/NumberOfRecentCalls.cs)  
 
 ---
 

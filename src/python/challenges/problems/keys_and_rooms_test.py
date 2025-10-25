@@ -18,6 +18,21 @@ class CanVisitAllRooms(ProblemBase):
 
         return len(collectedKeys) == len(rooms)
 
+    def Solution1(self, rooms: list[list[int]]) -> bool:
+        visited = set()
+
+        def visit(room):
+            if room in visited:
+                return
+
+            visited.add(room)
+            for key in rooms[room]:
+                visit(key)
+
+        visit(0)
+
+        return len(visited) == len(rooms)
+
 
 if __name__ == '__main__':
     TestGen(CanVisitAllRooms) \

@@ -1,8 +1,10 @@
 # [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 **Difficulty:** `Medium`  
+
 **Topics:** `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`  
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/BinaryTreeRightSideView.cs)  
+
+**Solutions:** [`Python`](../../src/python/challenges/problems/binary_tree_right_side_view_test.py) [`C#`](../../src/csharp/challenges/Problems/BinaryTreeRightSideView.cs)  
 
 ---
 

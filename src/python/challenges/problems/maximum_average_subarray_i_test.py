@@ -6,20 +6,35 @@ from core.problem_base import *
 class FindMaxAverage(ProblemBase):
     def Solution(self, nums: list[int], k: int) -> float:
 
-        result = -sys.maxsize - 1  
+        result = -sys.maxsize - 1
         window = 0
-        for i in range(len(nums)):            
+        for i in range(len(nums)):
             window += nums[i]
 
             left = i - k + 1
             avg = window / k
             if left >= 0 and result < avg:
                 result = avg
-            
+
             if left >= 0:
                 window -= nums[left]
-        
+
         return result
+
+    def Solution1(self, nums: list[int], k: int) -> float:
+        avg = -sys.maxsize
+
+        left = 0
+        right = 0
+        sum = 0
+        for right in range(len(nums)):
+            sum += nums[right]
+            if right - left == k - 1:
+                avg = max(avg, sum / k)
+                sum -= nums[left]
+                left += 1
+
+        return avg
 
 if __name__ == '__main__':
     TestGen(FindMaxAverage) \

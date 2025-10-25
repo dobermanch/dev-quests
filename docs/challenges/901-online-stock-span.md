@@ -1,8 +1,10 @@
 # [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/)
 
 **Difficulty:** `Medium`  
+
 **Topics:** `Stack` `Design` `Monotonic Stack` `Data Stream`  
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/OnlineStockSpan.cs)  
+
+**Solutions:** [`Python`](../../src/python/challenges/problems/online_stock_span_test.py) [`C#`](../../src/csharp/challenges/Problems/OnlineStockSpan.cs)  
 
 ---
 
