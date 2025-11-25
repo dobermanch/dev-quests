@@ -82,7 +82,7 @@ class Cinema:
         order = self._orders[order.id]
         tickets = []
         for seat, age in order.seats:
-            room.lock_seat(order.user_id, seat)
+            room.lock_seat(order.user_id, seat, order.screening.end_time)
 
             price = self._pricing_calculator.calculate(Ticket(uuid.uuid4(), seat, age, order.screening, 0))
             ticket = Ticket(uuid.uuid4(), seat, age, order.screening, price)
@@ -101,6 +101,6 @@ class Cinema:
         room = self._rooms_by_name[order.screening.room.number]
         order = self._orders[order.id]
         for seat, _ in order.seats:
-            room.lock_seat(order.user_id, seat, order.screening.end_time)
+            room.unlock_seat(order.user_id, seat)
 
         del self._orders[order.id]

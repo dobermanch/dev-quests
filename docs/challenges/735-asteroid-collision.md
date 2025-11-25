@@ -1,12 +1,14 @@
 # [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
 **Difficulty:** `Medium`  
+
 **Topics:** `Array` `Stack` `Simulation`  
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/AsteroidCollision.cs) [`Go`](../../src/go/challenges/problems/asteroid_collision_test.go)  
+
+**Solutions:** [`Python`](../../src/python/challenges/problems/asteroid_collision_test.py) [`C#`](../../src/csharp/challenges/Problems/AsteroidCollision.cs)  
 
 ---
 
-We are given an array `asteroids` of integers representing asteroids in a row. The indices of the asteriod in the array represent their relative position in space.
+We are given an array `asteroids` of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space.
 
 For each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). Each asteroid moves at the same speed.
 
@@ -34,6 +36,14 @@ Explanation: The 8 and -8 collide exploding each other.
 Input: asteroids = [10,2,-5]
 Output: [10]
 Explanation: The 2 and -5 collide resulting in -5. The 10 and -5 collide resulting in 10.
+```
+
+**Example 4:**
+
+```
+Input: asteroids = [3,5,-6,2,-1,4]​​​​​​​
+Output: [-6,2,4]
+Explanation: The asteroid -6 makes the asteroid 3 and 5 explode, and then continues going left. On the other side, the asteroid 2 makes the asteroid -1 explode and then continues going right, without reaching asteroid 4.
 ```
 
 **Constraints:**
