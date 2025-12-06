@@ -6,64 +6,76 @@ namespace LeetCode.Core;
 [DebuggerDisplay("{Name} Params({_data.Count - 1})")]
 public class TestCase : IEnumerable<object?>
 {
-    private readonly IList<object?> _data;
+    private readonly List<object?> _data;
     private bool _resultAdded;
 
-    public TestCase(object[] data)
+    public TestCase(IEnumerable<object?>? data)
     {
-        _data = data ?? throw new ArgumentNullException(nameof(data));
+        _data = data?.ToList() ?? throw new ArgumentNullException(nameof(data));
     }
 
-    protected TestCase(string name) 
-        : this(name, null) { }
-
-    protected TestCase(string name, IList<object?>? data)
+    public TestCase(string name, bool skip)
     {
-        _data = data ?? new List<object?>();
-        if (!_data.Any())
-        {
-            _data.Insert(0, name);
-        }
-        else
-        {
-            _data[0] = name;
-        }
+        _data = [name ?? throw new ArgumentNullException(nameof(name))];
+        Skip = skip;
     }
 
     public string Name
     {
-        get => _data.Count > 0 ? (string)_data[0]! : throw new ArgumentNullException();
+        get => (string)_data[0]!;
         set => _data[0] = value;
     }
 
     public object?[] Params => _data.Skip(2).ToArray();
 
-    public object? Output => _data.Count > 1 ?  _data[1] : null;
+    public object? Output => _data.Count > 1 ? _data[1] : null;
 
-    public TestCase Param<T>(T? param)
+    public bool Skip { get; private init; }
+
+    public bool IsParamsParsed { get; private set; }
+
+    public bool IsResultParsed { get; private set; }
+
+    public TestCase Param<T>(T? param, bool isParsed = false)
     {
+        IsParamsParsed = isParsed;
         _data.Add(param);
         return this;
     }
 
-    public TestCase Result<T>(T result)
+    public TestCase Result<T>(T result, bool isParsed = false)
     {
         if (_resultAdded)
         {
             throw new ArgumentException("Result already added");
         }
 
+        IsResultParsed = isParsed;
         _resultAdded = true;
         _data.Insert(1, result);
 
         return this;
     }
 
-    public TestCase Clone(string methodName) => new(methodName, _data.ToList());
+    public TestCase Clone()
+        => new(_data.Select(it =>
+        {
+            if (it is ICloneable cloneable)
+            {
+                return cloneable.Clone();
+            }
 
-    public static TestCase Create(string methodName) => new(methodName);
+            return it;
+        }))
+        {
+            Skip = Skip,
+            IsParamsParsed = IsParamsParsed,
+            IsResultParsed = IsResultParsed
+        };
 
-    IEnumerator<object?> IEnumerable<object?>.GetEnumerator() => _data.GetEnumerator();
+    IEnumerator<object?> IEnumerable<object?>.GetEnumerator()
+        => _data.GetEnumerator();
 
-    IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable<object?>)this).GetEnumerator();
+    IEnumerator IEnumerable.GetEnumerator()
+        => ((IEnumerable<object?>)this).GetEnumerator();
 }

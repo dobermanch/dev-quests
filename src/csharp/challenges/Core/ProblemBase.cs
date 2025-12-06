@@ -29,18 +29,14 @@ namespace LeetCode.Core;
 /// </summary>
 public abstract class ProblemBase : IEnumerable<object[]>
 {
-    private static readonly ConcurrentDictionary<Type, ITestRunner> _runners = new();
+    private static readonly ConcurrentDictionary<Type, ITestRunner> Runners = new();
     private readonly TestCaseCollection _testCases = new();
-    private ITestRunner _runner = null!;
-
-    public ProblemBase()
-    {
-        _runner = new MethodRunner(this);
-    }
+    private ITestRunner? _runner;
+    private IList<object[]>? _materializedTestCases;
 
     public virtual void Test(object[] data)
     {
-        _runners[GetType()].Run(new TestCase(data));
+        Runners[GetType()].Run(new TestCase(data));
     }
 
     protected abstract void AddTestCases();
@@ -62,31 +58,34 @@ public abstract class ProblemBase : IEnumerable<object[]>
 
     public IEnumerator<object[]> GetEnumerator()
     {
+        if (_materializedTestCases is not null)
+        {
+            return _materializedTestCases.GetEnumerator();
+        }
+
         AddTestCases();
 
-        _runners.TryAdd(GetType(), _runner);
+        _runner ??= new MethodRunner(this);
+
+        Runners.TryAdd(GetType(), _runner);
 
         if (_runner.Targets.Count <= 0)
         {
             throw new InvalidOperationException($"No solution methods found. Add method that start from 'Solution'.");
         }
 
-        var target = _runner.Targets.First();
-        foreach (var testCase in _testCases)
+        _materializedTestCases = new List<object[]>();
+        foreach (var target in _runner.Targets)
         {
-            testCase.Name = target;
-        }
-
-        var testCases = _testCases.ToArray();
-        foreach (var solution in _runner.Targets.Skip(1))
-        {
-            foreach (var testCase in testCases)
+            foreach (var testCase in _testCases.Where(it => !it.Skip))
             {
-                _testCases.Add(testCase.Clone(solution));
+                var newTestCase = testCase.Clone();
+                newTestCase.Name = target;
+                _materializedTestCases.Add([newTestCase]);
             }
         }
 
-        return _testCases.Select(testCase => new object[] { testCase }).GetEnumerator();
+        return _materializedTestCases.GetEnumerator();
     }
 
     IEnumerator IEnumerable.GetEnumerator()

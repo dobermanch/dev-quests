@@ -52,7 +52,7 @@ public class InstructionExecutor<T>
 
     public InstructionExecutor()
     : this((obj, value) => null!) { }
-    
+
     public InstructionExecutor(Func<T, object, object> action)
     {
         _action = action;
@@ -93,6 +93,10 @@ internal class InstructionsRunner<T, TData> : ITestRunner
     where T : class
 {
     public Instructions<T, TData> Instructions { get; } = new Instructions<T, TData>();
+
+    public Type OutputType { get; }
+
+    public Type[] ArgumentTypes { get; }
 
     public IReadOnlyCollection<string> Targets { get; } = new[] { typeof(T).Name }.AsReadOnly();
 

@@ -10,7 +10,7 @@ public sealed class KthSmallestElementInASortedMatrix : ProblemBase
     public override void Test(object[] data) => base.Test(data);
 
     protected override void AddTestCases()
-        => Add(it => it.Param2dArray<int>("[[-5,-4],[-5,-4]]").Param(2).Result(-4))
+        => Add(it => it.Param2dArray<int>("[[-5,-4],[-5,-4]]").Param(2).Result(-5))
           .Add(it => it.Param2dArray<int>("[[1,5,9],[10,11,13],[12,13,15]]").Param(8).Result(13))
           .Add(it => it.Param2dArray<int>("[[-5]]").Param(1).Result(-5))
         ;

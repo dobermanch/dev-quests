@@ -14,21 +14,19 @@ public class TestCaseCollection : IEnumerable<TestCase>
 
     public TestCaseCollection Add(bool skip, Action<TestCase> configure)
     {
-        return skip ? this : Add(configure);
-    }
-
-    public TestCaseCollection Add(Action<TestCase> configure)
-    {
-        var testCase = TestCase.Create("<Default>");
+        var testCase = new TestCase("<Default>", skip);
         configure(testCase);
         _data.Add(testCase);
 
         return this;
     }
 
+    public TestCaseCollection Add(Action<TestCase> configure)
+        => Add(false, configure);
+
     public void Clear() => _data.Clear();
 
-    public virtual IEnumerator<TestCase> GetEnumerator() 
+    public IEnumerator<TestCase> GetEnumerator()
         => _data.GetEnumerator();
 
     IEnumerator IEnumerable.GetEnumerator()

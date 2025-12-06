@@ -38,37 +38,37 @@ public sealed class SumNumbers : ProblemBase
         return Sum(root, 0);
     }
 
-    private int Solution1(TreeNode? root)
-    {
-        var stack = new Stack<TreeNode>();
-        var sum = 0;
-
-        var node = root;
-        while (node != null || stack.Any())
-        {
-            var prevNode = node;
-            if (node != null)
-            {
-                if (node.left == null && node.right == null)
-                {
-                    sum += node.val;
-                }
-
-                stack.Push(node);
-                node = node.left;
-            }
-            else
-            {
-                prevNode = stack.Pop();
-                node = prevNode.right;
-            }
-
-            if (node != null && prevNode != null)
-            {
-                node.val += prevNode.val * 10;
-            }
-        }
-
-        return sum;
-    }
+    // private int Solution1(TreeNode? root)
+    // {
+    //     var stack = new Stack<TreeNode>();
+    //     var sum = 0;
+    //
+    //     var node = root;
+    //     while (node != null || stack.Any())
+    //     {
+    //         var prevNode = node;
+    //         if (node != null)
+    //         {
+    //             if (node.left == null && node.right == null)
+    //             {
+    //                 sum += node.val;
+    //             }
+    //
+    //             stack.Push(node);
+    //             node = node.left;
+    //         }
+    //         else
+    //         {
+    //             prevNode = stack.Pop();
+    //             node = prevNode.right;
+    //         }
+    //
+    //         if (node != null && prevNode != null)
+    //         {
+    //             node.val += prevNode.val * 10;
+    //         }
+    //     }
+    //
+    //     return sum;
+    // }
 }

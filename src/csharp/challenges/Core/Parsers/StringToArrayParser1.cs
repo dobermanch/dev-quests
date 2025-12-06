@@ -1,10 +1,10 @@
 ﻿namespace LeetCode.Core.Parsers;
 
-internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
+internal class StringToArrayParser1<TOut> : IDataParser<IList<TOut>>
 {
     private readonly ValueParserBase _valueParser;
 
-    public StringToArrayParser()
+    public StringToArrayParser1()
     {
         _valueParser = typeof(TOut) switch
         {
@@ -20,14 +20,9 @@ internal class StringToArrayParser<TOut> : IDataParser<IList<TOut>>
     }
 
     public IList<TOut> Parse(string? input)
-    {
-        if (TryParse(input, out var result))
-        {
-            return result;
-        }
-
-        throw new InvalidOperationException($"Failed to parse '{input}'.");
-    }
+        => TryParse(input, out var result)
+            ? result
+            : throw new InvalidOperationException($"Failed to parse '{input}'.");
 
     public virtual bool TryParse(ReadOnlySpan<char> input, out IList<TOut> result)
     {
