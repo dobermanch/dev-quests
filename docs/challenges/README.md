@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 204 |
-| Medium | 235 |
+| Medium | 236 |
 | Hard | 35 |
-| **Total** | 474 |
+| **Total** | 475 |
 
 ## Challenges  
 
@@ -439,6 +439,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 2353 | [Design a Food Rating System](2353-design-a-food-rating-system.md) | `Medium`   | `Array` `Hash Table` `String` `Design` `Heap (Priority Queue)` `Ordered Set`   | [`C#`](../../src/csharp/challenges/Problems/DesignAFoodRatingSystem.cs)   |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](2356-number-of-unique-subjects-taught-by-each-teacher.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql) [`MS SQL Server`](../../src/sql/challenges/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)   |
 | 2390 | [Removing Stars From a String](2390-removing-stars-from-a-string.md) | `Medium`   | `String` `Stack` `Simulation`   | [`Python`](../../src/python/challenges/problems/removing_stars_from_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/RemovingStarsFromAString.cs) [`Go`](../../src/go/challenges/problems/removing_stars_from_a_string_test.go)   |
+| 2461 | [Maximum Sum of Distinct Subarrays With Length K](2461-maximum-sum-of-distinct-subarrays-with-length-k.md) | `Medium`   | `Array` `Hash Table` `Sliding Window`   | [`Python`](../../src/python/challenges/problems/maximum_sum_of_distinct_subarrays_with_length_k_test.py)   |
 | 2462 | [Total Cost to Hire K Workers](2462-total-cost-to-hire-k-workers.md) | `Medium`   | `Array` `Two Pointers` `Heap (Priority Queue)` `Simulation`   | [`C#`](../../src/csharp/challenges/Problems/TotalCostToHireKWorkers.cs)   |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](2482-difference-between-ones-and-zeros-in-row-and-column.md) | `Medium`   | `Array` `Matrix` `Simulation`   | [`Python`](../../src/python/challenges/problems/difference_between_ones_and_zeros_in_row_and_column_test.py) [`C#`](../../src/csharp/challenges/Problems/DifferenceBetweenOnesAndZerosInRowAndColumn.cs) [`Go`](../../src/go/challenges/problems/difference_between_ones_and_zeros_in_row_and_column_test.go) [`Rust`](../../src/rust/challenges/src/problems/difference_between_ones_and_zeros_in_row_and_column_test.rs)   |
 | 2542 | [Maximum Subsequence Score](2542-maximum-subsequence-score.md) | `Medium`   | `Array` `Greedy` `Sorting` `Heap (Priority Queue)`   | [`Python`](../../src/python/challenges/problems/maximum_subsequence_score_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumSubsequenceScore.cs) [`Go`](../../src/go/challenges/problems/maximum_subsequence_score_test.go)   |
