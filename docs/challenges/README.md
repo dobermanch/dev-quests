@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 204 |
-| Medium | 238 |
+| Medium | 239 |
 | Hard | 35 |
-| **Total** | 477 |
+| **Total** | 478 |
 
 ## Challenges  
 
@@ -315,6 +315,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 875 | [Koko Eating Bananas](875-koko-eating-bananas.md) | `Medium`   | `Array` `Binary Search`   | [`Python`](../../src/python/challenges/problems/koko_eating_bananas_test.py) [`C#`](../../src/csharp/challenges/Problems/KokoEatingBananas.cs)   |
 | 876 | [Middle of the Linked List](876-middle-of-the-linked-list.md) | `Easy`   | `Linked List` `Two Pointers`   | [`C#`](../../src/csharp/challenges/Problems/MiddleOfTheLinkedList.cs) [`Go`](../../src/go/challenges/problems/middle_of_the_linked_list_test.go)   |
 | 901 | [Online Stock Span](901-online-stock-span.md) | `Medium`   | `Stack` `Design` `Monotonic Stack` `Data Stream`   | [`Python`](../../src/python/challenges/problems/online_stock_span_test.py) [`C#`](../../src/csharp/challenges/Problems/OnlineStockSpan.cs)   |
+| 904 | [Fruit Into Baskets](904-fruit-into-baskets.md) | `Medium`   | `Array` `Hash Table` `Sliding Window`   | [`Python`](../../src/python/challenges/problems/fruit_into_baskets_test.py)   |
 | 909 | [Snakes and Ladders](909-snakes-and-ladders.md) | `Medium`   | `Array` `Breadth-First Search` `Matrix`   | [`Python`](../../src/python/challenges/problems/snakes_and_ladders_test.py) [`C#`](../../src/csharp/challenges/Problems/SnakesAndLadders.cs) [`Go`](../../src/go/challenges/problems/snakes_and_ladders_test.go)   |
 | 926 | [Flip String to Monotone Increasing](926-flip-string-to-monotone-increasing.md) | `Medium`   | `String` `Dynamic Programming`   | [`C#`](../../src/csharp/challenges/Problems/FlipStringToMonotoneIncreasing.cs)   |
 | 933 | [Number of Recent Calls](933-number-of-recent-calls.md) | `Easy`   | `Design` `Queue` `Data Stream`   | [`Python`](../../src/python/challenges/problems/number_of_recent_calls_test.py) [`C#`](../../src/csharp/challenges/Problems/NumberOfRecentCalls.cs)   |
