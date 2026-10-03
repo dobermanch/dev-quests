@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 204 |
-| Medium | 236 |
+| Medium | 237 |
 | Hard | 35 |
-| **Total** | 475 |
+| **Total** | 476 |
 
 ## Challenges  
 
@@ -368,6 +368,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 1393 | [Capital Gain/Loss](1393-capital-gainloss.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/CapitalGainloss.sql) [`MS SQL Server`](../../src/sql/challenges/CapitalGainloss.sql)   |
 | 1407 | [Top Travellers](1407-top-travellers.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/TopTravellers.sql) [`MS SQL Server`](../../src/sql/challenges/TopTravellers.sql)   |
 | 1422 | [Maximum Score After Splitting a String](1422-maximum-score-after-splitting-a-string.md) | `Easy`   | `String` `Prefix Sum`   | [`Python`](../../src/python/challenges/problems/maximum_score_after_splitting_a_string_test.py) [`C#`](../../src/csharp/challenges/Problems/MaximumScoreAfterSplittingAString.cs) [`Go`](../../src/go/challenges/problems/maximum_score_after_splitting_a_string_test.go) [`Rust`](../../src/rust/challenges/src/problems/maximum_score_after_splitting_a_string_test.rs)   |
+| 1423 | [Maximum Points You Can Obtain from Cards](1423-maximum-points-you-can-obtain-from-cards.md) | `Medium`   | `Array` `Sliding Window` `Prefix Sum`   | [`Python`](../../src/python/challenges/problems/maximum_points_you_can_obtain_from_cards_test.py)   |
 | 1431 | [Kids With the Greatest Number of Candies](1431-kids-with-the-greatest-number-of-candies.md) | `Easy`   | `Array`   | [`Python`](../../src/python/challenges/problems/kids_with_the_greatest_number_of_candies_test.py) [`C#`](../../src/csharp/challenges/Problems/KidsWithTheGreatestNumberOfCandies.cs) [`Go`](../../src/go/challenges/problems/kids_with_the_greatest_number_of_candies_test.go)   |
 | 1436 | [Destination City](1436-destination-city.md) | `Easy`   | `Array` `Hash Table` `String`   | [`Python`](../../src/python/challenges/problems/destination_city_test.py) [`C#`](../../src/csharp/challenges/Problems/DestinationCity.cs) [`Go`](../../src/go/challenges/problems/destination_city_test.go) [`Rust`](../../src/rust/challenges/src/problems/destination_city_test.rs)   |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](1443-minimum-time-to-collect-all-apples-in-a-tree.md) | `Medium`   | `Hash Table` `Tree` `Depth-First Search` `Breadth-First Search`   | [`C#`](../../src/csharp/challenges/Problems/MinimumTimeToCollectAllApplesInATree.cs)   |
