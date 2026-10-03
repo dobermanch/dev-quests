@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 204 |
-| Medium | 237 |
+| Medium | 238 |
 | Hard | 35 |
-| **Total** | 476 |
+| **Total** | 477 |
 
 ## Challenges  
 
@@ -274,6 +274,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 607 | [Sales Person](607-sales-person.md) | `Easy` | `Database` | [`MySQL`](../../src/sql/challenges/SalesPerson.sql) [`MS SQL Server`](../../src/sql/challenges/SalesPerson.sql) |
 | 608 | [Tree Node](608-tree-node.md) | `Medium` | `Database` | [`MySQL`](../../src/sql/challenges/TreeNode.sql) [`MS SQL Server`](../../src/sql/challenges/TreeNode.sql) |
 | 610 | [Triangle Judgement](610-triangle-judgement.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/TriangleJudgement.sql) [`MS SQL Server`](../../src/sql/challenges/TriangleJudgement.sql)   |
+| 611 | [Valid Triangle Number](611-valid-triangle-number.md) | `Medium`   | `Array` `Two Pointers` `Binary Search` `Greedy` `Sorting`   | [`Python`](../../src/python/challenges/problems/valid_triangle_number_test.py)   |
 | 617 | [Merge Two Binary Trees](617-merge-two-binary-trees.md) | `Easy`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`   | [`C#`](../../src/csharp/challenges/Problems/MergeTwoBinaryTrees.cs)   |
 | 619 | [Biggest Single Number](619-biggest-single-number.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/BiggestSingleNumber.sql) [`MS SQL Server`](../../src/sql/challenges/BiggestSingleNumber.sql)   |
 | 620 | [Not Boring Movies](620-not-boring-movies.md) | `Easy`   | `Database`   | [`MySQL`](../../src/sql/challenges/NotBoringMovies.sql) [`MS SQL Server`](../../src/sql/challenges/NotBoringMovies.sql)   |
