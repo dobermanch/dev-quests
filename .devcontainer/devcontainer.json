@@ -24,9 +24,10 @@
                 "cweijan.vscode-mysql-client2",
                 "rogalmic.bash-debug",
                 "lfm.vscode-makefile-term",
-                "EditorConfig.EditorConfig"
+                "EditorConfig.EditorConfig",
+                "anthropic.claude-code"
             ]
         }
     },
-    "postCreateCommand": "./scripts/install_dependencies.sh"
+    "postCreateCommand": "bash ./scripts/install_dependencies.sh"
 }
