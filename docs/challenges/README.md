@@ -6,10 +6,10 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 
 | Difficulty | Count |
 |---:|---:|
-| Easy | 204 |
+| Easy | 205 |
 | Medium | 240 |
 | Hard | 35 |
-| **Total** | 479 |
+| **Total** | 480 |
 
 ## Challenges  
 
@@ -256,6 +256,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 550 | [Game Play Analysis IV](550-game-play-analysis-iv.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/GamePlayAnalysisIv.sql) [`MS SQL Server`](../../src/sql/challenges/GamePlayAnalysisIv.sql)   |
 | 557 | [Reverse Words in a String III](557-reverse-words-in-a-string-iii.md) | `Easy`   | `Two Pointers` `String`   | [`C#`](../../src/csharp/challenges/Problems/ReverseWordsInAStringIii.cs)   |
 | 560 | [Subarray Sum Equals K](560-subarray-sum-equals-k.md) | `Medium`   | `Array` `Hash Table` `Prefix Sum`   | [`Python`](../../src/python/challenges/problems/subarray_sum_equals_k_test.py) [`C#`](../../src/csharp/challenges/Problems/SubarraySumEqualsK.cs)   |
+| 563 | [Binary Tree Tilt](563-binary-tree-tilt.md) | `Easy`   | `Tree` `Depth-First Search` `Binary Tree` `DP on Trees`   | [`Python`](../../src/python/challenges/problems/binary_tree_tilt_test.py)   |
 | 566 | [Reshape the Matrix](566-reshape-the-matrix.md) | `Easy`   | `Array` `Matrix` `Simulation`   | [`C#`](../../src/csharp/challenges/Problems/ReshapeTheMatrix.cs)   |
 | 567 | [Permutation in String](567-permutation-in-string.md) | `Medium`   | `Hash Table` `Two Pointers` `String` `Sliding Window`   | [`C#`](../../src/csharp/challenges/Problems/PermutationInString.cs)   |
 | 570 | [Managers with at Least 5 Direct Reports](570-managers-with-at-least-5-direct-reports.md) | `Medium`   | `Database`   | [`MySQL`](../../src/sql/challenges/ManagersWithAtLeast5DirectReports.sql) [`MS SQL Server`](../../src/sql/challenges/ManagersWithAtLeast5DirectReports.sql)   |
