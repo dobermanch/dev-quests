@@ -1,8 +1,10 @@
 # [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
 **Difficulty:** `Medium`  
+
 **Topics:** `Array` `Breadth-First Search` `Matrix`  
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/RottingOranges.cs)  
+
+**Solutions:** [`Python`](../../src/python/challenges/problems/rotting_oranges_test.py)  
 
 ---
 
