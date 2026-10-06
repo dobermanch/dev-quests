@@ -7,9 +7,9 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | Difficulty | Count |
 |---:|---:|
 | Easy | 205 |
-| Medium | 240 |
+| Medium | 241 |
 | Hard | 35 |
-| **Total** | 480 |
+| **Total** | 481 |
 
 ## Challenges  
 
@@ -289,6 +289,7 @@ A collection of my solutions to diverse [LeetCode](https://leetcode.com/SergiiCh
 | 653 | [Two Sum IV - Input is a BST](653-two-sum-iv-input-is-a-bst.md) | `Easy`   | `Hash Table` `Two Pointers` `Tree` `Depth-First Search` `Breadth-First Search` `Binary Search Tree` `Binary Tree`   | [`C#`](../../src/csharp/challenges/Problems/TwoSumIvInputIsABst.cs)   |
 | 658 | [Find K Closest Elements](658-find-k-closest-elements.md) | `Medium`   | `Array` `Two Pointers` `Binary Search` `Sliding Window` `Sorting` `Heap (Priority Queue)`   | [`Python`](../../src/python/challenges/problems/find_k_closest_elements_test.py)   |
 | 661 | [Image Smoother](661-image-smoother.md) | `Easy`   | `Array` `Matrix`   | [`Python`](../../src/python/challenges/problems/image_smoother_test.py) [`C#`](../../src/csharp/challenges/Problems/ImageSmoother.cs) [`Go`](../../src/go/challenges/problems/image_smoother_test.go) [`Rust`](../../src/rust/challenges/src/problems/image_smoother_test.rs)   |
+| 662 | [Maximum Width of Binary Tree](662-maximum-width-of-binary-tree.md) | `Medium`   | `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/maximum_width_of_binary_tree_test.py)   |
 | 692 | [Top K Frequent Words](692-top-k-frequent-words.md) | `Medium`   | `Array` `Hash Table` `String` `Trie` `Sorting` `Heap (Priority Queue)` `Bucket Sort` `Counting`   | [`C#`](../../src/csharp/challenges/Problems/TopKFrequentWords.cs)   |
 | 695 | [Max Area of Island](695-max-area-of-island.md) | `Medium`   | `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix`   | [`C#`](../../src/csharp/challenges/Problems/MaxAreaOfIsland.cs)   |
 | 700 | [Search in a Binary Search Tree](700-search-in-a-binary-search-tree.md) | `Easy`   | `Tree` `Binary Search Tree` `Binary Tree`   | [`Python`](../../src/python/challenges/problems/search_in_a_binary_search_tree_test.py) [`C#`](../../src/csharp/challenges/Problems/SearchInABinarySearchTree.cs)   |
