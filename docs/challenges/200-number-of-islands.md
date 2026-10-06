@@ -1,8 +1,10 @@
 # [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 **Difficulty:** `Medium`  
-**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Union Find` `Matrix`  
-**Solutions:** [`C#`](../../src/csharp/challenges/Problems/NumberOfIslands.cs)  
+
+**Topics:** `Array` `Depth-First Search` `Breadth-First Search` `Union-Find` `Matrix`  
+
+**Solutions:** [`Python`](../../src/python/challenges/problems/number_of_islands_test.py)  
 
 ---
 
