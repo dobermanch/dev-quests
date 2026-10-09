@@ -14,20 +14,18 @@
         "ghcr.io/devcontainers/features/rust:1": {}
     },
     "mounts": [
-        // Claude Code memory & config — same data as the host.
-        //
-        // Both variables, concatenated, because this file is opened from two
-        // kinds of machine now: Windows sets USERPROFILE and not HOME, Linux
-        // (the `bench` workstation, ADR 0039) sets HOME and not USERPROFILE, so
-        // exactly one half resolves and the other is empty. A shell that sets
-        // *both* on Windows — git-bash launching VS Code — would concatenate
-        // them into a path that does not exist and fail the mount.
+        "source=${localEnv:USERPROFILE}${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,readonly",
         "source=${localEnv:USERPROFILE}${localEnv:HOME}/.claude,target=/home/vscode/.claude,type=bind"
     ],
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-dotnettools.csdevkit",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "golang.go",
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml",
                 "streetsidesoftware.code-spell-checker",
                 "DavidAnson.vscode-markdownlint",
                 "littlefoxteam.vscode-python-test-adapter",
