@@ -4,7 +4,7 @@
     "runArgs": [
         "--name",
         "dev-quests"
-  ],
+    ],
     "features": {
         "ghcr.io/devcontainers/features/dotnet:2": {},
         "ghcr.io/devcontainers/features/git:1": {},
@@ -13,6 +13,17 @@
         "ghcr.io/devcontainers-community/npm-features/typescript:1": {},
         "ghcr.io/devcontainers/features/rust:1": {}
     },
+    "mounts": [
+        // Claude Code memory & config — same data as the host.
+        //
+        // Both variables, concatenated, because this file is opened from two
+        // kinds of machine now: Windows sets USERPROFILE and not HOME, Linux
+        // (the `bench` workstation, ADR 0039) sets HOME and not USERPROFILE, so
+        // exactly one half resolves and the other is empty. A shell that sets
+        // *both* on Windows — git-bash launching VS Code — would concatenate
+        // them into a path that does not exist and fail the mount.
+        "source=${localEnv:USERPROFILE}${localEnv:HOME}/.claude,target=/home/vscode/.claude,type=bind"
+    ],
     "customizations": {
         "vscode": {
             "extensions": [
