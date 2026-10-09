@@ -37,6 +37,26 @@
       "version": "1.6.0",
       "resolved": "ghcr.io/devcontainers/features/rust@sha256:846c949f52c9dea98d4f90a11957cbf152fb3f6e8a70ddd7cb83014a7d1d0c98",
       "integrity": "sha256:846c949f52c9dea98d4f90a11957cbf152fb3f6e8a70ddd7cb83014a7d1d0c98"
+    },
+    "ghcr.io/dobermanch/devcontainer-features/host-claude:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/dobermanch/devcontainer-features/host-claude@sha256:6fde857915928fd477d14a594bcc312cd037b7b98735e67f9387661955071e83",
+      "integrity": "sha256:6fde857915928fd477d14a594bcc312cd037b7b98735e67f9387661955071e83"
+    },
+    "ghcr.io/dobermanch/devcontainer-features/host-ssh:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/dobermanch/devcontainer-features/host-ssh@sha256:15327ea9147ce8e5feb009906473c9d9c53598ad242eaa03ed071d54ebfa72a3",
+      "integrity": "sha256:15327ea9147ce8e5feb009906473c9d9c53598ad242eaa03ed071d54ebfa72a3"
+    },
+    "ghcr.io/dobermanch/devcontainer-features/idle-shutdown:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/dobermanch/devcontainer-features/idle-shutdown@sha256:34b5eba97eb942b1886310699bb37ab7b767b3f73c5895df97e3ee897bda4862",
+      "integrity": "sha256:34b5eba97eb942b1886310699bb37ab7b767b3f73c5895df97e3ee897bda4862"
+    },
+    "ghcr.io/dobermanch/devcontainer-features/vscode-base:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/dobermanch/devcontainer-features/vscode-base@sha256:799c5bfa54fcddb9f275d8173002018f3044110a3743f4ab1d4887a6d2636d6a",
+      "integrity": "sha256:799c5bfa54fcddb9f275d8173002018f3044110a3743f4ab1d4887a6d2636d6a"
     }
   }
 }

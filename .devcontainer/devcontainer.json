@@ -12,14 +12,14 @@
         "ghcr.io/devcontainers/features/python:1": {},
         "ghcr.io/devcontainers-community/npm-features/typescript:1": {},
         "ghcr.io/devcontainers/features/rust:1": {},
-        "./idle-shutdown": {}
+        "ghcr.io/dobermanch/devcontainer-features/vscode-base:1": {},
+        "ghcr.io/dobermanch/devcontainer-features/host-ssh:1": {},
+        "ghcr.io/dobermanch/devcontainer-features/host-claude:1": {},
+        "ghcr.io/dobermanch/devcontainer-features/idle-shutdown:1": {}
     },
-    "mounts": [
-        "source=${localEnv:USERPROFILE}${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,readonly",
-        "source=${localEnv:USERPROFILE}${localEnv:HOME}/.claude,target=/home/vscode/.claude,type=bind"
-    ],
     "customizations": {
         "vscode": {
+            // Added to vscode-base's list
             "extensions": [
                 "ms-dotnettools.csdevkit",
                 "ms-python.python",
@@ -27,19 +27,16 @@
                 "golang.go",
                 "rust-lang.rust-analyzer",
                 "tamasfe.even-better-toml",
-                "streetsidesoftware.code-spell-checker",
                 "DavidAnson.vscode-markdownlint",
                 "littlefoxteam.vscode-python-test-adapter",
-                "github.vscode-github-actions",
                 "cweijan.vscode-mysql-client2",
                 "rogalmic.bash-debug",
-                "lfm.vscode-makefile-term",
-                "EditorConfig.EditorConfig",
-                "anthropic.claude-code"
+                "lfm.vscode-makefile-term"
             ]
         }
     },
     "postCreateCommand": "bash ./scripts/install_dependencies.sh",
-    // Stop on last window close; ./idle-shutdown stops it after 30 idle minutes
-    "shutdownAction": "stopContainer"
+    // Stop on last window close; idle-shutdown stops it after 30 idle minutes
+    "shutdownAction": "stopContainer",
+    "remoteUser": "vscode"
 }
